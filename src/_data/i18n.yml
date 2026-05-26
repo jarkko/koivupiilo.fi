@@ -1,0 +1,111 @@
+# Internationalization data for English/Finnish bilingual site
+
+en:
+  site:
+    title: "Jarkko Laine - Human-Centered Technologist"
+    tagline: "Full-Stack Web Development • Sports Coaching • Personal Development"
+    description: "Senior full-stack developer with 30+ years experience, startup exits, championship volleyball coach, and personal development specialist."
+
+  navigation:
+    home: "Home"
+    about: "About"
+    services: "Services"
+    portfolio: "Portfolio"
+    blog: "Blog"
+    contact: "Contact"
+    language_switch: "Suomeksi"
+
+  hero:
+    title: "Human-Centered Technologist"
+    subtitle: "I'm Jarkko Laine — technologist, coach, and builder of things that serve people."
+    description: "Thirty years of web development, startup exits, and championship coaching. Based in Kangasala, Finland. I help teams ship well, athletes perform, and leaders grow."
+    cta_primary: "Start a Conversation"
+    cta_secondary: "View Portfolio"
+
+  services:
+    title: "Work"
+    technical:
+      title: "Technical Consulting"
+      subtitle: "Full-Stack Development & Leadership"
+      description: "Rails, Elixir/Phoenix, React ecosystem, React Native, ML integration. From startup CTOs to Fortune 500 consulting."
+    coaching:
+      title: "Sports Coaching"
+      subtitle: "Championship Performance Training"
+      description: "Elite volleyball coaching with Finnish Championship results. Modern methodologies: motor learning, constraints-led approach."
+    development:
+      title: "Personal Development"
+      subtitle: "Executive Performance Coaching"
+      description: "Leadership development for busy professionals using sports psychology principles and human-centered approaches."
+
+  about:
+    title: "The Story Behind the Code"
+    philosophy: "Markets are conversations, technology serves people"
+
+  contact:
+    title: "Let's Start a Conversation"
+    subtitle: "Whether you need technical expertise, coaching, or just want to discuss ideas"
+    form:
+      name: "Name"
+      email: "Email"
+      subject: "Subject"
+      message: "Message"
+      send: "Send Message"
+
+  footer:
+    copyright: "© 2026 Koivupiilo Oy. Built with purpose, not tracking."
+    privacy: "Privacy-first approach"
+
+fi:
+  site:
+    title: "Jarkko Laine"
+    tagline: "Ohjelmistokehitys • urheiluvalmennus • johtaminen"
+    description: "Ohjelmistokehittäjä ja valmentaja Kangasalta. Yli 30 vuoden kokemus web-kehityksestä, startup-exiteistä ja urheiluvalmennuksesta."
+
+  navigation:
+    home: "Etusivu"
+    about: "Tietoa"
+    services: "Palvelut"
+    portfolio: "Portfolio"
+    blog: "Blogi"
+    contact: "Yhteystiedot"
+    language_switch: "In English"
+
+  hero:
+    title: "Jarkko Laine"
+    subtitle: "Olen Jarkko Laine — ohjelmistokehittäjä, valmentaja ja insinööri."
+    description: "Olen tehnyt web-kehitystä yli kolme vuosikymmentä. Startup-exitejä ja SM-mitaleja valmennuspuolella. Asun Kangasalla."
+    cta_primary: "Ota yhteyttä"
+    cta_secondary: "Katso portfolio"
+
+  services:
+    title: "Työt"
+    technical:
+      title: "Tekninen konsultointi"
+      subtitle: "Full stack -kehitys ja johtaminen"
+      description: "Rails, Elixir/Phoenix, React ja React Native. Autan sekä startup-yrityksiä että suuryrityksiä."
+    coaching:
+      title: "Urheiluvalmennus"
+      subtitle: "Huipputason valmennus"
+      description: "Valmennan lentopalloa, beach volleyta ja kestävyysurheilijoita. Valmennettavani ovat saavuttaneet SM-mitaleja. Hyödynnän motorisen oppimisen ja rajoitteisiin perustuvan valmennuksen (CLA) menetelmiä."
+    development:
+      title: "Henkilökohtainen kehitys"
+      subtitle: "Johtaminen ja kasvu"
+      description: "Autan johtajia ja asiantuntijoita kehittymään urheilupsykologian ja käytännön valmennuksen keinoin."
+
+  about:
+    title: "Tarina koodin takana"
+    philosophy: "Markkinat ovat keskusteluja, teknologia palvelee ihmisiä"
+
+  contact:
+    title: "Ota yhteyttä"
+    subtitle: "Ota yhteyttä, jos tarvitset apua ohjelmistoprojektissa tai valmennuksessa — tai haluat vain jutella."
+    form:
+      name: "Nimi"
+      email: "Sähköposti"
+      subject: "Aihe"
+      message: "Viesti"
+      send: "Lähetä"
+
+  footer:
+    copyright: "© 2026 Koivupiilo Oy. Tehty tarkoituksella. Ei seurantaa."
+    privacy: "Yksityisyys ensin"

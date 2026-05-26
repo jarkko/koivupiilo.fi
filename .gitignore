@@ -1,24 +1,46 @@
-# build output
-dist/
-# generated types
-.astro/
+# Bridgetown
+output
+.bridgetown-cache
+.bridgetown-metadata
+.routes.json
 
-# dependencies
-node_modules/
+# Dependency folders
+node_modules
 
-# logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
+# Caches
+.sass-cache
+.npm
+.node_repl_history
 
+# Ignore bundler config.
+/.bundle
 
-# environment variables
+# Ignore Byebug command history file.
+.byebug_history
+
+# dotenv environment variables file
 .env
-.env.production
 
-# macOS-specific files
+# Mac files
 .DS_Store
 
-# jetbrains setting folder
-.idea/
+# Yarn
+yarn-error.log
+yarn-debug.log*
+.pnp/
+.pnp.js
+# Yarn Integrity file
+.yarn-integrity
+
+# Ignore all tempfiles.
+/tmp/*
+!/tmp/.keep
+
+# Local editor/backup artifacts
+*.backup
+*.bak
+
+# Ignore pidfiles, but keep the directory.
+/tmp/pids/*
+!/tmp/pids/
+!/tmp/pids/.keep

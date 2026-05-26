@@ -1,14 +1,25 @@
 {
-  "name": "site",
+  "name": "koivupiilo.fi",
+  "version": "1.0.0",
   "type": "module",
-  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "esbuild": "node esbuild.config.js --minify",
+    "esbuild-dev": "node esbuild.config.js --watch"
   },
-  "dependencies": {
-    "astro": "^5.15.3"
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.0",
+    "@tailwindcss/typography": "^0.5.19",
+    "autoprefixer": "^10.4.22",
+    "daisyui": "^5.5.5",
+    "esbuild": "^0.25.11",
+    "glob": "^11.0.3",
+    "postcss": "^8.5.6",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-import": "^16.1.0",
+    "postcss-load-config": "^6.0.1",
+    "postcss-preset-env": "^10.4.0",
+    "read-cache": "^1.0.0",
+    "tailwindcss": "^4.1.17"
   }
 }
