@@ -123,6 +123,14 @@ Blog, contact form, booking, newsletter, CMS, client logos, theme toggle.
 - **D8 (2026-10-31, Jarkko).** Public: Magistician, Kvitti, qwertec/JumpReach,
   Jumbo Volley, the Finnish beach volleyball rules translation, Ratametsuri,
   Resultifi, BeachDesk. Not now: KVNN (client work, ask later).
+- **D9 (2026-10-31, Jarkko).** Two crafts under one entrance: **Koivupiilo Studio** (products and client
+  software) and **Koivupiilo Valmennus** (volleyball coaching, coach education, team-lead coaching).
+  Supersedes D1 and D2's single-front-page framing. See `positioning.md`.
+- **D10 (2026-10-31, Jarkko).** The concept is the real Koivupiilo grove (named by his children; the house
+  stands there). Imagery comes from that spot; the front photo follows the season.
+- **D11 (2026-10-31, Jarkko).** The site is both business card and proof of craft; clarity wins any conflict.
+  Appetite: front page + Magistician page at full finish first.
+- **D12 (2026-10-31, Jarkko).** Visual bar: Werklig, Koto; clarity bar: Panic.
 
 Superseded concepts (forbidden terms in new copy): "Human-Centered
 Technologist", "three core service areas", "Fortune 500", "success stories",
