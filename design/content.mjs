@@ -115,7 +115,7 @@ export const t = {
     front: {
       title: 'Koivupiilo – ohjelmistoja urheiluun ja arkeen',
       h1: 'Koivupiilo tekee ohjelmistoja urheiluun ja arkeen.',
-      lede: 'Koivupiilo on Jarkko Laineen yhden hengen studio Kangasalalla. Teen omia tuotteita ja otan vuosittain muutaman toimeksiannon: ohjelmistoja, lentopallovalmennusta ja työtä tiimien kanssa.',
+      lede: 'Koivupiilo on Jarkko Laineen yhden hengen studio Kangasalla. Teen omia tuotteita ja otan vuosittain muutaman toimeksiannon: ohjelmistoja, lentopallovalmennusta ja työtä tiimien kanssa.',
       productsH: 'Tuotteet, joita teen nyt',
       moreH: 'Muuta työtä',
       allWork: 'Kaikki työt',
