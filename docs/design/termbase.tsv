@@ -1,0 +1,17 @@
+concept	fi	en	notes
+company	Koivupiilo	Koivupiilo	"Koivupiilo Oy" only in footer/imprint
+work (place)	Työt	Work	nav label; a work item is "työ" / "project" or product name
+product	tuote	product	own products
+offers (place)	Palvelut	Services	nav label; the three items are "offers" internally
+software offer	Ohjelmistot	Software
+coaching offer	Lentopallovalmennus	Volleyball coaching
+development offer	Johtajuus ja tiimit	Leadership and teams	replaces "personal development"
+about (place)	Tietoa	About
+contact (place)	Yhteys	Contact
+status live	käytössä	live
+status in use	käytössä yhdellä hallilla	in use at one venue	example; exact text per item
+status in development	kehityksessä	in development
+status prototype	prototyyppi	prototype
+status dormant	tauolla	on hold
+business ID	Y-tunnus	Business ID
+language link	In English	Suomeksi	labelled in the target language

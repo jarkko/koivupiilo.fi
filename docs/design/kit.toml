@@ -1,0 +1,38 @@
+# Design-process kit configuration for koivupiilo.fi
+# Process: metamorphosis docs/specs/2026-10-25-design-process-design.md (v2)
+# Pilot: web, "full bootstrap with a light model" (spec §9). Confirmed modules
+# are proposed by the agent at intake; Jarkko confirms (spec §2b). Status: proposed 2026-10-31.
+
+[project]
+name = "koivupiilo.fi"
+kind = "showcase"            # marketing / portfolio site, not an app
+stacks = ["web"]
+generator = "bridgetown"     # static site, Ruby + esbuild + Tailwind
+locales = ["fi", "en"]       # fi default at /, en at /en/ (D3)
+regions = ["fi_FI", "en_GB"]
+
+[modules.on]
+frame = "docs/design/brief.md"
+users_and_jobs = "docs/design/brief.md#users-and-jobs"
+teardown = "docs/design/references.md"
+story_map = "docs/design/story-map.md"
+model = "docs/design/model.md"               # light: places, walkthroughs, signature moments
+termbase = "docs/design/termbase.tsv"
+visual_language = "design/directions/"       # step 6, three directions on real pages
+screenshot_matrix = "design/shots/"          # phone + desktop x light + dark x fi + en
+contrast_check = "design/scripts/contrast.mjs"
+
+[modules.off]
+feel_prototypes = "Static site; the real pages are the prototype (spec §2d). No risky interactive flow."
+haptics = "Web only."
+objects_lifecycle_full = "No user data or user-created objects; lifecycle reduced to content status (M1-M3)."
+error_recovery = "No forms or state; contact is a mailto + visible address (D7). Only 404 is in scope."
+model_check_ci = "Slice B ds CLI does not exist yet; walkthroughs are checked by hand at review."
+outside_testers = "Optional per spec; pushed for at R1 (see brief.md assumptions A2, A4)."
+tokens_dtcg_multi_stack = "Single stack; tokens live as CSS custom properties in the chosen direction. Revisit at step 7."
+
+[settings]
+routes_review = ["/", "/palvelut/", "/tyot/magistician/", "/yhteys/", "/en/", "/en/services/", "/en/work/magistician/", "/en/contact/"]
+widths = [390, 1440]
+schemes = ["light", "dark"]
+theme_toggle = false          # follows prefers-color-scheme only (global rule)
