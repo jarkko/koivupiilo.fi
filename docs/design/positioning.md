@@ -34,6 +34,20 @@ Jarkko's own photos of the same grove from 2013–2025 across every season.
 - Names: "Studio", singular (one person, no "we"). Not "Studios" (reads as a game company) and not "consulting"
   (says nothing).
 
+## What the site is for (no inbound yet)
+
+Jarkko has had **no inbound enquiries** (2026-10-31). The site does not convert traffic it doesn't get; it
+carries conversations Jarkko starts.
+
+1. **The page he links to.** Posts, club conversations and people looking him up after a meeting land on a
+   specific page, usually a product. Product pages matter more than the front page and must stand alone.
+2. **Findable on his own subjects** in Finnish, e.g. "lentopallo videoanalyysi" → Magistician.
+3. **Weight:** Studio leads on the front page (products are the next 12 months, D4); Valmennus is the second
+   door, visible but lighter. Magistician's page is in the first batch as the pilot.
+4. **Measure:** privacy-friendly, cookieless page counts from launch, to see whether and via which links
+   anyone arrives.
+5. Coaching and client work won't come from the site alone; it supports Jarkko's own outreach.
+
 ## Rules for design
 
 1. **Clarity wins.** A warm lead on a phone sees within 10 seconds who this is, what he makes and how to reach
@@ -55,7 +69,7 @@ after. Quality before quantity.
 
 ## Open (Jarkko)
 
-1. Recent enquiries/deals, rough: which kind, from where. Decides which door weighs more on the front page.
+1. ~~Recent enquiries~~: none (answered 2026-10-31); see "What the site is for".
 2. One or two sentences in your own words: how you introduce yourself at a club meeting, and at a client meeting.
 3. OK to tell the grove story publicly ("the kids named the spot"), without names?
 4. Per-photo OK for the grove photos once shortlisted.
