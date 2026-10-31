@@ -13,6 +13,7 @@ const mods = Object.fromEntries(await Promise.all(dirs.map(async (d) => [d, awai
 rmSync(out, { recursive: true, force: true });
 cpSync(join(here, 'assets'), join(out, 'assets'), { recursive: true, filter: (p) => !p.endsWith('PROVENANCE.md') });
 
+cpSync(join(here, 'comps'), join(out, 'comps'), { recursive: true });
 const write = (path, html) => { const f = join(out, path, 'index.html'); mkdirSync(dirname(f), { recursive: true }); writeFileSync(f, html); };
 const list = [];
 for (const d of dirs) for (const lang of langs) for (const key of pages) {

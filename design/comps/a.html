@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Koivupiilo · Comp A · Hiljainen</title>
+<style>
+@font-face{font-family:'Schibsted';src:url('/assets/fonts/schibsted-grotesk-latin-wght-normal.woff2') format('woff2');font-weight:400 900;font-display:swap}
+@font-face{font-family:'Newsreader';src:url('/assets/fonts/newsreader-latin-opsz-normal.woff2') format('woff2');font-weight:200 800;font-style:normal;font-display:swap}
+@font-face{font-family:'Newsreader';src:url('/assets/fonts/newsreader-latin-opsz-italic.woff2') format('woff2');font-weight:200 800;font-style:italic;font-display:swap}
+:root{--bg:#f7f6f2;--ink:#1b1b19;--soft:#6c6b66;--faint:#a9a8a1;--line:#e3e1da;--hl:#1b1b19}
+@media (prefers-color-scheme:dark){:root{--bg:#121211;--ink:#ecebe6;--soft:#9d9c96;--faint:#5f5e5a;--line:#262624}}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--bg);color:var(--ink);font:400 15px/1.6 Schibsted,system-ui,sans-serif;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;font-feature-settings:"ss01","tnum" 0}
+a{color:inherit;text-decoration:none}
+em{font-family:Newsreader,Georgia,serif;font-style:italic;font-size:1.08em;letter-spacing:-.005em;font-variation-settings:"opsz" 16}
+.page{display:grid;grid-template-columns:minmax(1.25rem,1fr) minmax(0,62rem) minmax(1.25rem,1fr);padding:clamp(3.5rem,11vh,8rem) 0 4rem}
+.col{grid-column:2}
+header{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:4.5rem}
+header .who b{font-weight:500}
+header .who span{display:block;color:var(--soft)}
+.lang{color:var(--soft);font-size:14px}
+.lang:hover{color:var(--ink)}
+.lead{font-family:Newsreader,Georgia,serif;font-weight:300;font-variation-settings:"opsz" 72;font-size:clamp(2.6rem,5.6vw,5.25rem);line-height:1.02;letter-spacing:-.03em;max-width:18ch;margin-bottom:2rem}
+.lead em{font-size:1em;font-variation-settings:"opsz" 72;letter-spacing:-.03em}
+.still{margin:clamp(3rem,7vw,5rem) 0 0}.still img{display:block;width:100%;aspect-ratio:5/4;max-height:34rem;width:100%;object-fit:cover;object-position:top right;border-radius:4px;box-shadow:0 1px 1px rgb(0 0 0/.05),0 30px 60px -30px rgb(0 0 0/.3)}.still figcaption{margin-top:.75rem;font-size:13px;color:var(--soft)}
+
+.sub{color:var(--soft);max-width:44ch;font-size:17px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:3.5rem 3rem;margin-top:clamp(5rem,12vh,9rem)}
+h2{font-size:13px;font-weight:500;color:var(--ink);margin-bottom:1.1rem;padding-bottom:.6rem;border-bottom:1px solid var(--line)}
+ul{list-style:none}
+li{margin-bottom:1.05rem}
+li a{display:inline-block;background:linear-gradient(currentColor,currentColor) 0 100%/0 1px no-repeat;transition:background-size .35s cubic-bezier(.2,.7,.2,1)}
+li a:hover,li a:focus-visible{background-size:100% 1px}
+li span{display:block;color:var(--soft)}
+li .st{color:var(--faint);font-size:13px}
+.ext::after{content:" ↗";color:var(--faint);font-size:12px}
+.now{margin-top:4rem;padding-top:1.5rem;border-top:1px solid var(--line);display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:2rem}
+.grid section:last-child{grid-column:1/-1}.grid section:last-child ul{display:flex;gap:2.5rem;flex-wrap:wrap}
+.now p{color:var(--soft)}
+.now p b{font-weight:400;color:var(--ink)}
+footer{margin-top:5rem;display:flex;justify-content:space-between;color:var(--faint);font-size:13px}
+#clock{font-variant-numeric:tabular-nums}
+/* hover preview: the work appears beside the column, no cards */
+.peek{position:fixed;right:clamp(1.5rem,5vw,5rem);top:50%;width:min(34vw,520px);aspect-ratio:16/10;transform:translateY(-46%) scale(.985);opacity:0;pointer-events:none;transition:opacity .28s ease,transform .5s cubic-bezier(.2,.7,.2,1);border-radius:6px;overflow:hidden;box-shadow:0 1px 1px rgb(0 0 0/.04),0 24px 60px -24px rgb(0 0 0/.28)}
+.peek img{width:100%;height:100%;object-fit:cover;object-position:top left;display:block}
+.peek.on{opacity:1;transform:translateY(-50%) scale(1)}
+.peek figcaption{position:absolute;left:0;bottom:-1.6rem;font-size:12px;color:var(--soft)}
+@media (max-width:1100px){.peek{display:none}}
+@media (max-width:720px){.grid,.now{grid-template-columns:1fr;gap:2.25rem}.page{padding-top:2rem}header{margin-bottom:3rem}.lead{font-size:2.5rem}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="page"><div class="col">
+<header><a class="who" href="#"><b>Koivupiilo</b><span>Jarkko Laine, Kangasala</span></a><a class="lang" href="#" lang="en" hreflang="en">In English</a></header>
+
+<main>
+<p class="lead">Ohjelmistoja urheiluun ja&nbsp;arkeen.</p>
+<p class="sub">Koivupiilo on Jarkko Laineen yhden hengen studio. Teen omia tuotteita ja muutaman toimeksiannon vuodessa: verkko- ja iOS-sovelluksia ja koneoppimista. Lisäksi lentopallovalmennusta.</p>
+<figure class="still"><img src="/assets/img/magistician-review.png" alt="Magisticianin korjausnäkymä"><figcaption>Magistician, korjausnäkymä. Epävarmimmat kosketukset ensin. Testidataa.</figcaption></figure>
+
+<div class="grid">
+<section><h2>Tuotteet</h2><ul>
+<li><a href="#" data-img="/assets/img/magistician-review.png" data-cap="Magistician, korjausnäkymä. Testidataa.">Magistician</a><span>Lentopallovideosta tilastot</span><span class="st">Julkaistu 2026</span></li>
+<li><a href="#" data-img="/assets/img/kvitti.png" data-cap="Kvitti, kulukorvaus puhelimessa.">Kvitti</a><span>Kuitit ja kilometrit seuroille</span><span class="st">Julkaistu 2026</span></li>
+<li><a href="#" data-img="/assets/img/jumpreach.png" data-cap="JumpReach, mittaus ja tulokset.">JumpReach</a><span>Hyppykorkeus iPhonella</span><span class="st">Prototyyppi</span></li>
+<li><a href="#" data-img="/assets/img/jumbo.svg" data-cap="Jumbo Volley, esimerkkidata.">Jumbo Volley</a><span>Ottelugrafiikat hallin näytölle</span><span class="st">Kehityksessä</span></li>
+</ul></section>
+<section><h2>Palvelut</h2><ul>
+<li><a href="#">Ohjelmistot</a><span>Elixir, Phoenix, Rails, SwiftUI</span></li>
+<li><a href="#">Lentopallovalmennus</a><span>Beach ja sali, valmentajat</span></li>
+<li><a href="#">Johtajuus ja tiimit</a><span>Uusille tiiminvetäjille</span></li>
+</ul></section>
+<section><h2>Yhteys</h2><ul>
+<li><a href="#">jarkko@jlaine.net</a><span>Vastaan kahdessa arkipäivässä</span></li>
+<li><a class="ext" href="#">LinkedIn</a></li>
+<li><a class="ext" href="#">Mastodon</a></li>
+</ul></section>
+</div>
+
+<div class="now">
+<p><b>Nyt.</b> Rakennan pääosin omia tuotteita. Otan yhden tai kaksi toimeksiantoa kerrallaan.</p>
+<p><b>Aiemmin.</b> Wildfire 2008–2013 Bear Metalin kautta. Kirja <em>Beginning Ruby on Rails E-Commerce</em>, Apress 2006.</p>
+<p><b>Muuta.</b> Beach-lentopallon säännöt suomeksi, Resultifi, Ratametsuri, BeachDesk.</p>
+</div>
+</main>
+
+<footer><span>Koivupiilo Oy · 3458206-1</span><span>Kangasala <span id="clock">—</span></span></footer>
+</div></div>
+<figure class="peek" aria-hidden="true"><img alt=""><figcaption></figcaption></figure>
+<script>
+const peek=document.querySelector('.peek'),pi=peek.querySelector('img'),pc=peek.querySelector('figcaption');
+document.querySelectorAll('[data-img]').forEach(a=>{const show=()=>{pi.src=a.dataset.img;pc.textContent=a.dataset.cap;peek.classList.add('on')},hide=()=>peek.classList.remove('on');a.addEventListener('mouseenter',show);a.addEventListener('focus',show);a.addEventListener('mouseleave',hide);a.addEventListener('blur',hide)});
+const c=document.getElementById('clock'),tick=()=>c.textContent=new Intl.DateTimeFormat('fi-FI',{timeZone:'Europe/Helsinki',hour:'2-digit',minute:'2-digit'}).format(new Date());tick();setInterval(tick,15000);
+</script>
+</body>
+</html>
