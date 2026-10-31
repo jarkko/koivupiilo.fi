@@ -53,8 +53,8 @@ page counts. Client logos. Testimonials that don't exist yet.
 
 **No-gos.** Invented numbers or clients. Anything about Selma beyond one CV
 line (D7). Client work shown without permission (KVNN, D8). Real athletes',
-players' or club members' names or faces without consent. US megacorp
-hosting, fonts or trackers (Google Fonts, GitHub Pages, Google Analytics).
+players' or club members' names or faces without consent. Third-party
+fonts or trackers (Google Fonts, Google Analytics); fonts are self-hosted.
 A theme toggle.
 
 ## 2. Users and jobs

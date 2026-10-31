@@ -17,8 +17,8 @@ House rules:
 - No claim (number, client, title, award) without a source (D6).
 - Nothing about Selma beyond one CV line (D7). No client work without permission (D8).
 - No real athletes', players' or club members' names or faces without consent.
-- No US megacorp services for hosting, fonts, analytics or code hosting: no
-  Google Fonts (self-host), no GitHub Pages, no Google Analytics.
+- Repo and hosting: GitHub + GitHub Pages (D13). Self-host fonts and add no
+  third-party trackers (privacy and speed), so no Google Fonts or Google Analytics.
 - Finnish copy goes through the `suomen-kieli` skill; English through `stop-slop`.
 - Every page in both languages before publishing (M2).
 

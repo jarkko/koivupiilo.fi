@@ -131,6 +131,8 @@ Blog, contact form, booking, newsletter, CMS, client logos, theme toggle.
 - **D11 (2026-10-31, Jarkko).** The site is both business card and proof of craft; clarity wins any conflict.
   Appetite: front page + Magistician page at full finish first.
 - **D12 (2026-10-31, Jarkko).** Visual bar: Werklig, Koto; clarity bar: Panic.
+- **D13 (2026-10-31, Jarkko).** The repo stays on GitHub and the site on GitHub Pages. The earlier
+  "no GitHub / US services" rule was wrongly generalised from other projects and does not apply here.
 
 Superseded concepts (forbidden terms in new copy): "Human-Centered
 Technologist", "three core service areas", "Fortune 500", "success stories",
