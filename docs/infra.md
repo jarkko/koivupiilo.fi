@@ -17,7 +17,7 @@ account owner when verified.
 Currently: push to `main` on GitHub → Actions builds with `bundle exec rake
 deploy` → `gh-pages`. Nothing is live because DNS does not point at it.
 
-Decision D13 (2026-10-31, Jarkko): stay on GitHub and GitHub Pages; no move.
+Decision D13 (2026-10-31, Jarkko): stay on GitHub and GitHub Pages for now; a move can be revisited later.
 At launch, point the apex (`A` records / `ALIAS`) and `www` (`CNAME`) at GitHub Pages
 through DNSimple, with Jarkko's go.
 
