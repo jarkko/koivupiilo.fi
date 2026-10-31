@@ -15,5 +15,5 @@ next phase starts. No visual design before the strategy gate.
 Rules: clarity wins (positioning.md); Finnish copy starts from Jarkko's words; every claim verified;
 the agent pushes back where the evidence points elsewhere and records decisions in `model.md`.
 
-Status 2026-10-31: phase 1 in progress (two research tracks running; interview block 1 sent).
+Status 2026-10-31: phase 1 deliverable `discovery.md` written; waiting for the gate.
 The earlier comps and `positioning.md` are inputs to phases 2–3, not decisions about the look.

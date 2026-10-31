@@ -134,6 +134,10 @@ Blog, contact form, booking, newsletter, CMS, client logos, theme toggle.
 - **D13 (2026-10-31, Jarkko).** The repo stays on GitHub and the site on GitHub Pages. The earlier
   "no GitHub / US services" rule was wrongly generalised from other projects and does not apply here. A move can be revisited later; not now.
 
+- **D14 (2026-10-31, Jarkko).** Each product (Kvitti, Magistician, qwertec) gets its own site and domain.
+  koivupiilo.fi introduces them briefly and links out; it does not host product marketing. Supersedes the
+  "Magistician page" part of D11. See `discovery.md` §2.
+
 Superseded concepts (forbidden terms in new copy): "Human-Centered
 Technologist", "three core service areas", "Fortune 500", "success stories",
 "championship-level" as an adjective, emoji as section icons.
