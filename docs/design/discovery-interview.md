@@ -11,3 +11,7 @@ Raw answers from Jarkko, dated. Interpretation lives in `discovery.md`.
 ## Block 2: structure (2026-10-31)
 
 - "but each of these projects will also have their own site and domain" (D14)
+
+## Block 3: brand (2026-11-01)
+
+- "I think you got it exactly backwards. My personal brand is already much better than the company's"

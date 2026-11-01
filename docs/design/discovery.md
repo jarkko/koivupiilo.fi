@@ -79,11 +79,12 @@ Where something is not verified, it says so.
    proof need somewhere that says who stands behind them: name, face, business ID, Kangasala, track record.
    Each product site should link back ("Koivupiilon tekemä"). This is the trust layer that the Finnish clubs and
    treasurers will check.
-3. **The two crafts are one story, not two doors.** The only verifiable proof today is in volleyball. Two of the
-   three products are volleyball tools, and Kvitti's first market is sports clubs. "A volleyball person who builds
-   software for clubs" is true, provable and unusual. "Studio leads, Valmennus second" (positioning.md §3)
-   undersells the strongest card. Proposal: lead with the person and his world, and let Studio and Valmennus be
-   the two ways to work with him.
+3. **Build the company's brand, not Jarkko's (corrected by Jarkko, 2026-11-01).** "My personal brand is already
+   much better than the company's." The first draft read search invisibility as a weak personal brand. That was
+   wrong: his name already carries weight where his buyers are (the volleyball world, clubs, his network), and
+   that works without Google. What is missing is Koivupiilo as an entity worth trusting on its own. The site has to
+   give the company the standing he already has, so that the products and the work do not rest on his name alone.
+   He appears as the founder, not as the headline.
 4. **Claims stay modest until the products earn them.** For now that means status ("käytössä", "kehitteillä"),
    the maker and a link. No figures. That fits D6.
 5. **Search:** don't chase "Jarkko Laine". Own "Koivupiilo", and make sure each product name, plus
@@ -91,11 +92,12 @@ Where something is not verified, it says so.
 
 ## 3. The problem, in one paragraph
 
-Jarkko is launching three products and a coaching practice, but nobody can find him or tell who is behind them.
-His products show no maker, and his bios describe four old careers. The only public proof he has is his
-volleyball work, and his site doesn't exist yet. koivupiilo.fi has to make the person behind the products
-findable and credible in Finnish, mainly for club people and small-company buyers who arrive through his own
-outreach or a product link. Each product carries its own pitch on its own domain.
+Jarkko is known; Koivupiilo is not. People in volleyball and his network know him, but the company behind his
+three products and his coaching has no face. It has no site, the products don't name it, and his bios don't
+mention it. Koivupiilo needs standing of its own: a studio with a point of view, work it can show, and a reason to
+trust it with a club's money or match video. His name should vouch for it, not stand in for it. The audience is
+club people and small-company buyers who arrive through his own outreach or a product link. Each product carries
+its own pitch on its own domain.
 
 ## 4. Goals and measures (proposed)
 
@@ -111,7 +113,9 @@ outreach or a product link. Each product carries its own pitch on its own domain
 
 Jarkko: is §3 the right problem? Also open, and only he can answer:
 
-1. **Lead with the person (§2.3)?** Or keep Studio first?
+1. **Why the company needs its own brand.** The agent's reading: buyers trust a company with a money tool or
+   match video; separating the business from his roles (LP Kangasala chair, federation coach) avoids conflicts
+   when selling to clubs; and the products should be able to outgrow one person. Correct, or is it something else?
 2. **His own sentences:** how he introduces himself at a club meeting, and at a client meeting.
 3. **The grove story:** OK to tell it publicly, without names?
 4. **jlaine.net:** keep it as the personal writing (coaching, endurance) and link both ways? Or move the
