@@ -138,6 +138,9 @@ Blog, contact form, booking, newsletter, CMS, client logos, theme toggle.
   koivupiilo.fi introduces them briefly and links out; it does not host product marketing. Supersedes the
   "Magistician page" part of D11. See `discovery.md` §2.
 
+- **D15 (2026-11-01, Jarkko).** Discovery gate passed: the problem is a proper company web presence that passes
+  the legitimacy check, with Jarkko's name vouching for Koivupiilo rather than standing in for it (`discovery.md` §3).
+
 Superseded concepts (forbidden terms in new copy): "Human-Centered
 Technologist", "three core service areas", "Fortune 500", "success stories",
 "championship-level" as an adjective, emoji as section icons.
