@@ -21,6 +21,17 @@ Where something is not verified, it says so.
 | Brand | "Perforaatio" chosen | "Valvomo" chosen | app look "Datum"; no brand |
 | Money (Jarkko) | most important | important | important |
 
+**Also shipped: the beach volleyball court map** at https://jlaine.net/beach-volleyball/ (missed by the
+first research pass; pointed out by Jarkko 2026-11-01).
+- An interactive map of about 40 hand-checked indoor sand halls and about 3,500 outdoor courts across
+  Finland, Sweden, Norway, Denmark, Iceland, Estonia, Latvia and Lithuania.
+- Built from LIPAS (CC BY 4.0) and OpenStreetMap (ODbL). Free, no accounts.
+- Live since May 2026. The launch post is still a draft (`_drafts/beach-volleyball-court-map.md`).
+- It is the only product that is public, finished and usable by anyone today, so it is Koivupiilo's strongest
+  shipped proof right now. It names no maker either.
+- Open: does it stay on jlaine.net, move under Koivupiilo, or get its own domain (D14)? Existing links must keep
+  working (a redirect, as `/indoor-beach/` already does).
+
 **What must not be said publicly yet** (from the agents):
 - Prices for any product.
 - User counts, or pilot club names.
