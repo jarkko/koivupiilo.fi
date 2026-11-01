@@ -138,11 +138,9 @@ Valmennus and Yritys.
 ## 10. For Jarkko to sign or answer
 
 1. **Sign the message (§3) and the sitemap (§5).**
-2. **Voice:** the company in the third person; "I" only in the founder note and Valmennus; never "we". OK?
-3. **Address:** the street address is already public in YTJ. Proposal: show it on `/yritys/` only (it is
-   expected for a company's service information), and only "Kangasala" in the footer. Or should only the
-   business ID link appear?
+2. ~~Voice~~: yes (D16).
+3. ~~Address~~: only on `/yritys/` (D18).
 4. **Your words** for §3.1 and §3.4. A rough spoken version is enough: how you'd say it to a club chair over
    coffee.
-5. **The grove story:** OK to tell it publicly, without names?
+5. ~~The grove story~~: yes, without names (D17).
 6. **§6 changes** on kvitti.fi, magistician.com, the court map, YTJ and your bios: go, now or at launch?

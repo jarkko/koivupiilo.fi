@@ -141,6 +141,13 @@ Blog, contact form, booking, newsletter, CMS, client logos, theme toggle.
 - **D15 (2026-11-01, Jarkko).** Discovery gate passed: the problem is a proper company web presence that passes
   the legitimacy check, with Jarkko's name vouching for Koivupiilo rather than standing in for it (`discovery.md` §3).
 
+- **D16 (2026-11-01, Jarkko).** Voice: the company speaks in the third person by name ("Koivupiilo tekee …");
+  Jarkko says "I" only in the founder note and on Valmennus; never "we". Supersedes D2's first-person rule.
+- **D17 (2026-11-01, Jarkko).** The grove story may be told publicly, without the children's names; the house
+  and the children are not shown (D10).
+- **D18 (2026-11-01, Jarkko).** The street address appears only on `/yritys/` (`/en/company/`); the footer says
+  "Kangasala".
+
 Superseded concepts (forbidden terms in new copy): "Human-Centered
 Technologist", "three core service areas", "Fortune 500", "success stories",
 "championship-level" as an adjective, emoji as section icons.
