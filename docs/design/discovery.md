@@ -87,15 +87,26 @@ Where something is not verified, it says so.
    He appears as the founder, not as the headline.
 4. **Claims stay modest until the products earn them.** For now that means status ("käytössä", "kehitteillä"),
    the maker and a link. No figures. That fits D6.
-5. **Search:** don't chase "Jarkko Laine". Own "Koivupiilo", and make sure each product name, plus
+5. **Legitimacy is the main job (Jarkko, 2026-11-01).** "For many things a proper web presence is expected from a
+   company." Partners, platforms and buyers check the company before they deal with it. Examples (inferred, typical):
+   - Netvisor and accounting-software partner programmes (Kvitti's integration).
+   - App Store and Google Play developer listings, which show the seller's name and site.
+   - Banks, insurers and payment providers.
+   - A club board or treasurer approving a purchase, and a federation or KIHU partnership.
+   - A small company's procurement check.
+
+   They don't read deeply. They look for a real company: name, business ID, address, contact, who runs it, what
+   it makes, and privacy terms. The bar is that this check passes in ten seconds and leaves the impression of an
+   established, careful company. Craft serves that; it is not a portfolio piece first.
+6. **Search:** don't chase "Jarkko Laine". Own "Koivupiilo", and make sure each product name, plus
    "lentopallo …", resolves to him.
 
 ## 3. The problem, in one paragraph
 
-Jarkko is known; Koivupiilo is not. People in volleyball and his network know him, but the company behind his
+Jarkko is known; Koivupiilo is not, and a company is expected to have a proper web presence. People in volleyball and his network know him, but the company behind his
 three products and his coaching has no face. It has no site, the products don't name it, and his bios don't
 mention it. Koivupiilo needs standing of its own: a studio with a point of view, work it can show, and a reason to
-trust it with a club's money or match video. His name should vouch for it, not stand in for it. The audience is
+trust it with a club's money or match video. His name should vouch for it, not stand in for it. First of all, the site has to pass the quick check that partners, platforms and buyers make before dealing with a company. The audience is
 club people and small-company buyers who arrive through his own outreach or a product link. Each product carries
 its own pitch on its own domain.
 
@@ -103,6 +114,7 @@ its own pitch on its own domain.
 
 | Goal | Measure | Check |
 |---|---|---|
+| Passes the company check | Name, business ID, address, contact, founder, products, privacy policy and terms on the site; product sites and store listings point to it | at launch |
 | Findable | "Koivupiilo" #1 on google.fi; "Kvitti Koivupiilo" and "Magistician lentopallo" lead to him | 3 months after launch |
 | Credible maker | Every product site links to koivupiilo.fi; the company name and business ID are on both sides | at launch |
 | Carries outreach | Cookie-free counts show arrivals from his links and product sites; the share that goes on to a product or an email | 30 days, then quarterly |
@@ -113,9 +125,10 @@ its own pitch on its own domain.
 
 Jarkko: is §3 the right problem? Also open, and only he can answer:
 
-1. **Why the company needs its own brand.** The agent's reading: buyers trust a company with a money tool or
-   match video; separating the business from his roles (LP Kangasala chair, federation coach) avoids conflicts
-   when selling to clubs; and the products should be able to outgrow one person. Correct, or is it something else?
+1. ~~Why the company needs its own brand~~: answered 2026-11-01. All of these: buyers trust a company with a
+   money tool or match video, it keeps the business apart from his club and federation roles, and the products
+   should be able to outgrow him. **The main reason: "for many things a proper web presence is expected from a
+   company."** See §2.6.
 2. **His own sentences:** how he introduces himself at a club meeting, and at a client meeting.
 3. **The grove story:** OK to tell it publicly, without names?
 4. **jlaine.net:** keep it as the personal writing (coaching, endurance) and link both ways? Or move the

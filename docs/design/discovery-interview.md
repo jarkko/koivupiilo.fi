@@ -15,3 +15,4 @@ Raw answers from Jarkko, dated. Interpretation lives in `discovery.md`.
 ## Block 3: brand (2026-11-01)
 
 - "I think you got it exactly backwards. My personal brand is already much better than the company's"
+- Q: Why does the company need its own brand? A: "yes, all of those. the main thing is that for many things a proper web presence is expected from a company"
