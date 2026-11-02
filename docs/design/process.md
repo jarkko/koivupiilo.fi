@@ -15,5 +15,5 @@ next phase starts. No visual design before the strategy gate.
 Rules: clarity wins (positioning.md); Finnish copy starts from Jarkko's words; every claim verified;
 the agent pushes back where the evidence points elsewhere and records decisions in `model.md`.
 
-Status 2026-11-01: phase 1 gate passed (Jarkko: "yes, right problem"). Phase 2: `strategy.md` drafted; waiting for sign-off on the message and sitemap.
+Status 2026-11-02: phases 1 and 2 signed (D15, D19). Phase 3 (concept boards) started; content drafts in `content/fi/` wait on Jarkko's words and the [vahvista] checks.
 The earlier comps and `positioning.md` are inputs to phases 2–3, not decisions about the look.
