@@ -137,7 +137,7 @@ Valmennus and Yritys.
 
 ## 10. For Jarkko to sign or answer
 
-1. **Sign the message (§3) and the sitemap (§5).**
+1. ~~Sign the message and the sitemap~~: signed 2026-11-02 (D19).
 2. ~~Voice~~: yes (D16).
 3. ~~Address~~: only on `/yritys/` (D18).
 4. **Your words** for §3.1 and §3.4. A rough spoken version is enough: how you'd say it to a club chair over

@@ -148,6 +148,9 @@ Blog, contact form, booking, newsletter, CMS, client logos, theme toggle.
 - **D18 (2026-11-01, Jarkko).** The street address appears only on `/yritys/` (`/en/company/`); the footer says
   "Kangasala".
 
+- **D19 (2026-11-02, Jarkko).** Strategy signed: the message hierarchy (`strategy.md` §3) and the sitemap (§5).
+  The places table above is superseded by `strategy.md` §5 until it is rewritten here.
+
 Superseded concepts (forbidden terms in new copy): "Human-Centered
 Technologist", "three core service areas", "Fortune 500", "success stories",
 "championship-level" as an adjective, emoji as section icons.
