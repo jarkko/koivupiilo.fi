@@ -104,6 +104,7 @@ Changes from `model.md`:
 | The court map | A small "Koivupiilo" credit and link | Its strongest proof, unattributed |
 | YTJ | Set the website field to koivupiilo.fi | The first place a careful checker looks |
 | App Store / Play (later) | Seller = Koivupiilo Oy, site = koivupiilo.fi | Same check |
+| beach-volleyball-rules-fi README | Drop "Official" / "Virallinen suomennos" unless the federation has endorsed it | No endorsement found; an unbacked claim on a public repo |
 | GitHub, Mastodon, jlaine.net about | One-line bio naming Koivupiilo | Five bios from five eras (discovery) |
 
 ## 7. Content inventory (who writes what)
