@@ -7,7 +7,7 @@ Etusivulla neljä ensimmäistä. Tila kerrotaan aina, eikä sitä paisutella (M1
 | Kvitti | Kulukorvaukset yhdistyksille ja pienyrityksille: kuitit, kilometrit, päivärahat ja hyväksyntä. | pilotissa | kvitti.fi |
 | Rantalentopallokartta | Pohjoismaiden ja Baltian rantalentopallohallit ja -kentät samalla kartalla. | käytössä | jlaine.net/beach-volleyball/ |
 | Magistician | Lentopallo-ottelun videosta kosketuskohtaiset tilastot ja videoklipit. | kehitteillä | magistician.com |
-| Hyppymittari (työnimi) | Hyppykorkeuden mittaus iPhonella, lentopalloverkon antenni mittana. | kehitteillä | – |
+| Hyppymittaus | Hyppykorkeus iPhonella, lentopalloverkon antenni mittana. | kehitteillä | – |
 | Jumbo Volley | Lentopallohallin videotaulun grafiikat ja tulokset Macilta. | kokeilussa [vahvista] | – |
 | Resultifi | Lentopallon ja rantalentopallon tulospalvelu. | verkossa [vahvista: käyttö] | resulti.fi |
 | BeachDesk | Varaukset ja myynti rantalentopallohalleille. | kehitteillä | – |
