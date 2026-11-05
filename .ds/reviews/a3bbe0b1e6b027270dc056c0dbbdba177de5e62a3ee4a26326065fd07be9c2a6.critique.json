@@ -1,0 +1,59 @@
+{
+  "kind": "critique",
+  "ui_diff_hash": "a3bbe0b1e6b027270dc056c0dbbdba177de5e62a3ee4a26326065fd07be9c2a6",
+  "head_sha": "a2f4fab92089d0b79450e32173f9ea6683de9fcd",
+  "reviewer_run_id": "term_45509cda-e929-4160-bb3d-a70c097d46aa",
+  "implementer_family": "codex",
+  "reviewer_family": "claude",
+  "critique": {
+    "remove": [
+      {
+        "flow": "W0",
+        "grade": "anecdote",
+        "point": "Remove the three font preload lines in src/_partials/_head.erb unless production over HTTP/2 shows they don't delay the stylesheet. In the same-snapshot A/B they don't make any font arrive sooner (last font 1146 vs 1123 ms on /, 1.6 Mbps). They do make the 38 KiB stylesheet finish 2.9x later (1052 vs 359 ms), so first paint moves from 372 to 1160 ms. Lighthouse devtools mode agrees: FCP=LCP 2032 vs 1444 ms on /, 2054 vs 1475 ms on /portfolio/. The CLS gain comes only from hiding the page until the fonts land, the same effect as font-display: block. At 400 kbit/s, the reader in a hurry on a weak phone link, the shift stays (CLS 0.14 on /, 0.18 on /portfolio/ with and without preload) and the page is blank 2.4 s longer. The first frame of the new strip still shows the nav wrapped onto two lines and the header in the fallback face. Without the preloads the page gets readable text about 0.8 s sooner on 1.6 Mbps. Graded anecdote because the A/B ran on a local HTTP/1.1 server with devtools bandwidth sharing; production was unreachable. Still open from critique 4bd5d688: the PT Sans 400 italic face on /fi/portfolio/ (O-c1).",
+        "evidence": [
+          "docs/design/reviews/evidence/a3bbe0b1/fcp-probe.json",
+          "docs/design/reviews/evidence/a3bbe0b1/lh-devtools-ab.json",
+          "docs/design/reviews/evidence/a3bbe0b1/preload-review-notes.txt",
+          "docs/design/reviews/evidence/a3bbe0b1/shots/strip-compare-en_GB-new-top-old-bottom.jpg",
+          "docs/design/reviews/evidence/a3bbe0b1/scripts/fcp.mjs"
+        ]
+      }
+    ],
+    "two_x": [
+      {
+        "flow": "W0",
+        "grade": "practitioner consensus",
+        "point": "Replace the preloads with metric-matched fallback faces: @font-face rules for Georgia/Times and Arial/Helvetica using size-adjust plus ascent-, descent- and line-gap-override, computed from the PT Serif 400 and PT Sans 400/700 metrics (the way Next.js next/font, Capsize and Fontaine do it). Then the reader gets text at about 372 ms instead of 1160 ms on 1.6 Mbps (about 3x sooner), and the late swap barely moves anything, at any link speed, including the 400 kbit/s case the preload doesn't fix. That halves the time to the first readable sentence without bringing the shift back. Strongest counter-argument: size-adjust matches average width, not each glyph, so a line that sits near the edge can still wrap differently. The nav at 390 px is exactly such a line: 'SUOMEKSI' wraps in the fallback frame. Production over HTTP/2 may also send the higher-priority stylesheet first and erase the preload penalty, which would make the preload the simpler fix. Measure both on production before choosing; the pass line is FCP within 100 ms of no-preload and CLS under 0.05 at both profiles.",
+        "evidence": [
+          "docs/design/reviews/evidence/a3bbe0b1/fcp-probe.json",
+          "docs/design/reviews/evidence/a3bbe0b1/shots/strip-compare-en_GB-new-top-old-bottom.jpg",
+          "docs/design/reviews/evidence/a3bbe0b1/walk-report.json"
+        ]
+      }
+    ],
+    "short_of_references": [
+      {
+        "flow": "W0",
+        "grade": "practitioner consensus",
+        "reference": "docs/design/references.md, First 10 s: CSS Wizardry",
+        "point": "CSS Wizardry is the 'fast by design' reference for the first screen, and its author warns against preloads that compete with render-blocking CSS. This change does exactly that: first paint goes from 372 to 1160 ms (1.6 Mbps) and from 968 to 3336 ms (400 kbit/s) on /. Ours now shows nothing until three web fonts (123 KiB) have downloaded. The reference itself was not measured under the same throttling here; production and the reference were both unreachable from this run.",
+        "evidence": [
+          "docs/design/reviews/evidence/a3bbe0b1/fcp-probe.json",
+          "docs/design/reviews/evidence/a3bbe0b1/preload-probe.json"
+        ]
+      },
+      {
+        "flow": "W0",
+        "grade": "practitioner consensus",
+        "reference": "kit references/awards/saas-product.md#stripe-dot-dev",
+        "point": "Stripe Dot Dev self-hosts its woff2 families and reaches LCP 0.9 s and CLS 0.001 (Lighthouse 13.6 mobile). Ours, with preload, measures LCP 1.95 to 2.25 s in simulated Lighthouse and 2.03 s in devtools mode on /, and CLS up to 0.18 on /portfolio/ at 400 kbit/s. The preload trades about 0.6 s of LCP for CLS instead of getting both.",
+        "evidence": [
+          "docs/design/reviews/evidence/a3bbe0b1/lh-preload-targeted.json",
+          "docs/design/reviews/evidence/a3bbe0b1/lh-devtools-ab.json",
+          "docs/design/reviews/evidence/a3bbe0b1/fcp-probe.json"
+        ]
+      }
+    ]
+  }
+}
