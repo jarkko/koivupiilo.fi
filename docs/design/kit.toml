@@ -1,38 +1,210 @@
-# Design-process kit configuration for koivupiilo.fi
-# Process: metamorphosis docs/specs/2026-10-25-design-process-design.md (v2)
-# Pilot: web, "full bootstrap with a light model" (spec §9). Confirmed modules
-# are proposed by the agent at intake; Jarkko confirms (spec §2b). Status: proposed 2026-10-31.
+# Design kit configuration for this project.
+#
+# Lists the modules that are on, the modules that are off (each with a
+# one-line reason), the project's settings, where each kit document lives,
+# and per-module overrides. Proposed at intake and confirmed by the owner;
+# a later change is an ordinary, reviewed change. A module whose dependency
+# is off is refused, not quietly weakened:
+#   lint needs tokens · a11y needs visual · review needs model · critique needs review
+#
+# Each module's `command` runs the project's own tool; how ds runs it and
+# passes {files} is in the kit's README, "Project commands in kit.toml".
+# Every command below is a commented example labelled with the stack it
+# fits. Uncomment the one for your stack, or write your own, once the stack
+# is decided.
 
-[project]
-name = "koivupiilo.fi"
-kind = "showcase"            # marketing / portfolio site, not an app
+# The framework: "undecided" until the bootstrap's stack decision (after the
+# product model), then its name, e.g. "bridgetown" or "phoenix". While it is
+# undecided, lint, tokens, catalog and the web modules wait, and no [web]
+# table or command is needed for them.
+stack = "bridgetown"
+
+# Platforms this project ships: web, ios, macos. Chosen at intake.
 stacks = ["web"]
-generator = "bridgetown"     # static site, Ruby + esbuild + Tailwind
-locales = ["fi", "en"]       # fi default at /, en at /en/ (D3)
+
+# Every shipped region. Screens and reviews cover each one (fi_FI has a decimal comma).
 regions = ["fi_FI", "en_GB"]
 
-[modules.on]
-frame = "docs/design/brief.md"
-users_and_jobs = "docs/design/brief.md#users-and-jobs"
-teardown = "docs/design/references.md"
-story_map = "docs/design/story-map.md"
-model = "docs/design/model.md"               # light: places, walkthroughs, signature moments
-termbase = "docs/design/termbase.tsv"
-visual_language = "design/directions/"       # step 6, three directions on real pages
-screenshot_matrix = "design/shots/"          # phone + desktop x light + dark x fi + en
-contrast_check = "design/scripts/contrast.mjs"
+# Files whose changes count as UI changes: they trigger the gate and key the review hash.
+# Required once the stack is decided.
+ui_globs = ["src/**", "frontend/**", "design/**/*.{mjs,html,css,svg,png,jpg,woff2}"]
+# Phoenix: ui_globs = ["lib/**/*_web/**/*.{ex,heex}", "assets/css/**/*.css", "priv/gettext/**/*.po"]
+# Bridgetown: ui_globs = ["src/**/*.{erb,liquid,md,html}", "frontend/**/*.{css,js}"]
 
+# Never scanned or counted, even when they match ui_globs.
+ignore_globs = ["node_modules/**", "output/**", "design/out/**", "design/shots/**", "**/*.generated.*"]
+# Phoenix: ignore_globs = ["deps/**", "_build/**", "node_modules/**", "**/*.generated.*"]
+
+[modules]
+on = [
+  "brief", "references", "storymap", "model", "sprint", "catalog",
+  "termbase", "visual", "a11y", "review", "critique", "feedback",
+  "audit", "walkthrough", "perf", "invariants",
+]
+
+# A module moved here leaves `on`. The reason is required and shown in every gate run.
 [modules.off]
-feel_prototypes = "Static site; the real pages are the prototype (spec §2d). No risky interactive flow."
-haptics = "Web only."
-objects_lifecycle_full = "No user data or user-created objects; lifecycle reduced to content status (M1-M3)."
-error_recovery = "No forms or state; contact is a mailto + visible address (D7). Only 404 is in scope."
-model_check_ci = "Slice B ds CLI does not exist yet; walkthroughs are checked by hand at review."
-outside_testers = "Optional per spec; pushed for at R1 (see brief.md assumptions A2, A4)."
-tokens_dtcg_multi_stack = "Single stack; tokens live as CSS custom properties in the chosen direction. Revisit at step 7."
+imagery = "No photos or video ship from src/; design/assets/photos/PROVENANCE.md records unapproved spike photos. Enable imagery with canonical provenance and confirmed cameras before publishing them."
+tokens = "No chosen production token source yet; the directions use CSS custom properties. Enable DTCG tokens when the owner chooses the direction (process.md phases 3-5)."
+lint = "Needs tokens; enable design lint with the chosen production token source."
+# The old native haptics and full user-object lifecycle exclusions still apply to this static web site;
+# neither is a ds module. Real pages serve as feel prototypes. There are no forms or saved user state.
+# Outside testers remain optional at R1 (brief.md A2/A4); feedback stays on.
+# The old model_check_ci exclusion expired: ds now checks the model, with D20 accepting existing gaps.
 
-[settings]
-routes_review = ["/", "/palvelut/", "/tyot/magistician/", "/yhteys/", "/en/", "/en/services/", "/en/work/magistician/", "/en/contact/"]
-widths = [390, 1440]
-schemes = ["light", "dark"]
-theme_toggle = false          # follows prefers-color-scheme only (global rule)
+# Where each kit document lives. A retrofit maps its existing files here instead of renaming them.
+[docs]
+brief = "docs/design/brief.md"
+references = "docs/design/references.md"
+storymap = "docs/design/story-map.md"
+stories = "docs/design/stories.md"
+opportunities = "docs/design/opportunity-tree.md"
+model = "docs/design/model.md"
+termbase = "docs/design/termbase.tsv"
+retrofit = "docs/design/retrofit.tsv"
+rules = "docs/design/README.md"
+voice = "docs/design/strategy.md" # section 3; signed voice is D16
+tokens = "docs/design/tokens.json"
+contrast_pairs = "docs/design/contrast-pairs.json"
+provenance = "docs/design/provenance.tsv" # required when the first photo ships
+# Existing groundwork remains in place; references.md links the full research teardown.
+strategy = "docs/design/strategy.md"
+process = "docs/design/process.md"
+discovery = "docs/design/discovery.md"
+positioning = "docs/design/positioning.md"
+directions = "docs/design/directions.md"
+# An existing platform checklist maps to its role here, and init then skips the kit's own.
+checklist_web = "docs/design/checklists/web-interface.md"
+checklist_ios = "docs/design/checklists/ios-hig.md"
+checklist_macos = "docs/design/checklists/macos-hig.md"
+checklist_wcag = "docs/design/checklists/wcag22-aa.md"
+checklist_interaction = "docs/design/checklists/interaction-craft.md"
+
+# Bootstrap step 1-2: the brief. Process-only; no command by default.
+[brief]
+# command = "test -s docs/design/brief.md"
+
+# Bootstrap step 3: the teardown. Process-only.
+[references]
+# command = "test -s docs/design/references.md"
+
+# Bootstrap step 4: the story map. Process-only.
+[storymap]
+# command = "test -s docs/design/story-map.md"
+
+# Bootstrap step 5: the product model. Built in: `ds model check` maps each M and W to a passed test.
+# The JUnit files your tests write; until the stack is decided there are none, and ds only warns.
+[model]
+# Phoenix: results = ["_build/test/junit/*.xml"]
+# Node: results = ["test-results/junit.xml"]
+# Phoenix: command = "mix test --only model"
+
+# Bootstrap step 6: visual direction and feel prototypes, run in a separate sandbox.
+[sprint]
+# Make: command = "make -C ../<project>-brand boards"
+
+# One DTCG token source compiled for every stack; the command fails on drift.
+[tokens]
+# Make: command = "make tokens.check"
+
+# The component catalog; the command fails when a component has no catalog entry.
+[catalog]
+# Phoenix: command = "mix test test/design/catalog_test.exs"
+
+# Built in: `ds terms` scans these globs (plus ui_globs) for the termbase's forbid patterns.
+[termbase]
+globs = ["docs/**/*.md", "**/*.po", "**/*.xcstrings", "**/*.strings"]
+# The columns whose cells are forbidden wording (default ["forbid"]). A termbase whose own code
+# pins other columns names them here, e.g. ["fi_old", "en_old"]. Columns of required wording
+# (the term a text must use) are not forbid columns: a termbase with only those sets [] and
+# checks them with its own command.
+forbid_columns = [] # concept/fi/en/notes hold required vocabulary, not forbid patterns
+# A richer vocabulary file the termbase is generated from (README, "A termbase made from a richer file"):
+# source = "docs/design/sanasto.tsv"
+# generate = "node tools/termbase.mjs"
+# Phoenix: command = "mix gettext.check"
+
+# Per-file design lint at edit time: raw colours, fonts, spacing, raw elements.
+[lint]
+# Phoenix: command = "mix design.lint {files}"
+# Node: command = "npx eslint --format json {files}"
+
+# Web pages: what perf, a11y, invariants and visual render. They run in a local container
+# (Docker), built from tools/ds/web/ on first use; set a module's command to use your own tool.
+# Fill this in at the stack decision; it is required while a web module is on and has no command.
+[web]
+static_dir = "output"                 # a built site, served inside the container; or:
+# base_url = "http://host.docker.internal:4000"   # a running app
+build = "bundle exec rake deploy" # includes the frontend build, as deploy.yml does
+# Current Bridgetown routes, including the bilingual legacy site and error pages.
+# D3/D19's redesign replaces these at launch; adoption does not publish the spike.
+routes = [
+  "/", "/about/", "/portfolio/", "/services/", "/contact/", "/blog/",
+  "/services/technical-consulting/", "/services/sports-coaching/", "/services/personal-development/",
+  "/fi/", "/fi/tietoa/", "/fi/portfolio/", "/fi/palvelut/", "/fi/yhteystiedot/",
+  "/updates/welcome-to-bridgetown/", "/404.html", "/500.html",
+]
+# The old routes_review matrix remains the redesign's review scope until those pages ship:
+# ["/", "/palvelut/", "/tyot/magistician/", "/yhteys/", "/en/", "/en/services/", "/en/work/magistician/", "/en/contact/"]
+# ds fixes phone/desktop widths at 390/1440 and renders light + dark in fi_FI + en_GB.
+# No theme toggle: follow prefers-color-scheme (AGENTS.md); no web setting overrides it.
+# ready = "main[data-ready]"          # wait for this before measuring
+# Third-party origins the pages may load. Everything else is blocked and reported.
+allow_origins = []                    # [{ origin = "https://…", reason = "why" }]
+# Files that can change a rendered page (default: ui_globs).
+render_globs = ["src/**", "frontend/**", "public/**", "config/**", "plugins/**", "Gemfile*", "package*.json", "Rakefile", "*.config.*"]
+#
+# Which routes a changed file affects. A rendering file matching no entry affects every route.
+# [web.route_map]
+# "src/_pages/work/**" = ["/work/"]
+
+# Full-page screenshots across the matrix, compared on linux/amd64 against committed baselines.
+[visual]
+# Make: command = "make visual"
+
+# Accessibility violations (axe) across the matrix.
+[a11y]
+# Make: command = "make a11y"
+
+# Defect review, verified by `ds review verify`. Branches matching these always need an independent critique.
+[review]
+milestone_branches = ["milestone/*"]
+# command = "<launch the reviewer through your adapter>"
+
+# Quality critique: required for new flows, model changes and milestones; not blocking.
+[critique]
+# command = "<launch the critic through your adapter>"
+
+# Real-use feedback: friction notes, crash reports, beta channel. Feeds the opportunity tree.
+[feedback]
+# Make: command = "make friction.import"
+
+# Weekly drift audit: lint debt, untested model rules, unmapped screens, forbidden-term leftovers.
+[audit]
+# Make: command = "make design.audit"
+
+# Lab performance per route: Lighthouse, mobile, median of 3 runs, against the kit's budgets.
+[perf]
+# Node: command = "npx lhci autorun"
+
+# Loosening a budget needs a reason; tightening doesn't.
+# [perf.budgets."/"]
+# lcp_ms = 2200
+# reason = "Hero video poster; tracked in the opportunity tree."
+
+# Deterministic geometry on every route: overflow, 44 px tap targets, clipped or truncated text.
+[invariants]
+# Make: command = "make invariants"
+
+# Milestone walkthrough: the runbook is generated from the reviewer's executed steps.
+[walkthrough]
+# Make: command = "make runbook"
+
+# Real photos and videos: the owner's own, with provenance, consent and only canonical files. Built in: `ds imagery`.
+[imagery]
+# Every image and video the product ships. Each needs a row in [docs].provenance.
+# Phoenix: assets = ["priv/static/images/**/*", "priv/static/videos/**/*"]
+# Bridgetown: assets = ["src/images/**/*"]
+# Required: the owner's own cameras as EXIF make and model pairs. The owner confirms the list once per project.
+# cameras = [{ make = "<EXIF Make>", model = "<EXIF Model>" }]
+# Make: command = "make imagery.check"

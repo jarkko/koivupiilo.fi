@@ -151,6 +151,14 @@ Blog, contact form, booking, newsletter, CMS, client logos, theme toggle.
 - **D19 (2026-11-02, Jarkko).** Strategy signed: the message hierarchy (`strategy.md` §3) and the sitemap (§5).
   The places table above is superseded by `strategy.md` §5 until it is rewritten here.
 
+- **D20 (2026-11-05, kit adoption brief).** Adopt the vendored design kit on
+  `kit-adopt`, based on `design/spike`. Accept the existing term, imagery and
+  untested model findings that `ds retrofit add --decision D20` records in
+  `retrofit.tsv`. M1–M3 and W0–W5 have no tagged JUnit tests yet; keep each gap
+  on the shrink-only list until its acceptance test passes. Keep model,
+  review and critique on. This adoption preserves the current site and the
+  design groundwork; it does not approve the spike for publication.
+
 Superseded concepts (forbidden terms in new copy): "Human-Centered
 Technologist", "three core service areas", "Fortune 500", "success stories",
 "championship-level" as an adjective, emoji as section icons.
