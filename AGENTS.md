@@ -47,7 +47,9 @@ The orchestrator may always do these without asking Jarkko:
 
 Always ask Jarkko first for:
 
-- Spending money (new or larger paid resources, paid compute).
+- Spending money (new or larger paid resources, paid compute), as a
+  decision-format message with its Story: and Today: lines; spike results
+  alone are never a proposal.
 - Production data while production is healthy (writes, migrations run by
   hand, exports, deletions). Recovering a broken production is listed above.
 - Deleting unmerged work (branches, worktrees, stashes with unmerged commits).
@@ -66,7 +68,8 @@ databases, object storage, DNS records, domains, app-store or SaaS accounts):
 2. List what the provider already has (for example `upctl server list`,
    `upctl database list`, `hcloud server list`, `fly apps list`). The provider
    is the truth; the doc can be stale.
-3. Ask Jarkko before anything that costs money.
+3. Ask Jarkko before anything that costs money, as a decision-format message
+   with its Story: and Today: lines; spike results alone are never a proposal.
 
 After any change, update `docs/infra.md` in the same commit or MR.
 
