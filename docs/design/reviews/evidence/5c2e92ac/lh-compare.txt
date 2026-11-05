@@ -1,0 +1,18 @@
+Lighthouse 13 mobile (simulated), median of 3; static budgets LCP <= 2000 ms, CLS <= 0.05, perf >= 0.90
+route                              variant   LCP ms    CLS  perf fonts font KiB
+_                                  current     2702  0.001  0.93     6      200
+_                                  fixed       2102  0.001  0.98     3      123
+_404_html                          current     2702  0.002  0.93     6      200
+_404_html                          fixed       2103  0.002  0.98     3      123
+_fi_palvelut_                      current     3304  0.005  0.87    10      306
+_fi_palvelut_                      fixed       2552  0.005  0.95     5      187
+_fi_portfolio_                     current     3454  0.003  0.84    10      315
+_fi_portfolio_                     fixed       2703  0.003  0.93     5      194
+_fi_tietoa_                        current     3305  0.010  0.87    10      306
+_fi_tietoa_                        fixed       2552  0.000  0.95     5      187
+_portfolio_                        current     3003  0.015  0.89     8      248
+_portfolio_                        fixed       2402  0.000  0.95     4      153
+_services_personal-development_    current     3004  0.002  0.89     8      248
+_services_personal-development_    fixed       2403  0.000  0.95     4      153
+_updates_welcome-to-bridgetown_    current     2702  0.008  0.93     6      200
+_updates_welcome-to-bridgetown_    fixed       2102  0.000  0.98     3      123

@@ -1,0 +1,88 @@
+{
+  "families": {
+    "body": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+    "heading": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif"
+  },
+  "faces": [
+    {
+      "family": "PT Sans",
+      "weight": 400,
+      "style": "normal",
+      "ok": true,
+      "fonts": [
+        {
+          "family": "PT Sans",
+          "glyphs": 40,
+          "custom": true
+        }
+      ]
+    },
+    {
+      "family": "PT Sans",
+      "weight": 700,
+      "style": "normal",
+      "ok": true,
+      "fonts": [
+        {
+          "family": "PT Sans",
+          "glyphs": 40,
+          "custom": true
+        }
+      ]
+    },
+    {
+      "family": "PT Sans",
+      "weight": 400,
+      "style": "italic",
+      "ok": true,
+      "fonts": [
+        {
+          "family": "PT Sans",
+          "glyphs": 40,
+          "custom": true
+        }
+      ]
+    },
+    {
+      "family": "PT Serif",
+      "weight": 400,
+      "style": "normal",
+      "ok": true,
+      "fonts": [
+        {
+          "family": "PT Serif",
+          "glyphs": 40,
+          "custom": true
+        }
+      ]
+    },
+    {
+      "family": "PT Serif",
+      "weight": 700,
+      "style": "normal",
+      "ok": true,
+      "fonts": [
+        {
+          "family": "PT Serif",
+          "glyphs": 40,
+          "custom": true
+        }
+      ]
+    },
+    {
+      "family": "PT Serif",
+      "weight": 400,
+      "style": "italic",
+      "ok": true,
+      "fonts": [
+        {
+          "family": "PT Serif",
+          "glyphs": 40,
+          "custom": true
+        }
+      ]
+    }
+  ],
+  "external": [],
+  "failed": []
+}

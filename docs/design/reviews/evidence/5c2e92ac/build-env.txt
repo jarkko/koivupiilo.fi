@@ -1,0 +1,23 @@
+# Build environment of the measured site
+## /tmp/kit-adopt-selfhost-site.log (author's build of the reviewed snapshot)
+          Starting: Bridgetown v2.0.3 (codename "River City")
+       Environment: development
+            Source: /Users/jarkko/orca/workspaces/koivupiilo.fi/kit-adopt/src
+
+## docs/design/kit.toml [web].build at HEAD
+138:build = "bundle exec rake deploy" # includes the frontend build, as deploy.yml does
+
+## .github/workflows/deploy.yml (production build)
+      - name: Build site
+        run: bundle exec rake deploy
+        env:
+          BRIDGETOWN_ENV: production
+
+## .github/workflows/ds.yml: no BRIDGETOWN_ENV
+0
+
+## src/_partials/_head.erb:65 emits the dev-only live reload client
+<%= live_reload_dev_js %>
+
+## Snapshot /index.html contains it
+52:  const connection = new EventSource("/_bridgetown/live_reload")

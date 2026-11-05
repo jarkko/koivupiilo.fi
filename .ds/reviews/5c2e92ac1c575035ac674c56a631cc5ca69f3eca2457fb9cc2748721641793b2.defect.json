@@ -1,0 +1,219 @@
+{
+  "kind": "defect",
+  "ui_diff_hash": "5c2e92ac1c575035ac674c56a631cc5ca69f3eca2457fb9cc2748721641793b2",
+  "head_sha": "23c87e83f0a6199fef86cf07a8ed760e26b8bb49",
+  "reviewer_run_id": "term_604d97e0-a309-4d64-a020-ebd326ef060d",
+  "implementer_family": "codex",
+  "reviewer_family": "claude",
+  "walked": [
+    "W0",
+    "W1",
+    "W2",
+    "W3",
+    "W4",
+    "W5"
+  ],
+  "regions": [
+    "fi_FI",
+    "en_GB"
+  ],
+  "rubric": [
+    {
+      "id": "house-rules",
+      "result": "fail",
+      "blocking": false,
+      "evidence": [
+        "docs/design/reviews/evidence/5c2e92ac/footer-contrast.json",
+        "docs/design/reviews/evidence/5c2e92ac/shots/footer-fi-phone.png",
+        "docs/design/reviews/evidence/5c2e92ac/walk-report.json",
+        "docs/design/reviews/evidence/5c2e92ac/shots/fi_FI-phone-light-fi.jpg"
+      ],
+      "note": "The AGENTS.md rule to self-host fonts with no Google Fonts now holds: the reviewer walk saw zero external requests across 48 region, width and scheme combinations. One primary action per view holds: the front page has one 'Start a Conversation' link. The global contrast rule fails in the legacy footer (F3), and 92 a11y.color-contrast rows sit on the D20 list. Neither comes from this diff."
+    },
+    {
+      "id": "model",
+      "result": "fail",
+      "blocking": false,
+      "evidence": [
+        ".ds/reviews/steps/W0.md",
+        ".ds/reviews/steps/W1.md",
+        ".ds/reviews/steps/W2.md",
+        ".ds/reviews/steps/W3.md",
+        ".ds/reviews/steps/W4.md",
+        ".ds/reviews/steps/W5.md",
+        "docs/design/reviews/evidence/5c2e92ac/legacy-site-checks.txt"
+      ],
+      "note": "The diff makes no model change: model.md only gains D20, a process decision. The current site still contradicts model.md's places and W0, W2, W3 and W5 (F4), as D3/D19 describe the unpublished redesign. D20 explicitly preserves the current site, so this doesn't block."
+    },
+    {
+      "id": "heuristics",
+      "result": "fail",
+      "blocking": false,
+      "evidence": [
+        "docs/design/reviews/evidence/5c2e92ac/legacy-site-checks.txt",
+        ".ds/reviews/steps/W2.md"
+      ],
+      "note": "Error prevention and recovery: seven Finnish links lead to a 404 (F4, legacy). Nothing in the diff changes navigation, copy or feedback."
+    },
+    {
+      "id": "interaction-craft",
+      "result": "pass",
+      "blocking": false,
+      "evidence": [
+        "docs/design/reviews/evidence/5c2e92ac/shots/strip-load-fi_FI-0.jpg",
+        "docs/design/reviews/evidence/5c2e92ac/shots/strip-load-fi_FI-1.jpg",
+        "docs/design/reviews/evidence/5c2e92ac/shots/strip-load-fi_FI-2.jpg",
+        "docs/design/reviews/evidence/5c2e92ac/shots/strip-lang-services-0.jpg",
+        "docs/design/reviews/evidence/5c2e92ac/shots/strip-lang-services-1.jpg",
+        "docs/design/reviews/evidence/5c2e92ac/shots/strip-lang-services-2.jpg",
+        "docs/design/reviews/evidence/5c2e92ac/shots/strip-lang-fi_palvelut-0.jpg",
+        "docs/design/reviews/evidence/5c2e92ac/shots/strip-lang-fi_palvelut-1.jpg",
+        "docs/design/reviews/evidence/5c2e92ac/shots/strip-lang-fi_palvelut-2.jpg"
+      ],
+      "note": "The cold-load frame strip shows fallback type swapping to PT Serif/PT Sans with font-display: swap. Text never goes blank, and line breaks on /fi/ at 390 px stay the same. The language switch has no blank or wrong-state frame. There are no destructive actions."
+    },
+    {
+      "id": "platform",
+      "result": "fail",
+      "blocking": false,
+      "evidence": [
+        "docs/design/reviews/evidence/5c2e92ac/shots/zoom200-root.jpg",
+        "docs/design/reviews/evidence/5c2e92ac/shots/zoom200-contact.jpg",
+        "docs/design/reviews/evidence/5c2e92ac/shots/zoom200-fi.jpg",
+        "docs/design/reviews/evidence/5c2e92ac/shots/zoom200-fi_yhteystiedot.jpg",
+        "docs/design/reviews/evidence/5c2e92ac/walk-report.json",
+        "docs/design/reviews/evidence/5c2e92ac/footer-contrast.json"
+      ],
+      "note": "Browser zoom at 100, 110, 125, 150, 175 and 200 % on /, /contact/, /fi/ and /fi/yhteystiedot/ at 1440 px: no overflow and no lost nav link. Text-only zoom was not run, because Chromium has none and Safari's can't be automated. Every face renders the custom PT font with Finnish glyphs, with no system fallback. The WCAG failures are legacy: the footer (F3), plus the 92 contrast and 130 tap-target rows on the D20 list. The diff adds none."
+    },
+    {
+      "id": "owner-rules",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/5c2e92ac/shots/fi_FI-phone-dark-fi.jpg",
+        "docs/design/reviews/evidence/5c2e92ac/shots/en_GB-desktop-dark-root.jpg",
+        "docs/design/reviews/evidence/5c2e92ac/walk-report.json"
+      ],
+      "note": "No light/dark toggle in the header, nav or footer on any walked page. No UUID in any walked URL or visible string."
+    },
+    {
+      "id": "web-quality",
+      "result": "fail",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/5c2e92ac/lh-compare.txt",
+        "docs/design/reviews/evidence/5c2e92ac/lh-runs.json",
+        "docs/design/reviews/evidence/5c2e92ac/font-face-rules.txt",
+        "docs/design/reviews/evidence/5c2e92ac/ds-lighthouse-extract.json",
+        "docs/design/reviews/evidence/5c2e92ac/build-env.txt",
+        "docs/design/reviews/evidence/5c2e92ac/gate-summary.json"
+      ],
+      "note": "F1: the change doubles font downloads, and the LCP/performance/CLS budget failures it causes went onto the D20 retrofit list as existing findings. F2: the measured build is development, not production. The gate (/tmp/kit-adopt-font-gate.json) reports ok, with config, terms, model, invariants and a11y run, because those rows are baselined."
+    },
+    {
+      "id": "plan-conformance",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/5c2e92ac/author-font-check.json",
+        "docs/design/reviews/evidence/5c2e92ac/walk-report.json",
+        "docs/design/reviews/evidence/5c2e92ac/font-face-rules.txt"
+      ],
+      "note": "As planned, the only site UI changes are the 12 Fontsource imports and the removed Google Fonts lines. Stacks in frontend/styles/index.css are unchanged. 400, 700 and 400 italic of both families load from /_bridgetown/static/. public/fonts carries both OFL notices. The loading defect (F1) is scored under web-quality."
+    },
+    {
+      "id": "approved-design",
+      "result": "n/a",
+      "blocking": false,
+      "evidence": [],
+      "note": "No owner-approved board covers the legacy site, and the D3/D19 redesign is unpublished and out of scope. The change keeps the existing PT Sans/PT Serif typography; the walk confirms the same families, weights and styles."
+    },
+    {
+      "id": "baseline",
+      "result": "n/a",
+      "blocking": false,
+      "evidence": [],
+      "note": "No baseline files exist, and none changed. All 136 visual cells are visual.missing-baseline rows under D20, so there is no previous baseline to compare against. The rendered type is the same family and weight as before."
+    }
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "severity": "blocking",
+      "rubric": "web-quality",
+      "walk": "W0",
+      "message": "Every page downloads both the latin and the latin-ext file of each PT Sans and PT Serif face, 6 to 10 woff2 files (200 to 315 KiB) where 3 to 5 (123 to 194 KiB) cover the text. frontend/javascript/index.js imports Fontsource's per-subset files (latin-400.css, latin-ext-400.css, and so on). Those files carry no unicode-range, so the bundle declares two full-range @font-face rules for each family, weight and style. The browser treats each pair as one composite font, tries the later latin-ext file first and fetches it for every character, although no page uses a character in the latin-ext range. Measured on the frozen snapshot with Lighthouse mobile, median of 3: adding Fontsource's own unicode-range to the 12 emitted rules halves the font requests and cuts LCP by 600 to 750 ms on all 8 routes tried (/ 2702 to 2102 ms, /fi/palvelut/ 3304 to 2552 ms, /fi/tietoa/ 3305 to 2552 ms, /services/personal-development/ 3004 to 2403 ms). Families, weights and stacks stay the same; only sub-pixel glyph positions differ. This is a defect the diff introduces, not a legacy finding. design/spike loaded no web font in the ds container (Google Fonts is blocked with allow_origins = []), and Google's css2 response gates each subset by unicode-range, so production never fetched latin-ext either. Yet the D20 retrofit list, written after this change, accepts LCP rows on 6 routes (/404.html, /fi/palvelut/, /fi/portfolio/, /fi/tietoa/, /services/personal-development/, /updates/welcome-to-bridgetown/), perf.categories.performance on 2, and CLS on 5. The ds runs show the extra fonts on each of those routes, and the only shift cause on /portfolio/ is 'Web font loaded'. Fix: import the weight files (@fontsource/pt-sans/400.css, 700.css, 400-italic.css and the same three for pt-serif). They set unicode-range on every subset, and an unused subset is emitted but never fetched. Alternatively, keep the subset imports and declare the six faces in CSS with Fontsource's latin and latin-ext unicode-range. Then re-run perf and delete every perf.* row that now passes, so the shrink-only list holds only real legacy findings.",
+      "evidence": [
+        "docs/design/reviews/evidence/5c2e92ac/font-face-rules.txt",
+        "docs/design/reviews/evidence/5c2e92ac/lh-compare.txt",
+        "docs/design/reviews/evidence/5c2e92ac/lh-runs.json",
+        "docs/design/reviews/evidence/5c2e92ac/ds-lighthouse-extract.json",
+        "docs/design/reviews/evidence/5c2e92ac/fixed-variant-identical.json",
+        "docs/design/reviews/evidence/5c2e92ac/shots/fontsub-compare-crop.png",
+        "docs/design/reviews/evidence/5c2e92ac/walk-report.json"
+      ]
+    },
+    {
+      "id": "F2",
+      "severity": "major",
+      "rubric": "web-quality",
+      "message": "The ds web modules measure a development build, not the production site. docs/design/kit.toml sets [web].build = \"bundle exec rake deploy\" with no BRIDGETOWN_ENV, and .github/workflows/ds.yml sets none either. Bridgetown therefore builds in development and emits the live-reload client from src/_partials/_head.erb:65. Every page opens an EventSource to /_bridgetown/live_reload, which returns 404 on the static server. Each Lighthouse run logs 'Browser errors were logged to the console', and the D20 baseline was recorded against this build. The kit.toml comment says the build matches deploy.yml, but deploy.yml sets BRIDGETOWN_ENV: production. Fix: build = \"BRIDGETOWN_ENV=production bundle exec rake deploy\", or set the env in ds.yml and in the local gate, so the gate measures what GitHub Pages serves. Then re-record the D20 web rows from that build.",
+      "evidence": [
+        "docs/design/reviews/evidence/5c2e92ac/build-env.txt",
+        "docs/design/reviews/evidence/5c2e92ac/ds-lighthouse-extract.json",
+        "docs/design/reviews/evidence/5c2e92ac/walk-report.json"
+      ]
+    },
+    {
+      "id": "F3",
+      "severity": "major",
+      "rubric": "platform",
+      "walk": "W5",
+      "message": "Footer text fails WCAG 2.2 SC 1.4.3 on every page, and no retrofit row records it. The footer sits on linear-gradient(#e8e8e8, #cccccc). Its 12.8 px #888888 text (separators, '© 2026 Koivupiilo Oy. Kangasala, Finland') reaches 2.21 to 2.89:1, and its #666666 links (jarkko@jlaine.net, LinkedIn, GitHub) reach 3.58 to 4.69:1, where 4.5:1 is required. axe could not decide because of the gradient, so the gate only warns 'check it by hand' (85 a11y.color-contrast warnings) and ds retrofit add recorded nothing. This predates the diff: the footer markup and CSS are unchanged, and PT Sans renders as it did with Google Fonts. It is the same class of existing finding D20 accepts, so it doesn't block this adoption. It does block any change that touches the footer. Fix: #555555 or darker for all footer text (4.64:1 on #cccccc), or a flat background. Until then, record it in the D20 list or the opportunity tree so it isn't lost in warnings.",
+      "evidence": [
+        "docs/design/reviews/evidence/5c2e92ac/footer-contrast.json",
+        "docs/design/reviews/evidence/5c2e92ac/shots/footer-fi-phone.png",
+        "docs/design/reviews/evidence/5c2e92ac/gate-summary.json"
+      ]
+    },
+    {
+      "id": "F4",
+      "severity": "major",
+      "rubric": "model",
+      "walk": "W2",
+      "message": "The current Finnish site breaks W2, W3, W5 and W0 in the running app. The D20 list records these only as model.untested, which hides that they fail. (a) Seven Finnish links return 404: on /fi/, 'Tekninen konsultointi', 'Urheiluvalmennus' and 'Henkilökohtainen kehitys' (/fi/services/<slug>/) and 'Ota yhteyttä' (/fi/contact/); on /fi/palvelut/, the three offer links (/fi/palvelut/<slug>/). The W2 coaching path ends at step 2. (b) The language link always lands on the other front page: /fi/palvelut/ 'IN ENGLISH' goes to /, and /services/ 'SUOMEKSI' goes to /fi/. Each page's hreflang pairs name only the two front pages (W3). (c) No business ID or registered office appears on /fi/tietoa/, /about/ or either contact page (W5). (d) The site has no prefers-color-scheme rules, so the W0 'dark mode' arrival renders light. None of this comes from the diff: src and frontend differ from design/spike only in the font lines. D20 preserves the current site, so it doesn't block. Fix before any publication: fix the seven hrefs, or let the redesign (D3/D19) replace the routes. Until then, note in D20 or retrofit.tsv that W0, W2, W3 and W5 fail rather than merely lack tests.",
+      "evidence": [
+        "docs/design/reviews/evidence/5c2e92ac/legacy-site-checks.txt",
+        ".ds/reviews/steps/W2.md",
+        ".ds/reviews/steps/W3.md",
+        ".ds/reviews/steps/W5.md",
+        "docs/design/reviews/evidence/5c2e92ac/shots/strip-lang-fi_palvelut-2.jpg",
+        "docs/design/reviews/evidence/5c2e92ac/shots/fi_FI-phone-dark-fi.jpg"
+      ]
+    },
+    {
+      "id": "F5",
+      "severity": "minor",
+      "rubric": "web-quality",
+      "message": ".github/workflows/ds.yml pins actions/checkout, actions/setup-node and actions/upload-artifact to commit SHAs but uses ruby/setup-ruby@v1, a moving tag, for the step that runs bundle install with the repository's Gemfile. deploy.yml has the same tag, so this matches the repo's existing style, but the new design-check job is the one that runs on every pull request. Fix: pin ruby/setup-ruby to a commit SHA with a version comment, as the other three actions are.",
+      "evidence": [
+        ".github/workflows/ds.yml",
+        ".github/workflows/deploy.yml"
+      ]
+    },
+    {
+      "id": "F6",
+      "severity": "minor",
+      "rubric": "house-rules",
+      "message": "docs/design/README.md, mapped as [docs].rules, has an empty Project rules table. AGENTS.md's own house rules have no Rule | Check row: self-hosted fonts and no third-party trackers, no claim without a source (D6), the Selma line (D7), no client work without permission (D8) and every page in both languages (M2). The defect review scores house-rules from that table, so a reviewer working from the mapped document can't check them. Fix: add one row per AGENTS.md house rule with its check. For example: 'No third-party font or tracker origin' is checked by allow_origins = [] and the reviewer's request list; 'Both languages' by M2's test.",
+      "evidence": [
+        "docs/design/README.md",
+        "AGENTS.md"
+      ]
+    }
+  ],
+  "model_changes": [],
+  "baselines_approved": [],
+  "verdict": "fail"
+}

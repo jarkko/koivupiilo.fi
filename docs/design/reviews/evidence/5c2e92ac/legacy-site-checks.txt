@@ -1,0 +1,18 @@
+# Internal links on the FI pages of the reviewed snapshot that return 404 (served from /tmp/kit-adopt-font-review-site on 127.0.0.1:4719)
+/fi/  404  /fi/services/technical-consulting/  [Tekninen konsultointi]
+/fi/  404  /fi/services/sports-coaching/  [Urheiluvalmennus]
+/fi/  404  /fi/services/personal-development/  [Henkilökohtainen kehitys]
+/fi/  404  /fi/contact/  [Ota yhteyttä]
+/fi/palvelut/  404  /fi/palvelut/tekninen-konsultointi/  [Tekninen konsultointi]
+/fi/palvelut/  404  /fi/palvelut/urheiluvalmennus/  [Urheiluvalmennus]
+/fi/palvelut/  404  /fi/palvelut/henkilokohtainen-kehitys/  [Henkilökohtainen kehitys]
+
+# Language link (W3): every page links to the other language's front page (walk-report.json langswitch)
+/services/ -> clicked 'Suomeksi' (href /fi/) -> landed /fi/ lang=fi
+/fi/palvelut/ -> clicked 'In English' (href /) -> landed / lang=en
+/contact/ -> clicked 'Suomeksi' (href /fi/) -> landed /fi/ lang=fi
+/fi/tietoa/ -> clicked 'In English' (href /) -> landed / lang=en
+
+# Dark scheme: prefers-color-scheme rules in frontend/styles (HEAD and design/spike)
+0
+0

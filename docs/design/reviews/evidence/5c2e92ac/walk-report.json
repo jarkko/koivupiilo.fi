@@ -1,0 +1,5879 @@
+{
+  "base": "http://127.0.0.1:4719",
+  "combos": [
+    {
+      "region": "en_GB",
+      "width": "phone",
+      "scheme": "light",
+      "route": "/",
+      "shot": "en_GB-phone-light-root.jpg",
+      "geo": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Jarkko Laine - Human-Centered Technologist"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "21.6px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 78
+            }
+          ]
+        },
+        "strong": null,
+        "em": null,
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "en_GB",
+      "width": "phone",
+      "scheme": "light",
+      "route": "/about/",
+      "shot": "en_GB-phone-light-about.jpg",
+      "geo": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "The Story Behind the Code"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 254
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 63
+            }
+          ]
+        },
+        "em": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "italic",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Italic",
+              "isCustomFont": true,
+              "glyphCount": 94
+            }
+          ]
+        },
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "en_GB",
+      "width": "phone",
+      "scheme": "light",
+      "route": "/services/",
+      "shot": "en_GB-phone-light-services.jpg",
+      "geo": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Services"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 187
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 52
+            }
+          ]
+        },
+        "em": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "italic",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Italic",
+              "isCustomFont": true,
+              "glyphCount": 109
+            }
+          ]
+        },
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "en_GB",
+      "width": "phone",
+      "scheme": "light",
+      "route": "/portfolio/",
+      "shot": "en_GB-phone-light-portfolio.jpg",
+      "geo": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Portfolio"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 164
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 5
+            }
+          ]
+        },
+        "em": null,
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "en_GB",
+      "width": "phone",
+      "scheme": "light",
+      "route": "/contact/",
+      "shot": "en_GB-phone-light-contact.jpg",
+      "geo": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Contact"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 148
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 6
+            }
+          ]
+        },
+        "em": null,
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "en_GB",
+      "width": "phone",
+      "scheme": "light",
+      "route": "/services/sports-coaching/",
+      "shot": "en_GB-phone-light-services_sports-coaching.jpg",
+      "geo": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Sports Coaching"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 171
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 18
+            }
+          ]
+        },
+        "em": null,
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "en_GB",
+      "width": "phone",
+      "scheme": "light",
+      "route": "/404.html",
+      "shot": "en_GB-phone-light-404_html.jpg",
+      "geo": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "404"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 38
+            }
+          ]
+        },
+        "strong": null,
+        "em": null,
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "en_GB",
+      "width": "phone",
+      "scheme": "dark",
+      "route": "/",
+      "shot": "en_GB-phone-dark-root.jpg",
+      "geo": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Jarkko Laine - Human-Centered Technologist"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "21.6px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 78
+            }
+          ]
+        },
+        "strong": null,
+        "em": null,
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "en_GB",
+      "width": "phone",
+      "scheme": "dark",
+      "route": "/about/",
+      "shot": "en_GB-phone-dark-about.jpg",
+      "geo": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "The Story Behind the Code"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 254
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 63
+            }
+          ]
+        },
+        "em": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "italic",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Italic",
+              "isCustomFont": true,
+              "glyphCount": 94
+            }
+          ]
+        },
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "en_GB",
+      "width": "phone",
+      "scheme": "dark",
+      "route": "/services/",
+      "shot": "en_GB-phone-dark-services.jpg",
+      "geo": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Services"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 187
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 52
+            }
+          ]
+        },
+        "em": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "italic",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Italic",
+              "isCustomFont": true,
+              "glyphCount": 109
+            }
+          ]
+        },
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "en_GB",
+      "width": "phone",
+      "scheme": "dark",
+      "route": "/portfolio/",
+      "shot": "en_GB-phone-dark-portfolio.jpg",
+      "geo": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Portfolio"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 164
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 5
+            }
+          ]
+        },
+        "em": null,
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "en_GB",
+      "width": "phone",
+      "scheme": "dark",
+      "route": "/contact/",
+      "shot": "en_GB-phone-dark-contact.jpg",
+      "geo": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Contact"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 148
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 6
+            }
+          ]
+        },
+        "em": null,
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "en_GB",
+      "width": "phone",
+      "scheme": "dark",
+      "route": "/services/sports-coaching/",
+      "shot": "en_GB-phone-dark-services_sports-coaching.jpg",
+      "geo": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Sports Coaching"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 171
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 18
+            }
+          ]
+        },
+        "em": null,
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "en_GB",
+      "width": "phone",
+      "scheme": "dark",
+      "route": "/404.html",
+      "shot": "en_GB-phone-dark-404_html.jpg",
+      "geo": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "404"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 38
+            }
+          ]
+        },
+        "strong": null,
+        "em": null,
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "en_GB",
+      "width": "desktop",
+      "scheme": "light",
+      "route": "/",
+      "shot": "en_GB-desktop-light-root.jpg",
+      "geo": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Jarkko Laine - Human-Centered Technologist"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "24px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 79
+            }
+          ]
+        },
+        "strong": null,
+        "em": null,
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "en_GB",
+      "width": "desktop",
+      "scheme": "light",
+      "route": "/about/",
+      "shot": "en_GB-desktop-light-about.jpg",
+      "geo": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "The Story Behind the Code"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 256
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 63
+            }
+          ]
+        },
+        "em": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "italic",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Italic",
+              "isCustomFont": true,
+              "glyphCount": 93
+            }
+          ]
+        },
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "en_GB",
+      "width": "desktop",
+      "scheme": "light",
+      "route": "/services/",
+      "shot": "en_GB-desktop-light-services.jpg",
+      "geo": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Services"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 189
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 53
+            }
+          ]
+        },
+        "em": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "italic",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Italic",
+              "isCustomFont": true,
+              "glyphCount": 110
+            }
+          ]
+        },
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "en_GB",
+      "width": "desktop",
+      "scheme": "light",
+      "route": "/portfolio/",
+      "shot": "en_GB-desktop-light-portfolio.jpg",
+      "geo": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Portfolio"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 165
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 5
+            }
+          ]
+        },
+        "em": null,
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "en_GB",
+      "width": "desktop",
+      "scheme": "light",
+      "route": "/contact/",
+      "shot": "en_GB-desktop-light-contact.jpg",
+      "geo": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Contact"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 150
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 6
+            }
+          ]
+        },
+        "em": null,
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "en_GB",
+      "width": "desktop",
+      "scheme": "light",
+      "route": "/services/sports-coaching/",
+      "shot": "en_GB-desktop-light-services_sports-coaching.jpg",
+      "geo": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Sports Coaching"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 173
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 18
+            }
+          ]
+        },
+        "em": null,
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "en_GB",
+      "width": "desktop",
+      "scheme": "light",
+      "route": "/404.html",
+      "shot": "en_GB-desktop-light-404_html.jpg",
+      "geo": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "404"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 38
+            }
+          ]
+        },
+        "strong": null,
+        "em": null,
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "en_GB",
+      "width": "desktop",
+      "scheme": "dark",
+      "route": "/",
+      "shot": "en_GB-desktop-dark-root.jpg",
+      "geo": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Jarkko Laine - Human-Centered Technologist"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "24px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 79
+            }
+          ]
+        },
+        "strong": null,
+        "em": null,
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "en_GB",
+      "width": "desktop",
+      "scheme": "dark",
+      "route": "/about/",
+      "shot": "en_GB-desktop-dark-about.jpg",
+      "geo": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "The Story Behind the Code"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 256
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 63
+            }
+          ]
+        },
+        "em": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "italic",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Italic",
+              "isCustomFont": true,
+              "glyphCount": 93
+            }
+          ]
+        },
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "en_GB",
+      "width": "desktop",
+      "scheme": "dark",
+      "route": "/services/",
+      "shot": "en_GB-desktop-dark-services.jpg",
+      "geo": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Services"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 189
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 53
+            }
+          ]
+        },
+        "em": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "italic",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Italic",
+              "isCustomFont": true,
+              "glyphCount": 110
+            }
+          ]
+        },
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "en_GB",
+      "width": "desktop",
+      "scheme": "dark",
+      "route": "/portfolio/",
+      "shot": "en_GB-desktop-dark-portfolio.jpg",
+      "geo": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Portfolio"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 165
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 5
+            }
+          ]
+        },
+        "em": null,
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "en_GB",
+      "width": "desktop",
+      "scheme": "dark",
+      "route": "/contact/",
+      "shot": "en_GB-desktop-dark-contact.jpg",
+      "geo": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Contact"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 150
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 6
+            }
+          ]
+        },
+        "em": null,
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "en_GB",
+      "width": "desktop",
+      "scheme": "dark",
+      "route": "/services/sports-coaching/",
+      "shot": "en_GB-desktop-dark-services_sports-coaching.jpg",
+      "geo": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Sports Coaching"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 173
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 18
+            }
+          ]
+        },
+        "em": null,
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "en_GB",
+      "width": "desktop",
+      "scheme": "dark",
+      "route": "/404.html",
+      "shot": "en_GB-desktop-dark-404_html.jpg",
+      "geo": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "404"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 38
+            }
+          ]
+        },
+        "strong": null,
+        "em": null,
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "fi_FI",
+      "width": "phone",
+      "scheme": "light",
+      "route": "/fi/",
+      "shot": "fi_FI-phone-light-fi.jpg",
+      "geo": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Jarkko Laine"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "21.6px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 63
+            }
+          ]
+        },
+        "strong": null,
+        "em": null,
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "fi_FI",
+      "width": "phone",
+      "scheme": "light",
+      "route": "/fi/tietoa/",
+      "shot": "fi_FI-phone-light-fi_tietoa.jpg",
+      "geo": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Tarina koodin takana"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 256
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 76
+            }
+          ]
+        },
+        "em": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "italic",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Italic",
+              "isCustomFont": true,
+              "glyphCount": 34
+            }
+          ]
+        },
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "fi_FI",
+      "width": "phone",
+      "scheme": "light",
+      "route": "/fi/palvelut/",
+      "shot": "fi_FI-phone-light-fi_palvelut.jpg",
+      "geo": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Palvelut"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 204
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 67
+            }
+          ]
+        },
+        "em": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "italic",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Italic",
+              "isCustomFont": true,
+              "glyphCount": 103
+            }
+          ]
+        },
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "fi_FI",
+      "width": "phone",
+      "scheme": "light",
+      "route": "/fi/portfolio/",
+      "shot": "fi_FI-phone-light-fi_portfolio.jpg",
+      "geo": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Portfolio"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 166
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 6
+            }
+          ]
+        },
+        "em": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "italic",
+            "size": "17.6px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Italic",
+              "isCustomFont": true,
+              "glyphCount": 34
+            }
+          ]
+        },
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-italic-MYKE7CQX.woff2",
+        "/_bridgetown/static/pt-sans-latin-400-italic-OXJYYUTU.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "fi_FI",
+      "width": "phone",
+      "scheme": "light",
+      "route": "/fi/yhteystiedot/",
+      "shot": "fi_FI-phone-light-fi_yhteystiedot.jpg",
+      "geo": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Yhteystiedot"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 120
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 11
+            }
+          ]
+        },
+        "em": null,
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-sans-latin-400-italic-OXJYYUTU.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-italic-MYKE7CQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "fi_FI",
+      "width": "phone",
+      "scheme": "dark",
+      "route": "/fi/",
+      "shot": "fi_FI-phone-dark-fi.jpg",
+      "geo": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Jarkko Laine"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "21.6px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 63
+            }
+          ]
+        },
+        "strong": null,
+        "em": null,
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "fi_FI",
+      "width": "phone",
+      "scheme": "dark",
+      "route": "/fi/tietoa/",
+      "shot": "fi_FI-phone-dark-fi_tietoa.jpg",
+      "geo": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Tarina koodin takana"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 256
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 76
+            }
+          ]
+        },
+        "em": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "italic",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Italic",
+              "isCustomFont": true,
+              "glyphCount": 34
+            }
+          ]
+        },
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "fi_FI",
+      "width": "phone",
+      "scheme": "dark",
+      "route": "/fi/palvelut/",
+      "shot": "fi_FI-phone-dark-fi_palvelut.jpg",
+      "geo": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Palvelut"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 204
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 67
+            }
+          ]
+        },
+        "em": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "italic",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Italic",
+              "isCustomFont": true,
+              "glyphCount": 103
+            }
+          ]
+        },
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "fi_FI",
+      "width": "phone",
+      "scheme": "dark",
+      "route": "/fi/portfolio/",
+      "shot": "fi_FI-phone-dark-fi_portfolio.jpg",
+      "geo": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Portfolio"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 166
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 6
+            }
+          ]
+        },
+        "em": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "italic",
+            "size": "17.6px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Italic",
+              "isCustomFont": true,
+              "glyphCount": 34
+            }
+          ]
+        },
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-italic-MYKE7CQX.woff2",
+        "/_bridgetown/static/pt-sans-latin-400-italic-OXJYYUTU.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "fi_FI",
+      "width": "phone",
+      "scheme": "dark",
+      "route": "/fi/yhteystiedot/",
+      "shot": "fi_FI-phone-dark-fi_yhteystiedot.jpg",
+      "geo": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Yhteystiedot"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 120
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 11
+            }
+          ]
+        },
+        "em": null,
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "22.4px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-sans-latin-400-italic-OXJYYUTU.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-italic-MYKE7CQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "fi_FI",
+      "width": "desktop",
+      "scheme": "light",
+      "route": "/fi/",
+      "shot": "fi_FI-desktop-light-fi.jpg",
+      "geo": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Jarkko Laine"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "24px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 65
+            }
+          ]
+        },
+        "strong": null,
+        "em": null,
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "fi_FI",
+      "width": "desktop",
+      "scheme": "light",
+      "route": "/fi/tietoa/",
+      "shot": "fi_FI-desktop-light-fi_tietoa.jpg",
+      "geo": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Tarina koodin takana"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 258
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 76
+            }
+          ]
+        },
+        "em": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "italic",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Italic",
+              "isCustomFont": true,
+              "glyphCount": 34
+            }
+          ]
+        },
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "fi_FI",
+      "width": "desktop",
+      "scheme": "light",
+      "route": "/fi/palvelut/",
+      "shot": "fi_FI-desktop-light-fi_palvelut.jpg",
+      "geo": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Palvelut"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 206
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 68
+            }
+          ]
+        },
+        "em": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "italic",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Italic",
+              "isCustomFont": true,
+              "glyphCount": 104
+            }
+          ]
+        },
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "fi_FI",
+      "width": "desktop",
+      "scheme": "light",
+      "route": "/fi/portfolio/",
+      "shot": "fi_FI-desktop-light-fi_portfolio.jpg",
+      "geo": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Portfolio"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 167
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 6
+            }
+          ]
+        },
+        "em": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "italic",
+            "size": "17.6px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Italic",
+              "isCustomFont": true,
+              "glyphCount": 34
+            }
+          ]
+        },
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-italic-MYKE7CQX.woff2",
+        "/_bridgetown/static/pt-sans-latin-400-italic-OXJYYUTU.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "fi_FI",
+      "width": "desktop",
+      "scheme": "light",
+      "route": "/fi/yhteystiedot/",
+      "shot": "fi_FI-desktop-light-fi_yhteystiedot.jpg",
+      "geo": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Yhteystiedot"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 121
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 11
+            }
+          ]
+        },
+        "em": null,
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-sans-latin-400-italic-OXJYYUTU.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-italic-MYKE7CQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "fi_FI",
+      "width": "desktop",
+      "scheme": "dark",
+      "route": "/fi/",
+      "shot": "fi_FI-desktop-dark-fi.jpg",
+      "geo": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Jarkko Laine"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "24px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 65
+            }
+          ]
+        },
+        "strong": null,
+        "em": null,
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "fi_FI",
+      "width": "desktop",
+      "scheme": "dark",
+      "route": "/fi/tietoa/",
+      "shot": "fi_FI-desktop-dark-fi_tietoa.jpg",
+      "geo": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Tarina koodin takana"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 258
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 76
+            }
+          ]
+        },
+        "em": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "italic",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Italic",
+              "isCustomFont": true,
+              "glyphCount": 34
+            }
+          ]
+        },
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "fi_FI",
+      "width": "desktop",
+      "scheme": "dark",
+      "route": "/fi/palvelut/",
+      "shot": "fi_FI-desktop-dark-fi_palvelut.jpg",
+      "geo": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Palvelut"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 206
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 68
+            }
+          ]
+        },
+        "em": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "italic",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Italic",
+              "isCustomFont": true,
+              "glyphCount": 104
+            }
+          ]
+        },
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "fi_FI",
+      "width": "desktop",
+      "scheme": "dark",
+      "route": "/fi/portfolio/",
+      "shot": "fi_FI-desktop-dark-fi_portfolio.jpg",
+      "geo": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Portfolio"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 167
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 6
+            }
+          ]
+        },
+        "em": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "italic",
+            "size": "17.6px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Italic",
+              "isCustomFont": true,
+              "glyphCount": 34
+            }
+          ]
+        },
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-italic-MYKE7CQX.woff2",
+        "/_bridgetown/static/pt-sans-latin-400-italic-OXJYYUTU.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    },
+    {
+      "region": "fi_FI",
+      "width": "desktop",
+      "scheme": "dark",
+      "route": "/fi/yhteystiedot/",
+      "shot": "fi_FI-desktop-dark-fi_yhteystiedot.jpg",
+      "geo": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Yhteystiedot"
+      },
+      "fonts": {
+        "heading": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        },
+        "body": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "400",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Regular",
+              "isCustomFont": true,
+              "glyphCount": 121
+            }
+          ]
+        },
+        "strong": {
+          "computed": {
+            "family": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "16px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Serif",
+              "postScriptName": "PTSerif-Bold",
+              "isCustomFont": true,
+              "glyphCount": 11
+            }
+          ]
+        },
+        "em": null,
+        "nav": {
+          "computed": {
+            "family": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif",
+            "weight": "700",
+            "style": "normal",
+            "size": "20.8px"
+          },
+          "platform": [
+            {
+              "familyName": "PT Sans",
+              "postScriptName": "PTSans-Bold",
+              "isCustomFont": true,
+              "glyphCount": 13
+            }
+          ]
+        }
+      },
+      "fontReqs": [
+        "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+        "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+        "/_bridgetown/static/pt-sans-latin-400-italic-OXJYYUTU.woff2",
+        "/_bridgetown/static/pt-sans-latin-ext-400-italic-MYKE7CQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+        "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+        "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2",
+        "/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2"
+      ],
+      "external": [],
+      "failed": [
+        {
+          "url": "http://127.0.0.1:4719/_bridgetown/live_reload",
+          "type": "eventsource",
+          "status": 404
+        }
+      ],
+      "consoleErrors": [
+        "Failed to load resource: the server responded with a status of 404 (File not found)"
+      ]
+    }
+  ],
+  "zoom": [
+    {
+      "zoom": 1,
+      "route": "/",
+      "geo": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Jarkko Laine - Human-Centered Technologist"
+      },
+      "nav": [
+        {
+          "t": "koivupiilo.fi",
+          "visible": true
+        }
+      ],
+      "shot": null
+    },
+    {
+      "zoom": 1,
+      "route": "/contact/",
+      "geo": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Contact"
+      },
+      "nav": [
+        {
+          "t": "koivupiilo.fi",
+          "visible": true
+        }
+      ],
+      "shot": null
+    },
+    {
+      "zoom": 1,
+      "route": "/fi/",
+      "geo": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Jarkko Laine"
+      },
+      "nav": [
+        {
+          "t": "koivupiilo.fi",
+          "visible": true
+        }
+      ],
+      "shot": null
+    },
+    {
+      "zoom": 1,
+      "route": "/fi/yhteystiedot/",
+      "geo": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Yhteystiedot"
+      },
+      "nav": [
+        {
+          "t": "koivupiilo.fi",
+          "visible": true
+        }
+      ],
+      "shot": null
+    },
+    {
+      "zoom": 1.1,
+      "route": "/",
+      "geo": {
+        "scrollWidth": 1309,
+        "clientWidth": 1309,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Jarkko Laine - Human-Centered Technologist"
+      },
+      "nav": [
+        {
+          "t": "koivupiilo.fi",
+          "visible": true
+        }
+      ],
+      "shot": null
+    },
+    {
+      "zoom": 1.1,
+      "route": "/contact/",
+      "geo": {
+        "scrollWidth": 1309,
+        "clientWidth": 1309,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Contact"
+      },
+      "nav": [
+        {
+          "t": "koivupiilo.fi",
+          "visible": true
+        }
+      ],
+      "shot": null
+    },
+    {
+      "zoom": 1.1,
+      "route": "/fi/",
+      "geo": {
+        "scrollWidth": 1309,
+        "clientWidth": 1309,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Jarkko Laine"
+      },
+      "nav": [
+        {
+          "t": "koivupiilo.fi",
+          "visible": true
+        }
+      ],
+      "shot": null
+    },
+    {
+      "zoom": 1.1,
+      "route": "/fi/yhteystiedot/",
+      "geo": {
+        "scrollWidth": 1309,
+        "clientWidth": 1309,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Yhteystiedot"
+      },
+      "nav": [
+        {
+          "t": "koivupiilo.fi",
+          "visible": true
+        }
+      ],
+      "shot": null
+    },
+    {
+      "zoom": 1.25,
+      "route": "/",
+      "geo": {
+        "scrollWidth": 1152,
+        "clientWidth": 1152,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Jarkko Laine - Human-Centered Technologist"
+      },
+      "nav": [
+        {
+          "t": "koivupiilo.fi",
+          "visible": true
+        }
+      ],
+      "shot": null
+    },
+    {
+      "zoom": 1.25,
+      "route": "/contact/",
+      "geo": {
+        "scrollWidth": 1152,
+        "clientWidth": 1152,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Contact"
+      },
+      "nav": [
+        {
+          "t": "koivupiilo.fi",
+          "visible": true
+        }
+      ],
+      "shot": null
+    },
+    {
+      "zoom": 1.25,
+      "route": "/fi/",
+      "geo": {
+        "scrollWidth": 1152,
+        "clientWidth": 1152,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Jarkko Laine"
+      },
+      "nav": [
+        {
+          "t": "koivupiilo.fi",
+          "visible": true
+        }
+      ],
+      "shot": null
+    },
+    {
+      "zoom": 1.25,
+      "route": "/fi/yhteystiedot/",
+      "geo": {
+        "scrollWidth": 1152,
+        "clientWidth": 1152,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Yhteystiedot"
+      },
+      "nav": [
+        {
+          "t": "koivupiilo.fi",
+          "visible": true
+        }
+      ],
+      "shot": null
+    },
+    {
+      "zoom": 1.5,
+      "route": "/",
+      "geo": {
+        "scrollWidth": 960,
+        "clientWidth": 960,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Jarkko Laine - Human-Centered Technologist"
+      },
+      "nav": [
+        {
+          "t": "koivupiilo.fi",
+          "visible": true
+        }
+      ],
+      "shot": null
+    },
+    {
+      "zoom": 1.5,
+      "route": "/contact/",
+      "geo": {
+        "scrollWidth": 960,
+        "clientWidth": 960,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Contact"
+      },
+      "nav": [
+        {
+          "t": "koivupiilo.fi",
+          "visible": true
+        }
+      ],
+      "shot": null
+    },
+    {
+      "zoom": 1.5,
+      "route": "/fi/",
+      "geo": {
+        "scrollWidth": 960,
+        "clientWidth": 960,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Jarkko Laine"
+      },
+      "nav": [
+        {
+          "t": "koivupiilo.fi",
+          "visible": true
+        }
+      ],
+      "shot": null
+    },
+    {
+      "zoom": 1.5,
+      "route": "/fi/yhteystiedot/",
+      "geo": {
+        "scrollWidth": 960,
+        "clientWidth": 960,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Yhteystiedot"
+      },
+      "nav": [
+        {
+          "t": "koivupiilo.fi",
+          "visible": true
+        }
+      ],
+      "shot": null
+    },
+    {
+      "zoom": 1.75,
+      "route": "/",
+      "geo": {
+        "scrollWidth": 823,
+        "clientWidth": 823,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Jarkko Laine - Human-Centered Technologist"
+      },
+      "nav": [
+        {
+          "t": "koivupiilo.fi",
+          "visible": true
+        }
+      ],
+      "shot": null
+    },
+    {
+      "zoom": 1.75,
+      "route": "/contact/",
+      "geo": {
+        "scrollWidth": 823,
+        "clientWidth": 823,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Contact"
+      },
+      "nav": [
+        {
+          "t": "koivupiilo.fi",
+          "visible": true
+        }
+      ],
+      "shot": null
+    },
+    {
+      "zoom": 1.75,
+      "route": "/fi/",
+      "geo": {
+        "scrollWidth": 823,
+        "clientWidth": 823,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Jarkko Laine"
+      },
+      "nav": [
+        {
+          "t": "koivupiilo.fi",
+          "visible": true
+        }
+      ],
+      "shot": null
+    },
+    {
+      "zoom": 1.75,
+      "route": "/fi/yhteystiedot/",
+      "geo": {
+        "scrollWidth": 823,
+        "clientWidth": 823,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Yhteystiedot"
+      },
+      "nav": [
+        {
+          "t": "koivupiilo.fi",
+          "visible": true
+        }
+      ],
+      "shot": null
+    },
+    {
+      "zoom": 2,
+      "route": "/",
+      "geo": {
+        "scrollWidth": 720,
+        "clientWidth": 720,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Jarkko Laine - Human-Centered Technologist"
+      },
+      "nav": [
+        {
+          "t": "koivupiilo.fi",
+          "visible": true
+        }
+      ],
+      "shot": "zoom200-root.jpg"
+    },
+    {
+      "zoom": 2,
+      "route": "/contact/",
+      "geo": {
+        "scrollWidth": 720,
+        "clientWidth": 720,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "en",
+        "title": "Contact"
+      },
+      "nav": [
+        {
+          "t": "koivupiilo.fi",
+          "visible": true
+        }
+      ],
+      "shot": "zoom200-contact.jpg"
+    },
+    {
+      "zoom": 2,
+      "route": "/fi/",
+      "geo": {
+        "scrollWidth": 720,
+        "clientWidth": 720,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Jarkko Laine"
+      },
+      "nav": [
+        {
+          "t": "koivupiilo.fi",
+          "visible": true
+        }
+      ],
+      "shot": "zoom200-fi.jpg"
+    },
+    {
+      "zoom": 2,
+      "route": "/fi/yhteystiedot/",
+      "geo": {
+        "scrollWidth": 720,
+        "clientWidth": 720,
+        "overflowX": 0,
+        "wide": [],
+        "lang": "fi",
+        "title": "Yhteystiedot"
+      },
+      "nav": [
+        {
+          "t": "koivupiilo.fi",
+          "visible": true
+        }
+      ],
+      "shot": "zoom200-fi_yhteystiedot.jpg"
+    }
+  ],
+  "prod_compare": [
+    {
+      "route": "/",
+      "prod_google_fonts": {
+        "error": "Error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://koivupiilo.fi/\nCall log:\n\u001b[2m  - navigating to \"https://koivupiilo.fi/\", waiting until \"networkidle\"\u001b[22m\n"
+      },
+      "snapshot_self_hosted": {
+        "overflowX": 0,
+        "scrollWidth": 390,
+        "height": 1049,
+        "h1Height": 26.875,
+        "fontHosts": [
+          "127.0.0.1:4719"
+        ],
+        "wide": []
+      }
+    },
+    {
+      "route": "/contact/",
+      "prod_google_fonts": {
+        "error": "Error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://koivupiilo.fi/contact/\nCall log:\n\u001b[2m  - navigating to \"https://koivupiilo.fi/contact/\", waiting until \"networkidle\"\u001b[22m\n"
+      },
+      "snapshot_self_hosted": {
+        "overflowX": 0,
+        "scrollWidth": 390,
+        "height": 6262,
+        "h1Height": 26.875,
+        "fontHosts": [
+          "127.0.0.1:4719"
+        ],
+        "wide": []
+      }
+    },
+    {
+      "route": "/services/technical-consulting/",
+      "prod_google_fonts": {
+        "error": "Error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://koivupiilo.fi/services/technical-consulting/\nCall log:\n\u001b[2m  - navigating to \"https://koivupiilo.fi/services/technical-consulting/\", waiting unt"
+      },
+      "snapshot_self_hosted": {
+        "overflowX": 0,
+        "scrollWidth": 390,
+        "height": 6170,
+        "h1Height": 26.875,
+        "fontHosts": [
+          "127.0.0.1:4719"
+        ],
+        "wide": []
+      }
+    },
+    {
+      "route": "/fi/",
+      "prod_google_fonts": {
+        "error": "Error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://koivupiilo.fi/fi/\nCall log:\n\u001b[2m  - navigating to \"https://koivupiilo.fi/fi/\", waiting until \"networkidle\"\u001b[22m\n"
+      },
+      "snapshot_self_hosted": {
+        "overflowX": 0,
+        "scrollWidth": 390,
+        "height": 1069,
+        "h1Height": 26.875,
+        "fontHosts": [
+          "127.0.0.1:4719"
+        ],
+        "wide": []
+      }
+    },
+    {
+      "route": "/fi/palvelut/",
+      "prod_google_fonts": {
+        "error": "Error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://koivupiilo.fi/fi/palvelut/\nCall log:\n\u001b[2m  - navigating to \"https://koivupiilo.fi/fi/palvelut/\", waiting until \"networkidle\"\u001b[22m\n"
+      },
+      "snapshot_self_hosted": {
+        "overflowX": 0,
+        "scrollWidth": 390,
+        "height": 2693,
+        "h1Height": 26.875,
+        "fontHosts": [
+          "127.0.0.1:4719"
+        ],
+        "wide": []
+      }
+    },
+    {
+      "route": "/fi/yhteystiedot/",
+      "prod_google_fonts": {
+        "error": "Error: page.goto: net::ERR_NAME_NOT_RESOLVED at https://koivupiilo.fi/fi/yhteystiedot/\nCall log:\n\u001b[2m  - navigating to \"https://koivupiilo.fi/fi/yhteystiedot/\", waiting until \"networkidle\"\u001b[22m\n"
+      },
+      "snapshot_self_hosted": {
+        "overflowX": 0,
+        "scrollWidth": 390,
+        "height": 6272,
+        "h1Height": 26.875,
+        "fontHosts": [
+          "127.0.0.1:4719"
+        ],
+        "wide": []
+      }
+    }
+  ],
+  "frames": [
+    {
+      "kind": "cold-load-font-swap",
+      "region": "fi_FI",
+      "route": "/fi/",
+      "names": [
+        {
+          "frame": "strip-load-fi_FI-0.jpg",
+          "ms": 1081
+        },
+        {
+          "frame": "strip-load-fi_FI-1.jpg",
+          "ms": 5420
+        },
+        {
+          "frame": "strip-load-fi_FI-2.jpg",
+          "ms": 5628
+        }
+      ]
+    },
+    {
+      "kind": "cold-load-font-swap",
+      "region": "en_GB",
+      "route": "/",
+      "names": [
+        {
+          "frame": "strip-load-en_GB-0.jpg",
+          "ms": 1080
+        },
+        {
+          "frame": "strip-load-en_GB-1.jpg",
+          "ms": 5431
+        },
+        {
+          "frame": "strip-load-en_GB-2.jpg",
+          "ms": 5642
+        }
+      ]
+    }
+  ],
+  "langswitch": [
+    {
+      "region": "en_GB",
+      "start": "/services/",
+      "links": [
+        {
+          "text": "Suomeksi",
+          "href": "/fi/",
+          "hreflang": "",
+          "lang": "",
+          "visible": true
+        }
+      ],
+      "hreflang": [
+        "fi https://koivupiilo.fi/fi/",
+        "en https://koivupiilo.fi/",
+        "x-default https://koivupiilo.fi/"
+      ],
+      "clicked": {
+        "text": "Suomeksi",
+        "href": "/fi/",
+        "hreflang": "",
+        "lang": "",
+        "visible": true
+      },
+      "landed": "/fi/",
+      "landedLang": "fi",
+      "ms": 572,
+      "frames": [
+        "strip-lang-services-0.jpg",
+        "strip-lang-services-1.jpg",
+        "strip-lang-services-2.jpg"
+      ]
+    },
+    {
+      "region": "fi_FI",
+      "start": "/fi/palvelut/",
+      "links": [
+        {
+          "text": "In English",
+          "href": "/",
+          "hreflang": "",
+          "lang": "",
+          "visible": true
+        }
+      ],
+      "hreflang": [
+        "en https://koivupiilo.fi/",
+        "fi https://koivupiilo.fi/fi/",
+        "x-default https://koivupiilo.fi/"
+      ],
+      "clicked": {
+        "text": "In English",
+        "href": "/",
+        "hreflang": "",
+        "lang": "",
+        "visible": true
+      },
+      "landed": "/",
+      "landedLang": "en",
+      "ms": 551,
+      "frames": [
+        "strip-lang-fi_palvelut-0.jpg",
+        "strip-lang-fi_palvelut-1.jpg",
+        "strip-lang-fi_palvelut-2.jpg"
+      ]
+    },
+    {
+      "region": "en_GB",
+      "start": "/contact/",
+      "links": [
+        {
+          "text": "Suomeksi",
+          "href": "/fi/",
+          "hreflang": "",
+          "lang": "",
+          "visible": true
+        }
+      ],
+      "hreflang": [
+        "fi https://koivupiilo.fi/fi/",
+        "en https://koivupiilo.fi/",
+        "x-default https://koivupiilo.fi/"
+      ],
+      "clicked": {
+        "text": "Suomeksi",
+        "href": "/fi/",
+        "hreflang": "",
+        "lang": "",
+        "visible": true
+      },
+      "landed": "/fi/",
+      "landedLang": "fi",
+      "ms": 563,
+      "frames": [
+        "strip-lang-contact-0.jpg",
+        "strip-lang-contact-1.jpg",
+        "strip-lang-contact-2.jpg"
+      ]
+    },
+    {
+      "region": "fi_FI",
+      "start": "/fi/tietoa/",
+      "links": [
+        {
+          "text": "In English",
+          "href": "/",
+          "hreflang": "",
+          "lang": "",
+          "visible": true
+        }
+      ],
+      "hreflang": [
+        "en https://koivupiilo.fi/",
+        "fi https://koivupiilo.fi/fi/",
+        "x-default https://koivupiilo.fi/"
+      ],
+      "clicked": {
+        "text": "In English",
+        "href": "/",
+        "hreflang": "",
+        "lang": "",
+        "visible": true
+      },
+      "landed": "/",
+      "landedLang": "en",
+      "ms": 548,
+      "frames": [
+        "strip-lang-fi_tietoa-0.jpg",
+        "strip-lang-fi_tietoa-1.jpg",
+        "strip-lang-fi_tietoa-2.jpg"
+      ]
+    }
+  ]
+}

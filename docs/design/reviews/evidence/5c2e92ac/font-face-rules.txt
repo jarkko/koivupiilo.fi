@@ -1,0 +1,62 @@
+# Emitted @font-face rules in the reviewed build (/tmp/kit-adopt-font-review-site/_bridgetown/static/index.LNRWDYOH.css)
+# None carries unicode-range; latin and latin-ext rules share family, weight and style, so each pair is one full-range composite.
+@font-face{font-family:PT Sans;font-style:normal;font-display:swap;font-weight:400;src:url("/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2") format("woff2"),url("/_bridgetown/static/pt-sans-latin-400-normal-JZ55D4H7.woff") format("woff")}
+@font-face{font-family:PT Sans;font-style:normal;font-display:swap;font-weight:400;src:url("/_bridgetown/static/pt-sans-latin-ext-400-normal-6EZHHPMU.woff2") format("woff2"),url("/_bridgetown/static/pt-sans-latin-ext-400-normal-YFCXLFIL.woff") format("woff")}
+@font-face{font-family:PT Sans;font-style:normal;font-display:swap;font-weight:700;src:url("/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2") format("woff2"),url("/_bridgetown/static/pt-sans-latin-700-normal-7DZMJAXM.woff") format("woff")}
+@font-face{font-family:PT Sans;font-style:normal;font-display:swap;font-weight:700;src:url("/_bridgetown/static/pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2") format("woff2"),url("/_bridgetown/static/pt-sans-latin-ext-700-normal-N7BWC6JT.woff") format("woff")}
+@font-face{font-family:PT Sans;font-style:italic;font-display:swap;font-weight:400;src:url("/_bridgetown/static/pt-sans-latin-400-italic-OXJYYUTU.woff2") format("woff2"),url("/_bridgetown/static/pt-sans-latin-400-italic-Z6LQT6GV.woff") format("woff")}
+@font-face{font-family:PT Sans;font-style:italic;font-display:swap;font-weight:400;src:url("/_bridgetown/static/pt-sans-latin-ext-400-italic-MYKE7CQX.woff2") format("woff2"),url("/_bridgetown/static/pt-sans-latin-ext-400-italic-STCIHC6E.woff") format("woff")}
+@font-face{font-family:"PT Serif";font-style:normal;font-display:swap;font-weight:400;src:url("/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2") format("woff2"),url("/_bridgetown/static/pt-serif-latin-400-normal-PNCQDYFT.woff") format("woff")}
+@font-face{font-family:"PT Serif";font-style:normal;font-display:swap;font-weight:400;src:url("/_bridgetown/static/pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2") format("woff2"),url("/_bridgetown/static/pt-serif-latin-ext-400-normal-QJH6UA4V.woff") format("woff")}
+@font-face{font-family:"PT Serif";font-style:normal;font-display:swap;font-weight:700;src:url("/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2") format("woff2"),url("/_bridgetown/static/pt-serif-latin-700-normal-TCBGEVLI.woff") format("woff")}
+@font-face{font-family:"PT Serif";font-style:normal;font-display:swap;font-weight:700;src:url("/_bridgetown/static/pt-serif-latin-ext-700-normal-WAMA2OQX.woff2") format("woff2"),url("/_bridgetown/static/pt-serif-latin-ext-700-normal-PJEFAPGT.woff") format("woff")}
+@font-face{font-family:"PT Serif";font-style:italic;font-display:swap;font-weight:400;src:url("/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2") format("woff2"),url("/_bridgetown/static/pt-serif-latin-400-italic-MZDJKLCA.woff") format("woff")}
+@font-face{font-family:"PT Serif";font-style:italic;font-display:swap;font-weight:400;src:url("/_bridgetown/static/pt-serif-latin-ext-400-italic-KLI64KNF.woff2") format("woff2"),url("/_bridgetown/static/pt-serif-latin-ext-400-italic-NVH7BSC5.woff") format("woff")}
+
+# Source imports (frontend/javascript/index.js at HEAD 23c87e8)
+import "@fontsource/pt-sans/latin-400.css"
+import "@fontsource/pt-sans/latin-ext-400.css"
+import "@fontsource/pt-sans/latin-700.css"
+import "@fontsource/pt-sans/latin-ext-700.css"
+import "@fontsource/pt-sans/latin-400-italic.css"
+import "@fontsource/pt-sans/latin-ext-400-italic.css"
+import "@fontsource/pt-serif/latin-400.css"
+import "@fontsource/pt-serif/latin-ext-400.css"
+import "@fontsource/pt-serif/latin-700.css"
+import "@fontsource/pt-serif/latin-ext-700.css"
+import "@fontsource/pt-serif/latin-400-italic.css"
+import "@fontsource/pt-serif/latin-ext-400-italic.css"
+
+
+# node_modules/@fontsource/pt-sans/latin-ext-400.css (the per-subset file: no unicode-range)
+/* pt-sans-latin-ext-400-normal */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(./files/pt-sans-latin-ext-400-normal.woff2) format('woff2'), url(./files/pt-sans-latin-ext-400-normal.woff) format('woff');
+}
+# node_modules/@fontsource/pt-sans/400.css excerpt (the weight file: unicode-range per subset)
+/* pt-sans-latin-ext-400-normal */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(./files/pt-sans-latin-ext-400-normal.woff2) format('woff2'), url(./files/pt-sans-latin-ext-400-normal.woff) format('woff');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF;
+--
+/* pt-sans-latin-400-normal */
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(./files/pt-sans-latin-400-normal.woff2) format('woff2'), url(./files/pt-sans-latin-400-normal.woff) format('woff');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
+
+# Removed Google Fonts request (design/spike src/_partials/_head.erb) for comparison: Google's css2 response sets unicode-range per subset.
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+
+# Font files per page, reviewer walk (walk-report.json fontReqs): all 12 faces requested on the FI and EN front pages; no page uses a character in the latin-ext range.
