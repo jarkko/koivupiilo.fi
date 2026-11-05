@@ -1,7 +1,6 @@
 # The shrink-only retrofit list: findings that existed when the project adopted the kit. They don't block.
 # Fix one, then delete its row. Each new row must cite the D entry that accepts it; see the kit's README.
 rule	file	match	decision	note
-model.missing-w0	docs/design/model.md		D20	
 model.untested	docs/design/model.md	M1	D20	
 model.untested	docs/design/model.md	M2	D20	
 model.untested	docs/design/model.md	M3	D20	
