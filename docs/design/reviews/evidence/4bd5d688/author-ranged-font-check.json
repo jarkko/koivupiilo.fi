@@ -1,0 +1,93 @@
+{
+  "families": {
+    "body": "\"PT Serif\", Georgia, \"Times New Roman\", serif",
+    "heading": "\"PT Sans\", \"Helvetica Neue\", Arial, sans-serif"
+  },
+  "initialFontRequests": [
+    "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2",
+    "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2",
+    "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2"
+  ],
+  "faces": [
+    {
+      "family": "PT Sans",
+      "weight": 400,
+      "style": "normal",
+      "ok": true,
+      "fonts": [
+        {
+          "family": "PT Sans",
+          "glyphs": 40,
+          "custom": true
+        }
+      ]
+    },
+    {
+      "family": "PT Sans",
+      "weight": 700,
+      "style": "normal",
+      "ok": true,
+      "fonts": [
+        {
+          "family": "PT Sans",
+          "glyphs": 40,
+          "custom": true
+        }
+      ]
+    },
+    {
+      "family": "PT Sans",
+      "weight": 400,
+      "style": "italic",
+      "ok": true,
+      "fonts": [
+        {
+          "family": "PT Sans",
+          "glyphs": 40,
+          "custom": true
+        }
+      ]
+    },
+    {
+      "family": "PT Serif",
+      "weight": 400,
+      "style": "normal",
+      "ok": true,
+      "fonts": [
+        {
+          "family": "PT Serif",
+          "glyphs": 40,
+          "custom": true
+        }
+      ]
+    },
+    {
+      "family": "PT Serif",
+      "weight": 700,
+      "style": "normal",
+      "ok": true,
+      "fonts": [
+        {
+          "family": "PT Serif",
+          "glyphs": 40,
+          "custom": true
+        }
+      ]
+    },
+    {
+      "family": "PT Serif",
+      "weight": 400,
+      "style": "italic",
+      "ok": true,
+      "fonts": [
+        {
+          "family": "PT Serif",
+          "glyphs": 40,
+          "custom": true
+        }
+      ]
+    }
+  ],
+  "external": [],
+  "failed": []
+}

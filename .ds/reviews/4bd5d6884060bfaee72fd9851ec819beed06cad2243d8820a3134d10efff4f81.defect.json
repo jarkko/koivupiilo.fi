@@ -1,0 +1,189 @@
+{
+  "kind": "defect",
+  "ui_diff_hash": "4bd5d6884060bfaee72fd9851ec819beed06cad2243d8820a3134d10efff4f81",
+  "head_sha": "a0409b9e6ea8ecb8487230b24ade719fb57d32ba",
+  "reviewer_run_id": "term_604d97e0-a309-4d64-a020-ebd326ef060d",
+  "implementer_family": "codex",
+  "reviewer_family": "claude",
+  "walked": [
+    "W0",
+    "W1",
+    "W2",
+    "W3",
+    "W4",
+    "W5"
+  ],
+  "regions": [
+    "fi_FI",
+    "en_GB"
+  ],
+  "rubric": [
+    {
+      "id": "house-rules",
+      "result": "fail",
+      "blocking": false,
+      "evidence": [
+        "docs/design/reviews/evidence/4bd5d688/walk-report.json",
+        "docs/design/reviews/evidence/5c2e92ac/footer-contrast.json",
+        "docs/design/reviews/evidence/4bd5d688/shots/fi_FI-phone-light-fi.jpg"
+      ],
+      "note": "Self-hosted fonts with zero external requests hold across 48 combinations. One primary action per view holds. The global contrast rule still fails in the legacy footer (F3), alongside the 92 D20 contrast rows. Neither comes from this diff."
+    },
+    {
+      "id": "model",
+      "result": "fail",
+      "blocking": false,
+      "evidence": [
+        ".ds/reviews/steps/W0.md",
+        ".ds/reviews/steps/W1.md",
+        ".ds/reviews/steps/W2.md",
+        ".ds/reviews/steps/W3.md",
+        ".ds/reviews/steps/W4.md",
+        ".ds/reviews/steps/W5.md",
+        "docs/design/reviews/evidence/5c2e92ac/legacy-site-checks.txt",
+        "docs/design/reviews/evidence/4bd5d688/walk-report.json"
+      ],
+      "note": "No model change: the diff touches no object, lifecycle, vocabulary or navigation. The legacy site still contradicts W0, W2, W3 and W5 (F4), which D20 preserves."
+    },
+    {
+      "id": "heuristics",
+      "result": "fail",
+      "blocking": false,
+      "evidence": [
+        "docs/design/reviews/evidence/5c2e92ac/legacy-site-checks.txt",
+        ".ds/reviews/steps/W2.md"
+      ],
+      "note": "Seven Finnish links lead to a 404 (F4, legacy). The diff changes no navigation or feedback."
+    },
+    {
+      "id": "interaction-craft",
+      "result": "pass",
+      "blocking": false,
+      "evidence": [
+        "docs/design/reviews/evidence/4bd5d688/shots/strip-load-fi_FI-0.jpg",
+        "docs/design/reviews/evidence/4bd5d688/shots/strip-load-fi_FI-1.jpg",
+        "docs/design/reviews/evidence/4bd5d688/shots/strip-load-fi_FI-2.jpg",
+        "docs/design/reviews/evidence/4bd5d688/shots/strip-load-en_GB-0.jpg",
+        "docs/design/reviews/evidence/4bd5d688/shots/strip-load-en_GB-1.jpg",
+        "docs/design/reviews/evidence/4bd5d688/shots/strip-load-en_GB-2.jpg"
+      ],
+      "note": "The cold-load strips on the production snapshot show fallback type swapping to PT with font-display: swap. Text never goes blank. The language-switch strips from 5c2e92ac still stand, since navigation is unchanged."
+    },
+    {
+      "id": "platform",
+      "result": "fail",
+      "blocking": false,
+      "evidence": [
+        "docs/design/reviews/evidence/4bd5d688/shots/zoom200-root.jpg",
+        "docs/design/reviews/evidence/4bd5d688/shots/zoom200-contact.jpg",
+        "docs/design/reviews/evidence/4bd5d688/shots/zoom200-fi.jpg",
+        "docs/design/reviews/evidence/4bd5d688/shots/zoom200-fi_yhteystiedot.jpg",
+        "docs/design/reviews/evidence/4bd5d688/walk-report.json",
+        "docs/design/reviews/evidence/5c2e92ac/footer-contrast.json"
+      ],
+      "note": "Browser zoom at 100, 110, 125, 150, 175 and 200 % on four routes at 1440 px: no overflow and no lost nav link. Text-only zoom was not run (Chromium has none). Every probed node renders the custom PT font. The WCAG failures are legacy (F3 plus the D20 rows); the diff adds none."
+    },
+    {
+      "id": "owner-rules",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/4bd5d688/shots/fi_FI-phone-dark-fi.jpg",
+        "docs/design/reviews/evidence/4bd5d688/shots/en_GB-desktop-dark-root.jpg",
+        "docs/design/reviews/evidence/4bd5d688/walk-report.json"
+      ],
+      "note": "No theme toggle in the chrome. No UUID in any walked URL or visible string."
+    },
+    {
+      "id": "web-quality",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/4bd5d688/font-face-rules.txt",
+        "docs/design/reviews/evidence/4bd5d688/subset-probe.json",
+        "docs/design/reviews/evidence/4bd5d688/build-env.txt",
+        "docs/design/reviews/evidence/4bd5d688/ds-lighthouse-extract.json",
+        "docs/design/reviews/evidence/4bd5d688/gate-summary.json",
+        "docs/design/reviews/evidence/5c2e92ac/lh-compare.txt"
+      ],
+      "note": "F1, F2 and F5 are fixed. The remaining D20 timing rows (11 LCP, 3 CLS) are the existing web-font cost of the product, and the reviewer judged them valid D20 entries. They are tracked as F7 (major), not as a regression. See gate-summary.json for the current gate result."
+    },
+    {
+      "id": "plan-conformance",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/4bd5d688/font-face-rules.txt",
+        "docs/design/reviews/evidence/4bd5d688/walk-report.json"
+      ],
+      "note": "Six Fontsource weight files are imported (400, 700 and 400 italic per family). Stacks in frontend/styles/index.css are unchanged. The only other changes are kit.toml's build line, ds.yml and the retrofit rows. The cyrillic subsets are emitted but never fetched without Cyrillic text."
+    },
+    {
+      "id": "approved-design",
+      "result": "n/a",
+      "blocking": false,
+      "evidence": [],
+      "note": "No owner-approved board covers the legacy site, and the D3/D19 redesign is unpublished. The change keeps the existing PT Sans/PT Serif typography."
+    },
+    {
+      "id": "baseline",
+      "result": "n/a",
+      "blocking": false,
+      "evidence": [],
+      "note": "No baseline files exist, and none changed. All 136 visual cells remain visual.missing-baseline rows under D20."
+    }
+  ],
+  "findings": [
+    {
+      "id": "F7",
+      "severity": "major",
+      "rubric": "web-quality",
+      "walk": "W0",
+      "message": "The remaining D20 timing rows are the real cost of the web fonts each page renders, and they are not a regression of the fix. They still miss the static budget, so they need an owner, not silence. In the production ds runs (Lighthouse 12.6.1, simulated throttling), LCP is the first text paint: LCP equals FCP on 14 of 17 routes, and the LCP phases are TTFB about 450 ms plus render delay. Every font file finishes before the observed first paint (19 to 38 ms), so Lighthouse's simulation counts each face's bytes before first paint. Render delay grows with the faces a page uses: about 1350 ms with 3 faces (/fi/, 1804 ms LCP, within budget) and 1800 to 1950 ms with 5 (/about/ 2256 ms, /fi/palvelut/ 2404 ms). That gives the 11 LCP rows (2104 to 2405 ms against 2000). The 3 CLS rows (/portfolio/ 0.137, /services/ 0.067, /fi/ 0.051) are unchanged from the dev-build run, and their recorded cause is 'Web font loaded'. Production before this branch loaded the same latin faces from Google Fonts with display=swap, plus two extra origins, so these are existing product costs that D20 can accept. The rise from 6 to 11 LCP rows comes from the faulty dev build hiding font cost: its fonts arrived too late to enter the simulated first paint. The reviewer's earlier counterfactual (5c2e92ac lh-compare.txt) showed that unicode-range lowers LCP on every route measured. Fix path, owned by opportunity O-c2: preload the first-viewport faces with metric-matched fallbacks, and stop fetching PT Sans 400 italic just to fake a bold italic in headings (critique remove). Re-run perf and delete the rows that pass.",
+      "evidence": [
+        "docs/design/reviews/evidence/4bd5d688/ds-lighthouse-extract.json",
+        "docs/design/reviews/evidence/4bd5d688/face-use.json",
+        "docs/design/reviews/evidence/5c2e92ac/lh-compare.txt",
+        "docs/design/retrofit.tsv"
+      ]
+    },
+    {
+      "id": "F3",
+      "severity": "major",
+      "rubric": "platform",
+      "walk": "W5",
+      "message": "Carried from review 5c2e92ac, unchanged and pre-existing. Footer text fails WCAG 2.2 SC 1.4.3 on every page, and no retrofit row records it. On linear-gradient(#e8e8e8, #cccccc), the 12.8 px #888888 text reaches 2.21 to 2.89:1 and the #666666 links reach 3.58 to 4.69:1, where 4.5:1 is required. axe can't decide over the gradient, so the gate only warns. The footer markup and CSS are untouched by this diff, and the font is the same PT Sans. It doesn't block adoption, but it blocks any change to the footer. Fix: #555555 or darker for footer text (4.64:1 on #cccccc), or a flat background. Until then, record it explicitly.",
+      "evidence": [
+        "docs/design/reviews/evidence/5c2e92ac/footer-contrast.json",
+        "docs/design/reviews/evidence/5c2e92ac/shots/footer-fi-phone.png"
+      ]
+    },
+    {
+      "id": "F4",
+      "severity": "major",
+      "rubric": "model",
+      "walk": "W2",
+      "message": "Carried from review 5c2e92ac, unchanged and pre-existing. The current site fails W0, W2, W3 and W5 in the running app. Seven Finnish links return 404 (/fi/services/<slug>/, /fi/contact/, /fi/palvelut/<slug>/). The language link always lands on the other front page. No business ID or registered office appears anywhere. The site has no dark scheme. Re-walked on the production snapshot with the same result: /fi/palvelut/ 'IN ENGLISH' goes to /, and /services/ 'SUOMEKSI' goes to /fi/. D20 lists W0 to W5 only as model.untested. Before any publication, fix the hrefs or let the D3/D19 redesign replace the routes, and record in D20 that these walkthroughs fail rather than merely lack tests.",
+      "evidence": [
+        "docs/design/reviews/evidence/5c2e92ac/legacy-site-checks.txt",
+        "docs/design/reviews/evidence/4bd5d688/walk-report.json",
+        ".ds/reviews/steps/W2.md",
+        ".ds/reviews/steps/W3.md"
+      ]
+    },
+    {
+      "id": "F6",
+      "severity": "minor",
+      "rubric": "house-rules",
+      "message": "Carried from review 5c2e92ac, unchanged. docs/design/README.md ([docs].rules) has an empty Project rules table, so the AGENTS.md house rules have no Rule | Check row. Those rules are self-hosted fonts and no trackers, no claim without a source (D6), the Selma line (D7), no client work without permission (D8) and both languages (M2). Fix: one row per rule with its check.",
+      "evidence": [
+        "docs/design/README.md",
+        "AGENTS.md"
+      ]
+    }
+  ],
+  "no_further_issues_reason": "Resolved from review 5c2e92ac, verified on the production snapshot /tmp/kit-adopt-ranged-review-site. F1: all 24 @font-face rules carry unicode-range and swap. Pages fetch only the latin faces they render (3 to 6 files), and latin-ext and cyrillic load on demand, which a probe confirmed by inserting 'Šakki, Łódź' and Cyrillic text. F2: [web].build and ds.yml use BRIDGETOWN_ENV=production. There is no live-reload client, and errors-in-console scores 1 on all 17 routes. F5: setup-ruby is pinned to a SHA in ds.yml. Re-walked: both regions, phone and desktop, light and dark (48 combinations), zoom 100 to 200 %, the cold-load strip and the language switch. All showed zero external, failed or console-error requests, no overflow, and the same families, weights and styles as before. The content, navigation and model are unchanged since 5c2e92ac, so its steps, legacy checks and screenshots still stand.",
+  "model_changes": [],
+  "baselines_approved": [],
+  "verdict": "pass"
+}

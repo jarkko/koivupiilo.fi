@@ -1,0 +1,201 @@
+{
+ "/about/": {
+  "PT Sans 700 normal": {
+   "chars": 350,
+   "samples": [
+    "a: koivupiilo.fi",
+    "h1: The Story Behind the Code",
+    "h2: Early Days: 1990s Web Pioneer"
+   ]
+  },
+  "PT Sans 400 normal": {
+   "chars": 106,
+   "samples": [
+    "a: Home",
+    "a: About",
+    "a: Services"
+   ]
+  },
+  "PT Serif 400 normal": {
+   "chars": 2262,
+   "samples": [
+    "p: I started building for the web in the 1990s, when ",
+    "p: Those early days shaped my core belief:",
+    "li: of full-stack development"
+   ]
+  },
+  "PT Serif 700 normal": {
+   "chars": 445,
+   "samples": [
+    "strong: technology should amplify human conversations, not",
+    "strong: 30+ years",
+    "strong: Lead Developer"
+   ]
+  },
+  "PT Serif 400 italic": {
+   "chars": 148,
+   "samples": [
+    "p: “Markets are conversations. Technology serves peop",
+    "em: Ready to start a conversation about how human-cent"
+   ]
+  }
+ },
+ "/fi/tietoa/": {
+  "PT Sans 700 normal": {
+   "chars": 349,
+   "samples": [
+    "a: koivupiilo.fi",
+    "h1: Tarina koodin takana",
+    "h2: Alkuvaiheet: 1990-luvun web-pioneeri"
+   ]
+  },
+  "PT Sans 400 normal": {
+   "chars": 117,
+   "samples": [
+    "a: Etusivu",
+    "a: Tietoa",
+    "a: Palvelut"
+   ]
+  },
+  "PT Serif 400 normal": {
+   "chars": 2235,
+   "samples": [
+    "p: Aloitin web-kehityksen 1990-luvulla, kun internet ",
+    "p: Nuo alkuvuodet muovasivat ydinuskomustani:",
+    "li: full stack -kehitystä"
+   ]
+  },
+  "PT Serif 700 normal": {
+   "chars": 435,
+   "samples": [
+    "strong: teknologian tulisi vahvistaa ihmisten välisiä kesk",
+    "strong: Yli 30 vuotta",
+    "strong: Pääkehittäjä"
+   ]
+  },
+  "PT Serif 400 italic": {
+   "chars": 181,
+   "samples": [
+    "em: Beginning Ruby on Rails E-Commerce",
+    "p: “Markkinat ovat keskusteluja. Teknologia palvelee ",
+    "em: Haluatko keskustella siitä, miten ihmiskeskeinen t"
+   ]
+  }
+ },
+ "/fi/palvelut/": {
+  "PT Sans 700 normal": {
+   "chars": 105,
+   "samples": [
+    "a: koivupiilo.fi",
+    "h1: Palvelut",
+    "h2: Miten autan organisaatioita kasvamaan"
+   ]
+  },
+  "PT Sans 400 normal": {
+   "chars": 178,
+   "samples": [
+    "a: Etusivu",
+    "a: Tietoa",
+    "a: Palvelut"
+   ]
+  },
+  "PT Serif 400 normal": {
+   "chars": 1056,
+   "samples": [
+    "p: Kolmen vuosikymmenen kokemuksella ihmisiä varten r",
+    "li: - ja",
+    "li: -backend-kehitys"
+   ]
+  },
+  "PT Serif 700 normal": {
+   "chars": 535,
+   "samples": [
+    "strong: Moderneja web-sovelluksia, jotka skaalautuvat liik",
+    "strong: Ruby on Rails",
+    "strong: Elixir/Phoenix"
+   ]
+  },
+  "PT Serif 400 italic": {
+   "chars": 234,
+   "samples": [
+    "em: Merkittäviä töitä: Selma Finance (yli 15 000 asiak",
+    "em: Tulokset: useita SM-mitaleja, alueellinen valmennu",
+    "em: Filosofia: markkinat ovat keskusteluja. Teknologia"
+   ]
+  }
+ },
+ "/fi/yhteystiedot/": {
+  "PT Sans 700 normal": {
+   "chars": 591,
+   "samples": [
+    "a: koivupiilo.fi",
+    "h1: Yhteystiedot",
+    "h2: Valmis rakentamaan jotain hienoa yhdessä?"
+   ]
+  },
+  "PT Sans 400 normal": {
+   "chars": 117,
+   "samples": [
+    "a: Etusivu",
+    "a: Tietoa",
+    "a: Palvelut"
+   ]
+  },
+  "PT Serif 400 normal": {
+   "chars": 3124,
+   "samples": [
+    "p: Olipa tarpeesi tekninen, valmentava tai strategine",
+    "li: jarkko@jlaine.net",
+    "li: Kangasala, Suomi (palvelen asiakkaita maailmanlaaj"
+   ]
+  },
+  "PT Serif 700 normal": {
+   "chars": 878,
+   "samples": [
+    "strong: Sähköposti:",
+    "strong: Sijainti:",
+    "strong: LinkedIn:"
+   ]
+  }
+ },
+ "/fi/portfolio/": {
+  "PT Sans 700 normal": {
+   "chars": 633,
+   "samples": [
+    "a: koivupiilo.fi",
+    "h1: Portfolio",
+    "h2: Todistettuja tuloksia teknisestä johtajuudesta ja "
+   ]
+  },
+  "PT Sans 400 normal": {
+   "chars": 117,
+   "samples": [
+    "a: Etusivu",
+    "a: Tietoa",
+    "a: Palvelut"
+   ]
+  },
+  "PT Serif 400 normal": {
+   "chars": 5243,
+   "samples": [
+    "p: Kolmen vuosikymmenen työ teknologian parissa ja in",
+    "p: senior-ohjelmistoinsinööri ja tiiminjohto",
+    "p: 2008–2012"
+   ]
+  },
+  "PT Serif 700 normal": {
+   "chars": 939,
+   "samples": [
+    "strong: Rooli:",
+    "strong: Aikajana:",
+    "strong: Teknologia:"
+   ]
+  },
+  "PT Sans 700 italic": {
+   "chars": 34,
+   "samples": [
+    "em: Beginning Ruby on Rails E-Commerce"
+   ]
+  }
+ }
+}

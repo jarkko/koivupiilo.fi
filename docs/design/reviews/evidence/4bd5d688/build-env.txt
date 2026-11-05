@@ -1,0 +1,34 @@
+# Build environment (F2) and Ruby pin (F5) at a0409b9
+138:build = "BRIDGETOWN_ENV=production bundle exec rake deploy" # matches deploy.yml, including the frontend build
+.github/workflows/ds.yml:27:      - uses: ruby/setup-ruby@de492cf36cbab201753d720ce4f4e336cd688c94 # v1
+.github/workflows/ds.yml:35:          BRIDGETOWN_ENV: production
+.github/workflows/deploy.yml:24:        uses: ruby/setup-ruby@v1
+.github/workflows/deploy.yml:41:          BRIDGETOWN_ENV: production
+.github/workflows/deploy.yml:54:        uses: ruby/setup-ruby@v1
+.github/workflows/deploy.yml:71:          BRIDGETOWN_ENV: production
+
+## Live reload client in the reviewed production snapshot (count per file)
+/tmp/kit-adopt-ranged-review-site/fi/index.html:0
+/tmp/kit-adopt-ranged-review-site/index.html:0
+
+## Reviewer walk: failed requests and console errors across 48 combinations
+failed: 0 console errors: 0 external: 0
+
+## Production Lighthouse runs: errors-in-console audit score per route (run-1)
+404.html 1 0
+500.html 1 0
+about 1 0
+blog 1 0
+contact 1 0
+fi-palvelut 1 0
+fi-portfolio 1 0
+fi-tietoa 1 0
+fi-yhteystiedot 1 0
+fi 1 0
+index 1 0
+portfolio 1 0
+services-personal-development 1 0
+services-sports-coaching 1 0
+services-technical-consulting 1 0
+services 1 0
+updates-welcome-to-bridgetown 1 0

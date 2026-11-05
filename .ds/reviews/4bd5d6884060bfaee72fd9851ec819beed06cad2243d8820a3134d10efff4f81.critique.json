@@ -1,0 +1,54 @@
+{
+  "kind": "critique",
+  "ui_diff_hash": "4bd5d6884060bfaee72fd9851ec819beed06cad2243d8820a3134d10efff4f81",
+  "head_sha": "a0409b9e6ea8ecb8487230b24ade719fb57d32ba",
+  "reviewer_run_id": "term_604d97e0-a309-4d64-a020-ebd326ef060d",
+  "implementer_family": "codex",
+  "reviewer_family": "claude",
+  "critique": {
+    "remove": [
+      {
+        "flow": "W0",
+        "grade": "anecdote",
+        "point": "Stop fetching PT Sans 400 italic for one emphasised title inside bold headings. On /fi/portfolio/ the only PT Sans italic text is the 34-character em 'Beginning Ruby on Rails E-Commerce' in a 700-weight heading. The browser downloads the 400 italic file (about 42 KiB) and then fakes the bold. Setting headings' em to font-style: normal, or using quotes, removes a whole face from that page with no loss of meaning. See O-c1.",
+        "evidence": [
+          "docs/design/reviews/evidence/4bd5d688/face-use.json",
+          "docs/design/reviews/evidence/4bd5d688/walk-report.json"
+        ]
+      }
+    ],
+    "two_x": [
+      {
+        "flow": "W0",
+        "grade": "practitioner consensus",
+        "point": "Unchanged from critique 5c2e92ac and already recorded under O-c1/O-c2: make the first paint the final type. Preload the first-viewport faces and add metric-matched Georgia/Arial fallbacks. Now that unicode-range is fixed, the evidence is sharper: render delay rises about 150 to 300 ms per extra face before first paint (/fi/ with 3 faces 1804 ms LCP; /about/ with 5 faces 2256 ms). Strongest counter-argument: preload competes with the render-blocking CSS on slow links and may cost first paint; measure it against the 2000 ms budget before keeping it.",
+        "evidence": [
+          "docs/design/reviews/evidence/4bd5d688/ds-lighthouse-extract.json",
+          "docs/design/reviews/evidence/4bd5d688/shots/strip-load-en_GB-0.jpg",
+          "docs/design/reviews/evidence/4bd5d688/shots/strip-load-en_GB-2.jpg"
+        ]
+      }
+    ],
+    "short_of_references": [
+      {
+        "flow": "W0",
+        "grade": "practitioner consensus",
+        "reference": "docs/design/references.md, First 10 s: CSS Wizardry (system faces, 'fast by design')",
+        "point": "Unchanged gap, recorded as O-c2: CSS Wizardry's first screen needs no web-font request. Ours now needs 3 to 6 latin faces (123 to 194 KiB), down from 6 to 10, and content pages still miss the 2000 ms LCP budget by up to 405 ms.",
+        "evidence": [
+          "docs/design/reviews/evidence/4bd5d688/ds-lighthouse-extract.json",
+          "docs/design/reviews/evidence/4bd5d688/walk-report.json"
+        ]
+      },
+      {
+        "flow": "W0",
+        "grade": "practitioner consensus",
+        "reference": "kit references/awards/saas-product.md#stripe-dot-dev",
+        "point": "Stripe Dot Dev reaches LCP 0.9 s and CLS 0.001 with self-hosted woff2. Ours reaches 1.8 to 2.4 s and CLS up to 0.137 on /portfolio/, where the shift cause is 'Web font loaded'.",
+        "evidence": [
+          "docs/design/reviews/evidence/4bd5d688/ds-lighthouse-extract.json"
+        ]
+      }
+    ]
+  }
+}
