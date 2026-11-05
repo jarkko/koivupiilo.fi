@@ -58,6 +58,13 @@
 <link rel="icon" href="/favicon.ico" />
 
 <!-- Stylesheets -->
+<% %w[
+  node_modules/@fontsource/pt-serif/files/pt-serif-latin-400-normal.woff2
+  node_modules/@fontsource/pt-sans/files/pt-sans-latin-700-normal.woff2
+  node_modules/@fontsource/pt-sans/files/pt-sans-latin-400-normal.woff2
+].each do |font| %>
+<link rel="preload" href="<%= asset_path font %>" as="font" type="font/woff2" crossorigin />
+<% end %>
 <link rel="stylesheet" href="<%= asset_path :css %>" />
 
 <!-- Scripts (defer for performance) -->
