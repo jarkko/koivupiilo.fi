@@ -1,0 +1,8 @@
+/ 400kbps-150ms preload {"fcp":1224,"lcp":1224,"cls":0.1403,"css_done":1092,"last_font_done":3085} maxCLS 0.1403
+/ 400kbps-150ms no-preload {"fcp":388,"lcp":388,"cls":0.1403,"css_done":358,"last_font_done":3025} maxCLS 0.1403
+/ 1.6Mbps-150ms preload {"fcp":632,"lcp":632,"cls":0.1403,"css_done":509,"last_font_done":995} maxCLS 0.1403
+/ 1.6Mbps-150ms no-preload {"fcp":252,"lcp":252,"cls":0.1403,"css_done":221,"last_font_done":993} maxCLS 0.1403
+/portfolio/ 400kbps-150ms preload {"fcp":1272,"lcp":1272,"cls":0.1834,"css_done":1148,"last_font_done":3728} maxCLS 0.1834
+/portfolio/ 400kbps-150ms no-preload {"fcp":380,"lcp":380,"cls":0.1838,"css_done":359,"last_font_done":3609} maxCLS 0.1838
+/portfolio/ 1.6Mbps-150ms preload {"fcp":652,"lcp":652,"cls":0.1842,"css_done":514,"last_font_done":1147} maxCLS 0.1842
+/portfolio/ 1.6Mbps-150ms no-preload {"fcp":240,"lcp":240,"cls":0.1838,"css_done":216,"last_font_done":1130} maxCLS 0.1838

@@ -1,0 +1,402 @@
+[
+ {
+  "route": "/",
+  "profile": "400kbps-150ms",
+  "variant": "preload",
+  "median": {
+   "fcp": 1224,
+   "lcp": 1224,
+   "cls": 0.1403,
+   "css_done": 1092,
+   "last_font_done": 3085
+  },
+  "max_cls": 0.1403,
+  "runs": [
+   {
+    "fcp": 1244,
+    "lcp": 1244,
+    "cls": 0.1403,
+    "css_done": 1122,
+    "last_font_done": 3108
+   },
+   {
+    "fcp": 1204,
+    "lcp": 1204,
+    "cls": 0.1403,
+    "css_done": 1090,
+    "last_font_done": 3078
+   },
+   {
+    "fcp": 1236,
+    "lcp": 1236,
+    "cls": 0.1403,
+    "css_done": 1091,
+    "last_font_done": 3084
+   },
+   {
+    "fcp": 1208,
+    "lcp": 1208,
+    "cls": 0.1403,
+    "css_done": 1093,
+    "last_font_done": 3085
+   },
+   {
+    "fcp": 1224,
+    "lcp": 1224,
+    "cls": 0.1403,
+    "css_done": 1092,
+    "last_font_done": 3085
+   }
+  ]
+ },
+ {
+  "route": "/",
+  "profile": "400kbps-150ms",
+  "variant": "no-preload",
+  "median": {
+   "fcp": 388,
+   "lcp": 388,
+   "cls": 0.1403,
+   "css_done": 358,
+   "last_font_done": 3025
+  },
+  "max_cls": 0.1403,
+  "runs": [
+   {
+    "fcp": 400,
+    "lcp": 400,
+    "cls": 0.1403,
+    "css_done": 383,
+    "last_font_done": 3049
+   },
+   {
+    "fcp": 388,
+    "lcp": 388,
+    "cls": 0.1403,
+    "css_done": 358,
+    "last_font_done": 3025
+   },
+   {
+    "fcp": 368,
+    "lcp": 368,
+    "cls": 0.1403,
+    "css_done": 352,
+    "last_font_done": 3024
+   },
+   {
+    "fcp": 404,
+    "lcp": 404,
+    "cls": 0.1403,
+    "css_done": 389,
+    "last_font_done": 3050
+   },
+   {
+    "fcp": 372,
+    "lcp": 372,
+    "cls": 0.1403,
+    "css_done": 358,
+    "last_font_done": 3018
+   }
+  ]
+ },
+ {
+  "route": "/",
+  "profile": "1.6Mbps-150ms",
+  "variant": "preload",
+  "median": {
+   "fcp": 632,
+   "lcp": 632,
+   "cls": 0.1403,
+   "css_done": 509,
+   "last_font_done": 995
+  },
+  "max_cls": 0.1403,
+  "runs": [
+   {
+    "fcp": 624,
+    "lcp": 624,
+    "cls": 0.1403,
+    "css_done": 502,
+    "last_font_done": 986
+   },
+   {
+    "fcp": 624,
+    "lcp": 624,
+    "cls": 0.1403,
+    "css_done": 509,
+    "last_font_done": 994
+   },
+   {
+    "fcp": 632,
+    "lcp": 632,
+    "cls": 0.1403,
+    "css_done": 509,
+    "last_font_done": 995
+   },
+   {
+    "fcp": 664,
+    "lcp": 664,
+    "cls": 0.1403,
+    "css_done": 537,
+    "last_font_done": 1023
+   },
+   {
+    "fcp": 632,
+    "lcp": 632,
+    "cls": 0.1403,
+    "css_done": 510,
+    "last_font_done": 996
+   }
+  ]
+ },
+ {
+  "route": "/",
+  "profile": "1.6Mbps-150ms",
+  "variant": "no-preload",
+  "median": {
+   "fcp": 252,
+   "lcp": 252,
+   "cls": 0.1403,
+   "css_done": 221,
+   "last_font_done": 993
+  },
+  "max_cls": 0.1403,
+  "runs": [
+   {
+    "fcp": 252,
+    "lcp": 252,
+    "cls": 0.1403,
+    "css_done": 221,
+    "last_font_done": 994
+   },
+   {
+    "fcp": 244,
+    "lcp": 244,
+    "cls": 0.1403,
+    "css_done": 229,
+    "last_font_done": 995
+   },
+   {
+    "fcp": 232,
+    "lcp": 232,
+    "cls": 0.1403,
+    "css_done": 214,
+    "last_font_done": 979
+   },
+   {
+    "fcp": 252,
+    "lcp": 252,
+    "cls": 0.1403,
+    "css_done": 215,
+    "last_font_done": 987
+   },
+   {
+    "fcp": 252,
+    "lcp": 252,
+    "cls": 0.1403,
+    "css_done": 221,
+    "last_font_done": 993
+   }
+  ]
+ },
+ {
+  "route": "/portfolio/",
+  "profile": "400kbps-150ms",
+  "variant": "preload",
+  "median": {
+   "fcp": 1272,
+   "lcp": 1272,
+   "cls": 0.1834,
+   "css_done": 1148,
+   "last_font_done": 3728
+  },
+  "max_cls": 0.1834,
+  "runs": [
+   {
+    "fcp": 1272,
+    "lcp": 1272,
+    "cls": 0.1834,
+    "css_done": 1142,
+    "last_font_done": 3728
+   },
+   {
+    "fcp": 1272,
+    "lcp": 1272,
+    "cls": 0.1834,
+    "css_done": 1148,
+    "last_font_done": 3729
+   },
+   {
+    "fcp": 1288,
+    "lcp": 1288,
+    "cls": 0.1834,
+    "css_done": 1151,
+    "last_font_done": 3729
+   },
+   {
+    "fcp": 1272,
+    "lcp": 1272,
+    "cls": 0.1834,
+    "css_done": 1151,
+    "last_font_done": 3728
+   },
+   {
+    "fcp": 1288,
+    "lcp": 1288,
+    "cls": 0.1834,
+    "css_done": 1148,
+    "last_font_done": 3728
+   }
+  ]
+ },
+ {
+  "route": "/portfolio/",
+  "profile": "400kbps-150ms",
+  "variant": "no-preload",
+  "median": {
+   "fcp": 380,
+   "lcp": 380,
+   "cls": 0.1838,
+   "css_done": 359,
+   "last_font_done": 3609
+  },
+  "max_cls": 0.1838,
+  "runs": [
+   {
+    "fcp": 380,
+    "lcp": 380,
+    "cls": 0.1838,
+    "css_done": 357,
+    "last_font_done": 3611
+   },
+   {
+    "fcp": 400,
+    "lcp": 400,
+    "cls": 0.1838,
+    "css_done": 359,
+    "last_font_done": 3612
+   },
+   {
+    "fcp": 380,
+    "lcp": 380,
+    "cls": 0.1838,
+    "css_done": 358,
+    "last_font_done": 3609
+   },
+   {
+    "fcp": 380,
+    "lcp": 380,
+    "cls": 0.1838,
+    "css_done": 359,
+    "last_font_done": 3607
+   },
+   {
+    "fcp": 400,
+    "lcp": 400,
+    "cls": 0.1838,
+    "css_done": 360,
+    "last_font_done": 3609
+   }
+  ]
+ },
+ {
+  "route": "/portfolio/",
+  "profile": "1.6Mbps-150ms",
+  "variant": "preload",
+  "median": {
+   "fcp": 652,
+   "lcp": 652,
+   "cls": 0.1842,
+   "css_done": 514,
+   "last_font_done": 1147
+  },
+  "max_cls": 0.1842,
+  "runs": [
+   {
+    "fcp": 656,
+    "lcp": 656,
+    "cls": 0.1842,
+    "css_done": 514,
+    "last_font_done": 1144
+   },
+   {
+    "fcp": 644,
+    "lcp": 644,
+    "cls": 0.1842,
+    "css_done": 514,
+    "last_font_done": 1147
+   },
+   {
+    "fcp": 636,
+    "lcp": 636,
+    "cls": 0.1842,
+    "css_done": 508,
+    "last_font_done": 1137
+   },
+   {
+    "fcp": 652,
+    "lcp": 652,
+    "cls": 0.1842,
+    "css_done": 523,
+    "last_font_done": 1152
+   },
+   {
+    "fcp": 660,
+    "lcp": 660,
+    "cls": 0.1842,
+    "css_done": 529,
+    "last_font_done": 1160
+   }
+  ]
+ },
+ {
+  "route": "/portfolio/",
+  "profile": "1.6Mbps-150ms",
+  "variant": "no-preload",
+  "median": {
+   "fcp": 240,
+   "lcp": 240,
+   "cls": 0.1838,
+   "css_done": 216,
+   "last_font_done": 1130
+  },
+  "max_cls": 0.1838,
+  "runs": [
+   {
+    "fcp": 236,
+    "lcp": 236,
+    "cls": 0.1838,
+    "css_done": 216,
+    "last_font_done": 1129
+   },
+   {
+    "fcp": 244,
+    "lcp": 244,
+    "cls": 0.1838,
+    "css_done": 222,
+    "last_font_done": 1139
+   },
+   {
+    "fcp": 240,
+    "lcp": 240,
+    "cls": 0.1838,
+    "css_done": 217,
+    "last_font_done": 1130
+   },
+   {
+    "fcp": 252,
+    "lcp": 252,
+    "cls": 0.1838,
+    "css_done": 213,
+    "last_font_done": 1129
+   },
+   {
+    "fcp": 236,
+    "lcp": 236,
+    "cls": 0.1838,
+    "css_done": 214,
+    "last_font_done": 1137
+   }
+  ]
+ }
+]
