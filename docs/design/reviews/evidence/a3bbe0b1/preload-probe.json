@@ -1,0 +1,1018 @@
+{
+ "summary": {
+  "/": {
+   "files": 3,
+   "dup": 0,
+   "preloadWarn": 0,
+   "err": 0,
+   "failed": 0,
+   "ext": 0,
+   "usesSerif400": true,
+   "usesSans700": true,
+   "usesSans400": true
+  },
+  "/about/": {
+   "files": 5,
+   "dup": 0,
+   "preloadWarn": 0,
+   "err": 0,
+   "failed": 0,
+   "ext": 0,
+   "usesSerif400": true,
+   "usesSans700": true,
+   "usesSans400": true
+  },
+  "/portfolio/": {
+   "files": 4,
+   "dup": 0,
+   "preloadWarn": 0,
+   "err": 0,
+   "failed": 0,
+   "ext": 0,
+   "usesSerif400": true,
+   "usesSans700": true,
+   "usesSans400": true
+  },
+  "/services/": {
+   "files": 5,
+   "dup": 0,
+   "preloadWarn": 0,
+   "err": 0,
+   "failed": 0,
+   "ext": 0,
+   "usesSerif400": true,
+   "usesSans700": true,
+   "usesSans400": true
+  },
+  "/contact/": {
+   "files": 4,
+   "dup": 0,
+   "preloadWarn": 0,
+   "err": 0,
+   "failed": 0,
+   "ext": 0,
+   "usesSerif400": true,
+   "usesSans700": true,
+   "usesSans400": true
+  },
+  "/blog/": {
+   "files": 3,
+   "dup": 0,
+   "preloadWarn": 0,
+   "err": 0,
+   "failed": 0,
+   "ext": 0,
+   "usesSerif400": true,
+   "usesSans700": true,
+   "usesSans400": true
+  },
+  "/services/technical-consulting/": {
+   "files": 4,
+   "dup": 0,
+   "preloadWarn": 0,
+   "err": 0,
+   "failed": 0,
+   "ext": 0,
+   "usesSerif400": true,
+   "usesSans700": true,
+   "usesSans400": true
+  },
+  "/services/sports-coaching/": {
+   "files": 4,
+   "dup": 0,
+   "preloadWarn": 0,
+   "err": 0,
+   "failed": 0,
+   "ext": 0,
+   "usesSerif400": true,
+   "usesSans700": true,
+   "usesSans400": true
+  },
+  "/services/personal-development/": {
+   "files": 4,
+   "dup": 0,
+   "preloadWarn": 0,
+   "err": 0,
+   "failed": 0,
+   "ext": 0,
+   "usesSerif400": true,
+   "usesSans700": true,
+   "usesSans400": true
+  },
+  "/fi/": {
+   "files": 3,
+   "dup": 0,
+   "preloadWarn": 0,
+   "err": 0,
+   "failed": 0,
+   "ext": 0,
+   "usesSerif400": true,
+   "usesSans700": true,
+   "usesSans400": true
+  },
+  "/fi/tietoa/": {
+   "files": 5,
+   "dup": 0,
+   "preloadWarn": 0,
+   "err": 0,
+   "failed": 0,
+   "ext": 0,
+   "usesSerif400": true,
+   "usesSans700": true,
+   "usesSans400": true
+  },
+  "/fi/portfolio/": {
+   "files": 5,
+   "dup": 0,
+   "preloadWarn": 0,
+   "err": 0,
+   "failed": 0,
+   "ext": 0,
+   "usesSerif400": true,
+   "usesSans700": true,
+   "usesSans400": true
+  },
+  "/fi/palvelut/": {
+   "files": 5,
+   "dup": 0,
+   "preloadWarn": 0,
+   "err": 0,
+   "failed": 0,
+   "ext": 0,
+   "usesSerif400": true,
+   "usesSans700": true,
+   "usesSans400": true
+  },
+  "/fi/yhteystiedot/": {
+   "files": 4,
+   "dup": 0,
+   "preloadWarn": 0,
+   "err": 0,
+   "failed": 0,
+   "ext": 0,
+   "usesSerif400": true,
+   "usesSans700": true,
+   "usesSans400": true
+  },
+  "/updates/welcome-to-bridgetown/": {
+   "files": 3,
+   "dup": 0,
+   "preloadWarn": 0,
+   "err": 0,
+   "failed": 0,
+   "ext": 0,
+   "usesSerif400": true,
+   "usesSans700": true,
+   "usesSans400": true
+  },
+  "/404.html": {
+   "files": 3,
+   "dup": 0,
+   "preloadWarn": 0,
+   "err": 0,
+   "failed": 0,
+   "ext": 0,
+   "usesSerif400": true,
+   "usesSans700": true,
+   "usesSans400": true
+  },
+  "/500.html": {
+   "files": 3,
+   "dup": 0,
+   "preloadWarn": 0,
+   "err": 0,
+   "failed": 0,
+   "ext": 0,
+   "usesSerif400": true,
+   "usesSans700": true,
+   "usesSans400": true
+  }
+ },
+ "routes": {
+  "/": {
+   "fontRequests": {
+    "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/"
+     ],
+     "priority": "High"
+    }
+   },
+   "duplicateFetches": [],
+   "faces": {
+    "PT Sans 700 normal": 109,
+    "PT Sans 400 normal": 107,
+    "PT Serif 400 normal": 592
+   },
+   "loadedFaces": [
+    "PT Sans 400 normal U+0-FF, U+13",
+    "PT Sans 700 normal U+0-FF, U+13",
+    "PT Serif 400 normal U+0-FF, U+13"
+   ],
+   "preloadWarnings": [],
+   "consoleErrors": [],
+   "failed": [],
+   "external": []
+  },
+  "/about/": {
+   "fontRequests": {
+    "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/about/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/about/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/about/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/_bridgetown/static/index.RRKDLO2U.css"
+     ],
+     "priority": "VeryHigh"
+    },
+    "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/_bridgetown/static/index.RRKDLO2U.css"
+     ],
+     "priority": "VeryHigh"
+    }
+   },
+   "duplicateFetches": [],
+   "faces": {
+    "PT Sans 700 normal": 350,
+    "PT Sans 400 normal": 106,
+    "PT Serif 400 normal": 2262,
+    "PT Serif 700 normal": 445,
+    "PT Serif 400 italic": 148
+   },
+   "loadedFaces": [
+    "PT Sans 400 normal U+0-FF, U+13",
+    "PT Sans 700 normal U+0-FF, U+13",
+    "PT Serif 400 normal U+0-FF, U+13",
+    "PT Serif 700 normal U+0-FF, U+13",
+    "PT Serif 400 italic U+0-FF, U+13"
+   ],
+   "preloadWarnings": [],
+   "consoleErrors": [],
+   "failed": [],
+   "external": []
+  },
+  "/portfolio/": {
+   "fontRequests": {
+    "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/portfolio/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/portfolio/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/portfolio/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/_bridgetown/static/index.RRKDLO2U.css"
+     ],
+     "priority": "VeryHigh"
+    }
+   },
+   "duplicateFetches": [],
+   "faces": {
+    "PT Sans 700 normal": 732,
+    "PT Sans 400 normal": 106,
+    "PT Serif 400 normal": 5617,
+    "PT Serif 700 normal": 920
+   },
+   "loadedFaces": [
+    "PT Sans 400 normal U+0-FF, U+13",
+    "PT Sans 700 normal U+0-FF, U+13",
+    "PT Serif 400 normal U+0-FF, U+13",
+    "PT Serif 700 normal U+0-FF, U+13"
+   ],
+   "preloadWarnings": [],
+   "consoleErrors": [],
+   "failed": [],
+   "external": []
+  },
+  "/services/": {
+   "fontRequests": {
+    "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/services/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/services/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/services/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/_bridgetown/static/index.RRKDLO2U.css"
+     ],
+     "priority": "VeryHigh"
+    },
+    "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/_bridgetown/static/index.RRKDLO2U.css"
+     ],
+     "priority": "VeryHigh"
+    }
+   },
+   "duplicateFetches": [],
+   "faces": {
+    "PT Sans 700 normal": 122,
+    "PT Sans 400 normal": 161,
+    "PT Serif 400 normal": 1078,
+    "PT Serif 700 normal": 542,
+    "PT Serif 400 italic": 251
+   },
+   "loadedFaces": [
+    "PT Sans 400 normal U+0-FF, U+13",
+    "PT Sans 700 normal U+0-FF, U+13",
+    "PT Serif 400 normal U+0-FF, U+13",
+    "PT Serif 700 normal U+0-FF, U+13",
+    "PT Serif 400 italic U+0-FF, U+13"
+   ],
+   "preloadWarnings": [],
+   "consoleErrors": [],
+   "failed": [],
+   "external": []
+  },
+  "/contact/": {
+   "fontRequests": {
+    "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/contact/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/contact/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/contact/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/_bridgetown/static/index.RRKDLO2U.css"
+     ],
+     "priority": "VeryHigh"
+    }
+   },
+   "duplicateFetches": [],
+   "faces": {
+    "PT Sans 700 normal": 638,
+    "PT Sans 400 normal": 106,
+    "PT Serif 400 normal": 3111,
+    "PT Serif 700 normal": 764
+   },
+   "loadedFaces": [
+    "PT Sans 400 normal U+0-FF, U+13",
+    "PT Sans 700 normal U+0-FF, U+13",
+    "PT Serif 400 normal U+0-FF, U+13",
+    "PT Serif 700 normal U+0-FF, U+13"
+   ],
+   "preloadWarnings": [],
+   "consoleErrors": [],
+   "failed": [],
+   "external": []
+  },
+  "/blog/": {
+   "fontRequests": {
+    "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/blog/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/blog/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/blog/"
+     ],
+     "priority": "High"
+    }
+   },
+   "duplicateFetches": [],
+   "faces": {
+    "PT Sans 700 normal": 210,
+    "PT Sans 400 normal": 135,
+    "PT Serif 400 normal": 531
+   },
+   "loadedFaces": [
+    "PT Sans 400 normal U+0-FF, U+13",
+    "PT Sans 700 normal U+0-FF, U+13",
+    "PT Serif 400 normal U+0-FF, U+13"
+   ],
+   "preloadWarnings": [],
+   "consoleErrors": [],
+   "failed": [],
+   "external": []
+  },
+  "/services/technical-consulting/": {
+   "fontRequests": {
+    "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/services/technical-consulting/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/services/technical-consulting/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/services/technical-consulting/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/_bridgetown/static/index.RRKDLO2U.css"
+     ],
+     "priority": "VeryHigh"
+    }
+   },
+   "duplicateFetches": [],
+   "faces": {
+    "PT Sans 700 normal": 622,
+    "PT Sans 400 normal": 106,
+    "PT Serif 400 normal": 3046,
+    "PT Serif 700 normal": 640
+   },
+   "loadedFaces": [
+    "PT Sans 400 normal U+0-FF, U+13",
+    "PT Sans 700 normal U+0-FF, U+13",
+    "PT Serif 400 normal U+0-FF, U+13",
+    "PT Serif 700 normal U+0-FF, U+13"
+   ],
+   "preloadWarnings": [],
+   "consoleErrors": [],
+   "failed": [],
+   "external": []
+  },
+  "/services/sports-coaching/": {
+   "fontRequests": {
+    "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/services/sports-coaching/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/services/sports-coaching/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/services/sports-coaching/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/_bridgetown/static/index.RRKDLO2U.css"
+     ],
+     "priority": "VeryHigh"
+    }
+   },
+   "duplicateFetches": [],
+   "faces": {
+    "PT Sans 700 normal": 877,
+    "PT Sans 400 normal": 106,
+    "PT Serif 400 normal": 3814,
+    "PT Serif 700 normal": 1083
+   },
+   "loadedFaces": [
+    "PT Sans 400 normal U+0-FF, U+13",
+    "PT Sans 700 normal U+0-FF, U+13",
+    "PT Serif 400 normal U+0-FF, U+13",
+    "PT Serif 700 normal U+0-FF, U+13"
+   ],
+   "preloadWarnings": [],
+   "consoleErrors": [],
+   "failed": [],
+   "external": []
+  },
+  "/services/personal-development/": {
+   "fontRequests": {
+    "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/services/personal-development/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/services/personal-development/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/services/personal-development/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/_bridgetown/static/index.RRKDLO2U.css"
+     ],
+     "priority": "VeryHigh"
+    }
+   },
+   "duplicateFetches": [],
+   "faces": {
+    "PT Sans 700 normal": 777,
+    "PT Sans 400 normal": 106,
+    "PT Serif 400 normal": 5136,
+    "PT Serif 700 normal": 1061
+   },
+   "loadedFaces": [
+    "PT Sans 400 normal U+0-FF, U+13",
+    "PT Sans 700 normal U+0-FF, U+13",
+    "PT Serif 400 normal U+0-FF, U+13",
+    "PT Serif 700 normal U+0-FF, U+13"
+   ],
+   "preloadWarnings": [],
+   "consoleErrors": [],
+   "failed": [],
+   "external": []
+  },
+  "/fi/": {
+   "fontRequests": {
+    "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/fi/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/fi/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/fi/"
+     ],
+     "priority": "High"
+    }
+   },
+   "duplicateFetches": [],
+   "faces": {
+    "PT Sans 700 normal": 107,
+    "PT Sans 400 normal": 118,
+    "PT Serif 400 normal": 574
+   },
+   "loadedFaces": [
+    "PT Sans 400 normal U+0-FF, U+13",
+    "PT Sans 700 normal U+0-FF, U+13",
+    "PT Serif 400 normal U+0-FF, U+13"
+   ],
+   "preloadWarnings": [],
+   "consoleErrors": [],
+   "failed": [],
+   "external": []
+  },
+  "/fi/tietoa/": {
+   "fontRequests": {
+    "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/fi/tietoa/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/fi/tietoa/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/fi/tietoa/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/_bridgetown/static/index.RRKDLO2U.css"
+     ],
+     "priority": "VeryHigh"
+    },
+    "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/_bridgetown/static/index.RRKDLO2U.css"
+     ],
+     "priority": "VeryHigh"
+    }
+   },
+   "duplicateFetches": [],
+   "faces": {
+    "PT Sans 700 normal": 349,
+    "PT Sans 400 normal": 117,
+    "PT Serif 400 normal": 2235,
+    "PT Serif 700 normal": 435,
+    "PT Serif 400 italic": 181
+   },
+   "loadedFaces": [
+    "PT Sans 400 normal U+0-FF, U+13",
+    "PT Sans 700 normal U+0-FF, U+13",
+    "PT Serif 400 normal U+0-FF, U+13",
+    "PT Serif 700 normal U+0-FF, U+13",
+    "PT Serif 400 italic U+0-FF, U+13"
+   ],
+   "preloadWarnings": [],
+   "consoleErrors": [],
+   "failed": [],
+   "external": []
+  },
+  "/fi/portfolio/": {
+   "fontRequests": {
+    "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/fi/portfolio/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/fi/portfolio/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/fi/portfolio/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/_bridgetown/static/index.RRKDLO2U.css"
+     ],
+     "priority": "VeryHigh"
+    },
+    "/_bridgetown/static/pt-sans-latin-400-italic-OXJYYUTU.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/_bridgetown/static/index.RRKDLO2U.css"
+     ],
+     "priority": "VeryHigh"
+    }
+   },
+   "duplicateFetches": [],
+   "faces": {
+    "PT Sans 700 normal": 633,
+    "PT Sans 400 normal": 117,
+    "PT Serif 400 normal": 5243,
+    "PT Serif 700 normal": 939,
+    "PT Sans 700 italic": 34
+   },
+   "loadedFaces": [
+    "PT Sans 400 normal U+0-FF, U+13",
+    "PT Sans 700 normal U+0-FF, U+13",
+    "PT Sans 400 italic U+0-FF, U+13",
+    "PT Serif 400 normal U+0-FF, U+13",
+    "PT Serif 700 normal U+0-FF, U+13"
+   ],
+   "preloadWarnings": [],
+   "consoleErrors": [],
+   "failed": [],
+   "external": []
+  },
+  "/fi/palvelut/": {
+   "fontRequests": {
+    "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/fi/palvelut/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/fi/palvelut/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/fi/palvelut/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/_bridgetown/static/index.RRKDLO2U.css"
+     ],
+     "priority": "VeryHigh"
+    },
+    "/_bridgetown/static/pt-serif-latin-400-italic-PTBMTKDA.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/_bridgetown/static/index.RRKDLO2U.css"
+     ],
+     "priority": "VeryHigh"
+    }
+   },
+   "duplicateFetches": [],
+   "faces": {
+    "PT Sans 700 normal": 105,
+    "PT Sans 400 normal": 178,
+    "PT Serif 400 normal": 1056,
+    "PT Serif 700 normal": 535,
+    "PT Serif 400 italic": 234
+   },
+   "loadedFaces": [
+    "PT Sans 400 normal U+0-FF, U+13",
+    "PT Sans 700 normal U+0-FF, U+13",
+    "PT Serif 400 normal U+0-FF, U+13",
+    "PT Serif 700 normal U+0-FF, U+13",
+    "PT Serif 400 italic U+0-FF, U+13"
+   ],
+   "preloadWarnings": [],
+   "consoleErrors": [],
+   "failed": [],
+   "external": []
+  },
+  "/fi/yhteystiedot/": {
+   "fontRequests": {
+    "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/fi/yhteystiedot/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/fi/yhteystiedot/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/fi/yhteystiedot/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-serif-latin-700-normal-VETFNMJJ.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/_bridgetown/static/index.RRKDLO2U.css"
+     ],
+     "priority": "VeryHigh"
+    }
+   },
+   "duplicateFetches": [],
+   "faces": {
+    "PT Sans 700 normal": 591,
+    "PT Sans 400 normal": 117,
+    "PT Serif 400 normal": 3124,
+    "PT Serif 700 normal": 878
+   },
+   "loadedFaces": [
+    "PT Sans 400 normal U+0-FF, U+13",
+    "PT Sans 700 normal U+0-FF, U+13",
+    "PT Serif 400 normal U+0-FF, U+13",
+    "PT Serif 700 normal U+0-FF, U+13"
+   ],
+   "preloadWarnings": [],
+   "consoleErrors": [],
+   "failed": [],
+   "external": []
+  },
+  "/updates/welcome-to-bridgetown/": {
+   "fontRequests": {
+    "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/updates/welcome-to-bridgetown/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/updates/welcome-to-bridgetown/"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/updates/welcome-to-bridgetown/"
+     ],
+     "priority": "High"
+    }
+   },
+   "duplicateFetches": [],
+   "faces": {
+    "PT Sans 700 normal": 152,
+    "PT Sans 400 normal": 143,
+    "PT Serif 400 normal": 903,
+    "PT Sans 400 italic": 31
+   },
+   "loadedFaces": [
+    "PT Sans 400 normal U+0-FF, U+13",
+    "PT Sans 700 normal U+0-FF, U+13",
+    "PT Serif 400 normal U+0-FF, U+13"
+   ],
+   "preloadWarnings": [],
+   "consoleErrors": [],
+   "failed": [],
+   "external": []
+  },
+  "/404.html": {
+   "fontRequests": {
+    "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/404.html"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/404.html"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/404.html"
+     ],
+     "priority": "High"
+    }
+   },
+   "duplicateFetches": [],
+   "faces": {
+    "PT Sans 700 normal": 36,
+    "PT Sans 400 normal": 106,
+    "PT Serif 400 normal": 38
+   },
+   "loadedFaces": [
+    "PT Sans 400 normal U+0-FF, U+13",
+    "PT Sans 700 normal U+0-FF, U+13",
+    "PT Serif 400 normal U+0-FF, U+13"
+   ],
+   "preloadWarnings": [],
+   "consoleErrors": [],
+   "failed": [],
+   "external": []
+  },
+  "/500.html": {
+   "fontRequests": {
+    "/_bridgetown/static/pt-serif-latin-400-normal-F2XC2DKS.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/500.html"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-700-normal-VFOFQJE4.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/500.html"
+     ],
+     "priority": "High"
+    },
+    "/_bridgetown/static/pt-sans-latin-400-normal-DJC62D63.woff2": {
+     "n": 1,
+     "initiator": [
+      "parser:/500.html"
+     ],
+     "priority": "High"
+    }
+   },
+   "duplicateFetches": [],
+   "faces": {
+    "PT Sans 700 normal": 43,
+    "PT Sans 400 normal": 106,
+    "PT Serif 400 normal": 42
+   },
+   "loadedFaces": [
+    "PT Sans 400 normal U+0-FF, U+13",
+    "PT Sans 700 normal U+0-FF, U+13",
+    "PT Serif 400 normal U+0-FF, U+13"
+   ],
+   "preloadWarnings": [],
+   "consoleErrors": [],
+   "failed": [],
+   "external": []
+  }
+ }
+}
