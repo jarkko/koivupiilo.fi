@@ -9422,7 +9422,7 @@ var require_saxes = __commonJS({
 });
 
 // src/cli.ts
-import { existsSync as existsSync9, mkdirSync as mkdirSync7 } from "node:fs";
+import { existsSync as existsSync9, globSync as globSync4, mkdirSync as mkdirSync7 } from "node:fs";
 import { join as join15, relative as relative7, resolve as resolve5 } from "node:path";
 
 // package.json
@@ -9469,6 +9469,45 @@ var package_default = {
     "smol-toml": "1.9.1"
   }
 };
+
+// src/ci-templates.ts
+var CI_TEMPLATES = [
+  { source: "gitlab/ds.gitlab-ci.yml", name: "ds.gitlab-ci.yml", project: ".gitlab-ci.yml" },
+  { source: "github/ds.yml", name: "ds.github.yml", project: ".github/workflows/ds.yml" },
+  { source: "forgejo/ds.yml", name: "ds.forgejo.yml", project: ".forgejo/workflows/ds.yml" }
+];
+function ciTemplateDrift(at) {
+  const findings = [];
+  for (const template of CI_TEMPLATES) {
+    const path = `tools/ds/ci/${template.name}`;
+    const vendored = at.text(path);
+    if (vendored.kind === "absent") continue;
+    const project = at.text(template.project);
+    if (project.kind === "absent" || project.text === vendored.text) continue;
+    if (template.name === "ds.gitlab-ci.yml" && includesVendoredGitlab(project.text, path))
+      continue;
+    findings.push({
+      rule: "ci.template-drift",
+      severity: "warn",
+      file: template.project,
+      message: `${template.project} differs from ${path}, the CI template vendored with this kit. Compare them and refresh the project copy, keeping any intentional overrides. On GitLab prefer including ${path} and overriding ds in .gitlab-ci.yml.`
+    });
+  }
+  return findings;
+}
+function includesVendoredGitlab(text3, path) {
+  return text3.split("\n").some((line) => {
+    const value = line.replace(/#.*$/, "").trim().replace(/^-\s*/, "");
+    return [
+      `local: ${path}`,
+      `local: '${path}'`,
+      `local: "${path}"`,
+      `include: ${path}`,
+      `include: '${path}'`,
+      `include: "${path}"`
+    ].includes(value);
+  });
+}
 
 // src/config.ts
 import { closeSync, constants, existsSync, lstatSync, openSync, readFileSync } from "node:fs";
@@ -10765,6 +10804,7 @@ function parseConfig(root, text3) {
     stacks: strings(raw.stacks, "stacks"),
     regions: strings(raw.regions, "regions"),
     uiGlobs: projectPaths(root, "ui_globs", strings(raw.ui_globs, "ui_globs")),
+    testGlobs: projectPaths(root, "test_globs", strings(raw.test_globs, "test_globs")),
     ignoreGlobs: projectPaths(root, "ignore_globs", strings(raw.ignore_globs, "ignore_globs")),
     on: new Set(declaredOn.filter(isModuleId).filter((id) => !held(id))),
     off: stringTable(modules.off, "modules.off"),
@@ -10805,6 +10845,7 @@ var SETTINGS = /* @__PURE__ */ new Set([
   "regions",
   "ui_globs",
   "ignore_globs",
+  "test_globs",
   "modules",
   "docs",
   "web"
@@ -13113,6 +13154,7 @@ var findingsSchema = {
           message: { type: "string", minLength: 1 },
           severity: { enum: ["error", "warn"] },
           file: { type: "string", minLength: 1 },
+          target: { type: "string" },
           line: { type: "integer", minimum: 1 }
         }
       }
@@ -13340,7 +13382,7 @@ function checkContrast(cfg) {
     return fromToken(tokens, tokensFile, isBareName(value) ? `color.${mode}.${value}` : value);
   };
   const findings = [];
-  const finding2 = (rule, message) => findings.push({ rule, message, severity: "error", file: pairsFile });
+  const finding2 = (rule, message, target) => findings.push({ rule, message, severity: "error", file: pairsFile, target });
   for (const pair of pairs) {
     const modes2 = pair.mode ? [pair.mode] : isBareName(pair.fg) || isBareName(pair.bg) ? ["light", "dark"] : [void 0];
     for (const mode of modes2) {
@@ -13352,7 +13394,7 @@ function checkContrast(cfg) {
           `${pair.bg} is a translucent background; pair the foreground with the opaque colour underneath.`
         );
       if ("error" in fg || "error" in bg || errors.length > 0) {
-        finding2("contrast.unresolved", `${label2}: ${errors.join(" ")}`);
+        finding2("contrast.unresolved", `${label2}: ${errors.join(" ")}`, `${label2}: ${pair.kind}`);
         continue;
       }
       const a = fg.alpha;
@@ -13367,7 +13409,8 @@ function checkContrast(cfg) {
       const subject = isToken(pair.fg) || isToken(pair.bg) ? `${label2}: ${colours}` : colours;
       finding2(
         "contrast.fail",
-        `${subject} is ${formatRatio(ratio, pair.kind)}:1; ${pair.kind} needs ${MINIMUMS[pair.kind]}:1.`
+        `${subject} is ${formatRatio(ratio, pair.kind)}:1; ${pair.kind} needs ${MINIMUMS[pair.kind]}:1.`,
+        `${label2}: ${pair.kind}`
       );
     }
   }
@@ -15090,6 +15133,76 @@ function rowFindings(row, file, cameras) {
 import { mkdirSync as mkdirSync4 } from "node:fs";
 import { dirname as dirname5, join as join10 } from "node:path";
 
+// src/model-parser.ts
+var LIST_ID = /^\s*[-*+]\s+\*\*([MWD]\d+)\b/;
+var BOLD_TITLE = /^\s*[-*+]\s+\*\*[MWD]\d+\b[\s\S]*?\*\*/;
+var HEADING_ID = /^###\s+([MWD]\d+)\b/;
+var SECTION_END = /^#{1,3}\s/;
+var ITEM_END = /^\s*$|^\s*[-*+]\s|^#/;
+function visibleLines(md) {
+  const text3 = md.replace(/\r\n/g, "\n").replace(/<!--[\s\S]*?-->/g, (c2) => c2.replace(/[^\n]/g, " "));
+  let fence = null;
+  return text3.split("\n").map((line) => {
+    const marker = /^\s*(```|~~~)/.exec(line)?.[1];
+    if (fence === null && marker !== void 0) fence = marker;
+    else if (fence !== null && marker === fence) fence = null;
+    else if (fence === null) return line;
+    return "";
+  });
+}
+function block(lines2, start, end) {
+  const rest = lines2.slice(start + 1);
+  const stop = rest.findIndex((l) => end.test(l));
+  return [lines2[start], ...stop === -1 ? rest : rest.slice(0, stop)];
+}
+function scan(md) {
+  const lines2 = visibleLines(md);
+  const out = { rules: [], walks: [], decisions: [] };
+  lines2.forEach((text3, i) => {
+    const line = i + 1;
+    const heading = HEADING_ID.exec(text3)?.[1];
+    const id = heading ?? LIST_ID.exec(text3)?.[1];
+    if (id === void 0) return;
+    const body = block(lines2, i, heading === void 0 ? ITEM_END : SECTION_END);
+    const next = body.findIndex((l, n) => n > 0 && LIST_ID.test(l));
+    const own3 = next === -1 ? body : body.slice(0, next);
+    if (heading === void 0 && !BOLD_TITLE.test(own3.join("\n"))) return;
+    if (id.startsWith("M")) {
+      out.rules.push({ id, line });
+      return;
+    }
+    const item = own3.join(" ").replace(/\*/g, "");
+    if (id.startsWith("W")) {
+      const device = own3.map(
+        (l) => /^\s*device:[ \t]*(\S.*)$/.exec(l.replace(/^(\s*)\*device:\*/, "$1device:"))?.[1]
+      ).find((d) => d);
+      const passWhen = /\bPass\s+when:[ \t]*\S/.test(own3.join("\n").replace(/\*/g, ""));
+      out.walks.push({ id, line, device: device?.trim() ?? null, passWhen });
+      return;
+    }
+    const field2 = /\bSupersedes:\s*(.*?)\.?\s*(?:\bChanged:|$)/.exec(item)?.[1]?.trim();
+    out.decisions.push({ id, line, supersedes: field2 ? field2 : null });
+  });
+  return out;
+}
+function duplicates(s) {
+  const seen = /* @__PURE__ */ new Map();
+  for (const { id, line } of [...s.rules, ...s.walks, ...s.decisions].sort(
+    (a, b) => a.line - b.line
+  ))
+    seen.set(id, [...seen.get(id) ?? [], line]);
+  return [...seen].filter(([, lines2]) => lines2.length > 1).map(([id, lines2]) => ({ id, lines: lines2 }));
+}
+function parseModel(md) {
+  const s = scan(md);
+  return {
+    rules: s.rules.map((r) => r.id),
+    walks: s.walks.map(({ id, device, passWhen }) => ({ id, device: device !== null, passWhen })),
+    decisions: s.decisions.map(({ id, supersedes }) => ({ id, supersedes })),
+    duplicates: duplicates(s).map((d) => d.id)
+  };
+}
+
 // src/vendor.ts
 import { randomBytes as randomBytes2 } from "node:crypto";
 import {
@@ -15121,6 +15234,7 @@ function kitFiles(from) {
   return [
     "ds.mjs",
     "ds-hook.mjs",
+    ...CI_TEMPLATES.map((t) => join9("ci", t.name)),
     ...WEB_CONTEXT.map((f2) => join9("web", f2)),
     AGENTS_SECTION,
     ...templateFiles(from).map((f2) => join9(TEMPLATES, f2))
@@ -15130,7 +15244,7 @@ function templateFiles(from) {
   const dir = join9(from, TEMPLATES);
   return existsSync5(dir) ? globSync("**/*", { cwd: dir, withFileTypes: true }).filter((d) => d.isFile()).map((d) => relative3(dir, join9(d.parentPath, d.name))).sort() : [];
 }
-var OWNED = ["ds.mjs", "ds-hook.mjs", "web", "templates"];
+var OWNED = ["ds.mjs", "ds-hook.mjs", "web", "templates", "ci"];
 function preflight(root, rel, command = "vendor") {
   const parts = rel.split(sep);
   let at = root;
@@ -15247,12 +15361,24 @@ function vendor(io, words) {
 }
 
 // src/retrofit.ts
+var REPORT_MODULES = ["lint", "tokens", "invariants", "a11y", "perf", "visual"];
 var RETROFIT_HEADER = ["rule", "file", "match", "decision"];
 var DECISION = /^D\d+$/;
 var IMAGERY_RULE = /^imagery\.[a-z0-9-]+$/;
+var REPORT_RULE = /^(lint|tokens|contrast|invariants|a11y|perf|visual)(\.[a-z0-9-]+)+$/;
 var MODEL_ID = /^[MW]\d+$/;
 var MODEL_RULES = /* @__PURE__ */ new Set(["model.missing-w0", "model.untested"]);
-var moduleOf = (rule) => rule === "terms.forbidden" ? "terms" : IMAGERY_RULE.test(rule) ? "imagery" : MODEL_RULES.has(rule) ? "model" : null;
+var moduleOf = (rule) => /\.(command|invalid-findings|baseline-symlink|no-result|incomplete-audit|frame-tested)$/.test(
+  rule
+) ? null : rule === "terms.forbidden" ? "terms" : IMAGERY_RULE.test(rule) ? "imagery" : MODEL_RULES.has(rule) ? "model" : REPORT_RULE.test(rule) ? rule.startsWith("contrast.") ? "tokens" : rule.split(".")[0] : null;
+var findingHits = (findings) => findings.map((finding2) => ({ finding: finding2, match: finding2.target ?? finding2.message }));
+function applyResultRetrofit(cfg, checked, scanned, read) {
+  const module = checked.tool === "contrast" ? "tokens" : checked.tool;
+  return result(
+    checked.tool,
+    applyRetrofit(cfg, module, findingHits(checked.findings), scanned, read)
+  );
+}
 var key = (rule, file, match) => `${rule}	${file}	${match}`;
 var ESCAPES = { "\\": "\\", "	": "t", "\n": "n", "\r": "r" };
 var escapeMatch = (match) => match.replace(/[\\\t\n\r]/g, (c2) => `\\${ESCAPES[c2]}`);
@@ -15286,9 +15412,11 @@ function parseRetrofit(root, path, text3) {
     if (module === null)
       throw bad(
         line,
-        `"${rule}" can't be listed: only terms.forbidden, imagery, model.missing-w0 and model.untested findings can`
+        `"${rule}" can't be listed: expected a finding rule from terms, imagery, model, lint, tokens, contrast, invariants, a11y, perf or visual`
       );
-    const problem = pathProblem(root, file);
+    const web2 = ["invariants", "a11y", "perf", "visual"].includes(module);
+    const route = web2 && file.startsWith("/") && !file.startsWith("//") && !/[\t\r\n\\]/.test(file) && !file.split("/").some((s) => s === "." || s === "..");
+    const problem = route ? null : pathProblem(root, file);
     if (problem !== null) throw bad(line, `the file "${file}" ${problem}`);
     if (module === "terms" && match === "")
       throw bad(line, "a terms.forbidden row needs the matched text in match, exactly as found");
@@ -15318,12 +15446,16 @@ function loadRetrofit(cfg, read) {
 }
 function applyRetrofit(cfg, module, hits, scanned, read) {
   const rows = loadRetrofit(cfg, read).filter((r) => moduleOf(r.rule) === module);
-  const listed = new Map(rows.map((r) => [key(r.rule, r.file, r.match), r]));
+  const listed = /* @__PURE__ */ new Map();
+  for (const row of rows) {
+    const id = key(row.rule, row.file, row.match);
+    listed.set(id, [...listed.get(id) ?? [], row]);
+  }
   const used = /* @__PURE__ */ new Set();
   const out = [];
   let baselined = 0;
   for (const { finding: finding2, match } of hits) {
-    const row = finding2.file === void 0 ? void 0 : listed.get(key(finding2.rule, finding2.file, match));
+    const row = finding2.file === void 0 ? void 0 : listed.get(key(finding2.rule, finding2.file, match))?.shift();
     if (row === void 0) out.push(finding2);
     else {
       used.add(row);
@@ -15350,7 +15482,7 @@ function applyRetrofit(cfg, module, hits, scanned, read) {
     });
   return out;
 }
-var decisionIds = (text3) => new Set([...text3.matchAll(/^\s*[-*] \*\*(D\d+)\*\*/gm)].map((m) => m[1]));
+var decisionIds = (text3) => new Set(parseModel(text3).decisions.map((d) => d.id));
 function retrofitGrowth(cfg, at) {
   const path = retrofitPath(cfg);
   const head = at.text(path);
@@ -15362,8 +15494,11 @@ function retrofitGrowth(cfg, at) {
     if (before.kind === "present") base = parseRetrofit(cfg.root, path, before.text);
   } catch {
   }
-  const had = new Set(base.map((r) => key(r.rule, r.file, r.match)));
-  const added = rows.filter((r) => !had.has(key(r.rule, r.file, r.match)));
+  const had = /* @__PURE__ */ new Map();
+  for (const row of base) {
+    const id = key(row.rule, row.file, row.match);
+    had.set(id, (had.get(id) ?? 0) + 1);
+  }
   const docs = [cfg.docs.model ?? "docs/design/model.md", cfg.docs.brief ?? "docs/design/brief.md"];
   const ids = (on) => docs.flatMap((doc) => {
     const file = on.text(doc);
@@ -15371,6 +15506,12 @@ function retrofitGrowth(cfg, at) {
   });
   const earlier = new Set(ids(at.onBase()));
   const decided = new Set(ids(at).filter((id) => !earlier.has(id)));
+  const added = [...rows].sort((a, b) => Number(decided.has(a.decision)) - Number(decided.has(b.decision))).filter((r) => {
+    const id = key(r.rule, r.file, r.match);
+    const count2 = had.get(id) ?? 0;
+    had.set(id, Math.max(0, count2 - 1));
+    return count2 === 0;
+  });
   const findings = added.filter((r) => !decided.has(r.decision)).map((r) => ({
     rule: "retrofit.grown",
     severity: "error",
@@ -15401,26 +15542,29 @@ function addToRetrofit(cfg, decision, hits) {
 # Fix one, then delete its row. Each new row must cite the D entry that accepts it; see the kit's README.
 ${[...RETROFIT_HEADER, "note"].join("	")}
 `;
-  const listed = new Set(
-    parseRetrofit(cfg.root, path, text3).map((r) => key(r.rule, r.file, r.match))
-  );
-  const rows = /* @__PURE__ */ new Map();
+  const listed = /* @__PURE__ */ new Map();
+  for (const row of parseRetrofit(cfg.root, path, text3)) {
+    const id = key(row.rule, row.file, row.match);
+    listed.set(id, (listed.get(id) ?? 0) + 1);
+  }
+  const rows = [];
   for (const { finding: finding2, match } of hits) {
     const id = key(finding2.rule, finding2.file, match);
-    if (!listed.has(id))
-      rows.set(id, `${finding2.rule}	${finding2.file}	${escapeMatch(match)}	${decision}	`);
+    const count2 = listed.get(id) ?? 0;
+    if (count2 > 0) listed.set(id, count2 - 1);
+    else rows.push(`${finding2.rule}	${finding2.file}	${escapeMatch(match)}	${decision}	`);
   }
   const target = join10(cfg.root, path);
   mkdirSync4(dirname5(target), { recursive: true });
-  if (rows.size === 0) {
+  if (rows.length === 0) {
     if (file.kind !== "present") writeSafely(target, text3);
     return 0;
   }
   const body = text3.endsWith("\n") ? text3 : `${text3}
 `;
-  writeSafely(target, `${body}${[...rows.values()].join("\n")}
+  writeSafely(target, `${body}${rows.join("\n")}
 `);
-  return rows.size;
+  return rows.length;
 }
 var listable = (hits) => hits.filter(
   (h) => h.finding.severity === "error" && h.finding.file !== void 0 && moduleOf(h.finding.rule) !== null
@@ -15837,68 +15981,6 @@ function parseJUnit(xml) {
 
 // src/model.ts
 var DEFAULT_MODEL = "docs/design/model.md";
-var LIST_ID = /^\s*[-*+]\s+\*\*([MD]\d+)\*\*/;
-var WALK = /^###\s+(W\d+)\b/;
-var SECTION_END = /^#{1,3}\s/;
-var ITEM_END = /^\s*$|^\s*[-*+]\s|^#/;
-function visibleLines(md) {
-  const text3 = md.replace(/\r\n/g, "\n").replace(/<!--[\s\S]*?-->/g, (c2) => c2.replace(/[^\n]/g, " "));
-  let fence = null;
-  return text3.split("\n").map((line) => {
-    const marker = /^\s*(```|~~~)/.exec(line)?.[1];
-    if (fence === null && marker !== void 0) fence = marker;
-    else if (fence !== null && marker === fence) fence = null;
-    else if (fence === null) return line;
-    return "";
-  });
-}
-function block(lines2, start, end) {
-  const rest = lines2.slice(start + 1);
-  const stop = rest.findIndex((l) => end.test(l));
-  return [lines2[start], ...stop === -1 ? rest : rest.slice(0, stop)];
-}
-function scan(md) {
-  const lines2 = visibleLines(md);
-  const out = { rules: [], walks: [], decisions: [] };
-  lines2.forEach((text3, i) => {
-    const line = i + 1;
-    const walk3 = WALK.exec(text3)?.[1];
-    if (walk3 !== void 0) {
-      const body = block(lines2, i, SECTION_END);
-      const device = body.map((l) => /^\s*device:\s*(\S.*)$/.exec(l)?.[1]).find((d) => d);
-      const passWhen = body.some((l) => /^\s*Pass when:\s*\S/.test(l));
-      out.walks.push({ id: walk3, line, device: device?.trim() ?? null, passWhen });
-      return;
-    }
-    const id = LIST_ID.exec(text3)?.[1];
-    if (id === void 0) return;
-    if (id.startsWith("M")) {
-      out.rules.push({ id, line });
-      return;
-    }
-    const item = [text3.replace(LIST_ID, ""), ...block(lines2, i, ITEM_END).slice(1)].join(" ");
-    const field2 = /\bSupersedes:\s*(.*?)\.?\s*(?:\bChanged:|$)/.exec(item)?.[1]?.trim();
-    out.decisions.push({ id, line, supersedes: field2 ? field2 : null });
-  });
-  return out;
-}
-function duplicates(s) {
-  const seen = /* @__PURE__ */ new Map();
-  for (const { id, line } of [...s.rules, ...s.walks, ...s.decisions].sort(
-    (a, b) => a.line - b.line
-  ))
-    seen.set(id, [...seen.get(id) ?? [], line]);
-  return [...seen].filter(([, lines2]) => lines2.length > 1).map(([id, lines2]) => ({ id, lines: lines2 }));
-}
-function parseModel(md) {
-  const s = scan(md);
-  return {
-    rules: s.rules.map((r) => r.id),
-    walks: s.walks.map(({ id, device, passWhen }) => ({ id, device: device !== null, passWhen })),
-    decisions: s.decisions.map(({ id, supersedes }) => ({ id, supersedes })),
-    duplicates: duplicates(s).map((d) => d.id)
-  };
-}
 var names = (text3, id) => new RegExp(`(?<![\\p{L}\\p{N}])${id}(?![\\p{L}\\p{N}])`, "u").test(text3);
 var VERB = { passed: "passed", skipped: "was skipped", failed: "failed", error: "errored" };
 var describeTest = (t) => `"${t.name}" ${VERB[t.status]}`;
@@ -15999,7 +16081,7 @@ function modelHits(cfg, resultsGlobs2, read) {
       rule: "model.missing-w0",
       severity: "error",
       file: modelPath,
-      message: 'W0 is missing. Every model needs "### W0 First run and empty states": the first launch, every empty state and the path to the first useful result, with a "Pass when:" line.'
+      message: 'W0 is missing. Every model needs W0 as a heading ("### W0 First run and empty states") or bold bullet ("- **W0 First run and empty states.**"): the first launch, every empty state and the path to the first useful result, with "Pass when:" text.'
     });
   const results = readResults(cfg.root, resultsGlobs2);
   const tested = results.files > 0 && results.findings.length === 0;
@@ -16878,12 +16960,22 @@ function branchIdentity(cfg, at, named2) {
     );
   return branch;
 }
+var TEST_SOURCES = [
+  "**/*UITests/**",
+  "**/*Tests/**",
+  "**/*.test.*",
+  "**/*.spec.*",
+  "**/test/**",
+  "**/tests/**"
+];
 function independenceReasons(cfg, at, branch) {
   const reasons = [];
   const modelPath = cfg.docs.model ?? DEFAULT_MODEL2;
   if (committedFiles(cfg.root, at).includes(modelPath))
     reasons.push(`the diff changes ${modelPath}`);
-  const added = committedFiles(cfg.root, at, "A").filter((f2) => isUiFile(cfg, f2));
+  const added = committedFiles(cfg.root, at, "A").filter(
+    (f2) => isUiFile(cfg, f2) && ![...TEST_SOURCES, ...cfg.testGlobs].some((g) => matchesGlob4(f2, g))
+  );
   if (added.length > 0) reasons.push(`the diff adds ${added.join(", ")}`);
   if (branch !== null && branchGlobs(cfg).some((g) => matchesGlob4(branch, g)))
     reasons.push(`branch ${branch} matches [review].milestone_branches`);
@@ -31062,7 +31154,7 @@ function scanTerms(cfg, files, named2 = true) {
 // src/gate.ts
 var GATE_WEB_STEPS = ["invariants", "a11y"];
 var CI_WEB_STEPS = [...GATE_WEB_STEPS, "perf", "visual"];
-var RETROFIT_MODULES = ["termbase", "imagery", "model"];
+var RETROFIT_MODULES = ["termbase", "imagery", "model", ...REPORT_MODULES];
 var GATE_MODULES = [
   "lint",
   "termbase",
@@ -31112,7 +31204,13 @@ async function gated(cfg, opts, pinned2) {
   const routes = changed === null || Array.isArray(web2) ? void 0 : routesFor(web2, changed);
   const results = [config2];
   const step = async (id, run3) => {
-    if (cfg.on.has(id)) results.push(await run3());
+    if (cfg.on.has(id)) {
+      const checked = await run3();
+      if (REPORT_MODULES.includes(id) && !(opts.noDocker && inContainer(cfg, id))) {
+        const scanned = id === "lint" ? changed === null ? "all" : ui : id === "tokens" || pages === void 0 ? "all" : inContainer(cfg, id) ? routes ?? "all" : [...pages, ...routes ?? []];
+        results.push(applyResultRetrofit(cfg, checked, scanned, pinned2?.text));
+      } else results.push(checked);
+    }
   };
   const imagery2 = () => step("imagery", () => runImagery(cfg));
   const inputs = termInputs(cfg);
@@ -31329,7 +31427,7 @@ Commands:
   imagery                   Check real photos and videos: provenance, consent, canonical files
   imagery strip <src> <dst> Write the canonical copy of a photo or video
   retrofit add --decision <D>
-                            List every term and imagery finding that blocks now on the
+                            List existing findings from every enabled check on the
                             shrink-only retrofit list, citing decision <D>
 
 Options:
@@ -31577,7 +31675,11 @@ async function ciCommand(io, args, base) {
     const kit = at.text(CONFIG_PATH);
     if (kit.kind === "absent") continue;
     const cfg = admit(io, args, parseConfig(join15(repo.root, dir), kit.text), null);
-    return ciRun(io, args, cfg, (c2) => ci(c2, at, opts));
+    return ciRun(io, args, cfg, async (c2) => {
+      const results = await ci(c2, at, opts);
+      const drift = ciTemplateDrift(at);
+      return drift.length === 0 ? results : [...results, result("ci", drift)];
+    });
   }
   io.stderr.write(`ds: no ${CONFIG_PATH} in the commit, skipping
 `);
@@ -31629,6 +31731,16 @@ async function retrofit(io, args) {
       io.stderr.write(
         "ds: no test results were read, so every M and W counts as untested. Run the tests first to list only the ones that fail.\n"
       );
+  }
+  for (const id of REPORT_MODULES) {
+    if (!cfg.on.has(id)) continue;
+    const files = id === "lint" ? globSync4(cfg.uiGlobs, { cwd: cfg.root, exclude: cfg.ignoreGlobs, withFileTypes: true }).filter((f2) => f2.isFile()).map((f2) => relative7(cfg.root, join15(f2.parentPath, f2.name))) : void 0;
+    const checked = id === "tokens" ? checkContrast(cfg) : await runModule(cfg, id, { files, stderr: io.stderr });
+    const found = findingHits(checked.findings);
+    const accepted = new Set(listable(found).map((h) => h.finding));
+    const refused = checked.findings.filter((f2) => f2.severity === "error" && !accepted.has(f2));
+    if (refused.length > 0) return report(io, [result(id, refused)], args.json);
+    hits.push(...found);
   }
   const fresh = !existsSync9(join15(cfg.root, retrofitPath(cfg)));
   const added = addToRetrofit(cfg, decision, listable(hits));

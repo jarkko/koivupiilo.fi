@@ -7530,6 +7530,7 @@ var findingsSchema = {
           message: { type: "string", minLength: 1 },
           severity: { enum: ["error", "warn"] },
           file: { type: "string", minLength: 1 },
+          target: { type: "string" },
           line: { type: "integer", minimum: 1 }
         }
       }
@@ -9819,7 +9820,7 @@ var Grouped = class {
       return false;
     }
     this.groups.set(key, {
-      finding,
+      finding: { ...finding, target: subject },
       cores: /* @__PURE__ */ new Map([[core, [cell]]]),
       ...shot === void 0 ? {} : { shot }
     });
@@ -10223,6 +10224,7 @@ ${output}`}`
         (f) => ({
           ...f,
           file: route,
+          target: f.rule,
           message: f.rule === "perf.no-result" && results === void 0 ? `${f.message} lhci assert's output ends:
 ${tail(assert.output)}` : `${f.message}${reports}`
         })
@@ -10456,7 +10458,13 @@ async function check(out, cell, actual, root) {
     return `${kind[0]?.toUpperCase()}${kind.slice(1)}: ${OUT_LABEL2}/${rel}.`;
   }).join(" ");
   const finding = (rule, message) => [
-    { rule: `visual.${rule}`, severity: "error", file: cell.route, message }
+    {
+      rule: `visual.${rule}`,
+      severity: "error",
+      file: cell.route,
+      target: cellName(cell),
+      message
+    }
   ];
   const path = `${BASELINE_DIR}${name}`;
   const baseline = readBaseline(root, cell);

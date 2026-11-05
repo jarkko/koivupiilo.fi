@@ -29,11 +29,18 @@ regions = ["fi_FI", "en_GB"]
 # Required once the stack is decided.
 ui_globs = []
 # Phoenix: ui_globs = ["lib/**/*_web/**/*.{ex,heex}", "assets/css/**/*.css", "priv/gettext/**/*.po"]
+# Swift: ui_globs = ["macos/App/**/*.swift"]
 # Bridgetown: ui_globs = ["src/**/*.{erb,liquid,md,html}", "frontend/**/*.{css,js}"]
 
 # Never scanned or counted, even when they match ui_globs.
 ignore_globs = ["node_modules/**", "**/*.generated.*"]
 # Phoenix: ignore_globs = ["deps/**", "_build/**", "node_modules/**", "**/*.generated.*"]
+
+# Test sources do not count as added screens for review independence/critique.
+# They still count as UI for the review hash and defect review when ui_globs matches them.
+# Conventional *Tests/, *UITests/, test/, tests/, *.test.* and *.spec.* paths are built in.
+test_globs = []
+# Swift: test_globs = ["macos/AppTests/**/*.swift", "macos/AppUITests/**/*.swift"]
 
 [modules]
 on = [
@@ -84,6 +91,7 @@ checklist_interaction = "docs/design/checklists/interaction-craft.md"
 [model]
 # Phoenix: results = ["_build/test/junit/*.xml"]
 # Node: results = ["test-results/junit.xml"]
+# Swift: results = ["test-results/junit.xml"]  # xcbeautify JUnit; not .xcresult (adapters/README.md)
 # Phoenix: command = "mix test --only model"
 
 # Bootstrap step 6: visual direction and feel prototypes, run in a separate sandbox.

@@ -965,6 +965,7 @@ function parseConfig(root, text) {
     stacks: strings(raw.stacks, "stacks"),
     regions: strings(raw.regions, "regions"),
     uiGlobs: projectPaths(root, "ui_globs", strings(raw.ui_globs, "ui_globs")),
+    testGlobs: projectPaths(root, "test_globs", strings(raw.test_globs, "test_globs")),
     ignoreGlobs: projectPaths(root, "ignore_globs", strings(raw.ignore_globs, "ignore_globs")),
     on: new Set(declaredOn.filter(isModuleId).filter((id) => !held(id))),
     off: stringTable(modules.off, "modules.off"),

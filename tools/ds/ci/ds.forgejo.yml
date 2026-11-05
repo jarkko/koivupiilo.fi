@@ -1,0 +1,45 @@
+# Design kit: `ds ci` on every pull request. Copy to .forgejo/workflows/ds.yml.
+#
+# ds is vendored in tools/ds/, so the job needs no access to the design kit's repository.
+# The web modules (invariants, a11y, perf, visual) run in a local container: give this job a
+# runner label whose jobs run on a host with Docker (a `host` label in the runner's config), and
+# set runs-on to it. With the default `docker` label the job runs inside a container without
+# Docker: it runs every other check and warns that the web modules were NOT run. See the kit's
+# adapters/README.md, "CI runners need Docker".
+#
+# Short action names resolve against data.forgejo.org, Forgejo's mirror (DEFAULT_ACTIONS_URL). Artifacts
+# use Forgejo's own upload-artifact, which speaks the artifact protocol Forgejo serves.
+name: ds
+
+on:
+  pull_request:
+
+jobs:
+  ds:
+    runs-on: docker
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24
+      - name: ds ci
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_REF: ${{ github.head_ref }}
+        run: |
+          docker_flag=""
+          if ! docker info >/dev/null 2>&1; then
+            docker_flag="--no-docker"
+            echo "::warning::This runner has no Docker, so the web modules were NOT run. See adapters/README.md in the design kit, 'CI runners need Docker'."
+          fi
+          # shellcheck disable=SC2086 # docker_flag is empty or one word
+          node tools/ds/ds.mjs ci --base "$BASE_SHA" --branch "$HEAD_REF" $docker_flag
+      - uses: forgejo/upload-artifact@5d5d22a31266ced268874388b861e4b58bb5c2f3 # v4.3.1
+        if: always()
+        with:
+          name: ds-out
+          path: .ds/out/
+          if-no-files-found: ignore

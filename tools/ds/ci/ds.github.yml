@@ -1,0 +1,43 @@
+# Design kit: `ds ci` on every pull request. Copy to .github/workflows/ds.yml.
+#
+# ds is vendored in tools/ds/, so the job needs no access to the design kit's repository.
+# GitHub's hosted Ubuntu runners have Docker, so the web modules (invariants, a11y, perf,
+# visual) run there. On a runner without Docker the job runs every other check and warns that
+# the web modules were NOT run. See the kit's adapters/README.md, "CI runners need Docker".
+name: ds
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  ds:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24
+      - name: ds ci
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_REF: ${{ github.head_ref }}
+        run: |
+          docker_flag=""
+          if ! docker info >/dev/null 2>&1; then
+            docker_flag="--no-docker"
+            echo "::warning::This runner has no Docker, so the web modules were NOT run. See adapters/README.md in the design kit, 'CI runners need Docker'."
+          fi
+          # shellcheck disable=SC2086 # docker_flag is empty or one word
+          node tools/ds/ds.mjs ci --base "$BASE_SHA" --branch "$HEAD_REF" $docker_flag
+      - uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        if: always()
+        with:
+          name: ds-out
+          path: .ds/out/
+          if-no-files-found: ignore
