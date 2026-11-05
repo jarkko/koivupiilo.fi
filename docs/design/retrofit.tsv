@@ -409,3 +409,9 @@ visual.missing-baseline	/500.html	desktop-light-fi-FI	D20
 visual.missing-baseline	/500.html	desktop-light-en-GB	D20	
 visual.missing-baseline	/500.html	desktop-dark-fi-FI	D20	
 visual.missing-baseline	/500.html	desktop-dark-en-GB	D20	
+perf.largest-contentful-paint	/about/	perf.largest-contentful-paint	D20	
+perf.largest-contentful-paint	/portfolio/	perf.largest-contentful-paint	D20	
+perf.largest-contentful-paint	/services/	perf.largest-contentful-paint	D20	
+perf.largest-contentful-paint	/fi/tietoa/	perf.largest-contentful-paint	D20	
+perf.largest-contentful-paint	/fi/portfolio/	perf.largest-contentful-paint	D20	
+perf.largest-contentful-paint	/fi/palvelut/	perf.largest-contentful-paint	D20	
