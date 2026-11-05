@@ -1,0 +1,13 @@
+{
+  "name": "ds-web",
+  "private": true,
+  "description": "The ds-web runner's dependencies, installed in the image. Versions are exact; see README.md for licences.",
+  "type": "module",
+  "dependencies": {
+    "@lhci/cli": "0.15.1",
+    "axe-core": "4.14.0",
+    "pixelmatch": "8.0.0",
+    "playwright": "1.64.1",
+    "pngjs": "7.0.0"
+  }
+}

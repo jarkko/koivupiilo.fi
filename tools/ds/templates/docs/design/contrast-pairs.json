@@ -1,0 +1,10 @@
+{
+  "$comment": "Foreground/background pairs checked by `ds contrast`. Colours are hex, a token name resolved from the DTCG tokens file as color.<mode>.<name> (content resolves to color.light.content and color.dark.content), or a full token path such as brand.ink.$root. kind sets the minimum: text 4.5, large 3.0, ui 3.0. Without mode, a token pair is checked in both light and dark.",
+  "pairs": [
+    { "fg": "content", "bg": "surface", "kind": "text" },
+    { "fg": "content-muted", "bg": "surface", "kind": "text" },
+    { "fg": "accent", "bg": "surface", "kind": "large", "mode": "light" },
+    { "fg": "focus-ring", "bg": "surface", "kind": "ui" },
+    { "fg": "#ffffff", "bg": "#1f5f3f", "kind": "text" }
+  ]
+}

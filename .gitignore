@@ -47,3 +47,4 @@ yarn-debug.log*
 design/out/
 design/shots/
 design/assets/photos/_raw*/
+.ds/out/

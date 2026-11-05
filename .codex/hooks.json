@@ -1,0 +1,27 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "apply_patch|Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "r=\"$(git rev-parse --show-toplevel 2>/dev/null)\" || exit 0; [ -f \"$r/tools/ds/ds-hook.mjs\" ] || exit 0; exec node \"$r/tools/ds/ds-hook.mjs\" post-edit codex",
+            "timeout": 60
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "r=\"$(git rev-parse --show-toplevel 2>/dev/null)\" || exit 0; [ -f \"$r/tools/ds/ds-hook.mjs\" ] || exit 0; exec node \"$r/tools/ds/ds-hook.mjs\" stop codex",
+            "timeout": 300
+          }
+        ]
+      }
+    ]
+  }
+}
