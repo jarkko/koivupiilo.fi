@@ -135,7 +135,7 @@ forbid_columns = [] # concept/fi/en/notes hold required vocabulary, not forbid p
 [web]
 static_dir = "output"                 # a built site, served inside the container; or:
 # base_url = "http://host.docker.internal:4000"   # a running app
-build = "bundle exec rake deploy" # includes the frontend build, as deploy.yml does
+build = "BRIDGETOWN_ENV=production bundle exec rake deploy" # matches deploy.yml, including the frontend build
 # Current Bridgetown routes, including the bilingual legacy site and error pages.
 # D3/D19's redesign replaces these at launch; adoption does not publish the spike.
 routes = [

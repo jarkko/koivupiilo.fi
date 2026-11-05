@@ -23,8 +23,8 @@ jobs:
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
           node-version: 24
-      # Project prerequisites for [web].build = "bundle exec rake deploy".
-      - uses: ruby/setup-ruby@v1
+      # Project prerequisites for the production Bridgetown build.
+      - uses: ruby/setup-ruby@de492cf36cbab201753d720ce4f4e336cd688c94 # v1
         with:
           ruby-version: '3.3.0'
           bundler-cache: true
@@ -32,6 +32,7 @@ jobs:
         run: npm ci
       - name: ds ci
         env:
+          BRIDGETOWN_ENV: production
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
           HEAD_REF: ${{ github.head_ref }}
         run: |
