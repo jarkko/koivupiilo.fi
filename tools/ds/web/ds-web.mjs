@@ -7658,7 +7658,7 @@ function clipped(e, rects, report) {
     report(
       "unresolved-clip",
       "error",
-      `Text in ${e.selector} sits inside ${e.unmeasured.map(named).join(" and ")}, ${e.unmeasured.length > 1 ? "clips" : "a clip"} the kit can't measure, so it can't prove the text is whole${where === "" ? "" : `; ${where}`}. Use a clip it measures (overflow, contain: paint, or clip-path: inset(), rect() or xywh() without rotation or skew), or keep the text out of the clipped box. If the screenshot shows the text whole, or it is hidden on purpose, mark it data-ds-allow="unresolved-clip: <why>".`
+      `Text in ${e.selector} sits inside ${e.unmeasured.map(named).join(" and ")}, ${e.unmeasured.length > 1 ? "clips" : "a clip"} the kit can't measure, so it can't prove the text is whole${where === "" ? "" : `; ${where}`}. Use a clip it measures (overflow, contain: paint, or clip-path: inset(), rect() or xywh() without rotation or skew), or keep the text out of the clipped box. This is an audit gap, not proof that the text is clipped. For existing debt, inspect the screenshot and record a decision, then run ds retrofit add --decision D<n>; the list records this route and element selector and rejects new occurrences. If the text is whole or hidden on purpose, a local allowance is also possible: data-ds-allow="unresolved-clip: <why>".`
     );
     return;
   }
@@ -9259,17 +9259,25 @@ function mediaOf(m, inflight) {
     broken: m.images.filter((i) => i.complete && i.width === 0).map((i) => i.src)
   };
 }
+function persistentRequest(r) {
+  const type = r.resourceType();
+  if (type === "websocket" || type === "eventsource") return true;
+  if (type !== "fetch" && type !== "xhr") return false;
+  const url = new URL(r.url());
+  return url.pathname.endsWith("/longpoll") && url.searchParams.get("vsn") === "2.0.0";
+}
 function browserPage(page, source = probeScript()) {
   let started = 0;
-  let inflight = 0;
+  const inflight = /* @__PURE__ */ new Map();
   const images = /* @__PURE__ */ new Set();
   page.on("request", (r) => {
+    if (persistentRequest(r)) return;
     started++;
-    inflight++;
+    inflight.set(r, performance.now());
     if (r.resourceType() === "image") images.add(r);
   });
   const settled = (r) => {
-    inflight--;
+    inflight.delete(r);
     images.delete(r);
   };
   page.on("requestfinished", settled);
@@ -9287,7 +9295,15 @@ function browserPage(page, source = probeScript()) {
       return res === null ? null : res.status();
     },
     loaded: async () => await page.evaluate("document.readyState") === "complete",
-    network: () => ({ started, inflight }),
+    network: () => ({
+      started,
+      inflight: inflight.size,
+      pending: [...inflight].map(([r, at]) => ({
+        url: r.url(),
+        method: r.method(),
+        ageMs: performance.now() - at
+      }))
+    }),
     scroll: () => page.evaluate("({ height: document.documentElement.scrollHeight, viewport: innerHeight })"),
     scrollTo: async (y) => {
       await page.evaluate(`scrollTo({ top: ${y}, left: 0, behavior: "instant" })`);
@@ -9483,8 +9499,8 @@ function control(socketPath, token, path) {
 }
 async function relay(port, path) {
   const open = /* @__PURE__ */ new Set();
-  const server = createNetServer((client) => {
-    const upstream = connect2(path);
+  const server = createNetServer({ allowHalfOpen: true }, (client) => {
+    const upstream = connect2({ path, allowHalfOpen: true });
     for (const s of [client, upstream]) {
       open.add(s);
       s.on("error", () => {
@@ -9493,8 +9509,10 @@ async function relay(port, path) {
       });
       s.on("close", () => {
         open.delete(s);
-        client.destroy();
-        upstream.destroy();
+        if (!s.readableEnded) {
+          client.destroy();
+          upstream.destroy();
+        }
       });
     }
     client.pipe(upstream);
@@ -9673,14 +9691,27 @@ var Phase = class {
 };
 var STOPPED = ": the page stopped answering";
 var plural = (n, word) => `${n} ${word}${n === 1 ? "" : "s"}`;
+function waiting(page) {
+  const { inflight, pending } = page.network();
+  return inflight === 0 ? "" : `: ${plural(inflight, "request")} still in flight: ${pending.map((r) => `${r.method} ${r.url} (open for ${Math.floor(r.ageMs)} ms)`).join(", ")}`;
+}
+function navigationFinding(status, url, expected) {
+  const matches = expected === void 0 ? status !== null && status >= 200 && status <= 299 : status === expected;
+  return matches ? null : {
+    rule: "web.navigation",
+    severity: "error",
+    message: `${status === null ? "Got no response" : `Got HTTP ${status}`} from ${url}; a checked page must answer ${expected === void 0 ? "2xx" : `HTTP ${expected} as declared in [web.statuses]`}.`
+  };
+}
 async function ready(page, url, web, clock, t = TIMEOUTS, opts = {}) {
+  const timedOut = (phase2, ms, detail = "") => timeout(phase2, ms, `${detail}${waiting(page)}`);
   let status;
   try {
     status = await new Phase(clock, t.navigate).read(page.goto(url, t.navigate));
   } catch (e) {
     const err = e;
     if (err instanceof Late || err.name === "TimeoutError")
-      return [timeout("1 (navigate)", t.navigate, ` loading ${url}`)];
+      return [timedOut("1 (navigate)", t.navigate, ` loading ${url}`)];
     return [
       {
         rule: "web.navigation",
@@ -9689,14 +9720,9 @@ async function ready(page, url, web, clock, t = TIMEOUTS, opts = {}) {
       }
     ];
   }
-  if (status === null || status < 200 || status > 299)
-    return [
-      {
-        rule: "web.navigation",
-        severity: "error",
-        message: `${status === null ? "Got no response" : `Got HTTP ${status}`} from ${url}; a checked page must answer 2xx.`
-      }
-    ];
+  const route = url.replace(/^https?:\/\/[^/?#]+\/?/i, "/");
+  const navigation = navigationFinding(status, url, web.statuses?.[route]);
+  if (navigation !== null) return [navigation];
   let phase = "";
   let budget = new Phase(clock, 0);
   const enter = (name, ms) => {
@@ -9706,7 +9732,7 @@ async function ready(page, url, web, clock, t = TIMEOUTS, opts = {}) {
   try {
     return await settle();
   } catch (e) {
-    if (e instanceof Late) return [timeout(phase, budget.ms, STOPPED)];
+    if (e instanceof Late) return [timedOut(phase, budget.ms, STOPPED)];
     throw e;
   }
   async function settle() {
@@ -9723,14 +9749,7 @@ async function ready(page, url, web, clock, t = TIMEOUTS, opts = {}) {
       return clock.now() - quietSince >= QUIET_MS;
     });
     if (!idle) {
-      const { inflight } = page.network();
-      return [
-        timeout(
-          phase,
-          t.load,
-          inflight > 0 ? `: ${plural(inflight, "request")} still in flight` : ""
-        )
-      ];
+      return [timedOut(phase, t.load)];
     }
     enter("3 (lazy content)", t.lazy);
     let y = 0;
@@ -9740,7 +9759,7 @@ async function ready(page, url, web, clock, t = TIMEOUTS, opts = {}) {
       y = Math.min(y + viewport, height - viewport);
       await budget.read(page.scrollTo(y));
       await clock.sleep(SCROLL_WAIT_MS);
-      if (budget.over()) return [timeout(phase, t.lazy)];
+      if (budget.over()) return [timedOut(phase, t.lazy)];
     }
     await budget.read(page.scrollTo(0));
     enter("4 (fonts and images)", t.media);
@@ -9750,11 +9769,11 @@ async function ready(page, url, web, clock, t = TIMEOUTS, opts = {}) {
       return media.fonts && media.pending.length === 0;
     });
     if (!settled) {
-      const waiting = [
+      const waiting2 = [
         ...media.fonts ? [] : ["fonts still loading"],
         ...media.pending.length > 0 ? [`${plural(media.pending.length, "image")} still loading: ${media.pending.join(", ")}`] : []
       ];
-      return [timeout(phase, t.media, `: ${waiting.join(", ")}`)];
+      return [timedOut(phase, t.media, `: ${waiting2.join(", ")}`)];
     }
     const findings = media.broken.map((src) => ({
       rule: "web.broken-image",
@@ -9765,7 +9784,7 @@ async function ready(page, url, web, clock, t = TIMEOUTS, opts = {}) {
     if (signal !== null) {
       enter("5 ([web].ready)", t.ready);
       if (!await budget.until(() => budget.read(page.signal(signal))))
-        return [...findings, timeout(phase, t.ready, `: ${signal} never held`)];
+        return [...findings, timedOut(phase, t.ready, `: ${signal} never held`)];
     }
     if (opts.live === true) return findings;
     enter("6 (freeze motion)", t.stable);
@@ -10155,6 +10174,17 @@ function nodeLhci() {
 var KEEP = 64 * 1024;
 var QUOTED = 2e3;
 var tail = (output) => output.trimEnd().slice(-QUOTED);
+async function errorRouteStatus(url, flags) {
+  const { chromium } = await import("playwright");
+  const browser = await chromium.launch({ args: flags });
+  try {
+    const page = await browser.newPage();
+    const response = await page.goto(url, { waitUntil: "domcontentloaded", timeout: 3e4 });
+    return response === null ? null : response.status();
+  } finally {
+    await browser.close();
+  }
+}
 function routeSlug2(route) {
   const slug = route.replace(/^\/+|\/+$/g, "").replaceAll("/", "-");
   if (slug === "") return "index";
@@ -10189,6 +10219,34 @@ function perfHandler(opts) {
       await net.close();
     }
     async function runRoute(route, scratch) {
+      const status = web.statuses?.[route];
+      if (status !== void 0) {
+        const url = `${net.base}${route}`;
+        let actual;
+        try {
+          actual = await (opts.navigate ?? errorRouteStatus)(url, net.flags);
+        } catch (e) {
+          return [
+            {
+              rule: "web.navigation",
+              severity: "error",
+              file: route,
+              message: `Could not load ${url}: ${e.message.split("\n")[0]}`
+            }
+          ];
+        }
+        const failed = navigationFinding(actual, url, status);
+        if (failed !== null) return [{ ...failed, file: route }];
+        if (status >= 400)
+          return [
+            {
+              rule: "perf.error-route-skipped",
+              severity: "warn",
+              file: route,
+              message: `Perf skipped for declared HTTP ${status} route: Lighthouse treats error documents as failed navigation (ERRORED_DOCUMENT_REQUEST), so its budgets are not measured. The response status was checked; invariants, a11y and visual still check the page.`
+            }
+          ];
+      }
       const rc = join4(scratch, "lighthouserc.json");
       const config = lhciConfig(web, route, `${net.base}${route}`, {
         chromePath,
