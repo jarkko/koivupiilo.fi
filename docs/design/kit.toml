@@ -32,7 +32,10 @@ ui_globs = ["src/**", "frontend/**", "design/**/*.{mjs,html,css,svg,png,jpg,woff
 # Bridgetown: ui_globs = ["src/**/*.{erb,liquid,md,html}", "frontend/**/*.{css,js}"]
 
 # Never scanned or counted, even when they match ui_globs.
-ignore_globs = ["node_modules/**", "output/**", "design/out/**", "design/shots/**", "**/*.generated.*"]
+# src/kvnn/ is not Koivupiilo's UI: the KVNN client mockups, served as plain files at /kvnn/
+# (copied byte for byte from the kvnn repository's mockups/ at commit 9f8f6d7, without content.md).
+# They are outside the review hash, the term check and every web check.
+ignore_globs = ["node_modules/**", "output/**", "design/out/**", "design/shots/**", "**/*.generated.*", "src/kvnn/**"]
 # Phoenix: ignore_globs = ["deps/**", "_build/**", "node_modules/**", "**/*.generated.*"]
 
 [modules]
@@ -149,7 +152,9 @@ routes = [
 # Third-party origins the pages may load. Everything else is blocked and reported.
 allow_origins = []                    # [{ origin = "https://…", reason = "why" }]
 # Files that can change a rendered page (default: ui_globs).
-render_globs = ["src/**", "frontend/**", "config/**", "plugins/**", "Gemfile*", "package*.json", "Rakefile", "*.config.*"]
+# src/ is listed folder by folder so that src/kvnn/ (see ignore_globs) re-runs no web check:
+# a new folder under src/ that renders into a page has to be added here.
+render_globs = ["src/*", "src/_*/**", "src/fonts/**", "frontend/**", "config/**", "plugins/**", "Gemfile*", "package*.json", "Rakefile", "*.config.*"]
 #
 # Which routes a changed file affects. A rendering file matching no entry affects every route.
 # [web.route_map]
