@@ -2,7 +2,7 @@
 
 [J: yksi lause minämuodossa siitä, mitä valmennat ja kenelle]
 
-## Lentopallo ja rantalentopallo
+## Lentopallo ja beach volley
 
 [vahvista: mitä tarjoat seuroille ja joukkueille, esim. harjoitusten suunnittelu, leirit, klinikat]
 
@@ -19,9 +19,9 @@
 - Lentopalloliiton Lounais-Suomen alueen tyttöjen päävalmentaja [vahvista: yhä voimassa]
 - Lentopalloliiton Kauden seuratoimija 2025
 - LP Kangasalan puheenjohtaja [vahvista: yhä voimassa]
-- Pyynikin rantalentopalloturnausten järjestäjä
-- Rantalentopallon sääntöjen 2025–2028 suomennos: [sääntökirja](https://jarkko.github.io/beach-volleyball-rules-fi/docs/)
-- [vahvista: SM-mitalit rantalentopallovalmentajana, vuodet; pareja ei nimetä ilman lupaa]
+- Pyynikin beach volley -turnausten järjestäjä
+- Beach volleyn sääntöjen 2025–2028 suomennos: [sääntökirja](https://jarkko.github.io/beach-volleyball-rules-fi/docs/)
+- [vahvista: SM-mitalit beach volley -valmentajana, vuodet; pareja ei nimetä ilman lupaa]
 
 ## Näin aloitetaan
 

@@ -48,14 +48,14 @@ fi:
       studio_text: Koivupiilo tekee omia ohjelmistojaan ja ottaa harkiten vastaan ohjelmistoprojekteja.
       studio_link: Lue lisää Studiosta
       coaching_heading: Valmennus
-      coaching_text: Koivupiilo valmentaa lentopalloa ja rantalentopalloa, kouluttaa valmentajia ja auttaa uusia esihenkilöitä alkuun.
+      coaching_text: Koivupiilo valmentaa lentopalloa ja beach volleyta, kouluttaa valmentajia ja auttaa uusia esihenkilöitä alkuun.
       coaching_link: Lue lisää valmennuksesta
       company_heading: Yritys
       company_text: Koivupiilon perusti vuonna 2024 Jarkko Laine, ohjelmistokehittäjä ja lentopallovalmentaja. Nimi tulee koivikosta Kangasalla.
       company_link: Lue lisää yrityksestä
     work:
       title: Työt – Koivupiilo
-      description: "Koivupiilon julkaisemat ja tekeillä olevat työt: Kvitti, Rantalentopallokartta, Magistician ja muut. Jokaisesta kerrotaan, missä vaiheessa se on."
+      description: "Koivupiilon julkaisemat ja tekeillä olevat työt: Kvitti, Beach volley -kartta, Magistician ja muut. Jokaisesta kerrotaan, missä vaiheessa se on."
       heading: Työt
       lede: Koivupiilon julkaisemat ja tekeillä olevat työt.
       list_label: Kaikki työt
@@ -80,12 +80,12 @@ fi:
       start_text: Kirjoita lyhyesti, mitä olet rakentamassa, missä vaiheessa se on ja mihin mennessä tarvitset apua.
     coaching:
       title: Valmennus – Koivupiilo
-      description: Lentopallon ja rantalentopallon valmennusta, valmentajakoulutusta ja valmennusta uusille esihenkilöille. Valmentajana Jarkko Laine.
+      description: Lentopallon ja beach volleyn valmennusta, valmentajakoulutusta ja valmennusta uusille esihenkilöille. Valmentajana Jarkko Laine.
       heading: Valmennus
       byline: Jarkko Laine, Koivupiilon perustaja
       offers_heading: Mitä valmennan
       offers:
-        - name: Lentopallo ja rantalentopallo
+        - name: Lentopallo ja beach volley
           line: Valmennusta seuroille, joukkueille ja pelaajille.
         - name: Valmentajakoulutus
           line: Koulutusta seurojen valmentajille.
@@ -95,12 +95,12 @@ fi:
       background_heading: Taustaa
       background:
         - text: Lentopalloliiton Kauden seuratoimija 2025
-        - text: Pyynikin rantalentopalloturnausten järjestäjä
-        - link: Rantalentopallon sääntöjen 2025–2028 suomennos
+        - text: Pyynikin beach volley -turnausten järjestäjä
+        - link: Beach volleyn sääntöjen 2025–2028 suomennos
           url: https://jarkko.github.io/beach-volleyball-rules-fi/docs/
           after: " (kesken)"
       software_heading: Ohjelmistot
-      software_text: Koivupiilo tekee lentopalloon myös ohjelmistoja. Niitä ovat esimerkiksi Magistician ja Rantalentopallokartta.
+      software_text: Koivupiilo tekee lentopalloon myös ohjelmistoja. Niitä ovat esimerkiksi Magistician ja Beach volley -kartta.
       software_link: Katso työt
       start_heading: Näin aloitetaan
       start_text: Kirjoita, mikä seura tai joukkue on kyseessä, mitä haluatte kehittää ja milloin.

@@ -118,7 +118,7 @@ globs = ["docs/**/*.md", "**/*.po", "**/*.xcstrings", "**/*.strings"]
 # pins other columns names them here, e.g. ["fi_old", "en_old"]. Columns of required wording
 # (the term a text must use) are not forbid columns: a termbase with only those sets [] and
 # checks them with its own command.
-forbid_columns = [] # concept/fi/en/notes hold required vocabulary, not forbid patterns
+forbid_columns = ["forbid"] # concept/fi/en/notes hold required vocabulary; forbid holds superseded wording
 # A richer vocabulary file the termbase is generated from (README, "A termbase made from a richer file"):
 # source = "docs/design/sanasto.tsv"
 # generate = "node tools/termbase.mjs"

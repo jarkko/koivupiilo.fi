@@ -34,10 +34,10 @@ items:
     status: pilot
     url: https://kvitti.fi
   - name:
-      fi: Rantalentopallokartta
+      fi: Beach volley -kartta
       en: Beach volleyball court map
     line:
-      fi: "Pohjoismaiden ja Baltian rantalentopallohallit ja -\u2060kentät samalla kartalla."  # U+2060 keeps the hyphen with its word
+      fi: "Pohjoismaiden ja Baltian beach volley -hallit ja -kentät samalla kartalla."
       en: Beach volleyball halls and courts in the Nordic and Baltic countries on one map.
     status: live
     url: https://jlaine.net/beach-volleyball/
@@ -60,7 +60,7 @@ items:
       fi: BeachDesk
       en: BeachDesk
     line:
-      fi: Varaukset ja myynti rantalentopallohalleille.
+      fi: Varaukset ja myynti beach volley -halleille.
       en: Bookings and sales for beach volleyball halls.
     status: development
   - name:
@@ -71,10 +71,10 @@ items:
       en: Orienteering course planning on a Mac.
     status: development
   - name:
-      fi: Rantalentopallosäännöt
+      fi: Beach volleyn säännöt
       en: Beach volleyball rules
     line:
-      fi: FIVB:n rantalentopallosääntöjen 2025–2028 suomennos.
+      fi: FIVB:n beach volleyn sääntöjen 2025–2028 suomennos.
       en: A Finnish translation of the FIVB beach volleyball rules for 2025–2028.
     status: progress
     url: https://jarkko.github.io/beach-volleyball-rules-fi/
