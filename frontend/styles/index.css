@@ -147,17 +147,22 @@ main {
   flex: 1;
 }
 
-/* The trunk grows once, on arrival from outside the site (see _head.erb). */
+/* The trunk grows once, on arrival from outside the site (see _head.erb).
+   It grows through the first screenful, so the whole 900 ms is in view; the rest
+   of the trunk is already there when the reader scrolls. */
 @media (prefers-reduced-motion: no-preference) {
   .arrive .trunk {
-    clip-path: inset(0 0 100% 0);
-    animation: grow var(--grow-time) var(--grow-ease) var(--grow-delay) forwards;
+    animation: grow var(--grow-time) var(--grow-ease) var(--grow-delay) backwards;
   }
 }
 
 @keyframes grow {
+  from {
+    clip-path: inset(0 0 100% 0);
+  }
+
   to {
-    clip-path: inset(0 0 0 0);
+    clip-path: inset(0 0 calc(100% - 100vh) 0);
   }
 }
 
@@ -336,11 +341,11 @@ main {
   display: inline-block;
   width: var(--icon);
   height: var(--icon);
-  margin-inline-start: 0.3em;
+  margin-inline-start: var(--icon-gap);
   fill: none;
   stroke: currentColor;
   stroke-width: var(--lenticel-line);
-  vertical-align: 0.05em;
+  vertical-align: var(--icon-shift);
 }
 
 /* ---------- Page intro ---------- */
@@ -393,6 +398,11 @@ main {
 
   .row-label {
     padding-block-start: var(--sp-1);
+  }
+
+  /* A list row's first line sits lower (its name is a 44 px target); the label follows it. */
+  .row--list .row-label {
+    padding-block-start: var(--sp-3);
   }
 }
 
@@ -491,11 +501,18 @@ main {
 
 /* ---------- Facts: the register strip and the company table ---------- */
 
+/* Two columns until the desktop width (one where two don't fit), then all four in a row. */
 .facts {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(var(--fact-min), max-content));
+  grid-template-columns: repeat(auto-fit, minmax(max(var(--fact-min), 40%), 1fr));
   gap: var(--sp-4) var(--sp-7);
   font-variant-numeric: tabular-nums;
+}
+
+@media (min-width: 62rem) {
+  .facts {
+    grid-template-columns: repeat(auto-fit, minmax(var(--fact-min), max-content));
+  }
 }
 
 .facts dt,
@@ -508,6 +525,7 @@ main {
 .facts dd {
   font-size: var(--fs-meta);
   font-weight: var(--w-medium);
+  overflow-wrap: anywhere;
 }
 
 /* A link in a facts cell takes the whole cell as its target. */
@@ -529,7 +547,10 @@ main {
 .table {
   max-width: var(--measure);
   font-variant-numeric: tabular-nums;
-  border-block-start: var(--hair) solid var(--rule);
+}
+
+.table div:first-child {
+  padding-block-start: 0;
 }
 
 .table div {

@@ -9,7 +9,7 @@
   <p class="lede"><%= page.lede %></p>
 </section>
 
-<section class="row" aria-labelledby="list">
+<section class="row row--list" aria-labelledby="list">
   <h2 class="row-label" id="list"><%= page.list_label %></h2>
   <div class="row-body">
     <%= render "work_list", items: site.data.work.items, label: page.list_label %>
