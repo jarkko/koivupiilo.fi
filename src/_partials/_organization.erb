@@ -1,0 +1,20 @@
+<%
+  c = site.data.company
+  address = { "@type" => "PostalAddress", "addressLocality" => c.city, "addressCountry" => "FI" }
+  # The street address is public only on the company page (D18).
+  address.merge!("streetAddress" => c.street, "postalCode" => c.postal_code) if data.page_id == "company"
+  org = {
+    "@context" => "https://schema.org",
+    "@type" => "Organization",
+    "name" => c.name,
+    "legalName" => c.legal_name,
+    "url" => "#{c.url}/",
+    "email" => c.email,
+    "foundingDate" => c.registered.iso8601,
+    "founder" => { "@type" => "Person", "name" => c.founder },
+    "identifier" => { "@type" => "PropertyValue", "propertyID" => "Y-tunnus", "value" => c.business_id },
+    "address" => address,
+    "sameAs" => [c.ytj_url],
+  }
+%>
+<script type="application/ld+json"><%= JSON.generate(org).gsub("</", "<\\/").html_safe %></script>

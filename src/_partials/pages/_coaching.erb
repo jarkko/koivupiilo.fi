@@ -1,0 +1,52 @@
+<%
+  lang = data.lang
+  t = site.data.copy[lang]
+  page = t.pages.coaching
+%>
+<section class="intro">
+  <h1 class="display"><%= page.heading %></h1>
+  <p class="lede"><%= site.data.jarkko.coaching_sentence[lang] %></p>
+  <p class="byline"><%= page.byline %></p>
+</section>
+
+<section class="row" aria-labelledby="offers">
+  <h2 class="row-label" id="offers"><%= page.offers_heading %></h2>
+  <div class="row-body">
+    <ul class="work work--plain" aria-label="<%= page.offers_heading %>">
+      <% page.offers.each do |offer| %>
+      <li>
+        <h3 class="work-name"><%= offer.name %></h3>
+        <p class="work-line"><%= offer.line %></p>
+      </li>
+      <% end %>
+    </ul>
+    <p class="note"><%= page.offers_note %></p>
+  </div>
+</section>
+
+<section class="row" aria-labelledby="background">
+  <h2 class="row-label" id="background"><%= page.background_heading %></h2>
+  <div class="row-body">
+    <ul class="plain-list">
+      <% page.background.each do |item| %>
+      <li><% if item.url %><a href="<%= item.url %>"><%= item.link %><%= render "ext" %></a><%= item.after %><% else %><%= item.text %><% end %></li>
+      <% end %>
+    </ul>
+  </div>
+</section>
+
+<section class="row" aria-labelledby="software">
+  <h2 class="row-label" id="software"><%= page.software_heading %></h2>
+  <div class="row-body">
+    <p class="prose"><%= page.software_text %></p>
+    <p><a class="link" href="<%= site.data.routes.work[lang] %>"><%= page.software_link %></a></p>
+  </div>
+</section>
+
+<section class="row" aria-labelledby="start">
+  <h2 class="row-label" id="start"><%= page.start_heading %></h2>
+  <div class="row-body">
+    <p class="large"><%= page.start_text %></p>
+    <%= render "mail", label: t.mail.coaching_cta, subject: t.mail.coaching_subject %>
+  </div>
+</section>

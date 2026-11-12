@@ -1,0 +1,23 @@
+<%
+  lang = data.lang
+  t = site.data.copy[lang]
+%>
+<!doctype html>
+<html lang="<%= lang %>">
+  <head>
+    <%= render "head" %>
+  </head>
+  <body>
+    <a class="skip" href="#main"><%= t.site.skip %></a>
+    <div class="page">
+      <div class="trunk" aria-hidden="true"></div>
+      <div class="page-body">
+        <%= render "header" %>
+        <main id="main" tabindex="-1">
+          <%= yield %>
+        </main>
+        <%= render "footer" %>
+      </div>
+    </div>
+  </body>
+</html>

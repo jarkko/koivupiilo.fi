@@ -1,0 +1,22 @@
+---
+layout: default
+lang: fi
+page_id: notfound
+permalink: /404.html
+---
+<%
+  copy = site.data.copy
+  routes = site.data.routes.front
+%>
+<div class="notfound">
+  <section>
+    <h1><%= copy.fi.pages.notfound.heading %></h1>
+    <p><%= copy.fi.pages.notfound.text %></p>
+    <p><a class="link" href="<%= routes.fi %>"><%= copy.fi.pages.notfound.link %></a></p>
+  </section>
+  <section lang="en">
+    <h2><%= copy.en.pages.notfound.heading %></h2>
+    <p><%= copy.en.pages.notfound.text %></p>
+    <p><a class="link" href="<%= routes.en %>"><%= copy.en.pages.notfound.link %></a></p>
+  </section>
+</div>

@@ -1,0 +1,46 @@
+<%
+  lang = data.lang
+  t = site.data.copy[lang]
+  page = t.pages.studio
+  j = site.data.jarkko
+%>
+<section class="intro">
+  <h1 class="display"><%= page.heading %></h1>
+  <p class="lede"><%= page.lede %></p>
+</section>
+
+<section class="row" aria-labelledby="products">
+  <h2 class="row-label" id="products"><%= page.products_heading %></h2>
+  <div class="row-body">
+    <p class="prose"><%= page.products_text %></p>
+    <p><a class="link" href="<%= site.data.routes.work[lang] %>"><%= page.products_link %></a></p>
+  </div>
+</section>
+
+<section class="row" aria-labelledby="stack">
+  <h2 class="row-label" id="stack"><%= page.stack_heading %></h2>
+  <div class="row-body">
+    <p class="prose"><%= page.stack_text %></p>
+    <ul class="plain-list">
+      <% page.stack.each do |item| %>
+      <li><%= item %></li>
+      <% end %>
+    </ul>
+  </div>
+</section>
+
+<section class="row" aria-labelledby="capacity">
+  <h2 class="row-label" id="capacity"><%= page.capacity_heading %></h2>
+  <div class="row-body">
+    <p class="prose"><%= j.capacity[lang] %></p>
+  </div>
+</section>
+
+<section class="row" aria-labelledby="start">
+  <h2 class="row-label" id="start"><%= page.start_heading %></h2>
+  <div class="row-body">
+    <p class="large"><%= page.start_text %></p>
+    <p class="prose"><%= j.reply[lang] %></p>
+    <%= render "mail", label: t.mail.studio_cta, subject: t.mail.studio_subject %>
+  </div>
+</section>

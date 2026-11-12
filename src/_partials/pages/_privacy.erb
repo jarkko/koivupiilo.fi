@@ -1,0 +1,37 @@
+<%
+  lang = data.lang
+  t = site.data.copy[lang]
+  page = t.pages.privacy
+  c = site.data.company
+  updated = data.updated
+  date = lang == "fi" ? updated.strftime("%-d.%-m.%Y") : updated.strftime("%-d %B %Y")
+  mail = %(<a href="mailto:#{c.email}">#{c.email}</a>)
+  city = [c.city, t.facts.country].reject(&:empty?).join(", ")
+%>
+<section class="intro">
+  <h1 class="display"><%= page.heading %></h1>
+  <p class="lede"><%= page.lede %></p>
+</section>
+
+<% page.sections.each_with_index do |section, i| %>
+<section class="row" aria-labelledby="s<%= i + 1 %>">
+  <h2 class="row-label" id="s<%= i + 1 %>"><%= section.heading %></h2>
+  <div class="row-body">
+    <div class="prose">
+      <% section.text.each do |paragraph| %>
+      <p><%= ERB::Util.html_escape(paragraph).sub("%{email}", mail).html_safe %></p>
+      <% end %>
+    </div>
+  </div>
+</section>
+<% end %>
+
+<section class="row" aria-labelledby="controller">
+  <h2 class="row-label" id="controller"><%= page.controller_heading %></h2>
+  <div class="row-body">
+    <div class="prose">
+      <p><%= c.legal_name %>, <%= t.facts.business_id %> <%= c.business_id %>, <%= city %><br><%= mail.html_safe %></p>
+      <p class="note"><%= page.updated % { date: date } %></p>
+    </div>
+  </div>
+</section>

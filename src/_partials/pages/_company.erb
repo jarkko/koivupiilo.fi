@@ -1,0 +1,51 @@
+<%
+  lang = data.lang
+  t = site.data.copy[lang]
+  page = t.pages.company
+  c = site.data.company
+  registered = lang == "fi" ? c.registered.strftime("%-d.%-m.%Y") : c.registered.strftime("%-d %B %Y")
+  address = ["#{c.street}, #{c.postal_code} #{c.city}", t.facts.country].reject(&:empty?).join(", ")
+%>
+<section class="intro">
+  <h1 class="display"><%= page.heading %></h1>
+</section>
+
+<section class="row" aria-labelledby="facts">
+  <h2 class="row-label" id="facts"><%= page.facts_heading %></h2>
+  <div class="row-body">
+    <dl class="table">
+      <div><dt><%= t.facts.name %></dt><dd><%= c.legal_name %></dd></div>
+      <div><dt><%= t.facts.business_id %></dt><dd><a href="<%= c.ytj_url %>" aria-label="<%= c.business_id %>, <%= t.facts.ytj %>"><%= c.business_id %><%= render "ext" %></a></dd></div>
+      <div><dt><%= t.facts.registered %></dt><dd><%= registered %></dd></div>
+      <div><dt><%= t.facts.address %></dt><dd><%= address %></dd></div>
+      <div><dt><%= t.facts.email %></dt><dd><a href="mailto:<%= c.email %>"><%= c.email %></a></dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="row" aria-labelledby="founder">
+  <h2 class="row-label" id="founder"><%= page.founder_heading %></h2>
+  <div class="row-body">
+    <p class="prose"><%= page.founder_text %></p>
+    <blockquote class="voice">
+      <p><%= site.data.jarkko.founder_note[lang] %></p>
+      <footer><%= c.founder %></footer>
+    </blockquote>
+    <ul class="plain-list">
+      <% page.founder_cv.each do |item| %>
+      <li><%= item.text %><% if item.url %><a href="<%= item.url %>"><%= item.link %><%= render "ext" %></a><% end %></li>
+      <% end %>
+    </ul>
+  </div>
+</section>
+
+<section class="row" aria-labelledby="name">
+  <h2 class="row-label" id="name"><%= page.name_heading %></h2>
+  <div class="row-body">
+    <div class="prose">
+      <% page.name_text.each do |paragraph| %>
+      <p><%= paragraph %></p>
+      <% end %>
+    </div>
+  </div>
+</section>
