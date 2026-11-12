@@ -1,0 +1,3028 @@
+{
+  "head": "38aea0d57eb87f064d29e486d705332dc33f1b21",
+  "pages": [
+    {
+      "id": "front",
+      "locale": "fi-FI",
+      "url": "/",
+      "status": 200,
+      "width": 390,
+      "scrollWidth": 390,
+      "body": "17px",
+      "head": "Koivupiilo tekee ohjelmistoja urheiluseuroille ja pienyrityksille sekä valmentaa lentopalloa.",
+      "links": [
+        {
+          "text": "Siirry sisältöön",
+          "href": "#main"
+        },
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "Työt",
+          "href": "/tyot/"
+        },
+        {
+          "text": "Studio",
+          "href": "/studio/"
+        },
+        {
+          "text": "Valmennus",
+          "href": "/valmennus/"
+        },
+        {
+          "text": "Yritys",
+          "href": "/yritys/"
+        },
+        {
+          "text": "English",
+          "href": "/en/"
+        },
+        {
+          "text": "Kvitti",
+          "href": "https://kvitti.fi"
+        },
+        {
+          "text": "Beach volley -⁠kartta",
+          "href": "https://jlaine.net/beach-volleyball/"
+        },
+        {
+          "text": "Magistician",
+          "href": "https://magistician.com"
+        },
+        {
+          "text": "Kaikki työt",
+          "href": "/tyot/"
+        },
+        {
+          "text": "Lue lisää Studiosta",
+          "href": "/studio/"
+        },
+        {
+          "text": "Lue lisää valmennuksesta",
+          "href": "/valmennus/"
+        },
+        {
+          "text": "Lue lisää yrityksestä",
+          "href": "/yritys/"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "English",
+          "href": "/en/"
+        }
+      ],
+      "lang": "fi",
+      "hreflang": [
+        {
+          "lang": "fi",
+          "href": "https://koivupiilo.fi/"
+        },
+        {
+          "lang": "en",
+          "href": "https://koivupiilo.fi/en/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://koivupiilo.fi/"
+        }
+      ],
+      "text": "Siirry sisältöön\nTyöt\nStudio\nValmennus\nYritys\nEnglish\nKoivupiilo tekee ohjelmistoja urheiluseuroille ja pienyrityksille sekä valmentaa lentopalloa.\nYritys\nKoivupiilo Oy\nY-tunnus\n3458206-1\nPaikkakunta\nKangasala\nPerustettu\n2024\nTyöt\nKvitti\n\nKulukorvaukset yhdistyksille ja pienyrityksille: kuitit, kilometrit, päivärahat ja hyväksyntä.\n\npilotissa\n\nBeach volley -⁠kartta\n\nPohjoismaiden ja Baltian beach volley -⁠hallit ja -⁠kentät samalla kartalla.\n\nkäytössä\n\nMagistician\n\nLentopallo-ottelun videosta kosketuskohtaiset tilastot ja videoklipit.\n\nkehitteillä\n\nHyppymittaus\n\nHyppykorkeus iPhonella, lentopalloverkon antenni mittana.\n\nkehitteillä\n\nKaikki työt\n\nStudio\n\nKoivupiilo tekee omia ohjelmistojaan ja ottaa harkiten vastaan ohjelmistoprojekteja.\n\nLue lisää Studiosta\n\nValmennus\n\nKoivupiilo valmentaa lentopalloa ja beach volleyta, kouluttaa valmentajia ja auttaa uusia esihenkilöitä alkuun.\n\nLue lisää valmennuksesta\n\nYritys\n\nKoivupiilon perusti vuonna 2024 Jarkko Laine, ohjelmistokehittäjä ja lentopallovalmentaja. Nimi tulee koivikosta Kangasalla.\n\nLue lisää yrityksestä\n\nYritys\nKoivupiilo Oy\nY-tunnus\n3458206-1\nPaikkakunta\nKangasala\nSähköposti\njarkko@koivupiilo.fi\nTietosuoja\nEnglish",
+      "small": [],
+      "clip": [],
+      "firstFocus": {
+        "text": "Siirry sisältöön",
+        "tag": "A",
+        "outline": "rgb(164, 72, 42) solid 2px",
+        "box": {
+          "x": 44,
+          "y": 8,
+          "width": 132.0625,
+          "height": 44,
+          "top": 8,
+          "right": 176.0625,
+          "bottom": 52,
+          "left": 44
+        }
+      },
+      "skipDestination": "main"
+    },
+    {
+      "id": "front",
+      "locale": "en-GB",
+      "url": "/en/",
+      "status": 200,
+      "width": 390,
+      "scrollWidth": 390,
+      "body": "17px",
+      "head": "Koivupiilo makes software for sports clubs and small companies, and coaches volleyball.",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "",
+          "href": "/en/"
+        },
+        {
+          "text": "Work",
+          "href": "/en/work/"
+        },
+        {
+          "text": "Studio",
+          "href": "/en/studio/"
+        },
+        {
+          "text": "Coaching",
+          "href": "/en/coaching/"
+        },
+        {
+          "text": "Company",
+          "href": "/en/company/"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/"
+        },
+        {
+          "text": "Kvitti",
+          "href": "https://kvitti.fi"
+        },
+        {
+          "text": "Beach volleyball court map",
+          "href": "https://jlaine.net/beach-volleyball/"
+        },
+        {
+          "text": "Magistician",
+          "href": "https://magistician.com"
+        },
+        {
+          "text": "All work",
+          "href": "/en/work/"
+        },
+        {
+          "text": "More about Studio",
+          "href": "/en/studio/"
+        },
+        {
+          "text": "More about coaching",
+          "href": "/en/coaching/"
+        },
+        {
+          "text": "More about the company",
+          "href": "/en/company/"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/"
+        }
+      ],
+      "lang": "en",
+      "hreflang": [
+        {
+          "lang": "fi",
+          "href": "https://koivupiilo.fi/"
+        },
+        {
+          "lang": "en",
+          "href": "https://koivupiilo.fi/en/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://koivupiilo.fi/"
+        }
+      ],
+      "text": "Skip to content\nWork\nStudio\nCoaching\nCompany\nSuomeksi\nKoivupiilo makes software for sports clubs and small companies, and coaches volleyball.\nCompany\nKoivupiilo Oy\nBusiness ID\n3458206-1\nLocation\nKangasala, Finland\nFounded\n2024\nWork\nKvitti\n\nExpense claims for clubs and small companies: receipts, mileage, per diems and approval.\n\nin pilot\n\nBeach volleyball court map\n\nBeach volleyball halls and courts in the Nordic and Baltic countries on one map.\n\nin use\n\nMagistician\n\nPer-touch statistics and video clips from the video of a volleyball match.\n\nin development\n\nJump measurement\n\nJump height on an iPhone, with the antenna of a volleyball net as the measure.\n\nin development\n\nAll work\n\nStudio\n\nKoivupiilo builds its own software and takes on selected software projects.\n\nMore about Studio\n\nCoaching\n\nKoivupiilo coaches volleyball and beach volleyball, trains coaches and helps new team leads get started.\n\nMore about coaching\n\nCompany\n\nJarkko Laine, a software developer and volleyball coach, founded Koivupiilo in 2024. The name comes from a birch grove in Kangasala.\n\nMore about the company\n\nCompany\nKoivupiilo Oy\nBusiness ID\n3458206-1\nLocation\nKangasala, Finland\nEmail\njarkko@koivupiilo.fi\nPrivacy\nSuomeksi",
+      "small": [],
+      "clip": [],
+      "firstFocus": {
+        "text": "Skip to content",
+        "tag": "A",
+        "outline": "rgb(164, 72, 42) solid 2px",
+        "box": {
+          "x": 44,
+          "y": 8,
+          "width": 134.015625,
+          "height": 44,
+          "top": 8,
+          "right": 178.015625,
+          "bottom": 52,
+          "left": 44
+        }
+      },
+      "skipDestination": "main"
+    },
+    {
+      "id": "work",
+      "locale": "fi-FI",
+      "url": "/tyot/",
+      "status": 200,
+      "width": 390,
+      "scrollWidth": 390,
+      "body": "17px",
+      "head": "Työt",
+      "links": [
+        {
+          "text": "Siirry sisältöön",
+          "href": "#main"
+        },
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "Työt",
+          "href": "/tyot/"
+        },
+        {
+          "text": "Studio",
+          "href": "/studio/"
+        },
+        {
+          "text": "Valmennus",
+          "href": "/valmennus/"
+        },
+        {
+          "text": "Yritys",
+          "href": "/yritys/"
+        },
+        {
+          "text": "English",
+          "href": "/en/work/"
+        },
+        {
+          "text": "Kvitti",
+          "href": "https://kvitti.fi"
+        },
+        {
+          "text": "Beach volley -⁠kartta",
+          "href": "https://jlaine.net/beach-volleyball/"
+        },
+        {
+          "text": "Magistician",
+          "href": "https://magistician.com"
+        },
+        {
+          "text": "Beach volleyn säännöt",
+          "href": "https://jarkko.github.io/beach-volleyball-rules-fi/"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "English",
+          "href": "/en/work/"
+        }
+      ],
+      "lang": "fi",
+      "hreflang": [
+        {
+          "lang": "fi",
+          "href": "https://koivupiilo.fi/tyot/"
+        },
+        {
+          "lang": "en",
+          "href": "https://koivupiilo.fi/en/work/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://koivupiilo.fi/tyot/"
+        }
+      ],
+      "text": "Siirry sisältöön\nTyöt\nStudio\nValmennus\nYritys\nEnglish\nTyöt\n\nKoivupiilon julkaisemat ja tekeillä olevat työt.\n\nKaikki työt\nKvitti\n\nKulukorvaukset yhdistyksille ja pienyrityksille: kuitit, kilometrit, päivärahat ja hyväksyntä.\n\npilotissa\n\nBeach volley -⁠kartta\n\nPohjoismaiden ja Baltian beach volley -⁠hallit ja -⁠kentät samalla kartalla.\n\nkäytössä\n\nMagistician\n\nLentopallo-ottelun videosta kosketuskohtaiset tilastot ja videoklipit.\n\nkehitteillä\n\nHyppymittaus\n\nHyppykorkeus iPhonella, lentopalloverkon antenni mittana.\n\nkehitteillä\n\nBeachDesk\n\nVaraukset ja myynti beach volley -⁠halleille.\n\nkehitteillä\n\nRatametsuri\n\nSuunnistusratojen suunnittelu Macilla.\n\nkehitteillä\n\nBeach volleyn säännöt\n\nFIVB:n beach volleyn sääntöjen 2025–2028 suomennos.\n\nkesken\n\nTilat on tarkistettu 2.11.2026.\n\nYritys\nKoivupiilo Oy\nY-tunnus\n3458206-1\nPaikkakunta\nKangasala\nSähköposti\njarkko@koivupiilo.fi\nTietosuoja\nEnglish",
+      "small": [],
+      "clip": [],
+      "firstFocus": {
+        "text": "Siirry sisältöön",
+        "tag": "A",
+        "outline": "rgb(164, 72, 42) solid 2px",
+        "box": {
+          "x": 44,
+          "y": 8,
+          "width": 132.0625,
+          "height": 44,
+          "top": 8,
+          "right": 176.0625,
+          "bottom": 52,
+          "left": 44
+        }
+      },
+      "skipDestination": "main"
+    },
+    {
+      "id": "work",
+      "locale": "en-GB",
+      "url": "/en/work/",
+      "status": 200,
+      "width": 390,
+      "scrollWidth": 390,
+      "body": "17px",
+      "head": "Work",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "",
+          "href": "/en/"
+        },
+        {
+          "text": "Work",
+          "href": "/en/work/"
+        },
+        {
+          "text": "Studio",
+          "href": "/en/studio/"
+        },
+        {
+          "text": "Coaching",
+          "href": "/en/coaching/"
+        },
+        {
+          "text": "Company",
+          "href": "/en/company/"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/tyot/"
+        },
+        {
+          "text": "Kvitti",
+          "href": "https://kvitti.fi"
+        },
+        {
+          "text": "Beach volleyball court map",
+          "href": "https://jlaine.net/beach-volleyball/"
+        },
+        {
+          "text": "Magistician",
+          "href": "https://magistician.com"
+        },
+        {
+          "text": "Beach volleyball rules",
+          "href": "https://jarkko.github.io/beach-volleyball-rules-fi/"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/tyot/"
+        }
+      ],
+      "lang": "en",
+      "hreflang": [
+        {
+          "lang": "fi",
+          "href": "https://koivupiilo.fi/tyot/"
+        },
+        {
+          "lang": "en",
+          "href": "https://koivupiilo.fi/en/work/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://koivupiilo.fi/tyot/"
+        }
+      ],
+      "text": "Skip to content\nWork\nStudio\nCoaching\nCompany\nSuomeksi\nWork\n\nWork Koivupiilo has released or is building.\n\nAll work\nKvitti\n\nExpense claims for clubs and small companies: receipts, mileage, per diems and approval.\n\nin pilot\n\nBeach volleyball court map\n\nBeach volleyball halls and courts in the Nordic and Baltic countries on one map.\n\nin use\n\nMagistician\n\nPer-touch statistics and video clips from the video of a volleyball match.\n\nin development\n\nJump measurement\n\nJump height on an iPhone, with the antenna of a volleyball net as the measure.\n\nin development\n\nBeachDesk\n\nBookings and sales for beach volleyball halls.\n\nin development\n\nRatametsuri\n\nOrienteering course planning on a Mac.\n\nin development\n\nBeach volleyball rules\n\nA Finnish translation of the FIVB beach volleyball rules for 2025–2028.\n\nin progress\n\nStatuses checked on 2 November 2026.\n\nCompany\nKoivupiilo Oy\nBusiness ID\n3458206-1\nLocation\nKangasala, Finland\nEmail\njarkko@koivupiilo.fi\nPrivacy\nSuomeksi",
+      "small": [],
+      "clip": [],
+      "firstFocus": {
+        "text": "Skip to content",
+        "tag": "A",
+        "outline": "rgb(164, 72, 42) solid 2px",
+        "box": {
+          "x": 44,
+          "y": 8,
+          "width": 134.015625,
+          "height": 44,
+          "top": 8,
+          "right": 178.015625,
+          "bottom": 52,
+          "left": 44
+        }
+      },
+      "skipDestination": "main"
+    },
+    {
+      "id": "studio",
+      "locale": "fi-FI",
+      "url": "/studio/",
+      "status": 200,
+      "width": 390,
+      "scrollWidth": 390,
+      "body": "17px",
+      "head": "Studio",
+      "links": [
+        {
+          "text": "Siirry sisältöön",
+          "href": "#main"
+        },
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "Työt",
+          "href": "/tyot/"
+        },
+        {
+          "text": "Studio",
+          "href": "/studio/"
+        },
+        {
+          "text": "Valmennus",
+          "href": "/valmennus/"
+        },
+        {
+          "text": "Yritys",
+          "href": "/yritys/"
+        },
+        {
+          "text": "English",
+          "href": "/en/studio/"
+        },
+        {
+          "text": "Kaikki työt",
+          "href": "/tyot/"
+        },
+        {
+          "text": "Kirjoita Koivupiilolle",
+          "href": "mailto:jarkko@koivupiilo.fi?subject=Ohjelmistoprojekti"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "English",
+          "href": "/en/studio/"
+        }
+      ],
+      "lang": "fi",
+      "hreflang": [
+        {
+          "lang": "fi",
+          "href": "https://koivupiilo.fi/studio/"
+        },
+        {
+          "lang": "en",
+          "href": "https://koivupiilo.fi/en/studio/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://koivupiilo.fi/studio/"
+        }
+      ],
+      "text": "Siirry sisältöön\nTyöt\nStudio\nValmennus\nYritys\nEnglish\nStudio\n\nKoivupiilo tekee omia ohjelmistojaan ja ottaa harkiten vastaan ohjelmistoprojekteja.\n\nOmat tuotteet\n\nKoivupiilo tekee ensisijaisesti omia tuotteitaan. Niitä ovat esimerkiksi Kvitti ja Magistician.\n\nKaikki työt\n\nTekniikka\n\nOmissa tuotteissaan Koivupiilo käyttää näitä tekniikoita:\n\nElixir ja Phoenix\nSwift ja SwiftUI\nReact Native\nPython\nTilanne nyt\n\nOmat tuotteet menevät edelle. Asiakastyön Koivupiilo ottaa vastaan, kun työ ja aikataulu sopivat. Tilanteen voi kysyä sähköpostilla.\n\nNäin aloitetaan\n\nKirjoita lyhyesti, mitä olet rakentamassa, missä vaiheessa se on ja mihin mennessä tarvitset apua.\n\nViestit lukee ja niihin vastaa Jarkko Laine.\n\nKirjoita Koivupiilolle\njarkko@koivupiilo.fi\n\nYritys\nKoivupiilo Oy\nY-tunnus\n3458206-1\nPaikkakunta\nKangasala\nSähköposti\njarkko@koivupiilo.fi\nTietosuoja\nEnglish",
+      "small": [],
+      "clip": [],
+      "firstFocus": {
+        "text": "Siirry sisältöön",
+        "tag": "A",
+        "outline": "rgb(164, 72, 42) solid 2px",
+        "box": {
+          "x": 44,
+          "y": 8,
+          "width": 132.0625,
+          "height": 44,
+          "top": 8,
+          "right": 176.0625,
+          "bottom": 52,
+          "left": 44
+        }
+      },
+      "skipDestination": "main"
+    },
+    {
+      "id": "studio",
+      "locale": "en-GB",
+      "url": "/en/studio/",
+      "status": 200,
+      "width": 390,
+      "scrollWidth": 390,
+      "body": "17px",
+      "head": "Studio",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "",
+          "href": "/en/"
+        },
+        {
+          "text": "Work",
+          "href": "/en/work/"
+        },
+        {
+          "text": "Studio",
+          "href": "/en/studio/"
+        },
+        {
+          "text": "Coaching",
+          "href": "/en/coaching/"
+        },
+        {
+          "text": "Company",
+          "href": "/en/company/"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/studio/"
+        },
+        {
+          "text": "All work",
+          "href": "/en/work/"
+        },
+        {
+          "text": "Write to Koivupiilo",
+          "href": "mailto:jarkko@koivupiilo.fi?subject=Software%20project"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/studio/"
+        }
+      ],
+      "lang": "en",
+      "hreflang": [
+        {
+          "lang": "fi",
+          "href": "https://koivupiilo.fi/studio/"
+        },
+        {
+          "lang": "en",
+          "href": "https://koivupiilo.fi/en/studio/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://koivupiilo.fi/studio/"
+        }
+      ],
+      "text": "Skip to content\nWork\nStudio\nCoaching\nCompany\nSuomeksi\nStudio\n\nKoivupiilo builds its own software and takes on selected software projects.\n\nOwn products\n\nKoivupiilo builds its own products first. Kvitti and Magistician are two of them.\n\nAll work\n\nStack\n\nKoivupiilo builds its own products with:\n\nElixir and Phoenix\nSwift and SwiftUI\nReact Native\nPython\nRight now\n\nKoivupiilo's own products come first. It takes on client work when the project and the schedule fit. Ask by email.\n\nHow to start\n\nWrite a few lines about what you are building, how far along it is and when you need help by.\n\nJarkko Laine reads the messages and answers them.\n\nWrite to Koivupiilo\njarkko@koivupiilo.fi\n\nCompany\nKoivupiilo Oy\nBusiness ID\n3458206-1\nLocation\nKangasala, Finland\nEmail\njarkko@koivupiilo.fi\nPrivacy\nSuomeksi",
+      "small": [],
+      "clip": [],
+      "firstFocus": {
+        "text": "Skip to content",
+        "tag": "A",
+        "outline": "rgb(164, 72, 42) solid 2px",
+        "box": {
+          "x": 44,
+          "y": 8,
+          "width": 134.015625,
+          "height": 44,
+          "top": 8,
+          "right": 178.015625,
+          "bottom": 52,
+          "left": 44
+        }
+      },
+      "skipDestination": "main"
+    },
+    {
+      "id": "coaching",
+      "locale": "fi-FI",
+      "url": "/valmennus/",
+      "status": 200,
+      "width": 390,
+      "scrollWidth": 390,
+      "body": "17px",
+      "head": "Valmennus",
+      "links": [
+        {
+          "text": "Siirry sisältöön",
+          "href": "#main"
+        },
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "Työt",
+          "href": "/tyot/"
+        },
+        {
+          "text": "Studio",
+          "href": "/studio/"
+        },
+        {
+          "text": "Valmennus",
+          "href": "/valmennus/"
+        },
+        {
+          "text": "Yritys",
+          "href": "/yritys/"
+        },
+        {
+          "text": "English",
+          "href": "/en/coaching/"
+        },
+        {
+          "text": "Beach volleyn sääntöjen 2025–2028 suomennos",
+          "href": "https://jarkko.github.io/beach-volleyball-rules-fi/docs/"
+        },
+        {
+          "text": "Katso työt",
+          "href": "/tyot/"
+        },
+        {
+          "text": "Kirjoita Jarkolle",
+          "href": "mailto:jarkko@koivupiilo.fi?subject=Valmennus"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "English",
+          "href": "/en/coaching/"
+        }
+      ],
+      "lang": "fi",
+      "hreflang": [
+        {
+          "lang": "fi",
+          "href": "https://koivupiilo.fi/valmennus/"
+        },
+        {
+          "lang": "en",
+          "href": "https://koivupiilo.fi/en/coaching/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://koivupiilo.fi/valmennus/"
+        }
+      ],
+      "text": "Siirry sisältöön\nTyöt\nStudio\nValmennus\nYritys\nEnglish\nValmennus\n\nValmennan lentopalloa ja beach volleyta, koulutan valmentajia ja autan uusia esihenkilöitä alkuun.\n\nJarkko Laine, Koivupiilon perustaja\n\nMitä valmennan\nLentopallo ja beach volley\n\nValmennusta seuroille, joukkueille ja pelaajille.\n\nValmentajakoulutus\n\nKoulutusta seurojen valmentajille.\n\nUusien esihenkilöiden valmennus\n\nValmennusta niille, jotka ovat juuri aloittaneet tiimin vetäjänä.\n\nSisällöstä ja laajuudesta sovitaan joka kerta erikseen.\n\nTaustaa\nLentopalloliiton Kauden seuratoimija 2025\nPyynikin beach volley -⁠turnausten järjestäjä\nBeach volleyn sääntöjen 2025–2028 suomennos (kesken)\nOhjelmistot\n\nKoivupiilo tekee lentopalloon myös ohjelmistoja. Niitä ovat esimerkiksi Magistician ja Beach volley -⁠kartta.\n\nKatso työt\n\nNäin aloitetaan\n\nKirjoita, mikä seura tai joukkue on kyseessä, mitä haluatte kehittää ja milloin.\n\nKirjoita Jarkolle\njarkko@koivupiilo.fi\n\nYritys\nKoivupiilo Oy\nY-tunnus\n3458206-1\nPaikkakunta\nKangasala\nSähköposti\njarkko@koivupiilo.fi\nTietosuoja\nEnglish",
+      "small": [],
+      "clip": [],
+      "firstFocus": {
+        "text": "Siirry sisältöön",
+        "tag": "A",
+        "outline": "rgb(164, 72, 42) solid 2px",
+        "box": {
+          "x": 44,
+          "y": 8,
+          "width": 132.0625,
+          "height": 44,
+          "top": 8,
+          "right": 176.0625,
+          "bottom": 52,
+          "left": 44
+        }
+      },
+      "skipDestination": "main"
+    },
+    {
+      "id": "coaching",
+      "locale": "en-GB",
+      "url": "/en/coaching/",
+      "status": 200,
+      "width": 390,
+      "scrollWidth": 390,
+      "body": "17px",
+      "head": "Coaching",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "",
+          "href": "/en/"
+        },
+        {
+          "text": "Work",
+          "href": "/en/work/"
+        },
+        {
+          "text": "Studio",
+          "href": "/en/studio/"
+        },
+        {
+          "text": "Coaching",
+          "href": "/en/coaching/"
+        },
+        {
+          "text": "Company",
+          "href": "/en/company/"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/valmennus/"
+        },
+        {
+          "text": "Finnish translation of the beach volleyball rules for 2025–2028",
+          "href": "https://jarkko.github.io/beach-volleyball-rules-fi/docs/"
+        },
+        {
+          "text": "See the work",
+          "href": "/en/work/"
+        },
+        {
+          "text": "Write to Jarkko",
+          "href": "mailto:jarkko@koivupiilo.fi?subject=Coaching"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/valmennus/"
+        }
+      ],
+      "lang": "en",
+      "hreflang": [
+        {
+          "lang": "fi",
+          "href": "https://koivupiilo.fi/valmennus/"
+        },
+        {
+          "lang": "en",
+          "href": "https://koivupiilo.fi/en/coaching/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://koivupiilo.fi/valmennus/"
+        }
+      ],
+      "text": "Skip to content\nWork\nStudio\nCoaching\nCompany\nSuomeksi\nCoaching\n\nI coach volleyball and beach volleyball, train coaches and help new team leads get started.\n\nJarkko Laine, founder of Koivupiilo\n\nWhat I coach\nVolleyball and beach volleyball\n\nCoaching for clubs, teams and players.\n\nCoach education\n\nTraining for club coaches.\n\nCoaching for new team leads\n\nFor people who have just started leading a team.\n\nI agree the content and scope with each club, team or person separately.\n\nBackground\nClub official of the season 2025 (Kauden seuratoimija), Finnish Volleyball Association\nOrganiser of the Pyynikki beach volleyball tournaments\nFinnish translation of the beach volleyball rules for 2025–2028 (in progress)\nSoftware\n\nKoivupiilo also builds software for volleyball. Magistician and the beach volleyball court map are two examples.\n\nSee the work\n\nHow to start\n\nTell me which club or team this is about, what you want to develop and when.\n\nWrite to Jarkko\njarkko@koivupiilo.fi\n\nCompany\nKoivupiilo Oy\nBusiness ID\n3458206-1\nLocation\nKangasala, Finland\nEmail\njarkko@koivupiilo.fi\nPrivacy\nSuomeksi",
+      "small": [],
+      "clip": [],
+      "firstFocus": {
+        "text": "Skip to content",
+        "tag": "A",
+        "outline": "rgb(164, 72, 42) solid 2px",
+        "box": {
+          "x": 44,
+          "y": 8,
+          "width": 134.015625,
+          "height": 44,
+          "top": 8,
+          "right": 178.015625,
+          "bottom": 52,
+          "left": 44
+        }
+      },
+      "skipDestination": "main"
+    },
+    {
+      "id": "company",
+      "locale": "fi-FI",
+      "url": "/yritys/",
+      "status": 200,
+      "width": 390,
+      "scrollWidth": 390,
+      "body": "17px",
+      "head": "Yritys",
+      "links": [
+        {
+          "text": "Siirry sisältöön",
+          "href": "#main"
+        },
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "Työt",
+          "href": "/tyot/"
+        },
+        {
+          "text": "Studio",
+          "href": "/studio/"
+        },
+        {
+          "text": "Valmennus",
+          "href": "/valmennus/"
+        },
+        {
+          "text": "Yritys",
+          "href": "/yritys/"
+        },
+        {
+          "text": "English",
+          "href": "/en/company/"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "jlaine.net",
+          "href": "https://jlaine.net"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "English",
+          "href": "/en/company/"
+        }
+      ],
+      "lang": "fi",
+      "hreflang": [
+        {
+          "lang": "fi",
+          "href": "https://koivupiilo.fi/yritys/"
+        },
+        {
+          "lang": "en",
+          "href": "https://koivupiilo.fi/en/company/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://koivupiilo.fi/yritys/"
+        }
+      ],
+      "text": "Siirry sisältöön\nTyöt\nStudio\nValmennus\nYritys\nEnglish\nYritys\nYritystiedot\nNimi\nKoivupiilo Oy\nY-tunnus\n3458206-1\nRekisteröity\n26.6.2024\nOsoite\nSopentie, 36200 Kangasala\nSähköposti\njarkko@koivupiilo.fi\nPerustaja\n\nKoivupiilon perusti Jarkko Laine vuonna 2024.\n\nOlen ohjelmistokehittäjä ja lentopallovalmentaja, ja Koivupiilo on yritys, jonka kautta teen kumpaakin työtä.\n\nJarkko Laine\nOhjelmistokehittäjä, Selma Financen lead developer vuodesta 2018\nLentopalloliiton Kauden seuratoimija 2025\nKirjoittaa valmentamisesta ja kestävyysurheilusta: jlaine.net\nNimi tulee koivikosta\n\nKoivupiilo on koivikko Kangasalla. Paikalle antoivat nimen lapset, ja myöhemmin siihen rakennettiin talo. Yritys sai nimensä samasta paikasta.\n\nSivujen reunassa kulkeva tuohi on jäljennetty valokuvasta, joka on otettu yhdestä koivikon koivusta.\n\nYritys\nKoivupiilo Oy\nY-tunnus\n3458206-1\nPaikkakunta\nKangasala\nSähköposti\njarkko@koivupiilo.fi\nTietosuoja\nEnglish",
+      "small": [],
+      "clip": [],
+      "firstFocus": {
+        "text": "Siirry sisältöön",
+        "tag": "A",
+        "outline": "rgb(164, 72, 42) solid 2px",
+        "box": {
+          "x": 44,
+          "y": 8,
+          "width": 132.0625,
+          "height": 44,
+          "top": 8,
+          "right": 176.0625,
+          "bottom": 52,
+          "left": 44
+        }
+      },
+      "skipDestination": "main"
+    },
+    {
+      "id": "company",
+      "locale": "en-GB",
+      "url": "/en/company/",
+      "status": 200,
+      "width": 390,
+      "scrollWidth": 390,
+      "body": "17px",
+      "head": "Company",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "",
+          "href": "/en/"
+        },
+        {
+          "text": "Work",
+          "href": "/en/work/"
+        },
+        {
+          "text": "Studio",
+          "href": "/en/studio/"
+        },
+        {
+          "text": "Coaching",
+          "href": "/en/coaching/"
+        },
+        {
+          "text": "Company",
+          "href": "/en/company/"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/yritys/"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "jlaine.net",
+          "href": "https://jlaine.net"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/yritys/"
+        }
+      ],
+      "lang": "en",
+      "hreflang": [
+        {
+          "lang": "fi",
+          "href": "https://koivupiilo.fi/yritys/"
+        },
+        {
+          "lang": "en",
+          "href": "https://koivupiilo.fi/en/company/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://koivupiilo.fi/yritys/"
+        }
+      ],
+      "text": "Skip to content\nWork\nStudio\nCoaching\nCompany\nSuomeksi\nCompany\nCompany details\nName\nKoivupiilo Oy\nBusiness ID\n3458206-1\nRegistered\n26 June 2024\nAddress\nSopentie, 36200 Kangasala, Finland\nEmail\njarkko@koivupiilo.fi\nFounder\n\nJarkko Laine founded Koivupiilo in 2024.\n\nI am a software developer and a volleyball coach, and Koivupiilo is the company I do both jobs through.\n\nJarkko Laine\nSoftware developer, lead developer at Selma Finance since 2018\nClub official of the season 2025 (Kauden seuratoimija), Finnish Volleyball Association\nWrites about coaching and endurance sports at jlaine.net\nThe name comes from a birch grove\n\nKoivupiilo is a birch grove in Kangasala. The children gave the place its name, and a house was built there later. The company took its name from the same place.\n\nThe bark along the edge of these pages is traced from a photo of one of the grove's birches.\n\nCompany\nKoivupiilo Oy\nBusiness ID\n3458206-1\nLocation\nKangasala, Finland\nEmail\njarkko@koivupiilo.fi\nPrivacy\nSuomeksi",
+      "small": [],
+      "clip": [],
+      "firstFocus": {
+        "text": "Skip to content",
+        "tag": "A",
+        "outline": "rgb(164, 72, 42) solid 2px",
+        "box": {
+          "x": 44,
+          "y": 8,
+          "width": 134.015625,
+          "height": 44,
+          "top": 8,
+          "right": 178.015625,
+          "bottom": 52,
+          "left": 44
+        }
+      },
+      "skipDestination": "main"
+    },
+    {
+      "id": "privacy",
+      "locale": "fi-FI",
+      "url": "/tietosuoja/",
+      "status": 200,
+      "width": 390,
+      "scrollWidth": 390,
+      "body": "17px",
+      "head": "Tietosuoja",
+      "links": [
+        {
+          "text": "Siirry sisältöön",
+          "href": "#main"
+        },
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "Työt",
+          "href": "/tyot/"
+        },
+        {
+          "text": "Studio",
+          "href": "/studio/"
+        },
+        {
+          "text": "Valmennus",
+          "href": "/valmennus/"
+        },
+        {
+          "text": "Yritys",
+          "href": "/yritys/"
+        },
+        {
+          "text": "English",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "English",
+          "href": "/en/privacy/"
+        }
+      ],
+      "lang": "fi",
+      "hreflang": [
+        {
+          "lang": "fi",
+          "href": "https://koivupiilo.fi/tietosuoja/"
+        },
+        {
+          "lang": "en",
+          "href": "https://koivupiilo.fi/en/privacy/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://koivupiilo.fi/tietosuoja/"
+        }
+      ],
+      "text": "Siirry sisältöön\nTyöt\nStudio\nValmennus\nYritys\nEnglish\nTietosuoja\n\nKoivupiilo.fi ei käytä evästeitä eikä seuraa kävijöitä.\n\nEvästeet ja analytiikka\n\nSivustolla ei ole evästeitä, kävijäseurantaa eikä analytiikkaa, eikä se tallenna selaimeesi mitään.\n\nKaikki sivuston tiedostot fontteja myöten tulevat tältä sivustolta. Kolmansien osapuolten palvelimilta sivusto ei lataa mitään.\n\nPalvelin\n\nSivusto on GitHub Pagesissa. GitHub voi tallentaa kävijöiden IP-osoitteita palvelunsa turvallisuuden takia.\n\nSähköposti\n\nKun kirjoitat Koivupiilolle, Koivupiilo käyttää osoitettasi ja viestiäsi vain viestiin vastaamiseen eikä luovuta niitä eteenpäin. Sähköposti kulkee Fastmailin palvelimien kautta.\n\nOikeutesi\n\nVoit pyytää nähtäväksi, korjattavaksi tai poistettavaksi tiedot, jotka Koivupiilolla on sinusta. Kirjoita osoitteeseen jarkko@koivupiilo.fi.\n\nJos tietojesi käsittelyssä on mielestäsi virhe, voit valittaa siitä tietosuojavaltuutetulle.\n\nRekisterinpitäjä\n\nKoivupiilo Oy, Y-tunnus 3458206-1, Kangasala\njarkko@koivupiilo.fi\n\nPäivitetty 12.11.2026.\n\nYritys\nKoivupiilo Oy\nY-tunnus\n3458206-1\nPaikkakunta\nKangasala\nSähköposti\njarkko@koivupiilo.fi\nTietosuoja\nEnglish",
+      "small": [],
+      "clip": [],
+      "firstFocus": {
+        "text": "Siirry sisältöön",
+        "tag": "A",
+        "outline": "rgb(164, 72, 42) solid 2px",
+        "box": {
+          "x": 44,
+          "y": 8,
+          "width": 132.0625,
+          "height": 44,
+          "top": 8,
+          "right": 176.0625,
+          "bottom": 52,
+          "left": 44
+        }
+      },
+      "skipDestination": "main"
+    },
+    {
+      "id": "privacy",
+      "locale": "en-GB",
+      "url": "/en/privacy/",
+      "status": 200,
+      "width": 390,
+      "scrollWidth": 390,
+      "body": "17px",
+      "head": "Privacy",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "",
+          "href": "/en/"
+        },
+        {
+          "text": "Work",
+          "href": "/en/work/"
+        },
+        {
+          "text": "Studio",
+          "href": "/en/studio/"
+        },
+        {
+          "text": "Coaching",
+          "href": "/en/coaching/"
+        },
+        {
+          "text": "Company",
+          "href": "/en/company/"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "lang": "en",
+      "hreflang": [
+        {
+          "lang": "fi",
+          "href": "https://koivupiilo.fi/tietosuoja/"
+        },
+        {
+          "lang": "en",
+          "href": "https://koivupiilo.fi/en/privacy/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://koivupiilo.fi/tietosuoja/"
+        }
+      ],
+      "text": "Skip to content\nWork\nStudio\nCoaching\nCompany\nSuomeksi\nPrivacy\n\nKoivupiilo.fi uses no cookies and does not track visitors.\n\nCookies and analytics\n\nThis site sets no cookies, runs no visitor tracking or analytics, and stores nothing in your browser.\n\nEvery file, fonts included, comes from this site. The site loads nothing from third-party servers.\n\nServer\n\nGitHub Pages hosts the site. GitHub may log visitors' IP addresses to keep its service secure.\n\nEmail\n\nWhen you write to Koivupiilo, it uses your address and your message to reply to you, and passes neither on. Email travels through Fastmail's servers.\n\nYour rights\n\nYou can ask to see, correct or delete the data Koivupiilo holds about you. Write to jarkko@koivupiilo.fi.\n\nIf you think Koivupiilo has handled your data wrongly, you can complain to the Finnish Data Protection Ombudsman.\n\nController\n\nKoivupiilo Oy, Business ID 3458206-1, Kangasala, Finland\njarkko@koivupiilo.fi\n\nUpdated 12 November 2026.\n\nCompany\nKoivupiilo Oy\nBusiness ID\n3458206-1\nLocation\nKangasala, Finland\nEmail\njarkko@koivupiilo.fi\nPrivacy\nSuomeksi",
+      "small": [],
+      "clip": [],
+      "firstFocus": {
+        "text": "Skip to content",
+        "tag": "A",
+        "outline": "rgb(164, 72, 42) solid 2px",
+        "box": {
+          "x": 44,
+          "y": 8,
+          "width": 134.015625,
+          "height": 44,
+          "top": 8,
+          "right": 178.015625,
+          "bottom": 52,
+          "left": 44
+        }
+      },
+      "skipDestination": "main"
+    },
+    {
+      "id": "404",
+      "locale": "fi-FI",
+      "url": "/not-a-page/",
+      "status": 404,
+      "width": 390,
+      "scrollWidth": 390,
+      "body": "17px",
+      "head": "Eksyit koivikkoon.",
+      "links": [
+        {
+          "text": "Siirry sisältöön",
+          "href": "#main"
+        },
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "Työt",
+          "href": "/tyot/"
+        },
+        {
+          "text": "Studio",
+          "href": "/studio/"
+        },
+        {
+          "text": "Valmennus",
+          "href": "/valmennus/"
+        },
+        {
+          "text": "Yritys",
+          "href": "/yritys/"
+        },
+        {
+          "text": "English",
+          "href": "/en/"
+        },
+        {
+          "text": "Etusivulle",
+          "href": "/"
+        },
+        {
+          "text": "To the front page",
+          "href": "/en/"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "English",
+          "href": "/en/"
+        }
+      ],
+      "lang": "fi",
+      "hreflang": [],
+      "text": "Siirry sisältöön\nTyöt\nStudio\nValmennus\nYritys\nEnglish\nEksyit koivikkoon.\n\nTätä sivua ei ole. Etusivulta pääsee takaisin polulle.\n\nEtusivulle\n\nYou got lost in the birch grove.\n\nThis page does not exist. The front page puts you back on the path.\n\nTo the front page\n\nYritys\nKoivupiilo Oy\nY-tunnus\n3458206-1\nPaikkakunta\nKangasala\nSähköposti\njarkko@koivupiilo.fi\nTietosuoja\nEnglish",
+      "small": [],
+      "clip": [],
+      "firstFocus": {
+        "text": "Siirry sisältöön",
+        "tag": "A",
+        "outline": "rgb(164, 72, 42) solid 2px",
+        "box": {
+          "x": 44,
+          "y": 8,
+          "width": 132.0625,
+          "height": 44,
+          "top": 8,
+          "right": 176.0625,
+          "bottom": 52,
+          "left": 44
+        }
+      },
+      "skipDestination": "main"
+    },
+    {
+      "id": "404",
+      "locale": "en-GB",
+      "url": "/en/not-a-page/",
+      "status": 404,
+      "width": 390,
+      "scrollWidth": 390,
+      "body": "17px",
+      "head": "Eksyit koivikkoon.",
+      "links": [
+        {
+          "text": "Siirry sisältöön",
+          "href": "#main"
+        },
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "Työt",
+          "href": "/tyot/"
+        },
+        {
+          "text": "Studio",
+          "href": "/studio/"
+        },
+        {
+          "text": "Valmennus",
+          "href": "/valmennus/"
+        },
+        {
+          "text": "Yritys",
+          "href": "/yritys/"
+        },
+        {
+          "text": "English",
+          "href": "/en/"
+        },
+        {
+          "text": "Etusivulle",
+          "href": "/"
+        },
+        {
+          "text": "To the front page",
+          "href": "/en/"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "English",
+          "href": "/en/"
+        }
+      ],
+      "lang": "fi",
+      "hreflang": [],
+      "text": "Siirry sisältöön\nTyöt\nStudio\nValmennus\nYritys\nEnglish\nEksyit koivikkoon.\n\nTätä sivua ei ole. Etusivulta pääsee takaisin polulle.\n\nEtusivulle\n\nYou got lost in the birch grove.\n\nThis page does not exist. The front page puts you back on the path.\n\nTo the front page\n\nYritys\nKoivupiilo Oy\nY-tunnus\n3458206-1\nPaikkakunta\nKangasala\nSähköposti\njarkko@koivupiilo.fi\nTietosuoja\nEnglish",
+      "small": [],
+      "clip": [],
+      "firstFocus": {
+        "text": "Siirry sisältöön",
+        "tag": "A",
+        "outline": "rgb(164, 72, 42) solid 2px",
+        "box": {
+          "x": 44,
+          "y": 8,
+          "width": 132.0625,
+          "height": 44,
+          "top": 8,
+          "right": 176.0625,
+          "bottom": 52,
+          "left": 44
+        }
+      },
+      "skipDestination": "main"
+    }
+  ],
+  "walks": [
+    {
+      "locale": "fi-FI",
+      "label": "Työt",
+      "url": "/tyot/",
+      "evidence": [
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-01-before.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-01-300ms.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-01-after.png"
+      ]
+    },
+    {
+      "locale": "fi-FI",
+      "walk": "W1",
+      "productDestination": "https://kvitti.fi",
+      "externalNotOpened": true,
+      "status": "Työt\n\nKoivupiilon julkaisemat ja tekeillä olevat työt.\n\nKaikki työt\nKvitti\n\nKulukorvaukset yhdistyksille ja pienyrityksille: kuitit, kilometrit, päivärahat ja hyväksyntä.\n\npilotissa\n\nBeach volley -⁠kartta\n\nPohjoismaiden ja Baltian beach volley -⁠hallit ja -⁠kentät samalla kartalla.\n\nkäytössä\n\nMagistician\n\nLentopallo-ottelun videosta kosketuskohtaiset tilastot ja videoklipit.\n\nkehitteillä\n\nHyppymittaus\n\nHyppykorkeus iPhonella, lentopalloverkon antenni mittana.\n\nkehitteillä\n\nBeachDesk\n\nVaraukset ja myynti beach volley -⁠halleille.\n\nkehitteillä\n\nRatametsuri\n\nSuunnistusratojen suunnittelu Macilla.\n\nkehitteillä\n\nBeach volleyn säännöt\n\nFIVB:n beach volleyn sääntöjen 2025–2028 suomennos.\n\nkesken\n\nTilat on tarkistettu 2.11.2026."
+    },
+    {
+      "locale": "fi-FI",
+      "label": "Studio",
+      "url": "/studio/",
+      "evidence": [
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-02-before.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-02-300ms.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-02-after.png"
+      ]
+    },
+    {
+      "locale": "fi-FI",
+      "walk": "W1/W4",
+      "mailto": "mailto:jarkko@koivupiilo.fi?subject=Ohjelmistoprojekti",
+      "body": "Studio\n\nKoivupiilo tekee omia ohjelmistojaan ja ottaa harkiten vastaan ohjelmistoprojekteja.\n\nOmat tuotteet\n\nKoivupiilo tekee ensisijaisesti omia tuotteitaan. Niitä ovat esimerkiksi Kvitti ja Magistician.\n\nKaikki työt\n\nTekniikka\n\nOmissa tuotteissaan Koivupiilo käyttää näitä tekniikoita:\n\nElixir ja Phoenix\nSwift ja SwiftUI\nReact Native\nPython\nTilanne nyt\n\nOmat tuotteet menevät edelle. Asiakastyön Koivupiilo ottaa vastaan, kun työ ja aikataulu sopivat. Tilanteen voi kysyä sähköpostilla.\n\nNäin aloitetaan\n\nKirjoita lyhyesti, mitä olet rakentamassa, missä vaiheessa se on ja mihin mennessä tarvitset apua.\n\nViestit lukee ja niihin vastaa Jarkko Laine.\n\nKirjoita Koivupiilolle\njarkko@koivupiilo.fi"
+    },
+    {
+      "locale": "fi-FI",
+      "label": "Valmennus",
+      "url": "/valmennus/",
+      "evidence": [
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-03-before.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-03-300ms.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-03-after.png"
+      ]
+    },
+    {
+      "locale": "fi-FI",
+      "label": "Katso työt",
+      "url": "/tyot/",
+      "evidence": [
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-04-before.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-04-300ms.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-04-after.png"
+      ]
+    },
+    {
+      "locale": "fi-FI",
+      "walk": "W2",
+      "magistician": "Magistician",
+      "contact": "mailto:jarkko@koivupiilo.fi"
+    },
+    {
+      "locale": "fi-FI",
+      "label": "Yritys",
+      "url": "/yritys/",
+      "evidence": [
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-05-before.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-05-300ms.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-05-after.png"
+      ]
+    },
+    {
+      "locale": "fi-FI",
+      "walk": "W5",
+      "facts": "Yritys\nYritystiedot\nNimi\nKoivupiilo Oy\nY-tunnus\n3458206-1\nRekisteröity\n26.6.2024\nOsoite\nSopentie, 36200 Kangasala\nSähköposti\njarkko@koivupiilo.fi\nPerustaja\n\nKoivupiilon perusti Jarkko Laine vuonna 2024.\n\nOlen ohjelmistokehittäjä ja lentopallovalmentaja, ja Koivupiilo on yritys, jonka kautta teen kumpaakin työtä.\n\nJarkko Laine\nOhjelmistokehittäjä, Selma Financen lead developer vuodesta 2018\nLentopalloliiton Kauden seuratoimija 2025\nKirjoittaa valmentamisesta ja kestävyysurheilusta: jlaine.net\nNimi tulee koivikosta\n\nKoivupiilo on koivikko Kangasalla. Paikalle antoivat nimen lapset, ja myöhemmin siihen rakennettiin talo. Yritys sai nimensä samasta paikasta.\n\nSivujen reunassa kulkeva tuohi on jäljennetty valokuvasta, joka on otettu yhdestä koivikon koivusta."
+    },
+    {
+      "locale": "fi-FI",
+      "label": "English",
+      "url": "/en/",
+      "evidence": [
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-06-before.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-06-300ms.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-06-after.png"
+      ]
+    },
+    {
+      "locale": "fi-FI",
+      "walk": "W3",
+      "id": "front",
+      "expected": "/en/",
+      "actual": "/en/"
+    },
+    {
+      "locale": "fi-FI",
+      "label": "English",
+      "url": "/en/work/",
+      "evidence": [
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-07-before.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-07-300ms.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-07-after.png"
+      ]
+    },
+    {
+      "locale": "fi-FI",
+      "walk": "W3",
+      "id": "work",
+      "expected": "/en/work/",
+      "actual": "/en/work/"
+    },
+    {
+      "locale": "fi-FI",
+      "label": "English",
+      "url": "/en/studio/",
+      "evidence": [
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-08-before.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-08-300ms.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-08-after.png"
+      ]
+    },
+    {
+      "locale": "fi-FI",
+      "walk": "W3",
+      "id": "studio",
+      "expected": "/en/studio/",
+      "actual": "/en/studio/"
+    },
+    {
+      "locale": "fi-FI",
+      "label": "English",
+      "url": "/en/coaching/",
+      "evidence": [
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-09-before.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-09-300ms.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-09-after.png"
+      ]
+    },
+    {
+      "locale": "fi-FI",
+      "walk": "W3",
+      "id": "coaching",
+      "expected": "/en/coaching/",
+      "actual": "/en/coaching/"
+    },
+    {
+      "locale": "fi-FI",
+      "label": "English",
+      "url": "/en/company/",
+      "evidence": [
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-10-before.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-10-300ms.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-10-after.png"
+      ]
+    },
+    {
+      "locale": "fi-FI",
+      "walk": "W3",
+      "id": "company",
+      "expected": "/en/company/",
+      "actual": "/en/company/"
+    },
+    {
+      "locale": "fi-FI",
+      "label": "English",
+      "url": "/en/privacy/",
+      "evidence": [
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-11-before.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-11-300ms.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/fi-11-after.png"
+      ]
+    },
+    {
+      "locale": "fi-FI",
+      "walk": "W3",
+      "id": "privacy",
+      "expected": "/en/privacy/",
+      "actual": "/en/privacy/"
+    },
+    {
+      "locale": "en-GB",
+      "label": "Work",
+      "url": "/en/work/",
+      "evidence": [
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-01-before.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-01-300ms.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-01-after.png"
+      ]
+    },
+    {
+      "locale": "en-GB",
+      "walk": "W1",
+      "productDestination": "https://kvitti.fi",
+      "externalNotOpened": true,
+      "status": "Work\n\nWork Koivupiilo has released or is building.\n\nAll work\nKvitti\n\nExpense claims for clubs and small companies: receipts, mileage, per diems and approval.\n\nin pilot\n\nBeach volleyball court map\n\nBeach volleyball halls and courts in the Nordic and Baltic countries on one map.\n\nin use\n\nMagistician\n\nPer-touch statistics and video clips from the video of a volleyball match.\n\nin development\n\nJump measurement\n\nJump height on an iPhone, with the antenna of a volleyball net as the measure.\n\nin development\n\nBeachDesk\n\nBookings and sales for beach volleyball halls.\n\nin development\n\nRatametsuri\n\nOrienteering course planning on a Mac.\n\nin development\n\nBeach volleyball rules\n\nA Finnish translation of the FIVB beach volleyball rules for 2025–2028.\n\nin progress\n\nStatuses checked on 2 November 2026."
+    },
+    {
+      "locale": "en-GB",
+      "label": "Studio",
+      "url": "/en/studio/",
+      "evidence": [
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-02-before.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-02-300ms.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-02-after.png"
+      ]
+    },
+    {
+      "locale": "en-GB",
+      "walk": "W1/W4",
+      "mailto": "mailto:jarkko@koivupiilo.fi?subject=Software%20project",
+      "body": "Studio\n\nKoivupiilo builds its own software and takes on selected software projects.\n\nOwn products\n\nKoivupiilo builds its own products first. Kvitti and Magistician are two of them.\n\nAll work\n\nStack\n\nKoivupiilo builds its own products with:\n\nElixir and Phoenix\nSwift and SwiftUI\nReact Native\nPython\nRight now\n\nKoivupiilo's own products come first. It takes on client work when the project and the schedule fit. Ask by email.\n\nHow to start\n\nWrite a few lines about what you are building, how far along it is and when you need help by.\n\nJarkko Laine reads the messages and answers them.\n\nWrite to Koivupiilo\njarkko@koivupiilo.fi"
+    },
+    {
+      "locale": "en-GB",
+      "label": "Coaching",
+      "url": "/en/coaching/",
+      "evidence": [
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-03-before.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-03-300ms.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-03-after.png"
+      ]
+    },
+    {
+      "locale": "en-GB",
+      "label": "See the work",
+      "url": "/en/work/",
+      "evidence": [
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-04-before.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-04-300ms.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-04-after.png"
+      ]
+    },
+    {
+      "locale": "en-GB",
+      "walk": "W2",
+      "magistician": "Magistician",
+      "contact": "mailto:jarkko@koivupiilo.fi"
+    },
+    {
+      "locale": "en-GB",
+      "label": "Company",
+      "url": "/en/company/",
+      "evidence": [
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-05-before.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-05-300ms.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-05-after.png"
+      ]
+    },
+    {
+      "locale": "en-GB",
+      "walk": "W5",
+      "facts": "Company\nCompany details\nName\nKoivupiilo Oy\nBusiness ID\n3458206-1\nRegistered\n26 June 2024\nAddress\nSopentie, 36200 Kangasala, Finland\nEmail\njarkko@koivupiilo.fi\nFounder\n\nJarkko Laine founded Koivupiilo in 2024.\n\nI am a software developer and a volleyball coach, and Koivupiilo is the company I do both jobs through.\n\nJarkko Laine\nSoftware developer, lead developer at Selma Finance since 2018\nClub official of the season 2025 (Kauden seuratoimija), Finnish Volleyball Association\nWrites about coaching and endurance sports at jlaine.net\nThe name comes from a birch grove\n\nKoivupiilo is a birch grove in Kangasala. The children gave the place its name, and a house was built there later. The company took its name from the same place.\n\nThe bark along the edge of these pages is traced from a photo of one of the grove's birches."
+    },
+    {
+      "locale": "en-GB",
+      "label": "Suomeksi",
+      "url": "/",
+      "evidence": [
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-06-before.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-06-300ms.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-06-after.png"
+      ]
+    },
+    {
+      "locale": "en-GB",
+      "walk": "W3",
+      "id": "front",
+      "expected": "/",
+      "actual": "/"
+    },
+    {
+      "locale": "en-GB",
+      "label": "Suomeksi",
+      "url": "/tyot/",
+      "evidence": [
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-07-before.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-07-300ms.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-07-after.png"
+      ]
+    },
+    {
+      "locale": "en-GB",
+      "walk": "W3",
+      "id": "work",
+      "expected": "/tyot/",
+      "actual": "/tyot/"
+    },
+    {
+      "locale": "en-GB",
+      "label": "Suomeksi",
+      "url": "/studio/",
+      "evidence": [
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-08-before.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-08-300ms.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-08-after.png"
+      ]
+    },
+    {
+      "locale": "en-GB",
+      "walk": "W3",
+      "id": "studio",
+      "expected": "/studio/",
+      "actual": "/studio/"
+    },
+    {
+      "locale": "en-GB",
+      "label": "Suomeksi",
+      "url": "/valmennus/",
+      "evidence": [
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-09-before.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-09-300ms.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-09-after.png"
+      ]
+    },
+    {
+      "locale": "en-GB",
+      "walk": "W3",
+      "id": "coaching",
+      "expected": "/valmennus/",
+      "actual": "/valmennus/"
+    },
+    {
+      "locale": "en-GB",
+      "label": "Suomeksi",
+      "url": "/yritys/",
+      "evidence": [
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-10-before.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-10-300ms.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-10-after.png"
+      ]
+    },
+    {
+      "locale": "en-GB",
+      "walk": "W3",
+      "id": "company",
+      "expected": "/yritys/",
+      "actual": "/yritys/"
+    },
+    {
+      "locale": "en-GB",
+      "label": "Suomeksi",
+      "url": "/tietosuoja/",
+      "evidence": [
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-11-before.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-11-300ms.png",
+        "docs/design/reviews/evidence/2b66b9b3/strips/en-11-after.png"
+      ]
+    },
+    {
+      "locale": "en-GB",
+      "walk": "W3",
+      "id": "privacy",
+      "expected": "/tietosuoja/",
+      "actual": "/tietosuoja/"
+    }
+  ],
+  "zoom": [
+    {
+      "id": "front",
+      "locale": "fi-FI",
+      "method": "200% computed font-size (DOM text-only stress test)",
+      "width": 1440,
+      "scrollWidth": 1504,
+      "body": "34px",
+      "head": "Koivupiilo tekee ohjelmistoja urheiluseuroille ja pienyrityksille sekä valmentaa lentopalloa.",
+      "links": [
+        {
+          "text": "Siirry sisältöön",
+          "href": "#main"
+        },
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "Työt",
+          "href": "/tyot/"
+        },
+        {
+          "text": "Studio",
+          "href": "/studio/"
+        },
+        {
+          "text": "Valmennus",
+          "href": "/valmennus/"
+        },
+        {
+          "text": "Yritys",
+          "href": "/yritys/"
+        },
+        {
+          "text": "English",
+          "href": "/en/"
+        },
+        {
+          "text": "Kvitti",
+          "href": "https://kvitti.fi"
+        },
+        {
+          "text": "Beach volley -⁠kartta",
+          "href": "https://jlaine.net/beach-volleyball/"
+        },
+        {
+          "text": "Magistician",
+          "href": "https://magistician.com"
+        },
+        {
+          "text": "Kaikki työt",
+          "href": "/tyot/"
+        },
+        {
+          "text": "Lue lisää Studiosta",
+          "href": "/studio/"
+        },
+        {
+          "text": "Lue lisää valmennuksesta",
+          "href": "/valmennus/"
+        },
+        {
+          "text": "Lue lisää yrityksestä",
+          "href": "/yritys/"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "English",
+          "href": "/en/"
+        }
+      ],
+      "lang": "fi",
+      "hreflang": [
+        {
+          "lang": "fi",
+          "href": "https://koivupiilo.fi/"
+        },
+        {
+          "lang": "en",
+          "href": "https://koivupiilo.fi/en/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://koivupiilo.fi/"
+        }
+      ],
+      "text": "Siirry sisältöön\nTyöt\nStudio\nValmennus\nYritys\nEnglish\nKoivupiilo tekee ohjelmistoja urheiluseuroille ja pienyrityksille sekä valmentaa lentopalloa.\nYritys\nKoivupiilo Oy\nY-tunnus\n3458206-1\nPaikkakunta\nKangasala\nPerustettu\n2024\nTyöt\nKvitti\n\nKulukorvaukset yhdistyksille ja pienyrityksille: kuitit, kilometrit, päivärahat ja hyväksyntä.\n\npilotissa\n\nBeach volley -⁠kartta\n\nPohjoismaiden ja Baltian beach volley -⁠hallit ja -⁠kentät samalla kartalla.\n\nkäytössä\n\nMagistician\n\nLentopallo-ottelun videosta kosketuskohtaiset tilastot ja videoklipit.\n\nkehitteillä\n\nHyppymittaus\n\nHyppykorkeus iPhonella, lentopalloverkon antenni mittana.\n\nkehitteillä\n\nKaikki työt\n\nStudio\n\nKoivupiilo tekee omia ohjelmistojaan ja ottaa harkiten vastaan ohjelmistoprojekteja.\n\nLue lisää Studiosta\n\nValmennus\n\nKoivupiilo valmentaa lentopalloa ja beach volleyta, kouluttaa valmentajia ja auttaa uusia esihenkilöitä alkuun.\n\nLue lisää valmennuksesta\n\nYritys\n\nKoivupiilon perusti vuonna 2024 Jarkko Laine, ohjelmistokehittäjä ja lentopallovalmentaja. Nimi tulee koivikosta Kangasalla.\n\nLue lisää yrityksestä\n\nYritys\nKoivupiilo Oy\nY-tunnus\n3458206-1\nPaikkakunta\nKangasala\nSähköposti\njarkko@koivupiilo.fi\nTietosuoja\nEnglish",
+      "small": [],
+      "clip": [
+        "P pilotissa",
+        "P käytössä",
+        "P kehitteillä",
+        "P kehitteillä"
+      ]
+    },
+    {
+      "id": "front",
+      "locale": "en-GB",
+      "method": "200% computed font-size (DOM text-only stress test)",
+      "width": 1440,
+      "scrollWidth": 1504,
+      "body": "34px",
+      "head": "Koivupiilo makes software for sports clubs and small companies, and coaches volleyball.",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "",
+          "href": "/en/"
+        },
+        {
+          "text": "Work",
+          "href": "/en/work/"
+        },
+        {
+          "text": "Studio",
+          "href": "/en/studio/"
+        },
+        {
+          "text": "Coaching",
+          "href": "/en/coaching/"
+        },
+        {
+          "text": "Company",
+          "href": "/en/company/"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/"
+        },
+        {
+          "text": "Kvitti",
+          "href": "https://kvitti.fi"
+        },
+        {
+          "text": "Beach volleyball court map",
+          "href": "https://jlaine.net/beach-volleyball/"
+        },
+        {
+          "text": "Magistician",
+          "href": "https://magistician.com"
+        },
+        {
+          "text": "All work",
+          "href": "/en/work/"
+        },
+        {
+          "text": "More about Studio",
+          "href": "/en/studio/"
+        },
+        {
+          "text": "More about coaching",
+          "href": "/en/coaching/"
+        },
+        {
+          "text": "More about the company",
+          "href": "/en/company/"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/"
+        }
+      ],
+      "lang": "en",
+      "hreflang": [
+        {
+          "lang": "fi",
+          "href": "https://koivupiilo.fi/"
+        },
+        {
+          "lang": "en",
+          "href": "https://koivupiilo.fi/en/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://koivupiilo.fi/"
+        }
+      ],
+      "text": "Skip to content\nWork\nStudio\nCoaching\nCompany\nSuomeksi\nKoivupiilo makes software for sports clubs and small companies, and coaches volleyball.\nCompany\nKoivupiilo Oy\nBusiness ID\n3458206-1\nLocation\nKangasala, Finland\nFounded\n2024\nWork\nKvitti\n\nExpense claims for clubs and small companies: receipts, mileage, per diems and approval.\n\nin pilot\n\nBeach volleyball court map\n\nBeach volleyball halls and courts in the Nordic and Baltic countries on one map.\n\nin use\n\nMagistician\n\nPer-touch statistics and video clips from the video of a volleyball match.\n\nin development\n\nJump measurement\n\nJump height on an iPhone, with the antenna of a volleyball net as the measure.\n\nin development\n\nAll work\n\nStudio\n\nKoivupiilo builds its own software and takes on selected software projects.\n\nMore about Studio\n\nCoaching\n\nKoivupiilo coaches volleyball and beach volleyball, trains coaches and helps new team leads get started.\n\nMore about coaching\n\nCompany\n\nJarkko Laine, a software developer and volleyball coach, founded Koivupiilo in 2024. The name comes from a birch grove in Kangasala.\n\nMore about the company\n\nCompany\nKoivupiilo Oy\nBusiness ID\n3458206-1\nLocation\nKangasala, Finland\nEmail\njarkko@koivupiilo.fi\nPrivacy\nSuomeksi",
+      "small": [],
+      "clip": [
+        "P in pilot",
+        "P in use",
+        "P in development",
+        "P in development"
+      ]
+    },
+    {
+      "id": "work",
+      "locale": "fi-FI",
+      "method": "200% computed font-size (DOM text-only stress test)",
+      "width": 1440,
+      "scrollWidth": 1504,
+      "body": "34px",
+      "head": "Työt",
+      "links": [
+        {
+          "text": "Siirry sisältöön",
+          "href": "#main"
+        },
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "Työt",
+          "href": "/tyot/"
+        },
+        {
+          "text": "Studio",
+          "href": "/studio/"
+        },
+        {
+          "text": "Valmennus",
+          "href": "/valmennus/"
+        },
+        {
+          "text": "Yritys",
+          "href": "/yritys/"
+        },
+        {
+          "text": "English",
+          "href": "/en/work/"
+        },
+        {
+          "text": "Kvitti",
+          "href": "https://kvitti.fi"
+        },
+        {
+          "text": "Beach volley -⁠kartta",
+          "href": "https://jlaine.net/beach-volleyball/"
+        },
+        {
+          "text": "Magistician",
+          "href": "https://magistician.com"
+        },
+        {
+          "text": "Beach volleyn säännöt",
+          "href": "https://jarkko.github.io/beach-volleyball-rules-fi/"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "English",
+          "href": "/en/work/"
+        }
+      ],
+      "lang": "fi",
+      "hreflang": [
+        {
+          "lang": "fi",
+          "href": "https://koivupiilo.fi/tyot/"
+        },
+        {
+          "lang": "en",
+          "href": "https://koivupiilo.fi/en/work/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://koivupiilo.fi/tyot/"
+        }
+      ],
+      "text": "Siirry sisältöön\nTyöt\nStudio\nValmennus\nYritys\nEnglish\nTyöt\n\nKoivupiilon julkaisemat ja tekeillä olevat työt.\n\nKaikki työt\nKvitti\n\nKulukorvaukset yhdistyksille ja pienyrityksille: kuitit, kilometrit, päivärahat ja hyväksyntä.\n\npilotissa\n\nBeach volley -⁠kartta\n\nPohjoismaiden ja Baltian beach volley -⁠hallit ja -⁠kentät samalla kartalla.\n\nkäytössä\n\nMagistician\n\nLentopallo-ottelun videosta kosketuskohtaiset tilastot ja videoklipit.\n\nkehitteillä\n\nHyppymittaus\n\nHyppykorkeus iPhonella, lentopalloverkon antenni mittana.\n\nkehitteillä\n\nBeachDesk\n\nVaraukset ja myynti beach volley -⁠halleille.\n\nkehitteillä\n\nRatametsuri\n\nSuunnistusratojen suunnittelu Macilla.\n\nkehitteillä\n\nBeach volleyn säännöt\n\nFIVB:n beach volleyn sääntöjen 2025–2028 suomennos.\n\nkesken\n\nTilat on tarkistettu 2.11.2026.\n\nYritys\nKoivupiilo Oy\nY-tunnus\n3458206-1\nPaikkakunta\nKangasala\nSähköposti\njarkko@koivupiilo.fi\nTietosuoja\nEnglish",
+      "small": [],
+      "clip": [
+        "P pilotissa",
+        "P käytössä",
+        "P kehitteillä",
+        "P kehitteillä",
+        "P kehitteillä",
+        "P kehitteillä",
+        "P kesken"
+      ]
+    },
+    {
+      "id": "work",
+      "locale": "en-GB",
+      "method": "200% computed font-size (DOM text-only stress test)",
+      "width": 1440,
+      "scrollWidth": 1504,
+      "body": "34px",
+      "head": "Work",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "",
+          "href": "/en/"
+        },
+        {
+          "text": "Work",
+          "href": "/en/work/"
+        },
+        {
+          "text": "Studio",
+          "href": "/en/studio/"
+        },
+        {
+          "text": "Coaching",
+          "href": "/en/coaching/"
+        },
+        {
+          "text": "Company",
+          "href": "/en/company/"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/tyot/"
+        },
+        {
+          "text": "Kvitti",
+          "href": "https://kvitti.fi"
+        },
+        {
+          "text": "Beach volleyball court map",
+          "href": "https://jlaine.net/beach-volleyball/"
+        },
+        {
+          "text": "Magistician",
+          "href": "https://magistician.com"
+        },
+        {
+          "text": "Beach volleyball rules",
+          "href": "https://jarkko.github.io/beach-volleyball-rules-fi/"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/tyot/"
+        }
+      ],
+      "lang": "en",
+      "hreflang": [
+        {
+          "lang": "fi",
+          "href": "https://koivupiilo.fi/tyot/"
+        },
+        {
+          "lang": "en",
+          "href": "https://koivupiilo.fi/en/work/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://koivupiilo.fi/tyot/"
+        }
+      ],
+      "text": "Skip to content\nWork\nStudio\nCoaching\nCompany\nSuomeksi\nWork\n\nWork Koivupiilo has released or is building.\n\nAll work\nKvitti\n\nExpense claims for clubs and small companies: receipts, mileage, per diems and approval.\n\nin pilot\n\nBeach volleyball court map\n\nBeach volleyball halls and courts in the Nordic and Baltic countries on one map.\n\nin use\n\nMagistician\n\nPer-touch statistics and video clips from the video of a volleyball match.\n\nin development\n\nJump measurement\n\nJump height on an iPhone, with the antenna of a volleyball net as the measure.\n\nin development\n\nBeachDesk\n\nBookings and sales for beach volleyball halls.\n\nin development\n\nRatametsuri\n\nOrienteering course planning on a Mac.\n\nin development\n\nBeach volleyball rules\n\nA Finnish translation of the FIVB beach volleyball rules for 2025–2028.\n\nin progress\n\nStatuses checked on 2 November 2026.\n\nCompany\nKoivupiilo Oy\nBusiness ID\n3458206-1\nLocation\nKangasala, Finland\nEmail\njarkko@koivupiilo.fi\nPrivacy\nSuomeksi",
+      "small": [],
+      "clip": [
+        "P in pilot",
+        "P in use",
+        "P in development",
+        "P in development",
+        "P in development",
+        "P in development",
+        "P in progress"
+      ]
+    },
+    {
+      "id": "studio",
+      "locale": "fi-FI",
+      "method": "200% computed font-size (DOM text-only stress test)",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "body": "34px",
+      "head": "Studio",
+      "links": [
+        {
+          "text": "Siirry sisältöön",
+          "href": "#main"
+        },
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "Työt",
+          "href": "/tyot/"
+        },
+        {
+          "text": "Studio",
+          "href": "/studio/"
+        },
+        {
+          "text": "Valmennus",
+          "href": "/valmennus/"
+        },
+        {
+          "text": "Yritys",
+          "href": "/yritys/"
+        },
+        {
+          "text": "English",
+          "href": "/en/studio/"
+        },
+        {
+          "text": "Kaikki työt",
+          "href": "/tyot/"
+        },
+        {
+          "text": "Kirjoita Koivupiilolle",
+          "href": "mailto:jarkko@koivupiilo.fi?subject=Ohjelmistoprojekti"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "English",
+          "href": "/en/studio/"
+        }
+      ],
+      "lang": "fi",
+      "hreflang": [
+        {
+          "lang": "fi",
+          "href": "https://koivupiilo.fi/studio/"
+        },
+        {
+          "lang": "en",
+          "href": "https://koivupiilo.fi/en/studio/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://koivupiilo.fi/studio/"
+        }
+      ],
+      "text": "Siirry sisältöön\nTyöt\nStudio\nValmennus\nYritys\nEnglish\nStudio\n\nKoivupiilo tekee omia ohjelmistojaan ja ottaa harkiten vastaan ohjelmistoprojekteja.\n\nOmat tuotteet\n\nKoivupiilo tekee ensisijaisesti omia tuotteitaan. Niitä ovat esimerkiksi Kvitti ja Magistician.\n\nKaikki työt\n\nTekniikka\n\nOmissa tuotteissaan Koivupiilo käyttää näitä tekniikoita:\n\nElixir ja Phoenix\nSwift ja SwiftUI\nReact Native\nPython\nTilanne nyt\n\nOmat tuotteet menevät edelle. Asiakastyön Koivupiilo ottaa vastaan, kun työ ja aikataulu sopivat. Tilanteen voi kysyä sähköpostilla.\n\nNäin aloitetaan\n\nKirjoita lyhyesti, mitä olet rakentamassa, missä vaiheessa se on ja mihin mennessä tarvitset apua.\n\nViestit lukee ja niihin vastaa Jarkko Laine.\n\nKirjoita Koivupiilolle\njarkko@koivupiilo.fi\n\nYritys\nKoivupiilo Oy\nY-tunnus\n3458206-1\nPaikkakunta\nKangasala\nSähköposti\njarkko@koivupiilo.fi\nTietosuoja\nEnglish",
+      "small": [],
+      "clip": []
+    },
+    {
+      "id": "studio",
+      "locale": "en-GB",
+      "method": "200% computed font-size (DOM text-only stress test)",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "body": "34px",
+      "head": "Studio",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "",
+          "href": "/en/"
+        },
+        {
+          "text": "Work",
+          "href": "/en/work/"
+        },
+        {
+          "text": "Studio",
+          "href": "/en/studio/"
+        },
+        {
+          "text": "Coaching",
+          "href": "/en/coaching/"
+        },
+        {
+          "text": "Company",
+          "href": "/en/company/"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/studio/"
+        },
+        {
+          "text": "All work",
+          "href": "/en/work/"
+        },
+        {
+          "text": "Write to Koivupiilo",
+          "href": "mailto:jarkko@koivupiilo.fi?subject=Software%20project"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/studio/"
+        }
+      ],
+      "lang": "en",
+      "hreflang": [
+        {
+          "lang": "fi",
+          "href": "https://koivupiilo.fi/studio/"
+        },
+        {
+          "lang": "en",
+          "href": "https://koivupiilo.fi/en/studio/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://koivupiilo.fi/studio/"
+        }
+      ],
+      "text": "Skip to content\nWork\nStudio\nCoaching\nCompany\nSuomeksi\nStudio\n\nKoivupiilo builds its own software and takes on selected software projects.\n\nOwn products\n\nKoivupiilo builds its own products first. Kvitti and Magistician are two of them.\n\nAll work\n\nStack\n\nKoivupiilo builds its own products with:\n\nElixir and Phoenix\nSwift and SwiftUI\nReact Native\nPython\nRight now\n\nKoivupiilo's own products come first. It takes on client work when the project and the schedule fit. Ask by email.\n\nHow to start\n\nWrite a few lines about what you are building, how far along it is and when you need help by.\n\nJarkko Laine reads the messages and answers them.\n\nWrite to Koivupiilo\njarkko@koivupiilo.fi\n\nCompany\nKoivupiilo Oy\nBusiness ID\n3458206-1\nLocation\nKangasala, Finland\nEmail\njarkko@koivupiilo.fi\nPrivacy\nSuomeksi",
+      "small": [],
+      "clip": []
+    },
+    {
+      "id": "coaching",
+      "locale": "fi-FI",
+      "method": "200% computed font-size (DOM text-only stress test)",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "body": "34px",
+      "head": "Valmennus",
+      "links": [
+        {
+          "text": "Siirry sisältöön",
+          "href": "#main"
+        },
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "Työt",
+          "href": "/tyot/"
+        },
+        {
+          "text": "Studio",
+          "href": "/studio/"
+        },
+        {
+          "text": "Valmennus",
+          "href": "/valmennus/"
+        },
+        {
+          "text": "Yritys",
+          "href": "/yritys/"
+        },
+        {
+          "text": "English",
+          "href": "/en/coaching/"
+        },
+        {
+          "text": "Beach volleyn sääntöjen 2025–2028 suomennos",
+          "href": "https://jarkko.github.io/beach-volleyball-rules-fi/docs/"
+        },
+        {
+          "text": "Katso työt",
+          "href": "/tyot/"
+        },
+        {
+          "text": "Kirjoita Jarkolle",
+          "href": "mailto:jarkko@koivupiilo.fi?subject=Valmennus"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "English",
+          "href": "/en/coaching/"
+        }
+      ],
+      "lang": "fi",
+      "hreflang": [
+        {
+          "lang": "fi",
+          "href": "https://koivupiilo.fi/valmennus/"
+        },
+        {
+          "lang": "en",
+          "href": "https://koivupiilo.fi/en/coaching/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://koivupiilo.fi/valmennus/"
+        }
+      ],
+      "text": "Siirry sisältöön\nTyöt\nStudio\nValmennus\nYritys\nEnglish\nValmennus\n\nValmennan lentopalloa ja beach volleyta, koulutan valmentajia ja autan uusia esihenkilöitä alkuun.\n\nJarkko Laine, Koivupiilon perustaja\n\nMitä valmennan\nLentopallo ja beach volley\n\nValmennusta seuroille, joukkueille ja pelaajille.\n\nValmentajakoulutus\n\nKoulutusta seurojen valmentajille.\n\nUusien esihenkilöiden valmennus\n\nValmennusta niille, jotka ovat juuri aloittaneet tiimin vetäjänä.\n\nSisällöstä ja laajuudesta sovitaan joka kerta erikseen.\n\nTaustaa\nLentopalloliiton Kauden seuratoimija 2025\nPyynikin beach volley -⁠turnausten järjestäjä\nBeach volleyn sääntöjen 2025–2028 suomennos (kesken)\nOhjelmistot\n\nKoivupiilo tekee lentopalloon myös ohjelmistoja. Niitä ovat esimerkiksi Magistician ja Beach volley -⁠kartta.\n\nKatso työt\n\nNäin aloitetaan\n\nKirjoita, mikä seura tai joukkue on kyseessä, mitä haluatte kehittää ja milloin.\n\nKirjoita Jarkolle\njarkko@koivupiilo.fi\n\nYritys\nKoivupiilo Oy\nY-tunnus\n3458206-1\nPaikkakunta\nKangasala\nSähköposti\njarkko@koivupiilo.fi\nTietosuoja\nEnglish",
+      "small": [],
+      "clip": []
+    },
+    {
+      "id": "coaching",
+      "locale": "en-GB",
+      "method": "200% computed font-size (DOM text-only stress test)",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "body": "34px",
+      "head": "Coaching",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "",
+          "href": "/en/"
+        },
+        {
+          "text": "Work",
+          "href": "/en/work/"
+        },
+        {
+          "text": "Studio",
+          "href": "/en/studio/"
+        },
+        {
+          "text": "Coaching",
+          "href": "/en/coaching/"
+        },
+        {
+          "text": "Company",
+          "href": "/en/company/"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/valmennus/"
+        },
+        {
+          "text": "Finnish translation of the beach volleyball rules for 2025–2028",
+          "href": "https://jarkko.github.io/beach-volleyball-rules-fi/docs/"
+        },
+        {
+          "text": "See the work",
+          "href": "/en/work/"
+        },
+        {
+          "text": "Write to Jarkko",
+          "href": "mailto:jarkko@koivupiilo.fi?subject=Coaching"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/valmennus/"
+        }
+      ],
+      "lang": "en",
+      "hreflang": [
+        {
+          "lang": "fi",
+          "href": "https://koivupiilo.fi/valmennus/"
+        },
+        {
+          "lang": "en",
+          "href": "https://koivupiilo.fi/en/coaching/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://koivupiilo.fi/valmennus/"
+        }
+      ],
+      "text": "Skip to content\nWork\nStudio\nCoaching\nCompany\nSuomeksi\nCoaching\n\nI coach volleyball and beach volleyball, train coaches and help new team leads get started.\n\nJarkko Laine, founder of Koivupiilo\n\nWhat I coach\nVolleyball and beach volleyball\n\nCoaching for clubs, teams and players.\n\nCoach education\n\nTraining for club coaches.\n\nCoaching for new team leads\n\nFor people who have just started leading a team.\n\nI agree the content and scope with each club, team or person separately.\n\nBackground\nClub official of the season 2025 (Kauden seuratoimija), Finnish Volleyball Association\nOrganiser of the Pyynikki beach volleyball tournaments\nFinnish translation of the beach volleyball rules for 2025–2028 (in progress)\nSoftware\n\nKoivupiilo also builds software for volleyball. Magistician and the beach volleyball court map are two examples.\n\nSee the work\n\nHow to start\n\nTell me which club or team this is about, what you want to develop and when.\n\nWrite to Jarkko\njarkko@koivupiilo.fi\n\nCompany\nKoivupiilo Oy\nBusiness ID\n3458206-1\nLocation\nKangasala, Finland\nEmail\njarkko@koivupiilo.fi\nPrivacy\nSuomeksi",
+      "small": [],
+      "clip": []
+    },
+    {
+      "id": "company",
+      "locale": "fi-FI",
+      "method": "200% computed font-size (DOM text-only stress test)",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "body": "34px",
+      "head": "Yritys",
+      "links": [
+        {
+          "text": "Siirry sisältöön",
+          "href": "#main"
+        },
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "Työt",
+          "href": "/tyot/"
+        },
+        {
+          "text": "Studio",
+          "href": "/studio/"
+        },
+        {
+          "text": "Valmennus",
+          "href": "/valmennus/"
+        },
+        {
+          "text": "Yritys",
+          "href": "/yritys/"
+        },
+        {
+          "text": "English",
+          "href": "/en/company/"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "jlaine.net",
+          "href": "https://jlaine.net"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "English",
+          "href": "/en/company/"
+        }
+      ],
+      "lang": "fi",
+      "hreflang": [
+        {
+          "lang": "fi",
+          "href": "https://koivupiilo.fi/yritys/"
+        },
+        {
+          "lang": "en",
+          "href": "https://koivupiilo.fi/en/company/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://koivupiilo.fi/yritys/"
+        }
+      ],
+      "text": "Siirry sisältöön\nTyöt\nStudio\nValmennus\nYritys\nEnglish\nYritys\nYritystiedot\nNimi\nKoivupiilo Oy\nY-tunnus\n3458206-1\nRekisteröity\n26.6.2024\nOsoite\nSopentie, 36200 Kangasala\nSähköposti\njarkko@koivupiilo.fi\nPerustaja\n\nKoivupiilon perusti Jarkko Laine vuonna 2024.\n\nOlen ohjelmistokehittäjä ja lentopallovalmentaja, ja Koivupiilo on yritys, jonka kautta teen kumpaakin työtä.\n\nJarkko Laine\nOhjelmistokehittäjä, Selma Financen lead developer vuodesta 2018\nLentopalloliiton Kauden seuratoimija 2025\nKirjoittaa valmentamisesta ja kestävyysurheilusta: jlaine.net\nNimi tulee koivikosta\n\nKoivupiilo on koivikko Kangasalla. Paikalle antoivat nimen lapset, ja myöhemmin siihen rakennettiin talo. Yritys sai nimensä samasta paikasta.\n\nSivujen reunassa kulkeva tuohi on jäljennetty valokuvasta, joka on otettu yhdestä koivikon koivusta.\n\nYritys\nKoivupiilo Oy\nY-tunnus\n3458206-1\nPaikkakunta\nKangasala\nSähköposti\njarkko@koivupiilo.fi\nTietosuoja\nEnglish",
+      "small": [],
+      "clip": []
+    },
+    {
+      "id": "company",
+      "locale": "en-GB",
+      "method": "200% computed font-size (DOM text-only stress test)",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "body": "34px",
+      "head": "Company",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "",
+          "href": "/en/"
+        },
+        {
+          "text": "Work",
+          "href": "/en/work/"
+        },
+        {
+          "text": "Studio",
+          "href": "/en/studio/"
+        },
+        {
+          "text": "Coaching",
+          "href": "/en/coaching/"
+        },
+        {
+          "text": "Company",
+          "href": "/en/company/"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/yritys/"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "jlaine.net",
+          "href": "https://jlaine.net"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/yritys/"
+        }
+      ],
+      "lang": "en",
+      "hreflang": [
+        {
+          "lang": "fi",
+          "href": "https://koivupiilo.fi/yritys/"
+        },
+        {
+          "lang": "en",
+          "href": "https://koivupiilo.fi/en/company/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://koivupiilo.fi/yritys/"
+        }
+      ],
+      "text": "Skip to content\nWork\nStudio\nCoaching\nCompany\nSuomeksi\nCompany\nCompany details\nName\nKoivupiilo Oy\nBusiness ID\n3458206-1\nRegistered\n26 June 2024\nAddress\nSopentie, 36200 Kangasala, Finland\nEmail\njarkko@koivupiilo.fi\nFounder\n\nJarkko Laine founded Koivupiilo in 2024.\n\nI am a software developer and a volleyball coach, and Koivupiilo is the company I do both jobs through.\n\nJarkko Laine\nSoftware developer, lead developer at Selma Finance since 2018\nClub official of the season 2025 (Kauden seuratoimija), Finnish Volleyball Association\nWrites about coaching and endurance sports at jlaine.net\nThe name comes from a birch grove\n\nKoivupiilo is a birch grove in Kangasala. The children gave the place its name, and a house was built there later. The company took its name from the same place.\n\nThe bark along the edge of these pages is traced from a photo of one of the grove's birches.\n\nCompany\nKoivupiilo Oy\nBusiness ID\n3458206-1\nLocation\nKangasala, Finland\nEmail\njarkko@koivupiilo.fi\nPrivacy\nSuomeksi",
+      "small": [],
+      "clip": []
+    },
+    {
+      "id": "privacy",
+      "locale": "fi-FI",
+      "method": "200% computed font-size (DOM text-only stress test)",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "body": "34px",
+      "head": "Tietosuoja",
+      "links": [
+        {
+          "text": "Siirry sisältöön",
+          "href": "#main"
+        },
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "Työt",
+          "href": "/tyot/"
+        },
+        {
+          "text": "Studio",
+          "href": "/studio/"
+        },
+        {
+          "text": "Valmennus",
+          "href": "/valmennus/"
+        },
+        {
+          "text": "Yritys",
+          "href": "/yritys/"
+        },
+        {
+          "text": "English",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "English",
+          "href": "/en/privacy/"
+        }
+      ],
+      "lang": "fi",
+      "hreflang": [
+        {
+          "lang": "fi",
+          "href": "https://koivupiilo.fi/tietosuoja/"
+        },
+        {
+          "lang": "en",
+          "href": "https://koivupiilo.fi/en/privacy/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://koivupiilo.fi/tietosuoja/"
+        }
+      ],
+      "text": "Siirry sisältöön\nTyöt\nStudio\nValmennus\nYritys\nEnglish\nTietosuoja\n\nKoivupiilo.fi ei käytä evästeitä eikä seuraa kävijöitä.\n\nEvästeet ja analytiikka\n\nSivustolla ei ole evästeitä, kävijäseurantaa eikä analytiikkaa, eikä se tallenna selaimeesi mitään.\n\nKaikki sivuston tiedostot fontteja myöten tulevat tältä sivustolta. Kolmansien osapuolten palvelimilta sivusto ei lataa mitään.\n\nPalvelin\n\nSivusto on GitHub Pagesissa. GitHub voi tallentaa kävijöiden IP-osoitteita palvelunsa turvallisuuden takia.\n\nSähköposti\n\nKun kirjoitat Koivupiilolle, Koivupiilo käyttää osoitettasi ja viestiäsi vain viestiin vastaamiseen eikä luovuta niitä eteenpäin. Sähköposti kulkee Fastmailin palvelimien kautta.\n\nOikeutesi\n\nVoit pyytää nähtäväksi, korjattavaksi tai poistettavaksi tiedot, jotka Koivupiilolla on sinusta. Kirjoita osoitteeseen jarkko@koivupiilo.fi.\n\nJos tietojesi käsittelyssä on mielestäsi virhe, voit valittaa siitä tietosuojavaltuutetulle.\n\nRekisterinpitäjä\n\nKoivupiilo Oy, Y-tunnus 3458206-1, Kangasala\njarkko@koivupiilo.fi\n\nPäivitetty 12.11.2026.\n\nYritys\nKoivupiilo Oy\nY-tunnus\n3458206-1\nPaikkakunta\nKangasala\nSähköposti\njarkko@koivupiilo.fi\nTietosuoja\nEnglish",
+      "small": [],
+      "clip": []
+    },
+    {
+      "id": "privacy",
+      "locale": "en-GB",
+      "method": "200% computed font-size (DOM text-only stress test)",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "body": "34px",
+      "head": "Privacy",
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "",
+          "href": "/en/"
+        },
+        {
+          "text": "Work",
+          "href": "/en/work/"
+        },
+        {
+          "text": "Studio",
+          "href": "/en/studio/"
+        },
+        {
+          "text": "Coaching",
+          "href": "/en/coaching/"
+        },
+        {
+          "text": "Company",
+          "href": "/en/company/"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "lang": "en",
+      "hreflang": [
+        {
+          "lang": "fi",
+          "href": "https://koivupiilo.fi/tietosuoja/"
+        },
+        {
+          "lang": "en",
+          "href": "https://koivupiilo.fi/en/privacy/"
+        },
+        {
+          "lang": "x-default",
+          "href": "https://koivupiilo.fi/tietosuoja/"
+        }
+      ],
+      "text": "Skip to content\nWork\nStudio\nCoaching\nCompany\nSuomeksi\nPrivacy\n\nKoivupiilo.fi uses no cookies and does not track visitors.\n\nCookies and analytics\n\nThis site sets no cookies, runs no visitor tracking or analytics, and stores nothing in your browser.\n\nEvery file, fonts included, comes from this site. The site loads nothing from third-party servers.\n\nServer\n\nGitHub Pages hosts the site. GitHub may log visitors' IP addresses to keep its service secure.\n\nEmail\n\nWhen you write to Koivupiilo, it uses your address and your message to reply to you, and passes neither on. Email travels through Fastmail's servers.\n\nYour rights\n\nYou can ask to see, correct or delete the data Koivupiilo holds about you. Write to jarkko@koivupiilo.fi.\n\nIf you think Koivupiilo has handled your data wrongly, you can complain to the Finnish Data Protection Ombudsman.\n\nController\n\nKoivupiilo Oy, Business ID 3458206-1, Kangasala, Finland\njarkko@koivupiilo.fi\n\nUpdated 12 November 2026.\n\nCompany\nKoivupiilo Oy\nBusiness ID\n3458206-1\nLocation\nKangasala, Finland\nEmail\njarkko@koivupiilo.fi\nPrivacy\nSuomeksi",
+      "small": [],
+      "clip": []
+    },
+    {
+      "id": "404",
+      "locale": "fi-FI",
+      "method": "200% computed font-size (DOM text-only stress test)",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "body": "34px",
+      "head": "Eksyit koivikkoon.",
+      "links": [
+        {
+          "text": "Siirry sisältöön",
+          "href": "#main"
+        },
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "Työt",
+          "href": "/tyot/"
+        },
+        {
+          "text": "Studio",
+          "href": "/studio/"
+        },
+        {
+          "text": "Valmennus",
+          "href": "/valmennus/"
+        },
+        {
+          "text": "Yritys",
+          "href": "/yritys/"
+        },
+        {
+          "text": "English",
+          "href": "/en/"
+        },
+        {
+          "text": "Etusivulle",
+          "href": "/"
+        },
+        {
+          "text": "To the front page",
+          "href": "/en/"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "English",
+          "href": "/en/"
+        }
+      ],
+      "lang": "fi",
+      "hreflang": [],
+      "text": "Siirry sisältöön\nTyöt\nStudio\nValmennus\nYritys\nEnglish\nEksyit koivikkoon.\n\nTätä sivua ei ole. Etusivulta pääsee takaisin polulle.\n\nEtusivulle\n\nYou got lost in the birch grove.\n\nThis page does not exist. The front page puts you back on the path.\n\nTo the front page\n\nYritys\nKoivupiilo Oy\nY-tunnus\n3458206-1\nPaikkakunta\nKangasala\nSähköposti\njarkko@koivupiilo.fi\nTietosuoja\nEnglish",
+      "small": [],
+      "clip": []
+    },
+    {
+      "id": "404",
+      "locale": "en-GB",
+      "method": "200% computed font-size (DOM text-only stress test)",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "body": "34px",
+      "head": "Eksyit koivikkoon.",
+      "links": [
+        {
+          "text": "Siirry sisältöön",
+          "href": "#main"
+        },
+        {
+          "text": "",
+          "href": "/"
+        },
+        {
+          "text": "Työt",
+          "href": "/tyot/"
+        },
+        {
+          "text": "Studio",
+          "href": "/studio/"
+        },
+        {
+          "text": "Valmennus",
+          "href": "/valmennus/"
+        },
+        {
+          "text": "Yritys",
+          "href": "/yritys/"
+        },
+        {
+          "text": "English",
+          "href": "/en/"
+        },
+        {
+          "text": "Etusivulle",
+          "href": "/"
+        },
+        {
+          "text": "To the front page",
+          "href": "/en/"
+        },
+        {
+          "text": "3458206-1",
+          "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1"
+        },
+        {
+          "text": "jarkko@koivupiilo.fi",
+          "href": "mailto:jarkko@koivupiilo.fi"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "English",
+          "href": "/en/"
+        }
+      ],
+      "lang": "fi",
+      "hreflang": [],
+      "text": "Siirry sisältöön\nTyöt\nStudio\nValmennus\nYritys\nEnglish\nEksyit koivikkoon.\n\nTätä sivua ei ole. Etusivulta pääsee takaisin polulle.\n\nEtusivulle\n\nYou got lost in the birch grove.\n\nThis page does not exist. The front page puts you back on the path.\n\nTo the front page\n\nYritys\nKoivupiilo Oy\nY-tunnus\n3458206-1\nPaikkakunta\nKangasala\nSähköposti\njarkko@koivupiilo.fi\nTietosuoja\nEnglish",
+      "small": [],
+      "clip": []
+    }
+  ],
+  "contrast": [
+    {
+      "scheme": "light",
+      "paper": "#f5f3ee",
+      "ink": "#151513",
+      "muted": "#5c5a54",
+      "opacity": 0.14,
+      "worstBackground": [
+        213.64,
+        211.92,
+        207.34
+      ],
+      "inkOnPaper": 16.48796393571554,
+      "mutedOnPaper": 6.218043522921362,
+      "inkOn404Bark": 12.330384497865296,
+      "mutedOn404Bark": 4.650111303069995,
+      "note": "404 paragraphs and links use ink; muted is included as a conservative extra."
+    },
+    {
+      "scheme": "dark",
+      "paper": "#121210",
+      "ink": "#eeebe4",
+      "muted": "#a29f97",
+      "opacity": 0.14,
+      "worstBackground": [
+        48.8,
+        48.38000000000001,
+        45.68
+      ],
+      "inkOnPaper": 15.75302855210969,
+      "mutedOnPaper": 7.093178819631625,
+      "inkOn404Bark": 11.041147928681244,
+      "mutedOn404Bark": 4.971541591070943,
+      "note": "404 paragraphs and links use ink; muted is included as a conservative extra."
+    }
+  ],
+  "limitations": [
+    "External destinations and the mail application were intercepted: no network requests beyond localhost and no email was sent.",
+    "Real hardware, VoiceOver, Safari and OS/browser text-only zoom were not available in this CLI review.",
+    "200% text test doubles every computed font size in the DOM; capture.mjs zoom200 is a 640px viewport at DPR2, a layout simulation rather than browser zoom."
+  ],
+  "blocked": [],
+  "errors": []
+}

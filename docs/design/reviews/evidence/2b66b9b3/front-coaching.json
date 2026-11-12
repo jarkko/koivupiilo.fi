@@ -1,0 +1,18 @@
+[
+  {
+    "locale": "fi-FI",
+    "from": "/",
+    "action": "Valmennus",
+    "expected": "/valmennus/",
+    "actual": "/valmennus/",
+    "taps": 1
+  },
+  {
+    "locale": "en-GB",
+    "from": "/en/",
+    "action": "Coaching",
+    "expected": "/en/coaching/",
+    "actual": "/en/coaching/",
+    "taps": 1
+  }
+]

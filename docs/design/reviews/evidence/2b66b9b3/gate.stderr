@@ -1,0 +1,4 @@
+ds: lint is off (Needs tokens; enable design lint with the chosen production token source.), skipping
+ds: imagery is off (No photos or video ship from src/; design/assets/photos/PROVENANCE.md records unapproved spike photos. Enable imagery with canonical provenance and confirmed cameras before publishing them.), skipping
+ds: tokens is off (No chosen production token source yet; the directions use CSS custom properties. Enable DTCG tokens when the owner chooses the direction (process.md phases 3-5).), skipping
+ds: web checks on 13 of 13 routes: /, /tyot/, /studio/, /valmennus/, /yritys/, /tietosuoja/, /en/, /en/work/, /en/studio/, /en/coaching/, /en/company/, /en/privacy/, /404.html

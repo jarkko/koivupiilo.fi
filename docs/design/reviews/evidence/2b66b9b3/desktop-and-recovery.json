@@ -1,0 +1,44 @@
+[
+  {
+    "walk": "W4",
+    "locale": "fi-FI",
+    "viewport": "1440x900",
+    "url": "/studio/",
+    "content": "Studio\n\nKoivupiilo tekee omia ohjelmistojaan ja ottaa harkiten vastaan ohjelmistoprojekteja.\n\nOmat tuotteet\n\nKoivupiilo tekee ensisijaisesti omia tuotteitaan. Niitä ovat esimerkiksi Kvitti ja Magistician.\n\nKaikki työt\n\nTekniikka\n\nOmissa tuotteissaan Koivupiilo käyttää näitä tekniikoita:\n\nElixir ja Phoenix\nSwift ja SwiftUI\nReact Native\nPython\nTilanne nyt\n\nOmat tuotteet menevät edelle. Asiakastyön Koivupiilo ottaa vastaan, kun työ ja aikataulu sopivat. Tilanteen voi kysyä sähköpostilla.\n\nNäin aloitetaan\n\nKirjoita lyhyesti, mitä olet rakentamassa, missä vaiheessa se on ja mihin mennessä tarvitset apua.\n\nViestit lukee ja niihin vastaa Jarkko Laine.\n\nKirjoita Koivupiilolle\njarkko@koivupiilo.fi"
+  },
+  {
+    "walk": "404 recovery",
+    "locale": "fi-FI",
+    "label": "Etusivulle",
+    "destination": "/",
+    "actual": "/"
+  },
+  {
+    "walk": "404 recovery",
+    "locale": "fi-FI",
+    "label": "To the front page",
+    "destination": "/en/",
+    "actual": "/en/"
+  },
+  {
+    "walk": "W4",
+    "locale": "en-GB",
+    "viewport": "1440x900",
+    "url": "/en/studio/",
+    "content": "Studio\n\nKoivupiilo builds its own software and takes on selected software projects.\n\nOwn products\n\nKoivupiilo builds its own products first. Kvitti and Magistician are two of them.\n\nAll work\n\nStack\n\nKoivupiilo builds its own products with:\n\nElixir and Phoenix\nSwift and SwiftUI\nReact Native\nPython\nRight now\n\nKoivupiilo's own products come first. It takes on client work when the project and the schedule fit. Ask by email.\n\nHow to start\n\nWrite a few lines about what you are building, how far along it is and when you need help by.\n\nJarkko Laine reads the messages and answers them.\n\nWrite to Koivupiilo\njarkko@koivupiilo.fi"
+  },
+  {
+    "walk": "404 recovery",
+    "locale": "en-GB",
+    "label": "Etusivulle",
+    "destination": "/",
+    "actual": "/"
+  },
+  {
+    "walk": "404 recovery",
+    "locale": "en-GB",
+    "label": "To the front page",
+    "destination": "/en/",
+    "actual": "/en/"
+  }
+]

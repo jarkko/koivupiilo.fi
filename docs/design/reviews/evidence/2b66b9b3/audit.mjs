@@ -1,0 +1,41 @@
+import {createRequire} from 'node:module';
+import {writeFileSync,mkdirSync,readFileSync} from 'node:fs';
+const {chromium}=createRequire('/Users/jarkko/code/postiz-app/node_modules/')('playwright');
+const E='docs/design/reviews/evidence/2b66b9b3', origin='http://127.0.0.1:4178';
+const routes=[['front','/','/en/'],['work','/tyot/','/en/work/'],['studio','/studio/','/en/studio/'],['coaching','/valmennus/','/en/coaching/'],['company','/yritys/','/en/company/'],['privacy','/tietosuoja/','/en/privacy/'],['404','/not-a-page/','/en/not-a-page/']];
+mkdirSync(E+'/audit-shots',{recursive:true});mkdirSync(E+'/strips',{recursive:true});
+const b=await chromium.launch({executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'});
+const blocked=[],errors=[],report={head:'38aea0d57eb87f064d29e486d705332dc33f1b21',pages:[],walks:[],zoom:[],contrast:[],limitations:['External destinations and the mail application were intercepted: no network requests beyond localhost and no email was sent.','Real hardware, VoiceOver, Safari and OS/browser text-only zoom were not available in this CLI review.','200% text test doubles every computed font size in the DOM; capture.mjs zoom200 is a 640px viewport at DPR2, a layout simulation rather than browser zoom.']};
+async function context(locale,scheme='light',width=390,height=844){const c=await b.newContext({viewport:{width,height},locale,colorScheme:scheme,reducedMotion:'reduce'});await c.route('**/*',r=>{const u=new URL(r.request().url());if(['127.0.0.1','localhost'].includes(u.hostname)||u.protocol==='data:')return r.continue();blocked.push(u.href);return r.abort();});return c;}
+async function metrics(p){return p.evaluate(()=>({width:innerWidth,scrollWidth:document.documentElement.scrollWidth,body:getComputedStyle(document.body).fontSize,head:document.querySelector('h1')?.textContent,links:[...document.querySelectorAll('a')].map(a=>({text:a.textContent.trim(),href:a.getAttribute('href')})),lang:document.documentElement.lang,hreflang:[...document.querySelectorAll('link[rel=alternate]')].map(x=>({lang:x.hreflang,href:x.href})),text:document.body.innerText,small:[...document.querySelectorAll('a')].filter(a=>{let r=a.getBoundingClientRect(),s=getComputedStyle(a);return r.width>0&&r.height>0&&s.display!=='inline'&&(r.width<44||r.height<44)}).map(a=>({text:a.textContent.trim(),width:a.getBoundingClientRect().width,height:a.getBoundingClientRect().height})),clip:[...document.querySelectorAll('h1,h2,h3,p,dd,dt,a,li')].filter(x=>{const r=x.getBoundingClientRect();return r.width>0&&(r.right>innerWidth+1||r.left< -1)}).map(x=>x.tagName+' '+x.textContent.trim().slice(0,80))}));}
+for(const [id,fi,en] of routes)for(const [lang,locale,url] of [['fi','fi-FI',fi],['en','en-GB',en]]){
+ const c=await context(locale);const p=await c.newPage();p.on('pageerror',e=>errors.push(e.message));const res=await p.goto(origin+url);await p.evaluate(()=>document.fonts.ready);let m=await metrics(p);report.pages.push({id,locale,url,status:res.status(),...m});
+ if(id==='front')await p.screenshot({path:`${E}/audit-shots/${id}-${lang}-first-viewport.png`});
+ if(id==='404')for(const scheme of ['light','dark']){await p.emulateMedia({colorScheme:scheme});await p.screenshot({path:`${E}/audit-shots/404-${lang}-390-${scheme}.png`,fullPage:true});}
+ await p.emulateMedia({colorScheme:'light'});await p.setViewportSize({width:1440,height:900});
+ // Explicit text enlargement, including vw/clamp text, while retaining original box sizes.
+ await p.evaluate(()=>{const sizes=[...document.querySelectorAll('*')].map(x=>[x,parseFloat(getComputedStyle(x).fontSize)]);for(const [x,s] of sizes)x.style.fontSize=s*2+'px';});
+ report.zoom.push({id,locale,method:'200% computed font-size (DOM text-only stress test)',...await metrics(p)});await p.screenshot({path:`${E}/audit-shots/${id}-${lang}-text200.png`,fullPage:true});
+ await p.goto(origin+url);await p.setViewportSize({width:390,height:844});await p.keyboard.press('Tab');const focus=await p.evaluate(()=>({text:document.activeElement.textContent,tag:document.activeElement.tagName,outline:getComputedStyle(document.activeElement).outline,box:document.activeElement.getBoundingClientRect().toJSON()}));
+ if(id==='front')await p.screenshot({path:`${E}/audit-shots/keyboard-${lang}-skip.png`});report.pages.at(-1).firstFocus=focus;await p.keyboard.press('Enter');report.pages.at(-1).skipDestination=await p.evaluate(()=>document.activeElement.id);
+ await c.close();
+}
+// Actual click paths with before / ~300ms / settled frames for each local transition.
+for(const [lang,locale,front,work,studio,coaching,company] of [['fi','fi-FI','/','/tyot/','/studio/','/valmennus/','/yritys/'],['en','en-GB','/en/','/en/work/','/en/studio/','/en/coaching/','/en/company/']]){
+ const c=await context(locale,lang==='fi'?'dark':'light');const p=await c.newPage();await p.goto(origin+front);await p.evaluate(()=>document.fonts.ready);
+ let n=0;async function move(label,sel){const stem=`${E}/strips/${lang}-${String(++n).padStart(2,'0')}`;await p.screenshot({path:stem+'-before.png'});const started=Date.now();await p.locator(sel).first().click();await p.waitForTimeout(Math.max(0,300-(Date.now()-started)));await p.screenshot({path:stem+'-300ms.png'});await p.evaluate(()=>document.fonts.ready);await p.screenshot({path:stem+'-after.png'});report.walks.push({locale,label,url:new URL(p.url()).pathname,evidence:[stem+'-before.png',stem+'-300ms.png',stem+'-after.png']});}
+ await move(lang==='fi'?'Työt':'Work',`header a[href="${work}"]`);
+ // W1: inspect the actual product link, then route externally through a local interception.
+ const product=await p.locator('a[href="https://kvitti.fi"]').getAttribute('href');report.walks.push({locale,walk:'W1',productDestination:product,externalNotOpened:true,status:(await p.locator('main').innerText()).slice(0,1400)});
+ await move('Studio',`header a[href="${studio}"]`);const mail=await p.locator('main a[href^="mailto:"]').first().getAttribute('href');report.walks.push({locale,walk:'W1/W4',mailto:mail,body:await p.locator('main').innerText()});
+ await move(lang==='fi'?'Valmennus':'Coaching',`header a[href="${coaching}"]`);await move(lang==='fi'?'Katso työt':'See the work',`main a[href="${work}"]`);
+ report.walks.push({locale,walk:'W2',magistician:await p.locator('a[href="https://magistician.com"]').innerText(),contact:await p.locator('footer a[href^="mailto:"]').getAttribute('href')});
+ await move(lang==='fi'?'Yritys':'Company',`header a[href="${company}"]`);report.walks.push({locale,walk:'W5',facts:await p.locator('main').innerText()});
+ // W3: switch each page in both directions; no front-page fallback.
+ for(const [id,fi,en] of routes.filter(x=>x[0]!=='404')){await p.goto(origin+(lang==='fi'?fi:en));await move(lang==='fi'?'English':'Suomeksi',`header a[lang="${lang==='fi'?'en':'fi'}"]`);report.walks.push({locale,walk:'W3',id,expected:lang==='fi'?en:fi,actual:new URL(p.url()).pathname});}
+ await c.close();
+}
+// Contrast: compute the worst possible point where 14% bark covers the 404 paper.
+function rgb(hex){return hex.match(/[a-f\d]{2}/gi).map(x=>parseInt(x,16));}function lum(a){return a.map(x=>x/255).map(x=>x<=.04045?x/12.92:((x+.055)/1.055)**2.4).reduce((s,v,i)=>s+v*[.2126,.7152,.0722][i],0);}function ratio(a,b){const x=lum(a),y=lum(b);return (Math.max(x,y)+.05)/(Math.min(x,y)+.05);}
+for(const [scheme,paper,ink,muted] of [['light','#f5f3ee','#151513','#5c5a54'],['dark','#121210','#eeebe4','#a29f97']]){let bg=rgb(paper),fg=rgb(ink),composite=fg.map((v,i)=>v*.14+bg[i]*.86);report.contrast.push({scheme,paper,ink,muted,opacity:.14,worstBackground:composite,inkOnPaper:ratio(fg,bg),mutedOnPaper:ratio(rgb(muted),bg),inkOn404Bark:ratio(fg,composite),mutedOn404Bark:ratio(rgb(muted),composite),note:'404 paragraphs and links use ink; muted is included as a conservative extra.'});}
+report.blocked=blocked;report.errors=errors;writeFileSync(E+'/audit.json',JSON.stringify(report,null,2));await b.close();console.log(JSON.stringify({pages:report.pages.length,walkEvents:report.walks.length,enlarged:report.zoom.length,blocked,errors,overflow:report.pages.filter(x=>x.scrollWidth>x.width).map(x=>x.url),text200overflow:report.zoom.filter(x=>x.scrollWidth>x.width).map(x=>x.url),contrast:report.contrast},null,2));
