@@ -35,7 +35,8 @@ ui_globs = ["src/**", "frontend/**", "design/**/*.{mjs,html,css,svg,png,jpg,woff
 # src/kvnn/ is not Koivupiilo's UI: the KVNN client mockups, served as plain files at /kvnn/
 # (copied byte for byte from the kvnn repository's mockups/ at commit 9f8f6d7, without content.md).
 # They are outside the review hash, the term check and every web check.
-ignore_globs = ["node_modules/**", "output/**", "design/out/**", "design/shots/**", "**/*.generated.*", "src/kvnn/**"]
+# docs/design/reviews/evidence/ is a reviewer's record: it may quote superseded wording to say it is gone.
+ignore_globs = ["node_modules/**", "output/**", "design/out/**", "design/shots/**", "**/*.generated.*", "src/kvnn/**", "docs/design/reviews/evidence/**"]
 # Phoenix: ignore_globs = ["deps/**", "_build/**", "node_modules/**", "**/*.generated.*"]
 
 [modules]
