@@ -4,7 +4,9 @@
      phone     below 44rem (704 px)
      tablet    from 44rem
      desktop   from 62rem (992 px): the register rows get their label column
-     wide      from 80rem (1280 px) */
+     wide      from 80rem (1280 px)
+   One more is measured on the row body, not the window (a container query):
+     columns   from 41rem of row body: the work list gets its name and status columns */
 
 @font-face {
   font-family: "Hanken Grotesk";

@@ -400,12 +400,18 @@ main {
 
 /* ---------- Work list: name, one line, status ---------- */
 
+/* The list asks its own row body how wide it is, not the window: enlarged text narrows the body
+   in rem, and the list then stacks instead of squeezing the description between fixed columns. */
+.row-body {
+  container-type: inline-size;
+}
+
+/* Stacked: the name, the status with its date on one line, then the description. */
 .work li {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
   align-items: baseline;
-  gap: var(--sp-1) var(--sp-4);
+  gap: var(--sp-1) var(--sp-5);
   padding-block: var(--sp-2) var(--sp-4);
   border-block-end: var(--hair) solid var(--rule);
 }
@@ -429,22 +435,31 @@ main {
 
 .work-line {
   order: 1;
-  flex: 1 0 100%;
   max-width: var(--measure);
   color: var(--muted);
   font-size: var(--fs-meta);
 }
 
+/* Status is a word plus a lenticel: filled when someone uses the thing, open when not yet.
+   The date the status was last checked follows the word, and drops to its own line when text is large. */
 .status {
-  display: inline-flex;
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: var(--sp-2);
+  column-gap: var(--sp-2);
   font-size: var(--fs-small);
   font-weight: var(--w-medium);
+  line-height: var(--lh-small);
   white-space: nowrap;
+  margin-block-end: var(--sp-1);
 }
 
-/* Status is a word plus a lenticel: filled when someone uses the thing, open when not yet. */
+.status time {
+  color: var(--muted);
+  font-weight: var(--w-regular);
+  font-variant-numeric: tabular-nums;
+}
+
 .status::before {
   content: "";
   flex: none;
@@ -458,11 +473,11 @@ main {
   background: currentColor;
 }
 
-@media (min-width: 44rem) {
+/* Columns once the row body has room for them: name, description, status with the date under the word. */
+@container (min-width: 41rem) {
   .work li {
-    display: grid;
     grid-template-columns: var(--work-name) minmax(0, 1fr) var(--work-status);
-    gap: 0 var(--sp-5);
+    row-gap: 0;
     padding-block: var(--sp-2);
   }
 
@@ -472,6 +487,17 @@ main {
 
   .work-line {
     order: 0;
+  }
+
+  .status {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: start;
+    margin-block-end: 0;
+  }
+
+  .status time {
+    grid-column: 2;
   }
 }
 
@@ -484,7 +510,7 @@ main {
   min-height: 0;
 }
 
-@media (min-width: 44rem) {
+@container (min-width: 41rem) {
   .work--plain li {
     grid-template-columns: var(--work-name) minmax(0, 1fr);
     padding-block: var(--sp-3);
