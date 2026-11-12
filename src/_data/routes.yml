@@ -1,0 +1,20 @@
+# One row per page: its path in each language. The header, the language link,
+# hreflang pairs and sitemap.xml all read this table (strategy.md §5).
+front:
+  fi: /
+  en: /en/
+work:
+  fi: /tyot/
+  en: /en/work/
+studio:
+  fi: /studio/
+  en: /en/studio/
+coaching:
+  fi: /valmennus/
+  en: /en/coaching/
+company:
+  fi: /yritys/
+  en: /en/company/
+privacy:
+  fi: /tietosuoja/
+  en: /en/privacy/

@@ -1,0 +1,28 @@
+# Lines that have to come from Jarkko's own words (strategy.md §3, marked J).
+# These are interim versions written by the agent. Replace each one here;
+# nothing else needs to change.
+
+# §3.1 What Koivupiilo is, in one sentence. Front page headline.
+one_sentence:
+  fi: Koivupiilo tekee ohjelmistoja urheiluseuroille ja pienyrityksille sekä valmentaa lentopalloa.
+  en: Koivupiilo makes software for sports clubs and small companies, and coaches volleyball.
+
+# §3.4 One or two sentences about himself, first person. /yritys/, founder.
+founder_note:
+  fi: Olen ohjelmistokehittäjä ja lentopallovalmentaja, ja Koivupiilo on yritys, jonka kautta teen kumpaakin työtä.
+  en: I am a software developer and a volleyball coach, and Koivupiilo is the company I do both jobs through.
+
+# One sentence, first person: what he coaches and for whom. /valmennus/, opening line.
+coaching_sentence:
+  fi: Valmennan lentopalloa ja rantalentopalloa, koulutan valmentajia ja autan uusia esihenkilöitä alkuun.
+  en: I coach volleyball and beach volleyball, train coaches and help new team leads get started.
+
+# Room for new projects, and from when. /studio/. No dates promised until Jarkko gives them.
+capacity:
+  fi: Omat tuotteet menevät edelle. Asiakastyön Koivupiilo ottaa vastaan, kun työ ja aikataulu sopivat. Tilanteen voi kysyä sähköpostilla.
+  en: Koivupiilo's own products come first. It takes on client work when the project and the schedule fit. Ask by email.
+
+# How fast a reply comes. /studio/. No time promised until Jarkko gives one.
+reply:
+  fi: Viestit lukee ja niihin vastaa Jarkko Laine.
+  en: Jarkko Laine reads the messages and answers them.

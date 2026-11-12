@@ -1,0 +1,292 @@
+# Site copy, Finnish first (written natively), English derived from it.
+# Source drafts: docs/design/content/fi/*.md. Voice: D16 (the company in the
+# third person by name; "minä" only in the founder note and on Valmennus; never "me").
+#
+# Not here on purpose:
+# - Jarkko's own lines (strategy §3, J) are in jarkko.yml.
+# - Company facts are in company.yml, the work list in work.yml.
+# - Claims the drafts mark [vahvista] stay out until Jarkko confirms them (D6, M3).
+
+fi:
+  site:
+    skip: Siirry sisältöön
+    nav_label: Päävalikko
+    home_label: Koivupiilo, etusivu
+    other_language: English
+    external: toinen sivusto
+    status: Tila
+    footer_label: Yritystiedot
+  nav:
+    work: Työt
+    studio: Studio
+    coaching: Valmennus
+    company: Yritys
+    privacy: Tietosuoja
+  facts:
+    company: Yritys
+    business_id: Y-tunnus
+    city: Paikkakunta
+    founded: Perustettu
+    email: Sähköposti
+    name: Nimi
+    registered: Rekisteröity
+    address: Osoite
+    ytj: Yritys- ja yhteisötietojärjestelmä (YTJ)
+    country: ""
+  mail:
+    studio_subject: Ohjelmistoprojekti
+    studio_cta: Kirjoita Koivupiilolle
+    coaching_subject: Valmennus
+    coaching_cta: Kirjoita Jarkolle
+  pages:
+    front:
+      title: Koivupiilo – ohjelmistoja urheiluseuroille ja pienyrityksille
+      description: Koivupiilo Oy tekee Kangasalla ohjelmistoja urheiluseuroille ja pienyrityksille sekä valmentaa lentopalloa. Y-tunnus 3458206-1.
+      work_heading: Työt
+      work_all: Kaikki työt
+      studio_heading: Studio
+      studio_text: Koivupiilo tekee omia ohjelmistojaan ja ottaa harkiten vastaan ohjelmistoprojekteja.
+      studio_link: Lue lisää Studiosta
+      coaching_heading: Valmennus
+      coaching_text: Koivupiilo valmentaa lentopalloa ja rantalentopalloa, kouluttaa valmentajia ja auttaa uusia esihenkilöitä alkuun.
+      coaching_link: Lue lisää valmennuksesta
+      company_heading: Yritys
+      company_text: Koivupiilon perusti vuonna 2024 Jarkko Laine, ohjelmistokehittäjä ja lentopallovalmentaja. Nimi tulee koivikosta Kangasalla.
+      company_link: Lue lisää yrityksestä
+    work:
+      title: Työt – Koivupiilo
+      description: "Koivupiilon julkaisemat ja tekeillä olevat työt: Kvitti, Rantalentopallokartta, Magistician ja muut. Jokaisesta kerrotaan, missä vaiheessa se on."
+      heading: Työt
+      lede: Koivupiilon julkaisemat ja tekeillä olevat työt.
+      list_label: Kaikki työt
+      checked: Tilat on tarkistettu %{date}.
+    studio:
+      title: Studio – Koivupiilo
+      description: Koivupiilo tekee omia ohjelmistojaan ja ottaa harkiten vastaan ohjelmistoprojekteja. Sivulla kerrotaan tekniikka, tilanne ja se, miten projekti aloitetaan.
+      heading: Studio
+      lede: Koivupiilo tekee omia ohjelmistojaan ja ottaa harkiten vastaan ohjelmistoprojekteja.
+      products_heading: Omat tuotteet
+      products_text: Koivupiilo tekee ensisijaisesti omia tuotteitaan. Niitä ovat esimerkiksi Kvitti ja Magistician.
+      products_link: Kaikki työt
+      stack_heading: Tekniikka
+      stack_text: "Omissa tuotteissaan Koivupiilo käyttää näitä tekniikoita:"
+      stack:
+        - Elixir ja Phoenix
+        - Swift ja SwiftUI
+        - React Native
+        - Python
+      capacity_heading: Tilanne nyt
+      start_heading: Näin aloitetaan
+      start_text: Kirjoita lyhyesti, mitä olet rakentamassa, missä vaiheessa se on ja mihin mennessä tarvitset apua.
+    coaching:
+      title: Valmennus – Koivupiilo
+      description: Lentopallon ja rantalentopallon valmennusta, valmentajakoulutusta ja valmennusta uusille esihenkilöille. Valmentajana Jarkko Laine.
+      heading: Valmennus
+      byline: Jarkko Laine, Koivupiilon perustaja
+      offers_heading: Mitä valmennan
+      offers:
+        - name: Lentopallo ja rantalentopallo
+          line: Valmennusta seuroille, joukkueille ja pelaajille.
+        - name: Valmentajakoulutus
+          line: Koulutusta seurojen valmentajille.
+        - name: Uusien esihenkilöiden valmennus
+          line: Valmennusta niille, jotka ovat juuri aloittaneet tiimin vetäjänä.
+      offers_note: Sisällöstä ja laajuudesta sovitaan joka kerta erikseen.
+      background_heading: Taustaa
+      background:
+        - text: Lentopalloliiton Kauden seuratoimija 2025
+        - text: Pyynikin rantalentopalloturnausten järjestäjä
+        - link: Rantalentopallon sääntöjen 2025–2028 suomennos
+          url: https://jarkko.github.io/beach-volleyball-rules-fi/docs/
+          after: " (kesken)"
+      software_heading: Ohjelmistot
+      software_text: Koivupiilo tekee lentopalloon myös ohjelmistoja. Niitä ovat esimerkiksi Magistician ja Rantalentopallokartta.
+      software_link: Katso työt
+      start_heading: Näin aloitetaan
+      start_text: Kirjoita, mikä seura tai joukkue on kyseessä, mitä haluatte kehittää ja milloin.
+    company:
+      title: Yritys – Koivupiilo
+      description: Koivupiilo Oy, Y-tunnus 3458206-1, Kangasala. Yritystiedot, perustaja ja se, mistä yrityksen nimi tulee.
+      heading: Yritys
+      facts_heading: Yritystiedot
+      founder_heading: Perustaja
+      founder_text: Koivupiilon perusti Jarkko Laine vuonna 2024.
+      founder_cv:
+        - text: Ohjelmistokehittäjä, Selma Financen lead developer vuodesta 2018
+        - text: Lentopalloliiton Kauden seuratoimija 2025
+        - text: "Kirjoittaa valmentamisesta ja kestävyysurheilusta: "
+          link: jlaine.net
+          url: https://jlaine.net
+      name_heading: Nimi tulee koivikosta
+      name_text:
+        - Koivupiilo on koivikko Kangasalla. Paikalle antoivat nimen lapset, ja myöhemmin siihen rakennettiin talo. Yritys sai nimensä samasta paikasta.
+        - Sivujen reunassa kulkeva tuohi on jäljennetty valokuvasta, joka on otettu yhdestä koivikon koivusta.
+    privacy:
+      title: Tietosuoja – Koivupiilo
+      description: Koivupiilo.fi ei käytä evästeitä eikä analytiikkaa. Sivulla kerrotaan, mitä tietoja palvelin ja sähköposti käsittelevät ja kuka on rekisterinpitäjä.
+      heading: Tietosuoja
+      lede: Koivupiilo.fi ei käytä evästeitä eikä seuraa kävijöitä.
+      sections:
+        - heading: Evästeet ja analytiikka
+          text:
+            - Sivustolla ei ole evästeitä, kävijäseurantaa eikä analytiikkaa, eikä se tallenna selaimeesi mitään.
+            - Kaikki sivuston tiedostot fontteja myöten tulevat tältä sivustolta. Kolmansien osapuolten palvelimilta sivusto ei lataa mitään.
+        - heading: Palvelin
+          text:
+            - Sivusto on GitHub Pagesissa. GitHub voi tallentaa kävijöiden IP-osoitteita palvelunsa turvallisuuden takia.
+        - heading: Sähköposti
+          text:
+            - Kun kirjoitat Koivupiilolle, Koivupiilo käyttää osoitettasi ja viestiäsi vain viestiin vastaamiseen eikä luovuta niitä eteenpäin. Sähköposti kulkee Fastmailin palvelimien kautta.
+        - heading: Oikeutesi
+          text:
+            - Voit pyytää nähtäväksi, korjattavaksi tai poistettavaksi tiedot, jotka Koivupiilolla on sinusta. Kirjoita osoitteeseen %{email}.
+            - Jos tietojesi käsittelyssä on mielestäsi virhe, voit valittaa siitä tietosuojavaltuutetulle.
+      controller_heading: Rekisterinpitäjä
+      updated: Päivitetty %{date}.
+    notfound:
+      title: Sivua ei löytynyt – Koivupiilo
+      heading: Eksyit koivikkoon.
+      text: Tätä sivua ei ole. Etusivulta pääsee takaisin polulle.
+      link: Etusivulle
+
+en:
+  site:
+    skip: Skip to content
+    nav_label: Main
+    home_label: Koivupiilo, front page
+    other_language: Suomeksi
+    external: another site
+    status: Status
+    footer_label: Company details
+  nav:
+    work: Work
+    studio: Studio
+    coaching: Coaching
+    company: Company
+    privacy: Privacy
+  facts:
+    company: Company
+    business_id: Business ID
+    city: Location
+    founded: Founded
+    email: Email
+    name: Name
+    registered: Registered
+    address: Address
+    ytj: Finnish Business Information System (YTJ)
+    country: Finland
+  mail:
+    studio_subject: Software project
+    studio_cta: Write to Koivupiilo
+    coaching_subject: Coaching
+    coaching_cta: Write to Jarkko
+  pages:
+    front:
+      title: Koivupiilo – software for sports clubs and small companies
+      description: Koivupiilo Oy makes software for sports clubs and small companies, and coaches volleyball. A company in Kangasala, Finland. Business ID 3458206-1.
+      work_heading: Work
+      work_all: All work
+      studio_heading: Studio
+      studio_text: Koivupiilo builds its own software and takes on selected software projects.
+      studio_link: More about Studio
+      coaching_heading: Coaching
+      coaching_text: Koivupiilo coaches volleyball and beach volleyball, trains coaches and helps new team leads get started.
+      coaching_link: More about coaching
+      company_heading: Company
+      company_text: Jarkko Laine, a software developer and volleyball coach, founded Koivupiilo in 2024. The name comes from a birch grove in Kangasala.
+      company_link: More about the company
+    work:
+      title: Work – Koivupiilo
+      description: "Work Koivupiilo has released or is building: Kvitti, the beach volleyball court map, Magistician and more. Each item states its stage."
+      heading: Work
+      lede: Work Koivupiilo has released or is building.
+      list_label: All work
+      checked: Statuses checked on %{date}.
+    studio:
+      title: Studio – Koivupiilo
+      description: Koivupiilo builds its own software and takes on selected software projects. This page covers the stack, the current situation and how a project starts.
+      heading: Studio
+      lede: Koivupiilo builds its own software and takes on selected software projects.
+      products_heading: Own products
+      products_text: Koivupiilo builds its own products first. Kvitti and Magistician are two of them.
+      products_link: All work
+      stack_heading: Stack
+      stack_text: "Koivupiilo builds its own products with:"
+      stack:
+        - Elixir and Phoenix
+        - Swift and SwiftUI
+        - React Native
+        - Python
+      capacity_heading: Right now
+      start_heading: How to start
+      start_text: Write a few lines about what you are building, how far along it is and when you need help by.
+    coaching:
+      title: Coaching – Koivupiilo
+      description: Volleyball and beach volleyball coaching, coach education and coaching for new team leads. Your coach is Jarkko Laine.
+      heading: Coaching
+      byline: Jarkko Laine, founder of Koivupiilo
+      offers_heading: What I coach
+      offers:
+        - name: Volleyball and beach volleyball
+          line: Coaching for clubs, teams and players.
+        - name: Coach education
+          line: Training for club coaches.
+        - name: Coaching for new team leads
+          line: For people who have just started leading a team.
+      offers_note: I agree the content and scope with each club, team or person separately.
+      background_heading: Background
+      background:
+        - text: Club official of the season 2025 (Kauden seuratoimija), Finnish Volleyball Association
+        - text: Organiser of the Pyynikki beach volleyball tournaments
+        - link: Finnish translation of the beach volleyball rules for 2025–2028
+          url: https://jarkko.github.io/beach-volleyball-rules-fi/docs/
+          after: " (in progress)"
+      software_heading: Software
+      software_text: Koivupiilo also builds software for volleyball. Magistician and the beach volleyball court map are two examples.
+      software_link: See the work
+      start_heading: How to start
+      start_text: Tell me which club or team this is about, what you want to develop and when.
+    company:
+      title: Company – Koivupiilo
+      description: Koivupiilo Oy, Business ID 3458206-1, Kangasala, Finland. Company details, the founder and where the name comes from.
+      heading: Company
+      facts_heading: Company details
+      founder_heading: Founder
+      founder_text: Jarkko Laine founded Koivupiilo in 2024.
+      founder_cv:
+        - text: Software developer, lead developer at Selma Finance since 2018
+        - text: Club official of the season 2025 (Kauden seuratoimija), Finnish Volleyball Association
+        - text: "Writes about coaching and endurance sports at "
+          link: jlaine.net
+          url: https://jlaine.net
+      name_heading: The name comes from a birch grove
+      name_text:
+        - Koivupiilo is a birch grove in Kangasala. The children gave the place its name, and a house was built there later. The company took its name from the same place.
+        - The bark along the edge of these pages is traced from a photo of one of the grove's birches.
+    privacy:
+      title: Privacy – Koivupiilo
+      description: Koivupiilo.fi uses no cookies and no analytics. This page states what the server and email handle, and who the controller is.
+      heading: Privacy
+      lede: Koivupiilo.fi uses no cookies and does not track visitors.
+      sections:
+        - heading: Cookies and analytics
+          text:
+            - This site sets no cookies, runs no visitor tracking or analytics, and stores nothing in your browser.
+            - Every file, fonts included, comes from this site. The site loads nothing from third-party servers.
+        - heading: Server
+          text:
+            - GitHub Pages hosts the site. GitHub may log visitors' IP addresses to keep its service secure.
+        - heading: Email
+          text:
+            - When you write to Koivupiilo, it uses your address and your message to reply to you, and passes neither on. Email travels through Fastmail's servers.
+        - heading: Your rights
+          text:
+            - You can ask to see, correct or delete the data Koivupiilo holds about you. Write to %{email}.
+            - If you think Koivupiilo has handled your data wrongly, you can complain to the Finnish Data Protection Ombudsman.
+      controller_heading: Controller
+      updated: Updated %{date}.
+    notfound:
+      title: Page not found – Koivupiilo
+      heading: You got lost in the birch grove.
+      text: This page does not exist. The front page puts you back on the path.
+      link: To the front page
