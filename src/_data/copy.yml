@@ -39,15 +39,15 @@ fi:
     coaching_cta: Kirjoita Jarkolle
   pages:
     front:
-      title: Koivupiilo – ohjelmistoja urheiluseuroille ja pienyrityksille
-      description: Koivupiilo Oy tekee Kangasalla ohjelmistoja urheiluseuroille ja pienyrityksille sekä valmentaa lentopalloa. Y-tunnus 3458206-1.
+      title: Koivupiilo Oy – ohjelmistoyritys Kangasalta
+      description: Koivupiilo Oy on ohjelmistoyritys Kangasalta. Omat tuotteet, konsultointi ja lentopallovalmennus. Y-tunnus 3458206-1.
       work_heading: Työt
       work_all: Kaikki työt
       studio_heading: Studio
-      studio_text: Koivupiilo tekee omia ohjelmistojaan ja ottaa harkiten vastaan ohjelmistoprojekteja.
+      studio_text: Koivupiilo tekee omia ohjelmistojaan ja ohjelmistokonsultointia.
       studio_link: Lue lisää Studiosta
       coaching_heading: Valmennus
-      coaching_text: Koivupiilo valmentaa lentopalloa ja beach volleyta, kouluttaa valmentajia ja auttaa uusia esihenkilöitä alkuun.
+      coaching_text: Jarkko Laine valmentaa lentopalloa ja beach volleyta, kouluttaa valmentajia ja auttaa uusia esihenkilöitä alkuun.
       coaching_link: Lue lisää valmennuksesta
       company_heading: Yritys
       company_text: Koivupiilon perusti vuonna 2024 Jarkko Laine, ohjelmistokehittäjä ja lentopallovalmentaja. Nimi tulee koivikosta Kangasalla.
@@ -61,9 +61,9 @@ fi:
       checked: Tilat on tarkistettu %{date}.
     studio:
       title: Studio – Koivupiilo
-      description: Koivupiilo tekee omia ohjelmistojaan ja ottaa harkiten vastaan ohjelmistoprojekteja. Sivulla kerrotaan tekniikka, tilanne ja se, miten projekti aloitetaan.
+      description: Koivupiilo tekee omia ohjelmistojaan ja ohjelmistokonsultointia. Sivulla kerrotaan tekniikka, tilanne ja se, miten projekti aloitetaan.
       heading: Studio
-      lede: Koivupiilo tekee omia ohjelmistojaan ja ottaa harkiten vastaan ohjelmistoprojekteja.
+      lede: Koivupiilo tekee omia ohjelmistojaan ja ohjelmistokonsultointia.
       products_heading: Omat tuotteet
       products_text: Koivupiilo tekee ensisijaisesti omia tuotteitaan. Niitä ovat esimerkiksi Kvitti ja Magistician.
       products_link: Kaikki työt
@@ -118,7 +118,7 @@ fi:
           url: https://jlaine.net
       name_heading: Nimi tulee koivikosta
       name_text:
-        - Koivupiilo on koivikko Kangasalla. Paikalle antoivat nimen lapset, ja myöhemmin siihen rakennettiin talo. Yritys sai nimensä samasta paikasta.
+        - Koivupiilo on koivikko Kangasalla, ja yritys sai nimensä siitä.
         - Sivujen reunassa kulkeva tuohi on jäljennetty valokuvasta, joka on otettu yhdestä koivikon koivusta.
     privacy:
       title: Tietosuoja – Koivupiilo
@@ -181,15 +181,15 @@ en:
     coaching_cta: Write to Jarkko
   pages:
     front:
-      title: Koivupiilo – software for sports clubs and small companies
-      description: Koivupiilo Oy makes software for sports clubs and small companies, and coaches volleyball. A company in Kangasala, Finland. Business ID 3458206-1.
+      title: Koivupiilo Oy – a software company from Kangasala
+      description: Koivupiilo Oy is a software company from Kangasala, Finland. Its own products, consulting and volleyball coaching. Business ID 3458206-1.
       work_heading: Work
       work_all: All work
       studio_heading: Studio
-      studio_text: Koivupiilo builds its own software and takes on selected software projects.
+      studio_text: Koivupiilo builds its own software and does software consulting.
       studio_link: More about Studio
       coaching_heading: Coaching
-      coaching_text: Koivupiilo coaches volleyball and beach volleyball, trains coaches and helps new team leads get started.
+      coaching_text: Jarkko Laine coaches volleyball and beach volleyball, trains coaches and helps new team leads get started.
       coaching_link: More about coaching
       company_heading: Company
       company_text: Jarkko Laine, a software developer and volleyball coach, founded Koivupiilo in 2024. The name comes from a birch grove in Kangasala.
@@ -203,9 +203,9 @@ en:
       checked: Statuses checked on %{date}.
     studio:
       title: Studio – Koivupiilo
-      description: Koivupiilo builds its own software and takes on selected software projects. This page covers the stack, the current situation and how a project starts.
+      description: Koivupiilo builds its own software and does software consulting. This page covers the stack, the current situation and how a project starts.
       heading: Studio
-      lede: Koivupiilo builds its own software and takes on selected software projects.
+      lede: Koivupiilo builds its own software and does software consulting.
       products_heading: Own products
       products_text: Koivupiilo builds its own products first. Kvitti and Magistician are two of them.
       products_link: All work
@@ -260,7 +260,7 @@ en:
           url: https://jlaine.net
       name_heading: The name comes from a birch grove
       name_text:
-        - Koivupiilo is a birch grove in Kangasala. The children gave the place its name, and a house was built there later. The company took its name from the same place.
+        - Koivupiilo is a birch grove in Kangasala, and the company is named after it.
         - The bark along the edge of these pages is traced from a photo of one of the grove's birches.
     privacy:
       title: Privacy – Koivupiilo

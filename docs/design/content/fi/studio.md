@@ -1,6 +1,6 @@
 # Studio
 
-Koivupiilo tekee omia ohjelmistojaan ja ottaa harkiten vastaan ohjelmistoprojekteja.
+Koivupiilo tekee omia ohjelmistojaan ja ohjelmistokonsultointia.
 
 ## Millaisia töitä
 

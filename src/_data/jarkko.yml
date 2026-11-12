@@ -4,8 +4,8 @@
 
 # §3.1 What Koivupiilo is, in one sentence. Front page headline.
 one_sentence:
-  fi: Koivupiilo tekee ohjelmistoja urheiluseuroille ja pienyrityksille sekä valmentaa lentopalloa.
-  en: Koivupiilo makes software for sports clubs and small companies, and coaches volleyball.
+  fi: Koivupiilo on ohjelmistoyritys Kangasalta.
+  en: Koivupiilo is a software company from Kangasala, Finland.
 
 # §3.4 One or two sentences about himself, first person. /yritys/, founder.
 founder_note:
@@ -19,8 +19,8 @@ coaching_sentence:
 
 # Room for new projects, and from when. /studio/. No dates promised until Jarkko gives them.
 capacity:
-  fi: Omat tuotteet menevät edelle. Asiakastyön Koivupiilo ottaa vastaan, kun työ ja aikataulu sopivat. Tilanteen voi kysyä sähköpostilla.
-  en: Koivupiilo's own products come first. It takes on client work when the project and the schedule fit. Ask by email.
+  fi: Omat tuotteet menevät edelle. Teen konsultointia, kun aikataulu sallii.
+  en: Koivupiilo's own products come first. I take on consulting work when the schedule allows.
 
 # How fast a reply comes. /studio/. No time promised until Jarkko gives one.
 reply:
