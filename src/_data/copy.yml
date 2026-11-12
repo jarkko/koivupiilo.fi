@@ -58,7 +58,7 @@ fi:
       heading: Työt
       lede: Koivupiilon julkaisemat ja tekeillä olevat työt.
       list_label: Kaikki työt
-      checked: Tilat on tarkistettu %{date}.
+      checked: Päivämäärä kertoo, milloin tila on viimeksi tarkistettu.
     studio:
       title: Studio – Koivupiilo
       description: Koivupiilo tekee omia ohjelmistojaan ja ohjelmistokonsultointia. Sivulla kerrotaan tekniikka, tilanne ja se, miten projekti aloitetaan.
@@ -200,7 +200,7 @@ en:
       heading: Work
       lede: Work Koivupiilo has released or is building.
       list_label: All work
-      checked: Statuses checked on %{date}.
+      checked: The date shows when each status was last checked.
     studio:
       title: Studio – Koivupiilo
       description: Koivupiilo builds its own software and does software consulting. This page covers the stack, the current situation and how a project starts.

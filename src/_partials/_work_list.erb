@@ -1,7 +1,8 @@
-<%# The work list. Locals: items (from work.yml), label. %>
+<%# The work list. Locals: items (from work.yml), label. Each status carries the date it was last checked (M1). %>
 <%
   lang = data.lang
   statuses = site.data.work.statuses
+  date_format = lang == "fi" ? "%-d.%-m.%Y" : "%-d %b %Y"
 %>
 <ul class="work" aria-label="<%= label %>">
   <% items.each do |item| %>
@@ -9,7 +10,8 @@
   <li>
     <h3 class="work-name"><% if item.url %><a href="<%= item.url %>"><%= item.name[lang] %><%= render "ext" %></a><% else %><%= item.name[lang] %><% end %></h3>
     <p class="work-line"><%= item.line[lang] %></p>
-    <p class="status<%= " status--on" if status.in_use %>"><%= status[lang] %></p>
+    <p class="status<%= " status--on" if status.in_use %>"><span><%= status[lang] %></span> <time datetime="<%= item.checked.iso8601 %>"><%= item.checked.strftime(date_format) %></time></p>
   </li>
   <% end %>
 </ul>
+<p class="note"><%= site.data.copy[lang].pages.work.checked %></p>

@@ -1,8 +1,6 @@
 <%
   lang = data.lang
   page = site.data.copy[lang].pages.work
-  checked = site.data.work.checked
-  date = lang == "fi" ? checked.strftime("%-d.%-m.%Y") : checked.strftime("%-d %B %Y")
 %>
 <section class="intro">
   <h1 class="display"><%= page.heading %></h1>
@@ -13,6 +11,5 @@
   <h2 class="row-label" id="list"><%= page.list_label %></h2>
   <div class="row-body">
     <%= render "work_list", items: site.data.work.items, label: page.list_label %>
-    <p class="note"><%= page.checked % { date: date } %></p>
   </div>
 </section>
