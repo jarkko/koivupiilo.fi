@@ -136,23 +136,20 @@ forbid_columns = [] # concept/fi/en/notes hold required vocabulary, not forbid p
 static_dir = "output"                 # a built site, served inside the container; or:
 # base_url = "http://host.docker.internal:4000"   # a running app
 build = "BRIDGETOWN_ENV=production bundle exec rake deploy" # matches deploy.yml, including the frontend build
-# Current Bridgetown routes, including the bilingual legacy site and error pages.
-# D3/D19's redesign replaces these at launch; adoption does not publish the spike.
+# The v1 site (D3/D19): Finnish at the root, English under /en/ with translated slugs,
+# and one bilingual 404. The Astro-era routes are gone without redirects.
 routes = [
-  "/", "/about/", "/portfolio/", "/services/", "/contact/", "/blog/",
-  "/services/technical-consulting/", "/services/sports-coaching/", "/services/personal-development/",
-  "/fi/", "/fi/tietoa/", "/fi/portfolio/", "/fi/palvelut/", "/fi/yhteystiedot/",
-  "/updates/welcome-to-bridgetown/", "/404.html", "/500.html",
+  "/", "/tyot/", "/studio/", "/valmennus/", "/yritys/", "/tietosuoja/",
+  "/en/", "/en/work/", "/en/studio/", "/en/coaching/", "/en/company/", "/en/privacy/",
+  "/404.html",
 ]
-# The old routes_review matrix remains the redesign's review scope until those pages ship:
-# ["/", "/palvelut/", "/tyot/magistician/", "/yhteys/", "/en/", "/en/services/", "/en/work/magistician/", "/en/contact/"]
 # ds fixes phone/desktop widths at 390/1440 and renders light + dark in fi_FI + en_GB.
 # No theme toggle: follow prefers-color-scheme (AGENTS.md); no web setting overrides it.
 # ready = "main[data-ready]"          # wait for this before measuring
 # Third-party origins the pages may load. Everything else is blocked and reported.
 allow_origins = []                    # [{ origin = "https://…", reason = "why" }]
 # Files that can change a rendered page (default: ui_globs).
-render_globs = ["src/**", "frontend/**", "public/**", "config/**", "plugins/**", "Gemfile*", "package*.json", "Rakefile", "*.config.*"]
+render_globs = ["src/**", "frontend/**", "config/**", "plugins/**", "Gemfile*", "package*.json", "Rakefile", "*.config.*"]
 #
 # Which routes a changed file affects. A rendering file matching no entry affects every route.
 # [web.route_map]
