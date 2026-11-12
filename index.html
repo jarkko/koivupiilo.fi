@@ -1,143 +1,61 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Koivupiilo Oy</title>
+<meta name="description" content="Koivupiilo tekee ohjelmistoja urheiluseuroille ja pienyrityksille. Koivupiilo Oy, Y-tunnus 3458206-1, Kangasala.">
+<link rel="canonical" href="https://koivupiilo.fi/">
+<link rel="preload" href="/fonts/hanken-grotesk-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face { font-family: "Hanken Grotesk"; src: url(/fonts/hanken-grotesk-latin-wght-normal.woff2) format("woff2"); font-weight: 100 900; font-display: swap; }
+:root { --paper: #f5f3ee; --ink: #151513; --muted: #5c5a54; --rule: #d9d5cc; --accent: #a4482a; }
+@media (prefers-color-scheme: dark) { :root { --paper: #121210; --ink: #eeebe4; --muted: #a29f97; --rule: #2f2e2a; --accent: #e38a62; } }
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 400 1rem/1.55 "Hanken Grotesk", system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+main { width: min(100% - 2rem, 60rem); margin-inline: auto; padding-block: clamp(2rem, 6vw, 4.5rem) 3rem; }
+@media (min-width: 700px) { main { width: min(100% - 4rem, 60rem); } }
+.wm { font-weight: 600; font-size: 1.375rem; letter-spacing: -.025em; margin: 0 0 clamp(3rem, 10vw, 6rem); }
+h1 { font-weight: 550; font-size: clamp(2rem, 6vw, 3.75rem); line-height: 1.04; letter-spacing: -.03em; margin: 0 0 clamp(2.5rem, 7vw, 4rem); max-width: 17ch; }
+h2 { font: 600 .75rem/1.3 "Hanken Grotesk", system-ui, sans-serif; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 .75rem; }
+ul { list-style: none; margin: 0 0 3rem; padding: 0; border-top: 1px solid var(--ink); }
+li { padding: .9rem 0; border-bottom: 1px solid var(--rule); display: grid; gap: .15rem 1.5rem; }
+@media (min-width: 700px) { li { grid-template-columns: 13rem 1fr; align-items: baseline; } }
+li b { font-weight: 600; }
+li span { color: var(--muted); }
+a { color: inherit; text-decoration-thickness: 1px; text-underline-offset: .2em; }
+a:hover { text-decoration-thickness: 2px; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+.reg { display: flex; flex-wrap: wrap; gap: .35rem 1.5rem; padding-top: 1rem; border-top: 1px solid var(--rule); font-size: .9375rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.reg b { color: var(--ink); font-weight: 600; }
+.reg a { display: inline-flex; align-items: center; min-height: 44px; margin-block: -.75rem; }
+section + section { margin-top: clamp(4rem, 10vw, 6rem); }
+.small { font-size: .8125rem; color: var(--muted); margin-top: 1.25rem; }
+</style>
+</head>
+<body>
+<main>
+  <p class="wm">Koivupiilo</p>
 
+  <section>
+    <h1>Koivupiilo tekee ohjelmistoja urheiluseuroille ja pienyrityksille.</h1>
+    <h2>Työt</h2>
+    <ul>
+      <li><b><a href="https://kvitti.fi">Kvitti</a></b><span>Kulukorvaukset yhdistyksille ja pienyrityksille. Pilotissa.</span></li>
+      <li><b><a href="https://jlaine.net/beach-volleyball/">Rantalentopallokartta</a></b><span>Pohjoismaiden ja Baltian rantalentopallohallit ja&nbsp;‑kentät samalla kartalla.</span></li>
+    </ul>
+    <p class="reg"><b>Koivupiilo Oy</b><span>Y-tunnus <a href="https://tietopalvelu.ytj.fi/yritys/3458206-1">3458206-1</a></span><span>Kangasala</span><a href="mailto:jarkko@koivupiilo.fi">jarkko@koivupiilo.fi</a></p>
+    <p class="small">Sivusto ei käytä evästeitä eikä kävijäseurantaa.</p>
+  </section>
 
-<title>Jarkko Laine - Human-Centered Technologist</title>
-
-<meta name="description" content="Senior full-stack developer with 30+ years experience, startup exits (Wildfire→Google, Hubtran→TriumthPay), championship volleyball coach, and personal development specialist." />
-<meta name="author" content="Jarkko Laine" />
-<meta name="robots" content="index, follow" />
-
-<!-- Language and location meta -->
-<html lang="en" />
-<meta name="language" content="en" />
-<meta name="geo.region" content="FI" />
-<meta name="geo.placename" content="Kangasala, Finland" />
-
-<!-- Open Graph meta -->
-<meta property="og:title" content="Jarkko Laine - Human-Centered Technologist" />
-<meta property="og:description" content="Senior full-stack developer with 30+ years experience, startup exits (Wildfire→Google, Hubtran→TriumthPay), championship volleyball coach, and personal development specialist." />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://koivupiilo.fi//" />
-<meta property="og:locale" content="en_US" />
-<meta property="og:locale:alternate" content="fi_FI" />
-
-<!-- Twitter Card meta -->
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Jarkko Laine - Human-Centered Technologist" />
-<meta name="twitter:description" content="Senior full-stack developer with 30+ years experience, startup exits (Wildfire→Google, Hubtran→TriumthPay), championship volleyball coach, and personal development specialist." />
-
-<!-- Language alternates for SEO -->
-<link rel="alternate" hreflang="fi" href="https://koivupiilo.fi/fi/" />
-<link rel="alternate" hreflang="en" href="https://koivupiilo.fi/" />
-<link rel="alternate" hreflang="x-default" href="https://koivupiilo.fi/" />
-
-<!-- Canonical URL -->
-<link rel="canonical" href="https://koivupiilo.fi//" />
-
-<!-- Typography -->
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
-
-<!-- Favicon -->
-<link rel="icon" href="/favicon.ico" />
-
-<!-- Stylesheets -->
-<link rel="stylesheet" href="/_bridgetown/static/index.INPJMLJI.css" />
-
-<!-- Scripts (defer for performance) -->
-<script src="/_bridgetown/static/index.P6KJZRZR.js" defer></script>
-
-
-  </head>
-  <body class="home">
-    <header class="site-brand">
-  <h1><a href="/">koivupiilo.fi</a></h1>
-</header>
-
-<nav class="site-nav" aria-label="Main">
-  <ul>
-      <li>
-        <a href="/"
-           >
-          Home
-        </a>
-      </li>
-      <li>
-        <a href="/about/"
-           >
-          About
-        </a>
-      </li>
-      <li>
-        <a href="/services/"
-           >
-          Services
-        </a>
-      </li>
-      <li>
-        <a href="/contact/"
-           >
-          Contact
-        </a>
-      </li>
-    <li>
-      <a href="/fi/">
-        Suomeksi
-      </a>
-    </li>
-  </ul>
-</nav>
-
-
-
-    <main id="main">
-      <article class="intro">
-        <p class="intro-lede">I&#39;m Jarkko Laine — technologist, coach, and builder of things that serve people.</p>
-
-        <div class="intro-body">
-          <p>Thirty years of web development, startup exits, and championship coaching. Based in Kangasala, Finland. I help teams ship well, athletes perform, and leaders grow.</p>
-        </div>
-
-        <p class="section-label">Work</p>
-
-        <ul class="work-list">
-          <li>
-            <h2><a href="/services/technical-consulting/">Technical Consulting</a></h2>
-            <p>Rails, Elixir/Phoenix, React ecosystem, React Native, ML integration. From startup CTOs to Fortune 500 consulting.</p>
-          </li>
-          <li>
-            <h2><a href="/services/sports-coaching/">Sports Coaching</a></h2>
-            <p>Elite volleyball coaching with Finnish Championship results. Modern methodologies: motor learning, constraints-led approach.</p>
-          </li>
-          <li>
-            <h2><a href="/services/personal-development/">Personal Development</a></h2>
-            <p>Leadership development for busy professionals using sports psychology principles and human-centered approaches.</p>
-          </li>
-        </ul>
-
-        <p class="contact-line">
-          <a href="/contact/">Start a Conversation</a>
-          ·
-          <a href="mailto:jarkko@jlaine.net">jarkko@jlaine.net</a>
-        </p>
-      </article>
-    </main>
-
-    <footer class="site-footer">
-  <p>
-    <a href="mailto:jarkko@jlaine.net">jarkko@jlaine.net</a>
-    ·
-    <a href="https://www.linkedin.com/in/jarkko/" target="_blank" rel="noopener">LinkedIn</a>
-    ·
-    <a href="https://github.com/jarkko" target="_blank" rel="noopener">GitHub</a>
-  </p>
-  <p>&copy; 2026 Koivupiilo Oy. Kangasala, Finland.</p>
-</footer>
-
-  </body>
+  <section lang="en">
+    <h2>In English</h2>
+    <p style="font-size:1.25rem;line-height:1.35;max-width:36ch;margin:0 0 1.5rem">Koivupiilo makes software for sports clubs and small companies: <a href="https://kvitti.fi">Kvitti</a> for expense claims, and a <a href="https://jlaine.net/beach-volleyball/">map of beach volleyball courts</a> across the Nordics and the Baltics.</p>
+    <p class="reg"><b>Koivupiilo Oy</b><span>Business ID 3458206-1</span><span>Kangasala, Finland</span><a href="mailto:jarkko@koivupiilo.fi">jarkko@koivupiilo.fi</a></p>
+    <p class="small">No cookies, no tracking.</p>
+  </section>
+</main>
+</body>
 </html>
