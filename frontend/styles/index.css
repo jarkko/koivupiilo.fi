@@ -25,6 +25,8 @@ body {
   line-height: var(--lh-body);
   font-kerning: normal;
   font-synthesis: none;
+  /* A word longer than its line breaks instead of widening the page: Finnish compounds at 200 % text. */
+  overflow-wrap: break-word;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -88,15 +90,6 @@ main:focus {
 ::selection {
   background: var(--ink);
   color: var(--paper);
-}
-
-.visually-hidden {
-  position: absolute;
-  width: var(--hair);
-  height: var(--hair);
-  overflow: hidden;
-  clip-path: inset(50%);
-  white-space: nowrap;
 }
 
 .skip {
@@ -277,7 +270,6 @@ main {
   font-weight: var(--w-display);
   line-height: var(--lh-statement);
   letter-spacing: var(--ls-statement);
-  overflow-wrap: break-word;
 }
 
 .display {
@@ -285,7 +277,6 @@ main {
   font-weight: var(--w-display);
   line-height: var(--lh-display);
   letter-spacing: var(--ls-display);
-  overflow-wrap: break-word;
 }
 
 .lede {
@@ -371,6 +362,7 @@ main {
 
 .row {
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: var(--sp-4) var(--sp-6);
   padding-block: var(--sp-4) var(--sp-section);
   border-block-start: var(--hair) solid var(--ink);
@@ -528,20 +520,22 @@ main {
   overflow-wrap: anywhere;
 }
 
-/* A link in a facts cell takes the whole cell as its target. */
-.facts div,
-.table div {
-  position: relative;
-}
-
 .facts div {
   min-height: var(--target);
+}
+
+/* A link in a facts cell gets a full-size target centred on its text. */
+.facts a {
+  position: relative;
 }
 
 .facts a::before {
   content: "";
   position: absolute;
-  inset: calc(-1 * var(--sp-1)) calc(-1 * var(--sp-2));
+  inset-block-start: 50%;
+  inset-inline: 0;
+  height: var(--target);
+  translate: 0 -50%;
 }
 
 .table {
@@ -553,7 +547,9 @@ main {
   padding-block-start: 0;
 }
 
+/* A link in a table row takes the whole row as its target. */
 .table div {
+  position: relative;
   min-height: var(--target);
   padding-block: var(--sp-3);
   border-block-end: var(--hair) solid var(--rule);
@@ -723,10 +719,7 @@ main {
 
 .notfound section {
   position: relative;
-  justify-self: start;
   max-width: var(--measure);
-  padding: var(--sp-5) var(--sp-5) var(--sp-5) 0;
-  background: var(--paper);
 }
 
 .notfound section > * + * {

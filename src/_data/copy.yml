@@ -14,7 +14,6 @@ fi:
     home_label: Koivupiilo, etusivu
     other_language: English
     external: toinen sivusto
-    status: Tila
     footer_label: Yritystiedot
   nav:
     work: Työt
@@ -145,6 +144,7 @@ fi:
       updated: Päivitetty %{date}.
     notfound:
       title: Sivua ei löytynyt – Koivupiilo
+      description: Tätä sivua ei ole Koivupiilon sivustolla.
       heading: Eksyit koivikkoon.
       text: Tätä sivua ei ole. Etusivulta pääsee takaisin polulle.
       link: Etusivulle
@@ -156,7 +156,6 @@ en:
     home_label: Koivupiilo, front page
     other_language: Suomeksi
     external: another site
-    status: Status
     footer_label: Company details
   nav:
     work: Work
@@ -287,6 +286,7 @@ en:
       updated: Updated %{date}.
     notfound:
       title: Page not found – Koivupiilo
+      description: This page does not exist on the Koivupiilo site.
       heading: You got lost in the birch grove.
       text: This page does not exist. The front page puts you back on the path.
       link: To the front page

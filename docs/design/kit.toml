@@ -189,6 +189,10 @@ milestone_branches = ["milestone/*"]
 # lcp_ms = 2200
 # reason = "Hero video poster; tracked in the opportunity tree."
 
+[perf.budgets."/404.html"]
+seo = 0.6
+reason = "The error page is noindex on purpose, so a direct visit to /404.html never lands in a search index. Lighthouse scores that as its is-crawlable audit failing (0.63); every other SEO audit on the page passes."
+
 # Deterministic geometry on every route: overflow, 44 px tap targets, clipped or truncated text.
 [invariants]
 # Make: command = "make invariants"

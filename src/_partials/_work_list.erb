@@ -1,7 +1,6 @@
 <%# The work list. Locals: items (from work.yml), label. %>
 <%
   lang = data.lang
-  t = site.data.copy[lang]
   statuses = site.data.work.statuses
 %>
 <ul class="work" aria-label="<%= label %>">
@@ -10,7 +9,7 @@
   <li>
     <h3 class="work-name"><% if item.url %><a href="<%= item.url %>"><%= item.name[lang] %><%= render "ext" %></a><% else %><%= item.name[lang] %><% end %></h3>
     <p class="work-line"><%= item.line[lang] %></p>
-    <p class="status<%= " status--on" if status.in_use %>"><span class="visually-hidden"><%= t.site.status %>: </span><%= status[lang] %></p>
+    <p class="status<%= " status--on" if status.in_use %>"><%= status[lang] %></p>
   </li>
   <% end %>
 </ul>

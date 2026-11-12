@@ -5,7 +5,7 @@
   page = t.pages[key]
   # Titles and descriptions go out without the word joiners the copy gets for line breaking.
   title = page.title.delete("\u2060")
-  description = page.description&.delete("\u2060")
+  description = page.description.delete("\u2060")
   routes = site.data.routes[key]
   origin = site.config.url
   locale = { "fi" => "fi_FI", "en" => "en_GB" }
@@ -14,8 +14,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="color-scheme" content="light dark">
 <title><%= title %></title>
-<% if routes %>
 <meta name="description" content="<%= description %>">
+<% if routes %>
 <link rel="canonical" href="<%= origin + routes[lang] %>">
 <link rel="alternate" hreflang="fi" href="<%= origin + routes["fi"] %>">
 <link rel="alternate" hreflang="en" href="<%= origin + routes["en"] %>">
