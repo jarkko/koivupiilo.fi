@@ -1,0 +1,721 @@
+@import "./tokens.css";
+
+/* Koivupiilo site styles. Values come from tokens.css; nothing raw here. */
+
+/* ---------- Base ---------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font);
+  font-size: var(--fs-body);
+  font-weight: var(--w-regular);
+  line-height: var(--lh-body);
+  font-kerning: normal;
+  font-synthesis: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+dl,
+dd,
+blockquote,
+figure {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  font-size: inherit;
+  font-weight: var(--w-strong);
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+svg {
+  display: block;
+  fill: currentColor;
+}
+
+a {
+  color: inherit;
+  text-decoration-line: underline;
+  text-decoration-thickness: var(--underline);
+  text-underline-offset: var(--underline-offset);
+  transition: text-decoration-thickness var(--link-time);
+}
+
+a:hover {
+  text-decoration-thickness: var(--underline-strong);
+}
+
+:focus-visible {
+  outline: var(--focus) solid var(--accent);
+  outline-offset: var(--focus-offset);
+  border-radius: var(--radius);
+}
+
+main:focus {
+  outline: none;
+}
+
+::selection {
+  background: var(--ink);
+  color: var(--paper);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: var(--hair);
+  height: var(--hair);
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.skip {
+  position: absolute;
+  inset-block-start: var(--sp-2);
+  inset-inline-start: calc(var(--trunk) + var(--gutter));
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--target);
+  padding-inline: var(--sp-4);
+  background: var(--ink);
+  color: var(--paper);
+  font-size: var(--fs-meta);
+  font-weight: var(--w-medium);
+  text-decoration-line: none;
+  transform: translateY(-200%);
+}
+
+.skip:focus-visible {
+  transform: none;
+}
+
+/* ---------- Page frame: the trunk down the left edge ---------- */
+
+.page {
+  display: grid;
+  grid-template-columns: var(--trunk) minmax(0, 1fr);
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.trunk {
+  background: var(--bark);
+  -webkit-mask: url("../images/bark.svg") top center / 100% auto repeat-y;
+  mask: url("../images/bark.svg") top center / 100% auto repeat-y;
+}
+
+.page-body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: calc(var(--content-max) + 2 * var(--gutter));
+  padding-inline: var(--gutter);
+}
+
+main {
+  flex: 1;
+}
+
+/* The trunk grows once, on arrival from outside the site (see _head.erb). */
+@media (prefers-reduced-motion: no-preference) {
+  .arrive .trunk {
+    clip-path: inset(0 0 100% 0);
+    animation: grow var(--grow-time) var(--grow-ease) var(--grow-delay) forwards;
+  }
+}
+
+@keyframes grow {
+  to {
+    clip-path: inset(0 0 0 0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  a {
+    transition: none;
+  }
+}
+
+/* ---------- Header ---------- */
+
+.site-head {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: var(--sp-5);
+  padding-block: var(--sp-3);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--target);
+  text-decoration-line: none;
+}
+
+.wordmark--text {
+  height: var(--wordmark-text);
+  width: auto;
+}
+
+.site-nav {
+  flex: 1 1 100%;
+  margin-inline: calc(-1 * var(--sp-2));
+}
+
+.site-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* On a phone the language link sits on the wordmark's row, the four places below. */
+.site-nav .lang {
+  position: absolute;
+  inset-block-start: var(--sp-3);
+  inset-inline-end: calc(-1 * var(--sp-2));
+}
+
+.site-nav a {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: var(--target);
+  min-height: var(--target);
+  padding-inline: var(--sp-2);
+  font-size: var(--fs-meta);
+  font-weight: var(--w-medium);
+  text-decoration-line: none;
+}
+
+/* Nav state is a lenticel under the word: open on hover, filled for the current page. */
+.site-nav a::after {
+  content: "";
+  position: absolute;
+  inset-block-end: var(--sp-1);
+  inset-inline-start: 50%;
+  width: var(--lenticel-w);
+  height: var(--lenticel-h);
+  border-radius: 50%;
+  translate: -50% 0;
+}
+
+.site-nav a:hover::after {
+  border: var(--lenticel-line) solid currentColor;
+}
+
+.site-nav a[aria-current="page"]::after {
+  border: 0;
+  background: var(--accent);
+}
+
+@media (min-width: 44rem) {
+  .site-head {
+    flex-wrap: nowrap;
+    padding-block: var(--sp-5);
+  }
+
+  .site-nav {
+    flex: 0 1 auto;
+  }
+
+  .site-nav ul {
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    column-gap: var(--sp-2);
+  }
+
+  .site-nav .lang {
+    position: static;
+    margin-inline-start: var(--sp-5);
+  }
+}
+
+/* ---------- Type ---------- */
+
+.statement {
+  max-width: var(--measure-statement);
+  font-size: var(--fs-statement);
+  font-weight: var(--w-display);
+  line-height: var(--lh-statement);
+  letter-spacing: var(--ls-statement);
+  overflow-wrap: break-word;
+}
+
+.display {
+  font-size: var(--fs-display);
+  font-weight: var(--w-display);
+  line-height: var(--lh-display);
+  letter-spacing: var(--ls-display);
+  overflow-wrap: break-word;
+}
+
+.lede {
+  max-width: var(--measure);
+  font-size: var(--fs-lede);
+  font-weight: var(--w-lede);
+  line-height: var(--lh-lede);
+  letter-spacing: var(--ls-lede);
+}
+
+.large {
+  max-width: var(--measure);
+  font-size: var(--fs-large);
+  line-height: var(--lh-large);
+  letter-spacing: var(--ls-large);
+}
+
+.prose {
+  max-width: var(--measure);
+}
+
+.prose > * + * {
+  margin-block-start: var(--sp-4);
+}
+
+.note {
+  color: var(--muted);
+  font-size: var(--fs-meta);
+}
+
+/* A link that stands alone on its line: a full 44 px target with an arrow. */
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  min-height: var(--target);
+  padding-inline-end: var(--sp-1);
+  font-size: var(--fs-meta);
+  font-weight: var(--w-medium);
+}
+
+.link::after {
+  content: "";
+  flex: none;
+  width: var(--icon);
+  height: var(--icon);
+  border-block-start: var(--lenticel-line) solid currentColor;
+  border-inline-end: var(--lenticel-line) solid currentColor;
+  rotate: 45deg;
+}
+
+.ext {
+  display: inline-block;
+  width: var(--icon);
+  height: var(--icon);
+  margin-inline-start: 0.3em;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: var(--lenticel-line);
+  vertical-align: 0.05em;
+}
+
+/* ---------- Page intro ---------- */
+
+.intro {
+  padding-block: var(--sp-intro) var(--sp-section);
+}
+
+.intro > * + * {
+  margin-block-start: var(--sp-5);
+}
+
+.intro .facts {
+  margin-block-start: var(--sp-6);
+}
+
+.byline {
+  color: var(--muted);
+  font-size: var(--fs-meta);
+}
+
+/* ---------- Register rows: a label column and a body, ruled above ---------- */
+
+.row {
+  display: grid;
+  gap: var(--sp-4) var(--sp-6);
+  padding-block: var(--sp-4) var(--sp-section);
+  border-block-start: var(--hair) solid var(--ink);
+}
+
+.row-label {
+  font-size: var(--fs-meta);
+  font-weight: var(--w-strong);
+  line-height: var(--lh-small);
+}
+
+.row-body > * + * {
+  margin-block-start: var(--sp-4);
+}
+
+.row-body > .link {
+  margin-block-start: var(--sp-2);
+}
+
+@media (min-width: 62rem) {
+  .row {
+    grid-template-columns: var(--label-col) minmax(0, 1fr);
+    padding-block-start: var(--sp-5);
+  }
+
+  .row-label {
+    padding-block-start: var(--sp-1);
+  }
+}
+
+/* ---------- Work list: name, one line, status ---------- */
+
+.work li {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--sp-1) var(--sp-4);
+  padding-block: var(--sp-2) var(--sp-4);
+  border-block-end: var(--hair) solid var(--rule);
+}
+
+.work li:first-child {
+  padding-block-start: 0;
+}
+
+.work-name {
+  display: flex;
+  align-items: center;
+  min-height: var(--target);
+  font-weight: var(--w-strong);
+}
+
+.work-name a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--target);
+}
+
+.work-line {
+  order: 1;
+  flex: 1 0 100%;
+  max-width: var(--measure);
+  color: var(--muted);
+  font-size: var(--fs-meta);
+}
+
+.status {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  font-size: var(--fs-small);
+  font-weight: var(--w-medium);
+  white-space: nowrap;
+}
+
+/* Status is a word plus a lenticel: filled when someone uses the thing, open when not yet. */
+.status::before {
+  content: "";
+  flex: none;
+  width: var(--lenticel-w);
+  height: var(--lenticel-h);
+  border: var(--lenticel-line) solid currentColor;
+  border-radius: 50%;
+}
+
+.status--on::before {
+  background: currentColor;
+}
+
+@media (min-width: 44rem) {
+  .work li {
+    display: grid;
+    grid-template-columns: var(--work-name) minmax(0, 1fr) var(--work-status);
+    gap: 0 var(--sp-5);
+    padding-block: var(--sp-2);
+  }
+
+  .work li:first-child {
+    padding-block-start: 0;
+  }
+
+  .work-line {
+    order: 0;
+  }
+}
+
+/* The same list without a status column (offers on Valmennus). */
+.work--plain li {
+  padding-block: var(--sp-3) var(--sp-4);
+}
+
+.work--plain .work-name {
+  min-height: 0;
+}
+
+@media (min-width: 44rem) {
+  .work--plain li {
+    grid-template-columns: var(--work-name) minmax(0, 1fr);
+    padding-block: var(--sp-3);
+  }
+}
+
+/* ---------- Facts: the register strip and the company table ---------- */
+
+.facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(var(--fact-min), max-content));
+  gap: var(--sp-4) var(--sp-7);
+  font-variant-numeric: tabular-nums;
+}
+
+.facts dt,
+.table dt {
+  color: var(--muted);
+  font-size: var(--fs-small);
+  line-height: var(--lh-small);
+}
+
+.facts dd {
+  font-size: var(--fs-meta);
+  font-weight: var(--w-medium);
+}
+
+/* A link in a facts cell takes the whole cell as its target. */
+.facts div,
+.table div {
+  position: relative;
+}
+
+.facts div {
+  min-height: var(--target);
+}
+
+.facts a::before {
+  content: "";
+  position: absolute;
+  inset: calc(-1 * var(--sp-1)) calc(-1 * var(--sp-2));
+}
+
+.table {
+  max-width: var(--measure);
+  font-variant-numeric: tabular-nums;
+  border-block-start: var(--hair) solid var(--rule);
+}
+
+.table div {
+  min-height: var(--target);
+  padding-block: var(--sp-3);
+  border-block-end: var(--hair) solid var(--rule);
+}
+
+@media (min-width: 44rem) {
+  .table div {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 5fr);
+    gap: var(--sp-4);
+    align-items: baseline;
+  }
+
+  .table dt {
+    font-size: var(--fs-meta);
+  }
+}
+
+.table a::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.plain-list li {
+  max-width: var(--measure);
+  padding-block: var(--sp-3);
+  border-block-end: var(--hair) solid var(--rule);
+}
+
+.row-body > .plain-list:first-child li:first-child {
+  padding-block-start: 0;
+}
+
+/* ---------- Founder note ---------- */
+
+.voice p {
+  max-width: var(--measure);
+  font-size: var(--fs-large);
+  line-height: var(--lh-large);
+  letter-spacing: var(--ls-large);
+}
+
+.voice footer {
+  margin-block-start: var(--sp-2);
+  color: var(--muted);
+  font-size: var(--fs-meta);
+}
+
+/* ---------- The one primary action: write an email ---------- */
+
+.cta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--sp-2) var(--sp-5);
+  margin-block-start: var(--sp-5);
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--sp-7);
+  padding-inline: var(--sp-5);
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: var(--radius);
+  font-size: var(--fs-body);
+  font-weight: var(--w-strong);
+  text-decoration-line: none;
+}
+
+.button:hover {
+  text-decoration-line: underline;
+}
+
+.cta-address {
+  color: var(--muted);
+  font-size: var(--fs-meta);
+  overflow-wrap: anywhere;
+}
+
+/* ---------- Footer: the register, in the same place on every page ---------- */
+
+.site-foot {
+  margin-block-start: var(--sp-section);
+  padding-block: var(--sp-5) var(--sp-6);
+  border-block-start: var(--hair) solid var(--ink);
+}
+
+.foot-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 var(--sp-5);
+  margin-block-start: var(--sp-4);
+}
+
+.foot-links a {
+  display: inline-flex;
+  align-items: center;
+  min-width: var(--target);
+  min-height: var(--target);
+  font-size: var(--fs-meta);
+  font-weight: var(--w-medium);
+}
+
+.foot-mark {
+  margin-block-start: var(--sp-7);
+}
+
+.wordmark--display {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 62rem) {
+  .site-foot {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    column-gap: var(--sp-6);
+    align-items: start;
+  }
+
+  .foot-links {
+    margin-block-start: 0;
+  }
+
+  .foot-links a {
+    min-height: 0;
+    padding-block: var(--sp-4) 0;
+  }
+
+  .foot-mark {
+    grid-column: 1 / -1;
+  }
+}
+
+/* ---------- 404: a faint field of bark ---------- */
+
+.notfound {
+  position: relative;
+  display: grid;
+  align-content: center;
+  gap: var(--sp-7);
+  min-height: var(--notfound-min);
+  padding-block: var(--sp-section);
+}
+
+.notfound::before {
+  content: "";
+  position: absolute;
+  inset: 0 calc(-1 * var(--gutter));
+  background: var(--bark);
+  opacity: var(--field-opacity);
+  /* Four more trunks behind the text: the grove you got lost in. */
+  -webkit-mask:
+    url("../images/bark.svg") var(--grove-1) repeat-y,
+    url("../images/bark.svg") var(--grove-2) repeat-y,
+    url("../images/bark.svg") var(--grove-3) repeat-y,
+    url("../images/bark.svg") var(--grove-4) repeat-y;
+  mask:
+    url("../images/bark.svg") var(--grove-1) repeat-y,
+    url("../images/bark.svg") var(--grove-2) repeat-y,
+    url("../images/bark.svg") var(--grove-3) repeat-y,
+    url("../images/bark.svg") var(--grove-4) repeat-y;
+}
+
+.notfound section {
+  position: relative;
+  justify-self: start;
+  max-width: var(--measure);
+  padding: var(--sp-5) var(--sp-5) var(--sp-5) 0;
+  background: var(--paper);
+}
+
+.notfound section > * + * {
+  margin-block-start: var(--sp-3);
+}
+
+.notfound h1,
+.notfound h2 {
+  font-size: var(--fs-lede);
+  font-weight: var(--w-display);
+  line-height: var(--lh-lede);
+  letter-spacing: var(--ls-lede);
+}

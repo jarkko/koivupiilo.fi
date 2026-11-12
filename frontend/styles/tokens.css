@@ -1,0 +1,141 @@
+/* Koivupiilo design tokens: concept 1, Tuohi (design/boards/1-tuohi.html).
+   Every raw value of the site lives in this file. Components use var() only.
+   Breakpoints can't be custom properties; the three in use are named here:
+     phone     below 44rem (704 px)
+     tablet    from 44rem
+     desktop   from 62rem (992 px): the register rows get their label column
+     wide      from 80rem (1280 px) */
+
+@font-face {
+  font-family: "Hanken Grotesk";
+  src: url("../fonts/hanken-grotesk-latin-400-650.woff2") format("woff2");
+  font-weight: 400 650;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Metrics of the system fallback matched to Hanken Grotesk, so the swap moves nothing. */
+@font-face {
+  font-family: "Hanken Grotesk Fallback";
+  src: local("Arial"), local("Helvetica Neue"), local("Helvetica");
+  size-adjust: 100.1%;
+  ascent-override: 99.9%;
+  descent-override: 30.3%;
+  line-gap-override: 0%;
+}
+
+:root {
+  color-scheme: light dark;
+
+  /* Colour: bark-white, ink, inner-bark rust. The accent is for focus rings and the current nav item only. */
+  --paper: #f5f3ee;
+  --ink: #151513;
+  --muted: #5c5a54;
+  --rule: #d9d5cc;
+  --accent: #a4482a;
+  --bark: #151513;
+
+  /* Type: one family. */
+  --font: "Hanken Grotesk", "Hanken Grotesk Fallback", system-ui, sans-serif;
+  --w-regular: 400;
+  --w-lede: 450;
+  --w-medium: 500;
+  --w-display: 550;
+  --w-strong: 600;
+
+  --fs-small: 0.8125rem;
+  --fs-meta: 0.9375rem;
+  --fs-body: 1.0625rem;
+  --fs-large: clamp(1.1875rem, 1.05rem + 0.6vw, 1.5rem);
+  --fs-lede: clamp(1.3125rem, 1.1rem + 0.95vw, 1.875rem);
+  --fs-statement: clamp(1.75rem, 0.55rem + 6vw, 4.5rem);
+  --fs-display: clamp(2.75rem, 1.4rem + 6.6vw, 6.5rem);
+
+  --lh-display: 1;
+  --lh-statement: 1.04;
+  --lh-lede: 1.28;
+  --lh-large: 1.38;
+  --lh-body: 1.55;
+  --lh-small: 1.4;
+
+  --ls-display: -0.04em;
+  --ls-statement: -0.032em;
+  --ls-lede: -0.012em;
+  --ls-large: -0.008em;
+
+  /* Space */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.5rem;
+  --sp-6: 2rem;
+  --sp-7: 3rem;
+  --sp-8: 4rem;
+  --sp-section: clamp(2.75rem, 1.6rem + 4.6vw, 5.5rem);
+  --sp-intro: clamp(2rem, 0.9rem + 5vw, 5rem);
+
+  /* Layout */
+  --trunk: 28px;
+  --gutter: 1rem;
+  --content-max: 80rem;
+  --measure: 36rem;
+  --measure-statement: 19ch;
+  --label-col: 13rem;
+  --work-name: 15rem;
+  --work-status: 8.5rem;
+  --fact-min: 8.5rem;
+  --field-opacity: 0.14;
+  /* The 404 grove: position / size of each trunk, thin ones far away, the wide one near. */
+  --grove-1: 51% -18rem / clamp(1rem, 2.4vw, 2.25rem) auto;
+  --grove-2: 64% -64rem / clamp(2rem, 5.5vw, 5.5rem) auto;
+  --grove-3: 78% -7rem / clamp(1.25rem, 3.2vw, 3rem) auto;
+  --grove-4: 93% -110rem / clamp(2.75rem, 8vw, 8rem) auto;
+  --notfound-min: 60vh;
+
+  /* Lines, shapes, targets */
+  --hair: 1px;
+  --underline: 1px;
+  --underline-strong: 2px;
+  --underline-offset: 0.22em;
+  --focus: 2px;
+  --focus-offset: 3px;
+  --radius: 2px;
+  --target: 2.75rem;
+  --lenticel-w: 1.125em;
+  --lenticel-h: 0.5em;
+  --lenticel-line: 1.5px;
+  --icon: 0.62em;
+  --wordmark-text: 1.375rem;
+
+  /* Motion: the trunk grows once on arrival; link underlines thicken. Nothing else moves. */
+  --grow-time: 900ms;
+  --grow-delay: 150ms;
+  --grow-ease: cubic-bezier(0.2, 0.7, 0.1, 1);
+  --link-time: 120ms;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #121210;
+    --ink: #eeebe4;
+    --muted: #a29f97;
+    --rule: #2f2e2a;
+    --accent: #e38a62;
+    --bark: #eeebe4;
+  }
+}
+
+@media (min-width: 44rem) {
+  :root {
+    --trunk: 48px;
+    --gutter: 2.5rem;
+  }
+}
+
+@media (min-width: 80rem) {
+  :root {
+    --trunk: 64px;
+    --gutter: 3.5rem;
+  }
+}
