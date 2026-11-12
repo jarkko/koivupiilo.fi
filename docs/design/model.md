@@ -20,9 +20,10 @@ not "we": it is one person, D2).
 | **Person** (Jarkko) | name, photo, short bio, verified CV lines | owns everything |
 
 Lifecycle rules:
-- **M1** Every work item shows exactly one status from `live`, `in use`,
-  `in development`, `prototype`, `dormant`, with the date it was last true.
-  Status is never omitted or inflated (D6).
+- **M1** Every work item shows exactly one status: `in use` (käytössä),
+  `in pilot` (pilotissa), `in development` (kehitteillä) or `in progress`
+  (kesken), with the date the status was last checked next to it, wherever
+  the item is listed. Status is never omitted or inflated (D6, D21).
 - **M2** Every work item and page exists in both languages before it is
   published; a page never falls back to the other language mid-page (D3).
 - **M3** A claim (number, client, award, title) appears only if it has a
@@ -47,7 +48,8 @@ language link. Footer: email, business ID, imprint, language link.
 
 - Front page first viewport: a real product screen, not decoration (S-1).
 - Work item header strip with honest status (M1).
-- Contact: a real address, reply time, business ID (J5).
+- Contact: a real address, business ID, and a reply time once Jarkko has
+  given one (J5, D22).
 
 ## Walkthroughs
 
@@ -58,8 +60,8 @@ language link. Footer: email, business ID, imprint, language link.
   overflows at 390 px; the same holds for `/en/` in light mode.
 - **W1 Referral to email (J1).** Front → a product → contact → mail client.
   *Pass when:* ≤ 3 taps; the product page shows status and Jarkko's role; the
-  contact page lists what to include and the reply time; the mailto opens
-  with a subject.
+  contact page lists what to include, and the reply time once Jarkko has
+  given one (D22); the mailto opens with a subject.
 - **W2 Club visitor (J3).** FI phone visitor → offers → coaching →
   Magistician proof → contact. *Pass when:* coaching is findable in one tap
   from the front; it links to at least one sports product; the whole path is
@@ -69,8 +71,8 @@ language link. Footer: email, business ID, imprint, language link.
   you were on it); the link is labelled in the target language; `hreflang`
   pairs exist on every page.
 - **W4 Agency lead (J2).** Desktop, EN → offers → software offer. *Pass
-  when:* stacks, availability and how it starts are visible without opening
-  more than one page.
+  when:* stacks, availability (the capacity line, D22) and how it starts are
+  visible without opening more than one page.
 - **W5 Product user (J5).** From a product's footer to `/tietoa/`. *Pass
   when:* the business ID, registered office and email are visible.
 
@@ -86,8 +88,8 @@ language link. Footer: email, business ID, imprint, language link.
   `references.md`: no English fallback anywhere under `/`, no Finnish under
   `/en/`.
 - **S-3 "What to write."** The contact page tells you the three things to
-  include, how fast you'll get a reply and whether Jarkko has capacity now,
-  with one-tap mailto per offer. *Quality bar:* no site in the teardown does
+  include, whether Jarkko has capacity now and, once he has given a reply
+  time (D22), how fast you'll get a reply, with one-tap mailto per offer. *Quality bar:* no site in the teardown does
   this; the first ten real emails need no clarifying round-trip.
 
 ## Product non-goals
@@ -163,3 +165,40 @@ Blog, contact form, booking, newsletter, CMS, client logos, theme toggle.
 Superseded concepts (forbidden terms in new copy): "Human-Centered
 Technologist", "three core service areas", "Fortune 500", "success stories",
 "championship-level" as an adjective, emoji as section icons.
+
+- **D21 (2026-11-12, launch follow-up brief).** A work item's status is one of
+  four states. `in use` (käytössä): released, and people use it. `in pilot`
+  (pilotissa): in real use by a first, limited group before general release.
+  `in development` (kehitteillä): being built, not yet released for regular
+  use. `in progress` (kesken): unfinished work that is not software (the rules
+  translation); the word says nothing about how fast it moves. The first two
+  show a filled mark, the other two an open one. An item whose state Jarkko
+  has not confirmed is left out (D6, M3). A fifth state needs a new decision.
+  The date next to a status is the day it was last checked against the
+  product, its repository or Jarkko; it shows in every list of work items
+  (review 2b66b9b3, F2 and F3).
+  Supersedes: M1's set `live`, `in use`, `in development`, `prototype`,
+  `dormant` and its "date it was last true"; `live` folds into `in use`;
+  `prototype` and `dormant` are retired, and no published item used them.
+  Changed: M1 above; the status rows of `termbase.tsv`; `src/_data/work.yml`
+  (a `checked` date per item); `src/_partials/_work_list.erb`.
+  Evidence: anecdote or opinion: the statuses verified in
+  `content/fi/tyot.md` on 2026-10-31 and 2026-11-02, rechecked on 2026-11-12.
+  Dissent: the brief names three states (käytössä, pilotissa, kehitteillä).
+  `kesken` stays as the fourth because the translation's repository has not
+  changed since 2026-05-15, so `kehitteillä` would overstate it (D6). Jarkko
+  can fold it into `in development` with one line in `work.yml`.
+
+- **D22 (2026-11-12, Jarkko, relayed in the launch follow-up brief).** Jarkko
+  approved the Studio capacity line (`capacity` in `src/_data/jarkko.yml`);
+  it is the availability answer that W4 and S-3 ask for. The reply time is
+  open: Jarkko has not given one, so `/studio/` and `/en/studio/` promise
+  none, and the reply line only says who answers. When he gives a time, it
+  goes into `reply` in `jarkko.yml` and a new decision replaces this one.
+  Supersedes: the reply-time requirement in W1, in S-3 and in the Contact
+  trust moment, until Jarkko gives a time.
+  Changed: W1, W4, S-3 and the Contact trust moment above.
+  Evidence: anecdote or opinion: Jarkko's approval of the capacity line,
+  relayed on 2026-11-12; there is no reply time to publish (D6, M3).
+  Dissent: review 2b66b9b3 (F5) asks for a reply expectation before launch. A
+  time Jarkko has not given would be an invented claim (D6).

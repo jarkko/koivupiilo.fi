@@ -8,11 +8,10 @@ coaching offer	Lentopallovalmennus	Volleyball coaching
 development offer	Johtajuus ja tiimit	Leadership and teams		replaces "personal development"
 about (place)	Tietoa	About
 contact (place)	Yhteys	Contact
-status live	käytössä	live
-status in use	käytössä yhdellä hallilla	in use at one venue		example; exact text per item
-status in development	kehityksessä	in development
-status prototype	prototyyppi	prototype
-status dormant	tauolla	on hold
+status in use	käytössä	in use		D21: released, and people use it
+status in pilot	pilotissa	in pilot		D21: in real use by a first, limited group
+status in development	kehitteillä	in development		D21: being built, not yet released for regular use
+status in progress	kesken	in progress		D21: unfinished work that is not software
 business ID	Y-tunnus	Business ID
 language link	In English	Suomeksi		labelled in the target language
 beach volleyball (sport)	beach volley	beach volleyball	[Rr]antalentopallo	Finnish uses "beach volley" (beach volleyta, beach volleyn); compounds take a space and a hyphen: beach volley -kartta. Jarkko, 12.11.2026
