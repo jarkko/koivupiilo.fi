@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="robots" content="noindex">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KVNN – kolme suuntaa</title>
+<meta name="color-scheme" content="light dark">
+<style>
+  :root { --bg:#f6f5f2; --ink:#16181d; --muted:#5b616e; --line:#dcdad4; --card:#fff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#111317; --ink:#eceef2; --muted:#9aa1ad; --line:#2a2e36; --card:#191c22; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width:1120px; margin:0 auto; padding:56px 16px 64px; }
+  h1 { font-size:clamp(28px,4vw,40px); line-height:1.1; letter-spacing:-.02em; margin:0 0 12px; }
+  p.lead { color:var(--muted); max-width:60ch; margin:0 0 40px; }
+  ol { list-style:none; padding:0; margin:0; display:grid; gap:20px;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); }
+  li { background:var(--card); border:1px solid var(--line); border-radius:14px; overflow:hidden;
+    display:flex; flex-direction:column; }
+  li img { width:100%; aspect-ratio:16/10; object-fit:cover; object-position:top; display:block;
+    border-bottom:1px solid var(--line); }
+  .body { padding:20px; display:flex; flex-direction:column; gap:8px; flex:1; }
+  h2 { font-size:20px; margin:0; letter-spacing:-.01em; }
+  .body p { margin:0; color:var(--muted); }
+  .links { margin-top:auto; padding-top:12px; display:flex; flex-wrap:wrap; gap:8px 16px; font-weight:600; }
+  a { color:inherit; text-underline-offset:3px; }
+  a:focus-visible { outline:2px solid currentColor; outline-offset:3px; border-radius:4px; }
+  footer { margin-top:48px; color:var(--muted); font-size:14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>KVNN Beach Company: kolme suuntaa</h1>
+  <p class="lead">Sama sisältö, kolme visuaalista tyyliä. Jokaisessa on etusivu, leirisivu ja galleria. Sivut seuraavat laitteen vaaleaa tai tummaa tilaa, ja englanninkielinen versio löytyy jokaisen sivun FI / EN -valinnasta.</p>
+  <ol>
+    <li>
+      <img src="thumbs/a.jpg" alt="">
+      <div class="body">
+        <h2>A · Auringon perässä</h2>
+        <p>KVNN seuraa aurinkoa: taivas kulkee vierittäessä Valencian talvi-iltapäivästä Helsingin yöttömään yöhön ja takaisin Espanjan aamuun, ja jokainen osio kertoo paikan ja kellonajan.</p>
+        <div class="links"><a href="a-auringon-perassa/index.html">Etusivu</a><a href="a-auringon-perassa/leiri.html">Leirisivu</a><a href="a-auringon-perassa/galleria.html">Galleria</a></div>
+      </div>
+    </li>
+    <li>
+      <img src="thumbs/b.jpg" alt="">
+      <div class="body">
+        <h2>B · Rantalehti</h2>
+        <p>KVNN:n oma kauden lehti kahdella risovärillä Helsingin kesästä Valencian talveen: leirit, tiimi ja kauppa ovat lehden sivuja, ja seuraava leiri leikataan kupongista.</p>
+        <div class="links"><a href="b-rantalehti/index.html">Etusivu</a><a href="b-rantalehti/leiri.html">Leirisivu</a><a href="b-rantalehti/galleria.html">Galleria</a></div>
+      </div>
+    </li>
+    <li>
+      <img src="thumbs/c.jpg" alt="">
+      <div class="body">
+        <h2>C · Kioski</h2>
+        <p>Rantakioskin luukku ja huopainen kirjaintaulu, Hietaniemestä Valencian rantaan: leirit luetaan taululta kuin hinnasto, ja seuraava leiri ostetaan luukulta.</p>
+        <div class="links"><a href="c-kioski/index.html">Etusivu</a><a href="c-kioski/leiri.html">Leirisivu</a><a href="c-kioski/galleria.html">Galleria</a></div>
+      </div>
+    </li>
+  </ol>
+  <footer>Mallisivut: kuvat, tapahtumat, hinnat ja henkilöt ovat esimerkkejä. Kuvat ja videot kuvapankeista (ks. kunkin suunnan assets/CREDITS.md).</footer>
+</main>
+</body>
+</html>
