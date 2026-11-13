@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://koivupiilo.fi/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://koivupiilo.fi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koivupiilo.fi/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koivupiilo.fi/"/>
+  </url>
+  <url>
+    <loc>https://koivupiilo.fi/en/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://koivupiilo.fi/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koivupiilo.fi/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koivupiilo.fi/"/>
+  </url>
+  <url>
+    <loc>https://koivupiilo.fi/tyot/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://koivupiilo.fi/tyot/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koivupiilo.fi/en/work/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koivupiilo.fi/tyot/"/>
+  </url>
+  <url>
+    <loc>https://koivupiilo.fi/en/work/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://koivupiilo.fi/tyot/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koivupiilo.fi/en/work/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koivupiilo.fi/tyot/"/>
+  </url>
+  <url>
+    <loc>https://koivupiilo.fi/studio/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://koivupiilo.fi/studio/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koivupiilo.fi/en/studio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koivupiilo.fi/studio/"/>
+  </url>
+  <url>
+    <loc>https://koivupiilo.fi/en/studio/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://koivupiilo.fi/studio/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koivupiilo.fi/en/studio/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koivupiilo.fi/studio/"/>
+  </url>
+  <url>
+    <loc>https://koivupiilo.fi/valmennus/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://koivupiilo.fi/valmennus/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koivupiilo.fi/en/coaching/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koivupiilo.fi/valmennus/"/>
+  </url>
+  <url>
+    <loc>https://koivupiilo.fi/en/coaching/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://koivupiilo.fi/valmennus/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koivupiilo.fi/en/coaching/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koivupiilo.fi/valmennus/"/>
+  </url>
+  <url>
+    <loc>https://koivupiilo.fi/yritys/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://koivupiilo.fi/yritys/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koivupiilo.fi/en/company/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koivupiilo.fi/yritys/"/>
+  </url>
+  <url>
+    <loc>https://koivupiilo.fi/en/company/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://koivupiilo.fi/yritys/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koivupiilo.fi/en/company/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koivupiilo.fi/yritys/"/>
+  </url>
+  <url>
+    <loc>https://koivupiilo.fi/tietosuoja/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://koivupiilo.fi/tietosuoja/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koivupiilo.fi/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koivupiilo.fi/tietosuoja/"/>
+  </url>
+  <url>
+    <loc>https://koivupiilo.fi/en/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://koivupiilo.fi/tietosuoja/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koivupiilo.fi/en/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koivupiilo.fi/tietosuoja/"/>
+  </url>
+</urlset>
