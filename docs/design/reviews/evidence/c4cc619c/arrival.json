@@ -1,0 +1,154 @@
+[
+  {
+    "locale": "fi-FI",
+    "motion": "no-preference",
+    "requestedMs": 0,
+    "observedMs": 102,
+    "evidence": "docs/design/reviews/evidence/c4cc619c/strips/arrival-fi-no-preference-0.png",
+    "heading": "Koivupiilo on ohjelmistoyritys Kangasalta.",
+    "visible": true,
+    "animations": [
+      {
+        "name": "grow",
+        "state": "running"
+      }
+    ],
+    "background": "rgb(18, 18, 16)"
+  },
+  {
+    "locale": "fi-FI",
+    "motion": "no-preference",
+    "requestedMs": 300,
+    "observedMs": 346,
+    "evidence": "docs/design/reviews/evidence/c4cc619c/strips/arrival-fi-no-preference-300.png",
+    "heading": "Koivupiilo on ohjelmistoyritys Kangasalta.",
+    "visible": true,
+    "animations": [
+      {
+        "name": "grow",
+        "state": "running"
+      }
+    ],
+    "background": "rgb(18, 18, 16)"
+  },
+  {
+    "locale": "fi-FI",
+    "motion": "no-preference",
+    "requestedMs": 1200,
+    "observedMs": 1246,
+    "evidence": "docs/design/reviews/evidence/c4cc619c/strips/arrival-fi-no-preference-1200.png",
+    "heading": "Koivupiilo on ohjelmistoyritys Kangasalta.",
+    "visible": true,
+    "animations": [],
+    "background": "rgb(18, 18, 16)"
+  },
+  {
+    "locale": "fi-FI",
+    "motion": "reduce",
+    "requestedMs": 0,
+    "observedMs": 81,
+    "evidence": "docs/design/reviews/evidence/c4cc619c/strips/arrival-fi-reduce-0.png",
+    "heading": "Koivupiilo on ohjelmistoyritys Kangasalta.",
+    "visible": true,
+    "animations": [],
+    "background": "rgb(18, 18, 16)"
+  },
+  {
+    "locale": "fi-FI",
+    "motion": "reduce",
+    "requestedMs": 300,
+    "observedMs": 348,
+    "evidence": "docs/design/reviews/evidence/c4cc619c/strips/arrival-fi-reduce-300.png",
+    "heading": "Koivupiilo on ohjelmistoyritys Kangasalta.",
+    "visible": true,
+    "animations": [],
+    "background": "rgb(18, 18, 16)"
+  },
+  {
+    "locale": "fi-FI",
+    "motion": "reduce",
+    "requestedMs": 1200,
+    "observedMs": 1244,
+    "evidence": "docs/design/reviews/evidence/c4cc619c/strips/arrival-fi-reduce-1200.png",
+    "heading": "Koivupiilo on ohjelmistoyritys Kangasalta.",
+    "visible": true,
+    "animations": [],
+    "background": "rgb(18, 18, 16)"
+  },
+  {
+    "locale": "en-GB",
+    "motion": "no-preference",
+    "requestedMs": 0,
+    "observedMs": 62,
+    "evidence": "docs/design/reviews/evidence/c4cc619c/strips/arrival-en-no-preference-0.png",
+    "heading": "Koivupiilo is a software company from Kangasala, Finland.",
+    "visible": true,
+    "animations": [
+      {
+        "name": "grow",
+        "state": "running"
+      }
+    ],
+    "background": "rgb(245, 243, 238)"
+  },
+  {
+    "locale": "en-GB",
+    "motion": "no-preference",
+    "requestedMs": 300,
+    "observedMs": 349,
+    "evidence": "docs/design/reviews/evidence/c4cc619c/strips/arrival-en-no-preference-300.png",
+    "heading": "Koivupiilo is a software company from Kangasala, Finland.",
+    "visible": true,
+    "animations": [
+      {
+        "name": "grow",
+        "state": "running"
+      }
+    ],
+    "background": "rgb(245, 243, 238)"
+  },
+  {
+    "locale": "en-GB",
+    "motion": "no-preference",
+    "requestedMs": 1200,
+    "observedMs": 1228,
+    "evidence": "docs/design/reviews/evidence/c4cc619c/strips/arrival-en-no-preference-1200.png",
+    "heading": "Koivupiilo is a software company from Kangasala, Finland.",
+    "visible": true,
+    "animations": [],
+    "background": "rgb(245, 243, 238)"
+  },
+  {
+    "locale": "en-GB",
+    "motion": "reduce",
+    "requestedMs": 0,
+    "observedMs": 62,
+    "evidence": "docs/design/reviews/evidence/c4cc619c/strips/arrival-en-reduce-0.png",
+    "heading": "Koivupiilo is a software company from Kangasala, Finland.",
+    "visible": true,
+    "animations": [],
+    "background": "rgb(245, 243, 238)"
+  },
+  {
+    "locale": "en-GB",
+    "motion": "reduce",
+    "requestedMs": 300,
+    "observedMs": 349,
+    "evidence": "docs/design/reviews/evidence/c4cc619c/strips/arrival-en-reduce-300.png",
+    "heading": "Koivupiilo is a software company from Kangasala, Finland.",
+    "visible": true,
+    "animations": [],
+    "background": "rgb(245, 243, 238)"
+  },
+  {
+    "locale": "en-GB",
+    "motion": "reduce",
+    "requestedMs": 1200,
+    "observedMs": 1248,
+    "evidence": "docs/design/reviews/evidence/c4cc619c/strips/arrival-en-reduce-1200.png",
+    "heading": "Koivupiilo is a software company from Kangasala, Finland.",
+    "visible": true,
+    "animations": [],
+    "background": "rgb(245, 243, 238)"
+  }
+]

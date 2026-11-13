@@ -1,0 +1,17 @@
+{
+  "source": ".ds/out/ci.json present at task start",
+  "reviewed_head": "8ed8907d2f787e7e48a3e8dc8b8e2838d4b80d2f",
+  "note": "Input evidence only; final CI after the review commit is authoritative. No source or baselines were changed during review.",
+  "results": [
+    {
+      "tool": "perf",
+      "ok": true,
+      "findings": []
+    },
+    {
+      "tool": "visual",
+      "ok": true,
+      "findings": []
+    }
+  ]
+}

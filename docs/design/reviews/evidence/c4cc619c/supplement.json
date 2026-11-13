@@ -1,0 +1,318 @@
+[
+  {
+    "id": "W4 desktop Studio",
+    "locale": "fi-FI",
+    "destination": "/studio/",
+    "evidence": [
+      "docs/design/reviews/evidence/c4cc619c/strips/fi-extra-1-before.png",
+      "docs/design/reviews/evidence/c4cc619c/strips/fi-extra-1-300ms.png",
+      "docs/design/reviews/evidence/c4cc619c/strips/fi-extra-1-after.png"
+    ],
+    "body": "Studio\n\nKoivupiilo tekee omia ohjelmistojaan ja ohjelmistokonsultointia.\n\nOmat tuotteet\n\nKoivupiilo tekee ensisijaisesti omia tuotteitaan. Niitä ovat esimerkiksi Kvitti ja Magistician.\n\nKaikki työt\n\nTekniikka\n\nOmissa tuotteissaan Koivupiilo käyttää näitä tekniikoita:\n\nElixir ja Phoenix\nSwift ja SwiftUI\nReact Native\nPython\nTilanne nyt\n\nOmat tuotteet menevät edelle. Teen konsultointia, kun aikataulu sallii.\n\nNäin aloitetaan\n\nKirjoita lyhyesti, mitä olet rakentamassa, missä vaiheessa se on ja mihin mennessä tarvitset apua.\n\nViestit lukee ja niihin vastaa Jarkko Laine.\n\nKirjoita Koivupiilolle\njarkko@koivupiilo.fi"
+  },
+  {
+    "id": "404 Etusivulle",
+    "locale": "fi-FI",
+    "destination": "/",
+    "evidence": [
+      "docs/design/reviews/evidence/c4cc619c/strips/fi-extra-2-before.png",
+      "docs/design/reviews/evidence/c4cc619c/strips/fi-extra-2-300ms.png",
+      "docs/design/reviews/evidence/c4cc619c/strips/fi-extra-2-after.png"
+    ],
+    "body": "Koivupiilo on ohjelmistoyritys Kangasalta.\nYritys\nKoivupiilo Oy\nY-tunnus\n3458206-1\nPaikkakunta\nKangasala\nPerustettu\n2024\nTyöt\nKvitti\n\nKulukorvaukset yhdistyksille ja pienyrityksille: kuitit, kilometrit, päivärahat ja hyväksyntä.\n\npilotissa\n2.11.2026\n\nBeach volley -⁠kartta\n\nPohjoismaiden ja Baltian beach volley -⁠hallit ja -⁠kentät samalla kartalla.\n\nkäytössä\n12.11.2026\n\nMagistician\n\nLentopallo-ottelun videosta kosketuskohtaiset tilastot ja videoklipit.\n\nkehitteillä\n12.11.2026\n\nHyppymittaus\n\nHyppykorkeus iPhonella, lentopalloverkon antenni mittana.\n\nkehitteillä\n12.11.2026\n\nPäivämäärä kertoo, milloin tila on viimeksi tarkistettu.\n\nKaikki työt\n\nStudio\n\nKoivupiilo tekee omia ohjelmistojaan ja ohjelmistokonsultointia.\n\nLue lisää Studiosta\n\nValmennus\n\nJarkko Laine valmentaa lentopalloa ja beach volleyta, kouluttaa valmentajia ja auttaa uusia esihenkilöitä alkuun.\n\nLue lisää valmennuksesta\n\nYritys\n\nKoivupiilon perusti vuonna 2024 Jarkko Laine, ohjelmistokehittäjä ja lentopallovalmentaja. Nimi tulee koivikosta Kangasalla.\n\nLue lisää yrityksestä"
+  },
+  {
+    "id": "404 To the front page",
+    "locale": "fi-FI",
+    "destination": "/en/",
+    "evidence": [
+      "docs/design/reviews/evidence/c4cc619c/strips/fi-extra-3-before.png",
+      "docs/design/reviews/evidence/c4cc619c/strips/fi-extra-3-300ms.png",
+      "docs/design/reviews/evidence/c4cc619c/strips/fi-extra-3-after.png"
+    ],
+    "body": "Koivupiilo is a software company from Kangasala, Finland.\nCompany\nKoivupiilo Oy\nBusiness ID\n3458206-1\nLocation\nKangasala, Finland\nFounded\n2024\nWork\nKvitti\n\nExpense claims for clubs and small companies: receipts, mileage, per diems and approval.\n\nin pilot\n2 Nov 2026\n\nBeach volleyball court map\n\nBeach volleyball halls and courts in the Nordic and Baltic countries on one map.\n\nin use\n12 Nov 2026\n\nMagistician\n\nPer-touch statistics and video clips from the video of a volleyball match.\n\nin development\n12 Nov 2026\n\nJump measurement\n\nJump height on an iPhone, with the antenna of a volleyball net as the measure.\n\nin development\n12 Nov 2026\n\nThe date shows when each status was last checked.\n\nAll work\n\nStudio\n\nKoivupiilo builds its own software and does software consulting.\n\nMore about Studio\n\nCoaching\n\nJarkko Laine coaches volleyball and beach volleyball, trains coaches and helps new team leads get started.\n\nMore about coaching\n\nCompany\n\nJarkko Laine, a software developer and volleyball coach, founded Koivupiilo in 2024. The name comes from a birch grove in Kangasala.\n\nMore about the company"
+  },
+  {
+    "id": "M1 dates",
+    "locale": "fi-FI",
+    "path": "/",
+    "items": [
+      {
+        "name": "Kvitti",
+        "status": "pilotissa",
+        "checked": "2026-11-02",
+        "date": "2.11.2026",
+        "filled": true
+      },
+      {
+        "name": "Beach volley -⁠kartta",
+        "status": "käytössä",
+        "checked": "2026-11-12",
+        "date": "12.11.2026",
+        "filled": true
+      },
+      {
+        "name": "Magistician",
+        "status": "kehitteillä",
+        "checked": "2026-11-12",
+        "date": "12.11.2026",
+        "filled": false
+      },
+      {
+        "name": "Hyppymittaus",
+        "status": "kehitteillä",
+        "checked": "2026-11-12",
+        "date": "12.11.2026",
+        "filled": false
+      }
+    ]
+  },
+  {
+    "id": "M1 dates",
+    "locale": "fi-FI",
+    "path": "/tyot/",
+    "items": [
+      {
+        "name": "Kvitti",
+        "status": "pilotissa",
+        "checked": "2026-11-02",
+        "date": "2.11.2026",
+        "filled": true
+      },
+      {
+        "name": "Beach volley -⁠kartta",
+        "status": "käytössä",
+        "checked": "2026-11-12",
+        "date": "12.11.2026",
+        "filled": true
+      },
+      {
+        "name": "Magistician",
+        "status": "kehitteillä",
+        "checked": "2026-11-12",
+        "date": "12.11.2026",
+        "filled": false
+      },
+      {
+        "name": "Hyppymittaus",
+        "status": "kehitteillä",
+        "checked": "2026-11-12",
+        "date": "12.11.2026",
+        "filled": false
+      },
+      {
+        "name": "BeachDesk",
+        "status": "kehitteillä",
+        "checked": "2026-11-02",
+        "date": "2.11.2026",
+        "filled": false
+      },
+      {
+        "name": "Ratametsuri",
+        "status": "kehitteillä",
+        "checked": "2026-11-12",
+        "date": "12.11.2026",
+        "filled": false
+      },
+      {
+        "name": "Beach volleyn säännöt",
+        "status": "kesken",
+        "checked": "2026-11-12",
+        "date": "12.11.2026",
+        "filled": false
+      }
+    ]
+  },
+  {
+    "id": "W0 first viewport",
+    "locale": "fi-FI",
+    "h1": {
+      "x": 44,
+      "y": 145.890625,
+      "width": 330,
+      "height": 100.453125,
+      "top": 145.890625,
+      "right": 374,
+      "bottom": 246.34375,
+      "left": 44
+    },
+    "firstWork": {
+      "x": 44,
+      "y": 480.34375,
+      "width": 330,
+      "height": 137.6875,
+      "top": 480.34375,
+      "right": 374,
+      "bottom": 618.03125,
+      "left": 44
+    },
+    "language": {
+      "x": 318.328125,
+      "y": 12,
+      "width": 63.671875,
+      "height": 44,
+      "top": 12,
+      "right": 382,
+      "bottom": 56,
+      "left": 318.328125
+    }
+  },
+  {
+    "id": "W4 desktop Studio",
+    "locale": "en-GB",
+    "destination": "/en/studio/",
+    "evidence": [
+      "docs/design/reviews/evidence/c4cc619c/strips/en-extra-1-before.png",
+      "docs/design/reviews/evidence/c4cc619c/strips/en-extra-1-300ms.png",
+      "docs/design/reviews/evidence/c4cc619c/strips/en-extra-1-after.png"
+    ],
+    "body": "Studio\n\nKoivupiilo builds its own software and does software consulting.\n\nOwn products\n\nKoivupiilo builds its own products first. Kvitti and Magistician are two of them.\n\nAll work\n\nStack\n\nKoivupiilo builds its own products with:\n\nElixir and Phoenix\nSwift and SwiftUI\nReact Native\nPython\nRight now\n\nKoivupiilo's own products come first. I take on consulting work when the schedule allows.\n\nHow to start\n\nWrite a few lines about what you are building, how far along it is and when you need help by.\n\nJarkko Laine reads the messages and answers them.\n\nWrite to Koivupiilo\njarkko@koivupiilo.fi"
+  },
+  {
+    "id": "404 Etusivulle",
+    "locale": "en-GB",
+    "destination": "/",
+    "evidence": [
+      "docs/design/reviews/evidence/c4cc619c/strips/en-extra-2-before.png",
+      "docs/design/reviews/evidence/c4cc619c/strips/en-extra-2-300ms.png",
+      "docs/design/reviews/evidence/c4cc619c/strips/en-extra-2-after.png"
+    ],
+    "body": "Koivupiilo on ohjelmistoyritys Kangasalta.\nYritys\nKoivupiilo Oy\nY-tunnus\n3458206-1\nPaikkakunta\nKangasala\nPerustettu\n2024\nTyöt\nKvitti\n\nKulukorvaukset yhdistyksille ja pienyrityksille: kuitit, kilometrit, päivärahat ja hyväksyntä.\n\npilotissa\n2.11.2026\n\nBeach volley -⁠kartta\n\nPohjoismaiden ja Baltian beach volley -⁠hallit ja -⁠kentät samalla kartalla.\n\nkäytössä\n12.11.2026\n\nMagistician\n\nLentopallo-ottelun videosta kosketuskohtaiset tilastot ja videoklipit.\n\nkehitteillä\n12.11.2026\n\nHyppymittaus\n\nHyppykorkeus iPhonella, lentopalloverkon antenni mittana.\n\nkehitteillä\n12.11.2026\n\nPäivämäärä kertoo, milloin tila on viimeksi tarkistettu.\n\nKaikki työt\n\nStudio\n\nKoivupiilo tekee omia ohjelmistojaan ja ohjelmistokonsultointia.\n\nLue lisää Studiosta\n\nValmennus\n\nJarkko Laine valmentaa lentopalloa ja beach volleyta, kouluttaa valmentajia ja auttaa uusia esihenkilöitä alkuun.\n\nLue lisää valmennuksesta\n\nYritys\n\nKoivupiilon perusti vuonna 2024 Jarkko Laine, ohjelmistokehittäjä ja lentopallovalmentaja. Nimi tulee koivikosta Kangasalla.\n\nLue lisää yrityksestä"
+  },
+  {
+    "id": "404 To the front page",
+    "locale": "en-GB",
+    "destination": "/en/",
+    "evidence": [
+      "docs/design/reviews/evidence/c4cc619c/strips/en-extra-3-before.png",
+      "docs/design/reviews/evidence/c4cc619c/strips/en-extra-3-300ms.png",
+      "docs/design/reviews/evidence/c4cc619c/strips/en-extra-3-after.png"
+    ],
+    "body": "Koivupiilo is a software company from Kangasala, Finland.\nCompany\nKoivupiilo Oy\nBusiness ID\n3458206-1\nLocation\nKangasala, Finland\nFounded\n2024\nWork\nKvitti\n\nExpense claims for clubs and small companies: receipts, mileage, per diems and approval.\n\nin pilot\n2 Nov 2026\n\nBeach volleyball court map\n\nBeach volleyball halls and courts in the Nordic and Baltic countries on one map.\n\nin use\n12 Nov 2026\n\nMagistician\n\nPer-touch statistics and video clips from the video of a volleyball match.\n\nin development\n12 Nov 2026\n\nJump measurement\n\nJump height on an iPhone, with the antenna of a volleyball net as the measure.\n\nin development\n12 Nov 2026\n\nThe date shows when each status was last checked.\n\nAll work\n\nStudio\n\nKoivupiilo builds its own software and does software consulting.\n\nMore about Studio\n\nCoaching\n\nJarkko Laine coaches volleyball and beach volleyball, trains coaches and helps new team leads get started.\n\nMore about coaching\n\nCompany\n\nJarkko Laine, a software developer and volleyball coach, founded Koivupiilo in 2024. The name comes from a birch grove in Kangasala.\n\nMore about the company"
+  },
+  {
+    "id": "M1 dates",
+    "locale": "en-GB",
+    "path": "/en/",
+    "items": [
+      {
+        "name": "Kvitti",
+        "status": "in pilot",
+        "checked": "2026-11-02",
+        "date": "2 Nov 2026",
+        "filled": true
+      },
+      {
+        "name": "Beach volleyball court map",
+        "status": "in use",
+        "checked": "2026-11-12",
+        "date": "12 Nov 2026",
+        "filled": true
+      },
+      {
+        "name": "Magistician",
+        "status": "in development",
+        "checked": "2026-11-12",
+        "date": "12 Nov 2026",
+        "filled": false
+      },
+      {
+        "name": "Jump measurement",
+        "status": "in development",
+        "checked": "2026-11-12",
+        "date": "12 Nov 2026",
+        "filled": false
+      }
+    ]
+  },
+  {
+    "id": "M1 dates",
+    "locale": "en-GB",
+    "path": "/en/work/",
+    "items": [
+      {
+        "name": "Kvitti",
+        "status": "in pilot",
+        "checked": "2026-11-02",
+        "date": "2 Nov 2026",
+        "filled": true
+      },
+      {
+        "name": "Beach volleyball court map",
+        "status": "in use",
+        "checked": "2026-11-12",
+        "date": "12 Nov 2026",
+        "filled": true
+      },
+      {
+        "name": "Magistician",
+        "status": "in development",
+        "checked": "2026-11-12",
+        "date": "12 Nov 2026",
+        "filled": false
+      },
+      {
+        "name": "Jump measurement",
+        "status": "in development",
+        "checked": "2026-11-12",
+        "date": "12 Nov 2026",
+        "filled": false
+      },
+      {
+        "name": "BeachDesk",
+        "status": "in development",
+        "checked": "2026-11-02",
+        "date": "2 Nov 2026",
+        "filled": false
+      },
+      {
+        "name": "Ratametsuri",
+        "status": "in development",
+        "checked": "2026-11-12",
+        "date": "12 Nov 2026",
+        "filled": false
+      },
+      {
+        "name": "Beach volleyball rules",
+        "status": "in progress",
+        "checked": "2026-11-12",
+        "date": "12 Nov 2026",
+        "filled": false
+      }
+    ]
+  },
+  {
+    "id": "W0 first viewport",
+    "locale": "en-GB",
+    "h1": {
+      "x": 44,
+      "y": 145.890625,
+      "width": 330,
+      "height": 100.453125,
+      "top": 145.890625,
+      "right": 374,
+      "bottom": 246.34375,
+      "left": 44
+    },
+    "firstWork": {
+      "x": 44,
+      "y": 480.34375,
+      "width": 330,
+      "height": 137.6875,
+      "top": 480.34375,
+      "right": 374,
+      "bottom": 618.03125,
+      "left": 44
+    },
+    "language": {
+      "x": 301.28125,
+      "y": 12,
+      "width": 80.71875,
+      "height": 44,
+      "top": 12,
+      "right": 382,
+      "bottom": 56,
+      "left": 301.28125
+    }
+  }
+]
