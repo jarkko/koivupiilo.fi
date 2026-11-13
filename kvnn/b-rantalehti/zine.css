@@ -220,7 +220,7 @@ h1, h2, h3, h4 { margin: 0; font-family: var(--display); font-weight: 860; font-
 .boxes.pairs { max-width: calc(9 * (var(--bx) * 1.35 + 4px)); }
 .boxes.soon i { border-style: dashed; border-width: 1.5px; }
 .boxes.compact { max-width: none; flex-wrap: nowrap; }
-.boxes .more { margin-left: 6px; font: 700 .85rem/1 var(--text); white-space: nowrap; color: inherit; }
+.boxes .taken { margin-left: 6px; font: 700 .85rem/1 var(--text); white-space: nowrap; color: inherit; }
 @media (max-width: 599px) { .boxes { --bx: 13px; gap: 3px; } }
 .seat-txt { font-weight: 700; font-size: .95rem; }
 .seat-txt b { font-weight: 800; }

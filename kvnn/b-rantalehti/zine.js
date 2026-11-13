@@ -112,7 +112,7 @@
       /* coupons: one row, the free places plus a count of the taken ones */
       for (var k = 0; k < free; k++) html += "<i></i>";
       var taken = total - free;
-      if (taken) html += '<span class="more"><span data-l="fi">+' + taken + ' varattu</span><span data-l="en">+' + taken + " taken</span></span>";
+      if (taken) html += '<span class="taken"><span data-l="fi">+' + taken + ' varattu</span><span data-l="en">+' + taken + " taken</span></span>";
     } else {
       for (var i = 0; i < total; i++) html += i < total - free ? '<i class="t"></i>' : "<i></i>";
     }
