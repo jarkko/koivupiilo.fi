@@ -30,6 +30,11 @@ jobs:
           bundler-cache: true
       - name: Install Node dependencies
         run: npm ci
+      # ds serves [web].static_dir but does not build it; output/ is not committed.
+      - name: Build site
+        run: bundle exec rake deploy
+        env:
+          BRIDGETOWN_ENV: production
       - name: ds ci
         env:
           BRIDGETOWN_ENV: production
