@@ -1,0 +1,71 @@
+# Design kit: `ds ci` on every merge request. Include it from .gitlab-ci.yml:
+#
+#   include:
+#     - local: tools/ds/ci/ds.gitlab-ci.yml   # or wherever you keep this file
+#
+# The one line a project may need to change is `stage: test`. `test` is one of GitLab's default
+# stages (build, test, deploy), so it works in a .gitlab-ci.yml that sets no `stages:`. If yours
+# sets `stages:` without `test`, the pipeline is invalid until the job names one of your stages.
+# Override it in .gitlab-ci.yml, after the include, so this file stays as the kit ships it:
+#
+#   ds:
+#     stage: check   # one of your stages
+#
+# The job runs in merge request pipelines only. If your `workflow: rules` create no merge request
+# pipelines, add `$CI_PIPELINE_SOURCE == "merge_request_event"` there, or the job never runs.
+#
+# ds is vendored in tools/ds/, so the job needs no access to the design kit's repository.
+#
+# Docker. The web modules (invariants, a11y, perf, visual) run in a local container and need
+# Docker. A project with none of them on needs nothing more: the job below has no Docker service,
+# and ds never calls docker. A project with a web module on adds Docker in its .gitlab-ci.yml,
+# after the include, by extending the hidden job `.ds-docker` below:
+#
+#   ds:
+#     extends: .ds-docker
+#
+# GitLab merges a job defined after an include into the included job of the same name, and
+# `extends` then copies in the service and variables. The service is Docker-in-Docker, which
+# needs a privileged runner. On a runner that is not privileged the service never starts: the
+# job prints a WARNING that the runner gave it no Docker, and ds then fails with its setup error
+# (exit 2) because a web module is on. A project that accepts that, and wants the web modules
+# reported as not run, sets `DS_NO_DOCKER: "1"` under `variables:` of `ds`. See the kit's
+# adapters/README.md, "CI runners need Docker".
+.ds-docker:
+  services:
+    - name: docker:27-dind
+  variables:
+    DOCKER_HOST: tcp://docker:2375
+    DOCKER_TLS_CERTDIR: ""
+
+ds:
+  image: node:24
+  stage: test
+  rules:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+  variables:
+    GIT_DEPTH: "0"
+  script:
+    - |
+      ds_flag=""
+      if [ "${DS_NO_DOCKER:-}" = "1" ]; then
+        ds_flag="--no-docker"
+        echo "NOTE: DS_NO_DOCKER is 1, so the web modules are reported as not run." >&2
+      elif [ -n "${DOCKER_HOST:-}" ]; then
+        # Probe the daemon without the docker CLI. dind can still be starting after GitLab's service
+        # check gives up, so keep asking for DS_DOCKER_WAIT seconds (default 30) before giving up.
+        if node -e 'const u = process.env.DOCKER_HOST; if (!u.startsWith("tcp:")) process.exit(0); const end = Date.now() + 1000 * Number(process.env.DS_DOCKER_WAIT || 30); const ping = () => fetch(u.replace(/^tcp:/, "http:") + "/_ping", { signal: AbortSignal.timeout(5000) }).then((r) => r.ok, () => false).then((ok) => ok ? process.exit(0) : Date.now() < end ? setTimeout(ping, 1000) : process.exit(1)); ping()'; then
+          if ! command -v docker >/dev/null 2>&1; then
+            apt-get update -qq && apt-get install -y -qq --no-install-recommends docker.io >/dev/null ||
+              echo "WARNING: could not install the docker CLI, so the web modules can't run." >&2
+          fi
+        else
+          echo "WARNING: DOCKER_HOST is $DOCKER_HOST but no Docker daemon answered there within ${DS_DOCKER_WAIT:-30} s. The runner gave this job no Docker (is it privileged?), so the web modules can't run. See adapters/README.md in the design kit, 'CI runners need Docker'." >&2
+        fi
+      fi
+    - node tools/ds/ds.mjs ci --base "$CI_MERGE_REQUEST_DIFF_BASE_SHA" --branch "$CI_MERGE_REQUEST_SOURCE_BRANCH_NAME" $ds_flag
+  artifacts:
+    when: always
+    expire_in: 30 days
+    paths:
+      - .ds/out/

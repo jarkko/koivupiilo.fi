@@ -1,0 +1,398 @@
+{
+ "source": ".ds/out/perf/<route>/run-{1,2,3}.html from the author's all-module retrofit run (ds container, Lighthouse mobile). Static budgets from tools/ds/web/ds-web.mjs: LCP <= 2000 ms, CLS <= 0.05, performance >= 0.90.",
+ "routes": {
+  "404.html": {
+   "runs": [
+    {
+     "lcp_ms": 2554,
+     "cls": 0.0018,
+     "performance": 0.94,
+     "font_requests": 6
+    },
+    {
+     "lcp_ms": 1657,
+     "cls": 0.0018,
+     "performance": 0.99,
+     "font_requests": 6
+    },
+    {
+     "lcp_ms": 2706,
+     "cls": 0.0018,
+     "performance": 0.93,
+     "font_requests": 6
+    }
+   ]
+  },
+  "500.html": {
+   "runs": [
+    {
+     "lcp_ms": 1806,
+     "cls": 0.0018,
+     "performance": 0.99,
+     "font_requests": 6
+    },
+    {
+     "lcp_ms": 1805,
+     "cls": 0.0018,
+     "performance": 0.99,
+     "font_requests": 6
+    },
+    {
+     "lcp_ms": 1806,
+     "cls": 0.0018,
+     "performance": 0.99,
+     "font_requests": 6
+    }
+   ]
+  },
+  "about": {
+   "runs": [
+    {
+     "lcp_ms": 1815,
+     "cls": 0.019,
+     "performance": 0.99,
+     "font_requests": 10
+    },
+    {
+     "lcp_ms": 1217,
+     "cls": 0.019,
+     "performance": 1,
+     "font_requests": 10
+    },
+    {
+     "lcp_ms": 1220,
+     "cls": 0.019,
+     "performance": 1,
+     "font_requests": 10
+    }
+   ]
+  },
+  "blog": {
+   "runs": [
+    {
+     "lcp_ms": 2705,
+     "cls": 0.0197,
+     "performance": 0.93,
+     "font_requests": 6
+    },
+    {
+     "lcp_ms": 1805,
+     "cls": 0.0197,
+     "performance": 0.99,
+     "font_requests": 6
+    },
+    {
+     "lcp_ms": 1807,
+     "cls": 0.0197,
+     "performance": 0.99,
+     "font_requests": 6
+    }
+   ]
+  },
+  "contact": {
+   "runs": [
+    {
+     "lcp_ms": 1964,
+     "cls": 0.0156,
+     "performance": 0.99,
+     "font_requests": 8
+    },
+    {
+     "lcp_ms": 1963,
+     "cls": 0.0343,
+     "performance": 0.99,
+     "font_requests": 8
+    },
+    {
+     "lcp_ms": 1958,
+     "cls": 0.0178,
+     "performance": 0.99,
+     "font_requests": 8
+    }
+   ]
+  },
+  "fi-palvelut": {
+   "runs": [
+    {
+     "lcp_ms": 2106,
+     "cls": 0.0385,
+     "performance": 0.98,
+     "font_requests": 10
+    },
+    {
+     "lcp_ms": 3308,
+     "cls": 0.0384,
+     "performance": 0.87,
+     "font_requests": 10
+    },
+    {
+     "lcp_ms": 1657,
+     "cls": 0.0387,
+     "performance": 1,
+     "font_requests": 10
+    }
+   ]
+  },
+  "fi-portfolio": {
+   "runs": [
+    {
+     "lcp_ms": 1508,
+     "cls": 0.023,
+     "performance": 1,
+     "font_requests": 10
+    },
+    {
+     "lcp_ms": 3461,
+     "cls": 0.0249,
+     "performance": 0.84,
+     "font_requests": 10
+    },
+    {
+     "lcp_ms": 3458,
+     "cls": 0.0249,
+     "performance": 0.84,
+     "font_requests": 10
+    }
+   ]
+  },
+  "fi-tietoa": {
+   "runs": [
+    {
+     "lcp_ms": 2557,
+     "cls": 0.0171,
+     "performance": 0.95,
+     "font_requests": 10
+    },
+    {
+     "lcp_ms": 2107,
+     "cls": 0.0171,
+     "performance": 0.98,
+     "font_requests": 10
+    },
+    {
+     "lcp_ms": 2107,
+     "cls": 0.0171,
+     "performance": 0.98,
+     "font_requests": 10
+    }
+   ]
+  },
+  "fi-yhteystiedot": {
+   "runs": [
+    {
+     "lcp_ms": 2857,
+     "cls": 0.0204,
+     "performance": 0.91,
+     "font_requests": 8
+    },
+    {
+     "lcp_ms": 1955,
+     "cls": 0.0221,
+     "performance": 0.99,
+     "font_requests": 8
+    },
+    {
+     "lcp_ms": 1806,
+     "cls": 0.0204,
+     "performance": 0.99,
+     "font_requests": 8
+    }
+   ]
+  },
+  "fi": {
+   "runs": [
+    {
+     "lcp_ms": 2706,
+     "cls": 0.0507,
+     "performance": 0.93,
+     "font_requests": 6
+    },
+    {
+     "lcp_ms": 1807,
+     "cls": 0.0507,
+     "performance": 0.99,
+     "font_requests": 6
+    },
+    {
+     "lcp_ms": 1662,
+     "cls": 0.0507,
+     "performance": 0.99,
+     "font_requests": 6
+    }
+   ]
+  },
+  "index": {
+   "runs": [
+    {
+     "lcp_ms": 1822,
+     "cls": 0.0707,
+     "performance": 0.98,
+     "font_requests": 6
+    },
+    {
+     "lcp_ms": 1662,
+     "cls": 0.073,
+     "performance": 0.98,
+     "font_requests": 6
+    },
+    {
+     "lcp_ms": 2108,
+     "cls": 0.0707,
+     "performance": 0.96,
+     "font_requests": 6
+    }
+   ]
+  },
+  "portfolio": {
+   "runs": [
+    {
+     "lcp_ms": 3015,
+     "cls": 0.1366,
+     "performance": 0.84,
+     "font_requests": 8
+    },
+    {
+     "lcp_ms": 1663,
+     "cls": 0.1366,
+     "performance": 0.95,
+     "font_requests": 8
+    },
+    {
+     "lcp_ms": 1365,
+     "cls": 0.1366,
+     "performance": 0.95,
+     "font_requests": 8
+    }
+   ]
+  },
+  "services-personal-development": {
+   "runs": [
+    {
+     "lcp_ms": 2106,
+     "cls": 0.0123,
+     "performance": 0.98,
+     "font_requests": 8
+    },
+    {
+     "lcp_ms": 1959,
+     "cls": 0.0122,
+     "performance": 0.98,
+     "font_requests": 8
+    },
+    {
+     "lcp_ms": 2558,
+     "cls": 0.0122,
+     "performance": 0.95,
+     "font_requests": 8
+    }
+   ]
+  },
+  "services-sports-coaching": {
+   "runs": [
+    {
+     "lcp_ms": 1657,
+     "cls": 0.0037,
+     "performance": 0.99,
+     "font_requests": 8
+    },
+    {
+     "lcp_ms": 1957,
+     "cls": 0.0029,
+     "performance": 0.99,
+     "font_requests": 8
+    },
+    {
+     "lcp_ms": 1958,
+     "cls": 0.0034,
+     "performance": 0.99,
+     "font_requests": 8
+    }
+   ]
+  },
+  "services-technical-consulting": {
+   "runs": [
+    {
+     "lcp_ms": 1807,
+     "cls": 0.0411,
+     "performance": 0.99,
+     "font_requests": 8
+    },
+    {
+     "lcp_ms": 1958,
+     "cls": 0.0243,
+     "performance": 0.99,
+     "font_requests": 8
+    },
+    {
+     "lcp_ms": 1807,
+     "cls": 0.0243,
+     "performance": 0.99,
+     "font_requests": 8
+    }
+   ]
+  },
+  "services": {
+   "runs": [
+    {
+     "lcp_ms": 1068,
+     "cls": 0.0671,
+     "performance": 0.99,
+     "font_requests": 10
+    },
+    {
+     "lcp_ms": 1231,
+     "cls": 0.0666,
+     "performance": 0.99,
+     "font_requests": 10
+    },
+    {
+     "lcp_ms": 1814,
+     "cls": 0.0581,
+     "performance": 0.99,
+     "font_requests": 10
+    }
+   ]
+  },
+  "updates-welcome-to-bridgetown": {
+   "runs": [
+    {
+     "lcp_ms": 1655,
+     "cls": 0.1576,
+     "performance": 0.93,
+     "font_requests": 6
+    },
+    {
+     "lcp_ms": 2705,
+     "cls": 0.1598,
+     "performance": 0.86,
+     "font_requests": 6
+    },
+    {
+     "lcp_ms": 2705,
+     "cls": 0.1598,
+     "performance": 0.86,
+     "font_requests": 6
+    }
+   ]
+  }
+ },
+ "portfolio_layout_shift_causes": [
+  "Web font loaded pt-sans-latin-700-normal-VFOFQJE4.woff2",
+  "Web font loaded pt-sans-latin-400-normal-DJC62D63.woff2",
+  "Web font loaded pt-serif-latin-400-normal-F2XC2DKS.woff2",
+  "Web font loaded pt-serif-latin-700-normal-VETFNMJJ.woff2"
+ ],
+ "portfolio_font_requests": [
+  "pt-sans-latin-ext-700-normal-OMCWQHAQ.woff2",
+  "pt-sans-latin-ext-400-normal-6EZHHPMU.woff2",
+  "pt-serif-latin-ext-400-normal-JUHXXEMZ.woff2",
+  "pt-serif-latin-ext-700-normal-WAMA2OQX.woff2",
+  "pt-sans-latin-700-normal-VFOFQJE4.woff2",
+  "pt-sans-latin-400-normal-DJC62D63.woff2",
+  "pt-serif-latin-400-normal-F2XC2DKS.woff2",
+  "pt-serif-latin-700-normal-VETFNMJJ.woff2"
+ ],
+ "errors_in_console_example": [
+  "Failed to load resource: the server responded with a status of 404 (Not Found) http://127.0.0.1:46559/_bridgetown/live_reload"
+ ]
+}

@@ -1,0 +1,18 @@
+{
+  "command": "node tools/ds/ds.mjs gate --json > /tmp/kit-adopt-ranged-gate.json 2> /tmp/kit-adopt-ranged-gate.stderr",
+  "head_sha": "a0409b9e6ea8ecb8487230b24ade719fb57d32ba",
+  "run": "2026-11-05, once, serial, reviewer run term_604d97e0-a309-4d64-a020-ebd326ef060d",
+  "exit": 0,
+  "ok": true,
+  "tools": {
+    "config": {"ok": true, "warn": 0},
+    "terms": {"ok": true, "warn": 0},
+    "model": {"ok": true, "warn": 21, "note": "19 model.decision-no-supersedes (D1 onward), 1 model.no-results, 1 retrofit.baselined (9 model rows)"},
+    "invariants": {"ok": true, "warn": 1, "note": "retrofit.baselined: 154 invariants rows"},
+    "a11y": {"ok": true, "warn": 86, "note": "85 a11y.color-contrast manual checks (gradient backgrounds, including the footer, F3), 1 retrofit.baselined (92 a11y rows)"}
+  },
+  "skipped_by_config": ["lint", "imagery", "tokens"],
+  "web_routes_checked": 17,
+  "not_in_gate": "perf and visual run in CI, not in the gate. Timing evidence comes from the current production ds Lighthouse runs (ds-lighthouse-extract.json), not from a stale .ds/out/ci.json.",
+  "errors": 0
+}

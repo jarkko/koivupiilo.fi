@@ -1,0 +1,122 @@
+[
+  {
+    "lang": "fi",
+    "reduce": "no-preference",
+    "targetMs": 0,
+    "actualMs": 153,
+    "font": "\"Hanken Grotesk\", \"Hanken Grotesk Fallback\", system-ui, sans-serif",
+    "clip": "inset(0px 0px 100%)",
+    "animation": "grow",
+    "text": "Koivupiilo tekee ohjelmistoja urheiluseuroille ja pienyrityksille sekä valmentaa lentopalloa."
+  },
+  {
+    "lang": "fi",
+    "reduce": "no-preference",
+    "targetMs": 300,
+    "actualMs": 347,
+    "font": "\"Hanken Grotesk\", \"Hanken Grotesk Fallback\", system-ui, sans-serif",
+    "clip": "inset(0px 0px calc(100% - 525.942px))",
+    "animation": "grow",
+    "text": "Koivupiilo tekee ohjelmistoja urheiluseuroille ja pienyrityksille sekä valmentaa lentopalloa."
+  },
+  {
+    "lang": "fi",
+    "reduce": "no-preference",
+    "targetMs": 1200,
+    "actualMs": 1242,
+    "font": "\"Hanken Grotesk\", \"Hanken Grotesk Fallback\", system-ui, sans-serif",
+    "clip": "none",
+    "animation": "grow",
+    "text": "Koivupiilo tekee ohjelmistoja urheiluseuroille ja pienyrityksille sekä valmentaa lentopalloa."
+  },
+  {
+    "lang": "fi",
+    "reduce": "reduce",
+    "targetMs": 0,
+    "actualMs": 75,
+    "font": "\"Hanken Grotesk\", \"Hanken Grotesk Fallback\", system-ui, sans-serif",
+    "clip": "none",
+    "animation": "none",
+    "text": "Koivupiilo tekee ohjelmistoja urheiluseuroille ja pienyrityksille sekä valmentaa lentopalloa."
+  },
+  {
+    "lang": "fi",
+    "reduce": "reduce",
+    "targetMs": 300,
+    "actualMs": 357,
+    "font": "\"Hanken Grotesk\", \"Hanken Grotesk Fallback\", system-ui, sans-serif",
+    "clip": "none",
+    "animation": "none",
+    "text": "Koivupiilo tekee ohjelmistoja urheiluseuroille ja pienyrityksille sekä valmentaa lentopalloa."
+  },
+  {
+    "lang": "fi",
+    "reduce": "reduce",
+    "targetMs": 1200,
+    "actualMs": 1244,
+    "font": "\"Hanken Grotesk\", \"Hanken Grotesk Fallback\", system-ui, sans-serif",
+    "clip": "none",
+    "animation": "none",
+    "text": "Koivupiilo tekee ohjelmistoja urheiluseuroille ja pienyrityksille sekä valmentaa lentopalloa."
+  },
+  {
+    "lang": "en",
+    "reduce": "no-preference",
+    "targetMs": 0,
+    "actualMs": 82,
+    "font": "\"Hanken Grotesk\", \"Hanken Grotesk Fallback\", system-ui, sans-serif",
+    "clip": "inset(0px 0px 100%)",
+    "animation": "grow",
+    "text": "Koivupiilo makes software for sports clubs and small companies, and coaches volleyball."
+  },
+  {
+    "lang": "en",
+    "reduce": "no-preference",
+    "targetMs": 300,
+    "actualMs": 372,
+    "font": "\"Hanken Grotesk\", \"Hanken Grotesk Fallback\", system-ui, sans-serif",
+    "clip": "inset(0px 0px calc(100% - 596.158px))",
+    "animation": "grow",
+    "text": "Koivupiilo makes software for sports clubs and small companies, and coaches volleyball."
+  },
+  {
+    "lang": "en",
+    "reduce": "no-preference",
+    "targetMs": 1200,
+    "actualMs": 1264,
+    "font": "\"Hanken Grotesk\", \"Hanken Grotesk Fallback\", system-ui, sans-serif",
+    "clip": "none",
+    "animation": "grow",
+    "text": "Koivupiilo makes software for sports clubs and small companies, and coaches volleyball."
+  },
+  {
+    "lang": "en",
+    "reduce": "reduce",
+    "targetMs": 0,
+    "actualMs": 64,
+    "font": "\"Hanken Grotesk\", \"Hanken Grotesk Fallback\", system-ui, sans-serif",
+    "clip": "none",
+    "animation": "none",
+    "text": "Koivupiilo makes software for sports clubs and small companies, and coaches volleyball."
+  },
+  {
+    "lang": "en",
+    "reduce": "reduce",
+    "targetMs": 300,
+    "actualMs": 329,
+    "font": "\"Hanken Grotesk\", \"Hanken Grotesk Fallback\", system-ui, sans-serif",
+    "clip": "none",
+    "animation": "none",
+    "text": "Koivupiilo makes software for sports clubs and small companies, and coaches volleyball."
+  },
+  {
+    "lang": "en",
+    "reduce": "reduce",
+    "targetMs": 1200,
+    "actualMs": 1230,
+    "font": "\"Hanken Grotesk\", \"Hanken Grotesk Fallback\", system-ui, sans-serif",
+    "clip": "none",
+    "animation": "none",
+    "text": "Koivupiilo makes software for sports clubs and small companies, and coaches volleyball."
+  }
+]

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Koivupiilo · Comp C · Pallo</title>
+<style>
+@font-face{font-family:'Bricolage';src:url('/assets/fonts/bricolage-grotesque-latin-opsz-normal.woff2') format('woff2');font-weight:200 800;font-stretch:75% 100%;font-display:swap}
+@font-face{font-family:'JBMono';src:url('/assets/fonts/jetbrains-mono-latin-wght-normal.woff2') format('woff2');font-weight:100 800;font-display:swap}
+:root{--bg:#efede6;--ink:#121210;--soft:#66645d;--line:#d6d3c9;--ball:#ffd21f;--seam:#121210;--card:#e4e1d8}
+@media (prefers-color-scheme:dark){:root{--bg:#0f0f0e;--ink:#f0eee7;--soft:#97958d;--line:#2a2a27;--card:#1b1b19;--seam:#0f0f0e}}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--bg);color:var(--ink);font:400 16px/1.5 Bricolage,system-ui,sans-serif;-webkit-font-smoothing:antialiased;font-variation-settings:"opsz" 14}
+a{color:inherit;text-decoration:none}
+.mono{font-family:JBMono,ui-monospace,monospace;font-size:12px;letter-spacing:.01em}
+.wrap{padding:0 clamp(18px,3.2vw,48px)}
+.top{display:flex;justify-content:space-between;align-items:center;padding-top:22px;padding-bottom:22px}
+.top nav{display:flex;gap:1.75rem}
+.top nav a,.top .r a{border-bottom:1px solid transparent;transition:border-color .2s}.top nav a:hover{border-color:currentColor}
+.word{font-weight:700;font-size:17px;letter-spacing:-.02em;font-variation-settings:"opsz" 32}
+/* the statement */
+.stage{position:relative;overflow-x:clip;padding-top:clamp(1.5rem,5vh,4rem);padding-bottom:0}
+h1{position:relative;z-index:1;font-weight:700;font-size:clamp(3.2rem,9.4vw,9rem);line-height:.9;letter-spacing:-.03em;font-variation-settings:"opsz" 96}
+h1 .l{display:block}
+
+
+
+.ball{position:absolute;z-index:0;width:clamp(9rem,25vw,24rem);aspect-ratio:1;right:clamp(1rem,9vw,10rem);top:clamp(1.5rem,5vw,4.5rem);transform:translateY(calc(var(--sy,0)*-0.15px))}
+@keyframes spin{to{transform:rotate(360deg)}}
+.ball circle{fill:var(--ball)}
+.ball path{fill:none;stroke:var(--seam);stroke-width:1.6;opacity:.85}
+.under{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:1.5rem;margin-top:clamp(1.5rem,3vw,2.5rem);align-items:start}
+.under p{grid-column:1/span 6;font-size:clamp(1.05rem,1.4vw,1.3rem);line-height:1.4;letter-spacing:-.01em;font-variation-settings:"opsz" 24}
+.under .mono{grid-column:9/span 4;color:var(--soft);justify-self:end;text-align:right}
+/* work strip */
+.strip{margin-top:clamp(2rem,4vw,3.5rem);border-top:1px solid var(--line);padding-top:1rem}
+.strip header{display:flex;justify-content:space-between;color:var(--soft);margin-bottom:1.25rem}
+.rail{display:grid;grid-auto-flow:column;grid-auto-columns:clamp(17rem,31vw,30rem);gap:clamp(.75rem,1.4vw,1.25rem);overflow-x:auto;scroll-snap-type:x mandatory;padding:0 clamp(18px,3.2vw,48px) 2.5rem;scrollbar-width:none}
+.rail::-webkit-scrollbar{display:none}
+.card{scroll-snap-align:start;display:flex;flex-direction:column;gap:.85rem}
+.card figure{background:var(--card);aspect-ratio:4/3;overflow:hidden;border-radius:3px}
+.card img{width:100%;height:100%;object-fit:cover;object-position:top left;transition:transform .7s cubic-bezier(.2,.7,.1,1)}
+.card:hover img{transform:scale(1.03)}
+.card .row{display:flex;justify-content:space-between;align-items:baseline;gap:1rem}
+.card h2{font-size:1.6rem;font-weight:650;letter-spacing:-.035em;font-variation-settings:"opsz" 48}
+.card .mono{color:var(--soft)}
+.card p{color:var(--soft);max-width:34ch}
+.dot{display:inline-block;width:.55em;height:.55em;border-radius:50%;background:var(--ball);margin-right:.4em;vertical-align:.05em}
+@media (max-width:760px){
+ .top nav{display:none}
+ h1{font-size:clamp(2.8rem,13.5vw,4.6rem)}
+ .under{grid-template-columns:1fr}.under p,.under .mono{grid-column:1;justify-self:start;text-align:left}
+ .rail{grid-auto-columns:82%}
+}
+@media (prefers-reduced-motion:reduce){.ball{animation:none}.card img{transition:none}}
+</style>
+</head>
+<body>
+<div class="wrap top"><a class="word" href="#">Koivupiilo</a><nav class="mono"><a href="#">Työt</a><a href="#">Palvelut</a><a href="#">Yhteys</a></nav><div class="r mono"><a href="#" lang="en">EN</a></div></div>
+
+<section class="wrap stage">
+<h1><span class="l">Ohjelmistoja</span><span class="l">urheiluun</span><span class="l">ja arkeen<span style="color:var(--ball)">.</span></span></h1>
+<div class="under"><span class="mono">Jarkko Laine · Kangasala<br>Yhden hengen studio</span><p>Teen omia tuotteita, kuten lentopallovideon analyysia ja kulukorvauksia seuroille, ja otan muutaman toimeksiannon vuodessa.</p></div>
+</section>
+
+<section class="strip">
+<header class="wrap mono"><span>Tuotteet, joita teen nyt</span><span>04 →</span></header>
+<div class="rail">
+<a class="card" href="#"><figure><img src="/assets/img/kvitti.png" alt=""></figure><div class="row"><h2>Kvitti</h2><span class="mono"><span class="dot"></span>julkaistu</span></div><p>Kuitit, kilometrit ja päivärahat seuroille ja pienyrityksille.</p></a>
+<a class="card" href="#"><figure><img src="/assets/img/magistician-review.png" alt="" style="object-position:top right"></figure><div class="row"><h2>Magistician</h2><span class="mono"><span class="dot"></span>julkaistu</span></div><p>Lentopallovideosta aikaleimatut tilastot jokaisesta kosketuksesta.</p></a>
+<a class="card" href="#"><figure><img src="/assets/img/jumpreach.png" alt=""></figure><div class="row"><h2>JumpReach</h2><span class="mono">prototyyppi</span></div><p>Hyppykorkeuden mittaus iPhonella.</p></a>
+<a class="card" href="#"><figure><img src="/assets/img/jumbo.svg" alt=""></figure><div class="row"><h2>Jumbo Volley</h2><span class="mono">kehityksessä</span></div><p>Ottelugrafiikat hallin isolle näytölle.</p></a>
+</div>
+</section>
+<script>if(!matchMedia("(prefers-reduced-motion: reduce)").matches)addEventListener("scroll",()=>document.documentElement.style.setProperty("--sy",scrollY),{passive:true})</script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+# Provenance of every real photo and video this product ships. One row per published file.
+# Checked by `ds imagery`; how to fill it: the real-imagery guide in the design kit.
+#
+# asset     the published file, from the repo root
+# original  the original filename or the library uuid (osxphotos uuid, or the NAS path)
+# captured  capture date, YYYY-MM-DD, optionally with HH:MM:SS
+# camera    EXIF make and model, e.g. Apple iPhone 15 Pro
+# source    photos (the owner's photo library) or nas
+# people    none or identifiable
+# consent   owner-ok YYYY-MM-DD for identifiable people, one OK per photo; n/a otherwise
+# note      optional: crop, edit, who is shown and why the OK covers it
+#
+# Columns are separated by tabs. Lines starting with # are comments. Example row:
+# public/images/hero-dock.jpg	9F4C2A1E-7B3D-4E0A-9C1F-2D8B6E5A4C3B	2026-06-14 18:42:07	Apple iPhone 15 Pro	photos	none	n/a	cropped 3:2
+asset	original	captured	camera	source	people	consent	note

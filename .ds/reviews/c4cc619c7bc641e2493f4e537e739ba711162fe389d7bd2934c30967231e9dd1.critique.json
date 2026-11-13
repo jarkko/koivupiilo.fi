@@ -1,0 +1,186 @@
+{
+  "kind": "critique",
+  "ui_diff_hash": "c4cc619c7bc641e2493f4e537e739ba711162fe389d7bd2934c30967231e9dd1",
+  "head_sha": "8ed8907d2f787e7e48a3e8dc8b8e2838d4b80d2f",
+  "reviewer_run_id": "term_8891a925-6975-42e9-a119-0bb5888eff03",
+  "implementer_family": "claude",
+  "reviewer_family": "codex",
+  "critique": {
+    "remove": [
+      {
+        "flow": "W0",
+        "point": "Remove the repeated grove-origin sentence from the front-company summary on a future copy pass; /yritys/ now carries a concise, privacy-safe version. Keep the founder name and Company link so the ten-second legitimacy check still has a human behind it.",
+        "grade": "anecdote",
+        "evidence": [
+          "docs/design/reviews/evidence/c4cc619c/quality-assessment.md",
+          "docs/design/reviews/evidence/c4cc619c/shots/front-fi-390-light-fi-FI.png"
+        ]
+      },
+      {
+        "flow": "W1",
+        "point": "Remove no work-item status, checked date or explanation: each earns its place by distinguishing release, pilot and unfinished work, and the explanation prevents reading the dates as release dates. The list has no expendable control to remove.",
+        "grade": "anecdote",
+        "evidence": [
+          "docs/design/reviews/evidence/c4cc619c/supplement.json",
+          "docs/design/reviews/evidence/c4cc619c/shots/work-en-1440-light-en-GB.png"
+        ]
+      },
+      {
+        "flow": "W2",
+        "point": "Remove no credential or named-coach byline: the club visitor needs both the relevant artefact and the human offering the work. The short bespoke-scope note prevents mistaking the rows for fixed packages.",
+        "grade": "anecdote",
+        "evidence": [
+          "docs/design/reviews/evidence/c4cc619c/shots/coaching-fi-390-light-fi-FI.png",
+          "docs/design/reviews/evidence/c4cc619c/quality-assessment.md"
+        ]
+      },
+      {
+        "flow": "W3",
+        "point": "Remove no language link. The header serves the arriving reader and the footer serves the reader who has reached the end; both preserve place without introducing a selection step.",
+        "grade": "anecdote",
+        "evidence": [
+          "docs/design/reviews/evidence/c4cc619c/audit.json",
+          "docs/design/reviews/evidence/c4cc619c/shots/privacy-en-390-light-en-GB.png"
+        ]
+      },
+      {
+        "flow": "W4",
+        "point": "Remove the redundant generic own-products assertion from the Own products row: the lede and Right now already repeat that priority. Preserve the concrete Kvitti/Magistician proof and work link, bringing the agency reader to the stack sooner.",
+        "grade": "anecdote",
+        "evidence": [
+          "docs/design/reviews/evidence/c4cc619c/shots/studio-en-390-light-en-GB.png",
+          "docs/design/reviews/evidence/c4cc619c/quality-assessment.md"
+        ]
+      },
+      {
+        "flow": "W5",
+        "point": "Remove one repeated software-developer/volleyball-coach statement from the founder introduction/quotation when the owner revisits his words; the CV and founder identity are stronger evidence. Keep the new two-line grove story: it adds provenance without private family/home context.",
+        "grade": "anecdote",
+        "evidence": [
+          "docs/design/reviews/evidence/c4cc619c/shots/company-fi-390-light-fi-FI.png",
+          "docs/design/reviews/evidence/c4cc619c/quality-assessment.md"
+        ]
+      }
+    ],
+    "two_x": [
+      {
+        "flow": "W0",
+        "point": "Add one compact, authentic, consent-safe product crop beside the first work item so visible proof arrives with the product name. Strongest counter-argument: the entire Kvitti row and company facts currently fit the phone viewport; a crop that displaces them worsens the check, so measure that constraint and obtain permission before adding imagery.",
+        "grade": "anecdote",
+        "evidence": [
+          "docs/design/reviews/evidence/c4cc619c/supplement.json",
+          "docs/design/reviews/evidence/c4cc619c/shots/front-fi-390-light-fi-FI.png",
+          "docs/design/reviews/evidence/c4cc619c/quality-assessment.md"
+        ]
+      },
+      {
+        "flow": "W1",
+        "point": "Add one quiet project-email link after the work list using the existing project subject; a persuaded referral can act without navigating to Studio. Strongest counter-argument: the footer already offers email and another CTA can clutter the index; keep it subordinate and test whether it reduces the contact path.",
+        "grade": "anecdote",
+        "evidence": [
+          "docs/design/reviews/evidence/c4cc619c/shots/work-en-390-light-en-GB.png",
+          "docs/design/reviews/evidence/c4cc619c/audit.json"
+        ]
+      },
+      {
+        "flow": "W2",
+        "point": "Replace a generic offer description with one owner-confirmed first-engagement example, giving the club chair a concrete session or deliverable to take to the board. Strongest counter-argument: the engagement is bespoke and the example could imply a package; label it an example and invent no price, capacity or promised result.",
+        "grade": "anecdote",
+        "evidence": [
+          "docs/design/reviews/evidence/c4cc619c/shots/coaching-fi-390-light-fi-FI.png",
+          "docs/design/reviews/evidence/c4cc619c/quality-assessment.md"
+        ]
+      },
+      {
+        "flow": "W3",
+        "point": "Extend same-page language continuity to the return links on product sites where those products actually support both languages. The local switch is already one action, so there is no credible local step-halving change. Strongest counter-argument: those external pages were not inspected here and belong to their own scope; verify their current locale support before proposing implementation.",
+        "grade": "anecdote",
+        "evidence": [
+          "docs/design/reviews/evidence/c4cc619c/audit.json",
+          "docs/design/reviews/evidence/c4cc619c/quality-assessment.md"
+        ]
+      },
+      {
+        "flow": "W4",
+        "point": "When the owner is willing to give one, replace the conditional capacity wording with a dated, maintained next-start answer; an agency lead could decide whether to write without an availability round-trip. D22 makes the present line acceptable and no reply-time promise is required. Strongest counter-argument: stale precision misleads, so retain the approved honest conditional line until the owner can maintain a dated answer.",
+        "grade": "anecdote",
+        "evidence": [
+          "docs/design/reviews/evidence/c4cc619c/supplement.json",
+          "docs/design/reviews/evidence/c4cc619c/shots/studio-en-1440-light-en-GB.png",
+          "docs/design/reviews/evidence/c4cc619c/quality-assessment.md"
+        ]
+      },
+      {
+        "flow": "W5",
+        "point": "Group the verified founder name with the company facts, so the checker sees entity, place, contact and accountable person together. Strongest counter-argument: Founder follows immediately and repeating the name may add no speed; run the ten-second phone check before adding another facts row.",
+        "grade": "anecdote",
+        "evidence": [
+          "docs/design/reviews/evidence/c4cc619c/shots/company-en-390-light-en-GB.png",
+          "docs/design/reviews/evidence/c4cc619c/quality-assessment.md"
+        ]
+      }
+    ],
+    "short_of_references": [
+      {
+        "flow": "W0",
+        "point": "Panic makes a company comprehensible in one sentence; this headline does that. CSS Wizardry names the field and shows concrete proof, while our first screen still offers text assertions. 37signals gives a specific way of working, which our generic software definition does not. Studio DADO gives labelled facts, an expressive statement and visible work separate jobs; our largest second visual statement is the footer logo. Neutral Studio is a restraint reference whose empty hero is a weakness to avoid.",
+        "grade": "practitioner consensus",
+        "evidence": [
+          "docs/design/reviews/evidence/c4cc619c/shots/front-en-1440-light-en-GB.png",
+          "docs/design/reviews/evidence/c4cc619c/quality-assessment.md"
+        ],
+        "reference": "docs/design/references.md: Panic, CSS Wizardry, 37signals; references/awards/studio-portfolio.md#studio-dado; references/awards/studio-portfolio.md#neutral-studio"
+      },
+      {
+        "flow": "W1",
+        "point": "D14 rejects long product case pages here, but thoughtbot's outcome-first proof, CSS Wizardry's real chart and candid limitations, and Clearleft's named email remain useful mechanics. The dated rows are candid but have no actual visible outcome and no adjacent project-email handoff. Studio Tyrsa leads from a short studio intro straight to visible work; one still would bring that evidential force without its heavy video.",
+        "grade": "practitioner consensus",
+        "evidence": [
+          "docs/design/reviews/evidence/c4cc619c/shots/work-en-1440-light-en-GB.png",
+          "docs/design/reviews/evidence/c4cc619c/quality-assessment.md"
+        ],
+        "reference": "docs/design/references.md: thoughtbot CloseKnit, CSS Wizardry ISO.org, Clearleft Virgin Holidays, Clearleft contact; references/awards/studio-portfolio.md#studio-tyrsa"
+      },
+      {
+        "flow": "W2",
+        "point": "Kisko names offers by a buyer's stage, Set explains the benefit of direct work with the maker, and Clearleft names the person to write to. Our named coach and email are clear; the three category rows still lack a concrete first-session example. Studio DADO separates field, approach and next step; the row hierarchy is good here, but the approach needs substance.",
+        "grade": "practitioner consensus",
+        "evidence": [
+          "docs/design/reviews/evidence/c4cc619c/shots/coaching-fi-1440-dark-fi-FI.png",
+          "docs/design/reviews/evidence/c4cc619c/quality-assessment.md"
+        ],
+        "reference": "docs/design/references.md: Kisko Labs, Set Studio, Clearleft contact; references/awards/studio-portfolio.md#studio-dado"
+      },
+      {
+        "flow": "W3",
+        "point": "The local switch meets Panic's locale separation and avoids Futurice's mixed-page fallback. GKC places a plain language name in navigation, a craft mechanic also met here. The shortfall is the unverified full journey from an external product back to the right company locale; the local path is finished at one tap, while the broader reference set is too weak to justify inventing a better local switch. Strengthen that comparison with actual product-return-path observations.",
+        "grade": "practitioner consensus",
+        "evidence": [
+          "docs/design/reviews/evidence/c4cc619c/shots/privacy-en-390-light-en-GB.png",
+          "docs/design/reviews/evidence/c4cc619c/quality-assessment.md"
+        ],
+        "reference": "docs/design/references.md: Panic bilingual, Futurice bilingual anti-reference; references/awards/studio-portfolio.md#gkc-architecture--design"
+      },
+      {
+        "flow": "W4",
+        "point": "Kisko makes the first engagement imaginable, Set makes the single maker a buying benefit, and Clearleft makes contact human. The stack, responder and writing brief meet that clarity bar; conditional capacity still leaves timing to a conversation, accepted by D22. Gil Huybrecht demonstrates a terse availability fact above the work. Use that specificity only once owner-confirmed and maintained, and avoid its layout shift.",
+        "grade": "practitioner consensus",
+        "evidence": [
+          "docs/design/reviews/evidence/c4cc619c/shots/studio-en-1440-light-en-GB.png",
+          "docs/design/reviews/evidence/c4cc619c/quality-assessment.md"
+        ],
+        "reference": "docs/design/references.md: Kisko Labs, Set Studio, Clearleft contact; references/awards/studio-portfolio.md#gil-huybrecht"
+      },
+      {
+        "flow": "W5",
+        "point": "Panic is the plain-fact bar and Clearleft the immediate named-person bar. Our legal facts are easy to find, but the accountable founder appears after the first facts group. Cristina Gómez makes a solo practitioner concrete through a labelled person; a verified name within the facts could help without requiring a portrait. Studio DADO gives each labelled row a different purpose; the founder paragraph and quotation here repeat the same identity before the CV evidence.",
+        "grade": "practitioner consensus",
+        "evidence": [
+          "docs/design/reviews/evidence/c4cc619c/shots/company-en-390-light-en-GB.png",
+          "docs/design/reviews/evidence/c4cc619c/quality-assessment.md"
+        ],
+        "reference": "docs/design/references.md: Panic clarity, Clearleft named human; references/awards/studio-portfolio.md#cristina-gomez; references/awards/studio-portfolio.md#studio-dado"
+      }
+    ]
+  }
+}

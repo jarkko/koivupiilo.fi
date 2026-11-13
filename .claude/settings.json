@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "design-kit": {
+      "source": {
+        "source": "directory",
+        "path": "/Users/jarkko/code/metamorphosis/kit"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "design-kit@design-kit": true
+  }
+}

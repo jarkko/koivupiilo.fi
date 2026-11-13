@@ -1,0 +1,22 @@
+{
+ "source": "/tmp/kit-adopt-font-gate.json (author gate run on the project output, completed during this review)",
+ "ok": true,
+ "modules": [
+  "config:ok",
+  "terms:ok",
+  "model:ok",
+  "invariants:ok",
+  "a11y:ok"
+ ],
+ "findings_by_rule": {
+  "warn model.decision-no-supersedes": 19,
+  "warn model.no-results": 1,
+  "warn retrofit.baselined": 3,
+  "warn a11y.color-contrast": 85
+ },
+ "retrofit": [
+  "9 model findings are on the retrofit list and don't block. Fix them and delete their rows.",
+  "154 invariants findings are on the retrofit list and don't block. Fix them and delete their rows.",
+  "92 a11y findings are on the retrofit list and don't block. Fix them and delete their rows."
+ ]
+}

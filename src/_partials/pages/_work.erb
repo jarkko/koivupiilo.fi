@@ -1,0 +1,15 @@
+<%
+  lang = data.lang
+  page = site.data.copy[lang].pages.work
+%>
+<section class="intro">
+  <h1 class="display"><%= page.heading %></h1>
+  <p class="lede"><%= page.lede %></p>
+</section>
+
+<section class="row row--list" aria-labelledby="list">
+  <h2 class="row-label" id="list"><%= page.list_label %></h2>
+  <div class="row-body">
+    <%= render "work_list", items: site.data.work.items, label: page.list_label %>
+  </div>
+</section>

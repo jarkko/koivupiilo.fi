@@ -1,0 +1,49 @@
+<%
+  lang = data.lang
+  t = site.data.copy[lang]
+  page = t.pages.front
+  c = site.data.company
+  routes = site.data.routes
+  city = [c.city, t.facts.country].reject(&:empty?).join(", ")
+%>
+<section class="intro">
+  <h1 class="statement"><%= site.data.jarkko.one_sentence[lang] %></h1>
+  <dl class="facts">
+    <div><dt><%= t.facts.company %></dt><dd><%= c.legal_name %></dd></div>
+    <div><dt><%= t.facts.business_id %></dt><dd><%= c.business_id %></dd></div>
+    <div><dt><%= t.facts.city %></dt><dd><%= city %></dd></div>
+    <div><dt><%= t.facts.founded %></dt><dd><%= c.founded_year %></dd></div>
+  </dl>
+</section>
+
+<section class="row row--list" aria-labelledby="work">
+  <h2 class="row-label" id="work"><%= page.work_heading %></h2>
+  <div class="row-body">
+    <%= render "work_list", items: site.data.work.items.first(4), label: page.work_heading %>
+    <p><a class="link" href="<%= routes.work[lang] %>"><%= page.work_all %></a></p>
+  </div>
+</section>
+
+<section class="row" aria-labelledby="studio">
+  <h2 class="row-label" id="studio"><%= page.studio_heading %></h2>
+  <div class="row-body">
+    <p class="large"><%= page.studio_text %></p>
+    <p><a class="link" href="<%= routes.studio[lang] %>"><%= page.studio_link %></a></p>
+  </div>
+</section>
+
+<section class="row" aria-labelledby="coaching">
+  <h2 class="row-label" id="coaching"><%= page.coaching_heading %></h2>
+  <div class="row-body">
+    <p class="large"><%= page.coaching_text %></p>
+    <p><a class="link" href="<%= routes.coaching[lang] %>"><%= page.coaching_link %></a></p>
+  </div>
+</section>
+
+<section class="row" aria-labelledby="company">
+  <h2 class="row-label" id="company"><%= page.company_heading %></h2>
+  <div class="row-body">
+    <p class="large"><%= page.company_text %></p>
+    <p><a class="link" href="<%= routes.company[lang] %>"><%= page.company_link %></a></p>
+  </div>
+</section>

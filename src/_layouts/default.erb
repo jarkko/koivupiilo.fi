@@ -1,20 +1,23 @@
+<%
+  lang = data.lang
+  t = site.data.copy[lang]
+%>
 <!doctype html>
-<html lang="<%= data.lang || 'en' %>">
+<html lang="<%= lang %>">
   <head>
-    <%= render "head", metadata: site.metadata, title: data.title %>
+    <%= render "head" %>
   </head>
-  <body class="<%= data.layout %>">
-    <%= render Shared::Navbar.new(metadata: site.metadata, resource: resource) %>
-
-    <main id="main">
-      <article class="prose">
-        <% if data.title && data.title != site.metadata.title %>
-          <h1 class="page-title"><%= data.title %></h1>
-        <% end %>
-        <%= yield %>
-      </article>
-    </main>
-
-    <%= render "footer", metadata: site.metadata %>
+  <body>
+    <a class="skip" href="#main" data-ds-allow="tap-target: shown only while it has keyboard focus, so nobody taps it, and 44 px tall once shown"><%= t.site.skip %></a>
+    <div class="page">
+      <div class="trunk" aria-hidden="true"></div>
+      <div class="page-body">
+        <%= render "header" %>
+        <main id="main" tabindex="-1">
+          <%= yield %>
+        </main>
+        <%= render "footer" %>
+      </div>
+    </div>
   </body>
 </html>

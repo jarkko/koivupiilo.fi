@@ -1,0 +1,210 @@
+{
+  "kind": "defect",
+  "ui_diff_hash": "a3bbe0b1e6b027270dc056c0dbbdba177de5e62a3ee4a26326065fd07be9c2a6",
+  "head_sha": "c082a8d932d0088813581908c3bb0333e19ec399",
+  "reviewer_run_id": "term_e2956d4d-30f6-4698-b842-eadb53c11621",
+  "implementer_family": "codex",
+  "reviewer_family": "claude",
+  "walked": [
+    "W0",
+    "W1",
+    "W2",
+    "W3",
+    "W4",
+    "W5"
+  ],
+  "regions": [
+    "fi_FI",
+    "en_GB"
+  ],
+  "rubric": [
+    {
+      "id": "house-rules",
+      "result": "fail",
+      "blocking": false,
+      "evidence": [
+        "docs/design/reviews/evidence/a3bbe0b1/rerun-e2956d4d/walk-report.json",
+        "docs/design/reviews/evidence/5c2e92ac/footer-contrast.json",
+        "docs/design/reviews/evidence/a3bbe0b1/rerun-e2956d4d/shots/fi_FI-phone-dark-fi.jpg"
+      ],
+      "note": "Self-hosted fonts hold: 0 external, failed or console-error requests across 48 combinations. One primary action per view holds. The legacy footer still fails the contrast rule (F3), alongside the D20 contrast rows. The diff touches neither."
+    },
+    {
+      "id": "model",
+      "result": "fail",
+      "blocking": false,
+      "evidence": [
+        ".ds/reviews/steps/W0.md",
+        ".ds/reviews/steps/W1.md",
+        ".ds/reviews/steps/W2.md",
+        ".ds/reviews/steps/W3.md",
+        ".ds/reviews/steps/W4.md",
+        ".ds/reviews/steps/W5.md",
+        "docs/design/reviews/evidence/5c2e92ac/legacy-site-checks.txt",
+        "docs/design/reviews/evidence/a3bbe0b1/rerun-e2956d4d/walk-report.json"
+      ],
+      "note": "No model change: the diff adds three font preload tags to the head and edits retrofit rows. The legacy site still contradicts W0, W2, W3 and W5 (F4), which D20 preserves."
+    },
+    {
+      "id": "heuristics",
+      "result": "fail",
+      "blocking": false,
+      "evidence": [
+        "docs/design/reviews/evidence/5c2e92ac/legacy-site-checks.txt",
+        ".ds/reviews/steps/W2.md",
+        "docs/design/reviews/evidence/a3bbe0b1/rerun-e2956d4d/walk-report.json"
+      ],
+      "note": "Seven Finnish links still lead to a 404 (F4, legacy). The diff changes no navigation or feedback."
+    },
+    {
+      "id": "interaction-craft",
+      "result": "fail",
+      "blocking": false,
+      "evidence": [
+        "docs/design/reviews/evidence/a3bbe0b1/rerun-e2956d4d/shots/strip-load-en_GB-0.jpg",
+        "docs/design/reviews/evidence/a3bbe0b1/rerun-e2956d4d/shots/strip-load-en_GB-1.jpg",
+        "docs/design/reviews/evidence/a3bbe0b1/rerun-e2956d4d/shots/strip-load-en_GB-2.jpg",
+        "docs/design/reviews/evidence/a3bbe0b1/rerun-e2956d4d/shots/strip-load-fi_FI-0.jpg",
+        "docs/design/reviews/evidence/a3bbe0b1/rerun-e2956d4d/shots/strip-load-fi_FI-1.jpg",
+        "docs/design/reviews/evidence/a3bbe0b1/rerun-e2956d4d/shots/strip-load-fi_FI-2.jpg",
+        "docs/design/reviews/evidence/a3bbe0b1/rerun-e2956d4d/fcp-h2-medians.txt",
+        "docs/design/reviews/evidence/a3bbe0b1/fcp-probe.json",
+        "docs/design/reviews/evidence/a3bbe0b1/shots/strip-compare-en_GB-new-top-old-bottom.jpg"
+      ],
+      "note": "The preload delays first paint (F8). On the 400 kbit/s cold-load strip the first frame of / now comes at 3334 ms, against 1195 ms at 4bd5d688. It still shows fallback type: the nav wraps SUOMEKSI onto a second line, then the swap to PT Sans pulls it onto one line and shifts the page up. Not blocking: no destructive action is involved. The language-switch strips are unchanged."
+    },
+    {
+      "id": "platform",
+      "result": "fail",
+      "blocking": false,
+      "evidence": [
+        "docs/design/reviews/evidence/a3bbe0b1/rerun-e2956d4d/shots/zoom200-root.jpg",
+        "docs/design/reviews/evidence/a3bbe0b1/rerun-e2956d4d/shots/zoom200-contact.jpg",
+        "docs/design/reviews/evidence/a3bbe0b1/rerun-e2956d4d/shots/zoom200-fi.jpg",
+        "docs/design/reviews/evidence/a3bbe0b1/rerun-e2956d4d/shots/zoom200-fi_yhteystiedot.jpg",
+        "docs/design/reviews/evidence/a3bbe0b1/rerun-e2956d4d/walk-report.json",
+        "docs/design/reviews/evidence/5c2e92ac/footer-contrast.json"
+      ],
+      "note": "Browser zoom at 100, 110, 125, 150, 175 and 200 % on four routes at 1440 px: no overflow, and no nav link lost (24 zoom rows, 0 failures). Text-only zoom was not run, because Chromium has none. The WCAG failures are legacy (F3 and the D20 rows). The diff adds none."
+    },
+    {
+      "id": "owner-rules",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/a3bbe0b1/rerun-e2956d4d/shots/fi_FI-phone-dark-fi.jpg",
+        "docs/design/reviews/evidence/a3bbe0b1/rerun-e2956d4d/shots/en_GB-desktop-dark-root.jpg",
+        "docs/design/reviews/evidence/a3bbe0b1/rerun-e2956d4d/walk-report.json"
+      ],
+      "note": "No theme toggle in the chrome. No UUID in any walked URL or visible string."
+    },
+    {
+      "id": "web-quality",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/a3bbe0b1/preload-probe.json",
+        "docs/design/reviews/evidence/a3bbe0b1/lh-preload-targeted.json",
+        "docs/design/reviews/evidence/a3bbe0b1/lh-devtools-ab.json",
+        "docs/design/reviews/evidence/a3bbe0b1/fcp-probe.json",
+        "docs/design/reviews/evidence/a3bbe0b1/rerun-e2956d4d/fcp-h2-probe.json",
+        "docs/design/retrofit.tsv"
+      ],
+      "note": "The gate's measure passes. Simulated Lighthouse puts / at 1952 ms and /fi/ at 1951 ms, and the remaining 6 LCP rows are D20 debt, shrunk from 14 timing rows. Each preloaded file is fetched once and used, on 17/17 routes, with no external requests. Observed measurements disagree with the simulation, which the gate doesn't catch: devtools Lighthouse and both raw probes show the preload making first paint slower (F8)."
+    },
+    {
+      "id": "plan-conformance",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "src/_partials/_head.erb",
+        "docs/design/reviews/evidence/a3bbe0b1/preload-probe.json",
+        "docs/design/reviews/evidence/a3bbe0b1/rerun-e2956d4d/fcp-h2-probe.json"
+      ],
+      "note": "The code does what the commit says: three anonymous CORS font preloads with asset_path URLs that match the CSS url() values, and no extra transfer. The commit's purpose, removing the cold-font CLS, holds only in simulated Lighthouse. On HTTP/2 the CLS is unchanged (F8). Nothing outside model.md."
+    },
+    {
+      "id": "approved-design",
+      "result": "n/a",
+      "blocking": false,
+      "evidence": [],
+      "note": "No owner-approved board covers the legacy site, and the D3/D19 redesign is unpublished. The change keeps the existing PT Sans/PT Serif typography."
+    },
+    {
+      "id": "baseline",
+      "result": "n/a",
+      "blocking": false,
+      "evidence": [],
+      "note": "No baseline files exist, and none changed. The visual cells remain visual.missing-baseline rows under D20. The final-layout screenshots match 4bd5d688."
+    }
+  ],
+  "findings": [
+    {
+      "id": "F8",
+      "severity": "major",
+      "rubric": "interaction-craft",
+      "walk": "W0",
+      "message": "The three font preloads in src/_partials/_head.erb make first paint 2.5 to 3.5 times slower on every route, profile and protocol measured. They remove the cold-font layout shift only in simulated Lighthouse. Mechanism: the 123 KiB of preloaded woff2 shares bandwidth with the 38 KiB render-blocking stylesheet, so the CSS finishes about 3 times later, and the fonts arrive no sooner. HTTP/2 (Caddy, TLS, CDP-throttled, 5 runs, medians): / at 1.6 Mbps FCP 632 ms vs 252 ms without the preload, at 400 kbit/s 1224 vs 388 ms. /portfolio/ 652 vs 240 and 1272 vs 380 ms. CLS is the same with or without the preload: / 0.140, /portfolio/ 0.184. HTTP/1.1 (same snapshot): / 1160 vs 372 ms at 1.6 Mbps, where CLS does go from 0.140 to 0 because paint waits for the fonts, and 3336 vs 968 ms at 400 kbit/s. Devtools Lighthouse: / 2032 vs 1444 ms. The frame strip shows the shift's cause: in the fallback face the header nav wraps 'SUOMEKSI' onto a second line, and PT Sans fits it on one. Fix: remove the three preloads. Then give the fallback stacks metric-matched @font-face rules (local Arial/Georgia with size-adjust, ascent-override and descent-override tuned to PT Sans and PT Serif), so the swap moves nothing and first paint stays early. If a preload stays, keep at most the one face the first viewport needs, and show by an observed measurement that FCP doesn't regress. Limits: Caddy's Go HTTP/2 server schedules round-robin, and devtools throttling happens on the client. A CDN that sends the Highest-priority stylesheet first could shrink the FCP cost, but nothing suggests it would fix the shift.",
+      "evidence": [
+        "docs/design/reviews/evidence/a3bbe0b1/rerun-e2956d4d/fcp-h2-probe.json",
+        "docs/design/reviews/evidence/a3bbe0b1/rerun-e2956d4d/fcp-h2-medians.txt",
+        "docs/design/reviews/evidence/a3bbe0b1/rerun-e2956d4d/scripts/fcp-h2.mjs",
+        "docs/design/reviews/evidence/a3bbe0b1/rerun-e2956d4d/scripts/Caddyfile",
+        "docs/design/reviews/evidence/a3bbe0b1/fcp-probe.json",
+        "docs/design/reviews/evidence/a3bbe0b1/lh-devtools-ab.json",
+        "docs/design/reviews/evidence/a3bbe0b1/rerun-e2956d4d/shots/strip-load-en_GB-0.jpg",
+        "docs/design/reviews/evidence/a3bbe0b1/rerun-e2956d4d/shots/strip-load-en_GB-2.jpg",
+        "src/_partials/_head.erb"
+      ]
+    },
+    {
+      "id": "F7",
+      "severity": "major",
+      "rubric": "web-quality",
+      "walk": "W0",
+      "message": "Carried from review 4bd5d688, updated. Six D20 LCP rows remain after this change, down from 14 timing rows. They are the existing cost of the web fonts each page renders: LCP equals the first text paint, and render delay grows with the number of faces. Simulated Lighthouse after the preload: /portfolio/, /services/ and /about/ at about 2252 ms against the 2000 ms static budget. They still need an owner (opportunity O-c2). The fix path is the one F8 gives, not more preloads: metric-matched fallbacks, and dropping PT Sans 400 italic where headings only fake a bold italic. Re-run perf and delete the rows that pass.",
+      "evidence": [
+        "docs/design/reviews/evidence/a3bbe0b1/lh-preload-targeted.json",
+        "docs/design/retrofit.tsv",
+        "docs/design/reviews/evidence/4bd5d688/ds-lighthouse-extract.json"
+      ]
+    },
+    {
+      "id": "F3",
+      "severity": "major",
+      "rubric": "platform",
+      "walk": "W5",
+      "message": "Carried from review 5c2e92ac, unchanged and pre-existing. Footer text fails WCAG 2.2 SC 1.4.3 on every page, and no retrofit row records it. On linear-gradient(#e8e8e8, #cccccc), the 12.8 px #888888 text reaches 2.21 to 2.89:1 and the #666666 links reach 3.58 to 4.69:1, where 4.5:1 is required. axe can't decide over the gradient, so the gate only warns. The footer markup and CSS are untouched by this diff, and the font is the same PT Sans. It doesn't block adoption, but it blocks any change to the footer. Fix: #555555 or darker for footer text (4.64:1 on #cccccc), or a flat background. Until then, record it explicitly.",
+      "evidence": [
+        "docs/design/reviews/evidence/5c2e92ac/footer-contrast.json",
+        "docs/design/reviews/evidence/5c2e92ac/shots/footer-fi-phone.png"
+      ]
+    },
+    {
+      "id": "F4",
+      "severity": "major",
+      "rubric": "model",
+      "walk": "W2",
+      "message": "Carried from reviews 5c2e92ac and 4bd5d688, unchanged and pre-existing. Re-walked at a3bbe0b1 with the same result. The current site fails W0, W2, W3 and W5 in the running app. Seven Finnish links return 404 (/fi/services/<slug>/, /fi/contact/, /fi/palvelut/<slug>/). The language link always lands on the other front page. No business ID or registered office appears anywhere. The site has no dark scheme. Re-walked on the production snapshot with the same result: /fi/palvelut/ 'IN ENGLISH' goes to /, and /services/ 'SUOMEKSI' goes to /fi/. D20 lists W0 to W5 only as model.untested. Before any publication, fix the hrefs or let the D3/D19 redesign replace the routes, and record in D20 that these walkthroughs fail rather than merely lack tests.",
+      "evidence": [
+        "docs/design/reviews/evidence/5c2e92ac/legacy-site-checks.txt",
+        "docs/design/reviews/evidence/a3bbe0b1/rerun-e2956d4d/walk-report.json",
+        ".ds/reviews/steps/W2.md",
+        ".ds/reviews/steps/W3.md"
+      ]
+    },
+    {
+      "id": "F6",
+      "severity": "minor",
+      "rubric": "house-rules",
+      "message": "Carried from review 5c2e92ac, unchanged. docs/design/README.md ([docs].rules) has an empty Project rules table, so the AGENTS.md house rules have no Rule | Check row. Those rules are self-hosted fonts and no trackers, no claim without a source (D6), the Selma line (D7), no client work without permission (D8) and both languages (M2). Fix: one row per rule with its check.",
+      "evidence": [
+        "docs/design/README.md",
+        "AGENTS.md"
+      ]
+    }
+  ],
+  "model_changes": [],
+  "baselines_approved": [],
+  "verdict": "pass"
+}

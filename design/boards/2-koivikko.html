@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Concept 2 · Koivikko</title>
+<link rel="stylesheet" href="board.css">
+<style>
+:root {
+  --text-font: "Hanken Grotesk", system-ui, sans-serif;
+  --display: "Newsreader", Georgia, serif;
+  --paper: #f7f5ef; --ink: #1a1e18; --muted: #565d4d; --rule: #dbd8cd; --accent: #8a4325; --moss: #5e6b57;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --paper: #0f130e; --ink: #e9ebe3; --muted: #a3aa98; --rule: #283026; --accent: #df9068; --moss: #9fae95; }
+}
+.serif { font-family: var(--display); font-optical-sizing: auto; }
+.wm2 { font: 500 1em/1 var(--display); letter-spacing: -.01em; }
+
+.hero { padding-block: clamp(2rem, 5vw, 3.5rem) clamp(3rem, 7vw, 5rem); }
+.hero .lockup { font: 400 clamp(3.25rem, 12vw, 10rem)/.95 var(--display); letter-spacing: -.025em; margin: 0; }
+.hero .lockup em { font-style: italic; font-weight: 300; }
+.hero .idea { font-size: clamp(1.25rem, 2.6vw, 1.75rem); line-height: 1.3; max-width: 34ch; margin: 2rem 0 0; }
+
+/* Fragment: first screen */
+.f2 { display: grid; }
+.f2 nav { display: flex; justify-content: space-between; align-items: baseline; padding: 1.25rem; font-size: .9375rem; gap: 1rem; }
+.f2 nav .wm2 { font-size: 1.5rem; }
+.f2 nav ul { display: none; list-style: none; margin: 0; padding: 0; gap: 1.5rem; }
+.f2 nav .menu { min-height: 44px; display: inline-flex; align-items: center; }
+.f2 .pic { margin: 0; }
+.f2 .pic img { width: 100%; aspect-ratio: 4 / 3.4; object-fit: cover; object-position: 30% 40%; }
+.f2 .pic figcaption { font-size: .75rem; color: var(--muted); padding: .5rem 1.25rem 0; }
+.f2 .text { padding: 1.75rem 1.25rem 1.5rem; }
+.f2 h1 { font: 400 clamp(2rem, 4.6vw, 3.75rem)/1.05 var(--display); letter-spacing: -.02em; margin: 0; max-width: 18ch; }
+.f2 .j { color: var(--muted); font-size: .75rem; margin-top: .5rem; }
+@media (min-width: 900px) {
+  .f2 { grid-template-columns: 1fr 1fr; grid-template-rows: auto 1fr; min-height: 640px; }
+  .f2 nav { grid-column: 1 / -1; padding: 1.75rem 2.5rem; }
+  .f2 nav ul { display: flex; }
+  .f2 nav .menu { display: none; }
+  .f2 .text { grid-column: 1; grid-row: 2; padding: 1rem 2.5rem 2.5rem; display: flex; flex-direction: column; gap: 2.5rem; }
+  .f2 .pic { grid-column: 2; grid-row: 2; padding: 0 2.5rem 2.5rem 0; }
+  .f2 .pic img { aspect-ratio: auto; height: 100%; max-height: 560px; }
+  .f2 .pic figcaption { padding-inline: 0; }
+}
+.work2 { list-style: none; margin: 1.75rem 0 0; padding: 0; }
+@media (min-width: 900px) { .work2 { margin: 0; } }
+.work2 li { padding: .8rem 0; border-top: 1px solid var(--rule); display: grid; grid-template-columns: 1fr auto; gap: .15rem 1rem; }
+.work2 li:last-child { border-bottom: 1px solid var(--rule); }
+.work2 .n { font: 500 1.1875rem/1.2 var(--display); }
+.work2 .d { color: var(--muted); font-size: .9375rem; grid-column: 1 / -1; }
+.work2 .s { font-size: .8125rem; color: var(--moss); align-self: baseline; }
+.work2 .s::before { content: "● "; font-size: .6em; vertical-align: .2em; }
+.work2 .s.dev::before { content: "○ "; }
+.reg2 { font-size: .8125rem; color: var(--muted); display: flex; flex-wrap: wrap; gap: .35rem 1.25rem; padding: 1rem 1.25rem 1.25rem; border-top: 1px solid var(--rule); font-variant-numeric: tabular-nums; }
+@media (min-width: 900px) { .reg2 { grid-column: 1 / -1; padding-inline: 2.5rem; } }
+.reg2 b { color: var(--ink); font-weight: 600; }
+
+.spec-big { font: 300 clamp(2.5rem, 7vw, 5.5rem)/1 var(--display); letter-spacing: -.03em; margin: 0 0 1.5rem; }
+.spec-big em { font-weight: 400; }
+.spec-row { display: grid; grid-template-columns: 1fr; gap: 1rem; padding: .9rem 0; border-top: 1px solid var(--rule); align-items: baseline; }
+.spec-row span { font-size: .75rem; color: var(--muted); }
+@media (min-width: 700px) { .spec-row { grid-template-columns: 9rem 1fr; } }
+
+.seasons { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
+@media (min-width: 700px) { .seasons { grid-template-columns: repeat(4, 1fr); } }
+.season { margin: 0; }
+.season .ph { aspect-ratio: 3 / 4; display: grid; place-items: center; border: 1px dashed var(--rule); color: var(--muted); font-size: .8125rem; text-align: center; padding: 1rem; }
+.season img { aspect-ratio: 3 / 4; object-fit: cover; width: 100%; }
+.season figcaption { font-size: .75rem; color: var(--muted); margin-top: .5rem; }
+
+.spine { display: grid; grid-template-columns: 72px 1fr; gap: 1.5rem; align-items: stretch; }
+.spine img { width: 72px; height: 420px; object-fit: cover; object-position: center 70%; }
+.spine h3 { font: 400 clamp(1.75rem, 4vw, 2.75rem)/1.05 var(--display); margin: 0 0 .75rem; letter-spacing: -.02em; }
+
+.fadein { opacity: 0; animation: fade 600ms ease-out 100ms forwards; }
+@keyframes fade { to { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .fadein { animation: none; opacity: 1; } }
+</style>
+</head>
+<body>
+<div class="wrap board-head"><a href="1-tuohi.html">← Concept 1</a><span>Koivupiilo · phase 3 · concept 2 of 2</span></div>
+
+<header class="hero wrap">
+  <p class="label">Concept 2 · Koivikko (the grove)</p>
+  <h1 class="lockup">Koivu<em>piilo</em></h1>
+  <p class="idea">The place leads. Your grove, in this season’s photo, opens the site, set in a calm editorial serif. The birch is shown, not drawn. It reads as a careful Finnish company with somewhere real behind it.</p>
+</header>
+
+<section class="b"><div class="wrap cols">
+  <div class="c5"><h2>Why it fits the job</h2>
+    <div class="note"><p>A club chair or a treasurer gets warmth and a sense of place before they read a word, and the facts are still a scroll away, in the same register strip as concept 1.</p><p>The photo changes with the season in Kangasala (positioning rule 3): it’s one quiet, ownable detail, and visitors who come back notice it.</p></div></div>
+  <div class="c7"><ul class="plain note">
+    <li><b>Place as proof.</b> “Koivupiilo, Kangasala” is visible, not just stated in the footer.</li>
+    <li><b>Serif for the company’s voice,</b> grotesk for facts and UI. The split makes the third-person voice (D16) feel composed, not corporate.</li>
+    <li><b>Depends on photos.</b> It needs four approved photos of the same grove, one per season, with no house and no people.</li>
+  </ul></div>
+</div></section>
+
+<section class="b"><div class="wrap">
+  <h2>Fragment: the first screen</h2>
+  <div class="frag f2">
+    <nav aria-label="Päävalikko"><span class="wm2">Koivupiilo</span>
+      <ul><li><a href="#">Työt</a></li><li><a href="#">Studio</a></li><li><a href="#">Valmennus</a></li><li><a href="#">Yritys</a></li><li><a href="#" lang="en">English</a></li></ul>
+      <a class="menu" href="#">Valikko</a></nav>
+    <figure class="pic"><img class="fadein" src="/assets/photos/birch-grove-900.jpg" alt="Koivikko syyskuussa: valkoisia runkoja ja keltaisia lehtiä." width="900" height="1367"><figcaption>Koivupiilo, syyskuu</figcaption></figure>
+    <div class="text">
+      <div><h1>Koivupiilo tekee ohjelmistoja urheiluseuroille ja pienyrityksille.</h1>
+      <p class="j">Placeholder for the one sentence (strategy §3.1).</p></div>
+      <ul class="work2" aria-label="Työt">
+        <li><span class="n">Kvitti</span><span class="s">pilotissa</span><span class="d">Kulukorvaukset yhdistyksille ja pienyrityksille.</span></li>
+        <li><span class="n">Beach volley -kartta</span><span class="s">käytössä</span><span class="d">Pohjoismaiden ja Baltian hallit ja kentät samalla kartalla.</span></li>
+        <li><span class="n">Magistician</span><span class="s dev">kehitteillä</span><span class="d">Ottelun videosta kosketuskohtaiset tilastot ja klipit.</span></li>
+        <li><span class="n">Hyppymittaus</span><span class="s dev">kehitteillä</span><span class="d">Hyppykorkeus iPhonella, verkon antenni mittana.</span></li>
+      </ul>
+    </div>
+    <p class="reg2"><b>Koivupiilo Oy</b><span>Y-tunnus 3458206-1</span><span>Kangasala</span><span>[sähköposti]</span></p>
+  </div>
+  <p class="frag-cap">On phones the photo comes first, under the name. On desktop it sits beside the sentence. Status is a word plus a filled or open dot.</p>
+</div></section>
+
+<section class="b"><div class="wrap cols">
+  <div class="c12"><h2>Type</h2></div>
+  <div class="c8">
+    <p class="spec-big serif">Kuitit, kilometrit <em>ja</em> päivärahat.</p>
+    <div class="spec-row"><span>Display, Newsreader 400</span><div class="serif" style="font-size:2rem;line-height:1.1;letter-spacing:-.015em">Ohjelmistoja seuroille ja pienyrityksille</div></div>
+    <div class="spec-row"><span>Story, Newsreader 400</span><div class="serif" style="font-size:1.25rem;max-width:52ch;line-height:1.45">Koivupiilo on koivikko Kangasalla. Paikalle antoivat nimen lapset, ja myöhemmin siihen rakennettiin talo. Yritys sai nimensä samasta paikasta.</div></div>
+    <div class="spec-row"><span>UI and facts, Hanken 500</span><div style="font-size:.8125rem;font-weight:500;font-variant-numeric:tabular-nums">Y-tunnus 3458206-1 · Perustettu 2024 · Kangasala</div></div>
+  </div>
+  <div class="c4 note"><p><b>Newsreader</b> (OFL, optical sizes 6–72, with italics) for headings and the story. <b>Hanken Grotesk</b> for navigation, lists and facts.</p><p>Newsreader’s optical sizing keeps the big sizes sharp and the small ones sturdy. The italic gives the wordmark its one accent: <span class="serif">Koivu<em>piilo</em></span>.</p><p>Paid alternative for the bundled proposal: a Nordic text serif with more character, for the display sizes only.</p></div>
+</div></section>
+
+<section class="b"><div class="wrap cols">
+  <div class="c12"><h2>Colour, from the photo</h2></div>
+  <div class="c8"><div class="swatches">
+    <div class="sw"><i style="--l:#f7f5ef;--d:#0f130e"></i><b>Birch white</b>paper #F7F5EF<span class="dk">dark: #0F130E</span></div>
+    <div class="sw"><i style="--l:#1a1e18;--d:#e9ebe3"></i><b>Ink</b>#1A1E18 · 15.5:1<span class="dk">dark: #E9EBE3 · 15.6:1</span></div>
+    <div class="sw"><i style="--l:#5e6b57;--d:#9fae95"></i><b>Lichen</b>#5E6B57 · 5.2:1, status<span class="dk">dark: #9FAE95 · 8.0:1</span></div>
+    <div class="sw"><i style="--l:#8a4325;--d:#df9068"></i><b>Leaf litter</b>#8A4325 · 6.6:1, focus<span class="dk">dark: #DF9068 · 7.4:1</span></div>
+  </div></div>
+  <div class="c4 note"><p>Taken from the September photo: the bark’s white, the lichen’s grey-green and the rust of the fallen leaves. Dark mode is the grove at dusk. Left half light, right half dark; ratios are text on paper, AA in both.</p><p>Option: the accent follows the season (rust in autumn, blue-grey in winter, fresh green in spring), still one colour at a time. Decide once all four photos exist.</p></div>
+</div></section>
+
+<section class="b"><div class="wrap cols">
+  <div class="c12"><h2>The bark element: the photo is the pattern</h2></div>
+  <div class="c6"><div class="spine"><img src="/assets/photos/birch-trunk.jpg" alt="" width="145" height="3264"><div><h3>Studio</h3><p class="note">Every inner page opens with a narrow crop of one trunk from the grove beside its heading. It’s a different trunk on each page, so the site is literally a walk through the same grove.</p></div></div></div>
+  <div class="c6 note"><p>There’s no drawn pattern. The trunk shows up as photography only: the full grove on the front page, single trunks as page spines, and the bark itself, full-bleed, behind the 404.</p><p>That needs six trunk crops from your library (same grove, any year). The trunk on the left is the one we have (2013).</p></div>
+</div></section>
+
+<section class="b"><div class="wrap cols">
+  <div class="c12"><h2>The season</h2></div>
+  <div class="c12"><div class="seasons">
+    <figure class="season"><div class="ph">Talvi<br>needed</div><figcaption>joulu–helmi</figcaption></figure>
+    <figure class="season"><div class="ph">Kevät<br>needed</div><figcaption>maalis–touko</figcaption></figure>
+    <figure class="season"><div class="ph">Kesä<br>needed</div><figcaption>kesä–elo</figcaption></figure>
+    <figure class="season"><img src="/assets/photos/birch-grove-900.jpg" alt="Koivikko syyskuussa." width="900" height="1367"><figcaption>Syksy: IMG_1327, syyskuu 2013</figcaption></figure>
+  </div></div>
+  <div class="c7 note"><p>The photo is picked at build time from the month in Kangasala. It needs no script, and a rebuild on the first of each season is enough. Every photo shows the same viewpoint if possible, with no house, no children and no coordinates in the published file.</p></div>
+</div></section>
+
+<section class="b"><div class="wrap cols">
+  <div class="c12"><h2>Motion</h2></div>
+  <div class="c12"><ul class="plain note">
+    <li><b>The photo arrives.</b> The front-page photo fades in from the paper colour: 600 ms, ease-out. Purpose: no hard pop on slow connections. It doesn’t move after that.</li>
+    <li><b>Links:</b> underline thickness 1 → 2 px, 120 ms.</li>
+    <li><b>Nothing else.</b> No scroll reveals, no parallax on the photo (tempting, and banned), no autoplaying seasons.</li>
+    <li><b>Reduced motion:</b> the photo is simply there.</li>
+  </ul></div>
+</div></section>
+
+<section class="b"><div class="wrap cols">
+  <div class="c12"><h2>References, at the bar</h2></div>
+  <div class="c12"><ul class="plain note">
+    <li><b>Koto</b>: warmth carried by one real thing and generous space. We take the restraint around the photo.</li>
+    <li><b>Werklig</b>: exactness in the details. The register strip, the list rules and the type scale are as strict as in concept 1.</li>
+    <li><b>Panic</b>: the one sentence. Here it’s in a serif, beside the grove.</li>
+  </ul></div>
+</div></section>
+
+<section class="b"><div class="wrap cols">
+  <div class="c5"><h2>Weak at</h2></div>
+  <div class="c7"><ul class="plain note">
+    <li><b>Photo-dependent.</b> It needs four season photos and six trunks, all approved, before launch. Until then it’s half a concept.</li>
+    <li><b>No mark.</b> The wordmark is just set type. Product footers and the App Store get a name, not a symbol.</li>
+    <li><b>Closer to “lifestyle”.</b> A photo-led serif site can read as a cottage or a café. The register strip and the work list have to hold it to “company”.</li>
+  </ul></div>
+</div></section>
+
+<div class="wrap board-foot">Built from the signed strategy (D19). Fonts are self-hosted OFL; nothing is loaded from third parties. The photos are spike-only until you OK them.</div>
+</body>
+</html>

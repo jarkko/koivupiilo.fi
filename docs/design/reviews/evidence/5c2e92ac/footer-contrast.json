@@ -1,0 +1,28 @@
+{
+ "source": "Computed styles of footer on /fi/ (every page shares src/_partials footer and frontend/styles/index.css; neither changed in this diff). Background is linear-gradient(#e8e8e8, #cccccc); sampled pixels 232..204. Text is 12.8 px, weight 400, so WCAG 2.2 SC 1.4.3 needs 4.5:1.",
+ "pairs": [
+  {
+   "element": "footer p (separators, copyright)",
+   "fg": "#888888",
+   "bg_top": "#e8e8e8",
+   "ratio_top": 2.89,
+   "bg_bottom": "#cccccc",
+   "ratio_bottom": 2.21
+  },
+  {
+   "element": "footer a (email, LinkedIn, GitHub)",
+   "fg": "#666666",
+   "bg_top": "#e8e8e8",
+   "ratio_top": 4.69,
+   "bg_bottom": "#cccccc",
+   "ratio_bottom": 3.58
+  },
+  {
+   "element": "suggested fix: footer text #555555",
+   "fg": "#555555",
+   "bg_bottom": "#cccccc",
+   "ratio_bottom": 4.64
+  }
+ ],
+ "gate": "/tmp/kit-adopt-font-gate.json reports these as a11y.color-contrast warn ('axe couldn't decide ... background gradient. Check it by hand') on all 17 routes; retrofit.tsv has no footer row."
+}

@@ -1,0 +1,53 @@
+[
+ {
+  "probe": "none",
+  "text": null,
+  "initial_requests": [
+   "pt-sans-latin-700-normal",
+   "pt-sans-latin-400-normal",
+   "pt-serif-latin-400-normal"
+  ],
+  "added_requests": [],
+  "platform_fonts": null
+ },
+ {
+  "probe": "latin-ext",
+  "text": "Šakki, Łódź, Ő, Ž",
+  "initial_requests": [
+   "pt-sans-latin-700-normal",
+   "pt-sans-latin-400-normal",
+   "pt-serif-latin-400-normal"
+  ],
+  "added_requests": [
+   "pt-serif-latin-ext-400-normal"
+  ],
+  "platform_fonts": [
+   {
+    "familyName": "PT Serif",
+    "postScriptName": "PTSerif-Regular",
+    "isCustomFont": true,
+    "glyphCount": 17
+   }
+  ]
+ },
+ {
+  "probe": "cyrillic",
+  "text": "Привет",
+  "initial_requests": [
+   "pt-sans-latin-700-normal",
+   "pt-sans-latin-400-normal",
+   "pt-serif-latin-400-normal"
+  ],
+  "added_requests": [
+   "pt-serif-cyrillic-400-normal"
+  ],
+  "platform_fonts": [
+   {
+    "familyName": "PT Serif",
+    "postScriptName": "PTSerif-Regular",
+    "isCustomFont": true,
+    "glyphCount": 6
+   }
+  ]
+ }
+]

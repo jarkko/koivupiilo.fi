@@ -1,0 +1,16 @@
+# Company facts, verified from the trade register (YTJ open data, 2026-11-01).
+# Every page reads them from here; change a fact once.
+name: Koivupiilo
+legal_name: Koivupiilo Oy
+business_id: "3458206-1"
+ytj_url: https://tietopalvelu.ytj.fi/yritys/3458206-1
+city: Kangasala
+# The street address is shown only on /yritys/ and /en/company/ (D18).
+street: Sopentie
+postal_code: "36200"
+founded_year: 2024
+registered: 2024-06-26
+founder: Jarkko Laine
+# The public contact address. Interim: change it here when the company address exists.
+email: jarkko@koivupiilo.fi
+url: https://koivupiilo.fi

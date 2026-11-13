@@ -1,0 +1,602 @@
+[
+ {
+  "route": "/",
+  "profile": "400kbps-150ms",
+  "variant": "preload",
+  "median": {
+   "fcp": 3336,
+   "lcp": 3336,
+   "cls": 0.1403,
+   "css_done": 3317,
+   "last_font_done": 3697
+  },
+  "max_cls": 0.1403,
+  "runs": [
+   {
+    "fcp": 3340,
+    "lcp": 3340,
+    "cls": 0.1403,
+    "css_done": 3313,
+    "last_font_done": 3697
+   },
+   {
+    "fcp": 3332,
+    "lcp": 3332,
+    "cls": 0.1403,
+    "css_done": 3317,
+    "last_font_done": 3695
+   },
+   {
+    "fcp": 3336,
+    "lcp": 3336,
+    "cls": 0.1403,
+    "css_done": 3319,
+    "last_font_done": 3698
+   },
+   {
+    "fcp": 3328,
+    "lcp": 3328,
+    "cls": 0.1403,
+    "css_done": 3314,
+    "last_font_done": 3697
+   },
+   {
+    "fcp": 3356,
+    "lcp": 3356,
+    "cls": 0.1403,
+    "css_done": 3340,
+    "last_font_done": 3700
+   }
+  ]
+ },
+ {
+  "route": "/",
+  "profile": "400kbps-150ms",
+  "variant": "no-preload",
+  "median": {
+   "fcp": 968,
+   "lcp": 968,
+   "cls": 0.1403,
+   "css_done": 945,
+   "last_font_done": 3611
+  },
+  "max_cls": 0.1403,
+  "runs": [
+   {
+    "fcp": 1100,
+    "lcp": 1100,
+    "cls": 0.1403,
+    "css_done": 1082,
+    "last_font_done": 3755
+   },
+   {
+    "fcp": 968,
+    "lcp": 968,
+    "cls": 0.1403,
+    "css_done": 945,
+    "last_font_done": 3608
+   },
+   {
+    "fcp": 968,
+    "lcp": 968,
+    "cls": 0.1403,
+    "css_done": 944,
+    "last_font_done": 3611
+   },
+   {
+    "fcp": 960,
+    "lcp": 960,
+    "cls": 0.1403,
+    "css_done": 943,
+    "last_font_done": 3605
+   },
+   {
+    "fcp": 964,
+    "lcp": 964,
+    "cls": 0.1403,
+    "css_done": 946,
+    "last_font_done": 3611
+   }
+  ]
+ },
+ {
+  "route": "/",
+  "profile": "1.6Mbps-150ms",
+  "variant": "preload",
+  "median": {
+   "fcp": 1160,
+   "lcp": 1160,
+   "cls": 0,
+   "css_done": 1052,
+   "last_font_done": 1146
+  },
+  "max_cls": 0,
+  "runs": [
+   {
+    "fcp": 1160,
+    "lcp": 1160,
+    "cls": 0,
+    "css_done": 1052,
+    "last_font_done": 1147
+   },
+   {
+    "fcp": 1272,
+    "lcp": 1272,
+    "cls": 0,
+    "css_done": 1167,
+    "last_font_done": 1258
+   },
+   {
+    "fcp": 1152,
+    "lcp": 1152,
+    "cls": 0,
+    "css_done": 1052,
+    "last_font_done": 1138
+   },
+   {
+    "fcp": 1156,
+    "lcp": 1156,
+    "cls": 0,
+    "css_done": 1053,
+    "last_font_done": 1145
+   },
+   {
+    "fcp": 1160,
+    "lcp": 1160,
+    "cls": 0,
+    "css_done": 1051,
+    "last_font_done": 1146
+   }
+  ]
+ },
+ {
+  "route": "/",
+  "profile": "1.6Mbps-150ms",
+  "variant": "no-preload",
+  "median": {
+   "fcp": 372,
+   "lcp": 372,
+   "cls": 0.1403,
+   "css_done": 359,
+   "last_font_done": 1123
+  },
+  "max_cls": 0.1403,
+  "runs": [
+   {
+    "fcp": 368,
+    "lcp": 368,
+    "cls": 0.1403,
+    "css_done": 352,
+    "last_font_done": 1122
+   },
+   {
+    "fcp": 368,
+    "lcp": 368,
+    "cls": 0.1403,
+    "css_done": 350,
+    "last_font_done": 1122
+   },
+   {
+    "fcp": 376,
+    "lcp": 376,
+    "cls": 0.1403,
+    "css_done": 359,
+    "last_font_done": 1130
+   },
+   {
+    "fcp": 372,
+    "lcp": 372,
+    "cls": 0.1403,
+    "css_done": 359,
+    "last_font_done": 1123
+   },
+   {
+    "fcp": 392,
+    "lcp": 392,
+    "cls": 0.1403,
+    "css_done": 364,
+    "last_font_done": 1136
+   }
+  ]
+ },
+ {
+  "route": "/fi/",
+  "profile": "400kbps-150ms",
+  "variant": "preload",
+  "median": {
+   "fcp": 3328,
+   "lcp": 3328,
+   "cls": 0.0009,
+   "css_done": 3313,
+   "last_font_done": 3697
+  },
+  "max_cls": 0.0009,
+  "runs": [
+   {
+    "fcp": 3328,
+    "lcp": 3328,
+    "cls": 0.0009,
+    "css_done": 3313,
+    "last_font_done": 3697
+   },
+   {
+    "fcp": 3324,
+    "lcp": 3324,
+    "cls": 0.0009,
+    "css_done": 3311,
+    "last_font_done": 3700
+   },
+   {
+    "fcp": 3364,
+    "lcp": 3364,
+    "cls": 0.0009,
+    "css_done": 3348,
+    "last_font_done": 3699
+   },
+   {
+    "fcp": 3332,
+    "lcp": 3332,
+    "cls": 0.0009,
+    "css_done": 3318,
+    "last_font_done": 3695
+   },
+   {
+    "fcp": 3328,
+    "lcp": 3328,
+    "cls": 0.0009,
+    "css_done": 3311,
+    "last_font_done": 3695
+   }
+  ]
+ },
+ {
+  "route": "/fi/",
+  "profile": "400kbps-150ms",
+  "variant": "no-preload",
+  "median": {
+   "fcp": 960,
+   "lcp": 960,
+   "cls": 0.0009,
+   "css_done": 946,
+   "last_font_done": 3610
+  },
+  "max_cls": 0.0009,
+  "runs": [
+   {
+    "fcp": 960,
+    "lcp": 960,
+    "cls": 0.0009,
+    "css_done": 946,
+    "last_font_done": 3610
+   },
+   {
+    "fcp": 988,
+    "lcp": 988,
+    "cls": 0.0009,
+    "css_done": 972,
+    "last_font_done": 3640
+   },
+   {
+    "fcp": 988,
+    "lcp": 988,
+    "cls": 0.0009,
+    "css_done": 971,
+    "last_font_done": 3637
+   },
+   {
+    "fcp": 960,
+    "lcp": 960,
+    "cls": 0.0009,
+    "css_done": 943,
+    "last_font_done": 3608
+   },
+   {
+    "fcp": 960,
+    "lcp": 960,
+    "cls": 0.0009,
+    "css_done": 943,
+    "last_font_done": 3609
+   }
+  ]
+ },
+ {
+  "route": "/fi/",
+  "profile": "1.6Mbps-150ms",
+  "variant": "preload",
+  "median": {
+   "fcp": 1156,
+   "lcp": 1156,
+   "cls": 0,
+   "css_done": 1051,
+   "last_font_done": 1144
+  },
+  "max_cls": 0,
+  "runs": [
+   {
+    "fcp": 1152,
+    "lcp": 1152,
+    "cls": 0,
+    "css_done": 1052,
+    "last_font_done": 1138
+   },
+   {
+    "fcp": 1156,
+    "lcp": 1156,
+    "cls": 0,
+    "css_done": 1051,
+    "last_font_done": 1145
+   },
+   {
+    "fcp": 1156,
+    "lcp": 1156,
+    "cls": 0,
+    "css_done": 1051,
+    "last_font_done": 1144
+   },
+   {
+    "fcp": 1152,
+    "lcp": 1152,
+    "cls": 0,
+    "css_done": 1045,
+    "last_font_done": 1139
+   },
+   {
+    "fcp": 1180,
+    "lcp": 1180,
+    "cls": 0,
+    "css_done": 1053,
+    "last_font_done": 1144
+   }
+  ]
+ },
+ {
+  "route": "/fi/",
+  "profile": "1.6Mbps-150ms",
+  "variant": "no-preload",
+  "median": {
+   "fcp": 376,
+   "lcp": 376,
+   "cls": 0.0009,
+   "css_done": 359,
+   "last_font_done": 1130
+  },
+  "max_cls": 0.0009,
+  "runs": [
+   {
+    "fcp": 372,
+    "lcp": 372,
+    "cls": 0.0009,
+    "css_done": 359,
+    "last_font_done": 1132
+   },
+   {
+    "fcp": 372,
+    "lcp": 372,
+    "cls": 0.0009,
+    "css_done": 351,
+    "last_font_done": 1123
+   },
+   {
+    "fcp": 376,
+    "lcp": 376,
+    "cls": 0.0009,
+    "css_done": 357,
+    "last_font_done": 1130
+   },
+   {
+    "fcp": 376,
+    "lcp": 376,
+    "cls": 0.0009,
+    "css_done": 359,
+    "last_font_done": 1138
+   },
+   {
+    "fcp": 376,
+    "lcp": 376,
+    "cls": 0.0009,
+    "css_done": 359,
+    "last_font_done": 1130
+   }
+  ]
+ },
+ {
+  "route": "/portfolio/",
+  "profile": "400kbps-150ms",
+  "variant": "preload",
+  "median": {
+   "fcp": 3400,
+   "lcp": 3400,
+   "cls": 0.1839,
+   "css_done": 3375,
+   "last_font_done": 4341
+  },
+  "max_cls": 0.1839,
+  "runs": [
+   {
+    "fcp": 3396,
+    "lcp": 3396,
+    "cls": 0.1839,
+    "css_done": 3373,
+    "last_font_done": 4344
+   },
+   {
+    "fcp": 3456,
+    "lcp": 3456,
+    "cls": 0.1839,
+    "css_done": 3436,
+    "last_font_done": 4341
+   },
+   {
+    "fcp": 3392,
+    "lcp": 3392,
+    "cls": 0.1839,
+    "css_done": 3374,
+    "last_font_done": 4339
+   },
+   {
+    "fcp": 3420,
+    "lcp": 3420,
+    "cls": 0.1839,
+    "css_done": 3400,
+    "last_font_done": 4339
+   },
+   {
+    "fcp": 3400,
+    "lcp": 3400,
+    "cls": 0.1839,
+    "css_done": 3375,
+    "last_font_done": 4345
+   }
+  ]
+ },
+ {
+  "route": "/portfolio/",
+  "profile": "400kbps-150ms",
+  "variant": "no-preload",
+  "median": {
+   "fcp": 964,
+   "lcp": 964,
+   "cls": 0.1838,
+   "css_done": 945,
+   "last_font_done": 4199
+  },
+  "max_cls": 0.1838,
+  "runs": [
+   {
+    "fcp": 992,
+    "lcp": 992,
+    "cls": 0.1838,
+    "css_done": 972,
+    "last_font_done": 4221
+   },
+   {
+    "fcp": 964,
+    "lcp": 964,
+    "cls": 0.1838,
+    "css_done": 946,
+    "last_font_done": 4341
+   },
+   {
+    "fcp": 980,
+    "lcp": 980,
+    "cls": 0.1838,
+    "css_done": 942,
+    "last_font_done": 4197
+   },
+   {
+    "fcp": 964,
+    "lcp": 964,
+    "cls": 0.1838,
+    "css_done": 945,
+    "last_font_done": 4196
+   },
+   {
+    "fcp": 960,
+    "lcp": 960,
+    "cls": 0.1838,
+    "css_done": 939,
+    "last_font_done": 4199
+   }
+  ]
+ },
+ {
+  "route": "/portfolio/",
+  "profile": "1.6Mbps-150ms",
+  "variant": "preload",
+  "median": {
+   "fcp": 1164,
+   "lcp": 1164,
+   "cls": 0.0031,
+   "css_done": 1052,
+   "last_font_done": 1353
+  },
+  "max_cls": 0.0031,
+  "runs": [
+   {
+    "fcp": 1164,
+    "lcp": 1164,
+    "cls": 0.0031,
+    "css_done": 1051,
+    "last_font_done": 1352
+   },
+   {
+    "fcp": 1160,
+    "lcp": 1160,
+    "cls": 0.0031,
+    "css_done": 1053,
+    "last_font_done": 1354
+   },
+   {
+    "fcp": 1160,
+    "lcp": 1160,
+    "cls": 0.0031,
+    "css_done": 1061,
+    "last_font_done": 1368
+   },
+   {
+    "fcp": 1164,
+    "lcp": 1164,
+    "cls": 0.0031,
+    "css_done": 1052,
+    "last_font_done": 1353
+   },
+   {
+    "fcp": 1176,
+    "lcp": 1176,
+    "cls": 0.0031,
+    "css_done": 1045,
+    "last_font_done": 1353
+   }
+  ]
+ },
+ {
+  "route": "/portfolio/",
+  "profile": "1.6Mbps-150ms",
+  "variant": "no-preload",
+  "median": {
+   "fcp": 372,
+   "lcp": 372,
+   "cls": 0.1838,
+   "css_done": 352,
+   "last_font_done": 1267
+  },
+  "max_cls": 0.1838,
+  "runs": [
+   {
+    "fcp": 380,
+    "lcp": 380,
+    "cls": 0.1838,
+    "css_done": 360,
+    "last_font_done": 1273
+   },
+   {
+    "fcp": 372,
+    "lcp": 372,
+    "cls": 0.1838,
+    "css_done": 351,
+    "last_font_done": 1265
+   },
+   {
+    "fcp": 372,
+    "lcp": 372,
+    "cls": 0.1838,
+    "css_done": 352,
+    "last_font_done": 1267
+   },
+   {
+    "fcp": 396,
+    "lcp": 396,
+    "cls": 0.1838,
+    "css_done": 359,
+    "last_font_done": 1273
+   },
+   {
+    "fcp": 372,
+    "lcp": 372,
+    "cls": 0.1838,
+    "css_done": 350,
+    "last_font_done": 1267
+   }
+  ]
+ }
+]

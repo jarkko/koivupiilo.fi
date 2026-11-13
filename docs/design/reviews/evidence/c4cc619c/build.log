@@ -1,0 +1,28 @@
+npm run esbuild
+           Cleaner: Removing /Users/jarkko/Sites/koivupiilo.fi-launch/output...
+           Cleaner: Nothing to do for /Users/jarkko/Sites/koivupiilo.fi-launch/.bridgetown-metadata.
+           Cleaner: Removing /Users/jarkko/Sites/koivupiilo.fi-launch/.bridgetown-cache...
+           Cleaner: Nothing to do for /Users/jarkko/Sites/koivupiilo.fi-launch/.bridgetown-cache/frontend-bundling.
+npm warn Unknown user config "14.18". This will stop working in the next major version of npm.
+
+> koivupiilo.fi@1.0.0 esbuild
+> node esbuild.config.js --minify
+
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+esbuild: frontend bundling started...
+Browserslist: browsers data (caniuse-lite) is 12 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+esbuild: frontend bundling complete!
+esbuild: entrypoints processed:
+         - index.FWV7EXXZ.js: 75B
+         - index.A34VJ73L.css: 13.23KB
+          Starting: Bridgetown v[35m2.0.3[0m (codename "[33mRiver City[0m")
+       Environment: [36mproduction[0m
+            Source: /Users/jarkko/Sites/koivupiilo.fi-launch/src
+       Destination: /Users/jarkko/Sites/koivupiilo.fi-launch/output
+    Custom Plugins: /Users/jarkko/Sites/koivupiilo.fi-launch/plugins
+        Generating… 
+        Pagination: disabled. Enable in site config with pagination:\n enabled: true
+            Done! 🎉 [32m[1mCompleted[0m[0m in less than 0.3 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.

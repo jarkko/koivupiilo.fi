@@ -1,0 +1,4 @@
+id	fi	en	definition	forbid	note
+# One row per term: its id, the term in each language, a definition that cites the model (M, W, D ids), a forbid pattern for wording a decision superseded, and a note.
+# A line that starts with # is a comment, and ds skips it. The row below is an example: copy it without the leading "# " to make a row of your own, then delete it.
+# tick	ruksata	tick	Mark an item as bought. Lifecycle: M2.	\bbought items (disappear|vanish)\b|\bremoved? (when|once) bought\b|ostetut (katoavat|poistuvat)	Superseded wording from D4. The forbid regex is case-insensitive RE2 syntax (no lookaround or backreferences) and scans docs, UI strings and identifiers; model.md Decisions and this file are exempt. Keep it narrow: a pattern that flags ordinary prose gets ignored.

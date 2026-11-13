@@ -1,0 +1,66 @@
+{
+  "kind": "critique",
+  "ui_diff_hash": "5c2e92ac1c575035ac674c56a631cc5ca69f3eca2457fb9cc2748721641793b2",
+  "head_sha": "23c87e83f0a6199fef86cf07a8ed760e26b8bb49",
+  "reviewer_run_id": "term_604d97e0-a309-4d64-a020-ebd326ef060d",
+  "implementer_family": "codex",
+  "reviewer_family": "claude",
+  "critique": {
+    "remove": [
+      {
+        "flow": "W0",
+        "grade": "practitioner consensus",
+        "point": "Remove the six latin-ext font downloads from every page. No current page uses a character in the latin-ext range, yet each first arrival fetches all 12 faces (200 to 315 KiB). Gated by unicode-range, latin-ext still covers a future 'š' or 'Ł' and costs nothing until one appears. The first arrival gains about half its font bytes and 600 to 750 ms of LCP on slow mobile.",
+        "evidence": [
+          "docs/design/reviews/evidence/5c2e92ac/lh-compare.txt",
+          "docs/design/reviews/evidence/5c2e92ac/font-face-rules.txt",
+          "docs/design/reviews/evidence/5c2e92ac/walk-report.json"
+        ]
+      }
+    ],
+    "two_x": [
+      {
+        "flow": "W0",
+        "grade": "practitioner consensus",
+        "point": "Make the first paint the final type. After fixing unicode-range (defect F1), preload the two faces the first viewport uses (PT Serif 400 latin for the lead, PT Sans 700 latin for the header and labels). Add metric-matched fallbacks (Georgia and Arial with size-adjust and ascent/descent-override) so the swap moves nothing. W0's job is to read what Koivupiilo is in one sentence on a phone. Today that sentence paints in Georgia, then swaps to PT Serif once the fonts arrive after the CSS. With both changes it paints once, in PT Serif, roughly twice as fast to the trust moment on slow links. Strongest counter-argument: preload competes with the CSS on slow links, and fixing unicode-range alone gets most of the LCP gain. The reviewer's preload probe cut font-swap CLS only modestly (/portfolio/ 0.195 to 0.181, raw throttled Playwright, where most measured shift was not font-related). Measure before keeping preload.",
+        "evidence": [
+          "docs/design/reviews/evidence/5c2e92ac/shots/strip-load-en_GB-0.jpg",
+          "docs/design/reviews/evidence/5c2e92ac/shots/strip-load-en_GB-2.jpg",
+          "docs/design/reviews/evidence/5c2e92ac/cls-probe.json",
+          "docs/design/reviews/evidence/5c2e92ac/lh-compare.txt"
+        ]
+      }
+    ],
+    "short_of_references": [
+      {
+        "flow": "W0",
+        "grade": "practitioner consensus",
+        "reference": "docs/design/references.md, First 10 s: CSS Wizardry (research/teardown-2026-10-31.md: system-ui body, a New York/Charter serif stack, 'fast by design')",
+        "point": "CSS Wizardry sets its first screen in system faces, so the H1 paints without a web-font request. Ours requests 6 to 10 woff2 files before the lead sentence reaches its final face. Beating CSS Wizardry at the first 10 seconds needs at most two preloaded faces on the first screen.",
+        "evidence": [
+          "docs/design/reviews/evidence/5c2e92ac/walk-report.json",
+          "docs/design/reviews/evidence/5c2e92ac/ds-lighthouse-extract.json"
+        ]
+      },
+      {
+        "flow": "W0",
+        "grade": "practitioner consensus",
+        "reference": "kit references/awards/saas-product.md#stripe-dot-dev",
+        "point": "Stripe Dot Dev ships one display and one mono family as self-hosted woff2 and scores Lighthouse mobile LCP 0.9 s, CLS 0.001. Our self-hosted PT pair scores LCP 2.1 to 3.5 s in the ds runs with 6 to 10 font files. The gap is in how the faces load, not in type choice.",
+        "evidence": [
+          "docs/design/reviews/evidence/5c2e92ac/ds-lighthouse-extract.json",
+          "docs/design/reviews/evidence/5c2e92ac/lh-compare.txt"
+        ]
+      },
+      {
+        "flow": "W0",
+        "grade": "anecdote",
+        "reference": "kit references/awards/studio-portfolio.md#cristina-gomez",
+        "point": "Cristina Gómez self-hosts two faces and measures CLS 0.000. Ours shifts on font load (/portfolio/ 0.137 in the ds run, cause 'Web font loaded'). A solo practice's first screen should not move under the reader.",
+        "evidence": [
+          "docs/design/reviews/evidence/5c2e92ac/ds-lighthouse-extract.json"
+        ]
+      }
+    ]
+  }
+}

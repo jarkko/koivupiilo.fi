@@ -1,70 +1,45 @@
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
 <%
-  # Language and SEO configuration
-  current_lang = data.lang || 'en'
-  resource_title = strip_html(strip_newlines(title))
-  page_description = data.description || metadata.description
-
-  # Set up translations
-  translations = site.data.i18n[current_lang] || site.data.i18n['en']
+  lang = data.lang
+  key = data.page_id
+  t = site.data.copy[lang]
+  page = t.pages[key]
+  # Titles and descriptions go out without the word joiners the copy gets for line breaking.
+  title = page.title.delete("\u2060")
+  description = page.description.delete("\u2060")
+  routes = site.data.routes[key]
+  origin = site.config.url
+  locale = { "fi" => "fi_FI", "en" => "en_GB" }
 %>
-
-<title><% if resource_title != "Index" %><%= resource_title %><% else %><%= translations['site']['title'] %>: <%= translations['site']['tagline'] %><% end %></title>
-
-<meta name="description" content="<%= page_description %>" />
-<meta name="author" content="Jarkko Laine" />
-<meta name="robots" content="index, follow" />
-
-<!-- Language and location meta -->
-<html lang="<%= current_lang %>" />
-<meta name="language" content="<%= current_lang %>" />
-<meta name="geo.region" content="FI" />
-<meta name="geo.placename" content="Kangasala, Finland" />
-
-<!-- Open Graph meta -->
-<meta property="og:title" content="<%= resource_title != 'Index' ? resource_title : translations['site']['title'] %>" />
-<meta property="og:description" content="<%= page_description %>" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="<%= absolute_url(resource.relative_url) %>" />
-<meta property="og:locale" content="<%= current_lang == 'fi' ? 'fi_FI' : 'en_US' %>" />
-<% if current_lang == 'en' %>
-<meta property="og:locale:alternate" content="fi_FI" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title><%= title %></title>
+<meta name="description" content="<%= description %>">
+<% if routes %>
+<link rel="canonical" href="<%= origin + routes[lang] %>">
+<link rel="alternate" hreflang="fi" href="<%= origin + routes["fi"] %>">
+<link rel="alternate" hreflang="en" href="<%= origin + routes["en"] %>">
+<link rel="alternate" hreflang="x-default" href="<%= origin + routes["fi"] %>">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="<%= site.data.company.name %>">
+<meta property="og:title" content="<%= title %>">
+<meta property="og:description" content="<%= description %>">
+<meta property="og:url" content="<%= origin + routes[lang] %>">
+<meta property="og:locale" content="<%= locale[lang] %>">
+<meta property="og:locale:alternate" content="<%= locale[lang == "fi" ? "en" : "fi"] %>">
+<meta name="twitter:card" content="summary">
 <% else %>
-<meta property="og:locale:alternate" content="en_US" />
+<meta name="robots" content="noindex">
 <% end %>
-
-<!-- Twitter Card meta -->
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="<%= resource_title != 'Index' ? resource_title : translations['site']['title'] %>" />
-<meta name="twitter:description" content="<%= page_description %>" />
-
-<!-- Language alternates for SEO -->
-<% if current_lang == 'en' %>
-<link rel="alternate" hreflang="fi" href="<%= absolute_url('/fi/') %>" />
-<link rel="alternate" hreflang="en" href="<%= absolute_url('/') %>" />
-<link rel="alternate" hreflang="x-default" href="<%= absolute_url('/') %>" />
-<% else %>
-<link rel="alternate" hreflang="en" href="<%= absolute_url('/') %>" />
-<link rel="alternate" hreflang="fi" href="<%= absolute_url('/fi/') %>" />
-<link rel="alternate" hreflang="x-default" href="<%= absolute_url('/') %>" />
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="<%= asset_path "fonts/hanken-grotesk-latin-400-650.woff2" %>" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="<%= asset_path :css %>">
+<%# The trunk grows once per visit: only when the page was reached from outside the site,
+    not on a reload or a move between pages. Nothing is stored in the browser. %>
+<script>try{var n=performance.getEntriesByType("navigation")[0],r=document.referrer;if(n&&n.type==="navigate"&&(!r||new URL(r).origin!==location.origin))document.documentElement.classList.add("arrive")}catch(e){}</script>
+<% if %w[front company].include?(key) %>
+<%= render "organization" %>
 <% end %>
-
-<!-- Canonical URL -->
-<link rel="canonical" href="<%= absolute_url(resource.relative_url) %>" />
-
-<!-- Typography -->
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
-
-<!-- Favicon -->
-<link rel="icon" href="/favicon.ico" />
-
-<!-- Stylesheets -->
-<link rel="stylesheet" href="<%= asset_path :css %>" />
-
-<!-- Scripts (defer for performance) -->
-<script src="<%= asset_path :js %>" defer></script>
 <%= live_reload_dev_js %>

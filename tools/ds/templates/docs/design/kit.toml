@@ -1,0 +1,194 @@
+# Design kit configuration for this project.
+#
+# Lists the modules that are on, the modules that are off (each with a
+# one-line reason), the project's settings, where each kit document lives,
+# and per-module overrides. Proposed at intake and confirmed by the owner;
+# a later change is an ordinary, reviewed change. A module whose dependency
+# is off is refused, not quietly weakened:
+#   lint needs tokens · a11y needs visual · review needs model · critique needs review
+#
+# Each module's `command` runs the project's own tool; how ds runs it and
+# passes {files} is in the kit's README, "Project commands in kit.toml".
+# Every command below is a commented example labelled with the stack it
+# fits. Uncomment the one for your stack, or write your own, once the stack
+# is decided.
+
+# The framework: "undecided" until the bootstrap's stack decision (after the
+# product model), then its name, e.g. "bridgetown" or "phoenix". While it is
+# undecided, lint, tokens, catalog and the web modules wait, and no [web]
+# table or command is needed for them.
+stack = "undecided"
+
+# Platforms this project ships: web, ios, macos. Chosen at intake.
+stacks = ["web"]
+
+# Every shipped region. Screens and reviews cover each one (fi_FI has a decimal comma).
+regions = ["fi_FI", "en_GB"]
+
+# Files whose changes count as UI changes: they trigger the gate and key the review hash.
+# Required once the stack is decided.
+ui_globs = []
+# Phoenix: ui_globs = ["lib/**/*_web/**/*.{ex,heex}", "assets/css/**/*.css", "priv/gettext/**/*.po"]
+# Swift: ui_globs = ["macos/App/**/*.swift"]
+# Bridgetown: ui_globs = ["src/**/*.{erb,liquid,md,html}", "frontend/**/*.{css,js}"]
+
+# Never scanned or counted, even when they match ui_globs.
+ignore_globs = ["node_modules/**", "**/*.generated.*"]
+# Phoenix: ignore_globs = ["deps/**", "_build/**", "node_modules/**", "**/*.generated.*"]
+
+# Test sources do not count as added screens for review independence/critique.
+# They still count as UI for the review hash and defect review when ui_globs matches them.
+# Conventional *Tests/, *UITests/, test/, tests/, *.test.* and *.spec.* paths are built in.
+test_globs = []
+# Swift: test_globs = ["macos/AppTests/**/*.swift", "macos/AppUITests/**/*.swift"]
+
+[modules]
+on = [
+  "brief", "references", "storymap", "model", "sprint", "tokens", "catalog",
+  "termbase", "lint", "visual", "a11y", "review", "critique", "feedback",
+  "audit", "walkthrough", "perf", "invariants",
+]
+
+# A module moved here leaves `on`. The reason is required and shown in every gate run.
+[modules.off]
+imagery = "No real photos or video yet. Turn it on, with [imagery] assets and the owner's cameras, when the first one ships."
+
+# Where each kit document lives. A retrofit maps its existing files here instead of renaming them.
+[docs]
+brief = "docs/design/brief.md"
+references = "docs/design/references.md"
+storymap = "docs/design/story-map.md"
+stories = "docs/design/stories.md"
+opportunities = "docs/design/opportunity-tree.md"
+model = "docs/design/model.md"
+termbase = "docs/design/termbase.tsv"
+rules = "docs/design/README.md"
+voice = "docs/design/voice.md"
+tokens = "docs/design/tokens.json"
+contrast_pairs = "docs/design/contrast-pairs.json"
+provenance = "docs/design/provenance.tsv"
+# An existing platform checklist maps to its role here, and init then skips the kit's own.
+checklist_web = "docs/design/checklists/web-interface.md"
+checklist_ios = "docs/design/checklists/ios-hig.md"
+checklist_macos = "docs/design/checklists/macos-hig.md"
+checklist_wcag = "docs/design/checklists/wcag22-aa.md"
+checklist_interaction = "docs/design/checklists/interaction-craft.md"
+
+# Bootstrap step 1-2: the brief. Process-only; no command by default.
+[brief]
+# command = "test -s docs/design/brief.md"
+
+# Bootstrap step 3: the teardown. Process-only.
+[references]
+# command = "test -s docs/design/references.md"
+
+# Bootstrap step 4: the story map. Process-only.
+[storymap]
+# command = "test -s docs/design/story-map.md"
+
+# Bootstrap step 5: the product model. Built in: `ds model check` maps each M and W to a passed test.
+# The JUnit files your tests write; until the stack is decided there are none, and ds only warns.
+[model]
+# Phoenix: results = ["_build/test/junit/*.xml"]
+# Node: results = ["test-results/junit.xml"]
+# Swift: results = ["test-results/junit.xml"]  # xcbeautify JUnit; not .xcresult (adapters/README.md)
+# Phoenix: command = "mix test --only model"
+
+# Bootstrap step 6: visual direction and feel prototypes, run in a separate sandbox.
+[sprint]
+# Make: command = "make -C ../<project>-brand boards"
+
+# One DTCG token source compiled for every stack; the command fails on drift.
+[tokens]
+# Make: command = "make tokens.check"
+
+# The component catalog; the command fails when a component has no catalog entry.
+[catalog]
+# Phoenix: command = "mix test test/design/catalog_test.exs"
+
+# Built in: `ds terms` scans these globs (plus ui_globs) for the termbase's forbid patterns.
+[termbase]
+globs = ["docs/**/*.md", "**/*.po", "**/*.xcstrings", "**/*.strings"]
+# The columns whose cells are forbidden wording (default ["forbid"]). A termbase whose own code
+# pins other columns names them here, e.g. ["fi_old", "en_old"]. Columns of required wording
+# (the term a text must use) are not forbid columns: a termbase with only those sets [] and
+# checks them with its own command.
+# forbid_columns = ["forbid"]
+# A richer vocabulary file the termbase is generated from (README, "A termbase made from a richer file"):
+# source = "docs/design/sanasto.tsv"
+# generate = "node tools/termbase.mjs"
+# Phoenix: command = "mix gettext.check"
+
+# Per-file design lint at edit time: raw colours, fonts, spacing, raw elements.
+[lint]
+# Phoenix: command = "mix design.lint {files}"
+# Node: command = "npx eslint --format json {files}"
+
+# Web pages: what perf, a11y, invariants and visual render. They run in a local container
+# (Docker), built from tools/ds/web/ on first use; set a module's command to use your own tool.
+# Fill this in at the stack decision; it is required while a web module is on and has no command.
+# [web]
+# static_dir = "output"                 # a built site, served inside the container; or:
+# base_url = "http://host.docker.internal:4000"   # a running app
+# Bridgetown: build = "bin/bridgetown build"
+# routes = ["/", "/work/", "/contact/"]
+# ready = "main[data-ready]"          # wait for this before measuring
+# Third-party origins the pages may load. Everything else is blocked and reported.
+# allow_origins = []                    # [{ origin = "https://…", reason = "why" }]
+# Files that can change a rendered page (default: ui_globs).
+# render_globs = ["src/**", "frontend/**", "config/**"]
+#
+# Which routes a changed file affects. A rendering file matching no entry affects every route.
+# [web.route_map]
+# "src/_pages/work/**" = ["/work/"]
+
+# Full-page screenshots across the matrix, compared on linux/amd64 against committed baselines.
+[visual]
+# Make: command = "make visual"
+
+# Accessibility violations (axe) across the matrix.
+[a11y]
+# Make: command = "make a11y"
+
+# Defect review, verified by `ds review verify`. Branches matching these always need an independent critique.
+[review]
+milestone_branches = ["milestone/*"]
+# command = "<launch the reviewer through your adapter>"
+
+# Quality critique: required for new flows, model changes and milestones; not blocking.
+[critique]
+# command = "<launch the critic through your adapter>"
+
+# Real-use feedback: friction notes, crash reports, beta channel. Feeds the opportunity tree.
+[feedback]
+# Make: command = "make friction.import"
+
+# Weekly drift audit: lint debt, untested model rules, unmapped screens, forbidden-term leftovers.
+[audit]
+# Make: command = "make design.audit"
+
+# Lab performance per route: Lighthouse, mobile, median of 3 runs, against the kit's budgets.
+[perf]
+# Node: command = "npx lhci autorun"
+
+# Loosening a budget needs a reason; tightening doesn't.
+# [perf.budgets."/"]
+# lcp_ms = 2200
+# reason = "Hero video poster; tracked in the opportunity tree."
+
+# Deterministic geometry on every route: overflow, 44 px tap targets, clipped or truncated text.
+[invariants]
+# Make: command = "make invariants"
+
+# Milestone walkthrough: the runbook is generated from the reviewer's executed steps.
+[walkthrough]
+# Make: command = "make runbook"
+
+# Real photos and videos: the owner's own, with provenance, consent and only canonical files. Built in: `ds imagery`.
+[imagery]
+# Every image and video the product ships. Each needs a row in [docs].provenance.
+# Phoenix: assets = ["priv/static/images/**/*", "priv/static/videos/**/*"]
+# Bridgetown: assets = ["src/images/**/*"]
+# Required: the owner's own cameras as EXIF make and model pairs. The owner confirms the list once per project.
+# cameras = [{ make = "<EXIF Make>", model = "<EXIF Model>" }]
+# Make: command = "make imagery.check"

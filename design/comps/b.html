@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="fi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Koivupiilo · Comp B · Koivu</title>
+<style>
+@font-face{font-family:'Newsreader';src:url('/assets/fonts/newsreader-latin-opsz-normal.woff2') format('woff2');font-weight:200 800;font-display:swap}
+@font-face{font-family:'Hanken';src:url('/assets/fonts/hanken-grotesk-latin-wght-normal.woff2') format('woff2');font-weight:100 900;font-display:swap}
+:root{--bg:#f2f0ea;--ink:#1b1a17;--soft:#69665e;--line:#dcd8cd;--plate:#e7e4db;--leaf:#8a5a2b;--gut:clamp(20px,3.4vw,56px)}
+@media (prefers-color-scheme:dark){:root{--bg:#141311;--ink:#ece9e1;--soft:#9b978d;--line:#2a2824;--plate:#1d1c19;--leaf:#c99560}}
+*{box-sizing:border-box;margin:0;padding:0}
+html{background:var(--bg);color:var(--ink);font:400 17px/1.55 Hanken,system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-decoration:none}
+.g{padding:0 var(--gut)}
+
+/* hero: text on bark-white paper, the grove standing beside it */
+.hero{position:relative;display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);min-height:100svh}
+.copy{display:flex;flex-direction:column;justify-content:space-between;padding:26px var(--gut) clamp(32px,6vh,64px)}
+.bar{display:flex;justify-content:space-between;align-items:baseline;font-size:15px}
+.bar .word{font-weight:600;letter-spacing:-.01em}
+.bar nav{display:flex;gap:clamp(1.25rem,2.6vw,2.5rem);color:var(--soft)}
+.bar nav a{transition:color .2s}.bar nav a:hover{color:var(--ink)}
+h1{font-family:Newsreader,Georgia,serif;font-weight:360;font-variation-settings:"opsz" 72;font-size:clamp(2.6rem,5.1vw,5.4rem);line-height:1.03;letter-spacing:-.028em;max-width:13.5ch;text-wrap:balance}
+.lead{margin-top:clamp(1.5rem,3vh,2.25rem);font-size:clamp(1.05rem,1.25vw,1.2rem);line-height:1.55;color:var(--soft);max-width:42ch}
+.foot{display:flex;justify-content:space-between;align-items:baseline;font-size:14px;color:var(--soft);border-top:1px solid var(--line);padding-top:14px}
+.foot a{color:var(--ink)}
+.grove{position:relative;overflow:hidden;background:#cfcabd}
+.grove img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:30% 50%}
+.grove figcaption{position:absolute;right:16px;bottom:14px;font-size:12px;color:#fff;opacity:.85;text-shadow:0 1px 8px rgb(0 0 0/.5)}
+
+/* work */
+.work{padding-top:clamp(5rem,12vw,10rem);padding-bottom:5rem}
+.work>h2{font-family:Newsreader,Georgia,serif;font-weight:400;font-variation-settings:"opsz" 48;font-size:clamp(1.6rem,2.4vw,2.2rem);letter-spacing:-.02em;margin-bottom:clamp(2rem,4vw,3.5rem)}
+.plate{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:clamp(1.5rem,4vw,4rem);padding:1.25rem 0 clamp(3.5rem,7vw,6rem);border-top:1px solid var(--line)}
+.plate .name{display:flex;gap:.9rem;align-items:baseline;font-size:15px}
+.plate .name b{font-weight:600}
+.tag{font-size:13px;color:var(--soft)}.tag::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--leaf);margin-right:.45em;vertical-align:.1em}
+.plate h3{font-family:Newsreader,Georgia,serif;font-weight:380;font-variation-settings:"opsz" 48;font-size:clamp(1.7rem,2.7vw,2.5rem);line-height:1.08;letter-spacing:-.022em;margin:1.1rem 0 .9rem;max-width:16ch}
+.plate p{color:var(--soft);max-width:38ch}
+.plate figure{background:var(--plate);aspect-ratio:16/11;padding:clamp(1rem,3vw,3rem);display:grid;place-items:center;overflow:hidden}
+.plate figure img{width:100%;height:100%;object-fit:cover;object-position:top right;border-radius:5px;box-shadow:0 1px 1px rgb(0 0 0/.05),0 30px 60px -32px rgb(0 0 0/.4)}
+.plate figure.phone img{object-fit:contain;box-shadow:none}
+
+@media (max-width:820px){
+ .hero{grid-template-columns:1fr;min-height:0}
+ .grove{order:-1;height:62svh}
+ .grove img{object-position:40% 50%}
+ .grove::before{content:"";position:absolute;inset:0 0 auto;height:30%;z-index:1;background:linear-gradient(rgb(12 12 10/.5),rgb(12 12 10/0))}
+ .copy{padding-top:0}
+ .bar{position:absolute;top:0;left:0;right:0;padding:20px var(--gut);color:#fff;text-shadow:0 1px 10px rgb(0 0 0/.35);z-index:2}
+ .bar nav a:not([lang]){display:none}.bar nav{color:#fff}
+ .copy>div:nth-child(2){padding:2rem 0 2.5rem}
+ .plate{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:no-preference){
+ .grove img{animation:settle 2.2s cubic-bezier(.2,.7,.1,1) both}
+ @keyframes settle{from{transform:scale(1.045)}}
+ h1,.lead{animation:rise .9s cubic-bezier(.2,.7,.1,1) both}.lead{animation-delay:.12s}
+ @keyframes rise{from{opacity:0;transform:translateY(8px)}}
+}
+</style>
+</head>
+<body>
+<section class="hero">
+<div class="copy">
+ <div class="bar"><a class="word" href="#">Koivupiilo</a><nav><a href="#">Työt</a><a href="#">Palvelut</a><a href="#">Yhteys</a><a href="#" lang="en">English</a></nav></div>
+ <div>
+  <h1>Koivupiilo on Jarkko Laineen ohjelmistoyritys Kangasalla.</h1>
+  <p class="lead">Teen omia sovelluksia lentopalloon ja seuratyöhön. Sen ohessa otan vuosittain muutaman asiakasprojektin, valmennan lentopalloa ja koulutan valmentajia ja esihenkilöitä.</p>
+ </div>
+ <div class="foot"><span>Kangasala</span><a href="#">jarkko@jlaine.net</a></div>
+</div>
+<figure class="grove"><picture><source media="(max-width: 820px)" srcset="/assets/photos/birch-grove-m-1000.jpg"><img src="/assets/photos/birch-grove-1600.jpg" srcset="/assets/photos/birch-grove-900.jpg 900w, /assets/photos/birch-grove-1600.jpg 1600w" sizes="(max-width: 820px) 100vw, 42vw" alt="Koivikko syksyllä Kangasalla"></picture><figcaption>Kangasala, syyskuu 2013</figcaption></figure>
+</section>
+
+<section class="work g">
+<h2>Tekeillä</h2>
+<article class="plate">
+ <div><div class="name"><b>Magistician</b><span class="tag">käytössä</span></div>
+ <h3>Ottelun video tilastoiksi</h3>
+ <p>Malli poimii videolta jokaisen kosketuksen. Jokaisen luvun takaa aukeaa klippi, joten valmentajan ei tarvitse arvata, mistä luku tulee.</p></div>
+ <figure><img src="/assets/img/magistician-review.png" alt="Magisticianin korjausnäkymä, testidataa"></figure>
+</article>
+<article class="plate">
+ <div><div class="name"><b>Kvitti</b><span class="tag">käytössä</span></div>
+ <h3>Seuran kulukorvaukset puhelimella</h3>
+ <p>Kuitit, kilometrit ja päivärahat. Toimii suomeksi, ruotsiksi ja englanniksi.</p></div>
+ <figure class="phone"><img src="/assets/img/kvitti.png" alt="Kvitti puhelimessa"></figure>
+</article>
+</section>
+</body>
+</html>

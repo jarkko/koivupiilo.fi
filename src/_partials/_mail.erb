@@ -1,0 +1,6 @@
+<%# The page's one primary action. Locals: label, subject. %>
+<% email = site.data.company.email %>
+<p class="cta">
+  <a class="button" href="mailto:<%= email %>?subject=<%= ERB::Util.url_encode(subject) %>"><%= label %></a>
+  <span class="cta-address"><%= email %></span>
+</p>

@@ -1,0 +1,145 @@
+{
+  "id": "0e6f8874-177b-49df-abe3-8675f87721d2",
+  "ok": true,
+  "result": {
+    "origin": "http://127.0.0.1:4188/",
+    "refs": {
+      "e1": {
+        "name": "Siirry sisältöön",
+        "role": "link"
+      },
+      "e10": {
+        "name": "Studio",
+        "role": "heading"
+      },
+      "e11": {
+        "name": "Valmennus",
+        "role": "heading"
+      },
+      "e12": {
+        "name": "Yritys",
+        "role": "heading"
+      },
+      "e13": {
+        "name": "Kaikki työt",
+        "role": "link"
+      },
+      "e14": {
+        "name": "Lue lisää Studiosta",
+        "role": "link"
+      },
+      "e15": {
+        "name": "Lue lisää valmennuksesta",
+        "role": "link"
+      },
+      "e16": {
+        "name": "Lue lisää yrityksestä",
+        "role": "link"
+      },
+      "e17": {
+        "name": "3458206-1 (toinen sivusto)",
+        "role": "link"
+      },
+      "e18": {
+        "name": "jarkko@koivupiilo.fi",
+        "role": "link"
+      },
+      "e19": {
+        "name": "Tietosuoja",
+        "role": "link"
+      },
+      "e2": {
+        "name": "Koivupiilo, etusivu",
+        "role": "link"
+      },
+      "e20": {
+        "name": "English",
+        "role": "link"
+      },
+      "e21": {
+        "name": "Työt",
+        "role": "link"
+      },
+      "e22": {
+        "name": "Studio",
+        "role": "link"
+      },
+      "e23": {
+        "name": "Valmennus",
+        "role": "link"
+      },
+      "e24": {
+        "name": "Yritys",
+        "role": "link"
+      },
+      "e25": {
+        "name": "English",
+        "role": "link"
+      },
+      "e26": {
+        "name": "Kvitti (toinen sivusto)",
+        "role": "heading"
+      },
+      "e27": {
+        "name": "Beach volley -⁠kartta (toinen sivusto)",
+        "role": "heading"
+      },
+      "e28": {
+        "name": "Magistician (toinen sivusto)",
+        "role": "heading"
+      },
+      "e29": {
+        "name": "Hyppymittaus",
+        "role": "heading"
+      },
+      "e3": {
+        "name": "Päävalikko",
+        "role": "navigation"
+      },
+      "e30": {
+        "name": "Kvitti (toinen sivusto)",
+        "role": "link"
+      },
+      "e31": {
+        "name": "Beach volley -⁠kartta (toinen sivusto)",
+        "role": "link"
+      },
+      "e32": {
+        "name": "Magistician (toinen sivusto)",
+        "role": "link"
+      },
+      "e4": {
+        "name": "Työt",
+        "role": "region"
+      },
+      "e5": {
+        "name": "Studio",
+        "role": "region"
+      },
+      "e6": {
+        "name": "Valmennus",
+        "role": "region"
+      },
+      "e7": {
+        "name": "Yritys",
+        "role": "region"
+      },
+      "e8": {
+        "name": "Koivupiilo on ohjelmistoyritys Kangasalta.",
+        "role": "heading"
+      },
+      "e9": {
+        "name": "Työt",
+        "role": "heading"
+      }
+    },
+    "removedRefs": [],
+    "snapshot": "- main\n  - generic\n    - heading \"Koivupiilo on ohjelmistoyritys Kangasalta.\" [level=1, ref=e8]\n    - DescriptionList\n      - term \"Yritys\"\n      - definition\n      - term \"Y-tunnus\"\n      - definition\n      - term \"Paikkakunta\"\n      - definition\n      - term \"Perustettu\"\n      - definition\n  - region \"Työt\" [ref=e4]\n    - heading \"Työt\" [level=2, ref=e9]\n    - list \"Työt\"\n      - listitem [level=1]\n      - listitem [level=1]\n      - listitem [level=1]\n      - listitem [level=1]\n    - paragraph\n      - StaticText \"Päivämäärä kertoo, milloin tila on viimeksi tarkistettu.\"\n    - paragraph\n      - link \"Kaikki työt\" [ref=e13]\n  - region \"Studio\" [ref=e5]\n    - heading \"Studio\" [level=2, ref=e10]\n    - paragraph\n      - StaticText \"Koivupiilo tekee omia ohjelmistojaan ja ohjelmistokonsultointia.\"\n    - paragraph\n      - link \"Lue lisää Studiosta\" [ref=e14]\n  - region \"Valmennus\" [ref=e6]\n    - heading \"Valmennus\" [level=2, ref=e11]\n    - paragraph\n      - StaticText \"Jarkko Laine valmentaa lentopalloa ja beach volleyta, kouluttaa valmentajia ja auttaa uusia esihenkilöitä alkuun.\"\n    - paragraph\n      - link \"Lue lisää valmennuksesta\" [ref=e15]\n  - region \"Yritys\" [ref=e7]\n    - heading \"Yritys\" [level=2, ref=e12]\n    - paragraph\n      - StaticText \"Koivupiilon perusti vuonna 2024 Jarkko Laine, ohjelmistokehittäjä ja lentopallovalmentaja. Nimi tulee koivikosta Kangasalla.\"\n    - paragraph\n      - link \"Lue lisää yrityksestä\" [ref=e16]",
+    "browserPageId": "7ee5edd9-6271-47d2-ae69-a922d8b24777",
+    "url": "http://127.0.0.1:4188/",
+    "title": "Koivupiilo Oy – ohjelmistoyritys Kangasalta"
+  },
+  "_meta": {
+    "runtimeId": "82847cb9-877f-49b0-b4ad-899339c9a427"
+  }
+}

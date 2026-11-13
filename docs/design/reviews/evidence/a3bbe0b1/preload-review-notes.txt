@@ -1,0 +1,56 @@
+Preload review notes, UI hash a3bbe0b1, head cc4adca, frozen snapshot /tmp/kit-adopt-preload-review-site
+Reviewer: claude, run term_604d97e0-a309-4d64-a020-ebd326ef060d, 2026-11-06
+
+1. Markup and reuse (preload-probe.json, all 17 routes, Chromium via Playwright, phone 390 px)
+   - Each page has 3 <link rel=preload as=font type=font/woff2 crossorigin> lines, immediately before the stylesheet.
+   - The preload URLs are byte-identical to the url() values in index.RRKDLO2U.css (the stylesheet is unchanged since 4bd5d688).
+   - Each preloaded file is fetched once (parser-initiated, priority High) and the @font-face rules reuse it: 0 duplicate fetches on 17/17 routes.
+   - No "preloaded but not used" console warning after 3.5 s on any route. 0 console errors, 0 failed requests, 0 external requests.
+   - PT Serif 400, PT Sans 700 and PT Sans 400 all render text on 17/17 routes, so no preload is wasted.
+   - Font files per page are unchanged: 3 to 5 latin files, no latin-ext or cyrillic without matching characters.
+
+2. Final layout (walk.mjs re-run against port 4724, compared with the 4bd5d688 walk)
+   - 48 region x width x scheme x route combinations, zoom 100 to 200 %, language switch: same results.
+   - 52 of 52 final-layout screenshots are pixel-identical within JPEG tolerance (channel diff <= 24).
+   - fontReqs differ only in order (preloads now come first). The set of files is the same on every combination.
+   - The language-switch rows differ only in timing.
+
+3. Font-loading frames (cold-load strip in walk.mjs: 400 kbit/s, 150 ms RTT, dark, phone)
+   - 4bd5d688: first frame captured at 1195 ms on / (fallback face, then swap).
+   - a3bbe0b1: first frame captured at 3362 ms on /. The page is blank until then, and the first paint is already in PT.
+   - See shots/strip-compare-en_GB-new-top-old-bottom.jpg.
+
+4. A/B on the same snapshot, preload vs the 3 preload lines removed (scratch copy, no source change)
+   a) Real-network probe (fcp-probe.json): CDP throttling, cache disabled, 5 runs, medians
+      route        profile          variant     FCP=LCP ms  CSS done  last font  CLS
+      /            1.6 Mbps/150 ms  preload        1160       1052      1146     0
+      /            1.6 Mbps/150 ms  no preload      372        359      1123     0.1403
+      /portfolio/  1.6 Mbps/150 ms  preload        1164       1052      1353     0.0031
+      /portfolio/  1.6 Mbps/150 ms  no preload      372        352      1267     0.1838
+      /fi/         1.6 Mbps/150 ms  preload        1156       1051      1144     0
+      /fi/         1.6 Mbps/150 ms  no preload      376        359      1130     0.0009
+      /            400 kbit/150 ms  preload        3336       3317      3697     0.1403
+      /            400 kbit/150 ms  no preload      968        945      3611     0.1403
+      /portfolio/  400 kbit/150 ms  preload        3400       3375      4341     0.1839
+      /portfolio/  400 kbit/150 ms  no preload      964        945      4199     0.1838
+   b) Lighthouse 13, --throttling-method=devtools (lh-devtools-ab.json), 3 runs, medians
+      /            preload FCP=LCP 2032 ms, CLS 0.0006   no preload 1444 ms, CLS 0.0006
+      /portfolio/  preload FCP=LCP 2054 ms, CLS 0.0146   no preload 1475 ms, CLS 0.0152
+   c) Lighthouse 13, simulated (lh-preload-targeted.json), preload only, 3 runs:
+      / LCP 1952 ms, CLS 0; /portfolio/ 2252 ms, CLS max 0.003; /services/ 2253 ms, CLS max 0.0235;
+      /fi/ 1951 ms, CLS 0; /about/ 2252 ms, CLS max 0.0034. In the reviewer's earlier simulated runs
+      without preload (5c2e92ac lh-compare.txt, "fixed") / was 2102 ms and /portfolio/ 2402 ms.
+
+   Mechanism: the 3 preloaded files (123 KiB) start downloading alongside the 38 KiB stylesheet and
+   share the throttled bandwidth with it. The stylesheet finishes about 2.9x later (359 -> 1052 ms), and
+   first paint waits for the stylesheet. The fonts don't arrive any sooner (1123 vs 1146 ms). With
+   preload, the first paint simply waits until the fonts are ready, so on the 1.6 Mbps profile the font
+   swap and its shift disappear. At 400 kbit/s the fonts still arrive after the CSS, so the shift stays
+   and first paint is 2.4 s later. Lighthouse's simulated mode models the request graph differently and
+   reports an improvement. Its observed devtools mode agrees with the raw probe.
+
+   Limits: the local server is Python http.server (HTTP/1.1, no prioritisation), and Chrome's devtools
+   throttling shares bandwidth evenly between requests. Production is GitHub Pages over HTTP/2. If the
+   CDN sends the Highest-priority stylesheet before the High-priority font preloads, the stylesheet
+   delay could be much smaller in production. Production was unreachable from the sandbox, so this is
+   not verified.

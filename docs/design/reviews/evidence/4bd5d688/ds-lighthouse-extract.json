@@ -1,0 +1,1003 @@
+{
+ "source": ".ds/out/perf/<route>/run-{1,2,3}.html from the author's production all-module retrofit run at ca955fe/a0409b9 (ds container, Lighthouse 12.6.1 mobile, throttlingMethod simulate). Static budgets (tools/ds/web/ds-web.mjs): LCP <= 2000 ms, CLS <= 0.05, performance >= 0.90.",
+ "routes": {
+  "404.html": {
+   "median_lcp_ms": 1804,
+   "median_fcp_ms": 1804,
+   "median_cls": 0,
+   "median_performance": 0.98,
+   "font_files": [
+    "pt-sans-latin-700-normal",
+    "pt-sans-latin-400-normal",
+    "pt-serif-latin-400-normal"
+   ],
+   "font_kib": 123,
+   "runs": [
+    {
+     "lcp_ms": 1803,
+     "fcp_ms": 1803,
+     "cls": 0,
+     "performance": 0.98,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal"
+     ],
+     "font_kib": 123
+    },
+    {
+     "lcp_ms": 1804,
+     "fcp_ms": 1804,
+     "cls": 0,
+     "performance": 0.98,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal"
+     ],
+     "font_kib": 123
+    },
+    {
+     "lcp_ms": 1804,
+     "fcp_ms": 1804,
+     "cls": 0.0019,
+     "performance": 0.98,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal"
+     ],
+     "font_kib": 123
+    }
+   ]
+  },
+  "500.html": {
+   "median_lcp_ms": 1804,
+   "median_fcp_ms": 1804,
+   "median_cls": 0.0019,
+   "median_performance": 0.98,
+   "font_files": [
+    "pt-sans-latin-700-normal",
+    "pt-sans-latin-400-normal",
+    "pt-serif-latin-400-normal"
+   ],
+   "font_kib": 123,
+   "runs": [
+    {
+     "lcp_ms": 1804,
+     "fcp_ms": 1804,
+     "cls": 0.0019,
+     "performance": 0.98,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal"
+     ],
+     "font_kib": 123
+    },
+    {
+     "lcp_ms": 1804,
+     "fcp_ms": 1804,
+     "cls": 0.0019,
+     "performance": 0.98,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal"
+     ],
+     "font_kib": 123
+    },
+    {
+     "lcp_ms": 1804,
+     "fcp_ms": 1804,
+     "cls": 0,
+     "performance": 0.98,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal"
+     ],
+     "font_kib": 123
+    }
+   ]
+  },
+  "about": {
+   "median_lcp_ms": 2256,
+   "median_fcp_ms": 2256,
+   "median_cls": 0.019,
+   "median_performance": 0.96,
+   "font_files": [
+    "pt-sans-latin-700-normal",
+    "pt-sans-latin-400-normal",
+    "pt-serif-latin-400-normal",
+    "pt-serif-latin-700-normal",
+    "pt-serif-latin-400-italic"
+   ],
+   "font_kib": 187,
+   "runs": [
+    {
+     "lcp_ms": 2256,
+     "fcp_ms": 2256,
+     "cls": 0.0448,
+     "performance": 0.96,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal",
+      "pt-serif-latin-400-italic"
+     ],
+     "font_kib": 187
+    },
+    {
+     "lcp_ms": 2107,
+     "fcp_ms": 2107,
+     "cls": 0.019,
+     "performance": 0.97,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal",
+      "pt-serif-latin-400-italic"
+     ],
+     "font_kib": 187
+    },
+    {
+     "lcp_ms": 2256,
+     "fcp_ms": 2256,
+     "cls": 0.019,
+     "performance": 0.96,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal",
+      "pt-serif-latin-400-italic"
+     ],
+     "font_kib": 187
+    }
+   ]
+  },
+  "blog": {
+   "median_lcp_ms": 1806,
+   "median_fcp_ms": 1806,
+   "median_cls": 0.0236,
+   "median_performance": 0.98,
+   "font_files": [
+    "pt-sans-latin-700-normal",
+    "pt-sans-latin-400-normal",
+    "pt-serif-latin-400-normal"
+   ],
+   "font_kib": 123,
+   "runs": [
+    {
+     "lcp_ms": 1807,
+     "fcp_ms": 1807,
+     "cls": 0.0236,
+     "performance": 0.98,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal"
+     ],
+     "font_kib": 123
+    },
+    {
+     "lcp_ms": 1806,
+     "fcp_ms": 1806,
+     "cls": 0.0236,
+     "performance": 0.98,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal"
+     ],
+     "font_kib": 123
+    },
+    {
+     "lcp_ms": 1805,
+     "fcp_ms": 1805,
+     "cls": 0.0236,
+     "performance": 0.98,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal"
+     ],
+     "font_kib": 123
+    }
+   ]
+  },
+  "contact": {
+   "median_lcp_ms": 2105,
+   "median_fcp_ms": 2105,
+   "median_cls": 0,
+   "median_performance": 0.97,
+   "font_files": [
+    "pt-sans-latin-700-normal",
+    "pt-sans-latin-400-normal",
+    "pt-serif-latin-400-normal",
+    "pt-serif-latin-700-normal"
+   ],
+   "font_kib": 152,
+   "runs": [
+    {
+     "lcp_ms": 2105,
+     "fcp_ms": 2105,
+     "cls": 0,
+     "performance": 0.97,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal"
+     ],
+     "font_kib": 152
+    },
+    {
+     "lcp_ms": 2106,
+     "fcp_ms": 2106,
+     "cls": 0,
+     "performance": 0.97,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal"
+     ],
+     "font_kib": 152
+    },
+    {
+     "lcp_ms": 2105,
+     "fcp_ms": 2105,
+     "cls": 0,
+     "performance": 0.97,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal"
+     ],
+     "font_kib": 152
+    }
+   ]
+  },
+  "fi-palvelut": {
+   "median_lcp_ms": 2404,
+   "median_fcp_ms": 2255,
+   "median_cls": 0,
+   "median_performance": 0.95,
+   "font_files": [
+    "pt-sans-latin-700-normal",
+    "pt-sans-latin-400-normal",
+    "pt-serif-latin-400-normal",
+    "pt-serif-latin-700-normal",
+    "pt-serif-latin-400-italic"
+   ],
+   "font_kib": 187,
+   "runs": [
+    {
+     "lcp_ms": 2405,
+     "fcp_ms": 2255,
+     "cls": 0.0387,
+     "performance": 0.95,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal",
+      "pt-serif-latin-400-italic"
+     ],
+     "font_kib": 187
+    },
+    {
+     "lcp_ms": 2255,
+     "fcp_ms": 2255,
+     "cls": 0,
+     "performance": 0.96,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal",
+      "pt-serif-latin-400-italic"
+     ],
+     "font_kib": 187
+    },
+    {
+     "lcp_ms": 2404,
+     "fcp_ms": 2254,
+     "cls": 0,
+     "performance": 0.95,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal",
+      "pt-serif-latin-400-italic"
+     ],
+     "font_kib": 187
+    }
+   ]
+  },
+  "fi-portfolio": {
+   "median_lcp_ms": 2255,
+   "median_fcp_ms": 2255,
+   "median_cls": 0,
+   "median_performance": 0.96,
+   "font_files": [
+    "pt-sans-latin-700-normal",
+    "pt-sans-latin-400-normal",
+    "pt-serif-latin-400-normal",
+    "pt-serif-latin-700-normal",
+    "pt-sans-latin-400-italic"
+   ],
+   "font_kib": 194,
+   "runs": [
+    {
+     "lcp_ms": 2255,
+     "fcp_ms": 2255,
+     "cls": 0,
+     "performance": 0.96,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal",
+      "pt-sans-latin-400-italic"
+     ],
+     "font_kib": 194
+    },
+    {
+     "lcp_ms": 2406,
+     "fcp_ms": 2256,
+     "cls": 0,
+     "performance": 0.95,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal",
+      "pt-sans-latin-400-italic"
+     ],
+     "font_kib": 194
+    },
+    {
+     "lcp_ms": 2255,
+     "fcp_ms": 2255,
+     "cls": 0.0254,
+     "performance": 0.96,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal",
+      "pt-sans-latin-400-italic"
+     ],
+     "font_kib": 194
+    }
+   ]
+  },
+  "fi-tietoa": {
+   "median_lcp_ms": 2256,
+   "median_fcp_ms": 2255,
+   "median_cls": 0,
+   "median_performance": 0.96,
+   "font_files": [
+    "pt-sans-latin-700-normal",
+    "pt-sans-latin-400-normal",
+    "pt-serif-latin-400-normal",
+    "pt-serif-latin-700-normal",
+    "pt-serif-latin-400-italic"
+   ],
+   "font_kib": 187,
+   "runs": [
+    {
+     "lcp_ms": 2254,
+     "fcp_ms": 2254,
+     "cls": 0.0171,
+     "performance": 0.96,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal",
+      "pt-serif-latin-400-italic"
+     ],
+     "font_kib": 187
+    },
+    {
+     "lcp_ms": 2256,
+     "fcp_ms": 2256,
+     "cls": 0,
+     "performance": 0.96,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal",
+      "pt-serif-latin-400-italic"
+     ],
+     "font_kib": 187
+    },
+    {
+     "lcp_ms": 2405,
+     "fcp_ms": 2255,
+     "cls": 0,
+     "performance": 0.95,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal",
+      "pt-serif-latin-400-italic"
+     ],
+     "font_kib": 187
+    }
+   ]
+  },
+  "fi-yhteystiedot": {
+   "median_lcp_ms": 2105,
+   "median_fcp_ms": 2105,
+   "median_cls": 0.0221,
+   "median_performance": 0.97,
+   "font_files": [
+    "pt-sans-latin-700-normal",
+    "pt-sans-latin-400-normal",
+    "pt-serif-latin-400-normal",
+    "pt-serif-latin-700-normal"
+   ],
+   "font_kib": 152,
+   "runs": [
+    {
+     "lcp_ms": 2105,
+     "fcp_ms": 2105,
+     "cls": 0,
+     "performance": 0.97,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal"
+     ],
+     "font_kib": 152
+    },
+    {
+     "lcp_ms": 2107,
+     "fcp_ms": 2107,
+     "cls": 0.0221,
+     "performance": 0.97,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal"
+     ],
+     "font_kib": 152
+    },
+    {
+     "lcp_ms": 2105,
+     "fcp_ms": 2105,
+     "cls": 0.0221,
+     "performance": 0.97,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal"
+     ],
+     "font_kib": 152
+    }
+   ]
+  },
+  "fi": {
+   "median_lcp_ms": 1804,
+   "median_fcp_ms": 1804,
+   "median_cls": 0.0509,
+   "median_performance": 0.98,
+   "font_files": [
+    "pt-sans-latin-700-normal",
+    "pt-sans-latin-400-normal",
+    "pt-serif-latin-400-normal"
+   ],
+   "font_kib": 123,
+   "runs": [
+    {
+     "lcp_ms": 1804,
+     "fcp_ms": 1804,
+     "cls": 0.0509,
+     "performance": 0.98,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal"
+     ],
+     "font_kib": 123
+    },
+    {
+     "lcp_ms": 1803,
+     "fcp_ms": 1803,
+     "cls": 0,
+     "performance": 0.98,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal"
+     ],
+     "font_kib": 123
+    },
+    {
+     "lcp_ms": 1805,
+     "fcp_ms": 1805,
+     "cls": 0.0509,
+     "performance": 0.98,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal"
+     ],
+     "font_kib": 123
+    }
+   ]
+  },
+  "index": {
+   "median_lcp_ms": 1806,
+   "median_fcp_ms": 1806,
+   "median_cls": 0,
+   "median_performance": 0.98,
+   "font_files": [
+    "pt-sans-latin-700-normal",
+    "pt-sans-latin-400-normal",
+    "pt-serif-latin-400-normal"
+   ],
+   "font_kib": 123,
+   "runs": [
+    {
+     "lcp_ms": 1808,
+     "fcp_ms": 1808,
+     "cls": 0.0733,
+     "performance": 0.97,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal"
+     ],
+     "font_kib": 123
+    },
+    {
+     "lcp_ms": 1806,
+     "fcp_ms": 1806,
+     "cls": 0,
+     "performance": 0.98,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal"
+     ],
+     "font_kib": 123
+    },
+    {
+     "lcp_ms": 1805,
+     "fcp_ms": 1805,
+     "cls": 0,
+     "performance": 0.98,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal"
+     ],
+     "font_kib": 123
+    }
+   ]
+  },
+  "portfolio": {
+   "median_lcp_ms": 2105,
+   "median_fcp_ms": 2105,
+   "median_cls": 0.1373,
+   "median_performance": 0.92,
+   "font_files": [
+    "pt-sans-latin-700-normal",
+    "pt-sans-latin-400-normal",
+    "pt-serif-latin-400-normal",
+    "pt-serif-latin-700-normal"
+   ],
+   "font_kib": 152,
+   "runs": [
+    {
+     "lcp_ms": 2104,
+     "fcp_ms": 2104,
+     "cls": 0.1373,
+     "performance": 0.92,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal"
+     ],
+     "font_kib": 152
+    },
+    {
+     "lcp_ms": 2105,
+     "fcp_ms": 2105,
+     "cls": 0.1373,
+     "performance": 0.92,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal"
+     ],
+     "font_kib": 152
+    },
+    {
+     "lcp_ms": 2105,
+     "fcp_ms": 2105,
+     "cls": 0.1373,
+     "performance": 0.92,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal"
+     ],
+     "font_kib": 152
+    }
+   ]
+  },
+  "services-personal-development": {
+   "median_lcp_ms": 2105,
+   "median_fcp_ms": 2105,
+   "median_cls": 0.0123,
+   "median_performance": 0.97,
+   "font_files": [
+    "pt-sans-latin-700-normal",
+    "pt-sans-latin-400-normal",
+    "pt-serif-latin-400-normal",
+    "pt-serif-latin-700-normal"
+   ],
+   "font_kib": 152,
+   "runs": [
+    {
+     "lcp_ms": 2106,
+     "fcp_ms": 2106,
+     "cls": 0.0123,
+     "performance": 0.97,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal"
+     ],
+     "font_kib": 152
+    },
+    {
+     "lcp_ms": 2105,
+     "fcp_ms": 2105,
+     "cls": 0.0123,
+     "performance": 0.97,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal"
+     ],
+     "font_kib": 152
+    },
+    {
+     "lcp_ms": 2104,
+     "fcp_ms": 2104,
+     "cls": 0,
+     "performance": 0.97,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal"
+     ],
+     "font_kib": 152
+    }
+   ]
+  },
+  "services-sports-coaching": {
+   "median_lcp_ms": 2104,
+   "median_fcp_ms": 2104,
+   "median_cls": 0,
+   "median_performance": 0.97,
+   "font_files": [
+    "pt-sans-latin-700-normal",
+    "pt-sans-latin-400-normal",
+    "pt-serif-latin-400-normal",
+    "pt-serif-latin-700-normal"
+   ],
+   "font_kib": 152,
+   "runs": [
+    {
+     "lcp_ms": 2106,
+     "fcp_ms": 2106,
+     "cls": 0.0037,
+     "performance": 0.97,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal"
+     ],
+     "font_kib": 152
+    },
+    {
+     "lcp_ms": 2104,
+     "fcp_ms": 2104,
+     "cls": 0,
+     "performance": 0.97,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal"
+     ],
+     "font_kib": 152
+    },
+    {
+     "lcp_ms": 2104,
+     "fcp_ms": 2104,
+     "cls": 0,
+     "performance": 0.97,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal"
+     ],
+     "font_kib": 152
+    }
+   ]
+  },
+  "services-technical-consulting": {
+   "median_lcp_ms": 2104,
+   "median_fcp_ms": 2104,
+   "median_cls": 0.0203,
+   "median_performance": 0.97,
+   "font_files": [
+    "pt-sans-latin-700-normal",
+    "pt-sans-latin-400-normal",
+    "pt-serif-latin-400-normal",
+    "pt-serif-latin-700-normal"
+   ],
+   "font_kib": 152,
+   "runs": [
+    {
+     "lcp_ms": 2107,
+     "fcp_ms": 2107,
+     "cls": 0.0203,
+     "performance": 0.97,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal"
+     ],
+     "font_kib": 152
+    },
+    {
+     "lcp_ms": 2104,
+     "fcp_ms": 2104,
+     "cls": 0,
+     "performance": 0.97,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal"
+     ],
+     "font_kib": 152
+    },
+    {
+     "lcp_ms": 2104,
+     "fcp_ms": 2104,
+     "cls": 0.0203,
+     "performance": 0.97,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal"
+     ],
+     "font_kib": 152
+    }
+   ]
+  },
+  "services": {
+   "median_lcp_ms": 2405,
+   "median_fcp_ms": 2255,
+   "median_cls": 0.0672,
+   "median_performance": 0.95,
+   "font_files": [
+    "pt-sans-latin-700-normal",
+    "pt-sans-latin-400-normal",
+    "pt-serif-latin-400-normal",
+    "pt-serif-latin-700-normal",
+    "pt-serif-latin-400-italic"
+   ],
+   "font_kib": 187,
+   "runs": [
+    {
+     "lcp_ms": 1657,
+     "fcp_ms": 1507,
+     "cls": 0.0672,
+     "performance": 0.99,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal",
+      "pt-serif-latin-400-italic"
+     ],
+     "font_kib": 187
+    },
+    {
+     "lcp_ms": 2405,
+     "fcp_ms": 2255,
+     "cls": 0.0672,
+     "performance": 0.95,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal",
+      "pt-serif-latin-400-italic"
+     ],
+     "font_kib": 187
+    },
+    {
+     "lcp_ms": 2408,
+     "fcp_ms": 2258,
+     "cls": 0.0672,
+     "performance": 0.95,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal",
+      "pt-serif-latin-700-normal",
+      "pt-serif-latin-400-italic"
+     ],
+     "font_kib": 187
+    }
+   ]
+  },
+  "updates-welcome-to-bridgetown": {
+   "median_lcp_ms": 1804,
+   "median_fcp_ms": 1804,
+   "median_cls": 0,
+   "median_performance": 0.98,
+   "font_files": [
+    "pt-sans-latin-700-normal",
+    "pt-sans-latin-400-normal",
+    "pt-serif-latin-400-normal"
+   ],
+   "font_kib": 123,
+   "runs": [
+    {
+     "lcp_ms": 1804,
+     "fcp_ms": 1804,
+     "cls": 0.1576,
+     "performance": 0.92,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal"
+     ],
+     "font_kib": 123
+    },
+    {
+     "lcp_ms": 1803,
+     "fcp_ms": 1803,
+     "cls": 0,
+     "performance": 0.98,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal"
+     ],
+     "font_kib": 123
+    },
+    {
+     "lcp_ms": 1804,
+     "fcp_ms": 1804,
+     "cls": 0,
+     "performance": 0.98,
+     "font_files": [
+      "pt-sans-latin-700-normal",
+      "pt-sans-latin-400-normal",
+      "pt-serif-latin-400-normal"
+     ],
+     "font_kib": 123
+    }
+   ]
+  }
+ },
+ "lcp_breakdown_run1": {
+  "about": {
+   "phases": {
+    "TTFB": 452,
+    "Load Delay": 0,
+    "Load Time": 0,
+    "Render Delay": 1804
+   },
+   "font_requests_end_ms_observed": [
+    22,
+    37,
+    37,
+    37,
+    38
+   ],
+   "layout_shift_causes": [
+    "Web font loaded pt-sans-latin-400-normal-DJC62D63.woff2",
+    "Web font loaded pt-serif-latin-400-normal-F2XC2DKS.woff2",
+    "Web font loaded pt-serif-latin-700-normal-VETFNMJJ.woff2",
+    "Web font loaded pt-serif-latin-400-italic-PTBMTKDA.woff2",
+    "Web font loaded pt-sans-latin-700-normal-VFOFQJE4.woff2"
+   ]
+  },
+  "fi-palvelut": {
+   "phases": {
+    "TTFB": 452,
+    "Load Delay": 0,
+    "Load Time": 0,
+    "Render Delay": 1953
+   },
+   "font_requests_end_ms_observed": [
+    18,
+    29,
+    30,
+    30,
+    30
+   ],
+   "layout_shift_causes": [
+    "Web font loaded pt-sans-latin-700-normal-VFOFQJE4.woff2",
+    "Web font loaded pt-sans-latin-400-normal-DJC62D63.woff2",
+    "Web font loaded pt-serif-latin-400-normal-F2XC2DKS.woff2",
+    "Web font loaded pt-serif-latin-700-normal-VETFNMJJ.woff2",
+    "Web font loaded pt-serif-latin-400-italic-PTBMTKDA.woff2"
+   ]
+  },
+  "fi": {
+   "phases": {
+    "TTFB": 451,
+    "Load Delay": 0,
+    "Load Time": 0,
+    "Render Delay": 1353
+   },
+   "font_requests_end_ms_observed": [
+    19,
+    19,
+    19
+   ],
+   "layout_shift_causes": [
+    "Web font loaded pt-sans-latin-700-normal-VFOFQJE4.woff2",
+    "Web font loaded pt-sans-latin-400-normal-DJC62D63.woff2",
+    "Web font loaded pt-serif-latin-400-normal-F2XC2DKS.woff2"
+   ]
+  },
+  "portfolio": {
+   "phases": {
+    "TTFB": 451,
+    "Load Delay": 0,
+    "Load Time": 0,
+    "Render Delay": 1653
+   },
+   "font_requests_end_ms_observed": [
+    24,
+    24,
+    24,
+    24
+   ],
+   "layout_shift_causes": [
+    "Web font loaded pt-sans-latin-700-normal-VFOFQJE4.woff2",
+    "Web font loaded pt-sans-latin-400-normal-DJC62D63.woff2",
+    "Web font loaded pt-serif-latin-400-normal-F2XC2DKS.woff2",
+    "Web font loaded pt-serif-latin-700-normal-VETFNMJJ.woff2"
+   ]
+  }
+ }
+}

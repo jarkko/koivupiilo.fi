@@ -44,3 +44,7 @@ yarn-debug.log*
 /tmp/pids/*
 !/tmp/pids/
 !/tmp/pids/.keep
+design/out/
+design/shots/
+design/assets/photos/_raw*/
+.ds/out/

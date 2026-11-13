@@ -1,0 +1,22 @@
+<%
+  lang = data.lang
+  other = lang == "fi" ? "en" : "fi"
+  key = data.page_id
+  t = site.data.copy[lang]
+  routes = site.data.routes
+  # The language link goes to the same page in the other language (S-2); from the 404, to the front page.
+  switch = (routes[key] || routes["front"])[other]
+%>
+<header class="site-head">
+  <a class="brand" href="<%= routes["front"][lang] %>" aria-label="<%= t.site.home_label %>"<% if key == "front" %> aria-current="page"<% end %>>
+    <%= render "wordmark", variant: :text %>
+  </a>
+  <nav class="site-nav" aria-label="<%= t.site.nav_label %>">
+    <ul>
+      <% %w[work studio coaching company].each do |place| %>
+      <li><a href="<%= routes[place][lang] %>"<% if key == place %> aria-current="page"<% end %>><%= t.nav[place] %></a></li>
+      <% end %>
+      <li class="lang"><a href="<%= switch %>" lang="<%= other %>" hreflang="<%= other %>"><%= t.site.other_language %></a></li>
+    </ul>
+  </nav>
+</header>

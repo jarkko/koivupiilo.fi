@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Concept 1 · Tuohi</title>
+<link rel="stylesheet" href="board.css">
+<style>
+:root {
+  --text-font: "Hanken Grotesk", system-ui, sans-serif;
+  --paper: #f5f3ee; --ink: #151513; --muted: #5c5a54; --rule: #d9d5cc; --accent: #a4482a; --bark: #151513; --raised: #ecE9e2;
+}
+@media (prefers-color-scheme: dark) {
+  :root { --paper: #121210; --ink: #eeebe4; --muted: #a29f97; --rule: #2f2e2a; --accent: #e38a62; --bark: #eeebe4; --raised: #1a1a17; }
+}
+
+/* The wordmark: the tittles of the three i's are bark lenticels. */
+.wm { font: 600 1em/1 var(--text-font); letter-spacing: -.025em; white-space: nowrap; display: inline-block; }
+.wm .i { position: relative; display: inline-block; }
+.wm .i::before { content: ""; position: absolute; left: 50%; top: .07em; height: .052em; background: currentColor; border-radius: 50% / 50%; transform: translateX(-50%); }
+.wm .i1::before { width: .34em; margin-left: .03em; }
+.wm .i2::before { width: .2em; margin-left: -.03em; top: .1em; }
+.wm .i3::before { width: .29em; margin-left: .04em; }
+
+/* The trunk: Jarkko's own birch, traced to a 1-bit mask, recoloured by theme. */
+.trunk { background: var(--bark); -webkit-mask: url(assets/bark.svg) top center / 100% auto repeat-y; mask: url(assets/bark.svg) top center / 100% auto repeat-y; }
+
+.hero { position: relative; padding-block: clamp(2rem, 5vw, 3.5rem) clamp(3rem, 7vw, 5rem); }
+.hero .lockup { font-size: clamp(3.25rem, 13vw, 11rem); line-height: .9; margin: 0; }
+.hero .idea { font-size: clamp(1.25rem, 2.6vw, 1.75rem); line-height: 1.3; letter-spacing: -.01em; max-width: 34ch; margin: 2rem 0 0; font-weight: 450; }
+
+/* Fragment: first screen */
+.f1 { display: grid; grid-template-columns: 28px 1fr; min-height: 560px; }
+@media (min-width: 700px) { .f1 { grid-template-columns: 48px 1fr; } }
+.f1 .trunk { min-height: 100%; }
+.f1 .body { padding: 1.25rem 1.25rem 1.5rem; display: flex; flex-direction: column; gap: 2.5rem; }
+@media (min-width: 700px) { .f1 .body { padding: 1.75rem 2.5rem 2.25rem; } }
+.f1 nav { display: flex; justify-content: space-between; align-items: baseline; gap: 1rem; font-size: .9375rem; }
+.f1 nav .wm { font-size: 1.375rem; }
+.f1 nav ul { display: none; list-style: none; margin: 0; padding: 0; gap: 1.5rem; }
+@media (min-width: 900px) { .f1 nav ul { display: flex; } }
+.f1 nav .menu { font-size: .9375rem; min-height: 44px; display: inline-flex; align-items: center; }
+@media (min-width: 900px) { .f1 nav .menu { display: none; } }
+.f1 h1 { font-size: clamp(2rem, 5.2vw, 4.25rem); line-height: 1.02; letter-spacing: -.03em; font-weight: 550; margin: 0; max-width: 17ch; }
+.f1 .j { color: var(--muted); font-size: .75rem; margin-top: .5rem; }
+.work { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--ink); }
+.work li { display: grid; grid-template-columns: 1fr auto; gap: .25rem 1rem; padding: .85rem 0; border-bottom: 1px solid var(--rule); }
+@media (min-width: 700px) { .work li { grid-template-columns: 11rem 1fr 8rem; align-items: baseline; } }
+.work .n { font-weight: 600; }
+.work .d { color: var(--muted); grid-column: 1 / -1; grid-row: 2; font-size: .9375rem; }
+@media (min-width: 700px) { .work .d { grid-column: 2; grid-row: 1; } }
+.work .s { font-size: .8125rem; display: inline-flex; align-items: center; gap: .45rem; justify-self: end; color: var(--ink); }
+.work .s::before { content: ""; width: .9em; height: .3em; border-radius: 50%; border: 1.5px solid currentColor; }
+.work .s.on::before { background: currentColor; }
+.reg { margin-top: auto; display: flex; flex-wrap: wrap; gap: .35rem 1.5rem; font-size: .8125rem; color: var(--muted); font-variant-numeric: tabular-nums; padding-top: 1rem; border-top: 1px solid var(--rule); }
+.reg b { color: var(--ink); font-weight: 600; }
+
+/* Type specimen */
+.spec-big { font-size: clamp(2.5rem, 7vw, 5.5rem); line-height: 1; letter-spacing: -.035em; font-weight: 550; margin: 0 0 1.5rem; }
+.spec-row { display: grid; grid-template-columns: 1fr; gap: 1rem; padding: .9rem 0; border-top: 1px solid var(--rule); align-items: baseline; }
+.spec-row span { font-size: .75rem; color: var(--muted); }
+@media (min-width: 700px) { .spec-row { grid-template-columns: 7rem 1fr; } }
+
+/* Mark sizes */
+.marks { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 2.5rem 3rem; }
+.marks .wm { display: block; }
+.fav { width: 64px; height: 64px; background: var(--ink); color: var(--paper); display: grid; place-items: center; border-radius: 14px; }
+.fav svg { width: 34px; height: 34px; }
+.credit { font-size: .8125rem; color: var(--muted); border-top: 1px solid var(--rule); padding-top: .75rem; width: min(100%, 26rem); display: flex; justify-content: space-between; gap: 1rem; }
+.credit .wm { font-size: 1rem; color: var(--ink); display: inline-block; }
+.credit > span:last-child { white-space: nowrap; }
+
+/* Bark element demos */
+.strips { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+.strips figure { margin: 0; }
+.strips .trunk { height: 420px; }
+.strips .w1 { width: 28px; } .strips .w2 { width: 64px; } .strips .w3 { width: 100%; height: 420px; -webkit-mask-size: 160px auto; mask-size: 160px auto; -webkit-mask-repeat: repeat; mask-repeat: repeat; opacity: .14; }
+.strips figcaption { font-size: .75rem; color: var(--muted); margin-top: .5rem; }
+
+.photo { position: relative; }
+.photo img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
+@media (min-width: 900px) { .photo img { aspect-ratio: 3 / 4; } }
+.photo figcaption { font-size: .75rem; color: var(--muted); margin-top: .5rem; }
+
+/* Motion: the trunk grows once, top to bottom. */
+.grow { clip-path: inset(0 0 100% 0); animation: grow 900ms cubic-bezier(.2, .7, .1, 1) 150ms forwards; }
+@keyframes grow { to { clip-path: inset(0 0 0 0); } }
+@media (prefers-reduced-motion: reduce) { .grow { animation: none; clip-path: none; } }
+.motion-demo { display: grid; grid-template-columns: 48px 1fr; gap: 1.5rem; align-items: start; }
+.motion-demo .trunk { height: 320px; }
+</style>
+</head>
+<body>
+<div class="wrap board-head"><span>Koivupiilo · phase 3 · concept 1 of 2</span><a href="2-koivikko.html">Concept 2 →</a></div>
+
+<header class="hero wrap">
+  <p class="label">Concept 1 · Tuohi (birch bark)</p>
+  <h1 class="lockup"><span class="wm" aria-label="Koivupiilo">Ko<span class="i i1">ı</span>vup<span class="i i2">ı</span><span class="i i3">ı</span>lo</span></h1>
+  <p class="idea">The birch becomes the company’s mark and system. The tittles of the three i’s are bark lenticels, a strip of your own trunk runs down the edge of every page, and the rest is exact type on bark-white. It reads as an identity a company owns, not as a website.</p>
+</header>
+
+<section class="b"><div class="wrap cols">
+  <div class="c5"><h2>Why it fits the job</h2>
+    <div class="note"><p>The site’s first job is the ten-second company check (strategy §1). A clear identity is what a checker reads as “established”: a mark that also sits in the product footers, on invoices and on the App Store seller page.</p><p>Nothing in it depends on unapproved photos. One grove photo appears on Yritys, and that’s all.</p></div></div>
+  <div class="c7"><ul class="plain note">
+    <li><b>The mark travels.</b> The lenticel i’s work at 16 px (favicon), in the “Koivupiilo Oy” credit on kvitti.fi and magistician.com, and at 11 rem.</li>
+    <li><b>The facts are a register.</b> Name, Y-tunnus, Kangasala and email sit in a tabular strip at the foot of every page, in the same place every time.</li>
+    <li><b>The bark is real.</b> The pattern is traced from your trunk photo (IMG_1327, the grove, 2013), not a stock texture.</li>
+    <li><b>Ages slowly.</b> One family, one accent, no trend effects.</li>
+  </ul></div>
+</div></section>
+
+<section class="b"><div class="wrap">
+  <h2>Fragment: the first screen</h2>
+  <div class="frag f1">
+    <div class="trunk grow" aria-hidden="true"></div>
+    <div class="body">
+      <nav aria-label="Päävalikko"><span class="wm" aria-label="Koivupiilo">Ko<span class="i i1">ı</span>vup<span class="i i2">ı</span><span class="i i3">ı</span>lo</span>
+        <ul><li><a href="#">Työt</a></li><li><a href="#">Studio</a></li><li><a href="#">Valmennus</a></li><li><a href="#">Yritys</a></li><li><a href="#" lang="en">English</a></li></ul>
+        <a class="menu" href="#">Valikko</a></nav>
+      <div>
+        <h1>Koivupiilo tekee ohjelmistoja urheiluseuroille ja pienyrityksille.</h1>
+        <p class="j">Placeholder for the one sentence (strategy §3.1). The real one starts from your words.</p>
+      </div>
+      <ul class="work" aria-label="Työt">
+        <li><span class="n">Kvitti</span><span class="d">Kulukorvaukset yhdistyksille ja pienyrityksille.</span><span class="s on">pilotissa</span></li>
+        <li><span class="n">Beach volley -kartta</span><span class="d">Pohjoismaiden ja Baltian hallit ja kentät samalla kartalla.</span><span class="s on">käytössä</span></li>
+        <li><span class="n">Magistician</span><span class="d">Ottelun videosta kosketuskohtaiset tilastot ja klipit.</span><span class="s">kehitteillä</span></li>
+        <li><span class="n">Hyppymittaus</span><span class="d">Hyppykorkeus iPhonella, verkon antenni mittana.</span><span class="s">kehitteillä</span></li>
+      </ul>
+      <p class="reg"><b>Koivupiilo Oy</b><span>Y-tunnus 3458206-1</span><span>Kangasala</span><span>[sähköposti]</span></p>
+    </div>
+  </div>
+  <p class="frag-cap">Not a page design: it shows how type, trunk, list and register sit together. Status is a word plus a filled or open lenticel, never colour alone.</p>
+</div></section>
+
+<section class="b"><div class="wrap cols">
+  <div class="c12"><h2>Mark</h2></div>
+  <div class="c12 marks">
+    <span class="wm" style="font-size:5rem" aria-label="Koivupiilo">Ko<span class="i i1">ı</span>vup<span class="i i2">ı</span><span class="i i3">ı</span>lo</span>
+    <span class="wm" style="font-size:1.75rem" aria-label="Koivupiilo">Ko<span class="i i1">ı</span>vup<span class="i i2">ı</span><span class="i i3">ı</span>lo</span>
+    <span class="fav" aria-label="Favicon"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M2 6.2c4.5-2.1 11-2.1 16.5 0-5.5 1.9-12 1.9-16.5 0zM8 12.3c3-1.5 7.6-1.5 11.5 0-3.9 1.4-8.5 1.4-11.5 0zM4.5 18.4c3.7-1.8 9-1.8 13.5 0-4.5 1.6-9.8 1.6-13.5 0z"/></svg></span>
+    <span class="credit"><span>Kvitti · kvitti.fi</span><span><span class="wm" aria-label="Koivupiilo">Ko<span class="i i1">ı</span>vup<span class="i i2">ı</span><span class="i i3">ı</span>lo</span> Oy</span></span>
+  </div>
+  <div class="c7 note"><p>Hanken Grotesk 600 with dotless i’s and three lenticels of different lengths, as on a real trunk. The favicon is the three lenticels alone. The last item is the maker credit as it would sit in a product footer (strategy §6).</p><p>This is a concept-stage mark. If you pick this board, the mark gets drawn properly as outlines, with optical spacing, before it ships anywhere.</p></div>
+</div></section>
+
+<section class="b"><div class="wrap cols">
+  <div class="c12"><h2>Type</h2></div>
+  <div class="c8">
+    <p class="spec-big">Kuitit, kilometrit ja päivärahat.</p>
+    <div class="spec-row"><span>Display 550</span><div style="font-size:2rem;font-weight:550;letter-spacing:-.03em;line-height:1.1">Ohjelmistoja seuroille ja pienyrityksille</div></div>
+    <div class="spec-row"><span>Body 400</span><div style="max-width:60ch">Koivupiilo on koivikko Kangasalla. Paikalle antoivat nimen lapset, ja myöhemmin siihen rakennettiin talo. Yritys sai nimensä samasta paikasta.</div></div>
+    <div class="spec-row"><span>Small 500, tabular</span><div style="font-size:.8125rem;font-weight:500;font-variant-numeric:tabular-nums">Y-tunnus 3458206-1 · Perustettu 2024 · Kangasala</div></div>
+  </div>
+  <div class="c4 note"><p><b>Hanken Grotesk only</b> (OFL, self-hosted, variable 100–900). One family is the point: the system carries the identity, so type stays quiet and exact.</p><p>Finnish sets well in it: long compounds (<i>lentopallovalmentaja</i>) hold together, and ä and ö keep open counters at small sizes.</p><p>Paid alternative worth one line in the bundled proposal: a grotesk with more drawing in it (e.g. from a Nordic foundry) for the wordmark only.</p></div>
+</div></section>
+
+<section class="b"><div class="wrap cols">
+  <div class="c12"><h2>Colour</h2></div>
+  <div class="c8"><div class="swatches">
+    <div class="sw"><i style="--l:#f5f3ee;--d:#121210"></i><b>Tuohi</b>paper #F5F3EE<span class="dk">dark: #121210</span></div>
+    <div class="sw"><i style="--l:#151513;--d:#eeebe4"></i><b>Ink</b>#151513 · 16.5:1<span class="dk">dark: #EEEBE4 · 15.8:1</span></div>
+    <div class="sw"><i style="--l:#5c5a54;--d:#a29f97"></i><b>Muted</b>#5C5A54 · 6.2:1<span class="dk">dark: #A29F97 · 7.1:1</span></div>
+    <div class="sw"><i style="--l:#a4482a;--d:#e38a62"></i><b>Inner bark</b>#A4482A · 5.4:1<span class="dk">dark: #E38A62 · 7.2:1</span></div>
+  </div></div>
+  <div class="c4 note"><p>Bark-white and ink, with one accent: the rust-orange of the inside of birch bark (the side you see when you peel <i>tuohi</i>). It’s used only for focus rings and the active link. In dark mode the trunk turns light on near-black: same tree, at night.</p><p>Left half light, right half dark. Ratios are text on paper, WCAG AA in both schemes. They get re-checked with <code>ds contrast</code> once tokens exist.</p></div>
+</div></section>
+
+<section class="b"><div class="wrap cols">
+  <div class="c12"><h2>The bark element</h2></div>
+  <div class="c6"><div class="strips">
+    <figure><div class="trunk w1" aria-hidden="true"></div><figcaption>Phone edge, 28 px</figcaption></figure>
+    <figure><div class="trunk w2" aria-hidden="true"></div><figcaption>Desktop edge, 64 px</figcaption></figure>
+    <figure><div class="trunk w3" aria-hidden="true"></div><figcaption>Field, 14 %: 404 only</figcaption></figure>
+  </div></div>
+  <div class="c6 note"><p>One trunk, used three ways and nowhere else: as the left edge of each page, as the lenticels in the mark, and as a faint field on the 404 page (“eksyit koivikkoon”).</p><p>It’s a vector traced from your photo, so it is sharp at any size, costs about 30 KB gzipped, and takes its colour from the theme. The trunk scrolls with the page, with no parallax.</p></div>
+</div></section>
+
+<section class="b"><div class="wrap cols">
+  <div class="c12"><h2>Photography</h2></div>
+  <div class="c5"><figure class="photo"><img src="/assets/photos/birch-grove-900.jpg" alt="Koivikko syyskuussa: valkoisia runkoja, keltaisia lehtiä ja pellon reuna." width="900" height="1367"><figcaption>Koivupiilo, Kangasala, syyskuu 2013. Yritys page only. Needs your OK per photo.</figcaption></figure></div>
+  <div class="c7 note"><p><b>One photo, one place.</b> The grove appears on Yritys, beside the story of the name, in full colour and uncropped beyond the frame. The rest of the site is type and trunk, so the photo means something when it appears.</p><p>No product screenshots on this site (D14): the products’ own sites carry them.</p><p>Founder portrait: a plain, natural-light photo of you on Yritys. None exists yet, so it needs shooting.</p></div>
+</div></section>
+
+<section class="b"><div class="wrap cols">
+  <div class="c12"><h2>Motion</h2></div>
+  <div class="c6"><div class="motion-demo"><div class="trunk grow" id="m1" aria-hidden="true"></div><div><button type="button" onclick="const t=document.getElementById('m1');t.classList.remove('grow');void t.offsetWidth;t.classList.add('grow')">Replay</button></div></div></div>
+  <div class="c6"><ul class="plain note">
+    <li><b>Trunk grows, once.</b> On first load per session, the edge trunk draws in top to bottom: 900 ms, ease-out, after 150 ms. Purpose: the one moment that says “this is a birch”. It doesn’t replay on navigation.</li>
+    <li><b>Links:</b> underline thickness 1 → 2 px, 120 ms.</li>
+    <li><b>Nothing else moves.</b> No scroll reveals, parallax or autoplay.</li>
+    <li><b>Reduced motion:</b> the trunk is simply there.</li>
+  </ul></div>
+</div></section>
+
+<section class="b"><div class="wrap cols">
+  <div class="c12"><h2>References, at the bar</h2></div>
+  <div class="c12"><ul class="plain note">
+    <li><b>Werklig</b> (Helsinki): an identity built from one rule applied everywhere, and exact grids. We take the discipline: the trunk and the lenticel are the only rule.</li>
+    <li><b>Koto</b>: a brand mark drawn from something specific to the client, with type that stays out of its way. We take the specificity: the mark comes from this one tree.</li>
+    <li><b>Panic</b>: the whole company in one sentence, above everything. We take the one sentence and the register strip.</li>
+  </ul></div>
+</div></section>
+
+<section class="b"><div class="wrap cols">
+  <div class="c5"><h2>Weak at</h2></div>
+  <div class="c7"><ul class="plain note">
+    <li><b>Cooler.</b> Less warm than concept 2. The warmth has to come from the copy and from one photo.</li>
+    <li><b>The mark must be right.</b> If the lenticel i’s look like a gimmick at small size, the idea fails. It needs a proper drawing pass.</li>
+    <li><b>Club people may expect more pictures.</b> Concept 2 answers that better.</li>
+  </ul></div>
+</div></section>
+
+<div class="wrap board-foot">Built from the signed strategy (D19). Fonts are self-hosted OFL; nothing is loaded from third parties. The photo is spike-only until you OK it.</div>
+</body>
+</html>

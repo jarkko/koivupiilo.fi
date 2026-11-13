@@ -1,0 +1,1118 @@
+{
+  "kind": "defect",
+  "ui_diff_hash": "c4cc619c7bc641e2493f4e537e739ba711162fe389d7bd2934c30967231e9dd1",
+  "head_sha": "8ed8907d2f787e7e48a3e8dc8b8e2838d4b80d2f",
+  "reviewer_run_id": "term_8891a925-6975-42e9-a119-0bb5888eff03",
+  "implementer_family": "claude",
+  "reviewer_family": "codex",
+  "walked": [
+    "W0",
+    "W1",
+    "W2",
+    "W3",
+    "W4",
+    "W5"
+  ],
+  "regions": [
+    "fi_FI",
+    "en_GB"
+  ],
+  "rubric": [
+    {
+      "id": "house-rules",
+      "result": "pass",
+      "blocking": true,
+      "note": "The complete route/width/theme/region matrix is captured. Words accompany every status mark; links remain native, each offer has one primary email action, and there is no editable user state or destructive path. Ordinary 320/390/1440 reflow and the prior 200% computed-text failure were checked. Actual browser zoom and hardware limitations are stated in the notes, not passed by simulation.",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/capture.log",
+        "docs/design/reviews/evidence/c4cc619c/audit.json",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ]
+    },
+    {
+      "id": "model",
+      "result": "pass",
+      "blocking": true,
+      "note": "M1 dates are beside each status on both lists in both languages; D21 records the four truthful lifecycle states. M2 language switches retain place; M3 published claims trace to local content/owner decisions. D14/D19 govern the current short-index navigation; D22 governs capacity and defers a reply-time promise. The inherited S-1 visual-proof shortfall remains F6, a major design-quality finding at the same severity as the previous review.",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/supplement.json",
+        "docs/design/reviews/evidence/c4cc619c/audit.json",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ]
+    },
+    {
+      "id": "heuristics",
+      "result": "pass",
+      "blocking": true,
+      "note": "The current place is labelled, product links show their external destination, status/date meaning is explained, and both 404 recovery actions work in both locale contexts. Native navigation has no hidden state or irreversible action. External product flows and mail-client behaviour are outside the local review boundary.",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/supplement.json",
+        "docs/design/reviews/evidence/c4cc619c/audit.json",
+        "docs/design/reviews/evidence/c4cc619c/shots/404-fi-390-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ]
+    },
+    {
+      "id": "interaction-craft",
+      "result": "pass",
+      "blocking": true,
+      "note": "Click-driven navigation and cold-arrival strips retain visible text. Ordinary arrival animates only the decorative trunk; reduced motion leaves content and identity present. Keyboard skip reaches main on every route. No spinner, mutable data, undo, asynchronous submit or confirmation flow applies.",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/arrival.json",
+        "docs/design/reviews/evidence/c4cc619c/strips/arrival-fi-no-preference-0.png",
+        "docs/design/reviews/evidence/c4cc619c/strips/arrival-fi-no-preference-300.png",
+        "docs/design/reviews/evidence/c4cc619c/strips/arrival-fi-no-preference-1200.png",
+        "docs/design/reviews/evidence/c4cc619c/audit.json"
+      ]
+    },
+    {
+      "id": "platform",
+      "result": "pass",
+      "blocking": true,
+      "note": "No observed clipping or loss at 320/390/1440 or the 200% computed-font stress. All routes expose a visible first keyboard focus and working skip destination. The worst 404 bark/background contrast is calculated from unchanged tokens (ink 12.330 light / 11.041 dark). Automated axe warnings require these manual calculations. This is scoped evidence, not full WCAG certification: real browser zoom steps, Safari, screen reader and physical devices remain unverified.",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/audit.json",
+        "docs/design/reviews/evidence/c4cc619c/shots/work-en-390-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/audit-shots/front-fi-text200.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ]
+    },
+    {
+      "id": "owner-rules",
+      "result": "pass",
+      "blocking": true,
+      "note": "Appearance follows the system, with no toggle or visible UUID. Finnish uses beach volley. The company-origin sentence no longer mentions children or a house. Selma remains one sourced CV line; no athlete identity or unapproved client proof was added.",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/audit.json",
+        "docs/design/reviews/evidence/c4cc619c/shots/company-fi-390-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/shots/company-en-390-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ]
+    },
+    {
+      "id": "web-quality",
+      "result": "pass",
+      "blocking": true,
+      "note": "The production build, independent capture, fresh gate and same-render CI reports are preserved. No independent overflow, clipped text, small standalone phone target, third-party request or console error appeared. Lighthouse and visual reports pass; acknowledged keyboard-only skip-target and 404 contrast warnings are analysed in the notes.",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/build.log",
+        "docs/design/reviews/evidence/c4cc619c/capture.log",
+        "docs/design/reviews/evidence/c4cc619c/gate.json",
+        "docs/design/reviews/evidence/c4cc619c/automated-input.json",
+        "docs/design/reviews/evidence/c4cc619c/audit.json",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ]
+    },
+    {
+      "id": "plan-conformance",
+      "result": "pass",
+      "blocking": true,
+      "note": "The launch changes deliver per-item status verification dates, a responsive list, the shortened company definition, the approved D22 capacity line and the privacy edit in FI/EN. D19 supplies the current message hierarchy and short sitemap, D21 the lifecycle, and D22 the capacity/reply contract. No invented date or reply promise was introduced. F6 keeps the older S-1 visual ambition visible without recasting this correctness pass as best-in-class quality.",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/supplement.json",
+        "docs/design/reviews/evidence/c4cc619c/audit.json",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ]
+    },
+    {
+      "id": "approved-design",
+      "result": "fail",
+      "blocking": false,
+      "note": "The Tuohi palette, single family, birch edge, ruled register, lenticel marks and wordmark remain coherent with design/boards/1-tuohi.html. The supplied direction is followed, but the inherited actual-product-screen trust moment remains absent (F6); this is not a claim that the owner has signed off every older direction document.",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/quality-assessment.md",
+        "docs/design/reviews/evidence/c4cc619c/shots/front-fi-1440-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/shots/front-en-390-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ]
+    },
+    {
+      "id": "baseline",
+      "result": "pass",
+      "blocking": true,
+      "note": "All 104 baseline additions relative to main are mapped and hashed. The current status/date rows, shortened headline, approved capacity and grove copy are intentional; unchanged routes retain their visual structure. Fresh captures cover both system locales, and the visual module verifies the production renders.",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/baseline-manifest.json",
+        "docs/design/reviews/evidence/c4cc619c/capture.log",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "F6",
+      "severity": "major",
+      "rubric": "approved-design",
+      "walk": "W0",
+      "message": "Carried forward from review 2b66b9b3 F6: / and /en/ show real product names, purposes, honest statuses and checked dates, but no actual product screen. The work is legible in the first viewport; the stronger S-1 visual-proof ambition and references.md proof-above-fold bar remain unmet. Before closing the quality milestone, add one authentic, consent-safe product crop or explicitly reconcile S-1 with the owner. D14/D19 make the short company index the current launch structure, so this retains the previous major design-quality classification rather than inventing a new broken navigation or lifecycle requirement.",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/front-fi-1440-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/shots/front-en-390-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/quality-assessment.md",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ]
+    }
+  ],
+  "no_further_issues_reason": "W0–W5 were executed in fi_FI/en_GB; all 13 routes were captured at 390/1440, light/dark, in both locale contexts, plus 320px and computed text enlargement. The prior privacy, missing date, undecided lifecycle, collapsed description and capacity/reply findings were individually retested against D21/D22. No further local blocking defect reproduced. This static site has no forms, mutable collections, destructive actions or loading-data states to fabricate; external product sites, mail-client delivery, real browser zoom, assistive technology and hardware are explicit limits. F6 remains the one major design-quality gap rather than being hidden to manufacture an all-clear.",
+  "model_changes": [
+    {
+      "description": "D3/D19 make Finnish the default, pair translated routes, split Studio and Valmennus, merge company/contact and retain one bilingual 404.",
+      "decision_ref": "D19"
+    },
+    {
+      "description": "Standalone work-item marketing pages are replaced by brief introductions and outbound product links.",
+      "decision_ref": "D14"
+    },
+    {
+      "description": "Company voice is by name; founder/coaching passages identify the person, with the specifically approved capacity wording governed by D22.",
+      "decision_ref": "D16"
+    },
+    {
+      "description": "Four status states, filled/open mark semantics and a checked date beside every occurrence of a work item are recorded in M1.",
+      "decision_ref": "D21"
+    },
+    {
+      "description": "The owner-approved capacity line answers W4/S-3; the reply-time promise remains deferred until supplied by the owner.",
+      "decision_ref": "D22"
+    }
+  ],
+  "baselines_approved": [
+    {
+      "path": "docs/design/baselines/404.html/desktop-dark-en-GB.png",
+      "sha256": "9226b2ee772476c59f7d9179ef8c5d5eb8c4d915fb469c2d682fd8741a34d954",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/404-fi-1440-dark-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/404.html/desktop-dark-fi-FI.png",
+      "sha256": "9226b2ee772476c59f7d9179ef8c5d5eb8c4d915fb469c2d682fd8741a34d954",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/404-fi-1440-dark-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/404.html/desktop-light-en-GB.png",
+      "sha256": "4e5ca0866582d811a70fd6911ad2da25c612c2d4f158af313eb0660490749dba",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/404-fi-1440-light-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/404.html/desktop-light-fi-FI.png",
+      "sha256": "4e5ca0866582d811a70fd6911ad2da25c612c2d4f158af313eb0660490749dba",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/404-fi-1440-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/404.html/phone-dark-en-GB.png",
+      "sha256": "5585216e25ded078a4f2d119cbd8d400fef511ebcc2974b39afe6e4799c1e02a",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/404-fi-390-dark-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/404.html/phone-dark-fi-FI.png",
+      "sha256": "5585216e25ded078a4f2d119cbd8d400fef511ebcc2974b39afe6e4799c1e02a",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/404-fi-390-dark-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/404.html/phone-light-en-GB.png",
+      "sha256": "9149c53309de8bb84bc951c2d2d707f58ddc51b5b58c1288bb61cf62f015fb5a",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/404-fi-390-light-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/404.html/phone-light-fi-FI.png",
+      "sha256": "9149c53309de8bb84bc951c2d2d707f58ddc51b5b58c1288bb61cf62f015fb5a",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/404-fi-390-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/_root/desktop-dark-en-GB.png",
+      "sha256": "b23604e0a40bc50b7e6429c985e86916ab015573841bd898674f3538d932faa6",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/front-fi-1440-dark-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/_root/desktop-dark-fi-FI.png",
+      "sha256": "b23604e0a40bc50b7e6429c985e86916ab015573841bd898674f3538d932faa6",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/front-fi-1440-dark-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/_root/desktop-light-en-GB.png",
+      "sha256": "d5b4ad6cea3a7d4258d3eb53522025e28d0cf199b62cbaed29c89ec14e398ece",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/front-fi-1440-light-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/_root/desktop-light-fi-FI.png",
+      "sha256": "d5b4ad6cea3a7d4258d3eb53522025e28d0cf199b62cbaed29c89ec14e398ece",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/front-fi-1440-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/_root/phone-dark-en-GB.png",
+      "sha256": "bcf487977f37249c9d6fc9ae8272e353ac0e3700a7f1814d0cd8b6d92384c6ec",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/front-fi-390-dark-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/_root/phone-dark-fi-FI.png",
+      "sha256": "bcf487977f37249c9d6fc9ae8272e353ac0e3700a7f1814d0cd8b6d92384c6ec",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/front-fi-390-dark-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/_root/phone-light-en-GB.png",
+      "sha256": "4780a5e60ed1fbf90ad71a3f1d04e27e1b049e44a929e97a182a47e7356ac111",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/front-fi-390-light-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/_root/phone-light-fi-FI.png",
+      "sha256": "4780a5e60ed1fbf90ad71a3f1d04e27e1b049e44a929e97a182a47e7356ac111",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/front-fi-390-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/coaching/desktop-dark-en-GB.png",
+      "sha256": "faaf4c4179a522d371f4741eda8cdc72db014daa4caf6ca873fe968f685ccb16",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/coaching-en-1440-dark-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/coaching/desktop-dark-fi-FI.png",
+      "sha256": "faaf4c4179a522d371f4741eda8cdc72db014daa4caf6ca873fe968f685ccb16",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/coaching-en-1440-dark-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/coaching/desktop-light-en-GB.png",
+      "sha256": "53adee9ae0f0d52e876398e81011edaf5a5f42ec4e02650ee0faf6aadb6819fb",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/coaching-en-1440-light-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/coaching/desktop-light-fi-FI.png",
+      "sha256": "53adee9ae0f0d52e876398e81011edaf5a5f42ec4e02650ee0faf6aadb6819fb",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/coaching-en-1440-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/coaching/phone-dark-en-GB.png",
+      "sha256": "edc906635ec364bc3f00b04e34270fe5018bcb81f42ed88be961b2476da8d121",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/coaching-en-390-dark-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/coaching/phone-dark-fi-FI.png",
+      "sha256": "edc906635ec364bc3f00b04e34270fe5018bcb81f42ed88be961b2476da8d121",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/coaching-en-390-dark-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/coaching/phone-light-en-GB.png",
+      "sha256": "8b0c1e7b5bbc4f0746d6be637ed3b52be94d90be7fc03118e5c13e953432b177",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/coaching-en-390-light-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/coaching/phone-light-fi-FI.png",
+      "sha256": "8b0c1e7b5bbc4f0746d6be637ed3b52be94d90be7fc03118e5c13e953432b177",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/coaching-en-390-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/company/desktop-dark-en-GB.png",
+      "sha256": "2c1fb528deae09f6863954560486f8f47e085733ce5117aa4cb291bdfad99695",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/company-en-1440-dark-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/company/desktop-dark-fi-FI.png",
+      "sha256": "2c1fb528deae09f6863954560486f8f47e085733ce5117aa4cb291bdfad99695",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/company-en-1440-dark-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/company/desktop-light-en-GB.png",
+      "sha256": "1a2a5ffe7ca23cb953aec6549bc1c19c985d00756b62e012360c08fdc5187842",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/company-en-1440-light-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/company/desktop-light-fi-FI.png",
+      "sha256": "1a2a5ffe7ca23cb953aec6549bc1c19c985d00756b62e012360c08fdc5187842",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/company-en-1440-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/company/phone-dark-en-GB.png",
+      "sha256": "fec88e0b8f8ef60e02dfbac61e81ef18db08d0cf5253abf048dc8ea5ba65cc17",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/company-en-390-dark-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/company/phone-dark-fi-FI.png",
+      "sha256": "fec88e0b8f8ef60e02dfbac61e81ef18db08d0cf5253abf048dc8ea5ba65cc17",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/company-en-390-dark-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/company/phone-light-en-GB.png",
+      "sha256": "ea79b3234c26ed5caaba6c08e13b41d397aec82d5e4b41b95fae2011f4c16bdb",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/company-en-390-light-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/company/phone-light-fi-FI.png",
+      "sha256": "ea79b3234c26ed5caaba6c08e13b41d397aec82d5e4b41b95fae2011f4c16bdb",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/company-en-390-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/desktop-dark-en-GB.png",
+      "sha256": "a7124372ed897377a8d50c94e19181c548633b77cecd01a7e6fe36614d1623d4",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/front-en-1440-dark-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/desktop-dark-fi-FI.png",
+      "sha256": "a7124372ed897377a8d50c94e19181c548633b77cecd01a7e6fe36614d1623d4",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/front-en-1440-dark-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/desktop-light-en-GB.png",
+      "sha256": "a98aee446073a15a6657cfe079109cf56160e02564834558c85964c6f22f9608",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/front-en-1440-light-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/desktop-light-fi-FI.png",
+      "sha256": "a98aee446073a15a6657cfe079109cf56160e02564834558c85964c6f22f9608",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/front-en-1440-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/phone-dark-en-GB.png",
+      "sha256": "38461b702a2a9dec00128f55a8c877de341e44bdec05f953627d78a3243fb242",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/front-en-390-dark-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/phone-dark-fi-FI.png",
+      "sha256": "38461b702a2a9dec00128f55a8c877de341e44bdec05f953627d78a3243fb242",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/front-en-390-dark-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/phone-light-en-GB.png",
+      "sha256": "87d0aacd15cecbde0eeefe1f0f7001e83b90bf1ff103713d57605b00821df859",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/front-en-390-light-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/phone-light-fi-FI.png",
+      "sha256": "87d0aacd15cecbde0eeefe1f0f7001e83b90bf1ff103713d57605b00821df859",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/front-en-390-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/privacy/desktop-dark-en-GB.png",
+      "sha256": "9ef1fd2d2e5c540c176a93edb6c5ec7d28c93d514827fdc397015e3b908d4dce",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/privacy-en-1440-dark-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/privacy/desktop-dark-fi-FI.png",
+      "sha256": "9ef1fd2d2e5c540c176a93edb6c5ec7d28c93d514827fdc397015e3b908d4dce",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/privacy-en-1440-dark-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/privacy/desktop-light-en-GB.png",
+      "sha256": "36be54f9b927a92203e79eed8a818ed46608de488d38fabe8c40698e9f59ce71",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/privacy-en-1440-light-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/privacy/desktop-light-fi-FI.png",
+      "sha256": "36be54f9b927a92203e79eed8a818ed46608de488d38fabe8c40698e9f59ce71",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/privacy-en-1440-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/privacy/phone-dark-en-GB.png",
+      "sha256": "1d7ba008fb7db9fd9af9c1ff9932f2f7f88a2f1a3616808fb7fa02af96174904",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/privacy-en-390-dark-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/privacy/phone-dark-fi-FI.png",
+      "sha256": "1d7ba008fb7db9fd9af9c1ff9932f2f7f88a2f1a3616808fb7fa02af96174904",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/privacy-en-390-dark-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/privacy/phone-light-en-GB.png",
+      "sha256": "8aeb47cd1905a9afd0e0d2335e7ce8a995cd6f91d2c766ee0c7f32a5a95b6bdb",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/privacy-en-390-light-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/privacy/phone-light-fi-FI.png",
+      "sha256": "8aeb47cd1905a9afd0e0d2335e7ce8a995cd6f91d2c766ee0c7f32a5a95b6bdb",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/privacy-en-390-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/studio/desktop-dark-en-GB.png",
+      "sha256": "1c795c03fe89e8579c63fed215abfd20a96263b586e74fe23d06f83714c737ba",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/studio-en-1440-dark-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/studio/desktop-dark-fi-FI.png",
+      "sha256": "1c795c03fe89e8579c63fed215abfd20a96263b586e74fe23d06f83714c737ba",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/studio-en-1440-dark-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/studio/desktop-light-en-GB.png",
+      "sha256": "bfce0319ffb70d700654c22172afdc04d6cd1033565fa4a4af7fd7417c6b37be",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/studio-en-1440-light-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/studio/desktop-light-fi-FI.png",
+      "sha256": "bfce0319ffb70d700654c22172afdc04d6cd1033565fa4a4af7fd7417c6b37be",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/studio-en-1440-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/studio/phone-dark-en-GB.png",
+      "sha256": "729dcf9b48eef00fa7c5356a661e49b798d756c2efa5e47b5c7bbb91b5913612",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/studio-en-390-dark-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/studio/phone-dark-fi-FI.png",
+      "sha256": "729dcf9b48eef00fa7c5356a661e49b798d756c2efa5e47b5c7bbb91b5913612",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/studio-en-390-dark-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/studio/phone-light-en-GB.png",
+      "sha256": "261388390aa73fc98b22b89f8f065857387fde12076938054c94282b73ddf7db",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/studio-en-390-light-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/studio/phone-light-fi-FI.png",
+      "sha256": "261388390aa73fc98b22b89f8f065857387fde12076938054c94282b73ddf7db",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/studio-en-390-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/work/desktop-dark-en-GB.png",
+      "sha256": "ecbe52dd172b076b7e3bd4b2a897316f993506e8dadd0b2efb6d1e2178a50bb2",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/work-en-1440-dark-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/work/desktop-dark-fi-FI.png",
+      "sha256": "ecbe52dd172b076b7e3bd4b2a897316f993506e8dadd0b2efb6d1e2178a50bb2",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/work-en-1440-dark-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/work/desktop-light-en-GB.png",
+      "sha256": "1dc9b68de0bb261710689059374e8eebb62e0eeafbe8998f5c4118818d22af6f",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/work-en-1440-light-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/work/desktop-light-fi-FI.png",
+      "sha256": "1dc9b68de0bb261710689059374e8eebb62e0eeafbe8998f5c4118818d22af6f",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/work-en-1440-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/work/phone-dark-en-GB.png",
+      "sha256": "20f6bd0442837dee7eb0a744ba60b84bbc5c993fd4042712844b8470aa3b3cd5",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/work-en-390-dark-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/work/phone-dark-fi-FI.png",
+      "sha256": "20f6bd0442837dee7eb0a744ba60b84bbc5c993fd4042712844b8470aa3b3cd5",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/work-en-390-dark-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/work/phone-light-en-GB.png",
+      "sha256": "d4975c4f3df0632f8b4e46ffdc0a4c99634191bc464172fac674552eea089070",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/work-en-390-light-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/work/phone-light-fi-FI.png",
+      "sha256": "d4975c4f3df0632f8b4e46ffdc0a4c99634191bc464172fac674552eea089070",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/work-en-390-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/studio/desktop-dark-en-GB.png",
+      "sha256": "16373964cd955cd407b9683574b45261ae7dd9089587a4a45f000eb7d338875e",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/studio-fi-1440-dark-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/studio/desktop-dark-fi-FI.png",
+      "sha256": "16373964cd955cd407b9683574b45261ae7dd9089587a4a45f000eb7d338875e",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/studio-fi-1440-dark-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/studio/desktop-light-en-GB.png",
+      "sha256": "8d58549d20e89ff1ad35dd422b4b1ef389fd5bb942c5d00b9f665871871c814f",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/studio-fi-1440-light-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/studio/desktop-light-fi-FI.png",
+      "sha256": "8d58549d20e89ff1ad35dd422b4b1ef389fd5bb942c5d00b9f665871871c814f",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/studio-fi-1440-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/studio/phone-dark-en-GB.png",
+      "sha256": "08dd77de2f1a29f4ae9f839b70f1b874ae6dadb716bece5c786dadd02cda3ff6",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/studio-fi-390-dark-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/studio/phone-dark-fi-FI.png",
+      "sha256": "08dd77de2f1a29f4ae9f839b70f1b874ae6dadb716bece5c786dadd02cda3ff6",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/studio-fi-390-dark-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/studio/phone-light-en-GB.png",
+      "sha256": "2fa8da7adeaae7e7adb862237ddce712aa5abeecd43ba34937e6adcf9abf2701",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/studio-fi-390-light-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/studio/phone-light-fi-FI.png",
+      "sha256": "2fa8da7adeaae7e7adb862237ddce712aa5abeecd43ba34937e6adcf9abf2701",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/studio-fi-390-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/tietosuoja/desktop-dark-en-GB.png",
+      "sha256": "d3429e5fe7478a70be56d6a91c0adb5a2a7620dd7014792466f3cb224bca4ced",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/privacy-fi-1440-dark-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/tietosuoja/desktop-dark-fi-FI.png",
+      "sha256": "d3429e5fe7478a70be56d6a91c0adb5a2a7620dd7014792466f3cb224bca4ced",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/privacy-fi-1440-dark-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/tietosuoja/desktop-light-en-GB.png",
+      "sha256": "2782096683336eecf4b1e4e314fbdc751bb763d534d4daa9babf1a3546b93a5e",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/privacy-fi-1440-light-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/tietosuoja/desktop-light-fi-FI.png",
+      "sha256": "2782096683336eecf4b1e4e314fbdc751bb763d534d4daa9babf1a3546b93a5e",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/privacy-fi-1440-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/tietosuoja/phone-dark-en-GB.png",
+      "sha256": "c087309de6c3d669c716957262c660420d9e3c5d568cf7aac773ca484c40e831",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/privacy-fi-390-dark-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/tietosuoja/phone-dark-fi-FI.png",
+      "sha256": "c087309de6c3d669c716957262c660420d9e3c5d568cf7aac773ca484c40e831",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/privacy-fi-390-dark-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/tietosuoja/phone-light-en-GB.png",
+      "sha256": "8dbad6832aa3c654065775adb5c79ae65065cbb35379f3c8c72807de43381e38",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/privacy-fi-390-light-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/tietosuoja/phone-light-fi-FI.png",
+      "sha256": "8dbad6832aa3c654065775adb5c79ae65065cbb35379f3c8c72807de43381e38",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/privacy-fi-390-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/tyot/desktop-dark-en-GB.png",
+      "sha256": "e9173bdbf06b5eaf621a80044b6ecc91e49464e31b209086b89f2c3e956a065c",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/work-fi-1440-dark-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/tyot/desktop-dark-fi-FI.png",
+      "sha256": "e9173bdbf06b5eaf621a80044b6ecc91e49464e31b209086b89f2c3e956a065c",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/work-fi-1440-dark-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/tyot/desktop-light-en-GB.png",
+      "sha256": "7476b054597588155f1247b830be65ba0fb4ad06ce062a0b88e6600fce452777",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/work-fi-1440-light-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/tyot/desktop-light-fi-FI.png",
+      "sha256": "7476b054597588155f1247b830be65ba0fb4ad06ce062a0b88e6600fce452777",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/work-fi-1440-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/tyot/phone-dark-en-GB.png",
+      "sha256": "ba3d5ce6151994858210b03f3c78af57a8a94570fe75cf4ebe0c0f3838920594",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/work-fi-390-dark-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/tyot/phone-dark-fi-FI.png",
+      "sha256": "ba3d5ce6151994858210b03f3c78af57a8a94570fe75cf4ebe0c0f3838920594",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/work-fi-390-dark-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/tyot/phone-light-en-GB.png",
+      "sha256": "2e177d6ab1938d5fa8823aa10ea781febc942f547a2690719cf0ca2633260cf9",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/work-fi-390-light-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/tyot/phone-light-fi-FI.png",
+      "sha256": "2e177d6ab1938d5fa8823aa10ea781febc942f547a2690719cf0ca2633260cf9",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/work-fi-390-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/valmennus/desktop-dark-en-GB.png",
+      "sha256": "c6351351c6316e98e18e4c6462f6c2751cfceac8062f69e0418f863d26351c04",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/coaching-fi-1440-dark-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/valmennus/desktop-dark-fi-FI.png",
+      "sha256": "c6351351c6316e98e18e4c6462f6c2751cfceac8062f69e0418f863d26351c04",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/coaching-fi-1440-dark-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/valmennus/desktop-light-en-GB.png",
+      "sha256": "89c1566e2ccd76beaa7913b6ce21d737e46f9f71891574eb89750b197377e38f",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/coaching-fi-1440-light-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/valmennus/desktop-light-fi-FI.png",
+      "sha256": "89c1566e2ccd76beaa7913b6ce21d737e46f9f71891574eb89750b197377e38f",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/coaching-fi-1440-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/valmennus/phone-dark-en-GB.png",
+      "sha256": "fe9a2a0c36dcacb73b486d4693c27e3a4f4c41dbc4b7957dde8dea2ed7e77f08",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/coaching-fi-390-dark-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/valmennus/phone-dark-fi-FI.png",
+      "sha256": "fe9a2a0c36dcacb73b486d4693c27e3a4f4c41dbc4b7957dde8dea2ed7e77f08",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/coaching-fi-390-dark-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/valmennus/phone-light-en-GB.png",
+      "sha256": "5f24cd1a1c2b3351dd73ce8f5eaf243ef73f3f3196f1e63d41400aa1d848b5b8",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/coaching-fi-390-light-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/valmennus/phone-light-fi-FI.png",
+      "sha256": "5f24cd1a1c2b3351dd73ce8f5eaf243ef73f3f3196f1e63d41400aa1d848b5b8",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/coaching-fi-390-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/yritys/desktop-dark-en-GB.png",
+      "sha256": "77319edbd969eeb781b792a56a25a40c73731ee671c859b4b03538a39180d8c7",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/company-fi-1440-dark-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/yritys/desktop-dark-fi-FI.png",
+      "sha256": "77319edbd969eeb781b792a56a25a40c73731ee671c859b4b03538a39180d8c7",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/company-fi-1440-dark-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/yritys/desktop-light-en-GB.png",
+      "sha256": "1eec17a44965a5c1212e9a578421570da8259ab394097a309fa76e542d09c5ac",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/company-fi-1440-light-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/yritys/desktop-light-fi-FI.png",
+      "sha256": "1eec17a44965a5c1212e9a578421570da8259ab394097a309fa76e542d09c5ac",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/company-fi-1440-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/yritys/phone-dark-en-GB.png",
+      "sha256": "66ecd1ce392f31b9072f560909e5d8d6d4c57c663afab513945a78f0b8032d6b",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/company-fi-390-dark-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/yritys/phone-dark-fi-FI.png",
+      "sha256": "66ecd1ce392f31b9072f560909e5d8d6d4c57c663afab513945a78f0b8032d6b",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/company-fi-390-dark-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/yritys/phone-light-en-GB.png",
+      "sha256": "70e18b9236dc3fedf55b4d32d148874efcc56af0e6f462c382f93bec4fa5a0f0",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/company-fi-390-light-en-GB.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/yritys/phone-light-fi-FI.png",
+      "sha256": "70e18b9236dc3fedf55b4d32d148874efcc56af0e6f462c382f93bec4fa5a0f0",
+      "evidence": [
+        "docs/design/reviews/evidence/c4cc619c/shots/company-fi-390-light-fi-FI.png",
+        "docs/design/reviews/evidence/c4cc619c/review-notes.md"
+      ],
+      "taste_relevant": true
+    }
+  ],
+  "verdict": "pass"
+}

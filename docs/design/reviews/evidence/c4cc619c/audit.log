@@ -1,0 +1,45 @@
+{
+  "pages": 14,
+  "walkEvents": 42,
+  "enlarged": 14,
+  "blocked": [],
+  "errors": [],
+  "overflow": [],
+  "text200overflow": [],
+  "contrast": [
+    {
+      "scheme": "light",
+      "paper": "#f5f3ee",
+      "ink": "#151513",
+      "muted": "#5c5a54",
+      "opacity": 0.14,
+      "worstBackground": [
+        213.64,
+        211.92,
+        207.34
+      ],
+      "inkOnPaper": 16.48796393571554,
+      "mutedOnPaper": 6.218043522921362,
+      "inkOn404Bark": 12.330384497865296,
+      "mutedOn404Bark": 4.650111303069995,
+      "note": "404 paragraphs and links use ink; muted is included as a conservative extra."
+    },
+    {
+      "scheme": "dark",
+      "paper": "#121210",
+      "ink": "#eeebe4",
+      "muted": "#a29f97",
+      "opacity": 0.14,
+      "worstBackground": [
+        48.8,
+        48.38000000000001,
+        45.68
+      ],
+      "inkOnPaper": 15.75302855210969,
+      "mutedOnPaper": 7.093178819631625,
+      "inkOn404Bark": 11.041147928681244,
+      "mutedOn404Bark": 4.971541591070943,
+      "note": "404 paragraphs and links use ink; muted is included as a conservative extra."
+    }
+  ]
+}

@@ -1,10 +1,25 @@
-<footer class="site-footer">
-  <p>
-    <a href="mailto:<%= metadata.email %>"><%= metadata.email %></a>
-    ·
-    <a href="<%= metadata.social.linkedin %>" target="_blank" rel="noopener">LinkedIn</a>
-    ·
-    <a href="<%= metadata.social.github %>" target="_blank" rel="noopener">GitHub</a>
-  </p>
-  <p>&copy; <%= Date.today.year %> <%= metadata.company %>. <%= metadata.location %>.</p>
+<%
+  lang = data.lang
+  other = lang == "fi" ? "en" : "fi"
+  key = data.page_id
+  t = site.data.copy[lang]
+  c = site.data.company
+  routes = site.data.routes
+  switch = (routes[key] || routes["front"])[other]
+  city = [c.city, t.facts.country].reject(&:empty?).join(", ")
+%>
+<footer class="site-foot">
+  <dl class="facts" aria-label="<%= t.site.footer_label %>">
+    <div><dt><%= t.facts.company %></dt><dd><%= c.legal_name %></dd></div>
+    <div><dt><%= t.facts.business_id %></dt><dd><a href="<%= c.ytj_url %>"><%= c.business_id %><%= render "ext" %></a></dd></div>
+    <div><dt><%= t.facts.city %></dt><dd><%= city %></dd></div>
+    <div><dt><%= t.facts.email %></dt><dd><a href="mailto:<%= c.email %>"><%= c.email %></a></dd></div>
+  </dl>
+  <ul class="foot-links">
+    <li><a href="<%= routes["privacy"][lang] %>"<% if key == "privacy" %> aria-current="page"<% end %>><%= t.nav.privacy %></a></li>
+    <li><a href="<%= switch %>" lang="<%= other %>" hreflang="<%= other %>"><%= t.site.other_language %></a></li>
+  </ul>
+  <div class="foot-mark">
+    <%= render "wordmark", variant: :display %>
+  </div>
 </footer>

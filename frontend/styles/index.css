@@ -1,21 +1,8 @@
-@import "tailwindcss";
-@plugin "@tailwindcss/typography";
+@import "./tokens.css";
 
-@source "../../src/**/*.{html,md,liquid,erb,serb,rb}";
-@source "../javascript/**/*.js";
+/* Koivupiilo site styles. Values come from tokens.css; nothing raw here. */
 
-@theme {
-  --font-serif: "PT Serif", Georgia, "Times New Roman", serif;
-  --font-sans: "PT Sans", "Helvetica Neue", Arial, sans-serif;
-  --color-ink: #222222;
-  --color-muted: #888888;
-  --color-link: #1863a1;
-  --color-link-hover: #e4614e;
-  --color-border: #d4d4d4;
-  --color-surface: #f8f8f8;
-}
-
-/* Editorial layout inspired by jlaine.net */
+/* ---------- Base ---------- */
 
 *,
 *::before,
@@ -24,332 +11,751 @@
 }
 
 html {
-  -webkit-text-size-adjust: none;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
-  position: relative;
-  margin: 0 auto;
-  max-width: 1200px;
-  background: var(--color-surface);
-  color: var(--color-ink);
-  font-family: var(--font-serif);
-  font-size: 1.05rem;
-  line-height: 1.65;
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font);
+  font-size: var(--fs-body);
+  font-weight: var(--w-regular);
+  line-height: var(--lh-body);
+  font-kerning: normal;
+  font-synthesis: none;
+  /* A word longer than its line breaks instead of widening the page: Finnish compounds at 200 % text. */
+  overflow-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-@media (min-width: 768px) {
-  body {
-    font-size: 1.2rem;
-  }
+h1,
+h2,
+h3,
+p,
+ul,
+dl,
+dd,
+blockquote,
+figure {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3 {
+  font-size: inherit;
+  font-weight: var(--w-strong);
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+svg {
+  display: block;
+  fill: currentColor;
 }
 
 a {
-  color: var(--color-link);
-  text-decoration: none;
-  transition: color 0.3s ease;
+  color: inherit;
+  text-decoration-line: underline;
+  text-decoration-thickness: var(--underline);
+  text-underline-offset: var(--underline-offset);
+  transition: text-decoration-thickness var(--link-time);
 }
 
-a:hover,
-a:focus {
-  color: var(--color-link-hover);
+a:hover {
+  text-decoration-thickness: var(--underline-strong);
 }
 
-/* Site brand — vertical title on wide screens (matches jlaine.net technique) */
-
-.site-brand {
-  padding: 1.5rem 1.125rem 0;
-  text-align: center;
+:focus-visible {
+  outline: var(--focus) solid var(--accent);
+  outline-offset: var(--focus-offset);
+  border-radius: var(--radius);
 }
 
-.site-brand h1 {
-  margin: 0 0 0.5rem;
-  font-family: var(--font-sans);
-  font-size: 1.4rem;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  line-height: 1.2;
+main:focus {
+  outline: none;
 }
 
-.site-brand h1 a {
-  color: var(--color-ink);
-  text-decoration: none;
+::selection {
+  background: var(--ink);
+  color: var(--paper);
 }
 
-.site-brand h1 a:hover {
-  color: var(--color-link-hover);
+.skip {
+  position: absolute;
+  inset-block-start: var(--sp-2);
+  inset-inline-start: calc(var(--trunk) + var(--gutter));
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--target);
+  padding-inline: var(--sp-4);
+  background: var(--ink);
+  color: var(--paper);
+  font-size: var(--fs-meta);
+  font-weight: var(--w-medium);
+  text-decoration-line: none;
+  transform: translateY(-200%);
 }
 
-@media (min-width: 768px) {
-  .site-brand {
-    position: absolute;
-    top: 2.5rem;
-    left: 1.125rem;
-    z-index: 999;
-    padding: 0;
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
+.skip:focus-visible {
+  transform: none;
+}
+
+/* ---------- Page frame: the trunk down the left edge ---------- */
+
+.page {
+  display: grid;
+  grid-template-columns: var(--trunk) minmax(0, 1fr);
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+.trunk {
+  background: var(--bark);
+  -webkit-mask: url("../images/bark.svg") top center / 100% auto repeat-y;
+  mask: url("../images/bark.svg") top center / 100% auto repeat-y;
+}
+
+.page-body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: calc(var(--content-max) + 2 * var(--gutter));
+  padding-inline: var(--gutter);
+}
+
+main {
+  flex: 1;
+}
+
+/* The trunk grows once, on arrival from outside the site (see _head.erb).
+   It grows through the first screenful, so the whole 900 ms is in view; the rest
+   of the trunk is already there when the reader scrolls. */
+@media (prefers-reduced-motion: no-preference) {
+  .arrive .trunk {
+    animation: grow var(--grow-time) var(--grow-ease) var(--grow-delay) backwards;
+  }
+}
+
+@keyframes grow {
+  from {
+    clip-path: inset(0 0 100% 0);
   }
 
-  .site-brand h1 {
-    display: inline-block;
-    margin: 0;
-    font-size: 1.2rem;
-  }
-
-  .site-brand h1 a {
-    color: var(--color-muted);
+  to {
+    clip-path: inset(0 0 calc(100% - 100vh) 0);
   }
 }
 
-@media (min-width: 992px) {
-  .site-brand {
-    top: 5.5rem;
+@media (prefers-reduced-motion: reduce) {
+  a {
+    transition: none;
   }
+}
 
-  .site-brand h1 {
-    font-size: 1.3rem;
-  }
+/* ---------- Header ---------- */
+
+.site-head {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: var(--sp-5);
+  padding-block: var(--sp-3);
+}
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--target);
+  text-decoration-line: none;
+}
+
+.wordmark--text {
+  height: var(--wordmark-text);
+  width: auto;
 }
 
 .site-nav {
-  padding: 0 1.125rem;
-  text-align: center;
-}
-
-@media (min-width: 768px) {
-  .site-nav {
-    padding: 2.5rem 11.25rem 0;
-    text-align: left;
-  }
+  flex: 1 1 100%;
+  margin-inline: calc(-1 * var(--sp-2));
 }
 
 .site-nav ul {
-  margin: 0 0 1.5rem;
-  padding: 0;
-  list-style: none;
-  font-family: var(--font-sans);
-  font-size: 0.85rem;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.site-nav li {
-  display: inline;
-}
-
-.site-nav li + li::before {
-  content: " · ";
-  color: var(--color-muted);
+/* On a phone the language link sits on the wordmark's row, the four places below. */
+.site-nav .lang {
+  position: absolute;
+  inset-block-start: var(--sp-3);
+  inset-inline-end: calc(-1 * var(--sp-2));
 }
 
 .site-nav a {
-  color: var(--color-muted);
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: var(--target);
+  min-height: var(--target);
+  padding-inline: var(--sp-2);
+  font-size: var(--fs-meta);
+  font-weight: var(--w-medium);
+  text-decoration-line: none;
 }
 
-.site-nav a:hover,
-.site-nav a[aria-current="page"] {
-  color: var(--color-link-hover);
+/* Nav state is a lenticel under the word: open on hover, filled for the current page. */
+.site-nav a::after {
+  content: "";
+  position: absolute;
+  inset-block-end: var(--sp-1);
+  inset-inline-start: 50%;
+  width: var(--lenticel-w);
+  height: var(--lenticel-h);
+  border-radius: 50%;
+  translate: -50% 0;
 }
 
-/* Main content */
-
-#main {
-  padding: 0 1.125rem 3rem;
+.site-nav a:hover::after {
+  border: var(--lenticel-line) solid currentColor;
 }
 
-@media (min-width: 480px) {
-  #main {
-    padding-left: 4.5rem;
-    padding-right: 4.5rem;
+.site-nav a[aria-current="page"]::after {
+  border: 0;
+  background: var(--accent);
+}
+
+@media (min-width: 44rem) {
+  .site-head {
+    flex-wrap: nowrap;
+    padding-block: var(--sp-5);
+  }
+
+  .site-nav {
+    flex: 0 1 auto;
+  }
+
+  .site-nav ul {
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    column-gap: var(--sp-2);
+  }
+
+  .site-nav .lang {
+    position: static;
+    margin-inline-start: var(--sp-5);
   }
 }
 
-@media (min-width: 768px) {
-  #main {
-    padding: 2rem 11.25rem 5.5rem;
-  }
+/* ---------- Type ---------- */
+
+.statement {
+  max-width: var(--measure-statement);
+  font-size: var(--fs-statement);
+  font-weight: var(--w-display);
+  line-height: var(--lh-statement);
+  letter-spacing: var(--ls-statement);
 }
 
-@media (min-width: 992px) {
-  #main {
-    padding-top: 3rem;
-    padding-bottom: 6.5rem;
-  }
+.display {
+  font-size: var(--fs-display);
+  font-weight: var(--w-display);
+  line-height: var(--lh-display);
+  letter-spacing: var(--ls-display);
 }
 
-.intro-lede {
-  margin: 0 0 1.5rem;
-  font-size: 1.35rem;
-  line-height: 1.5;
+.lede {
+  max-width: var(--measure);
+  font-size: var(--fs-lede);
+  font-weight: var(--w-lede);
+  line-height: var(--lh-lede);
+  letter-spacing: var(--ls-lede);
 }
 
-@media (min-width: 768px) {
-  .intro-lede {
-    font-size: 1.5rem;
-  }
-}
-
-.intro-body p {
-  margin: 0 0 1.5rem;
-}
-
-.section-label {
-  margin: 2.5rem 0 1rem;
-  color: var(--color-muted);
-  font-family: var(--font-sans);
-  font-size: 0.75rem;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-}
-
-.work-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.work-list li {
-  margin: 0 0 1.75rem;
-  padding: 0 0 1.75rem;
-  border-bottom: 1px dotted var(--color-border);
-}
-
-.work-list li:last-child {
-  margin-bottom: 0;
-  padding-bottom: 0;
-  border-bottom: 0;
-}
-
-.work-list h2 {
-  margin: 0 0 0.35rem;
-  font-family: var(--font-sans);
-  font-size: 1rem;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-}
-
-.work-list h2 a {
-  color: var(--color-ink);
-}
-
-.work-list h2 a:hover {
-  color: var(--color-link-hover);
-}
-
-.work-list p {
-  margin: 0;
-  color: #444;
-  font-size: 0.95rem;
-}
-
-.contact-line {
-  margin-top: 2.5rem;
-  font-family: var(--font-sans);
-  font-size: 0.9rem;
-}
-
-.contact-line a {
-  font-weight: 700;
-}
-
-/* Inner pages */
-
-.page-title {
-  margin: 0 0 1.5rem;
-  font-family: var(--font-sans);
-  font-size: 1.5rem;
-  font-weight: 700;
-  line-height: 1.25;
-}
-
-@media (min-width: 992px) {
-  .page-title {
-    font-size: 1.75rem;
-  }
+.large {
+  max-width: var(--measure);
+  font-size: var(--fs-large);
+  line-height: var(--lh-large);
+  letter-spacing: var(--ls-large);
 }
 
 .prose {
-  max-width: 38em;
+  max-width: var(--measure);
 }
 
-.prose :where(h1, h2, h3, h4) {
-  font-family: var(--font-sans);
-  font-weight: 700;
-  line-height: 1.25;
-  margin-top: 2rem;
-  margin-bottom: 0.75rem;
+.prose > * + * {
+  margin-block-start: var(--sp-4);
 }
 
-.prose :where(h1) {
-  font-size: 1.5rem;
+.note {
+  color: var(--muted);
+  font-size: var(--fs-meta);
 }
 
-.prose :where(h2) {
-  font-size: 1.25rem;
+/* A link that stands alone on its line: a full 44 px target with an arrow. */
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--sp-2);
+  min-height: var(--target);
+  padding-inline-end: var(--sp-1);
+  font-size: var(--fs-meta);
+  font-weight: var(--w-medium);
 }
 
-.prose :where(h3) {
-  font-size: 1.1rem;
+.link::after {
+  content: "";
+  flex: none;
+  width: var(--icon);
+  height: var(--icon);
+  border-block-start: var(--lenticel-line) solid currentColor;
+  border-inline-end: var(--lenticel-line) solid currentColor;
+  rotate: 45deg;
 }
 
-.prose :where(p, ul, ol, blockquote) {
-  margin: 0 0 1.5rem;
+.ext {
+  display: inline-block;
+  width: var(--icon);
+  height: var(--icon);
+  margin-inline-start: var(--icon-gap);
+  fill: none;
+  stroke: currentColor;
+  stroke-width: var(--lenticel-line);
+  vertical-align: var(--icon-shift);
 }
 
-.prose :where(ul, ol) {
-  padding-left: 1.25rem;
+/* ---------- Page intro ---------- */
+
+.intro {
+  padding-block: var(--sp-intro) var(--sp-section);
 }
 
-.prose :where(blockquote) {
-  padding-left: 1rem;
-  border-left: 4px solid rgba(170, 170, 170, 0.5);
-  font-style: italic;
-  color: #444;
+.intro > * + * {
+  margin-block-start: var(--sp-5);
 }
 
-.prose :where(strong) {
-  font-weight: 700;
+.intro .facts {
+  margin-block-start: var(--sp-6);
 }
 
-.prose :where(hr) {
-  margin: 2rem 0;
-  border: 0;
-  border-top: 1px dotted var(--color-border);
+.byline {
+  color: var(--muted);
+  font-size: var(--fs-meta);
 }
 
-/* Footer */
+/* ---------- Register rows: a label column and a body, ruled above ---------- */
 
-.site-footer {
-  padding: 1rem 1.125rem 1.5rem;
-  border-top: 1px solid var(--color-border);
-  background: linear-gradient(#e8e8e8, #cccccc);
-  color: var(--color-muted);
-  font-family: var(--font-sans);
-  font-size: 0.8rem;
-  text-align: center;
+.row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--sp-4) var(--sp-6);
+  padding-block: var(--sp-4) var(--sp-section);
+  border-block-start: var(--hair) solid var(--ink);
 }
 
-@media (min-width: 768px) {
-  .site-footer {
-    padding-left: 11.25rem;
-    padding-right: 11.25rem;
+.row-label {
+  font-size: var(--fs-meta);
+  font-weight: var(--w-strong);
+  line-height: var(--lh-small);
+}
+
+.row-body > * + * {
+  margin-block-start: var(--sp-4);
+}
+
+.row-body > .link {
+  margin-block-start: var(--sp-2);
+}
+
+@media (min-width: 62rem) {
+  .row {
+    grid-template-columns: var(--label-col) minmax(0, 1fr);
+    padding-block-start: var(--sp-5);
+  }
+
+  .row-label {
+    padding-block-start: var(--sp-1);
+  }
+
+  /* A list row's first line sits lower (its name is a 44 px target); the label follows it. */
+  .row--list .row-label {
+    padding-block-start: var(--sp-3);
   }
 }
 
-.site-footer p {
-  margin: 0 0 0.35rem;
+/* ---------- Work list: name, one line, status ---------- */
+
+/* The list asks its own row body how wide it is, not the window: enlarged text narrows the body
+   in rem, and the list then stacks instead of squeezing the description between fixed columns. */
+.row-body {
+  container-type: inline-size;
 }
 
-.site-footer p:last-child {
-  margin-bottom: 0;
+/* Stacked: the name, the status with its date on one line, then the description. */
+.work li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  align-items: baseline;
+  gap: var(--sp-1) var(--sp-5);
+  padding-block: var(--sp-2) var(--sp-4);
+  border-block-end: var(--hair) solid var(--rule);
 }
 
-.site-footer a {
-  color: #666;
+.work li:first-child {
+  padding-block-start: 0;
 }
 
-.site-footer a:hover {
-  color: #484848;
+.work-name {
+  display: flex;
+  align-items: center;
+  min-height: var(--target);
+  font-weight: var(--w-strong);
+}
+
+.work-name a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--target);
+}
+
+.work-line {
+  order: 1;
+  max-width: var(--measure);
+  color: var(--muted);
+  font-size: var(--fs-meta);
+}
+
+/* Status is a word plus a lenticel: filled when someone uses the thing, open when not yet.
+   The date the status was last checked follows the word, and drops to its own line when text is large. */
+.status {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: var(--sp-2);
+  font-size: var(--fs-small);
+  font-weight: var(--w-medium);
+  line-height: var(--lh-small);
+  white-space: nowrap;
+  margin-block-end: var(--sp-1);
+}
+
+.status time {
+  color: var(--muted);
+  font-weight: var(--w-regular);
+  font-variant-numeric: tabular-nums;
+}
+
+.status::before {
+  content: "";
+  flex: none;
+  width: var(--lenticel-w);
+  height: var(--lenticel-h);
+  border: var(--lenticel-line) solid currentColor;
+  border-radius: 50%;
+}
+
+.status--on::before {
+  background: currentColor;
+}
+
+/* Columns once the row body has room for them: name, description, status with the date under the word. */
+@container (min-width: 41rem) {
+  .work li {
+    grid-template-columns: var(--work-name) minmax(0, 1fr) var(--work-status);
+    row-gap: 0;
+    padding-block: var(--sp-2);
+  }
+
+  .work li:first-child {
+    padding-block-start: 0;
+  }
+
+  .work-line {
+    order: 0;
+  }
+
+  .status {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: start;
+    margin-block-end: 0;
+  }
+
+  .status time {
+    grid-column: 2;
+  }
+}
+
+/* The same list without a status column (offers on Valmennus). */
+.work--plain li {
+  padding-block: var(--sp-3) var(--sp-4);
+}
+
+.work--plain .work-name {
+  min-height: 0;
+}
+
+@container (min-width: 41rem) {
+  .work--plain li {
+    grid-template-columns: var(--work-name) minmax(0, 1fr);
+    padding-block: var(--sp-3);
+  }
+}
+
+/* ---------- Facts: the register strip and the company table ---------- */
+
+/* Two columns until the desktop width (one where two don't fit), then all four in a row. */
+.facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(max(var(--fact-min), 40%), 1fr));
+  gap: var(--sp-4) var(--sp-7);
+  font-variant-numeric: tabular-nums;
+}
+
+@media (min-width: 62rem) {
+  .facts {
+    grid-template-columns: repeat(auto-fit, minmax(var(--fact-min), max-content));
+  }
+}
+
+.facts dt,
+.table dt {
+  color: var(--muted);
+  font-size: var(--fs-small);
+  line-height: var(--lh-small);
+}
+
+.facts dd {
+  font-size: var(--fs-meta);
+  font-weight: var(--w-medium);
+  overflow-wrap: anywhere;
+}
+
+.facts div {
+  min-height: var(--target);
+}
+
+/* A link in a facts cell gets a full-size target centred on its text. */
+.facts a {
+  position: relative;
+}
+
+.facts a::before {
+  content: "";
+  position: absolute;
+  inset-block-start: 50%;
+  inset-inline: 0;
+  height: var(--target);
+  translate: 0 -50%;
+}
+
+.table {
+  max-width: var(--measure);
+  font-variant-numeric: tabular-nums;
+}
+
+.table div:first-child {
+  padding-block-start: 0;
+}
+
+/* A link in a table row takes the whole row as its target. */
+.table div {
+  position: relative;
+  min-height: var(--target);
+  padding-block: var(--sp-3);
+  border-block-end: var(--hair) solid var(--rule);
+}
+
+@media (min-width: 44rem) {
+  .table div {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 5fr);
+    gap: var(--sp-4);
+    align-items: baseline;
+  }
+
+  .table dt {
+    font-size: var(--fs-meta);
+  }
+}
+
+.table a::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+}
+
+.plain-list li {
+  max-width: var(--measure);
+  padding-block: var(--sp-3);
+  border-block-end: var(--hair) solid var(--rule);
+}
+
+.row-body > .plain-list:first-child li:first-child {
+  padding-block-start: 0;
+}
+
+/* ---------- Founder note ---------- */
+
+.voice p {
+  max-width: var(--measure);
+  font-size: var(--fs-large);
+  line-height: var(--lh-large);
+  letter-spacing: var(--ls-large);
+}
+
+.voice footer {
+  margin-block-start: var(--sp-2);
+  color: var(--muted);
+  font-size: var(--fs-meta);
+}
+
+/* ---------- The one primary action: write an email ---------- */
+
+.cta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--sp-2) var(--sp-5);
+  margin-block-start: var(--sp-5);
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--sp-7);
+  padding-inline: var(--sp-5);
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: var(--radius);
+  font-size: var(--fs-body);
+  font-weight: var(--w-strong);
+  text-decoration-line: none;
+}
+
+.button:hover {
+  text-decoration-line: underline;
+}
+
+.cta-address {
+  color: var(--muted);
+  font-size: var(--fs-meta);
+  overflow-wrap: anywhere;
+}
+
+/* ---------- Footer: the register, in the same place on every page ---------- */
+
+.site-foot {
+  margin-block-start: var(--sp-section);
+  padding-block: var(--sp-5) var(--sp-6);
+  border-block-start: var(--hair) solid var(--ink);
+}
+
+.foot-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 var(--sp-5);
+  margin-block-start: var(--sp-4);
+}
+
+.foot-links a {
+  display: inline-flex;
+  align-items: center;
+  min-width: var(--target);
+  min-height: var(--target);
+  font-size: var(--fs-meta);
+  font-weight: var(--w-medium);
+}
+
+.foot-mark {
+  margin-block-start: var(--sp-7);
+}
+
+.wordmark--display {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 62rem) {
+  .site-foot {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    column-gap: var(--sp-6);
+    align-items: start;
+  }
+
+  .foot-links {
+    margin-block-start: 0;
+  }
+
+  .foot-links a {
+    min-height: 0;
+    padding-block: var(--sp-4) 0;
+  }
+
+  .foot-mark {
+    grid-column: 1 / -1;
+  }
+}
+
+/* ---------- 404: a faint field of bark ---------- */
+
+.notfound {
+  position: relative;
+  display: grid;
+  align-content: center;
+  gap: var(--sp-7);
+  min-height: var(--notfound-min);
+  padding-block: var(--sp-section);
+}
+
+.notfound::before {
+  content: "";
+  position: absolute;
+  inset: 0 calc(-1 * var(--gutter));
+  background: var(--bark);
+  opacity: var(--field-opacity);
+  /* Four more trunks behind the text: the grove you got lost in. */
+  -webkit-mask:
+    url("../images/bark.svg") var(--grove-1) repeat-y,
+    url("../images/bark.svg") var(--grove-2) repeat-y,
+    url("../images/bark.svg") var(--grove-3) repeat-y,
+    url("../images/bark.svg") var(--grove-4) repeat-y;
+  mask:
+    url("../images/bark.svg") var(--grove-1) repeat-y,
+    url("../images/bark.svg") var(--grove-2) repeat-y,
+    url("../images/bark.svg") var(--grove-3) repeat-y,
+    url("../images/bark.svg") var(--grove-4) repeat-y;
+}
+
+.notfound section {
+  position: relative;
+  max-width: var(--measure);
+}
+
+.notfound section > * + * {
+  margin-block-start: var(--sp-3);
+}
+
+.notfound h1,
+.notfound h2 {
+  font-size: var(--fs-lede);
+  font-weight: var(--w-display);
+  line-height: var(--lh-lede);
+  letter-spacing: var(--ls-lede);
 }
