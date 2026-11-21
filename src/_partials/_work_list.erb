@@ -10,8 +10,8 @@
   <li>
     <h3 class="work-name"><% if item.url %><a href="<%= item.url %>"><%= item.name[lang] %><%= render "ext" %></a><% else %><%= item.name[lang] %><% end %></h3>
     <p class="work-line"><%= item.line[lang] %></p>
-    <p class="status<%= " status--on" if status.in_use %>"><span><%= status[lang] %></span> <time datetime="<%= item.checked.iso8601 %>"><%= item.checked.strftime(date_format) %></time></p>
+    <p class="status<%= " status--on" if status.in_use %>"><span><%= status[lang] %></span> · <%= site.data.copy[lang].pages.work.checked %> <time datetime="<%= item.checked.iso8601 %>"><%= item.checked.strftime(date_format) %></time></p>
   </li>
   <% end %>
 </ul>
-<p class="note"><%= site.data.copy[lang].pages.work.checked %></p>
+
