@@ -1,0 +1,578 @@
+[
+  {
+    "name": "long-confirmation-hyphenated-fi-320-light-font16",
+    "email": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+    "characters": 66,
+    "innerWidth": 320,
+    "scrollWidth": 320,
+    "bodyFont": "17px",
+    "message": "Lähetimme vahvistusviestin osoitteeseen marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Vahvista osoitteesi viestin painikkeella.",
+    "status": {
+      "left": 62.796875,
+      "right": 304,
+      "width": 241.203125,
+      "font": "17px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 241.203125
+  },
+  {
+    "name": "long-confirmation-unbroken-fi-320-light-font16",
+    "email": "liisa.korhonen@suunnistusseurankilpailutoimikunta.example",
+    "characters": 57,
+    "innerWidth": 320,
+    "scrollWidth": 539,
+    "bodyFont": "17px",
+    "message": "Lähetimme vahvistusviestin osoitteeseen liisa.korhonen@suunnistusseurankilpailutoimikunta.example. Vahvista osoitteesi viestin painikkeella.",
+    "status": {
+      "left": 62.796875,
+      "right": 539.09375,
+      "width": 476.296875,
+      "font": "17px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 241.203125
+  },
+  {
+    "name": "long-confirmation-hyphenated-fi-320-dark-font16",
+    "email": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+    "characters": 66,
+    "innerWidth": 320,
+    "scrollWidth": 320,
+    "bodyFont": "17px",
+    "message": "Lähetimme vahvistusviestin osoitteeseen marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Vahvista osoitteesi viestin painikkeella.",
+    "status": {
+      "left": 62.796875,
+      "right": 304,
+      "width": 241.203125,
+      "font": "17px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 241.203125
+  },
+  {
+    "name": "long-confirmation-unbroken-fi-320-dark-font16",
+    "email": "liisa.korhonen@suunnistusseurankilpailutoimikunta.example",
+    "characters": 57,
+    "innerWidth": 320,
+    "scrollWidth": 539,
+    "bodyFont": "17px",
+    "message": "Lähetimme vahvistusviestin osoitteeseen liisa.korhonen@suunnistusseurankilpailutoimikunta.example. Vahvista osoitteesi viestin painikkeella.",
+    "status": {
+      "left": 62.796875,
+      "right": 539.09375,
+      "width": 476.296875,
+      "font": "17px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 241.203125
+  },
+  {
+    "name": "long-confirmation-hyphenated-fi-390-light-font16",
+    "email": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+    "characters": 66,
+    "innerWidth": 390,
+    "scrollWidth": 390,
+    "bodyFont": "17px",
+    "message": "Lähetimme vahvistusviestin osoitteeseen marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Vahvista osoitteesi viestin painikkeella.",
+    "status": {
+      "left": 62.796875,
+      "right": 374,
+      "width": 311.203125,
+      "font": "17px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 311.203125
+  },
+  {
+    "name": "long-confirmation-unbroken-fi-390-light-font16",
+    "email": "liisa.korhonen@suunnistusseurankilpailutoimikunta.example",
+    "characters": 57,
+    "innerWidth": 390,
+    "scrollWidth": 539,
+    "bodyFont": "17px",
+    "message": "Lähetimme vahvistusviestin osoitteeseen liisa.korhonen@suunnistusseurankilpailutoimikunta.example. Vahvista osoitteesi viestin painikkeella.",
+    "status": {
+      "left": 62.796875,
+      "right": 539.09375,
+      "width": 476.296875,
+      "font": "17px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 311.203125
+  },
+  {
+    "name": "long-confirmation-hyphenated-fi-390-dark-font16",
+    "email": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+    "characters": 66,
+    "innerWidth": 390,
+    "scrollWidth": 390,
+    "bodyFont": "17px",
+    "message": "Lähetimme vahvistusviestin osoitteeseen marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Vahvista osoitteesi viestin painikkeella.",
+    "status": {
+      "left": 62.796875,
+      "right": 374,
+      "width": 311.203125,
+      "font": "17px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 311.203125
+  },
+  {
+    "name": "long-confirmation-unbroken-fi-390-dark-font16",
+    "email": "liisa.korhonen@suunnistusseurankilpailutoimikunta.example",
+    "characters": 57,
+    "innerWidth": 390,
+    "scrollWidth": 539,
+    "bodyFont": "17px",
+    "message": "Lähetimme vahvistusviestin osoitteeseen liisa.korhonen@suunnistusseurankilpailutoimikunta.example. Vahvista osoitteesi viestin painikkeella.",
+    "status": {
+      "left": 62.796875,
+      "right": 539.09375,
+      "width": 476.296875,
+      "font": "17px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 311.203125
+  },
+  {
+    "name": "long-confirmation-hyphenated-en-320-light-font16",
+    "email": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+    "characters": 66,
+    "innerWidth": 320,
+    "scrollWidth": 320,
+    "bodyFont": "17px",
+    "message": "We sent a confirmation email to marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Confirm your address with the button in it.",
+    "status": {
+      "left": 62.796875,
+      "right": 304,
+      "width": 241.203125,
+      "font": "17px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 241.203125
+  },
+  {
+    "name": "long-confirmation-unbroken-en-320-light-font16",
+    "email": "liisa.korhonen@suunnistusseurankilpailutoimikunta.example",
+    "characters": 57,
+    "innerWidth": 320,
+    "scrollWidth": 539,
+    "bodyFont": "17px",
+    "message": "We sent a confirmation email to liisa.korhonen@suunnistusseurankilpailutoimikunta.example. Confirm your address with the button in it.",
+    "status": {
+      "left": 62.796875,
+      "right": 539.09375,
+      "width": 476.296875,
+      "font": "17px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 241.203125
+  },
+  {
+    "name": "long-confirmation-hyphenated-en-320-dark-font16",
+    "email": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+    "characters": 66,
+    "innerWidth": 320,
+    "scrollWidth": 320,
+    "bodyFont": "17px",
+    "message": "We sent a confirmation email to marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Confirm your address with the button in it.",
+    "status": {
+      "left": 62.796875,
+      "right": 304,
+      "width": 241.203125,
+      "font": "17px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 241.203125
+  },
+  {
+    "name": "long-confirmation-unbroken-en-320-dark-font16",
+    "email": "liisa.korhonen@suunnistusseurankilpailutoimikunta.example",
+    "characters": 57,
+    "innerWidth": 320,
+    "scrollWidth": 539,
+    "bodyFont": "17px",
+    "message": "We sent a confirmation email to liisa.korhonen@suunnistusseurankilpailutoimikunta.example. Confirm your address with the button in it.",
+    "status": {
+      "left": 62.796875,
+      "right": 539.09375,
+      "width": 476.296875,
+      "font": "17px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 241.203125
+  },
+  {
+    "name": "long-confirmation-hyphenated-en-390-light-font16",
+    "email": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+    "characters": 66,
+    "innerWidth": 390,
+    "scrollWidth": 390,
+    "bodyFont": "17px",
+    "message": "We sent a confirmation email to marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Confirm your address with the button in it.",
+    "status": {
+      "left": 62.796875,
+      "right": 374,
+      "width": 311.203125,
+      "font": "17px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 311.203125
+  },
+  {
+    "name": "long-confirmation-unbroken-en-390-light-font16",
+    "email": "liisa.korhonen@suunnistusseurankilpailutoimikunta.example",
+    "characters": 57,
+    "innerWidth": 390,
+    "scrollWidth": 539,
+    "bodyFont": "17px",
+    "message": "We sent a confirmation email to liisa.korhonen@suunnistusseurankilpailutoimikunta.example. Confirm your address with the button in it.",
+    "status": {
+      "left": 62.796875,
+      "right": 539.09375,
+      "width": 476.296875,
+      "font": "17px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 311.203125
+  },
+  {
+    "name": "long-confirmation-hyphenated-en-390-dark-font16",
+    "email": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+    "characters": 66,
+    "innerWidth": 390,
+    "scrollWidth": 390,
+    "bodyFont": "17px",
+    "message": "We sent a confirmation email to marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Confirm your address with the button in it.",
+    "status": {
+      "left": 62.796875,
+      "right": 374,
+      "width": 311.203125,
+      "font": "17px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 311.203125
+  },
+  {
+    "name": "long-confirmation-unbroken-en-390-dark-font16",
+    "email": "liisa.korhonen@suunnistusseurankilpailutoimikunta.example",
+    "characters": 57,
+    "innerWidth": 390,
+    "scrollWidth": 539,
+    "bodyFont": "17px",
+    "message": "We sent a confirmation email to liisa.korhonen@suunnistusseurankilpailutoimikunta.example. Confirm your address with the button in it.",
+    "status": {
+      "left": 62.796875,
+      "right": 539.09375,
+      "width": 476.296875,
+      "font": "17px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 311.203125
+  },
+  {
+    "name": "long-confirmation-hyphenated-fi-320-light-font24",
+    "email": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+    "characters": 66,
+    "innerWidth": 320,
+    "scrollWidth": 412,
+    "bodyFont": "25.5px",
+    "message": "Lähetimme vahvistusviestin osoitteeseen marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Vahvista osoitteesi viestin painikkeella.",
+    "status": {
+      "left": 68.390625,
+      "right": 411.703125,
+      "width": 343.3125,
+      "font": "25.5px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 233.609375
+  },
+  {
+    "name": "long-confirmation-unbroken-fi-320-light-font24",
+    "email": "liisa.korhonen@suunnistusseurankilpailutoimikunta.example",
+    "characters": 57,
+    "innerWidth": 320,
+    "scrollWidth": 783,
+    "bodyFont": "25.5px",
+    "message": "Lähetimme vahvistusviestin osoitteeseen liisa.korhonen@suunnistusseurankilpailutoimikunta.example. Vahvista osoitteesi viestin painikkeella.",
+    "status": {
+      "left": 68.390625,
+      "right": 782.84375,
+      "width": 714.453125,
+      "font": "25.5px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 233.609375
+  },
+  {
+    "name": "long-confirmation-hyphenated-fi-320-dark-font24",
+    "email": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+    "characters": 66,
+    "innerWidth": 320,
+    "scrollWidth": 412,
+    "bodyFont": "25.5px",
+    "message": "Lähetimme vahvistusviestin osoitteeseen marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Vahvista osoitteesi viestin painikkeella.",
+    "status": {
+      "left": 68.390625,
+      "right": 411.703125,
+      "width": 343.3125,
+      "font": "25.5px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 233.609375
+  },
+  {
+    "name": "long-confirmation-unbroken-fi-320-dark-font24",
+    "email": "liisa.korhonen@suunnistusseurankilpailutoimikunta.example",
+    "characters": 57,
+    "innerWidth": 320,
+    "scrollWidth": 783,
+    "bodyFont": "25.5px",
+    "message": "Lähetimme vahvistusviestin osoitteeseen liisa.korhonen@suunnistusseurankilpailutoimikunta.example. Vahvista osoitteesi viestin painikkeella.",
+    "status": {
+      "left": 68.390625,
+      "right": 782.84375,
+      "width": 714.453125,
+      "font": "25.5px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 233.609375
+  },
+  {
+    "name": "long-confirmation-hyphenated-fi-390-light-font24",
+    "email": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+    "characters": 66,
+    "innerWidth": 390,
+    "scrollWidth": 412,
+    "bodyFont": "25.5px",
+    "message": "Lähetimme vahvistusviestin osoitteeseen marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Vahvista osoitteesi viestin painikkeella.",
+    "status": {
+      "left": 68.390625,
+      "right": 411.703125,
+      "width": 343.3125,
+      "font": "25.5px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 303.609375
+  },
+  {
+    "name": "long-confirmation-unbroken-fi-390-light-font24",
+    "email": "liisa.korhonen@suunnistusseurankilpailutoimikunta.example",
+    "characters": 57,
+    "innerWidth": 390,
+    "scrollWidth": 783,
+    "bodyFont": "25.5px",
+    "message": "Lähetimme vahvistusviestin osoitteeseen liisa.korhonen@suunnistusseurankilpailutoimikunta.example. Vahvista osoitteesi viestin painikkeella.",
+    "status": {
+      "left": 68.390625,
+      "right": 782.84375,
+      "width": 714.453125,
+      "font": "25.5px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 303.609375
+  },
+  {
+    "name": "long-confirmation-hyphenated-fi-390-dark-font24",
+    "email": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+    "characters": 66,
+    "innerWidth": 390,
+    "scrollWidth": 412,
+    "bodyFont": "25.5px",
+    "message": "Lähetimme vahvistusviestin osoitteeseen marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Vahvista osoitteesi viestin painikkeella.",
+    "status": {
+      "left": 68.390625,
+      "right": 411.703125,
+      "width": 343.3125,
+      "font": "25.5px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 303.609375
+  },
+  {
+    "name": "long-confirmation-unbroken-fi-390-dark-font24",
+    "email": "liisa.korhonen@suunnistusseurankilpailutoimikunta.example",
+    "characters": 57,
+    "innerWidth": 390,
+    "scrollWidth": 783,
+    "bodyFont": "25.5px",
+    "message": "Lähetimme vahvistusviestin osoitteeseen liisa.korhonen@suunnistusseurankilpailutoimikunta.example. Vahvista osoitteesi viestin painikkeella.",
+    "status": {
+      "left": 68.390625,
+      "right": 782.84375,
+      "width": 714.453125,
+      "font": "25.5px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 303.609375
+  },
+  {
+    "name": "long-confirmation-hyphenated-en-320-light-font24",
+    "email": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+    "characters": 66,
+    "innerWidth": 320,
+    "scrollWidth": 412,
+    "bodyFont": "25.5px",
+    "message": "We sent a confirmation email to marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Confirm your address with the button in it.",
+    "status": {
+      "left": 68.390625,
+      "right": 411.703125,
+      "width": 343.3125,
+      "font": "25.5px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 233.609375
+  },
+  {
+    "name": "long-confirmation-unbroken-en-320-light-font24",
+    "email": "liisa.korhonen@suunnistusseurankilpailutoimikunta.example",
+    "characters": 57,
+    "innerWidth": 320,
+    "scrollWidth": 783,
+    "bodyFont": "25.5px",
+    "message": "We sent a confirmation email to liisa.korhonen@suunnistusseurankilpailutoimikunta.example. Confirm your address with the button in it.",
+    "status": {
+      "left": 68.390625,
+      "right": 782.859375,
+      "width": 714.46875,
+      "font": "25.5px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 233.609375
+  },
+  {
+    "name": "long-confirmation-hyphenated-en-320-dark-font24",
+    "email": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+    "characters": 66,
+    "innerWidth": 320,
+    "scrollWidth": 412,
+    "bodyFont": "25.5px",
+    "message": "We sent a confirmation email to marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Confirm your address with the button in it.",
+    "status": {
+      "left": 68.390625,
+      "right": 411.703125,
+      "width": 343.3125,
+      "font": "25.5px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 233.609375
+  },
+  {
+    "name": "long-confirmation-unbroken-en-320-dark-font24",
+    "email": "liisa.korhonen@suunnistusseurankilpailutoimikunta.example",
+    "characters": 57,
+    "innerWidth": 320,
+    "scrollWidth": 783,
+    "bodyFont": "25.5px",
+    "message": "We sent a confirmation email to liisa.korhonen@suunnistusseurankilpailutoimikunta.example. Confirm your address with the button in it.",
+    "status": {
+      "left": 68.390625,
+      "right": 782.859375,
+      "width": 714.46875,
+      "font": "25.5px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 233.609375
+  },
+  {
+    "name": "long-confirmation-hyphenated-en-390-light-font24",
+    "email": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+    "characters": 66,
+    "innerWidth": 390,
+    "scrollWidth": 412,
+    "bodyFont": "25.5px",
+    "message": "We sent a confirmation email to marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Confirm your address with the button in it.",
+    "status": {
+      "left": 68.390625,
+      "right": 411.703125,
+      "width": 343.3125,
+      "font": "25.5px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 303.609375
+  },
+  {
+    "name": "long-confirmation-unbroken-en-390-light-font24",
+    "email": "liisa.korhonen@suunnistusseurankilpailutoimikunta.example",
+    "characters": 57,
+    "innerWidth": 390,
+    "scrollWidth": 783,
+    "bodyFont": "25.5px",
+    "message": "We sent a confirmation email to liisa.korhonen@suunnistusseurankilpailutoimikunta.example. Confirm your address with the button in it.",
+    "status": {
+      "left": 68.390625,
+      "right": 782.859375,
+      "width": 714.46875,
+      "font": "25.5px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 303.609375
+  },
+  {
+    "name": "long-confirmation-hyphenated-en-390-dark-font24",
+    "email": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+    "characters": 66,
+    "innerWidth": 390,
+    "scrollWidth": 412,
+    "bodyFont": "25.5px",
+    "message": "We sent a confirmation email to marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Confirm your address with the button in it.",
+    "status": {
+      "left": 68.390625,
+      "right": 411.703125,
+      "width": 343.3125,
+      "font": "25.5px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 303.609375
+  },
+  {
+    "name": "long-confirmation-unbroken-en-390-dark-font24",
+    "email": "liisa.korhonen@suunnistusseurankilpailutoimikunta.example",
+    "characters": 57,
+    "innerWidth": 390,
+    "scrollWidth": 783,
+    "bodyFont": "25.5px",
+    "message": "We sent a confirmation email to liisa.korhonen@suunnistusseurankilpailutoimikunta.example. Confirm your address with the button in it.",
+    "status": {
+      "left": 68.390625,
+      "right": 782.859375,
+      "width": 714.46875,
+      "font": "25.5px",
+      "overflowWrap": "break-word",
+      "minWidth": "auto"
+    },
+    "formWidth": 303.609375
+  }
+]
