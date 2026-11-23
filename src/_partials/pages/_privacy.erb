@@ -26,6 +26,22 @@
 </section>
 <% end %>
 
+<%
+  # Product section, copied verbatim from launchpad main kit/privacy/ratametsuri.<lang>.md (!74).
+  # Update by copying again; don't edit here.
+  rm_md = File.read(File.join(site.config.source, "_partials", "privacy", "ratametsuri.#{lang}.md"))
+  rm_heading, rm_body = rm_md.split("\n", 2)
+  rm_heading = rm_heading.sub(/\A##\s*/, "")
+%>
+<section class="row" aria-labelledby="ratametsuri">
+  <h2 class="row-label" id="ratametsuri"><%= rm_heading %></h2>
+  <div class="row-body">
+    <div class="prose">
+      <%= markdownify(rm_body) %>
+    </div>
+  </div>
+</section>
+
 <section class="row" aria-labelledby="controller">
   <h2 class="row-label" id="controller"><%= page.controller_heading %></h2>
   <div class="row-body">

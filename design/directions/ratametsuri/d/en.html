@@ -1,0 +1,380 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ratametsuri – orienteering course planning for the Mac</title>
+<meta name="description" content="Ratametsuri is a Mac app for planning orienteering courses on your own map. It is in development; ask for a beta invite by email.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Cpolygon points=%2716,4 29.5,27.5 2.5,27.5%27 fill=%27none%27 stroke=%27%23a626a4%27 stroke-width=%273.4%27 stroke-linejoin=%27round%27/%3E%3C/svg%3E">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131018" media="(prefers-color-scheme: dark)">
+<link rel="preload" href="assets/barlow-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/barlow-sc-600.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+@font-face{font-family:"Barlow";font-weight:400;font-style:normal;font-display:swap;src:url(assets/barlow-400.woff2) format("woff2")}
+@font-face{font-family:"Barlow";font-weight:500;font-style:normal;font-display:swap;src:url(assets/barlow-500.woff2) format("woff2")}
+@font-face{font-family:"Barlow";font-weight:600;font-style:normal;font-display:swap;src:url(assets/barlow-600.woff2) format("woff2")}
+@font-face{font-family:"Barlow Semi Condensed";font-weight:600;font-style:normal;font-display:swap;src:url(assets/barlow-sc-600.woff2) format("woff2")}
+
+:root{
+  --paper:#f4f1ea; --paper2:#e9e4d9; --field:#fbf9f5;
+  --ink:#1d1a24; --muted:#58525f; --edge:#7d7787; --hair:#b9b2a6;
+  --purple:#a626a4; --on-purple:#ffffff; --purple-press:#8c1f8a;
+  --danger:#b3261e;
+  --win-ring:rgba(29,26,36,.16); --win-shadow:0 2px 4px rgba(40,24,56,.06),0 18px 40px -10px rgba(40,24,56,.30),0 40px 80px -30px rgba(40,24,56,.25);
+  --d:1.7rem; --g:calc(var(--d) * 1.95);
+  --display:"Barlow Semi Condensed","Barlow",system-ui,sans-serif;
+  --text:"Barlow",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --pad:clamp(1rem,4vw,3.6rem);
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --paper:#131018; --paper2:#1c1824; --field:#1a1621;
+    --ink:#ece8f1; --muted:#aba4b8; --edge:#8d8699; --hair:#4a4356;
+    --purple:#dc84da; --on-purple:#131018; --purple-press:#e9a3e7;
+    --danger:#ff9d95;
+    --win-ring:rgba(255,255,255,.14); --win-shadow:0 2px 4px rgba(0,0,0,.4),0 18px 40px -10px rgba(0,0,0,.6),0 40px 80px -30px rgba(0,0,0,.6);
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 1.0625rem/1.5 var(--text);-webkit-font-smoothing:antialiased;overflow-wrap:break-word}
+a{color:inherit;text-decoration-thickness:1px;text-underline-offset:.2em}
+a:hover{color:var(--purple)}
+:focus-visible{outline:3px solid var(--purple);outline-offset:3px;border-radius:3px}
+.skip{position:absolute;left:1rem;top:-4rem;background:var(--paper);color:var(--ink);padding:.6rem 1rem;border:2px solid var(--purple);z-index:10;border-radius:.4rem}
+.skip:focus{top:1rem}
+h1,h2,h3,p,ol,ul,figure{margin:0}
+ol,ul{padding:0;list-style:none}
+
+/* The course: everything sits to the right of a gutter that carries the line. */
+.course{position:relative;max-width:84rem;margin:0 auto;padding:0 var(--pad)}
+.legs{position:absolute;left:0;top:0;pointer-events:none;overflow:visible}
+.legs line{stroke:var(--purple);stroke-width:2;stroke-linecap:butt;fill:none}
+.js .legs{display:block}
+.course > *:not(.legs){position:relative}
+
+.sym{position:absolute;display:block;overflow:visible;--sz:var(--d);width:var(--sz);height:var(--sz);
+  left:calc(var(--g) * (var(--fx) - 1) - var(--sz) / 2);top:calc(.5lh - var(--sz) / 2);
+  fill:var(--paper);stroke:var(--purple);stroke-width:2.2;stroke-linejoin:round}
+.sym text{fill:var(--purple);stroke:none;font:600 15px var(--text);font-variant-numeric:tabular-nums lining-nums}
+.sym.start{--sz:1.4rem}
+.sym.finish{--sz:2rem}
+.sym .inner{transition:fill .35s ease-out}
+
+/* Header and wordmark */
+.top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem;padding:1.5rem 0 0 var(--g)}
+.mark{position:relative;font:600 1.75rem/1.25 var(--display);letter-spacing:.012em}
+.lang{white-space:nowrap;font-size:.9375rem;font-weight:500;padding:.45rem .1rem;min-height:2rem;display:inline-flex;align-items:center}
+
+.main{display:grid;grid-template-columns:minmax(0,1fr)}
+.main > *{padding-left:var(--g)}
+
+.intro{margin-top:2rem}
+.headline{font:600 clamp(2.4rem,1.2rem + 3.1vw,3.5rem)/1.04 var(--display);letter-spacing:-.008em;text-wrap:balance}
+.status{margin-top:1rem;display:flex;align-items:flex-start;gap:.6rem;color:var(--ink);max-width:34rem;font-size:1.125rem}.status .dot{margin-top:.35em}
+.dot{flex:none;width:.95rem;height:.95rem;align-self:center;fill:none;stroke:var(--purple);stroke-width:2.4}
+
+/* Window */
+.shot{margin-top:2rem}
+.frame{position:relative}
+.win{aspect-ratio:16/10;border-radius:12px;overflow:hidden;background:var(--paper2);box-shadow:0 0 0 1px var(--win-ring),var(--win-shadow);position:relative}
+.win picture,.win img{display:block;width:100%;height:100%}
+.ph{position:absolute;inset:0;display:grid;place-items:center;border-radius:inherit}
+.ph::before{content:"";position:absolute;inset:.9rem;border:1px dashed var(--hair);border-radius:6px}
+.ph-tag{position:relative;text-align:center;background:var(--paper);color:var(--ink);border:1.5px solid var(--purple);border-radius:999px;padding:.3rem 1rem;font-weight:600;font-size:.9375rem}
+.credit{margin-top:1.05rem;font-size:.9375rem;color:var(--muted)}
+
+/* Features: controls along the line */
+.rail{margin-top:2.25rem}
+.eyebrow{font:600 .8125rem/1.3 var(--text);letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+.features{margin-top:1.1rem;display:grid;gap:1.6rem}
+.feature h3{position:relative;font:600 1.3125rem/1.3 var(--text)}
+.feature p{margin-top:.25rem;color:var(--muted);max-width:34rem;hyphens:manual}
+
+/* Requirements */
+.req{margin-top:1.4rem}
+.req ul{margin-top:.6rem;display:grid;gap:.25rem}
+
+/* Request: the finish */
+.beta{margin-top:2.5rem;padding-bottom:3rem}
+.beta h2{position:relative;font:600 1.875rem/1.2 var(--display);letter-spacing:.005em}
+.lead{margin-top:.4rem;max-width:30rem;color:var(--muted)}
+.beta form{margin-top:1.4rem;margin-left:calc(-1 * var(--g));max-width:42rem}
+.beta label{display:block;font-weight:600;font-size:.9375rem;margin-bottom:.4rem}
+.row{display:flex;gap:.625rem}
+input[type=email]{flex:1;min-width:0;height:3.25rem;padding:0 1rem;font:inherit;font-size:1.0625rem;color:var(--ink);background:var(--field);border:1.5px solid var(--edge);border-radius:.5rem;transition:border-color .2s}
+input[type=email]:focus-visible{outline-offset:2px;border-color:var(--purple)}
+input[type=email][aria-invalid=true]{border-color:var(--danger)}
+button{display:grid;align-items:center;height:3.25rem;padding:0 1.5rem;font:600 1.0625rem var(--text);color:var(--on-purple);background:var(--purple);border:0;border-radius:.5rem;cursor:pointer;white-space:nowrap;transition:background-color .15s}
+button:hover{background:var(--purple-press)}
+button[aria-disabled=true]{cursor:progress}
+.l{grid-area:1/1;transition:opacity .2s ease,visibility 0s linear .2s}
+.l-sending{opacity:0;visibility:hidden}
+.beta[data-state=sending] .l-default{opacity:0;visibility:hidden}
+.beta[data-state=sending] .l-sending{opacity:1;visibility:visible;transition-delay:0s}
+.hp{position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden}
+.msgs{display:grid;margin-top:.8rem}
+.msg{grid-area:1/1;font-size:.9375rem;color:var(--muted);opacity:0;visibility:hidden;transition:opacity .22s ease,visibility 0s linear .22s;hyphens:manual}
+.err{color:var(--danger);font-weight:500}
+.ei{width:1.1em;height:1.1em;vertical-align:-.17em;margin-right:.4em;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round}
+.beta[data-state=default] [data-for~=default],
+.beta[data-state=sending] [data-for~=sending],
+.beta[data-state=error-validation] [data-for~=error-validation],
+.beta[data-state=error-server] [data-for~=error-server],
+.beta[data-state=not-live] [data-for~=not-live],
+.beta[data-state=success] [data-for~=success]{opacity:1;visibility:visible;transition-delay:0s}
+.msg a{text-underline-offset:.2em}
+#m-success{color:var(--ink)}
+.tick{width:1.1em;height:1.1em;vertical-align:-.15em;margin-right:.4em;fill:none;stroke:var(--purple);stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.s-confirm{display:none}
+.beta[data-success=confirm] .s-plain{display:none}
+.beta[data-success=confirm] .s-confirm{display:inline}
+.beta[data-state=success] .sym.finish .inner{fill:var(--purple)}
+
+.maker{max-width:84rem;margin:0 auto;padding:0 var(--pad) 2.5rem calc(var(--pad) + var(--g));font-size:.9375rem;color:var(--muted)}
+.maker p{border-top:1px solid var(--hair);padding-top:1.1rem}
+.maker a{display:inline-block;padding:.2rem 0}
+.num{font-variant-numeric:tabular-nums lining-nums}
+
+/* Motion: only when the script has set up the course and the visitor allows it */
+.motion .legs line{stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset .42s cubic-bezier(.45,.05,.25,1)}
+.motion .legs line.on{stroke-dashoffset:0}
+.motion .sym.pre{opacity:0;transform:scale(.55)}
+.motion .sym{transition:opacity .26s ease-out,transform .3s cubic-bezier(.2,.8,.2,1)}
+.motion .win{animation:rise .75s cubic-bezier(.2,.8,.2,1) .15s both}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important}}
+
+@media (max-width:36rem){
+  .row{flex-direction:column}
+  input[type=email]{flex:none;width:100%}
+  button{justify-items:center}
+}
+
+/* Desktop: the screen beside the course; the request in the first screen */
+@media (min-width:62rem){
+  :root{--d:1.8rem}
+  .top{padding-top:1.25rem}
+  .mark{font-size:1.875rem}
+  .main{grid-template-columns:minmax(0,calc(var(--g) + 18.5rem)) minmax(0,1fr);column-gap:0}
+  .main > *{padding-left:0}
+  .intro{grid-column:1/-1;grid-row:1;margin-top:1.1rem;padding-left:var(--g)}
+  .headline{white-space:nowrap}
+  .shot{grid-column:2;grid-row:2;margin-top:1.6rem;justify-self:end;width:100%;max-width:min(60rem,calc(100% - 3.5rem))}
+  .rail{grid-column:1;grid-row:2;margin-top:1.6rem;padding-left:var(--g)}
+  .features{gap:1.35rem}
+  .frame::before{content:"";position:absolute;inset:-14px;pointer-events:none;
+    --c:var(--hair);
+    background:
+      linear-gradient(var(--c),var(--c)) 0 14px/9px 1px no-repeat,
+      linear-gradient(var(--c),var(--c)) 14px 0/1px 9px no-repeat,
+      linear-gradient(var(--c),var(--c)) 100% 14px/9px 1px no-repeat,
+      linear-gradient(var(--c),var(--c)) calc(100% - 14px) 0/1px 9px no-repeat,
+      linear-gradient(var(--c),var(--c)) 0 calc(100% - 14px)/9px 1px no-repeat,
+      linear-gradient(var(--c),var(--c)) 14px 100%/1px 9px no-repeat,
+      linear-gradient(var(--c),var(--c)) 100% calc(100% - 14px)/9px 1px no-repeat,
+      linear-gradient(var(--c),var(--c)) calc(100% - 14px) 100%/1px 9px no-repeat}
+  .beta{grid-column:1/-1;grid-row:3;margin-top:1.4rem;display:grid;grid-template-columns:minmax(0,calc(var(--g) + 18.5rem)) minmax(0,1fr);align-items:start;padding-left:0}
+  .beta-copy{padding-left:var(--g)}
+  .beta form{margin:0;justify-self:end;width:100%;max-width:min(60rem,calc(100% - 3.5rem))}
+  .beta label{margin-top:.1rem}
+}
+
+</style>
+<script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="course" id="course">
+  <header class="top">
+    <h1 class="mark"><svg class="sym start" style="--fx:.5" viewBox="0 0 32 32" aria-hidden="true"><polygon points="16,4 29.5,27.5 2.5,27.5"/></svg>Ratametsuri</h1>
+    <a class="lang" href="index.html" lang="fi" hreflang="fi">Suomeksi</a>
+  </header>
+  <main id="main" class="main">
+    <section class="intro">
+      <p class="headline">Plan orienteering courses on your Mac</p>
+      <p class="status"><svg class="dot" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6"/></svg><span>Ratametsuri is in development. The beta is invite only.</span></p>
+    </section>
+    <figure class="shot">
+      <div class="frame"><div class="win">
+          <picture>
+            <source media="(max-width: 61.99rem) and (prefers-color-scheme: dark)" srcset="assets/phone-en-dark.webp" width="1200" height="705">
+            <source media="(max-width: 61.99rem)" srcset="assets/phone-en-light.webp" width="1200" height="705">
+            <source media="(prefers-color-scheme: dark)" srcset="assets/screen-en-dark.webp" width="2400" height="1504">
+            <img src="assets/screen-en-light.webp" width="2400" height="1504" alt="The Ratametsuri window: a course planned on an orienteering map, with its control descriptions beside it." fetchpriority="high">
+          </picture>
+      </div></div>
+      <figcaption class="credit">Map: Kauppi, Tampereen Pyrintö</figcaption>
+    </figure>
+    <section class="rail" aria-labelledby="feat-h">
+      <h2 class="eyebrow" id="feat-h">What works today</h2>
+      <ol class="features">
+          <li class="feature">
+            <h3><svg class="sym control" style="--fx:0.62" viewBox="0 0 32 32" role="img" aria-label="control 1"><circle cx="16" cy="16" r="14"/><text x="16" y="21.2" text-anchor="middle">1</text></svg>Map</h3>
+            <p>Open the map from a PDF, PNG, JPEG or TIFF file and enter its scale.</p>
+          </li>
+          <li class="feature">
+            <h3><svg class="sym control" style="--fx:0.38" viewBox="0 0 32 32" role="img" aria-label="control 2"><circle cx="16" cy="16" r="14"/><text x="16" y="21.2" text-anchor="middle">2</text></svg>Shared controls</h3>
+            <p>Courses share controls. Move a control and it moves on every course that uses it.</p>
+          </li>
+          <li class="feature">
+            <h3><svg class="sym control" style="--fx:0.62" viewBox="0 0 32 32" role="img" aria-label="control 3"><circle cx="16" cy="16" r="14"/><text x="16" y="21.2" text-anchor="middle">3</text></svg>Control descriptions</h3>
+            <p>Ratametsuri draws the control descriptions in IOF 2024 symbols and updates them as you edit the course.</p>
+          </li>
+          <li class="feature">
+            <h3><svg class="sym control" style="--fx:0.38" viewBox="0 0 32 32" role="img" aria-label="control 4"><circle cx="16" cy="16" r="14"/><text x="16" y="21.2" text-anchor="middle">4</text></svg>PDF and IOF XML</h3>
+            <p>Save the courses as a PDF for printing, each course on its own page with its control descriptions. Take them to your results software as an IOF XML 3.0 file.</p>
+          </li>
+      </ol>
+    </section>
+    <section class="beta" id="beta" data-state="default" data-endpoint="" aria-labelledby="beta-h">
+      <div class="beta-copy">
+        <h2 id="beta-h"><svg class="sym finish" style="--fx:.5" viewBox="0 0 40 40" role="img" aria-label="finish"><circle cx="20" cy="20" r="17.5"/><circle class="inner" cx="20" cy="20" r="10.5"/></svg>Ask for a beta invite</h2>
+        <p class="lead">Leave your email address and we'll send you an invite when the beta starts.</p>
+        <section class="req" aria-labelledby="req-h">
+          <h3 class="eyebrow" id="req-h">What you need</h3>
+          <ul>
+            <li>A Mac with macOS 14 Sonoma or later</li>
+            <li>The app speaks Finnish and English</li>
+          </ul>
+        </section>
+      </div>
+      <form novalidate>
+        <label for="email">Email address</label>
+        <div class="row">
+          <input id="email" type="email" name="email" autocomplete="email" inputmode="email" autocapitalize="off" spellcheck="false" required aria-describedby="m-default">
+          <button type="submit"><span class="l l-default">Ask for an invite</span><span class="l l-sending">Sending…</span></button>
+        </div>
+        <div class="hp" aria-hidden="true"><input name="website" tabindex="-1" autocomplete="off"></div>
+        <div class="msgs" aria-live="polite">
+          <p class="msg" id="m-default" data-for="default sending">We use your address only for the beta invite. <a href="/en/privacy/">Privacy</a></p>
+          <p class="msg" id="m-validation" data-for="error-validation"><span class="err"><svg class="ei" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="8"/><path d="M10 5.5v5.5M10 14.2v.1"/></svg>That doesn't look like an email address. Please check it.</span></p>
+          <p class="msg" id="m-server" data-for="error-server"><span class="err"><svg class="ei" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="8"/><path d="M10 5.5v5.5M10 14.2v.1"/></svg>Sending failed. Try again in a moment, or write to <a href="mailto:jarkko@koivupiilo.fi?subject=Ratametsuri%20beta">jarkko@koivupiilo.fi</a>.</span></p>
+          <p class="msg" id="m-notlive" data-for="not-live">For now, we take requests by email. Write to <a href="mailto:jarkko@koivupiilo.fi?subject=Ratametsuri%20beta">jarkko@koivupiilo.fi</a> with the subject “Ratametsuri beta”.</p>
+          <p class="msg" id="m-success" data-for="success"><svg class="tick" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10.5l4 4 8-9"/></svg><span class="s-plain">Your request is in. The invite will come by email when the beta starts.</span><span class="s-confirm">We've sent you a confirmation email. Click the link in it to confirm your request. The invite will follow when the beta starts.</span></p>
+        </div>
+      </form>
+    </section>
+  </main>
+</div>
+<footer class="maker">
+  <p>Ratametsuri is a product of Koivupiilo Oy <span aria-hidden="true">·</span> <span class="num">Business ID 3458206-1</span> <span aria-hidden="true">·</span> <a href="/en/privacy/">Privacy</a></p>
+</footer>
+<script>
+(() => {
+  const root = document.documentElement;
+  const course = document.getElementById('course');
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const syms = [...course.querySelectorAll('.sym')];
+
+  // ---- The course line: legs between the symbols, stopping short of each circle's edge.
+  const NS = 'http://www.w3.org/2000/svg';
+  const svg = document.createElementNS(NS, 'svg');
+  svg.setAttribute('class', 'legs');
+  svg.setAttribute('aria-hidden', 'true');
+  course.prepend(svg);
+  const legs = syms.slice(1).map(() => {
+    const l = document.createElementNS(NS, 'line');
+    l.setAttribute('pathLength', '1');
+    svg.append(l);
+    return l;
+  });
+  const GAP = 3;
+  const layout = () => {
+    const cr = course.getBoundingClientRect();
+    svg.setAttribute('width', cr.width);
+    svg.setAttribute('height', cr.height);
+    const pts = syms.map((s) => {
+      const r = s.getBoundingClientRect();
+      return { x: r.left + r.width / 2 - cr.left, y: r.top + r.height / 2 - cr.top, r: r.width / 2 + GAP };
+    });
+    legs.forEach((l, i) => {
+      const a = pts[i], b = pts[i + 1];
+      const dx = b.x - a.x, dy = b.y - a.y, len = Math.hypot(dx, dy) || 1;
+      const ux = dx / len, uy = dy / len;
+      l.setAttribute('x1', (a.x + ux * a.r).toFixed(2));
+      l.setAttribute('y1', (a.y + uy * a.r).toFixed(2));
+      l.setAttribute('x2', (b.x - ux * b.r).toFixed(2));
+      l.setAttribute('y2', (b.y - uy * b.r).toFixed(2));
+    });
+  };
+  layout();
+  new ResizeObserver(layout).observe(course);
+  if (document.fonts) document.fonts.ready.then(layout);
+
+  // ---- Arrival: each leg draws, then its control appears, in course order.
+  if (!reduce) {
+    root.classList.add('motion');
+    syms.slice(1).forEach((s) => s.classList.add('pre'));
+    const wait = (ms) => new Promise((r) => setTimeout(r, ms));
+    const seen = syms.map(() => null);
+    const io = new IntersectionObserver((es) => es.forEach((e) => {
+      if (e.isIntersecting) { const i = syms.indexOf(e.target); seen[i] && seen[i](); io.unobserve(e.target); }
+    }), { rootMargin: '0px 0px -12% 0px' });
+    const whenSeen = (i) => new Promise((res) => { seen[i] = res; io.observe(syms[i]); });
+    (async () => {
+      await wait(220);
+      for (let i = 1; i < syms.length; i++) {
+        await whenSeen(i);
+        legs[i - 1].classList.add('on');
+        await wait(300);
+        syms[i].classList.remove('pre');
+        await wait(110);
+      }
+    })();
+  }
+
+  // ---- The request block.
+  const beta = document.getElementById('beta');
+  const form = beta.querySelector('form');
+  const input = form.elements.email;
+  const btn = form.querySelector('button');
+  const params = new URLSearchParams(location.search);
+  const msgId = { default: 'm-default', sending: 'm-default', 'error-validation': 'm-validation', 'error-server': 'm-server', 'not-live': 'm-notlive', success: 'm-success' };
+  const set = (state, focus) => {
+    beta.dataset.state = state;
+    input.setAttribute('aria-describedby', msgId[state]);
+    if (state === 'error-validation') input.setAttribute('aria-invalid', 'true'); else input.removeAttribute('aria-invalid');
+    btn.setAttribute('aria-disabled', state === 'sending' ? 'true' : 'false');
+    if (focus) input.focus();
+  };
+  const valid = (v) => /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v);
+  const ok = (confirm) => { if (confirm) beta.dataset.success = 'confirm'; else delete beta.dataset.success; set('success'); };
+  input.addEventListener('input', () => {
+    const s = beta.dataset.state;
+    if (s === 'error-validation' || s === 'error-server') set('default');
+  });
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    if (beta.dataset.state === 'sending') return;
+    const email = input.value.trim();
+    if (!valid(email)) return set('error-validation', true);
+    if (form.elements.website.value) return ok(false); // honeypot: pretend, send nothing
+    set('sending');
+    const mock = params.get('mock'), endpoint = beta.dataset.endpoint;
+    if (mock) {
+      await new Promise((r) => setTimeout(r, +params.get('delay') || 1500));
+      if (mock === 'fail') return set('error-server', true);
+      return ok(mock === 'confirm');
+    }
+    if (endpoint) {
+      try {
+        const r = await fetch(endpoint, { method: 'POST', headers: { 'content-type': 'application/json' }, body: JSON.stringify({ email }) });
+        if (!r.ok) throw new Error(r.status);
+        const j = await r.json().catch(() => ({}));
+        return ok(!!j.confirm);
+      } catch { return set('error-server', true); }
+    }
+    await new Promise((r) => setTimeout(r, 450));
+    set('not-live');
+  });
+  const st = params.get('state');
+  if (params.get('email')) input.value = params.get('email');
+  if (st && msgId[st]) { if (params.get('confirm')) beta.dataset.success = 'confirm'; set(st); } else set('default');
+})();
+
+</script>
+</body>
+</html>

@@ -18,3 +18,7 @@ company:
 privacy:
   fi: /tietosuoja/
   en: /en/privacy/
+# The Ratametsuri product page: its own standalone layout, no koivupiilo.fi header or footer.
+ratametsuri:
+  fi: /ratametsuri/
+  en: /en/ratametsuri/

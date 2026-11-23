@@ -15,3 +15,9 @@ status in progress	kesken	in progress		D21: unfinished work that is not software
 business ID	Y-tunnus	Business ID
 language link	In English	Suomeksi		labelled in the target language
 beach volleyball (sport)	beach volley	beach volleyball	[Rr]antalentopallo	Finnish uses "beach volley" (beach volleyta, beach volleyn); compounds take a space and a hyphen: beach volley -kartta. Jarkko, 12.11.2026
+Ratametsuri (product)	Ratametsuri	Ratametsuri		one word, capital R only; the same in English; no ® or ™
+results software	tulospalveluohjelmisto	results software	[Aa]janotto-?ohjelm|[Tt]ulospalveluohjelma	the software that reads the IOF XML export (tulospalveluohjelmistolle, -ohjelmistoon). Jarkko, 21.11.2026
+control descriptions	rastinmääritteet	control descriptions		the IOF description sheet; one line is a rastinmäärite. Official SSL Finnish, with the n (the app uses it; Ratametsuri session, 2026-11-21). Forbid "rastimäärit-" once the copy is rewritten.
+course setter	ratamestari	course setter		the person who plans the courses for an event or training
+beta invite	betakutsu	beta invite		what a requester gets by email when the beta opens (D26)
+the app (fi)	sovellus	app	[Bb]eeta|[Rr]ataohjelm|\b[Mm]ac-ohjelm|\b[Oo]hjelma(n|a|an|ssa|sta|lla|lle|na|ksi|t)?\b	The product is a sovellus or ohjelmisto (category: ratamestariohjelmisto / ratamestarisovellus), never "ohjelma"; and "beta", never "beeta". Jarkko, 2026-11-23

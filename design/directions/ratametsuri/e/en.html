@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ratametsuri – orienteering course planning for the Mac</title>
+<meta name="description" content="Ratametsuri is a Mac app for planning orienteering courses on your own map. It is in development; ask for a beta invite by email.">
+<meta name="theme-color" content="#FAF8F2" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B1410" media="(prefers-color-scheme: dark)">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="assets/archivo-wdth.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <h1 class="wordmark"><svg class="mark mark--wipe" viewBox="0 0 40 40" aria-hidden="true" focusable="false">
+  <defs><mask id="wipe-en" maskUnits="userSpaceOnUse" x="-80" y="-10" width="200" height="60"><polygon class="wipe" points="-80,-6 70,-6 40,46 -80,46" fill="#fff"/></mask></defs>
+  <polygon points="4,9 20,4 20,36 4,31" fill="#fff"/>
+  <polygon points="20,4 36,9 36,31 20,36" fill="#E8E4D8"/>
+  <g mask="url(#wipe-en)"><polygon points="4,9 20,4 20,36" fill="#FF6A13"/><polygon points="20,4 36,9 36,31" fill="#E85A00"/></g>
+  <path d="M4 9 20 4 36 9V31L20 36 4 31Z M20 4V36" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+</svg><span>Ratametsuri</span></h1>
+  <a class="lang" href="index.html" lang="fi" hreflang="fi">Suomeksi</a>
+</header>
+<main id="main">
+  <div class="hero">
+    <div class="intro">
+      <p class="headline">Plan orienteering courses on your Mac</p>
+      <p class="status">Ratametsuri is in development. The beta is invite only.</p>
+    </div>
+    <div class="stage">
+      <figure class="shot"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/kauppi-dark.webp"><img src="assets/kauppi-light.webp" width="2400" height="1504" alt="The Ratametsuri window: a course planned on an orienteering map, with its control descriptions beside it." fetchpriority="high"></picture><figcaption>Map: Kauppi, Tampereen Pyrintö</figcaption></figure>
+    </div>
+    <section class="req" aria-labelledby="req-h">
+      <h2 id="req-h">What you need</h2>
+      <ul><li>A Mac with macOS 14 Sonoma or later</li><li>The app speaks Finnish and English</li></ul>
+    </section>
+    <section class="beta" id="beta" aria-labelledby="beta-h" data-state="default" data-view="form" data-variant="plain" data-endpoint="">
+  <h2 id="beta-h">Ask for a beta invite</h2>
+  <p class="beta-lead">Leave your email address and we'll send you an invite when the beta starts.</p>
+  <div class="stack">
+    <form class="beta-form" novalidate method="post" action="#beta">
+      <label class="beta-label" for="email">Email address</label>
+      <div class="beta-controls">
+        <input id="email" name="email" type="email" autocomplete="email" inputmode="email" autocapitalize="off" spellcheck="false" required aria-invalid="false" aria-describedby="privacy">
+        <button type="submit" class="btn"><span class="b-idle">Ask for an invite</span><span class="b-busy" aria-hidden="true">Sending…</span></button>
+      </div>
+      <div class="msgs">
+        <p class="beta-privacy" id="privacy">We use your address only for the beta invite. <a href="/en/privacy/">Privacy</a></p>
+        <p class="msg msg--err" id="m-val"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><circle cx="8" cy="8" r="7" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M8 4.4v4.3M8 11.1v.4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>That doesn't look like an email address. Please check it.</span></p>
+        <p class="msg msg--err" id="m-srv"><svg class="ico" viewBox="0 0 16 16" aria-hidden="true" focusable="false"><circle cx="8" cy="8" r="7" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M8 4.4v4.3M8 11.1v.4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span>Sending failed. Try again in a moment, or write to <a href="mailto:jarkko@koivupiilo.fi?subject=Ratametsuri%20beta">jarkko@koivupiilo.fi</a>.</span></p>
+      </div>
+      <div class="hp" aria-hidden="true"><label>Leave this field empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+    </form>
+    <div class="beta-result" tabindex="-1">
+      <p class="echo" id="echo"></p>
+      <p class="res res--ok" id="r-plain">Your request is in. The invite will come by email when the beta starts.</p>
+      <p class="res res--ok" id="r-confirm">We've sent you a confirmation email. Click the link in it to confirm your request. The invite will follow when the beta starts.</p>
+      <p class="res res--live" id="r-live">For now, we take requests by email. Write to <a href="mailto:jarkko@koivupiilo.fi?subject=Ratametsuri%20beta">jarkko@koivupiilo.fi</a> with the subject “Ratametsuri beta”.</p>
+    </div>
+  </div>
+  <p class="vh" role="status" aria-live="polite" id="live"></p>
+</section>
+  </div>
+  <section class="features" aria-labelledby="feat-h">
+    <div class="wrap">
+      <h2 id="feat-h">What works today</h2>
+      <ul class="feat-list">
+        <li><span class="ctl" aria-hidden="true"></span><h3>Map</h3><p>Open the map from a PDF, PNG, JPEG or TIFF file and enter its scale.</p></li>
+        <li><span class="ctl" aria-hidden="true"></span><h3>Shared controls</h3><p>Courses share controls. Move a control and it moves on every course that uses it.</p></li>
+        <li><span class="ctl" aria-hidden="true"></span><h3>Control descriptions</h3><p>Ratametsuri draws the control descriptions in IOF 2024 symbols and updates them as you edit the course.</p></li>
+        <li><span class="ctl" aria-hidden="true"></span><h3>PDF and IOF XML</h3><p>Save the courses as a PDF for printing, each course on its own page with its control descriptions. Take them to your results software as an IOF XML 3.0 file.</p></li>
+      </ul>
+    </div>
+  </section>
+</main>
+<footer class="foot"><p>Ratametsuri is a product of Koivupiilo Oy <span aria-hidden="true">·</span> Business ID 3458206-1 <span aria-hidden="true">·</span> <a href="/en/privacy/">Privacy</a></p></footer>
+<script>(()=>{const r=document.querySelector('.beta');if(!r)return;
+const f=r.querySelector('form'),i=f.elements.email,hp=f.elements.website,btn=f.querySelector('button'),live=document.getElementById('live'),echo=document.getElementById('echo');
+const V={'default':'form','sending':'form','error-validation':'form','error-server':'form','success':'result','not-live':'result'};
+const M={'sending':'','error-validation':'m-val','error-server':'m-srv','success':'r-plain','not-live':'r-live'};
+const q=new URLSearchParams(location.search),mock=q.get('mock');
+function set(s,focus){r.dataset.state=s;r.dataset.view=V[s];
+ if(s==='success')r.dataset.variant=mock==='confirm'?'confirm':'plain';
+ const err=s==='error-validation'?'m-val':s==='error-server'?'m-srv':'';
+ i.setAttribute('aria-invalid',err?'true':'false');
+ i.setAttribute('aria-describedby',(err?err+' ':'')+'privacy');
+ btn.setAttribute('aria-disabled',s==='sending'?'true':'false');r.setAttribute('aria-busy',s==='sending'?'true':'false');
+ echo.textContent=(s==='not-live'||s==='success')?i.value.trim():'';
+ const id=s==='success'&&mock==='confirm'?'r-confirm':M[s];const m=id&&document.getElementById(id);live.textContent=m?m.textContent.trim():'';
+ if(focus){if(V[s]==='result')r.querySelector('.beta-result').focus();else i.focus();}}
+if(q.get('email'))i.value=q.get('email');
+if(V[q.get('state')])set(q.get('state'));
+i.addEventListener('input',()=>{if(r.dataset.state==='error-validation'||r.dataset.state==='error-server')set('default');});
+f.addEventListener('submit',async e=>{e.preventDefault();if(r.dataset.state==='sending'||hp.value)return;
+ if(!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(i.value.trim())){set('error-validation',true);return;}
+ const ep=r.dataset.endpoint;
+ if(!ep&&!mock){set('not-live',true);return;}
+ set('sending');
+ if(!ep){await new Promise(k=>setTimeout(k,+q.get('delay')||1500));set(mock==='fail'?'error-server':'success',true);return;}
+ try{const x=await fetch(ep,{method:'POST',body:new FormData(f)});set(x.ok?'success':'error-server',true);}catch(_){set('error-server',true);}});
+})();</script>
+</body>
+</html>

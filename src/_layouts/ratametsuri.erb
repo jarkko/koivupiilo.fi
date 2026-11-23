@@ -1,0 +1,181 @@
+<%
+  # The Ratametsuri product page (direction D, "Ratapainatus"). Standalone: the product's own brand,
+  # none of koivupiilo.fi's header, navigation or footer; the maker line is the only company sign.
+  # Every visible string comes from src/_data/ratametsuri/<lang>.yml.
+  lang = data.lang
+  other = lang == "fi" ? "en" : "fi"
+  t = site.data.ratametsuri[lang]
+  routes = site.data.routes.ratametsuri
+  privacy = site.data.routes.privacy[lang]
+  origin = site.config.url
+  join = "https://join.koivupiilo.fi/ratametsuri"
+  locale = { "fi" => "fi_FI", "en" => "en_GB" }
+
+  # Line breaking only, never wording: soft hyphens at Finnish compound boundaries (hyphens:auto
+  # splits Finnish wrongly) and no-break spaces inside standard names. "IOF XML 3.0 -tiedostona"
+  # stays on one line through .nb, which lets go only at very large text (style.css), where the
+  # whole name is wider than the column. No-ops when the copy changes.
+  tidy = ->(s) {
+    ERB::Util.html_escape(s)
+      .gsub(/([Rr]atamestari)(sovellu)/, "\\1&shy;\\2")
+      .gsub(/([Rr]astin)(määritte)/, "\\1&shy;\\2")
+      .gsub(/([Rr]asti)(pisteen|välin)/, "\\1&shy;\\2")
+      .gsub(/([Tt]ulos)(palvelu)/, "\\1&shy;\\2")
+      .gsub("palveluohjelmisto", "palvelu&shy;ohjelmisto")
+      .gsub(/IOF XML 3\.0 -([[:alpha:]]+)/, %(<span class="nb">IOF XML 3.0 -&#8288;\\1</span>))
+      .gsub("IOF XML 3.0 file", %(<span class="nb">IOF XML 3.0 file</span>))
+      .gsub("MeOS 5.0", "MeOS&nbsp;5.0")
+      .gsub("for the Mac", "for&nbsp;the&nbsp;Mac")
+  }
+
+  # The consent label is hashed by launchpad: its text content must be consent.text byte for byte,
+  # with the trailing link text as the privacy link.
+  consent = t.consent
+  unless consent.text.end_with?(consent.link_text)
+    raise "ratametsuri/#{lang}.yml: consent.text must end with consent.link_text"
+  end
+  consent_lead = consent.text.delete_suffix(consent.link_text)
+
+  b = t.beta
+  fx = [0.62, 0.38, 0.62, 0.38]
+  err_icon = %(<svg class="ic" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="8"/><path d="M10 5.5v5.5M10 14.2v.1"/></svg>)
+  tick_icon = %(<svg class="ic tick" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10.5l4 4 8-9"/></svg>)
+  # The course runs start (0), controls 1..n (the features), finish (n + 1); course.js draws the legs
+  # in that order, so the feature count is free.
+  finish_order = t.features.size + 1
+  finish = ->(cls, label) {
+    a11y = label ? %(role="img" aria-label="#{ERB::Util.html_escape(label)}") : %(aria-hidden="true")
+    %(<svg class="sym finish #{cls}" data-order="#{finish_order}" style="--fx:.5" viewBox="0 0 40 40" #{a11y}><circle cx="20" cy="20" r="17.5"/><circle class="inner" cx="20" cy="20" r="10.5"/></svg>)
+  }
+-%>
+<!doctype html>
+<html lang="<%= lang %>">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title><%= t.page_title %></title>
+<meta name="description" content="<%= t.meta_description %>">
+<link rel="canonical" href="<%= origin + routes[lang] %>">
+<link rel="alternate" hreflang="fi" href="<%= origin + routes["fi"] %>">
+<link rel="alternate" hreflang="en" href="<%= origin + routes["en"] %>">
+<link rel="alternate" hreflang="x-default" href="<%= origin + routes["fi"] %>">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ratametsuri">
+<meta property="og:title" content="<%= t.page_title %>">
+<meta property="og:description" content="<%= t.meta_description %>">
+<meta property="og:url" content="<%= origin + routes[lang] %>">
+<meta property="og:locale" content="<%= locale[lang] %>">
+<meta property="og:locale:alternate" content="<%= locale[other] %>">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#f4f1ea" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131018" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Cpolygon points=%2716,4 29.5,27.5 2.5,27.5%27 fill=%27none%27 stroke=%27%23a626a4%27 stroke-width=%273.4%27 stroke-linejoin=%27round%27/%3E%3C/svg%3E">
+<link rel="preload" href="/fonts/barlow-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/barlow-sc-600.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/ratametsuri/style.css">
+<script>document.documentElement.classList.add("js")</script>
+<%= live_reload_dev_js %>
+</head>
+<body>
+<a class="skip" href="#main" data-ds-allow="tap-target: shown only while it has keyboard focus, so nobody taps it, and 44 px tall once shown"><%= t.skip_link %></a>
+<div class="course" id="course">
+  <header class="top">
+    <h1 class="mark"><svg class="sym start" data-order="0" style="--fx:.5" viewBox="0 0 32 32" aria-hidden="true"><polygon points="16,4 29.5,27.5 2.5,27.5"/></svg>Ratametsuri</h1>
+    <a class="lang" href="<%= routes[other] %>" lang="<%= other %>" hreflang="<%= other %>"><%= t.lang_link %></a>
+  </header>
+  <main id="main" class="main" tabindex="-1">
+    <section class="intro">
+      <p class="headline"><%== tidy.(t.headline) %></p>
+      <p class="status"><svg class="dot" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6"/></svg><span><%== tidy.(t.status) %></span></p>
+    </section>
+
+    <figure class="shot">
+      <div class="frame"><div class="win">
+        <picture>
+          <source media="(max-width: 61.99rem) and (prefers-color-scheme: dark)" srcset="/ratametsuri/phone-<%= lang %>-dark.webp" width="1200" height="705">
+          <source media="(max-width: 61.99rem)" srcset="/ratametsuri/phone-<%= lang %>-light.webp" width="1200" height="705">
+          <source media="(prefers-color-scheme: dark)" srcset="/ratametsuri/screen-<%= lang %>-dark.webp" width="2400" height="1504">
+          <img src="/ratametsuri/screen-<%= lang %>-light.webp" width="2400" height="1504" alt="<%= t.screenshot_alt %>" fetchpriority="high">
+        </picture>
+      </div></div>
+      <figcaption class="credit"><%= t.map_credit %></figcaption>
+    </figure>
+
+    <section class="req" aria-labelledby="req-h">
+      <h2 class="eyebrow" id="req-h"><%= t.requirements.heading %></h2>
+      <ul>
+        <% t.requirements.items.each do |item| %>
+        <li><%= item %></li>
+        <% end %>
+      </ul>
+    </section>
+
+    <section class="beta" id="beta" aria-labelledby="beta-h">
+      <div class="beta-copy">
+        <h2 id="beta-h"><%== finish.("at-form", t.course_words.finish) %><%= b.heading %></h2>
+        <p class="lead"><%= b.lead %></p>
+      </div>
+      <%# The C1 sign-up form. It posts natively (launchpad answers 303 back here with a #signup-…
+          fragment); kit/form.js, when it loads, sends it with fetch and answers in the status. %>
+      <form class="signup" method="post" action="<%= join %>/signup" data-launchpad-form data-state="idle"
+        data-token-url="<%= join %>/signup/token"
+        data-project-name="Ratametsuri"
+        data-msg-sending="<%= b.sending %>"
+        data-msg-check-email="<%= b.check_email %>"
+        data-msg-invalid-email="<%= b.invalid_email %>"
+        data-msg-rate-limited="<%= b.rate_limited %>"
+        data-msg-failed="<%= b.failed %>"
+        data-msg-offline="<%= b.offline %>">
+        <label class="field-label" for="email"><%= b.field_label %></label>
+        <input id="email" name="email" type="email" autocomplete="email" inputmode="email" autocapitalize="off" spellcheck="false" required>
+        <input type="hidden" name="locale" value="<%= lang %>">
+        <input type="hidden" name="consent" value="<%= consent.version %>">
+        <input type="hidden" name="purposes[]" value="beta_invite">
+        <input type="hidden" name="source" value="<%= routes[lang] %>">
+        <input type="hidden" name="t" value="">
+        <div hidden>
+          <label for="website"><%= b.honeypot_label %></label>
+          <input id="website" name="website" type="text" value="" tabindex="-1" autocomplete="off" aria-hidden="true">
+        </div>
+        <div class="send">
+          <div class="consent">
+            <input id="consent" type="checkbox" required>
+            <label for="consent"><%= consent_lead %><a href="<%= privacy %>"><%= consent.link_text %></a></label>
+          </div>
+          <button type="submit"><%= b.button %></button>
+        </div>
+        <div class="msgs">
+          <p class="answer" data-launchpad-status role="status"></p>
+          <p class="msg ok" id="signup-check-email"><%== tick_icon %><%= b.check_email %></p>
+          <p class="msg err" id="signup-error"><%== err_icon %><%= b.invalid_email %></p>
+          <p class="msg err" id="signup-try-later"><%== err_icon %><%= b.failed %></p>
+        </div>
+      </form>
+    </section>
+
+    <section class="rail" aria-labelledby="feat-h">
+      <h2 class="eyebrow" id="feat-h"><%= t.features_heading %></h2>
+      <ol class="features">
+        <% t.features.each_with_index do |f, i| %>
+        <li class="feature">
+          <h3><span class="sym control" data-order="<%= i + 1 %>" style="--fx:<%= fx[i % 4] %>" role="img" aria-label="<%= t.course_words.control %> <%= i + 1 %>"><span aria-hidden="true"><%= i + 1 %></span></span><%== tidy.(f.title) %></h3>
+          <p><%== tidy.(f.text) %></p>
+        </li>
+        <% end %>
+      </ol>
+      <%# On a phone the request sits above the features, so the course finishes here instead. %>
+      <div class="rail-end"><%== finish.("at-end", nil) %></div>
+    </section>
+  </main>
+</div>
+<footer class="maker">
+  <p><%= t.maker_line.text %> <span aria-hidden="true">·</span> <span class="num"><%= t.maker_line.business_id %></span> <span aria-hidden="true">·</span> <a href="<%= privacy %>"><%= t.maker_line.privacy_link_text %></a></p>
+</footer>
+<script src="/ratametsuri/course.js"></script>
+<%# launchpad's kit/form.js (C5) sends the form with fetch. It loads when someone first touches the
+    form, so a visitor who only reads makes no request to join.koivupiilo.fi; until it has loaded,
+    or if it never does, the form posts natively and works the same. %>
+<script>(function(){var f=document.querySelector("form[data-launchpad-form]");if(!f)return;function go(){f.removeEventListener("focusin",go);f.removeEventListener("pointerdown",go);var s=document.createElement("script");s.src="https://join.koivupiilo.fi/kit/form.js";document.head.appendChild(s)}f.addEventListener("focusin",go);f.addEventListener("pointerdown",go)})();</script>
+</body>
+</html>
