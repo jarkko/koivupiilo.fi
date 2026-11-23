@@ -41,9 +41,10 @@ beta:
   button: "Pyydä kutsu"
   # The form's answers. kit/form.js fills %{email} with the address sent and %{project} with the
   # product name; the no-JS states (#signup-check-email, #signup-error, #signup-try-later) show
-  # check_email, invalid_email and failed as they are, so those three should not use %{email}.
+  # check_email_nojs, invalid_email and failed as they are, so those three must not use %{email}.
   sending: "Lähetetään…"
-  check_email: "Lähetimme osoitteeseesi vahvistusviestin. Vahvista pyyntösi viestissä olevasta linkistä."
+  check_email: "Lähetimme vahvistusviestin osoitteeseen %{email}. Vahvista osoitteesi viestin painikkeella." # launchpad !81; form.js fills %{email}
+  check_email_nojs: "Lähetimme vahvistusviestin. Vahvista osoitteesi viestin painikkeella." # shown via :target without JS, where %{email} cannot be filled
   invalid_email: "Tämä ei näytä sähköpostiosoitteelta. Tarkista osoite."
   failed: "Pyyntö ei mennyt perille. Yritä hetken päästä uudelleen."
   rate_limited: "Verkostasi on tullut lyhyessä ajassa liian monta pyyntöä. Yritä uudelleen muutaman minuutin päästä."

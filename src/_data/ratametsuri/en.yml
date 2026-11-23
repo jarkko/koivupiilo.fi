@@ -42,9 +42,10 @@ beta:
   button: "Ask for an invite"
   # The form's answers. kit/form.js fills %{email} with the address sent and %{project} with the
   # product name; the no-JS states (#signup-check-email, #signup-error, #signup-try-later) show
-  # check_email, invalid_email and failed as they are, so those three should not use %{email}.
+  # check_email_nojs, invalid_email and failed as they are, so those three must not use %{email}.
   sending: "Sending…"
-  check_email: "We've sent you a confirmation email. Confirm your request with the link in it."
+  check_email: "We sent a confirmation email to %{email}. Confirm your address with the button in it." # launchpad !81; form.js fills %{email}
+  check_email_nojs: "We sent you a confirmation email. Confirm your address with the button in it." # shown via :target without JS, where %{email} cannot be filled
   invalid_email: "That doesn't look like an email address. Please check it."
   failed: "Your request didn't get through. Try again in a moment."
   rate_limited: "Too many requests have come from your network in a short time. Try again in a few minutes."
