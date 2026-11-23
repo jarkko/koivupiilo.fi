@@ -72,6 +72,7 @@ ol,ul{padding:0;list-style:none}
 .headline{font:600 clamp(2.25rem,1.2rem + 3.1vw,3.5rem)/1.04 var(--display);letter-spacing:-.008em;text-wrap:wrap;hyphens:manual;overflow-wrap:normal}
 .status{margin-top:.75rem;display:flex;align-items:flex-start;gap:.6rem;max-width:34rem;font-size:1.0625rem}
 .status > span{min-width:0} /* lets overflow-wrap break a word too long for the column */
+.status .checked{color:var(--muted)}.status .checked time{white-space:nowrap} /* M1: the date the status was last checked */
 .dot{flex:none;width:.95rem;height:.95rem;margin-top:.3em;fill:none;stroke:var(--purple);stroke-width:2.4}
 
 /* Window */
@@ -201,11 +202,12 @@ button[aria-disabled=true]{cursor:progress}
 .sym.at-form{display:none}
 
 /* Phone: a little tighter, so the field still ends on the first 390x844 screen under the longer
-   status line. */
+   status line and its checked date. */
 @media (max-width:35.99rem){
   .intro{margin-top:.9rem}
   .status,.lead,.req ul{font-size:1rem;line-height:1.45}
   .shot,.req{margin-top:1rem}
+  .win{aspect-ratio:1200/600} /* the checked date (M1) took a line; the crop gives it back */
   .beta{margin-top:1.25rem}
 }
 

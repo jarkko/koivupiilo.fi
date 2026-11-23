@@ -16,6 +16,7 @@ lang_link: "Suomeksi"
 
 headline: "Course setting app for the Mac"
 status: "You export your courses to your results software as an IOF XML 3.0 file, as you do from other course setting apps. The app is in development."
+checked: "Status checked %{date}." # M1: the date comes from work.yml, the one home of the status
 
 screenshot_alt: "The Ratametsuri window: course A and its control descriptions on the Kauppi map. The sidebar lists the courses and the course's controls."
 map_credit: "Map: Kauppi, Tampereen Pyrintö"

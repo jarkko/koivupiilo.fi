@@ -5,6 +5,7 @@
   lang = data.lang
   other = lang == "fi" ? "en" : "fi"
   t = site.data.ratametsuri[lang]
+  rm_item = site.data.work.items.find { |i| i.page == "ratametsuri" } or raise "work.yml has no Ratametsuri item (M1 date)"
   routes = site.data.routes.ratametsuri
   privacy = site.data.routes.privacy[lang]
   origin = site.config.url
@@ -101,7 +102,7 @@
   <main id="main" class="main" tabindex="-1">
     <section class="intro">
       <p class="headline"><%== tidy.(t.headline) %></p>
-      <p class="status"><svg class="dot" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6"/></svg><span><%== tidy.(t.status) %></span></p>
+      <p class="status"><svg class="dot" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="6"/></svg><span><%== tidy.(t.status) %> <span class="checked"><%== t.checked.sub("%{date}", %(<time datetime="#{rm_item.checked.iso8601}">#{rm_item.checked.strftime(lang == "fi" ? "%-d.%-m.%Y" : "%-d %b %Y")}</time>)) %></span></span></p>
     </section>
 
     <figure class="shot">

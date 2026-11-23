@@ -15,6 +15,7 @@ lang_link: "In English"
 
 headline: "Ratamestarisovellus Macille"
 status: "Viet radat tulospalveluun IOF XML 3.0 -tiedostona niin kuin muistakin ratamestarisovelluksista. Sovellus on kehitteillä."
+checked: "Tilanne tarkistettu %{date}." # M1: the date comes from work.yml, the one home of the status
 
 screenshot_alt: "Ratametsurin ikkuna: Kaupin kartalla rata A ja sen rastinmääritteet. Sivupalkissa ovat radat ja radan rastit."
 map_credit: "Kartta: Kauppi, Tampereen Pyrintö"
