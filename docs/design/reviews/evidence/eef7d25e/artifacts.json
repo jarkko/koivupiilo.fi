@@ -1,0 +1,152 @@
+{
+  "head": "7271d7c2ce2b0e2b4022a7e3c5d63cb43fc9a825",
+  "files": [
+    {
+      "path": ".ds/reviews/eef7d25e8c6941de8e882619974b890fb73b53ec535d060b77af029feab7f054.defect.json",
+      "bytes": 31708
+    },
+    {
+      "path": ".ds/reviews/steps/W0.md",
+      "bytes": 6952
+    },
+    {
+      "path": ".ds/reviews/steps/W1.md",
+      "bytes": 2263
+    },
+    {
+      "path": ".ds/reviews/steps/W3.md",
+      "bytes": 2415
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json",
+      "bytes": 15179
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/build-result.json",
+      "bytes": 470
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/contrast.json",
+      "bytes": 166
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/en-1440-invalid-strip.jpg",
+      "bytes": 194053
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/en-1440-light-font24-full.jpg",
+      "bytes": 478669
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/en-390-invalid-strip.jpg",
+      "bytes": 161753
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/en-390-light-nojs-signup-check-email.jpg",
+      "bytes": 133663
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/fi-1440-dark-font24-full.jpg",
+      "bytes": 461053
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/fi-1440-invalid-strip.jpg",
+      "bytes": 189792
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/fi-390-dark-nojs-signup-try-later.jpg",
+      "bytes": 128937
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/fi-390-invalid-strip.jpg",
+      "bytes": 161890
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/gate.json",
+      "bytes": 36752
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/handoff.md",
+      "bytes": 3834
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/matrix-1440-font16.jpg",
+      "bytes": 244209
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/matrix-1440-font24.jpg",
+      "bytes": 402063
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/matrix-390-font16.jpg",
+      "bytes": 310677
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/matrix-390-font24.jpg",
+      "bytes": 293899
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/region-check.json",
+      "bytes": 2037
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/review-notes.md",
+      "bytes": 18620
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/review-verify.json",
+      "bytes": 12983
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/spacing320-en-light.jpg",
+      "bytes": 137244
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/spacing320-fi-dark.jpg",
+      "bytes": 129366
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/visual.json",
+      "bytes": 42
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/walk-report.json",
+      "bytes": 102692
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/zoom200-en-dark-field.jpg",
+      "bytes": 78001
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/zoom200-en-dark.jpg",
+      "bytes": 222117
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/zoom200-en-light-field.jpg",
+      "bytes": 80406
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/zoom200-en-light.jpg",
+      "bytes": 223543
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/zoom200-fi-dark-field.jpg",
+      "bytes": 86033
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/zoom200-fi-dark.jpg",
+      "bytes": 219074
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/zoom200-fi-light-field.jpg",
+      "bytes": 88570
+    },
+    {
+      "path": "docs/design/reviews/evidence/eef7d25e/zoom200-fi-light.jpg",
+      "bytes": 220527
+    }
+  ],
+  "inventory": "docs/design/reviews/evidence/eef7d25e/artifacts.json",
+  "bulk_ignored": "design/shots/ux-eef7d25e/",
+  "note": "No source edits or commits; prior unrelated untracked artifacts left untouched."
+}
