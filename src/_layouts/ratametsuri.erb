@@ -9,6 +9,7 @@
   privacy = site.data.routes.privacy[lang]
   origin = site.config.url
   join = "https://join.koivupiilo.fi/ratametsuri"
+  email = site.data.company.email
   locale = { "fi" => "fi_FI", "en" => "en_GB" }
 
   # Line breaking only, never wording: soft hyphens at Finnish compound boundaries (hyphens:auto
@@ -35,6 +36,15 @@
     raise "ratametsuri/#{lang}.yml: consent.text must end with consent.link_text"
   end
   consent_lead = consent.text.delete_suffix(consent.link_text)
+
+  # The window's image (screens/PROVENANCE.md): each source in the widths it is made in, and the
+  # width of its slot. Phone: the column is the viewport less both edges (4vw, at least 1rem) and the
+  # 2.925rem course gutter. Desktop: the right column, about 53vw - 1.5rem, up to 47rem.
+  img = "/ratametsuri"
+  phone_set = ->(scheme) { [640, 960].map { |w| "#{img}/phone-#{lang}-#{scheme}-#{w}.webp #{w}w" }.push("#{img}/phone-#{lang}-#{scheme}.webp 1200w").join(", ") }
+  screen_set = ->(scheme) { [1200, 1600].map { |w| "#{img}/screen-#{lang}-#{scheme}-#{w}.webp #{w}w" }.push("#{img}/screen-#{lang}-#{scheme}.webp 2400w").join(", ") }
+  phone_sizes = "calc(92vw - 3rem)"
+  screen_sizes = "min(47rem, calc(53vw - 1.5rem))"
 
   b = t.beta
   fx = [0.62, 0.38, 0.62, 0.38]
@@ -73,6 +83,10 @@
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27%3E%3Cpolygon points=%2716,4 29.5,27.5 2.5,27.5%27 fill=%27none%27 stroke=%27%23a626a4%27 stroke-width=%273.4%27 stroke-linejoin=%27round%27/%3E%3C/svg%3E">
 <link rel="preload" href="/fonts/barlow-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/barlow-sc-600.woff2" as="font" type="font/woff2" crossorigin>
+<%# The window is the largest thing on a desktop screen: fetch it first there. On a phone it sits under
+    the headline and status, which must not wait for it, so the img itself asks for low priority. %>
+<link rel="preload" as="image" media="(min-width: 62rem) and (prefers-color-scheme: dark)" imagesrcset="<%= screen_set.("dark") %>" imagesizes="<%= screen_sizes %>" fetchpriority="high">
+<link rel="preload" as="image" media="(min-width: 62rem) and (prefers-color-scheme: light)" imagesrcset="<%= screen_set.("light") %>" imagesizes="<%= screen_sizes %>" fetchpriority="high">
 <link rel="stylesheet" href="/ratametsuri/style.css">
 <script>document.documentElement.classList.add("js")</script>
 <%= live_reload_dev_js %>
@@ -92,11 +106,14 @@
 
     <figure class="shot">
       <div class="frame"><div class="win">
+        <%# Widths for the slot the window has (sizes): a phone takes the 640 or 960 px crop rather than
+            the 1200 px one. Low priority: on a phone the text above it is the first screen's content
+            and must not share the network with a map; the desktop preload in <head> outranks this. %>
         <picture>
-          <source media="(max-width: 61.99rem) and (prefers-color-scheme: dark)" srcset="/ratametsuri/phone-<%= lang %>-dark.webp" width="1200" height="705">
-          <source media="(max-width: 61.99rem)" srcset="/ratametsuri/phone-<%= lang %>-light.webp" width="1200" height="705">
-          <source media="(prefers-color-scheme: dark)" srcset="/ratametsuri/screen-<%= lang %>-dark.webp" width="2400" height="1504">
-          <img src="/ratametsuri/screen-<%= lang %>-light.webp" width="2400" height="1504" alt="<%= t.screenshot_alt %>" fetchpriority="high">
+          <source media="(max-width: 61.99rem) and (prefers-color-scheme: dark)" srcset="<%= phone_set.("dark") %>" sizes="<%= phone_sizes %>" width="1200" height="705">
+          <source media="(max-width: 61.99rem)" srcset="<%= phone_set.("light") %>" sizes="<%= phone_sizes %>" width="1200" height="705">
+          <source media="(prefers-color-scheme: dark)" srcset="<%= screen_set.("dark") %>" sizes="<%= screen_sizes %>" width="2400" height="1504">
+          <img src="/ratametsuri/screen-<%= lang %>-light.webp" srcset="<%= screen_set.("light") %>" sizes="<%= screen_sizes %>" width="2400" height="1504" alt="<%= t.screenshot_alt %>" fetchpriority="low">
         </picture>
       </div></div>
       <figcaption class="credit"><%= t.map_credit %></figcaption>
@@ -129,6 +146,10 @@
         data-msg-offline="<%= b.offline %>">
         <label class="field-label" for="email"><%= b.field_label %></label>
         <input id="email" name="email" type="email" autocomplete="email" inputmode="email" autocapitalize="off" spellcheck="false" required>
+        <%# The invalid-address answer sits under the field it is about: launchpad's 422 (form.js marks
+            the field invalid; the script below points its aria-describedby here) or, without
+            form.js, its #signup-error return. %>
+        <p class="field-err" id="signup-error"><%== err_icon %><%= b.invalid_email %></p>
         <input type="hidden" name="locale" value="<%= lang %>">
         <input type="hidden" name="consent" value="<%= consent.version %>">
         <input type="hidden" name="purposes[]" value="beta_invite">
@@ -138,18 +159,18 @@
           <label for="website"><%= b.honeypot_label %></label>
           <input id="website" name="website" type="text" value="" tabindex="-1" autocomplete="off" aria-hidden="true">
         </div>
-        <div class="send">
-          <div class="consent">
-            <input id="consent" type="checkbox" required>
-            <label for="consent"><%= consent_lead %><a href="<%= privacy %>"><%= consent.link_text %></a></label>
-          </div>
-          <button type="submit"><%= b.button %></button>
+        <div class="consent">
+          <input id="consent" type="checkbox" required>
+          <label for="consent"><%= consent_lead %><a href="<%= privacy %>"><%= consent.link_text %></a></label>
         </div>
+        <button type="submit"><%= b.button %></button>
         <div class="msgs">
-          <p class="answer" data-launchpad-status role="status"></p>
+          <p class="answer" id="signup-status" data-launchpad-status role="status"></p>
           <p class="msg ok" id="signup-check-email"><%== tick_icon %><%= b.check_email_nojs %></p>
-          <p class="msg err" id="signup-error"><%== err_icon %><%= b.invalid_email %></p>
           <p class="msg err" id="signup-try-later"><%== err_icon %><%= b.failed %></p>
+          <%# Another way in when the request did not get through (J4): under a failed, offline or
+              rate-limited answer and the #signup-try-later return, never for an invalid address. %>
+          <p class="alt"><%= b.fallback %> <a href="mailto:<%= email %>?subject=<%= ERB::Util.url_encode(b.fallback_subject) %>"><%= email %></a></p>
         </div>
       </form>
     </section>
@@ -176,6 +197,48 @@
 <%# launchpad's kit/form.js (C5) sends the form with fetch. It loads when someone first touches the
     form, so a visitor who only reads makes no request to join.koivupiilo.fi; until it has loaded,
     or if it never does, the form posts natively and works the same. %>
-<script>(function(){var f=document.querySelector("form[data-launchpad-form]");if(!f)return;function go(){f.removeEventListener("focusin",go);f.removeEventListener("pointerdown",go);var s=document.createElement("script");s.src="https://join.koivupiilo.fi/kit/form.js";document.head.appendChild(s)}f.addEventListener("focusin",go);f.addEventListener("pointerdown",go)})();</script>
+<script>
+(function () {
+  var f = document.querySelector("form[data-launchpad-form]");
+  if (!f) return;
+  function go() {
+    f.removeEventListener("focusin", go);
+    f.removeEventListener("pointerdown", go);
+    var s = document.createElement("script");
+    s.src = "https://join.koivupiilo.fi/kit/form.js";
+    document.head.appendChild(s);
+  }
+  f.addEventListener("focusin", go);
+  f.addEventListener("pointerdown", go);
+  // At a press form.js reserves the height of the tallest answer on the status itself. Move that
+  // reserve to the answers' box and add the fallback line's height, so the fallback sits right under
+  // a short answer and no answer moves what follows.
+  var msgs = f.querySelector(".msgs"), answer = document.getElementById("signup-status"), alt = f.querySelector(".alt");
+  new MutationObserver(function () {
+    var h = parseFloat(answer.style.minHeight);
+    if (!h) return;
+    answer.style.minHeight = "";
+    alt.classList.add("measure");
+    var a = alt.getBoundingClientRect().height + parseFloat(getComputedStyle(alt).marginTop);
+    alt.classList.remove("measure");
+    msgs.style.minHeight = h + a + "px";
+  }).observe(answer, { attributes: true, attributeFilter: ["style"] });
+  // An invalid address is explained under the field, so the field is described by that line,
+  // not by the status after the button (form.js points it there; the status still announces).
+  var field = f.elements.email, err = "signup-error", status = "signup-status";
+  if (location.hash === "#" + err) field.setAttribute("aria-invalid", "true");
+  function sync() {
+    var now = field.getAttribute("aria-describedby") || "";
+    var ids = now.split(" ").filter(function (id) { return id && id !== err && id !== status; });
+    if (field.getAttribute("aria-invalid") === "true") ids.push(err);
+    var want = ids.join(" ");
+    if (want === now) return;
+    if (want) field.setAttribute("aria-describedby", want);
+    else field.removeAttribute("aria-describedby");
+  }
+  sync();
+  new MutationObserver(sync).observe(field, { attributes: true, attributeFilter: ["aria-invalid", "aria-describedby"] });
+})();
+</script>
 </body>
 </html>

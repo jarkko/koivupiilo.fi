@@ -77,6 +77,7 @@ items:
       en: Orienteering course planning on a Mac.
     status: development
     checked: 2026-11-12
+    page: ratametsuri # its product page on this site (D24): a route in routes.yml, in both languages
   - name:
       fi: Beach volleyn säännöt
       en: Beach volleyball rules

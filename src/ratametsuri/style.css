@@ -99,14 +99,23 @@ ol,ul{padding:0;list-style:none}
 .beta{margin-top:1.75rem}
 .beta h2{position:relative;font:600 1.75rem/1.2 var(--display);letter-spacing:.005em}
 .lead{margin-top:.3rem;max-width:30rem;color:var(--muted)}
-.signup{margin-top:1rem;max-width:42rem}
+/* The form is a grid of named areas, so the layout can put the button beside the consent (tablet)
+   or beside the field (desktop) while the DOM keeps the order field, consent, button. Rows whose
+   item is hidden collapse; spacing is the items' own top margins. */
+.signup{margin-top:1rem;max-width:42rem;display:grid;grid-template-columns:minmax(0,1fr);
+  grid-template-areas:"label" "field" "err" "consent" "button" "msgs"}
+.field-label{grid-area:label}
+.signup input[type=email]{grid-area:field}
+.field-err{grid-area:err}
+.consent{grid-area:consent}
+.signup button{grid-area:button}
+.msgs{grid-area:msgs}
 .field-label{display:block;font-weight:600;font-size:.9375rem;margin-bottom:.4rem}
 input[type=email]{display:block;width:100%;height:3.25rem;padding:0 1rem;font:inherit;font-size:1.0625rem;color:var(--ink);background:var(--field);border:1.5px solid var(--edge);border-radius:.5rem;transition:border-color .2s}
 input[type=email]:focus-visible{outline-offset:2px;border-color:var(--purple)}
 input[type=email][aria-invalid=true]{border-color:var(--danger)}
 
-.send{margin-top:.9rem;display:grid;grid-template-columns:minmax(0,1fr);gap:.9rem}
-.consent{display:grid;grid-template-columns:auto minmax(0,1fr);gap:0;align-items:start;font-size:.9375rem;line-height:1.45;color:var(--muted)}
+.consent{margin-top:.9rem;display:grid;grid-template-columns:auto minmax(0,1fr);gap:0;align-items:start;font-size:.9375rem;line-height:1.45;color:var(--muted)}
 .consent label{cursor:pointer;hyphens:manual}
 .consent a{color:var(--ink);overflow-wrap:anywhere}
 .consent a:hover{color:var(--purple)}
@@ -120,15 +129,34 @@ input[type=email][aria-invalid=true]{border-color:var(--danger)}
 .consent input:focus-visible{outline:0}
 .consent input:focus-visible::before{outline:3px solid var(--purple);outline-offset:2px}
 
-button{display:block;width:100%;height:3.25rem;padding:0 1.5rem;font:600 1.0625rem var(--text);color:var(--on-purple);background:var(--purple);border:0;border-radius:.5rem;cursor:pointer;white-space:nowrap;transition:background-color .15s}
+button{display:block;width:100%;height:3.25rem;margin-top:.9rem;padding:0 1.5rem;font:600 1.0625rem var(--text);color:var(--on-purple);background:var(--purple);border:0;border-radius:.5rem;cursor:pointer;white-space:nowrap;transition:background-color .15s}
 button:hover{background:var(--purple-press)}
 button[aria-disabled=true]{cursor:progress}
 
 /* Answers. kit/form.js writes into .answer; without it, launchpad's 303 lands on a fragment and
-   :target shows that state. All share one cell, and the line is reserved before form.js loads. */
-.msgs{display:grid;margin-top:.8rem;min-height:1lh;font-size:1.0625rem;line-height:1.45}
-.msgs > *{grid-area:1/1;position:relative;padding-left:1.5em}
+   :target shows that state. All share one cell, and the line is reserved before form.js loads.
+   The column may shrink below its content (minmax(0,…)) and the answer breaks anywhere it must:
+   form.js puts the address sent into it, and a long address is one unbreakable word. */
+.msgs{display:grid;grid-template-columns:minmax(0,1fr);align-content:start;margin-top:.8rem;min-height:1lh;font-size:1.0625rem;line-height:1.45}
+.msgs > *{grid-area:1/1;position:relative;padding-left:1.5em;min-width:0}
 .answer,.msg{hyphens:manual}
+.answer{overflow-wrap:anywhere}
+/* An invalid address: under the field (launchpad's 422 via form.js, or the no-JS return). The status
+   after the button still holds the same words for screen readers, but shows nothing. */
+.field-err{display:none;position:relative;margin-top:.5rem;padding-left:1.5em;color:var(--danger);font-weight:500;line-height:1.45;hyphens:manual;scroll-margin-top:min(45vh,22rem)}
+.signup[data-state=idle] .field-err:target,
+.signup[data-state=error]:has(#email[aria-invalid=true]) .field-err{display:block}
+.signup[data-state=error]:has(#email[aria-invalid=true]) .answer{color:transparent}
+/* Another way in, under a failure that is not the address's fault: the row under the answer. Its
+   height is part of the reserve the page script sets on .msgs at a press (.measure: measured then). */
+.msgs > .alt{grid-area:2/1}
+.alt{display:none;margin-top:.35rem;padding-left:1.5em;font-size:1.0625rem;line-height:1.45;color:var(--muted)}
+/* A 44 px tall hit area around the address without changing the line's height. */
+.alt a{color:var(--ink);overflow-wrap:anywhere;display:inline-block;padding:.75rem 0;margin:-.75rem 0}
+.alt a:hover{color:var(--purple)}
+.alt.measure{display:block;visibility:hidden}
+.signup[data-state=idle]:has(#signup-try-later:target) .alt,
+.signup[data-state=error]:not(:has(#email[aria-invalid=true])) .alt{display:block;visibility:visible}
 .msg{display:none;scroll-margin-top:min(45vh,22rem)}
 .msg:target{display:block}
 .signup:not([data-state=idle]) .msg{display:none}
@@ -161,8 +189,10 @@ button[aria-disabled=true]{cursor:progress}
    a tighter gutter and edge so the name and the request still fit, and a button label that may wrap. */
 @media (max-width:19.5em){
   :root{--g:calc(var(--d) * 1.4);--pad:.75rem}
-  .headline{font-size:1.625rem;line-height:1.1}
-  .mark{font-size:1.375rem}
+  /* At the very largest text (32 px default on a 320 px screen) even "Ratamestari-" is wider than
+     the column: the type follows the screen width there, and a word breaks rather than overflows. */
+  .headline{font-size:min(1.625rem,11.5vw);line-height:1.1;overflow-wrap:anywhere}
+  .mark{font-size:min(1.375rem,10.5vw)}
   .nb{white-space:normal}
   button{height:auto;min-height:3.25rem;padding:.6rem 1rem;white-space:normal;line-height:1.2}
 }
@@ -180,7 +210,8 @@ button[aria-disabled=true]{cursor:progress}
 }
 
 @media (min-width:36rem){
-  .send{grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:1.25rem}
+  .signup{grid-template-columns:minmax(0,1fr) auto;column-gap:1.25rem;align-items:start;
+    grid-template-areas:"label label" "field field" "err err" "consent button" "msgs msgs"}
   button{width:auto}
   .msgs{min-height:2lh}
 }
@@ -224,5 +255,7 @@ button[aria-disabled=true]{cursor:progress}
   .beta{grid-column:1/-1;grid-row:4;margin-top:1.5rem;display:grid;grid-template-columns:minmax(0,var(--col)) minmax(0,1fr);align-items:start;padding-left:0}
   .beta-copy{padding-left:var(--g)}
   .beta h2{font-size:1.875rem}
-  .signup{margin:0}
+  .signup{margin:0;column-gap:.75rem;
+    grid-template-areas:"label label" "field button" "err err" "consent consent" "msgs msgs"}
+  .signup button{margin-top:0}
 }

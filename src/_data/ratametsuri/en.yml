@@ -50,6 +50,10 @@ beta:
   failed: "Your request didn't get through. Try again in a moment."
   rate_limited: "Too many requests have come from your network in a short time. Try again in a few minutes."
   offline: "Your request wasn't sent. Check your connection and try again."
+  # Under a failed, offline or rate-limited answer (and #signup-try-later): another way in, by
+  # email to the company address (company.yml email), which the page adds after this line as a link.
+  fallback: "You can also ask for an invite by email:"
+  fallback_subject: "Ratametsuri beta invite"
   honeypot_label: "Leave this field empty" # launchpad; hidden from everyone, read only by bots
 
 consent:

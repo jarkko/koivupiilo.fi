@@ -24,6 +24,12 @@ appearance differ.
 |---|---|---|
 | `screen-{fi,en}-{light,dark}.webp` | The 2400 px WebP above, unchanged (the whole window, inspector included) | 2400 x 1504 px |
 | `phone-{fi,en}-{light,dark}.webp` | The PNG master, cropped 1200 x 705 px at x 900, y 1075 (`PHONE_CROP` in `../d/build.mjs`: x 0.30, y 0.572, w 0.40, h 0.375 of the master), `magick … -resize 1200x -strip -quality 82` | 1200 x 705 px |
+| `phone-{fi,en}-{light,dark}-{640,960}.webp` | The same crop, `magick <master> -crop 1200x705+900+1075 +repage -resize {640,960}x -strip -quality 82` | 640 x 376, 960 x 564 px |
+| `screen-{fi,en}-{light,dark}-{1200,1600}.webp` | The PNG master, uncropped, `magick <master> -resize {1200,1600}x -strip -quality 82 -define webp:method=6` | 1200 x 752, 1600 x 1003 px |
+
+The smaller widths go in each source's `srcset` with a `sizes` for the window's slot, so a phone
+loads the 640 or 960 px crop and a desktop the 1200 or 1600 px window instead of the largest file
+(the 1200 px crop held the phone's Largest Contentful Paint at 3 s in Lighthouse).
 
 The phone crop is map canvas only, so the four phone files come out
 byte-identical: the app draws the map and course the same way in both languages

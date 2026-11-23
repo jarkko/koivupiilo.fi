@@ -66,6 +66,12 @@
   // control scrolls into view.
   if (reduce) return;
   root.classList.add("motion");
+  // Reduce Motion turned on mid-visit: show the whole course now rather than leave the controls
+  // below the fold hidden until scrolled to, with no motion left to bring them in.
+  const mq = matchMedia("(prefers-reduced-motion: reduce)");
+  const onReduce = (e) => { if (e.matches) finishAll(); };
+  if (mq.addEventListener) mq.addEventListener("change", onReduce);
+  else if (mq.addListener) mq.addListener(onReduce);
   syms.slice(1).forEach((s) => s.classList.add("pre"));
   const wait = (ms) => new Promise((r) => setTimeout(r, ms));
   const seen = new Map();

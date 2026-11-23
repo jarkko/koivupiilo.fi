@@ -49,6 +49,10 @@ beta:
   failed: "Pyyntö ei mennyt perille. Yritä hetken päästä uudelleen."
   rate_limited: "Verkostasi on tullut lyhyessä ajassa liian monta pyyntöä. Yritä uudelleen muutaman minuutin päästä."
   offline: "Pyyntö ei lähtenyt. Tarkista verkkoyhteys ja yritä uudelleen."
+  # Under a failed, offline or rate-limited answer (and #signup-try-later): another way in, by
+  # email to the company address (company.yml email), which the page adds after this line as a link.
+  fallback: "Voit pyytää kutsun myös sähköpostilla:"
+  fallback_subject: "Ratametsurin betakutsu"
   honeypot_label: "Jätä tämä kenttä tyhjäksi" # launchpad; hidden from everyone, read only by bots
 
 consent:

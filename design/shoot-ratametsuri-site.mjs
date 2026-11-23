@@ -8,9 +8,11 @@
 // Matrix: fi/en x 390/1440 x light/dark (plus largest text at 390), every kit/form.js answer
 // (accepted, invalid email, rate limited, failed, offline, sending), the no-JS states
 // (#signup-check-email, #signup-error, #signup-try-later) and the plain POST when form.js does not
-// load. Fails on horizontal overflow, console errors, requests to any origin but join.koivupiilo.fi,
-// a consent label that differs from launchpad's string, the field or the Mac line below the 1440
-// fold, and the field below the first phone screen.
+// load, and a long unbroken address in the check-email answer at 320/390 px with 16/24/32 px text.
+// Fails on horizontal overflow, console errors, requests to any origin but join.koivupiilo.fi,
+// a consent label that differs from launchpad's string, the field, its button or the Mac line below
+// the 1440 fold, the button off the field's row at 1440, the field below the first phone screen,
+// the invalid-address line anywhere but under the field, and a failure without the email fallback.
 // Output: design/shots/ratametsuri-site/ (gitignored).
 import { createServer } from 'node:http';
 import { readFileSync, existsSync, statSync, mkdirSync, mkdtempSync, writeFileSync, rmSync } from 'node:fs';
@@ -51,13 +53,21 @@ const origin = `http://localhost:${srv.address().port}`;
 const JOIN = 'https://join.koivupiilo.fi';
 const CHROME = '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome';
 const browser = await chromium.launch({ executablePath: CHROME });
-const LONG = 'marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi';
+// One unbreakable word (no hyphen or dot to break at before the @): form.js puts it in the answer.
+const UNBROKEN = 'marjaliisakorhonenvirtanen@suunnistusseuraesimerkki.example';
 const failures = [];
 let n = 0;
 
-const xlDir = mkdtempSync(join(tmpdir(), 'rm-xl-'));
-mkdirSync(join(xlDir, 'Default'));
-writeFileSync(join(xlDir, 'Default', 'Preferences'), JSON.stringify({ webkit: { webprefs: { default_font_size: 24 } } }));
+// Browser profiles with a larger default text size (the reader's setting, not zoom).
+const fontDirs = {};
+const fontDir = (px) => {
+  if (fontDirs[px]) return fontDirs[px];
+  const d = mkdtempSync(join(tmpdir(), `rm-font${px}-`));
+  mkdirSync(join(d, 'Default'));
+  writeFileSync(join(d, 'Default', 'Preferences'), JSON.stringify({ webkit: { webprefs: { default_font_size: px } } }));
+  return (fontDirs[px] = d);
+};
+const xlDir = fontDir(24);
 
 const path = (lang) => (lang === 'fi' ? '/ratametsuri/' : '/en/ratametsuri/');
 
@@ -115,13 +125,18 @@ const measure = (p) => p.evaluate(() => {
   return {
     over: de.scrollWidth - de.clientWidth,
     small,
-    field: y('#email'), mac: y('.req li'), button: y('.signup button'), beta: y('.beta'), msgs: y('.msgs'),
+    field: y('#email'), mac: y('.req li'), button: y('.signup button'), beta: y('.beta'), msgs: y('.msgs'), consentBox: y('#consent'),
+    shown: ['.field-err', '.alt'].filter((s) => { const e = document.querySelector(s); return e && getComputedStyle(e).display !== 'none' && getComputedStyle(e).visibility === 'visible'; }),
+    describedBy: document.getElementById('email')?.getAttribute('aria-describedby') || null,
     consent: label ? label.textContent : null,
     consentHref: label?.querySelector('a')?.getAttribute('href'),
     fold: innerHeight,
     H: de.scrollHeight,
   };
 });
+
+// An element's box in page coordinates, for a fullPage screenshot's clip (boundingBox is the viewport's).
+const pageBox = (p, sel) => p.evaluate((s) => { const r = document.querySelector(s).getBoundingClientRect(); return { y: r.top + scrollY, height: r.height }; }, sel);
 
 const record = (name, info, bad) => {
   n++;
@@ -150,6 +165,14 @@ for (const lang of ['fi', 'en']) for (const [w, h] of [[390, 844], [1440, 900]])
   if (!xl && w === 1440 && info.field.bottom > h) failures.push(`${name}: the field ends at ${info.field.bottom}, below the ${h}px fold`);
   if (!xl && w === 1440 && info.mac.bottom > h) failures.push(`${name}: the Mac line ends at ${info.mac.bottom}, below the ${h}px fold`);
   if (!xl && w === 390 && info.field.bottom > h) failures.push(`${name}: the field ends at ${info.field.bottom}, below the first ${h}px screen`);
+  // Desktop: the button on the field's row, the whole action above the fold, the consent under it.
+  if (!xl && w === 1440) {
+    if (info.button.top !== info.field.top || info.button.bottom !== info.field.bottom) failures.push(`${name}: the button (${info.button.top}-${info.button.bottom}) is not on the field's row (${info.field.top}-${info.field.bottom})`);
+    if (info.button.bottom > h) failures.push(`${name}: the button ends at ${info.button.bottom}, below the ${h}px fold`);
+    if (info.consentBox.top < info.field.bottom) failures.push(`${name}: the consent box is not under the field`);
+  }
+  if (w === 390 && info.button.top < info.consentBox.bottom) failures.push(`${name}: on a phone the button should come after the consent`);
+  if (info.shown.length) failures.push(`${name}: idle page shows ${info.shown.join(', ')}`);
   await ctx.close();
 }
 
@@ -171,7 +194,8 @@ for (const lang of ['fi', 'en']) for (const [w, h] of [[390, 844], [1440, 900]])
     await p.focus("#email"); // form.js loads when the form is first touched
     await p.waitForFunction(() => document.querySelector(".signup").launchpad === true);
     // Unticked consent: the browser stops the press and nothing is sent.
-    await p.fill('#email', LONG);
+    const addr = UNBROKEN; // the same address in every answer, so the reserve at the press is the same
+    await p.fill('#email', addr);
     await p.click('.signup button');
     await p.waitForTimeout(150);
     if (posts.length) failures.push(`${lang}-${w}: sent without the consent box ticked`);
@@ -188,11 +212,18 @@ for (const lang of ['fi', 'en']) for (const [w, h] of [[390, 844], [1440, 900]])
     if (answer !== 'offline' && posts.length !== 1) failures.push(`${name}: ${posts.length} posts`);
     if (posts[0]) {
       const b = posts[0].body;
-      const ok = b.email === LONG && b.locale === lang && b.consent === VERSION && b['purposes[]'] === 'beta_invite' && b.source === path(lang) && b.website === '' && /^tok-/.test(b.t) && /application\/json/.test(posts[0].accept);
+      const ok = b.email === addr && b.locale === lang && b.consent === VERSION && b['purposes[]'] === 'beta_invite' && b.source === path(lang) && b.website === '' && /^tok-/.test(b.t) && /application\/json/.test(posts[0].accept);
       if (!ok) failures.push(`${name}: unexpected post ${JSON.stringify(posts[0])}`);
     }
-    heights.add(info.beta.bottom - info.beta.top);
-    const box = await p.locator('.beta').boundingBox();
+    // The invalid-address answer adds its line under the field; every other answer fits the space
+    // reserved at the press.
+    if (label !== 'invalid-email') heights.add(info.beta.bottom - info.beta.top);
+    const wantShown = label === 'invalid-email' ? '.field-err' : ['rate-limited', 'failed', 'offline'].includes(label) ? '.alt' : '';
+    if (info.shown.join() !== wantShown) failures.push(`${name}: shows ${info.shown.join(', ') || 'nothing'} beside the answer, expected ${wantShown || 'nothing'}`);
+    if (label === 'invalid-email' && info.describedBy !== 'signup-error') failures.push(`${name}: the field is described by ${info.describedBy}, not the line under it`);
+    if (label === 'invalid-email' && !(await p.evaluate(() => document.activeElement?.id === 'email'))) failures.push(`${name}: focus is not on the field`);
+    if (label !== 'invalid-email' && info.describedBy) failures.push(`${name}: the field is still described by ${info.describedBy}`);
+    const box = await pageBox(p, '.beta');
     await p.screenshot({ path: join(shots, name + '.png'), fullPage: true, clip: { x: 0, y: Math.max(0, box.y - 20), width: w, height: box.height + 40 } }); // fullPage: the block can reach below the fold
     record(name, info, bad);
     await ctx.close();
@@ -208,10 +239,11 @@ for (const lang of ['fi', 'en']) for (const [w, h] of [[390, 844], [1440, 900]])
   const p = await ctx.newPage();
   const bad = []; watch(p, bad);
   await p.goto(origin + path(lang) + '#' + frag, { waitUntil: 'networkidle' });
-  const vis = await p.evaluate((f) => [...document.querySelectorAll('.msg')].filter((m) => getComputedStyle(m).display !== 'none').map((m) => m.id), frag);
+  const vis = await p.evaluate((f) => [...document.querySelectorAll('.msg, .field-err')].filter((m) => getComputedStyle(m).display !== 'none').map((m) => m.id), frag);
   const info = await measure(p);
   const name = `${lang}-${w}-${scheme}-nojs-${frag.replace('signup-', '')}`;
   if (vis.join() !== frag) failures.push(`${name}: visible messages ${vis.join() || 'none'}`);
+  if ((info.shown.includes('.alt')) !== (frag === 'signup-try-later')) failures.push(`${name}: the email fallback is ${info.shown.includes('.alt') ? 'shown' : 'missing'}`);
   await p.screenshot({ path: join(shots, name + '.png') }); // the viewport the visitor lands on
   record(name, info, bad);
   await ctx.close();
@@ -240,7 +272,33 @@ for (const js of [true, false]) {
   await ctx.close();
 }
 
-// 5. The arrival motion, at both widths.
+// 5. A long address in the check-email answer must wrap, never widen the page (WCAG 1.4.10):
+//    320 and 390 px, light and dark, 16/24/32 px default text, both languages.
+for (const lang of ['fi', 'en']) for (const w of [320, 390]) for (const scheme of ['light', 'dark']) for (const px of [16, 24, 32]) {
+  const opts = { viewport: { width: w, height: 844 }, colorScheme: scheme, reducedMotion: 'reduce' };
+  const ctx = px === 16 ? await browser.newContext(opts) : await chromium.launchPersistentContext(fontDir(px), { ...opts, executablePath: CHROME });
+  const posts = [];
+  await fakeJoin(ctx, { answer: 202, posts });
+  const p = ctx.pages()[0] || await ctx.newPage();
+  const bad = []; watch(p, bad);
+  await p.goto(origin + path(lang), { waitUntil: 'networkidle' });
+  await p.evaluate(() => document.fonts.ready);
+  await p.focus('#email');
+  await p.waitForFunction(() => document.querySelector('.signup').launchpad === true);
+  await p.fill('#email', UNBROKEN);
+  await p.check('#consent');
+  await p.click('.signup button');
+  await p.waitForFunction(() => document.querySelector('.signup').dataset.state === 'accepted', null, { timeout: 15000 });
+  const text = await p.evaluate(() => document.querySelector('.answer').textContent);
+  if (!text.includes(UNBROKEN)) failures.push(`long-${lang}-${w}-${scheme}-${px}: the answer does not carry the address`);
+  const name = `long-${lang}-${w}-${scheme}-font${px}`;
+  const box = await pageBox(p, '.signup');
+  await p.screenshot({ path: join(shots, name + '.png'), fullPage: true, clip: { x: 0, y: Math.max(0, box.y - 20), width: w, height: box.height + 40 } });
+  record(name, await measure(p), bad);
+  await ctx.close();
+}
+
+// 6. The arrival motion, at both widths.
 for (const [w, h] of [[1440, 900], [390, 844]]) {
   const ctx = await browser.newContext({ viewport: { width: w, height: h }, colorScheme: 'light', reducedMotion: 'no-preference' });
   await fakeJoin(ctx);
@@ -262,7 +320,7 @@ for (const [w, h] of [[1440, 900], [390, 844]]) {
   await ctx.close();
 }
 
-await browser.close(); srv.close(); rmSync(xlDir, { recursive: true, force: true });
+await browser.close(); srv.close(); for (const d of Object.values(fontDirs)) rmSync(d, { recursive: true, force: true });
 console.log(n, 'shots in', shots);
 if (failures.length) { console.log(`\n${failures.length} FAILURES:\n- ` + failures.join('\n- ')); process.exit(1); }
 console.log('all checks passed');
