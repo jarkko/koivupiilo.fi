@@ -1,0 +1,10 @@
+{
+  "head": "248cbea000ee9c2da39ff9860448607e58d9ecdc",
+  "branch": "jarkko/ratametsuri-landing",
+  "reviewer_run_id": "ctx_a817d04dcd01 / term_ed6e60fa-999b-4cfb-a1d1-95fe057e3366",
+  "task_id": "task_41540da08796",
+  "reviewer_family": "gpt",
+  "implementer_family": "claude",
+  "independence": "Fresh dispatched reviewer; did not write or plan the implementation. HEAD credits Claude Opus 5.5. Orca inventory shows only the Claude lead and this Codex worker in the worktree. UI was frozen by the dispatch.",
+  "authorization": "No source edits or commits; artifacts deliberately uncommitted per task."
+}

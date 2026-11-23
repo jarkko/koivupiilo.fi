@@ -1,0 +1,921 @@
+{
+  "mechanism": "Real Chrome page zoom, set through chrome://settings/appearance #zoomLevel; no CSS zoom or device scale emulation.",
+  "zoom": [
+    {
+      "name": "zoom100-fi-light",
+      "level": {
+        "value": "1",
+        "label": "100%"
+      },
+      "innerWidth": 1440,
+      "innerHeight": 900,
+      "dpr": 1,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": [],
+      "validationFocus": "email"
+    },
+    {
+      "name": "zoom100-en-light",
+      "level": {
+        "value": "1",
+        "label": "100%"
+      },
+      "innerWidth": 1440,
+      "innerHeight": 900,
+      "dpr": 1,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": [],
+      "validationFocus": "email"
+    },
+    {
+      "name": "zoom100-privacy-fi-light",
+      "level": {
+        "value": "1",
+        "label": "100%"
+      },
+      "innerWidth": 1440,
+      "innerHeight": 900,
+      "dpr": 1,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "zoom100-privacy-en-light",
+      "level": {
+        "value": "1",
+        "label": "100%"
+      },
+      "innerWidth": 1440,
+      "innerHeight": 900,
+      "dpr": 1,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "zoom100-fi-dark",
+      "level": {
+        "value": "1",
+        "label": "100%"
+      },
+      "innerWidth": 1440,
+      "innerHeight": 900,
+      "dpr": 1,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": [],
+      "validationFocus": "email"
+    },
+    {
+      "name": "zoom100-en-dark",
+      "level": {
+        "value": "1",
+        "label": "100%"
+      },
+      "innerWidth": 1440,
+      "innerHeight": 900,
+      "dpr": 1,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": [],
+      "validationFocus": "email"
+    },
+    {
+      "name": "zoom100-privacy-fi-dark",
+      "level": {
+        "value": "1",
+        "label": "100%"
+      },
+      "innerWidth": 1440,
+      "innerHeight": 900,
+      "dpr": 1,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "zoom100-privacy-en-dark",
+      "level": {
+        "value": "1",
+        "label": "100%"
+      },
+      "innerWidth": 1440,
+      "innerHeight": 900,
+      "dpr": 1,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "zoom110-fi-light",
+      "level": {
+        "value": "1.1",
+        "label": "110%"
+      },
+      "innerWidth": 1309,
+      "innerHeight": 818,
+      "dpr": 1.100000023841858,
+      "scrollWidth": 1309,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": [],
+      "validationFocus": "email"
+    },
+    {
+      "name": "zoom110-en-light",
+      "level": {
+        "value": "1.1",
+        "label": "110%"
+      },
+      "innerWidth": 1309,
+      "innerHeight": 818,
+      "dpr": 1.100000023841858,
+      "scrollWidth": 1309,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": [],
+      "validationFocus": "email"
+    },
+    {
+      "name": "zoom110-privacy-fi-light",
+      "level": {
+        "value": "1.1",
+        "label": "110%"
+      },
+      "innerWidth": 1309,
+      "innerHeight": 818,
+      "dpr": 1.100000023841858,
+      "scrollWidth": 1309,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "zoom110-privacy-en-light",
+      "level": {
+        "value": "1.1",
+        "label": "110%"
+      },
+      "innerWidth": 1309,
+      "innerHeight": 818,
+      "dpr": 1.100000023841858,
+      "scrollWidth": 1309,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "zoom110-fi-dark",
+      "level": {
+        "value": "1.1",
+        "label": "110%"
+      },
+      "innerWidth": 1309,
+      "innerHeight": 818,
+      "dpr": 1.100000023841858,
+      "scrollWidth": 1309,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": [],
+      "validationFocus": "email"
+    },
+    {
+      "name": "zoom110-en-dark",
+      "level": {
+        "value": "1.1",
+        "label": "110%"
+      },
+      "innerWidth": 1309,
+      "innerHeight": 818,
+      "dpr": 1.100000023841858,
+      "scrollWidth": 1309,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": [],
+      "validationFocus": "email"
+    },
+    {
+      "name": "zoom110-privacy-fi-dark",
+      "level": {
+        "value": "1.1",
+        "label": "110%"
+      },
+      "innerWidth": 1309,
+      "innerHeight": 818,
+      "dpr": 1.100000023841858,
+      "scrollWidth": 1309,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "zoom110-privacy-en-dark",
+      "level": {
+        "value": "1.1",
+        "label": "110%"
+      },
+      "innerWidth": 1309,
+      "innerHeight": 818,
+      "dpr": 1.100000023841858,
+      "scrollWidth": 1309,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "zoom125-fi-light",
+      "level": {
+        "value": "1.25",
+        "label": "125%"
+      },
+      "innerWidth": 1152,
+      "innerHeight": 720,
+      "dpr": 1.25,
+      "scrollWidth": 1152,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": [],
+      "validationFocus": "email"
+    },
+    {
+      "name": "zoom125-en-light",
+      "level": {
+        "value": "1.25",
+        "label": "125%"
+      },
+      "innerWidth": 1152,
+      "innerHeight": 720,
+      "dpr": 1.25,
+      "scrollWidth": 1152,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": [],
+      "validationFocus": "email"
+    },
+    {
+      "name": "zoom125-privacy-fi-light",
+      "level": {
+        "value": "1.25",
+        "label": "125%"
+      },
+      "innerWidth": 1152,
+      "innerHeight": 720,
+      "dpr": 1.25,
+      "scrollWidth": 1152,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "zoom125-privacy-en-light",
+      "level": {
+        "value": "1.25",
+        "label": "125%"
+      },
+      "innerWidth": 1152,
+      "innerHeight": 720,
+      "dpr": 1.25,
+      "scrollWidth": 1152,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "zoom125-fi-dark",
+      "level": {
+        "value": "1.25",
+        "label": "125%"
+      },
+      "innerWidth": 1152,
+      "innerHeight": 720,
+      "dpr": 1.25,
+      "scrollWidth": 1152,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": [],
+      "validationFocus": "email"
+    },
+    {
+      "name": "zoom125-en-dark",
+      "level": {
+        "value": "1.25",
+        "label": "125%"
+      },
+      "innerWidth": 1152,
+      "innerHeight": 720,
+      "dpr": 1.25,
+      "scrollWidth": 1152,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": [],
+      "validationFocus": "email"
+    },
+    {
+      "name": "zoom125-privacy-fi-dark",
+      "level": {
+        "value": "1.25",
+        "label": "125%"
+      },
+      "innerWidth": 1152,
+      "innerHeight": 720,
+      "dpr": 1.25,
+      "scrollWidth": 1152,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "zoom125-privacy-en-dark",
+      "level": {
+        "value": "1.25",
+        "label": "125%"
+      },
+      "innerWidth": 1152,
+      "innerHeight": 720,
+      "dpr": 1.25,
+      "scrollWidth": 1152,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "zoom150-fi-light",
+      "level": {
+        "value": "1.5",
+        "label": "150%"
+      },
+      "innerWidth": 960,
+      "innerHeight": 600,
+      "dpr": 1.5,
+      "scrollWidth": 960,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": [],
+      "validationFocus": "email"
+    },
+    {
+      "name": "zoom150-en-light",
+      "level": {
+        "value": "1.5",
+        "label": "150%"
+      },
+      "innerWidth": 960,
+      "innerHeight": 600,
+      "dpr": 1.5,
+      "scrollWidth": 960,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": [],
+      "validationFocus": "email"
+    },
+    {
+      "name": "zoom150-privacy-fi-light",
+      "level": {
+        "value": "1.5",
+        "label": "150%"
+      },
+      "innerWidth": 960,
+      "innerHeight": 600,
+      "dpr": 1.5,
+      "scrollWidth": 960,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "zoom150-privacy-en-light",
+      "level": {
+        "value": "1.5",
+        "label": "150%"
+      },
+      "innerWidth": 960,
+      "innerHeight": 600,
+      "dpr": 1.5,
+      "scrollWidth": 960,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "zoom150-fi-dark",
+      "level": {
+        "value": "1.5",
+        "label": "150%"
+      },
+      "innerWidth": 960,
+      "innerHeight": 600,
+      "dpr": 1.5,
+      "scrollWidth": 960,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": [],
+      "validationFocus": "email"
+    },
+    {
+      "name": "zoom150-en-dark",
+      "level": {
+        "value": "1.5",
+        "label": "150%"
+      },
+      "innerWidth": 960,
+      "innerHeight": 600,
+      "dpr": 1.5,
+      "scrollWidth": 960,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": [],
+      "validationFocus": "email"
+    },
+    {
+      "name": "zoom150-privacy-fi-dark",
+      "level": {
+        "value": "1.5",
+        "label": "150%"
+      },
+      "innerWidth": 960,
+      "innerHeight": 600,
+      "dpr": 1.5,
+      "scrollWidth": 960,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "zoom150-privacy-en-dark",
+      "level": {
+        "value": "1.5",
+        "label": "150%"
+      },
+      "innerWidth": 960,
+      "innerHeight": 600,
+      "dpr": 1.5,
+      "scrollWidth": 960,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "zoom175-fi-light",
+      "level": {
+        "value": "1.75",
+        "label": "175%"
+      },
+      "innerWidth": 823,
+      "innerHeight": 514,
+      "dpr": 1.75,
+      "scrollWidth": 823,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": [],
+      "validationFocus": "email"
+    },
+    {
+      "name": "zoom175-en-light",
+      "level": {
+        "value": "1.75",
+        "label": "175%"
+      },
+      "innerWidth": 823,
+      "innerHeight": 514,
+      "dpr": 1.75,
+      "scrollWidth": 823,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": [],
+      "validationFocus": "email"
+    },
+    {
+      "name": "zoom175-privacy-fi-light",
+      "level": {
+        "value": "1.75",
+        "label": "175%"
+      },
+      "innerWidth": 823,
+      "innerHeight": 514,
+      "dpr": 1.75,
+      "scrollWidth": 823,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "zoom175-privacy-en-light",
+      "level": {
+        "value": "1.75",
+        "label": "175%"
+      },
+      "innerWidth": 823,
+      "innerHeight": 514,
+      "dpr": 1.75,
+      "scrollWidth": 823,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "zoom175-fi-dark",
+      "level": {
+        "value": "1.75",
+        "label": "175%"
+      },
+      "innerWidth": 823,
+      "innerHeight": 514,
+      "dpr": 1.75,
+      "scrollWidth": 823,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": [],
+      "validationFocus": "email"
+    },
+    {
+      "name": "zoom175-en-dark",
+      "level": {
+        "value": "1.75",
+        "label": "175%"
+      },
+      "innerWidth": 823,
+      "innerHeight": 514,
+      "dpr": 1.75,
+      "scrollWidth": 823,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": [],
+      "validationFocus": "email"
+    },
+    {
+      "name": "zoom175-privacy-fi-dark",
+      "level": {
+        "value": "1.75",
+        "label": "175%"
+      },
+      "innerWidth": 823,
+      "innerHeight": 514,
+      "dpr": 1.75,
+      "scrollWidth": 823,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "zoom175-privacy-en-dark",
+      "level": {
+        "value": "1.75",
+        "label": "175%"
+      },
+      "innerWidth": 823,
+      "innerHeight": 514,
+      "dpr": 1.75,
+      "scrollWidth": 823,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "zoom200-fi-light",
+      "level": {
+        "value": "2",
+        "label": "200%"
+      },
+      "innerWidth": 720,
+      "innerHeight": 450,
+      "dpr": 2,
+      "scrollWidth": 720,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": [],
+      "validationFocus": "email"
+    },
+    {
+      "name": "zoom200-en-light",
+      "level": {
+        "value": "2",
+        "label": "200%"
+      },
+      "innerWidth": 720,
+      "innerHeight": 450,
+      "dpr": 2,
+      "scrollWidth": 720,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": [],
+      "validationFocus": "email"
+    },
+    {
+      "name": "zoom200-privacy-fi-light",
+      "level": {
+        "value": "2",
+        "label": "200%"
+      },
+      "innerWidth": 720,
+      "innerHeight": 450,
+      "dpr": 2,
+      "scrollWidth": 720,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "zoom200-privacy-en-light",
+      "level": {
+        "value": "2",
+        "label": "200%"
+      },
+      "innerWidth": 720,
+      "innerHeight": 450,
+      "dpr": 2,
+      "scrollWidth": 720,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "zoom200-fi-dark",
+      "level": {
+        "value": "2",
+        "label": "200%"
+      },
+      "innerWidth": 720,
+      "innerHeight": 450,
+      "dpr": 2,
+      "scrollWidth": 720,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": [],
+      "validationFocus": "email"
+    },
+    {
+      "name": "zoom200-en-dark",
+      "level": {
+        "value": "2",
+        "label": "200%"
+      },
+      "innerWidth": 720,
+      "innerHeight": 450,
+      "dpr": 2,
+      "scrollWidth": 720,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": [],
+      "validationFocus": "email"
+    },
+    {
+      "name": "zoom200-privacy-fi-dark",
+      "level": {
+        "value": "2",
+        "label": "200%"
+      },
+      "innerWidth": 720,
+      "innerHeight": 450,
+      "dpr": 2,
+      "scrollWidth": 720,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "zoom200-privacy-en-dark",
+      "level": {
+        "value": "2",
+        "label": "200%"
+      },
+      "innerWidth": 720,
+      "innerHeight": 450,
+      "dpr": 2,
+      "scrollWidth": 720,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    }
+  ],
+  "stress": [
+    {
+      "name": "spacing-fi-320-light",
+      "longField": {
+        "value": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+        "clientWidth": 207,
+        "scrollWidth": 515,
+        "scrollLeft": 307
+      },
+      "innerWidth": 320,
+      "innerHeight": 844,
+      "dpr": 1,
+      "scrollWidth": 320,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "spacing-fi-320-dark",
+      "longField": {
+        "value": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+        "clientWidth": 207,
+        "scrollWidth": 515,
+        "scrollLeft": 307
+      },
+      "innerWidth": 320,
+      "innerHeight": 844,
+      "dpr": 1,
+      "scrollWidth": 320,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "spacing-en-320-light",
+      "longField": {
+        "value": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+        "clientWidth": 207,
+        "scrollWidth": 515,
+        "scrollLeft": 307
+      },
+      "innerWidth": 320,
+      "innerHeight": 844,
+      "dpr": 1,
+      "scrollWidth": 320,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "spacing-en-320-dark",
+      "longField": {
+        "value": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+        "clientWidth": 207,
+        "scrollWidth": 515,
+        "scrollLeft": 307
+      },
+      "innerWidth": 320,
+      "innerHeight": 844,
+      "dpr": 1,
+      "scrollWidth": 320,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "spacing-fi-390-light",
+      "longField": {
+        "value": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+        "clientWidth": 277,
+        "scrollWidth": 515,
+        "scrollLeft": 237
+      },
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "dpr": 1,
+      "scrollWidth": 390,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "spacing-fi-390-dark",
+      "longField": {
+        "value": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+        "clientWidth": 277,
+        "scrollWidth": 515,
+        "scrollLeft": 237
+      },
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "dpr": 1,
+      "scrollWidth": 390,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "spacing-en-390-light",
+      "longField": {
+        "value": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+        "clientWidth": 277,
+        "scrollWidth": 515,
+        "scrollLeft": 237
+      },
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "dpr": 1,
+      "scrollWidth": 390,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "spacing-en-390-dark",
+      "longField": {
+        "value": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+        "clientWidth": 277,
+        "scrollWidth": 515,
+        "scrollLeft": 237
+      },
+      "innerWidth": 390,
+      "innerHeight": 844,
+      "dpr": 1,
+      "scrollWidth": 390,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "spacing-fi-1440-light",
+      "longField": {
+        "value": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+        "clientWidth": 565,
+        "scrollWidth": 565,
+        "scrollLeft": 0
+      },
+      "innerWidth": 1440,
+      "innerHeight": 900,
+      "dpr": 1,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "spacing-fi-1440-dark",
+      "longField": {
+        "value": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+        "clientWidth": 565,
+        "scrollWidth": 565,
+        "scrollLeft": 0
+      },
+      "innerWidth": 1440,
+      "innerHeight": 900,
+      "dpr": 1,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "spacing-en-1440-light",
+      "longField": {
+        "value": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+        "clientWidth": 535,
+        "scrollWidth": 535,
+        "scrollLeft": 0
+      },
+      "innerWidth": 1440,
+      "innerHeight": 900,
+      "dpr": 1,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    },
+    {
+      "name": "spacing-en-1440-dark",
+      "longField": {
+        "value": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+        "clientWidth": 535,
+        "scrollWidth": 535,
+        "scrollLeft": 0
+      },
+      "innerWidth": 1440,
+      "innerHeight": 900,
+      "dpr": 1,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "offscreen": [],
+      "clipped": []
+    }
+  ],
+  "levels": [
+    {
+      "value": "1",
+      "label": "100%"
+    },
+    {
+      "value": "1.1",
+      "label": "110%"
+    },
+    {
+      "value": "1.25",
+      "label": "125%"
+    },
+    {
+      "value": "1.5",
+      "label": "150%"
+    },
+    {
+      "value": "1.75",
+      "label": "175%"
+    },
+    {
+      "value": "2",
+      "label": "200%"
+    }
+  ]
+}

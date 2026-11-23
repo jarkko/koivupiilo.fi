@@ -1,0 +1,20 @@
+{
+  "head": "248cbea000ee9c2da39ff9860448607e58d9ecdc",
+  "observed_commands": [
+    {
+      "command": "npm run esbuild",
+      "exit_code": 0,
+      "result": "Frontend bundling completed; index.FWV7EXXZ.js and index.NMHSGCKI.css generated."
+    },
+    {
+      "command": "BRIDGETOWN_ENV=production bin/bridgetown build",
+      "exit_code": 0,
+      "result": "Bridgetown 2.0.3 production build completed into output/."
+    }
+  ],
+  "warnings": [
+    "npm user config 14.18 is unknown",
+    "baseline-browser-mapping data is over two months old",
+    "caniuse-lite browser data is 12 months old"
+  ]
+}

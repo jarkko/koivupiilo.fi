@@ -1,0 +1,158 @@
+[
+  {
+    "lc": "fi",
+    "theme": "light",
+    "stage": "field",
+    "evidence": "docs/design/reviews/evidence/f42b0d0f/shots/native200-fi-light-field.jpg",
+    "metrics": {
+      "innerWidth": 720,
+      "innerHeight": 450,
+      "scrollY": 652.5,
+      "scrollWidth": 720,
+      "active": "email"
+    }
+  },
+  {
+    "lc": "fi",
+    "theme": "light",
+    "stage": "button",
+    "evidence": "docs/design/reviews/evidence/f42b0d0f/shots/native200-fi-light-button.jpg",
+    "metrics": {
+      "innerWidth": 720,
+      "innerHeight": 450,
+      "scrollY": 652.5,
+      "scrollWidth": 720,
+      "active": ""
+    }
+  },
+  {
+    "lc": "en",
+    "theme": "light",
+    "stage": "field",
+    "evidence": "docs/design/reviews/evidence/f42b0d0f/shots/native200-en-light-field.jpg",
+    "metrics": {
+      "innerWidth": 720,
+      "innerHeight": 450,
+      "scrollY": 678,
+      "scrollWidth": 720,
+      "active": "email"
+    }
+  },
+  {
+    "lc": "en",
+    "theme": "light",
+    "stage": "button",
+    "evidence": "docs/design/reviews/evidence/f42b0d0f/shots/native200-en-light-button.jpg",
+    "metrics": {
+      "innerWidth": 720,
+      "innerHeight": 450,
+      "scrollY": 678,
+      "scrollWidth": 720,
+      "active": ""
+    }
+  },
+  {
+    "lc": "privacy-fi",
+    "theme": "light",
+    "stage": "policy",
+    "evidence": "docs/design/reviews/evidence/f42b0d0f/shots/native200-privacy-fi-light-policy.jpg",
+    "metrics": {
+      "innerWidth": 720,
+      "innerHeight": 450,
+      "scrollY": 954,
+      "scrollWidth": 720,
+      "active": ""
+    }
+  },
+  {
+    "lc": "privacy-en",
+    "theme": "light",
+    "stage": "policy",
+    "evidence": "docs/design/reviews/evidence/f42b0d0f/shots/native200-privacy-en-light-policy.jpg",
+    "metrics": {
+      "innerWidth": 720,
+      "innerHeight": 450,
+      "scrollY": 985.5,
+      "scrollWidth": 720,
+      "active": ""
+    }
+  },
+  {
+    "lc": "fi",
+    "theme": "dark",
+    "stage": "field",
+    "evidence": "docs/design/reviews/evidence/f42b0d0f/shots/native200-fi-dark-field.jpg",
+    "metrics": {
+      "innerWidth": 720,
+      "innerHeight": 450,
+      "scrollY": 652.5,
+      "scrollWidth": 720,
+      "active": "email"
+    }
+  },
+  {
+    "lc": "fi",
+    "theme": "dark",
+    "stage": "button",
+    "evidence": "docs/design/reviews/evidence/f42b0d0f/shots/native200-fi-dark-button.jpg",
+    "metrics": {
+      "innerWidth": 720,
+      "innerHeight": 450,
+      "scrollY": 652.5,
+      "scrollWidth": 720,
+      "active": ""
+    }
+  },
+  {
+    "lc": "en",
+    "theme": "dark",
+    "stage": "field",
+    "evidence": "docs/design/reviews/evidence/f42b0d0f/shots/native200-en-dark-field.jpg",
+    "metrics": {
+      "innerWidth": 720,
+      "innerHeight": 450,
+      "scrollY": 678,
+      "scrollWidth": 720,
+      "active": "email"
+    }
+  },
+  {
+    "lc": "en",
+    "theme": "dark",
+    "stage": "button",
+    "evidence": "docs/design/reviews/evidence/f42b0d0f/shots/native200-en-dark-button.jpg",
+    "metrics": {
+      "innerWidth": 720,
+      "innerHeight": 450,
+      "scrollY": 678,
+      "scrollWidth": 720,
+      "active": ""
+    }
+  },
+  {
+    "lc": "privacy-fi",
+    "theme": "dark",
+    "stage": "policy",
+    "evidence": "docs/design/reviews/evidence/f42b0d0f/shots/native200-privacy-fi-dark-policy.jpg",
+    "metrics": {
+      "innerWidth": 720,
+      "innerHeight": 450,
+      "scrollY": 954,
+      "scrollWidth": 720,
+      "active": ""
+    }
+  },
+  {
+    "lc": "privacy-en",
+    "theme": "dark",
+    "stage": "policy",
+    "evidence": "docs/design/reviews/evidence/f42b0d0f/shots/native200-privacy-en-dark-policy.jpg",
+    "metrics": {
+      "innerWidth": 720,
+      "innerHeight": 450,
+      "scrollY": 985.5,
+      "scrollWidth": 720,
+      "active": ""
+    }
+  }
+]

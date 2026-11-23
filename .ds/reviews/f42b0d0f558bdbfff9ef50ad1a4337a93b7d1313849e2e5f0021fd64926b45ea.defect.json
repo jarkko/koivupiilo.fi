@@ -1,0 +1,174 @@
+{
+  "kind": "defect",
+  "ui_diff_hash": "f42b0d0f558bdbfff9ef50ad1a4337a93b7d1313849e2e5f0021fd64926b45ea",
+  "head_sha": "248cbea000ee9c2da39ff9860448607e58d9ecdc",
+  "reviewer_run_id": "ctx_a817d04dcd01 / term_ed6e60fa-999b-4cfb-a1d1-95fe057e3366",
+  "implementer_family": "claude",
+  "reviewer_family": "gpt",
+  "walked": [
+    "W0",
+    "W1",
+    "W3",
+    "W5"
+  ],
+  "regions": [
+    "fi_FI",
+    "en_GB"
+  ],
+  "rubric": [
+    {
+      "id": "house-rules",
+      "result": "pass",
+      "blocking": true,
+      "note": "One primary action, system appearance, no visible UUID, sourced claims and independent product branding hold. Form outcomes, touch targets, reflow, focus, themes and motion were checked. Tokens/lint are explicitly off. Finnish editorial wording and fixed consent text are outside the review. The model-specific omission is F8 below.",
+      "evidence": [
+        "docs/design/reviews/evidence/f42b0d0f/walk-report.json",
+        "docs/design/reviews/evidence/f42b0d0f/gate.json",
+        "docs/design/reviews/evidence/f42b0d0f/review-notes.md"
+      ]
+    },
+    {
+      "id": "model",
+      "result": "fail",
+      "blocking": true,
+      "note": "F8: the landing pages omit the checked date that M1 requires next to the work-item status. No D24/D25/D26 exception removes that requirement. The incoming D24 product links and W3 language parity now work; no destructive lifecycle or unapproved new model object was found.",
+      "evidence": [
+        "docs/design/reviews/evidence/f42b0d0f/shots/fi-1440-light-font16-first.jpg",
+        "docs/design/reviews/evidence/f42b0d0f/shots/en-390-dark-font24-first.jpg",
+        "docs/design/reviews/evidence/f42b0d0f/walk-report.json",
+        "docs/design/reviews/evidence/f42b0d0f/fix-verification.json"
+      ]
+    },
+    {
+      "id": "heuristics",
+      "result": "pass",
+      "blocking": true,
+      "note": "The user can identify every outcome, correct the field beside its error, retry with retained values, and reach a direct alternate email route after service failures. Privacy, language switching and the maker/company trust route are coherent. No destructive action exists.",
+      "evidence": [
+        "docs/design/reviews/evidence/f42b0d0f/walk-report.json",
+        "docs/design/reviews/evidence/f42b0d0f/paths-report.json",
+        "docs/design/reviews/evidence/f42b0d0f/native-post-report.json",
+        "docs/design/reviews/evidence/f42b0d0f/live-production-origin-report.json"
+      ]
+    },
+    {
+      "id": "interaction-craft",
+      "result": "pass",
+      "blocking": true,
+      "note": "Native inputs/checkbox/buttons respond, keyboard order and visible focus work, sending has a later status announcement, and repeated physical mouse presses while sending produce one request. Course motion is purposeful and completes under mid-visit reduced-motion changes. The first press expands a reserved answer area; this previously documented limited shift is not a new blocking defect.",
+      "evidence": [
+        "docs/design/reviews/evidence/f42b0d0f/native-post-report.json",
+        "docs/design/reviews/evidence/f42b0d0f/walk-report.json",
+        "docs/design/reviews/evidence/f42b0d0f/paths-report.json",
+        "docs/design/reviews/evidence/f42b0d0f/shots/keyboard-3.jpg"
+      ]
+    },
+    {
+      "id": "platform",
+      "result": "pass",
+      "blocking": true,
+      "note": "No new WCAG AA failure found. Real native Chrome zoom 100..200%, 320 px reflow, 16/24/32 px default-text long addresses, increased text spacing, labels, focus order, live regions and targets were checked. 32 additional axe cells have zero violations. Native Safari/iOS and speech output were not tested; Chrome lacks text-only zoom.",
+      "evidence": [
+        "docs/design/reviews/evidence/f42b0d0f/gate.json",
+        "docs/design/reviews/evidence/f42b0d0f/extra-report.json",
+        "docs/design/reviews/evidence/f42b0d0f/zoom-report.json",
+        "docs/design/reviews/evidence/f42b0d0f/native200-report.json",
+        "docs/design/reviews/evidence/f42b0d0f/shots/native200-en-light-field.jpg",
+        "docs/design/reviews/evidence/f42b0d0f/shots/native200-fi-dark-button.jpg"
+      ]
+    },
+    {
+      "id": "owner-rules",
+      "result": "pass",
+      "blocking": true,
+      "note": "No theme toggle, visible UUID, third-party tracker, prohibited face/name or unauthorized client claim was found on the affected pages. Appearance follows the system; assets are self-hosted except the permitted first-party sign-up integration.",
+      "evidence": [
+        "docs/design/reviews/evidence/f42b0d0f/shots/fi-1440-light-font16-full.jpg",
+        "docs/design/reviews/evidence/f42b0d0f/shots/en-390-dark-font24-full.jpg",
+        "docs/design/reviews/evidence/f42b0d0f/review-notes.md"
+      ]
+    },
+    {
+      "id": "web-quality",
+      "result": "pass",
+      "blocking": true,
+      "note": "Fresh gate and visual/perf modules pass. Product median LCP is 1727.403 ms FI / 1727.073 ms EN under 2000 ms; CLS zero. All changed baseline files exist and compare without visual findings. The 42 gate warnings are preserved individually in the notes; none is hidden or reclassified as a new defect.",
+      "evidence": [
+        "docs/design/reviews/evidence/f42b0d0f/gate.json",
+        "docs/design/reviews/evidence/f42b0d0f/visual.json",
+        "docs/design/reviews/evidence/f42b0d0f/perf.json",
+        "docs/design/reviews/evidence/f42b0d0f/perf-summary.json",
+        "docs/design/reviews/evidence/f42b0d0f/extra-report.json",
+        "docs/design/reviews/evidence/f42b0d0f/review-notes.md"
+      ]
+    },
+    {
+      "id": "plan-conformance",
+      "result": "fail",
+      "blocking": true,
+      "note": "F8 contradicts the unchanged status-date requirement M1. The requested D24 place/navigation, D25 sign-up states and privacy scope, J4 fallback, and lead-decided desktop field/button row otherwise conform. F1\u2013F7 fixes have fresh evidence.",
+      "evidence": [
+        "docs/design/reviews/evidence/f42b0d0f/fix-verification.json",
+        "docs/design/reviews/evidence/f42b0d0f/walk-report.json",
+        "docs/design/reviews/evidence/f42b0d0f/shots/en-1440-dark-font16-first.jpg"
+      ]
+    },
+    {
+      "id": "approved-design",
+      "result": "pass",
+      "blocking": true,
+      "note": "Direction D is retained: Barlow, purple course rail/start/control/finish symbols, real window, print marks and independent product brand. Desktop button beside field is the decision supplied in this dispatch. No unexplained drift from the chosen composition was found; wording/tone is not judged.",
+      "evidence": [
+        "docs/design/reviews/evidence/f42b0d0f/shots/fi-1440-light-font16-full.jpg",
+        "docs/design/reviews/evidence/f42b0d0f/shots/en-390-dark-font24-full.jpg",
+        "docs/design/reviews/evidence/f42b0d0f/paths-report.json"
+      ]
+    },
+    {
+      "id": "baseline",
+      "result": "pass",
+      "blocking": true,
+      "note": "48 added/modified product/privacy/work-list baselines are intentional and the fresh comparison reports no differences. Their committed hashes are inventoried for hand-off. Per the guide no baseline is approved under this failing verdict.",
+      "evidence": [
+        "docs/design/reviews/evidence/f42b0d0f/visual.json",
+        "docs/design/reviews/evidence/f42b0d0f/baseline-manifest.json",
+        "docs/design/reviews/evidence/f42b0d0f/shots/fi-390-light-font16-privacy.jpg",
+        "docs/design/reviews/evidence/f42b0d0f/shots/en-1440-dark-font16-work.jpg"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "F8",
+      "severity": "blocking",
+      "rubric": "model",
+      "walk": "W0",
+      "message": "On /ratametsuri/ and /en/ratametsuri/, the introductory status says the app is in development but shows no status checked date, in either theme or text size. M1 explicitly requires the checked date next to the status wherever the work item appears; D24 adds this page without exempting it. The linked products-list row already has checked: 2026-11-12. Render the verified checked date beside the landing-page status in each locale, ideally from the same work metadata, or obtain an explicit owner-approved model exception. This is missing status metadata, not a Finnish editorial or consent wording change.",
+      "evidence": [
+        "docs/design/reviews/evidence/f42b0d0f/shots/fi-1440-light-font16-first.jpg",
+        "docs/design/reviews/evidence/f42b0d0f/shots/en-390-dark-font24-first.jpg",
+        "docs/design/reviews/evidence/f42b0d0f/shots/fi-1440-dark-font16-work.jpg",
+        "docs/design/reviews/evidence/f42b0d0f/walk-report.json",
+        "docs/design/model.md",
+        "src/_data/work.yml"
+      ]
+    }
+  ],
+  "no_further_issues_reason": "Walked W0/W1/W3/W5 across Finnish and English product/privacy pages, 390/1440, light/dark, normal/large defaults, native validation, sending, confirmation, invalid email, rate limit, server/offline errors, retry, long addresses, no-JS/failed-script 303 recovery, all three no-JS fragments, language/navigation/trust paths, keyboard/focus, normal/reduced/mid-visit reduced motion, every native 100\u2013200% zoom step and 320 px/text-spacing stress. Previous F1\u2013F7 are fixed; gate/visual/perf pass, 24 long-address cells have no overflow, 32 extra axe cells have no violations, and production-origin invalid submissions return 422 with value retained. The remaining reproducible defect is M1 checked-date omission; no additional blocking or non-blocking defect was established. Finnish wording/tone, fixed consent wording, archived prototypes, the screenshot inspector and allowed skip-link warnings are excluded.",
+  "model_changes": [
+    {
+      "description": "Add a bilingual independently branded hosted Ratametsuri product place and product-list navigation exception.",
+      "decision_ref": "D24"
+    },
+    {
+      "description": "Permit the email beta-request form, shared first-party sign-up service, privacy disclosures and progressive HTML/JS return states.",
+      "decision_ref": "D25"
+    },
+    {
+      "description": "Document email-invited Mac TestFlight beta distribution under the existing team.",
+      "decision_ref": "D26"
+    }
+  ],
+  "baselines_approved": [],
+  "verdict": "fail"
+}
