@@ -1,12 +1,7 @@
 # Every visible string on /ratametsuri/ (the Finnish Ratametsuri page).
 # The templates read nothing else. Source: docs/design/ratametsuri/copy-deck.md ("Revision
-# 2026-11-23" wins over the earlier tables). The form's error answers follow the deck too; the
-# honeypot label comes from launchpad's kit form (kit/form/ratametsuri.fi.html).
-#
-# Exception: consent.text is launchpad's string, not the deck's. launchpad hashes it byte for byte as
-# consent evidence; it must equal consent.beta-2026-11-23 in launchpad's
-# projects/ratametsuri/locales/fi.yml. Change it only together with launchpad (and with a new
-# consent.version).
+# 2026-11-23" wins over the earlier tables); the hero line is the owner's (2026-11-24).
+# The beta is applied for through launchpad's survey, which holds its own consent wording.
 
 page_title: "Ratametsuri – ratamestarisovellus Macille"
 meta_description: "Ratametsuri on ratamestarin sovellus Macille. Se on kehitteillä, ja sen yksityiseen betaan voi hakea."

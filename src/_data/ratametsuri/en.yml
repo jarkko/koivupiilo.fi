@@ -2,12 +2,7 @@
 # The templates read nothing else. Derived from the Finnish (fi.yml, from
 # docs/design/ratametsuri/copy-deck.md): the same claims in an English course setter's words,
 # nothing added. The quoted pointer texts are the app's own English strings
-# (RatametsuriCore CourseInteraction.swift). The honeypot label comes from launchpad's kit form
-# (kit/form/ratametsuri.en.html).
-#
-# Exception: consent.text is launchpad's string. launchpad hashes it byte for byte as consent
-# evidence; it must equal consent.beta-2026-11-23 in launchpad's projects/ratametsuri/locales/en.yml.
-# Change it only together with launchpad (and with a new consent.version).
+# (RatametsuriCore CourseInteraction.swift).
 
 page_title: "Ratametsuri – course setting app for the Mac"
 meta_description: "Ratametsuri is a course setting app for the Mac. It's in development, and you can apply for its private beta."
