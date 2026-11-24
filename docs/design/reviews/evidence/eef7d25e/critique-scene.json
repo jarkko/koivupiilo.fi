@@ -1,0 +1,182 @@
+{
+  "head": "02542091a22d9dab1b15a6e02f65d926ecef1f73",
+  "scene": "Club course setter opens a shared link after training on phone; revisits at home on Mac.",
+  "scope": "Quality observation only; existing defect evidence supplies submission outcomes and stress matrix.",
+  "submissions": 0,
+  "cells": [
+    {
+      "lang": "en",
+      "width": 390,
+      "height": 844,
+      "theme": "dark",
+      "geometry": {
+        "headline": {
+          "x": 62.796875,
+          "y": 74.390625,
+          "width": 311.203125,
+          "height": 74.875,
+          "bottom": 149.265625
+        },
+        "image": {
+          "x": 62.796875,
+          "y": 293.203125,
+          "width": 311.203125,
+          "height": 155.59375,
+          "bottom": 448.796875
+        },
+        "imageSource": "phone-en-dark-640.webp",
+        "requirements": {
+          "x": 16,
+          "y": 496.890625,
+          "width": 358,
+          "height": 69.65625,
+          "bottom": 566.546875
+        },
+        "field": {
+          "x": 62.796875,
+          "y": 762.578125,
+          "width": 311.203125,
+          "height": 52,
+          "bottom": 814.578125
+        },
+        "button": {
+          "x": 62.796875,
+          "y": 973.859375,
+          "width": 311.203125,
+          "height": 52,
+          "bottom": 1025.859375
+        },
+        "consent": {
+          "x": 62.796875,
+          "y": 828.96875,
+          "width": 311.203125,
+          "height": 130.5,
+          "bottom": 959.46875
+        },
+        "features": {
+          "x": 16,
+          "y": 1107.296875,
+          "width": 358,
+          "height": 696.453125,
+          "bottom": 1803.75
+        },
+        "feature2": {
+          "x": 62.796875,
+          "y": 1378.96875,
+          "width": 311.203125,
+          "height": 133.296875,
+          "bottom": 1512.265625
+        },
+        "feature3": {
+          "x": 62.796875,
+          "y": 1537.859375,
+          "width": 311.203125,
+          "height": 184.296875,
+          "bottom": 1722.15625
+        },
+        "maker": {
+          "x": 0,
+          "y": 1803.75,
+          "width": 390,
+          "height": 127.59375,
+          "bottom": 1931.34375
+        },
+        "documentHeight": 1931
+      },
+      "steps": [
+        "Arrive from shared link",
+        "Identify map and Mac requirement",
+        "Fill invalid a@b and tick unchanged consent; inspect action without submitting",
+        "Read supporting features and maker",
+        "Compare with existing opposite-language/theme matrix"
+      ]
+    },
+    {
+      "lang": "fi",
+      "width": 1440,
+      "height": 900,
+      "theme": "light",
+      "geometry": {
+        "headline": {
+          "x": 161.75,
+          "y": 80,
+          "width": 1172.65625,
+          "height": 58.234375,
+          "bottom": 138.234375
+        },
+        "image": {
+          "x": 585.75,
+          "y": 220.234375,
+          "width": 748.65625,
+          "height": 469.15625,
+          "bottom": 689.390625
+        },
+        "imageSource": "screen-fi-light-1200.webp",
+        "requirements": {
+          "x": 585.75,
+          "y": 731.875,
+          "width": 748.65625,
+          "height": 46.390625,
+          "bottom": 778.265625
+        },
+        "field": {
+          "x": 585.75,
+          "y": 831.15625,
+          "width": 598.578125,
+          "height": 52,
+          "bottom": 883.15625
+        },
+        "button": {
+          "x": 1196.328125,
+          "y": 831.15625,
+          "width": 138.078125,
+          "height": 52,
+          "bottom": 883.15625
+        },
+        "consent": {
+          "x": 585.75,
+          "y": 897.546875,
+          "width": 748.65625,
+          "height": 65.25,
+          "bottom": 962.796875
+        },
+        "features": {
+          "x": 105.59375,
+          "y": 228.234375,
+          "width": 424.15625,
+          "height": 550.03125,
+          "bottom": 778.265625
+        },
+        "feature2": {
+          "x": 161.75,
+          "y": 439.109375,
+          "width": 368,
+          "height": 82.296875,
+          "bottom": 521.40625
+        },
+        "feature3": {
+          "x": 161.75,
+          "y": 539,
+          "width": 368,
+          "height": 158.796875,
+          "bottom": 697.796875
+        },
+        "maker": {
+          "x": 48,
+          "y": 1024.875,
+          "width": 1344,
+          "height": 105.09375,
+          "bottom": 1129.96875
+        },
+        "documentHeight": 1130
+      },
+      "steps": [
+        "Arrive from shared link",
+        "Identify map and Mac requirement",
+        "Fill invalid a@b and tick unchanged consent; inspect action without submitting",
+        "Read supporting features and maker",
+        "Compare with existing opposite-language/theme matrix"
+      ]
+    }
+  ]
+}

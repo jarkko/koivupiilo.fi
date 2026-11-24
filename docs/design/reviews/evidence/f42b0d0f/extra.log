@@ -1,0 +1,13 @@
+extra font 16 done
+extra font 24 done
+extra font 32 done
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+page.waitForResponse: Timeout 20000ms exceeded while waiting for event "response"
+    at /Users/jarkko/orca/workspaces/koivupiilo.fi/ratametsuri-landing/docs/design/reviews/evidence/f42b0d0f/extra.mjs:12:396 {
+  name: 'TimeoutError'
+}
+
+Node.js v24.12.0

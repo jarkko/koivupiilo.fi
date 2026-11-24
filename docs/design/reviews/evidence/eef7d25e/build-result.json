@@ -1,0 +1,19 @@
+{
+  "head": "7271d7c2ce2b0e2b4022a7e3c5d63cb43fc9a825",
+  "commands": [
+    {
+      "command": "npm run esbuild",
+      "exit_code": 0
+    },
+    {
+      "command": "BRIDGETOWN_ENV=production bin/bridgetown build",
+      "exit_code": 0
+    }
+  ],
+  "warnings": [
+    "npm config 14.18 is unknown",
+    "baseline-browser-mapping data is over two months old",
+    "caniuse-lite data is twelve months old"
+  ],
+  "full_log": "design/shots/ux-eef7-build.log (gitignored)"
+}

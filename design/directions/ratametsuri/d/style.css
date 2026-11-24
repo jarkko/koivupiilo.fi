@@ -1,0 +1,169 @@
+@font-face{font-family:"Barlow";font-weight:400;font-style:normal;font-display:swap;src:url(assets/barlow-400.woff2) format("woff2")}
+@font-face{font-family:"Barlow";font-weight:500;font-style:normal;font-display:swap;src:url(assets/barlow-500.woff2) format("woff2")}
+@font-face{font-family:"Barlow";font-weight:600;font-style:normal;font-display:swap;src:url(assets/barlow-600.woff2) format("woff2")}
+@font-face{font-family:"Barlow Semi Condensed";font-weight:600;font-style:normal;font-display:swap;src:url(assets/barlow-sc-600.woff2) format("woff2")}
+
+:root{
+  --paper:#f4f1ea; --paper2:#e9e4d9; --field:#fbf9f5;
+  --ink:#1d1a24; --muted:#58525f; --edge:#7d7787; --hair:#b9b2a6;
+  --purple:#a626a4; --on-purple:#ffffff; --purple-press:#8c1f8a;
+  --danger:#b3261e;
+  --win-ring:rgba(29,26,36,.16); --win-shadow:0 2px 4px rgba(40,24,56,.06),0 18px 40px -10px rgba(40,24,56,.30),0 40px 80px -30px rgba(40,24,56,.25);
+  --d:1.7rem; --g:calc(var(--d) * 1.95);
+  --display:"Barlow Semi Condensed","Barlow",system-ui,sans-serif;
+  --text:"Barlow",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --pad:clamp(1rem,4vw,3.6rem);
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --paper:#131018; --paper2:#1c1824; --field:#1a1621;
+    --ink:#ece8f1; --muted:#aba4b8; --edge:#8d8699; --hair:#4a4356;
+    --purple:#dc84da; --on-purple:#131018; --purple-press:#e9a3e7;
+    --danger:#ff9d95;
+    --win-ring:rgba(255,255,255,.14); --win-shadow:0 2px 4px rgba(0,0,0,.4),0 18px 40px -10px rgba(0,0,0,.6),0 40px 80px -30px rgba(0,0,0,.6);
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 1.0625rem/1.5 var(--text);-webkit-font-smoothing:antialiased;overflow-wrap:break-word}
+a{color:inherit;text-decoration-thickness:1px;text-underline-offset:.2em}
+a:hover{color:var(--purple)}
+:focus-visible{outline:3px solid var(--purple);outline-offset:3px;border-radius:3px}
+.skip{position:absolute;left:1rem;top:-4rem;background:var(--paper);color:var(--ink);padding:.6rem 1rem;border:2px solid var(--purple);z-index:10;border-radius:.4rem}
+.skip:focus{top:1rem}
+h1,h2,h3,p,ol,ul,figure{margin:0}
+ol,ul{padding:0;list-style:none}
+
+/* The course: everything sits to the right of a gutter that carries the line. */
+.course{position:relative;max-width:84rem;margin:0 auto;padding:0 var(--pad)}
+.legs{position:absolute;left:0;top:0;pointer-events:none;overflow:visible}
+.legs line{stroke:var(--purple);stroke-width:2;stroke-linecap:butt;fill:none}
+.js .legs{display:block}
+.course > *:not(.legs){position:relative}
+
+.sym{position:absolute;display:block;overflow:visible;--sz:var(--d);width:var(--sz);height:var(--sz);
+  left:calc(var(--g) * (var(--fx) - 1) - var(--sz) / 2);top:calc(.5lh - var(--sz) / 2);
+  fill:var(--paper);stroke:var(--purple);stroke-width:2.2;stroke-linejoin:round}
+.sym text{fill:var(--purple);stroke:none;font:600 15px var(--text);font-variant-numeric:tabular-nums lining-nums}
+.sym.start{--sz:1.4rem}
+.sym.finish{--sz:2rem}
+.sym .inner{transition:fill .35s ease-out}
+
+/* Header and wordmark */
+.top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem;padding:1.5rem 0 0 var(--g)}
+.mark{position:relative;font:600 1.75rem/1.25 var(--display);letter-spacing:.012em}
+.lang{white-space:nowrap;font-size:.9375rem;font-weight:500;padding:.45rem .1rem;min-height:2rem;display:inline-flex;align-items:center}
+
+.main{display:grid;grid-template-columns:minmax(0,1fr)}
+.main > *{padding-left:var(--g)}
+
+.intro{margin-top:2rem}
+.headline{font:600 clamp(2.4rem,1.2rem + 3.1vw,3.5rem)/1.04 var(--display);letter-spacing:-.008em;text-wrap:balance}
+.status{margin-top:1rem;display:flex;align-items:flex-start;gap:.6rem;color:var(--ink);max-width:34rem;font-size:1.125rem}.status .dot{margin-top:.35em}
+.dot{flex:none;width:.95rem;height:.95rem;align-self:center;fill:none;stroke:var(--purple);stroke-width:2.4}
+
+/* Window */
+.shot{margin-top:2rem}
+.frame{position:relative}
+.win{aspect-ratio:16/10;border-radius:12px;overflow:hidden;background:var(--paper2);box-shadow:0 0 0 1px var(--win-ring),var(--win-shadow);position:relative}
+.win picture,.win img{display:block;width:100%;height:100%}
+.ph{position:absolute;inset:0;display:grid;place-items:center;border-radius:inherit}
+.ph::before{content:"";position:absolute;inset:.9rem;border:1px dashed var(--hair);border-radius:6px}
+.ph-tag{position:relative;text-align:center;background:var(--paper);color:var(--ink);border:1.5px solid var(--purple);border-radius:999px;padding:.3rem 1rem;font-weight:600;font-size:.9375rem}
+.credit{margin-top:1.05rem;font-size:.9375rem;color:var(--muted)}
+
+/* Features: controls along the line */
+.rail{margin-top:2.25rem}
+.eyebrow{font:600 .8125rem/1.3 var(--text);letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+.features{margin-top:1.1rem;display:grid;gap:1.6rem}
+.feature h3{position:relative;font:600 1.3125rem/1.3 var(--text)}
+.feature p{margin-top:.25rem;color:var(--muted);max-width:34rem;hyphens:manual}
+
+/* Requirements */
+.req{margin-top:1.4rem}
+.req ul{margin-top:.6rem;display:grid;gap:.25rem}
+
+/* Request: the finish */
+.beta{margin-top:2.5rem;padding-bottom:3rem}
+.beta h2{position:relative;font:600 1.875rem/1.2 var(--display);letter-spacing:.005em}
+.lead{margin-top:.4rem;max-width:30rem;color:var(--muted)}
+.beta form{margin-top:1.4rem;margin-left:calc(-1 * var(--g));max-width:42rem}
+.beta label{display:block;font-weight:600;font-size:.9375rem;margin-bottom:.4rem}
+.row{display:flex;gap:.625rem}
+input[type=email]{flex:1;min-width:0;height:3.25rem;padding:0 1rem;font:inherit;font-size:1.0625rem;color:var(--ink);background:var(--field);border:1.5px solid var(--edge);border-radius:.5rem;transition:border-color .2s}
+input[type=email]:focus-visible{outline-offset:2px;border-color:var(--purple)}
+input[type=email][aria-invalid=true]{border-color:var(--danger)}
+button{display:grid;align-items:center;height:3.25rem;padding:0 1.5rem;font:600 1.0625rem var(--text);color:var(--on-purple);background:var(--purple);border:0;border-radius:.5rem;cursor:pointer;white-space:nowrap;transition:background-color .15s}
+button:hover{background:var(--purple-press)}
+button[aria-disabled=true]{cursor:progress}
+.l{grid-area:1/1;transition:opacity .2s ease,visibility 0s linear .2s}
+.l-sending{opacity:0;visibility:hidden}
+.beta[data-state=sending] .l-default{opacity:0;visibility:hidden}
+.beta[data-state=sending] .l-sending{opacity:1;visibility:visible;transition-delay:0s}
+.hp{position:absolute;left:-10000px;top:auto;width:1px;height:1px;overflow:hidden}
+.msgs{display:grid;margin-top:.8rem}
+.msg{grid-area:1/1;font-size:.9375rem;color:var(--muted);opacity:0;visibility:hidden;transition:opacity .22s ease,visibility 0s linear .22s;hyphens:manual}
+.err{color:var(--danger);font-weight:500}
+.ei{width:1.1em;height:1.1em;vertical-align:-.17em;margin-right:.4em;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round}
+.beta[data-state=default] [data-for~=default],
+.beta[data-state=sending] [data-for~=sending],
+.beta[data-state=error-validation] [data-for~=error-validation],
+.beta[data-state=error-server] [data-for~=error-server],
+.beta[data-state=not-live] [data-for~=not-live],
+.beta[data-state=success] [data-for~=success]{opacity:1;visibility:visible;transition-delay:0s}
+.msg a{text-underline-offset:.2em}
+#m-success{color:var(--ink)}
+.tick{width:1.1em;height:1.1em;vertical-align:-.15em;margin-right:.4em;fill:none;stroke:var(--purple);stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.s-confirm{display:none}
+.beta[data-success=confirm] .s-plain{display:none}
+.beta[data-success=confirm] .s-confirm{display:inline}
+.beta[data-state=success] .sym.finish .inner{fill:var(--purple)}
+
+.maker{max-width:84rem;margin:0 auto;padding:0 var(--pad) 2.5rem calc(var(--pad) + var(--g));font-size:.9375rem;color:var(--muted)}
+.maker p{border-top:1px solid var(--hair);padding-top:1.1rem}
+.maker a{display:inline-block;padding:.2rem 0}
+.num{font-variant-numeric:tabular-nums lining-nums}
+
+/* Motion: only when the script has set up the course and the visitor allows it */
+.motion .legs line{stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset .42s cubic-bezier(.45,.05,.25,1)}
+.motion .legs line.on{stroke-dashoffset:0}
+.motion .sym.pre{opacity:0;transform:scale(.55)}
+.motion .sym{transition:opacity .26s ease-out,transform .3s cubic-bezier(.2,.8,.2,1)}
+.motion .win{animation:rise .75s cubic-bezier(.2,.8,.2,1) .15s both}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important}}
+
+@media (max-width:36rem){
+  .row{flex-direction:column}
+  input[type=email]{flex:none;width:100%}
+  button{justify-items:center}
+}
+
+/* Desktop: the screen beside the course; the request in the first screen */
+@media (min-width:62rem){
+  :root{--d:1.8rem}
+  .top{padding-top:1.25rem}
+  .mark{font-size:1.875rem}
+  .main{grid-template-columns:minmax(0,calc(var(--g) + 18.5rem)) minmax(0,1fr);column-gap:0}
+  .main > *{padding-left:0}
+  .intro{grid-column:1/-1;grid-row:1;margin-top:1.1rem;padding-left:var(--g)}
+  .headline{white-space:nowrap}
+  .shot{grid-column:2;grid-row:2;margin-top:1.6rem;justify-self:end;width:100%;max-width:min(60rem,calc(100% - 3.5rem))}
+  .rail{grid-column:1;grid-row:2;margin-top:1.6rem;padding-left:var(--g)}
+  .features{gap:1.35rem}
+  .frame::before{content:"";position:absolute;inset:-14px;pointer-events:none;
+    --c:var(--hair);
+    background:
+      linear-gradient(var(--c),var(--c)) 0 14px/9px 1px no-repeat,
+      linear-gradient(var(--c),var(--c)) 14px 0/1px 9px no-repeat,
+      linear-gradient(var(--c),var(--c)) 100% 14px/9px 1px no-repeat,
+      linear-gradient(var(--c),var(--c)) calc(100% - 14px) 0/1px 9px no-repeat,
+      linear-gradient(var(--c),var(--c)) 0 calc(100% - 14px)/9px 1px no-repeat,
+      linear-gradient(var(--c),var(--c)) 14px 100%/1px 9px no-repeat,
+      linear-gradient(var(--c),var(--c)) 100% calc(100% - 14px)/9px 1px no-repeat,
+      linear-gradient(var(--c),var(--c)) calc(100% - 14px) 100%/1px 9px no-repeat}
+  .beta{grid-column:1/-1;grid-row:3;margin-top:1.4rem;display:grid;grid-template-columns:minmax(0,calc(var(--g) + 18.5rem)) minmax(0,1fr);align-items:start;padding-left:0}
+  .beta-copy{padding-left:var(--g)}
+  .beta form{margin:0;justify-self:end;width:100%;max-width:min(60rem,calc(100% - 3.5rem))}
+  .beta label{margin-top:.1rem}
+}

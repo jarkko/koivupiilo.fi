@@ -1,0 +1,92 @@
+[
+  {
+    "route": "/ratametsuri/",
+    "run": 1,
+    "fetchTime": "2026-11-23T23:13:50.951Z",
+    "lcp_ms": 1727.8200000000002,
+    "fcp_ms": 1202.8200000000002,
+    "cls": 0,
+    "categories": {
+      "performance": 1,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 1
+    },
+    "evidence": "docs/design/reviews/evidence/f42b0d0f/lighthouse/ratametsuri-run-1.html"
+  },
+  {
+    "route": "/ratametsuri/",
+    "run": 2,
+    "fetchTime": "2026-11-23T23:14:01.105Z",
+    "lcp_ms": 1727.403,
+    "fcp_ms": 1202.403,
+    "cls": 0,
+    "categories": {
+      "performance": 1,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 1
+    },
+    "evidence": "docs/design/reviews/evidence/f42b0d0f/lighthouse/ratametsuri-run-2.html"
+  },
+  {
+    "route": "/ratametsuri/",
+    "run": 3,
+    "fetchTime": "2026-11-23T23:14:11.108Z",
+    "lcp_ms": 1652.3415,
+    "fcp_ms": 1202.3415,
+    "cls": 0,
+    "categories": {
+      "performance": 1,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 1
+    },
+    "evidence": "docs/design/reviews/evidence/f42b0d0f/lighthouse/ratametsuri-run-3.html"
+  },
+  {
+    "route": "/en/ratametsuri/",
+    "run": 1,
+    "fetchTime": "2026-11-23T23:14:21.319Z",
+    "lcp_ms": 1652.4855,
+    "fcp_ms": 1202.4855,
+    "cls": 0,
+    "categories": {
+      "performance": 1,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 1
+    },
+    "evidence": "docs/design/reviews/evidence/f42b0d0f/lighthouse/en-ratametsuri-run-1.html"
+  },
+  {
+    "route": "/en/ratametsuri/",
+    "run": 2,
+    "fetchTime": "2026-11-23T23:14:31.469Z",
+    "lcp_ms": 1727.121,
+    "fcp_ms": 1202.121,
+    "cls": 0,
+    "categories": {
+      "performance": 1,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 1
+    },
+    "evidence": "docs/design/reviews/evidence/f42b0d0f/lighthouse/en-ratametsuri-run-2.html"
+  },
+  {
+    "route": "/en/ratametsuri/",
+    "run": 3,
+    "fetchTime": "2026-11-23T23:14:41.382Z",
+    "lcp_ms": 1727.073,
+    "fcp_ms": 1202.073,
+    "cls": 0,
+    "categories": {
+      "performance": 1,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 1
+    },
+    "evidence": "docs/design/reviews/evidence/f42b0d0f/lighthouse/en-ratametsuri-run-3.html"
+  }
+]

@@ -1,0 +1,85 @@
+{
+  "note": "Primary layout matrix used fi-FI browser settings for both static route languages; these eight supplementary cells verify en-GB / Europe-London explicitly.",
+  "rows": [
+    {
+      "font": 16,
+      "width": 390,
+      "colorScheme": "light",
+      "locale": "en-GB",
+      "date": "Status checked 23 Nov 2026.",
+      "iso": "2026-11-23",
+      "overflow": 0,
+      "fieldBottom": 814.578125
+    },
+    {
+      "font": 16,
+      "width": 390,
+      "colorScheme": "dark",
+      "locale": "en-GB",
+      "date": "Status checked 23 Nov 2026.",
+      "iso": "2026-11-23",
+      "overflow": 0,
+      "fieldBottom": 814.578125
+    },
+    {
+      "font": 16,
+      "width": 1440,
+      "colorScheme": "light",
+      "locale": "en-GB",
+      "date": "Status checked 23 Nov 2026.",
+      "iso": "2026-11-23",
+      "overflow": 0,
+      "fieldBottom": 889.265625
+    },
+    {
+      "font": 16,
+      "width": 1440,
+      "colorScheme": "dark",
+      "locale": "en-GB",
+      "date": "Status checked 23 Nov 2026.",
+      "iso": "2026-11-23",
+      "overflow": 0,
+      "fieldBottom": 889.265625
+    },
+    {
+      "font": 24,
+      "width": 390,
+      "colorScheme": "light",
+      "locale": "en-GB",
+      "date": "Status checked 23 Nov 2026.",
+      "iso": "2026-11-23",
+      "overflow": 0,
+      "fieldBottom": 1372.046875
+    },
+    {
+      "font": 24,
+      "width": 390,
+      "colorScheme": "dark",
+      "locale": "en-GB",
+      "date": "Status checked 23 Nov 2026.",
+      "iso": "2026-11-23",
+      "overflow": 0,
+      "fieldBottom": 1372.046875
+    },
+    {
+      "font": 24,
+      "width": 1440,
+      "colorScheme": "light",
+      "locale": "en-GB",
+      "date": "Status checked 23 Nov 2026.",
+      "iso": "2026-11-23",
+      "overflow": 0,
+      "fieldBottom": 1638.21875
+    },
+    {
+      "font": 24,
+      "width": 1440,
+      "colorScheme": "dark",
+      "locale": "en-GB",
+      "date": "Status checked 23 Nov 2026.",
+      "iso": "2026-11-23",
+      "overflow": 0,
+      "fieldBottom": 1638.21875
+    }
+  ]
+}

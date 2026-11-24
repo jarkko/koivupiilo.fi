@@ -1,0 +1,151 @@
+/* Ratametsuri, direction E "Rastilippu".
+   Orange = the brand (fields, mark, status). Purple = the course and the action (button, focus, links, the app's own course).
+   Orange is never used for text that has to be read; text on orange is --on-orange. */
+@font-face{font-family:"Archivo";src:url(archivo-wdth.woff2) format("woff2");font-weight:100 900;font-stretch:62% 125%;font-display:swap}
+
+:root{
+  --bg:#FAF8F2; --ink:#131D17; --muted:#4A564F; --line:#131D17;
+  --orange:#FF6A13; --on-orange:#131D17;
+  --purple:#A626A4; --on-purple:#FFFFFF; --link:#A626A4; --ring:#A626A4;
+  --field:#FFFFFF; --err:#B3261E;
+  --win:#FFFFFF; --win-bar:#ECE9E0; --win-line:#CFCABD; --win-sheet:#F7F5EE; --course:#A626A4;
+  --shadow:0 2px 4px rgba(19,29,23,.12),0 28px 60px -18px rgba(19,29,23,.5);
+  --gutter:clamp(1rem,4vw,4rem);
+  --ease:cubic-bezier(.2,.7,.1,1); --t-fast:150ms; --t-base:250ms; --t-story:700ms;
+}
+@media (prefers-color-scheme:dark){:root{
+  --bg:#0B1410; --ink:#EDF1EA; --muted:#A9B5AC; --line:#EDF1EA;
+  --purple:#DC84DA; --on-purple:#0B1410; --link:#DC84DA; --ring:#DC84DA;
+  --field:#14211A; --err:#FF9C92;
+  --win:#14120F; --win-bar:#26231E; --win-line:#3A362F; --win-sheet:#1C1A16; --course:#DC84DA;
+  --shadow:0 2px 4px rgba(0,0,0,.5),0 28px 70px -18px rgba(0,0,0,.9);
+}}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Archivo",system-ui,-apple-system,"Segoe UI",sans-serif;
+  font-size:1.0625rem;line-height:1.5;font-stretch:100%;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:var(--link);text-underline-offset:.2em;text-decoration-thickness:.09em}
+:focus-visible{outline:3px solid var(--ring);outline-offset:3px;border-radius:2px}
+h1,h2,h3,p,ul,ol{margin:0}
+ul,ol{padding:0;list-style:none}
+.vh,.hp{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.hp{left:-10000px}
+.skip{position:absolute;left:var(--gutter);top:-4rem;z-index:10;background:var(--ink);color:var(--bg);padding:.75rem 1rem;font-weight:700;border-radius:4px}
+.skip:focus{top:.75rem}
+
+/* header: the mark and the wordmark */
+.top{position:relative;z-index:2;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.25rem 1rem;padding:1.25rem var(--gutter) 0}
+.wordmark{display:flex;align-items:center;gap:.7rem;font-size:clamp(1.75rem,3vw,2.25rem);font-weight:800;font-stretch:78%;letter-spacing:-.01em;line-height:1}
+.mark{width:1.5em;height:1.5em;flex:none;color:var(--ink);overflow:visible}
+.lang{font-size:.9375rem;font-weight:600;color:var(--ink);text-decoration:none;padding:.5rem .25rem;border-bottom:2px solid var(--ink)}
+.lang:hover{background:color-mix(in srgb,var(--ink) 10%,transparent)}
+
+/* hero */
+.hero{display:grid;grid-template-columns:minmax(0,1fr);position:relative;padding-top:clamp(1.5rem,4vw,2.5rem)}
+.intro,.req,.beta{padding-inline:var(--gutter)}
+.headline{font-size:clamp(2rem,9.5vw,3.5rem);font-weight:800;font-stretch:76%;line-height:.98;overflow-wrap:break-word;letter-spacing:-.015em;text-wrap:balance}
+.status{margin-top:1.25rem;max-width:30rem;font-weight:600}
+.status::before,.beta-result .res::before{content:"";display:block;width:2.75rem;height:.4rem;background:var(--orange);margin-bottom:.6rem}
+
+/* the stage: the app window over the flag's orange, cut on the diagonal */
+.stage{position:relative;margin-top:1.75rem;padding:2.5rem var(--gutter) 2rem;display:flex;justify-content:flex-end}
+.stage::before{content:"";position:absolute;inset:0;background:var(--orange);clip-path:polygon(0 3.5rem,100% 0,100% calc(100% - 3.5rem),0 100%);z-index:0}
+.shot{position:relative;z-index:1;margin:0;width:100%}
+.shot picture,.shot img,.shot-ph{display:block;width:100%;height:auto;aspect-ratio:16/10;border-radius:10px;box-shadow:var(--shadow)}
+.shot-ph{position:relative;overflow:hidden}
+.ph{display:block;width:100%;height:100%}
+.ph-win{fill:var(--win);stroke:var(--win-line);stroke-width:2}
+.ph-bar{fill:var(--win-bar)}.ph-rule{stroke:var(--win-line);stroke-width:2}.ph-dot{fill:var(--win-line)}
+.ph-sheet{fill:var(--win-sheet)}.ph-grid{stroke:var(--win-line);stroke-width:2}
+.ph-course{stroke:var(--course);stroke-width:10}
+.ph-t{fill:var(--muted);font:700 46px "Archivo",sans-serif;font-stretch:80%}.ph-t--s{font-size:44px;font-weight:600}
+.ph-label{position:absolute;left:3.5%;top:12%;pointer-events:none}
+.ph-label span{background:var(--bg);color:var(--ink);border:2px dashed var(--ink);padding:.3rem .9rem;font-weight:700;font-size:clamp(.6875rem,2.2vw,.9375rem);border-radius:2px}
+.shot figcaption{font-size:.875rem;margin-top:.75rem;color:var(--on-orange);font-weight:600;}
+.shot .shot-ph,.shot picture{border:0}
+
+/* requirements */
+.req{margin-top:2rem}
+.req h2,.beta h2{font-size:clamp(1.5rem,5vw,1.75rem);font-weight:800;font-stretch:78%;line-height:1.1}
+.req ul{margin-top:.6rem;display:grid;gap:.35rem}
+.req li{position:relative;padding-left:1.4rem}
+.req li::before{content:"";position:absolute;left:0;top:.5em;width:.7rem;height:.7rem;background:var(--orange);clip-path:polygon(0 0,100% 0,0 100%)}
+
+/* the request block */
+.beta{margin-top:2rem;padding-bottom:1rem}
+.beta-lead{margin-top:.5rem;max-width:32rem}
+.stack{display:grid;margin-top:1rem}
+.stack>*{grid-area:1/1;min-width:0}
+.beta-form,.beta-result,.msg,.res,.beta-privacy{opacity:0;visibility:hidden;transition:opacity var(--t-fast) linear,visibility 0s linear var(--t-fast)}
+.beta[data-view=form] .beta-form,.beta[data-view=result] .beta-result,
+.beta[data-state=error-validation] #m-val,.beta[data-state=error-server] #m-srv,
+.beta[data-state=success][data-variant=plain] #r-plain,.beta[data-state=success][data-variant=confirm] #r-confirm,.beta[data-state=not-live] #r-live{opacity:1;visibility:visible;transition-delay:0s}
+.beta[data-state=error-validation] .beta-privacy,.beta[data-state=error-server] .beta-privacy{opacity:0;visibility:hidden}
+.beta-label{display:block;font-weight:700;font-size:.9375rem;margin-bottom:.4rem}
+.beta-controls{display:flex;flex-wrap:wrap;gap:.75rem}
+input[type=email]{flex:1 1 15rem;min-width:0;height:3.25rem;padding:0 1rem;font:inherit;font-size:max(1rem,1.0625rem);color:var(--ink);background:var(--field);
+  border:2px solid var(--ink);border-radius:4px;appearance:none;text-overflow:ellipsis}
+input[type=email][aria-invalid=true]{border-color:var(--err);box-shadow:0 0 0 1px var(--err)}
+.btn{flex:0 0 auto;display:inline-grid;height:3.25rem;min-width:3rem;padding:0 1.5rem;font:inherit;font-weight:800;font-stretch:88%;font-size:1.0625rem;color:var(--on-purple);background:var(--purple);
+  border:2px solid var(--purple);border-radius:4px;cursor:pointer;place-items:center;transition:transform var(--t-fast) var(--ease),filter var(--t-fast)}
+.btn>span{grid-area:1/1;transition:opacity var(--t-fast) linear}
+.btn .b-busy{opacity:0}
+.btn:hover{filter:brightness(1.08)}.btn:active{transform:translateY(1px)}
+.btn:focus-visible{outline-offset:3px}
+.btn[aria-disabled=true]{cursor:progress}
+.beta[data-state=sending] .b-idle{opacity:0}.beta[data-state=sending] .b-busy{opacity:1}
+.msgs{display:grid;margin-top:.7rem}
+.msgs>*{grid-area:1/1}
+.msg{display:flex;gap:.5rem;align-items:flex-start;font-size:.9375rem;font-weight:500}
+.msg--err{color:var(--err)}
+.msg--err a{color:inherit}
+.ico{width:1.1rem;height:1.1rem;flex:none;margin-top:.2rem}
+.dot{width:.75rem;height:.75rem;margin:.35rem .25rem 0;background:var(--purple);border-radius:50%;flex:none}
+.beta-result{align-self:start;outline:none}
+.beta-result>*{grid-area:auto}
+.beta-result{display:grid}.beta-result>*{grid-area:1/1}
+.beta-result .echo{align-self:start;margin-bottom:0;font-weight:700;overflow-wrap:anywhere;font-size:.9375rem}
+.beta-result .res{align-self:start;margin-top:0;}
+.beta-result .echo:not(:empty)~.res{margin-top:1.75rem}
+.beta-result .echo{position:relative;z-index:1}
+.msgs>*{min-width:0}
+.beta-privacy{font-size:.9375rem;color:var(--muted);max-width:32rem}
+
+/* features: the orange field, cut on the flag's diagonal */
+.features{background:var(--orange);color:var(--on-orange);clip-path:polygon(0 3.5rem,100% 0,100% 100%,0 100%);padding:calc(3.5rem + 2.5rem) var(--gutter) 3.5rem}
+.wrap{max-width:80rem;margin:0 auto}
+.features h2{font-size:clamp(1.75rem,6vw,2.75rem);font-weight:800;font-stretch:76%;line-height:1;letter-spacing:-.015em}
+.feat-list{display:grid;gap:2rem 3rem;margin-top:2rem;grid-template-columns:minmax(0,1fr)}
+.feat-list li{display:grid;grid-template-columns:auto 1fr;column-gap:1rem;align-items:start;background:linear-gradient(var(--on-orange),var(--on-orange)) top/100% 3px no-repeat;padding-top:1.25rem}
+.ctl{grid-row:1/3;width:2rem;height:2rem;border:4px solid var(--on-orange);border-radius:50%}
+.feat-list h3{font-size:1.625rem;font-weight:800;font-stretch:78%;line-height:1.1;overflow-wrap:break-word}
+.feat-list p{margin-top:.35rem;max-width:34rem;overflow-wrap:break-word}
+.foot{padding:1.5rem var(--gutter) 2.5rem;font-size:.875rem;color:var(--muted)}
+.foot a{color:var(--link)}
+
+/* desktop: copy left, the window large on the right and bleeding to the edge */
+@media (min-width:62rem){
+  .hero{grid-template-columns:minmax(28rem,34rem) minmax(0,1fr);grid-template-rows:auto auto auto 1fr;column-gap:0;align-items:start;padding-top:1.5rem}
+  .intro{grid-column:1;grid-row:1}
+  .req{grid-column:1;grid-row:2;margin-top:1.75rem}
+  .beta{grid-column:1;grid-row:3;margin-top:1.75rem;padding-bottom:2rem}
+  .stage{grid-column:2;grid-row:1/5;margin-top:-6.2rem;padding:6.5rem var(--gutter) 4rem 3rem;align-self:stretch;align-items:center}
+  .stage::before{clip-path:polygon(7rem 0,100% 0,100% 100%,0 100%)}
+  .shot{max-width:60rem}
+  .headline{font-size:clamp(3rem,3.9vw,3.75rem)}
+  .feat-list{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:2.5rem}
+  .features{clip-path:polygon(0 5rem,100% 0,100% 100%,0 100%);padding-top:calc(5rem + 3rem)}
+}
+@media (min-width:62rem) and (max-height:760px){.headline{font-size:3rem}}
+
+/* motion: arrival of the mark (one diagonal wipe), the window settles in. Reduced motion: final state at once. */
+@media (prefers-reduced-motion:no-preference){
+  .mark--wipe .wipe{animation:wipe var(--t-story) var(--ease) 120ms both}
+  .stage .shot{animation:settle 600ms var(--ease) 350ms both}
+  .headline,.status{animation:rise 500ms var(--ease) 200ms both}
+}
+@keyframes wipe{from{transform:translateX(-84px)}to{transform:none}}
+@keyframes settle{from{opacity:0;transform:translateY(18px) scale(.985)}to{opacity:1;transform:none}}
+@keyframes rise{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){*{transition-duration:.01ms!important;animation:none!important}}

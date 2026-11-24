@@ -1,0 +1,16 @@
+{
+  "head": "94e0cd3d30b8dffba6fa056e39d98a2700563e5d",
+  "path": "/Users/jarkko/orca/workspaces/koivupiilo.fi/ratametsuri-landing",
+  "agents": [
+    {
+      "agentType": "claude",
+      "address": "term_b49a91b7-0763-4493-8d39-4abdfff3baf5",
+      "taskTitle": "Ratametsuri landing page + private beta requests"
+    },
+    {
+      "agentType": "codex",
+      "address": "term_13ee9ab4-4d96-4f02-aed4-78cd13e8d0c3",
+      "taskTitle": "You are the independent UX defect reviewer for PR #3 of jarkko/koivupiilo.fi..."
+    }
+  ]
+}

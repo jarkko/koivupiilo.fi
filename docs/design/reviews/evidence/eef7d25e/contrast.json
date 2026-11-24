@@ -1,0 +1,9 @@
+{
+  "element": ".status .checked",
+  "WCAG_AA_min": 4.5,
+  "measured_from": "walk-report.json computed CSS",
+  "ratios": {
+    "light": 6.68,
+    "dark": 7.833
+  }
+}

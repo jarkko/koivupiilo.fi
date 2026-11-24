@@ -42,6 +42,7 @@ language link. Footer: email, business ID, imprint, language link.
 | Offers | `/palvelut/` | `/en/services/` | Find the matching offer and how it starts (J2, J3) | See proof per offer | — | Medium: three blocks |
 | About | `/tietoa/` | `/en/about/` | Verify the person (J4, J5) | — | Business ID | Low |
 | Contact | `/yhteys/` | `/en/contact/` | Write a good first email (J1–J3) | Other channels | Imprint | Low |
+| Product page (D24) | `/ratametsuri/` | `/en/ratametsuri/` | See what Ratametsuri does and ask for the beta | Check the Mac it needs | Read what happens to the address | Low: one screen, a few lines, one field |
 | 404 | `/404.html` | — | Get back on track, in both languages | | | Minimal |
 
 ## Trust moments
@@ -94,7 +95,7 @@ language link. Footer: email, business ID, imprint, language link.
 
 ## Product non-goals
 
-Blog, contact form, booking, newsletter, CMS, client logos, theme toggle.
+Blog, contact form (the beta request field is the one exception, D25), booking, newsletter, CMS, client logos, theme toggle.
 
 ## Decisions
 
@@ -221,3 +222,52 @@ Technologist", "three core service areas", "Fortune 500", "success stories",
   first person plural however", that the Stack list wrongly implied a closed
   skill set ("I have written Ruby on Rails books"), that the copy skipped his
   recorded history, and asked for "Products" over "Työt"/"Projektit".
+
+- **D24 (2026-11-21, Jarkko, relayed by the coordinator).** A product without
+  its own site may have one page on koivupiilo.fi until it gets one. Ratametsuri
+  is the first: `/ratametsuri/` and `/en/ratametsuri/`, linked from its entry in
+  the products list. The page says only what is built (fact log
+  `content/ratametsuri.md`) and the status from `work.yml`.
+  A hosted product page carries the product's brand, not the site's: its own
+  type, colour, layout and wordmark, and none of the site's header, navigation,
+  birch-bark edge or footer wordmark. The only sign of the site is a small maker
+  line at the bottom with the company name, business ID and the privacy link
+  (strategy's trust detail). Jarkko at gate 2: "why are we using the Koivupiilo
+  branding here? It's an independent product".
+  Supersedes: D14's "koivupiilo.fi does not host product marketing" for
+  products that have no site of their own; the three gate 2 directions that sat
+  inside the site's chrome.
+  Changed: the places table above; `kit.toml` [web].routes; `src/_data/routes.yml`.
+  Evidence: anecdote or opinion: Jarkko's request; no Ratametsuri domain exists.
+  Dissent: it sets a precedent the strategy (§4, "no product pages") rejected.
+
+- **D25 (2026-11-21, Jarkko, relayed by the coordinators).** Beta requests come
+  through one email field in a plain HTML form that posts to the shared sign-up
+  service of the launch kit (working name launchpad, `join.koivupiilo.fi`; a
+  Phoenix app on Sojourn with Brevo double opt-in, consent records and
+  first-party spam checks). The page loads no third-party script and sets no
+  cookies. Until the kit's form contract is fixed, the page holds a marked
+  placeholder and offers the email address; it never shows a fake success. The
+  kit supplies the privacy-page wording, which names every processor and the
+  retention time.
+  Supersedes: "contact form" as a non-goal, for this one field; the earlier
+  plan for a page-specific endpoint.
+  Changed: Product non-goals above; the privacy page (placeholder until the kit's
+  wording); `src/_partials/pages/_ratametsuri.erb`.
+  Evidence: anecdote or opinion: Jarkko chose a first-party endpoint over a
+  mailto link and a third-party form backend, then one shared service for all
+  projects (metamorphosis `docs/superpowers/specs/2026-11-21-launch-kit-design.md`, draft).
+  Dissent: the agent recommended the mailto link for a small, warm audience.
+
+- **D26 (2026-11-21, Jarkko, relayed by the coordinator).** The Ratametsuri beta
+  reaches requesters through TestFlight for Mac, as external testers invited by
+  email, under the existing O'Design Apple team that Kvitti uses. Setting it up
+  is Jarkko's checklist (`docs/runbooks/ratametsuri-beta.md`); the page promises
+  only an email when the beta opens.
+  Supersedes: strategy §6's "Seller = Koivupiilo Oy" for Ratametsuri, for now.
+  Changed: `strategy.md` §6 (a note); the privacy page (addresses go to Apple
+  for the invite).
+  Evidence: anecdote or opinion: Jarkko's choice; avoids a second Apple
+  membership fee.
+  Dissent: the agent recommended Koivupiilo Oy's own membership so that the
+  developer name matches the company that runs the page.

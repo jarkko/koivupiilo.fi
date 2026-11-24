@@ -76,7 +76,8 @@ items:
       fi: Suunnistusratojen suunnitteluohjelma Macille.
       en: An orienteering course planner for the Mac.
     status: development
-    checked: 2026-11-12
+    checked: 2026-11-23 # confirmed with the Ratametsuri session and Jarkko (docs/design/ratametsuri/discovery.md)
+    page: ratametsuri # its product page on this site (D24): a route in routes.yml, in both languages
   - name:
       fi: Beach volley -säännöt
       en: Beach volleyball rules

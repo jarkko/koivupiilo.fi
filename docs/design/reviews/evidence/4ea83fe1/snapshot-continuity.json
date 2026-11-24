@@ -1,0 +1,10 @@
+{
+  "reviewed_head": "5501c2a6c79f1daaa4a7a3b95e78fae0a5f4101b",
+  "ui_diff_hash": "4ea83fe1fa66409c92a3c6ee02d10421ebad094c1225402771861e505b231dd7",
+  "previous_head": "94e0cd3d30b8dffba6fa056e39d98a2700563e5d",
+  "previous_evidence": "docs/design/reviews/evidence/238053d5",
+  "only_ui_delta": "Confirmation message values in both locale data files and the no-JS message value selected in the template; all other markup, CSS, navigation and scripts byte-identical.",
+  "reuse": "Original matrix, invalid/rate-limit/server-error, motion, keyboard, privacy, text spacing and native browser zoom observations remain applicable; final-check.mjs recaptures new success strings, long-address substitution, offline and invalid states, and runs axe on final build.",
+  "consent": "Consent labels and version unchanged; no editorial findings.",
+  "commit_constraint": "Reviewer instructed not to commit; coordinator must commit artifacts and evidence before ds ci can consume them."
+}

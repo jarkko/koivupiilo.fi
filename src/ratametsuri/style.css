@@ -1,0 +1,268 @@
+/* Ratametsuri product page: direction D, "Ratapainatus" (design/directions/ratametsuri/d/).
+   Standalone: none of koivupiilo.fi's styles load here. Barlow and Barlow Semi Condensed are
+   self-hosted (SIL OFL 1.1, licences in /fonts/). Follows the system appearance; no toggle. */
+@font-face{font-family:"Barlow";font-weight:400;font-style:normal;font-display:swap;src:url(/fonts/barlow-400.woff2) format("woff2")}
+@font-face{font-family:"Barlow";font-weight:500;font-style:normal;font-display:swap;src:url(/fonts/barlow-500.woff2) format("woff2")}
+@font-face{font-family:"Barlow";font-weight:600;font-style:normal;font-display:swap;src:url(/fonts/barlow-600.woff2) format("woff2")}
+@font-face{font-family:"Barlow Semi Condensed";font-weight:600;font-style:normal;font-display:swap;src:url(/fonts/barlow-sc-600.woff2) format("woff2")}
+
+:root{
+  --paper:#f4f1ea; --paper2:#e9e4d9; --field:#fbf9f5;
+  --ink:#1d1a24; --muted:#58525f; --edge:#7d7787; --hair:#b9b2a6;
+  --purple:#a626a4; --on-purple:#ffffff; --purple-press:#8c1f8a;
+  --danger:#b3261e;
+  --win-ring:rgba(29,26,36,.16); --win-shadow:0 2px 4px rgba(40,24,56,.06),0 18px 40px -10px rgba(40,24,56,.30),0 40px 80px -30px rgba(40,24,56,.25);
+  --d:1.5rem; --g:calc(var(--d) * 1.95);
+  --display:"Barlow Semi Condensed","Barlow",system-ui,sans-serif;
+  --text:"Barlow",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --pad:clamp(1rem,4vw,3.6rem);
+  --icon-err:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round'%3E%3Ccircle cx='10' cy='10' r='8'/%3E%3Cpath d='M10 5.5v5.5M10 14.2v.1'/%3E%3C/svg%3E");
+  --icon-ok:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 10.5l4 4 8-9'/%3E%3C/svg%3E");
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --paper:#131018; --paper2:#1c1824; --field:#1a1621;
+    --ink:#ece8f1; --muted:#aba4b8; --edge:#8d8699; --hair:#4a4356;
+    --purple:#dc84da; --on-purple:#131018; --purple-press:#e9a3e7;
+    --danger:#ff9d95;
+    --win-ring:rgba(255,255,255,.14); --win-shadow:0 2px 4px rgba(0,0,0,.4),0 18px 40px -10px rgba(0,0,0,.6),0 40px 80px -30px rgba(0,0,0,.6);
+  }
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 1.0625rem/1.5 var(--text);-webkit-font-smoothing:antialiased;overflow-wrap:break-word}
+a{color:inherit;text-decoration-thickness:1px;text-underline-offset:.2em}
+a:hover{color:var(--purple)}
+:focus-visible{outline:3px solid var(--purple);outline-offset:3px;border-radius:3px}
+main:focus{outline:none}
+.skip{position:absolute;left:1rem;top:-4rem;background:var(--paper);color:var(--ink);padding:.6rem 1rem;min-height:2.75rem;border:2px solid var(--purple);z-index:10;border-radius:.4rem}
+.skip:focus{top:1rem}
+h1,h2,h3,p,ol,ul,figure{margin:0}
+.nb{white-space:nowrap}
+ol,ul{padding:0;list-style:none}
+
+/* The course: everything sits to the right of a gutter that carries the line. */
+.course{position:relative;max-width:84rem;margin:0 auto;padding:0 var(--pad)}
+.legs{position:absolute;left:0;top:0;pointer-events:none;overflow:visible}
+.legs line{stroke:var(--purple);stroke-width:2;stroke-linecap:butt;fill:none}
+.course > *:not(.legs){position:relative}
+
+.sym{position:absolute;display:block;overflow:visible;--sz:var(--d);width:var(--sz);height:var(--sz);
+  left:calc(var(--g) * ((var(--fx) - .5) * var(--amp, 1) - .5) - var(--sz) / 2);top:calc(.5lh - var(--sz) / 2);
+  fill:var(--paper);stroke:var(--purple);stroke-width:2.2;stroke-linejoin:round}
+/* A control: a circle with its number as real text, so it scales with the reader's text size. */
+.sym.control{display:grid;place-items:center;border:calc(var(--sz) * .07) solid var(--purple);border-radius:50%;background:var(--paper);color:var(--purple);font:600 .9375rem/1 var(--text);font-variant-numeric:tabular-nums lining-nums}
+.sym.start{--sz:1.3rem}
+.sym.finish{--sz:1.85rem}
+.sym .inner{transition:fill .35s ease-out}
+
+/* Header and wordmark */
+.top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:.5rem 1rem;padding:1rem 0 0 var(--g)}
+.mark{position:relative;font:600 1.625rem/1.25 var(--display);letter-spacing:.012em}
+.lang{white-space:nowrap;font-size:.9375rem;font-weight:500;padding:.45rem .1rem;min-height:2.75rem;display:inline-flex;align-items:center}
+
+/* Phone order (the DOM order): headline, status, window, requirements, request, features.
+   The request comes before the features so the field is on the first screen. */
+.main{display:grid;grid-template-columns:minmax(0,1fr)}
+.main > *{padding-left:var(--g)}
+
+.intro{margin-top:1.1rem}
+/* No balance: it would rather split "Ratamestari-sovellus" at its soft hyphen than leave a short
+   last line. Plain wrapping breaks the compound only where it does not fit (under about 360 px). */
+.headline{font:600 clamp(2.25rem,1.2rem + 3.1vw,3.5rem)/1.04 var(--display);letter-spacing:-.008em;text-wrap:wrap;hyphens:manual;overflow-wrap:normal}
+.status{margin-top:.75rem;display:flex;align-items:flex-start;gap:.6rem;max-width:34rem;font-size:1.0625rem}
+.status > span{min-width:0} /* lets overflow-wrap break a word too long for the column */
+.status .checked{color:var(--muted)}.status .checked time{white-space:nowrap} /* M1: the date the status was last checked */
+.dot{flex:none;width:.95rem;height:.95rem;margin-top:.3em;fill:none;stroke:var(--purple);stroke-width:2.4}
+
+/* Window */
+.shot{margin-top:1.25rem}
+.frame{position:relative}
+.win{aspect-ratio:1200/705;border-radius:10px;overflow:hidden;background:var(--paper2);box-shadow:0 0 0 1px var(--win-ring),var(--win-shadow);position:relative}
+.win picture,.win img{display:block;width:100%;height:100%}
+.win img{object-fit:cover}
+.credit{margin-top:.6rem;font-size:.9375rem;color:var(--muted)}
+
+/* Requirements: the Mac line, on the same screen as the field at every width */
+.eyebrow{font:600 .8125rem/1.3 var(--text);letter-spacing:.09em;text-transform:uppercase;color:var(--muted)}
+.req{margin-top:1.1rem}
+.req ul{margin-top:.3rem;display:grid;gap:.1rem}
+
+/* Features: controls along the line */
+.rail{margin-top:2.75rem;padding-bottom:1rem}
+.features{margin-top:1.1rem;display:grid;grid-template-columns:minmax(0,1fr);gap:1.6rem}
+.feature h3{position:relative;font:600 1.3125rem/1.3 var(--text)}
+.feature p{margin-top:.25rem;color:var(--muted);max-width:34rem;hyphens:manual}
+.rail-end{position:relative;height:1.85rem;margin-top:2.25rem}
+.rail-end .sym{top:0}
+
+/* Request: the finish */
+.beta{margin-top:1.75rem}
+.beta h2{position:relative;font:600 1.75rem/1.2 var(--display);letter-spacing:.005em}
+.lead{margin-top:.3rem;max-width:30rem;color:var(--muted)}
+/* The form is a grid of named areas, so the layout can put the button beside the consent (tablet)
+   or beside the field (desktop) while the DOM keeps the order field, consent, button. Rows whose
+   item is hidden collapse; spacing is the items' own top margins. */
+.signup{margin-top:1rem;max-width:42rem;display:grid;grid-template-columns:minmax(0,1fr);
+  grid-template-areas:"label" "field" "err" "consent" "cerr" "button" "msgs"}
+.field-label{grid-area:label}
+.signup input[type=email]{grid-area:field}
+.field-err{grid-area:err}
+.consent{grid-area:consent}
+.consent-err{grid-area:cerr}
+.signup button{grid-area:button}
+.msgs{grid-area:msgs}
+.field-label{display:block;font-weight:600;font-size:.9375rem;margin-bottom:.4rem}
+input[type=email]{display:block;width:100%;height:3.25rem;padding:0 1rem;font:inherit;font-size:1.0625rem;color:var(--ink);background:var(--field);border:1.5px solid var(--edge);border-radius:.5rem;transition:border-color .2s}
+input[type=email]:focus-visible{outline-offset:2px;border-color:var(--purple)}
+input[type=email][aria-invalid=true]{border-color:var(--danger)}
+
+.consent{margin-top:.9rem;display:grid;grid-template-columns:auto minmax(0,1fr);gap:0;align-items:start;font-size:.9375rem;line-height:1.45;color:var(--muted)}
+.consent label{cursor:pointer;hyphens:manual}
+.consent a{color:var(--ink);overflow-wrap:anywhere}
+.consent a:hover{color:var(--purple)}
+/* The box is 22 px with a 44 px hit area (the label is clickable too). */
+.consent input{appearance:none;-webkit-appearance:none;margin:-.6875rem 0 -.6875rem -.6875rem;width:2.75rem;height:2.75rem;background:none;border:0;border-radius:.5rem;cursor:pointer;position:relative}
+.consent input::before,.consent input::after{content:"";position:absolute;left:50%;top:calc(50% + .02rem);translate:-50% -50%}
+.consent input::before{width:1.375rem;height:1.375rem;border:1.5px solid var(--edge);border-radius:.3rem;background:var(--field);transition:background-color .15s,border-color .15s}
+.consent input::after{width:.875rem;height:.875rem;background:var(--on-purple);-webkit-mask:var(--icon-ok) center/contain no-repeat;mask:var(--icon-ok) center/contain no-repeat;opacity:0;transition:opacity .15s}
+.consent input:checked::before{background:var(--purple);border-color:var(--purple)}
+.consent input:checked::after{opacity:1}
+.consent input:focus-visible{outline:0}
+.consent input:focus-visible::before{outline:3px solid var(--purple);outline-offset:2px}
+
+button{display:block;width:100%;height:3.25rem;margin-top:.9rem;padding:0 1.5rem;font:600 1.0625rem var(--text);color:var(--on-purple);background:var(--purple);border:0;border-radius:.5rem;cursor:pointer;white-space:nowrap;transition:background-color .15s}
+button:hover{background:var(--purple-press)}
+button[aria-disabled=true]{cursor:progress}
+
+/* Answers. kit/form.js writes into .answer; without it, launchpad's 303 lands on a fragment and
+   :target shows that state. All share one cell, and the line is reserved before form.js loads.
+   The column may shrink below its content (minmax(0,…)) and the answer breaks anywhere it must:
+   form.js puts the address sent into it, and a long address is one unbreakable word. */
+.msgs{display:grid;grid-template-columns:minmax(0,1fr);align-content:start;margin-top:.8rem;min-height:1lh;font-size:1.0625rem;line-height:1.45}
+.msgs > *{grid-area:1/1;position:relative;padding-left:1.5em;min-width:0}
+.answer,.msg{hyphens:manual}
+.answer{overflow-wrap:anywhere}
+/* An invalid address: under the field (launchpad's 422 via form.js, or the no-JS return). The status
+   after the button still holds the same words for screen readers, but shows nothing. */
+.field-err{display:none;position:relative;margin-top:.5rem;padding-left:1.5em;color:var(--danger);font-weight:500;line-height:1.45;hyphens:manual;scroll-margin-top:min(45vh,22rem)}
+/* The unticked-box answer: launchpad's form.js fills it and unhides it; same treatment as the field's. */
+.consent-err{margin-top:.5rem;color:var(--danger);font-weight:500;line-height:1.45;hyphens:manual}
+.consent-err[hidden]{display:none}
+.signup[data-state=idle] .field-err:target,
+.signup[data-state=error]:has(#email[aria-invalid=true]) .field-err{display:block}
+.signup[data-state=error]:has(#email[aria-invalid=true]) .answer{color:transparent}
+/* Another way in, under a failure that is not the address's fault: the row under the answer. Its
+   height is part of the reserve the page script sets on .msgs at a press (.measure: measured then). */
+.msgs > .alt{grid-area:2/1}
+.alt{display:none;margin-top:.35rem;padding-left:1.5em;font-size:1.0625rem;line-height:1.45;color:var(--muted)}
+/* A 44 px tall hit area around the address without changing the line's height. */
+.alt a{color:var(--ink);overflow-wrap:anywhere;display:inline-block;padding:.75rem 0;margin:-.75rem 0}
+.alt a:hover{color:var(--purple)}
+.alt.measure{display:block;visibility:hidden}
+.signup[data-state=idle]:has(#signup-try-later:target) .alt,
+.signup[data-state=error]:not(:has(#email[aria-invalid=true])) .alt{display:block;visibility:visible}
+.msg{display:none;scroll-margin-top:min(45vh,22rem)}
+.msg:target{display:block}
+.signup:not([data-state=idle]) .msg{display:none}
+.ic{position:absolute;left:0;top:.17em;width:1.1em;height:1.1em;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.ic.tick{stroke:var(--purple);stroke-width:2.2}
+.err{color:var(--danger);font-weight:500}
+.signup[data-state=error] .answer{color:var(--danger);font-weight:500}
+.signup[data-state=sending] .answer{color:var(--muted)}
+.signup[data-state=error] .answer::before,.signup[data-state=accepted] .answer::before{content:"";position:absolute;left:0;top:.17em;width:1.1em;height:1.1em;background:currentColor;-webkit-mask:var(--icon-err) center/contain no-repeat;mask:var(--icon-err) center/contain no-repeat}
+.signup[data-state=accepted] .answer::before{background:var(--purple);-webkit-mask-image:var(--icon-ok);mask-image:var(--icon-ok)}
+/* The course ends: the finish fills when the request is in. */
+.course:has(.signup[data-state=accepted]) .sym.finish .inner,
+.course:has(#signup-check-email:target) .sym.finish .inner{fill:var(--purple)}
+
+.maker{max-width:84rem;margin:0 auto;padding:1.5rem var(--pad) 2.5rem calc(var(--pad) + var(--g));font-size:.9375rem;color:var(--muted)}
+.maker p{border-top:1px solid var(--hair);padding-top:1.1rem}
+.maker a{display:inline-flex;align-items:center;min-height:2.75rem;margin:-.75rem 0}
+.num{font-variant-numeric:tabular-nums lining-nums}
+
+/* Motion: only when the script has set up the course and the visitor allows it */
+.motion .legs line{stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset .42s cubic-bezier(.45,.05,.25,1)}
+.motion .legs line.on{stroke-dashoffset:0}
+.motion .sym.pre{opacity:0;transform:scale(.55)}
+.motion .sym{transition:opacity .26s ease-out,transform .3s cubic-bezier(.2,.8,.2,1)}
+.motion .win{animation:rise .75s cubic-bezier(.2,.8,.2,1) .15s both}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important}}
+
+/* Large default text on a phone (a viewport under 19.5em, which at normal text is under 312 px):
+   a tighter gutter and edge so the name and the request still fit, and a button label that may wrap.
+   The controls also swing half as far from the line (--amp), so a circle keeps clear of its heading. */
+@media (max-width:19.5em){
+  :root{--g:calc(var(--d) * 1.4);--pad:.75rem;--amp:.5}
+  /* At the very largest text (32 px default on a 320 px screen) even "Ratamestari-" is wider than
+     the column: the type follows the screen width there, and a word breaks rather than overflows. */
+  .headline{font-size:min(1.625rem,11.5vw);line-height:1.1;overflow-wrap:anywhere}
+  .mark{font-size:min(1.375rem,10.5vw)}
+  .nb{white-space:normal}
+  button{height:auto;min-height:3.25rem;padding:.6rem 1rem;white-space:normal;line-height:1.2}
+}
+
+/* Phone: the finish is at the end of the features. Desktop: at the request, as drawn. */
+.sym.at-form{display:none}
+
+/* Phone: a little tighter, so the field still ends on the first 390x844 screen under the longer
+   status line and its checked date. */
+@media (max-width:35.99rem){
+  .intro{margin-top:.9rem}
+  .status,.lead,.req ul{font-size:1rem;line-height:1.45}
+  .shot,.req{margin-top:1rem}
+  .win{aspect-ratio:1200/600} /* the checked date (M1) took a line; the crop gives it back */
+  .beta{margin-top:1.25rem}
+}
+
+@media (min-width:36rem){
+  .signup{grid-template-columns:minmax(0,1fr) auto;column-gap:1.25rem;align-items:start;
+    grid-template-areas:"label label" "field field" "err err" "consent button" "cerr cerr" "msgs msgs"}
+  button{width:auto}
+  .msgs{min-height:2lh}
+}
+
+/* Desktop: the screen beside the course; requirements and field on the first 1440x900 screen.
+   The course column widens with the window (up to 23rem of text), so the features stay shorter
+   than the screen beside them. */
+@media (min-width:62rem){
+  :root{--d:1.8rem;--col:calc(var(--g) + clamp(18.5rem,26vw,23rem))}
+  .sym.at-form{display:block}
+  .rail-end{display:none}
+  .top{padding-top:1.25rem}
+  .mark{font-size:1.875rem}
+  .sym.start{--sz:1.4rem}
+  .sym.finish{--sz:2rem}
+  .main{grid-template-columns:minmax(0,var(--col)) minmax(0,1fr);column-gap:0}
+  .main > *{padding-left:0}
+  .intro{grid-column:1/-1;grid-row:1;margin-top:1rem;padding-left:var(--g)}
+  .headline{white-space:nowrap}
+  .status{font-size:1.125rem;max-width:40rem}
+  .shot,.req,.signup{justify-self:end;width:100%;max-width:min(60rem,calc(100% - 3.5rem))}
+  .shot{grid-column:2;grid-row:2;margin-top:1rem}
+  .win{aspect-ratio:2400/1504;border-radius:12px}
+  .credit{margin-top:.9rem}
+  .req{grid-column:2;grid-row:3;margin-top:.35rem;display:flex;flex-wrap:wrap;align-items:baseline;gap:.25rem 1.25rem}
+  .req ul{margin-top:0;display:flex;flex-wrap:wrap;row-gap:.25rem}
+  .req li + li::before{content:"\00b7";color:var(--muted);padding:0 .75rem}
+  .rail{grid-column:1;grid-row:2/span 2;margin-top:1.5rem;padding:0 0 0 var(--g)}
+  .features{gap:1.1rem}
+  .frame::before{content:"";position:absolute;inset:-14px;pointer-events:none;
+    --c:var(--hair);
+    background:
+      linear-gradient(var(--c),var(--c)) 0 14px/9px 1px no-repeat,
+      linear-gradient(var(--c),var(--c)) 14px 0/1px 9px no-repeat,
+      linear-gradient(var(--c),var(--c)) 100% 14px/9px 1px no-repeat,
+      linear-gradient(var(--c),var(--c)) calc(100% - 14px) 0/1px 9px no-repeat,
+      linear-gradient(var(--c),var(--c)) 0 calc(100% - 14px)/9px 1px no-repeat,
+      linear-gradient(var(--c),var(--c)) 14px 100%/1px 9px no-repeat,
+      linear-gradient(var(--c),var(--c)) 100% calc(100% - 14px)/9px 1px no-repeat,
+      linear-gradient(var(--c),var(--c)) calc(100% - 14px) 100%/1px 9px no-repeat}
+  .beta{grid-column:1/-1;grid-row:4;margin-top:1.5rem;display:grid;grid-template-columns:minmax(0,var(--col)) minmax(0,1fr);align-items:start;padding-left:0}
+  .beta-copy{padding-left:var(--g)}
+  .beta h2{font-size:1.875rem}
+  .signup{margin:0;column-gap:.75rem;
+    grid-template-areas:"label label" "field button" "err err" "consent consent" "cerr cerr" "msgs msgs"}
+  .signup button{margin-top:0}
+}

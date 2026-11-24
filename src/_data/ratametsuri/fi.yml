@@ -1,0 +1,74 @@
+# Every visible string on /ratametsuri/ (the Finnish Ratametsuri page).
+# The templates read nothing else. Source: docs/design/ratametsuri/copy-deck.md ("Revision
+# 2026-11-23" wins over the earlier tables). The form's error answers follow the deck too; the
+# honeypot label comes from launchpad's kit form (kit/form/ratametsuri.fi.html).
+#
+# Exception: consent.text is launchpad's string, not the deck's. launchpad hashes it byte for byte as
+# consent evidence; it must equal consent.beta-2026-11-23 in launchpad's
+# projects/ratametsuri/locales/fi.yml. Change it only together with launchpad (and with a new
+# consent.version).
+
+page_title: "Ratametsuri – ratamestarisovellus Macille"
+meta_description: "Ratametsuri on ratamestarisovellus Macille. Suunnittelet sillä suunnistusradat ja viet ne tulospalveluun IOF XML 3.0 -tiedostona. Sovellus on kehitteillä."
+skip_link: "Siirry sisältöön"
+lang_link: "In English"
+
+headline: "Ratamestarisovellus Macille"
+status: "Viet radat tulospalveluun IOF XML 3.0 -tiedostona niin kuin muistakin ratamestarisovelluksista. Sovellus on kehitteillä."
+checked: "Tilanne tarkistettu %{date}." # M1: the date comes from work.yml, the one home of the status
+
+screenshot_alt: "Ratametsurin ikkuna: Kaupin kartalla rata A ja sen rastinmääritteet. Sivupalkissa ovat radat ja radan rastit."
+map_credit: "Kartta: Kauppi, Tampereen Pyrintö"
+
+requirements:
+  heading: "Mitä tarvitset"
+  items:
+    - "Mac, jossa on macOS 14 Sonoma tai uudempi"
+    - "Kartta PDF-, PNG-, JPEG- tai TIFF-tiedostona"
+
+features_heading: "Mitä Ratametsuri jo osaa"
+features:
+  - title: "Osoitin kertoo, mitä napsautus tekee"
+    text: "Kun osoitin on toisen radan rastin päällä, sen vieressä lukee esimerkiksi ”Lisää 31 rastiksi 4” ja rastivälin päällä ”Lisää rastien 2 ja 3 väliin”. Jos osut rastiin, joka on jo radalla, napsautus vain valitsee sen eikä lisää sitä toista kertaa."
+  - title: "Suomeksi"
+    text: "Sovellus käyttää SSL:n termejä, kuten ”rastinmääritteet” ja ”rastipisteen kohde”."
+  - title: "PDF ja IOF XML 3.0"
+    text: "Jokaisesta radasta tulee oma PDF, jossa rastinmääritteet ovat kartalla. Sarakkeita E, G ja H ei voi vielä muokata. MeOS 5.0 on lukenut Ratametsurin radat ilman varoituksia. Muita tulospalveluohjelmistoja ei ole kokeiltu."
+
+beta:
+  heading: "Pyydä betakutsu"
+  lead: "Beta on seurojen ratamestareille, joilla on Mac. Aluksi mukaan mahtuu 10–20 ratamestaria, joten emme voi luvata kutsua kaikille."
+  field_label: "Sähköpostiosoite"
+  button: "Pyydä kutsu"
+  # The form's answers. kit/form.js fills %{email} with the address sent and %{project} with the
+  # product name; the no-JS states (#signup-check-email, #signup-error, #signup-try-later) show
+  # check_email_nojs, invalid_email and failed as they are, so those three must not use %{email}.
+  sending: "Lähetetään…"
+  check_email: "Lähetimme vahvistusviestin osoitteeseen %{email}. Vahvista osoitteesi viestin painikkeella." # launchpad !81; form.js fills %{email}
+  check_email_nojs: "Lähetimme vahvistusviestin. Vahvista osoitteesi viestin painikkeella." # shown via :target without JS, where %{email} cannot be filled
+  invalid_email: "Tämä ei näytä sähköpostiosoitteelta. Tarkista osoite."
+  failed: "Pyyntö ei mennyt perille. Yritä hetken päästä uudelleen."
+  rate_limited: "Verkostasi on tullut lyhyessä ajassa liian monta pyyntöä. Yritä uudelleen muutaman minuutin päästä."
+  offline: "Pyyntö ei lähtenyt. Tarkista verkkoyhteys ja yritä uudelleen."
+  consent_required: "Rastita ruutu, jos haluat kutsun sähköpostiisi."
+  # Under a failed, offline or rate-limited answer (and #signup-try-later): another way in, by
+  # email to the company address (company.yml email), which the page adds after this line as a link.
+  fallback: "Voit pyytää kutsun myös sähköpostilla:"
+  fallback_subject: "Ratametsurin betakutsu"
+  honeypot_label: "Jätä tämä kenttä tyhjäksi" # launchpad; hidden from everyone, read only by bots
+
+consent:
+  version: "beta-2026-11-23"
+  text: "Haluan sähköpostiini kutsun Ratametsurin betaan ja tiedon, kun sovellus julkaistaan. Osoitettani ei käytetä muuhun eikä luovuteta eteenpäin. Voin poistaa osoitteeni milloin tahansa. Lisätietoja tietosuojasta: koivupiilo.fi/tietosuoja"
+  # The end of consent.text that becomes the link; the build fails if text does not end with it.
+  link_text: "koivupiilo.fi/tietosuoja"
+
+maker_line:
+  text: "Ratametsuri on Koivupiilo Oy:n tuote"
+  business_id: "Y-tunnus 3458206-1"
+  privacy_link_text: "Tietosuoja"
+
+# Accessible names of the course symbols (screen readers only).
+course_words:
+  control: "rasti"
+  finish: "maali"

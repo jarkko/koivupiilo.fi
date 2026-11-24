@@ -1,0 +1,72 @@
+[
+  {
+    "id": "F1",
+    "result": "fixed",
+    "note": "24 fresh accepted long-address cells: 320/390, default fonts 16/24/32 px, FI/EN and light/dark; zero horizontal overflow. All addresses had the honeypot filled and POST replies were intercepted.",
+    "evidence": [
+      "docs/design/reviews/evidence/f42b0d0f/extra-report.json",
+      "docs/design/reviews/evidence/f42b0d0f/shots/long-en-320-light-font16-after.jpg",
+      "docs/design/reviews/evidence/f42b0d0f/shots/long-fi-390-dark-font24-after.jpg"
+    ]
+  },
+  {
+    "id": "F2",
+    "result": "fixed",
+    "note": "All 16 product-list walks find one locale-correct Ratametsuri link and arrive at the matching page. Front -> Work -> Ratametsuri also walked in both languages.",
+    "evidence": [
+      "docs/design/reviews/evidence/f42b0d0f/walk-report.json",
+      "docs/design/reviews/evidence/f42b0d0f/paths-report.json",
+      "docs/design/reviews/evidence/f42b0d0f/shots/fi-1440-dark-font16-work.jpg"
+    ]
+  },
+  {
+    "id": "F3",
+    "result": "fixed",
+    "note": "48 committed new/changed baselines cover product, privacy and linked work lists; the fresh visual comparison has zero findings. A failing verdict cannot approve baseline hashes; none are approved here.",
+    "evidence": [
+      "docs/design/reviews/evidence/f42b0d0f/visual.json",
+      "docs/design/reviews/evidence/f42b0d0f/baseline-manifest.json"
+    ]
+  },
+  {
+    "id": "F4",
+    "result": "fixed",
+    "note": "Both product routes pass the unchanged 2000 ms LCP budget: FI median 1727.403 ms, EN median 1727.073 ms; CLS 0 in all six runs. The full module passes.",
+    "evidence": [
+      "docs/design/reviews/evidence/f42b0d0f/perf.json",
+      "docs/design/reviews/evidence/f42b0d0f/perf-summary.json",
+      "docs/design/reviews/evidence/f42b0d0f/lighthouse/ratametsuri-run-1.html",
+      "docs/design/reviews/evidence/f42b0d0f/lighthouse/en-ratametsuri-run-1.html"
+    ]
+  },
+  {
+    "id": "F5",
+    "result": "fixed",
+    "note": "All 16 invalid fixtures put the explanation immediately under the field, focus email and describe it with signup-error. At 390/24 px the explanation is visible at about y=90..201 in both languages/themes.",
+    "evidence": [
+      "docs/design/reviews/evidence/f42b0d0f/walk-report.json",
+      "docs/design/reviews/evidence/f42b0d0f/shots/fi-390-light-font24-invalid-after.jpg",
+      "docs/design/reviews/evidence/f42b0d0f/shots/en-390-dark-font24-invalid-after.jpg"
+    ]
+  },
+  {
+    "id": "F6",
+    "result": "fixed",
+    "note": "Server/offline/rate-limit replies and no-JS signup-try-later show the direct email fallback with a beta-invite subject. Values survive failure and retry.",
+    "evidence": [
+      "docs/design/reviews/evidence/f42b0d0f/walk-report.json",
+      "docs/design/reviews/evidence/f42b0d0f/shots/en-390-light-font16-offline-after.jpg",
+      "docs/design/reviews/evidence/f42b0d0f/shots/nojs-fi-390-dark-font24-signup-try-later-after.jpg"
+    ]
+  },
+  {
+    "id": "F7",
+    "result": "fixed",
+    "note": "Per the lead decision in this dispatch, the desktop button shares the input row. At 1440x900 their bottoms match at y=883.156 FI / 862.266 EN in both themes; phone order remains field, consent, button.",
+    "evidence": [
+      "docs/design/reviews/evidence/f42b0d0f/walk-report.json",
+      "docs/design/reviews/evidence/f42b0d0f/shots/fi-1440-light-font16-first.jpg",
+      "docs/design/reviews/evidence/f42b0d0f/shots/en-1440-dark-font16-first.jpg"
+    ]
+  }
+]
