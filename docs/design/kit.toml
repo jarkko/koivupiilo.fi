@@ -155,6 +155,7 @@ routes = [
 # Third-party origins the pages may load. Everything else is blocked and reported.
 allow_origins = [
   { origin = "https://join.koivupiilo.fi", reason = "launchpad, our own sign-up service: the Ratametsuri form posts to it and loads its kit/form.js and fill-time token" },
+  { origin = "https://umami.monitoring.koivupiilo.fi", reason = "our own self-hosted visitor counter on the Ratametsuri page: cookieless, stores no IP (the privacy page says so)" },
 ]
 # Files that can change a rendered page (default: ui_globs).
 # src/ is listed folder by folder so that src/kvnn/ (see ignore_globs) re-runs no web check:
