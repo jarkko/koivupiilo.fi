@@ -13,16 +13,16 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://koivupiilo.fi/"/>
   </url>
   <url>
-    <loc>https://koivupiilo.fi/tyot/</loc>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://koivupiilo.fi/tyot/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://koivupiilo.fi/en/work/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://koivupiilo.fi/tyot/"/>
+    <loc>https://koivupiilo.fi/tuotteet/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://koivupiilo.fi/tuotteet/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koivupiilo.fi/en/products/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koivupiilo.fi/tuotteet/"/>
   </url>
   <url>
-    <loc>https://koivupiilo.fi/en/work/</loc>
-    <xhtml:link rel="alternate" hreflang="fi" href="https://koivupiilo.fi/tyot/"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://koivupiilo.fi/en/work/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://koivupiilo.fi/tyot/"/>
+    <loc>https://koivupiilo.fi/en/products/</loc>
+    <xhtml:link rel="alternate" hreflang="fi" href="https://koivupiilo.fi/tuotteet/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://koivupiilo.fi/en/products/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://koivupiilo.fi/tuotteet/"/>
   </url>
   <url>
     <loc>https://koivupiilo.fi/studio/</loc>
