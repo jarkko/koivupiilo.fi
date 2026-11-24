@@ -1,0 +1,2372 @@
+[
+ {
+  "name": "fi-390-light-font16",
+  "lang": "fi",
+  "title": "Tietosuoja – Koivupiilo",
+  "sw": 390,
+  "cw": 390,
+  "bodyFont": "17px",
+  "h1": "48.14px",
+  "h2": "15px",
+  "h2weight": "600",
+  "hyphens": "manual",
+  "h1hyph": "manual",
+  "h1wrap": "break-word",
+  "proseW": 330,
+  "lineH": "26.35px",
+  "paraGapsRm": [
+   "0px",
+   "16px",
+   "16px"
+  ],
+  "paraGapsS1": [
+   "0px",
+   "16px"
+  ],
+  "rows": [
+   {
+    "id": "s1",
+    "top": 398,
+    "labelX": 44,
+    "labelW": 330,
+    "labelH": 21,
+    "bodyX": 44,
+    "bodyW": 330
+   },
+   {
+    "id": "s2",
+    "top": 776,
+    "labelX": 44,
+    "labelW": 330,
+    "labelH": 21,
+    "bodyX": 44,
+    "bodyW": 330
+   },
+   {
+    "id": "s3",
+    "top": 1085,
+    "labelX": 44,
+    "labelW": 330,
+    "labelH": 21,
+    "bodyX": 44,
+    "bodyW": 330
+   },
+   {
+    "id": "ratametsuri",
+    "top": 1341,
+    "labelX": 44,
+    "labelW": 330,
+    "labelH": 21,
+    "bodyX": 44,
+    "bodyW": 330
+   },
+   {
+    "id": "sa1",
+    "top": 2050,
+    "labelX": 44,
+    "labelW": 330,
+    "labelH": 21,
+    "bodyX": 44,
+    "bodyW": 330
+   },
+   {
+    "id": "sa2",
+    "top": 2375,
+    "labelX": 44,
+    "labelW": 330,
+    "labelH": 21,
+    "bodyX": 44,
+    "bodyW": 330
+   },
+   {
+    "id": "controller",
+    "top": 2752,
+    "labelX": 44,
+    "labelW": 330,
+    "labelH": 21,
+    "bodyX": 44,
+    "bodyW": 330
+   }
+  ],
+  "clipped": [],
+  "wide": [],
+  "cpl": 35,
+  "splits": [
+   "tallenna IP-|osoitettasi."
+  ],
+  "axe": {
+   "v": [],
+   "inc": []
+  }
+ },
+ {
+  "name": "fi-390-dark-font16",
+  "lang": "fi",
+  "title": "Tietosuoja – Koivupiilo",
+  "sw": 390,
+  "cw": 390,
+  "bodyFont": "17px",
+  "h1": "48.14px",
+  "h2": "15px",
+  "h2weight": "600",
+  "hyphens": "manual",
+  "h1hyph": "manual",
+  "h1wrap": "break-word",
+  "proseW": 330,
+  "lineH": "26.35px",
+  "paraGapsRm": [
+   "0px",
+   "16px",
+   "16px"
+  ],
+  "paraGapsS1": [
+   "0px",
+   "16px"
+  ],
+  "rows": [
+   {
+    "id": "s1",
+    "top": 398,
+    "labelX": 44,
+    "labelW": 330,
+    "labelH": 21,
+    "bodyX": 44,
+    "bodyW": 330
+   },
+   {
+    "id": "s2",
+    "top": 776,
+    "labelX": 44,
+    "labelW": 330,
+    "labelH": 21,
+    "bodyX": 44,
+    "bodyW": 330
+   },
+   {
+    "id": "s3",
+    "top": 1085,
+    "labelX": 44,
+    "labelW": 330,
+    "labelH": 21,
+    "bodyX": 44,
+    "bodyW": 330
+   },
+   {
+    "id": "ratametsuri",
+    "top": 1341,
+    "labelX": 44,
+    "labelW": 330,
+    "labelH": 21,
+    "bodyX": 44,
+    "bodyW": 330
+   },
+   {
+    "id": "sa1",
+    "top": 2050,
+    "labelX": 44,
+    "labelW": 330,
+    "labelH": 21,
+    "bodyX": 44,
+    "bodyW": 330
+   },
+   {
+    "id": "sa2",
+    "top": 2375,
+    "labelX": 44,
+    "labelW": 330,
+    "labelH": 21,
+    "bodyX": 44,
+    "bodyW": 330
+   },
+   {
+    "id": "controller",
+    "top": 2752,
+    "labelX": 44,
+    "labelW": 330,
+    "labelH": 21,
+    "bodyX": 44,
+    "bodyW": 330
+   }
+  ],
+  "clipped": [],
+  "wide": [],
+  "cpl": 35,
+  "splits": [
+   "tallenna IP-|osoitettasi."
+  ],
+  "axe": {
+   "v": [],
+   "inc": []
+  }
+ },
+ {
+  "name": "fi-1440-light-font16",
+  "lang": "fi",
+  "title": "Tietosuoja – Koivupiilo",
+  "sw": 1440,
+  "cw": 1440,
+  "bodyFont": "17px",
+  "h1": "104px",
+  "h2": "15px",
+  "h2weight": "600",
+  "hyphens": "manual",
+  "h1hyph": "manual",
+  "h1wrap": "break-word",
+  "proseW": 576,
+  "lineH": "26.35px",
+  "paraGapsRm": [
+   "0px",
+   "16px",
+   "16px"
+  ],
+  "paraGapsS1": [
+   "0px",
+   "16px"
+  ],
+  "rows": [
+   {
+    "id": "s1",
+    "top": 542,
+    "labelX": 120,
+    "labelW": 208,
+    "labelH": 148,
+    "bodyX": 360,
+    "bodyW": 576
+   },
+   {
+    "id": "s2",
+    "top": 802,
+    "labelX": 120,
+    "labelW": 208,
+    "labelH": 132,
+    "bodyX": 360,
+    "bodyW": 576
+   },
+   {
+    "id": "s3",
+    "top": 1047,
+    "labelX": 120,
+    "labelW": 208,
+    "labelH": 79,
+    "bodyX": 360,
+    "bodyW": 576
+   },
+   {
+    "id": "ratametsuri",
+    "top": 1239,
+    "labelX": 120,
+    "labelW": 208,
+    "labelH": 348,
+    "bodyX": 360,
+    "bodyW": 576
+   },
+   {
+    "id": "sa1",
+    "top": 1700,
+    "labelX": 120,
+    "labelW": 208,
+    "labelH": 148,
+    "bodyX": 360,
+    "bodyW": 576
+   },
+   {
+    "id": "sa2",
+    "top": 1961,
+    "labelX": 120,
+    "labelW": 208,
+    "labelH": 174,
+    "bodyX": 360,
+    "bodyW": 576
+   },
+   {
+    "id": "controller",
+    "top": 2248,
+    "labelX": 120,
+    "labelW": 208,
+    "labelH": 92,
+    "bodyX": 360,
+    "bodyW": 576
+   }
+  ],
+  "clipped": [],
+  "wide": [],
+  "cpl": 70,
+  "splits": [],
+  "axe": {
+   "v": [],
+   "inc": []
+  }
+ },
+ {
+  "name": "fi-1440-dark-font16",
+  "lang": "fi",
+  "title": "Tietosuoja – Koivupiilo",
+  "sw": 1440,
+  "cw": 1440,
+  "bodyFont": "17px",
+  "h1": "104px",
+  "h2": "15px",
+  "h2weight": "600",
+  "hyphens": "manual",
+  "h1hyph": "manual",
+  "h1wrap": "break-word",
+  "proseW": 576,
+  "lineH": "26.35px",
+  "paraGapsRm": [
+   "0px",
+   "16px",
+   "16px"
+  ],
+  "paraGapsS1": [
+   "0px",
+   "16px"
+  ],
+  "rows": [
+   {
+    "id": "s1",
+    "top": 542,
+    "labelX": 120,
+    "labelW": 208,
+    "labelH": 148,
+    "bodyX": 360,
+    "bodyW": 576
+   },
+   {
+    "id": "s2",
+    "top": 802,
+    "labelX": 120,
+    "labelW": 208,
+    "labelH": 132,
+    "bodyX": 360,
+    "bodyW": 576
+   },
+   {
+    "id": "s3",
+    "top": 1047,
+    "labelX": 120,
+    "labelW": 208,
+    "labelH": 79,
+    "bodyX": 360,
+    "bodyW": 576
+   },
+   {
+    "id": "ratametsuri",
+    "top": 1239,
+    "labelX": 120,
+    "labelW": 208,
+    "labelH": 348,
+    "bodyX": 360,
+    "bodyW": 576
+   },
+   {
+    "id": "sa1",
+    "top": 1700,
+    "labelX": 120,
+    "labelW": 208,
+    "labelH": 148,
+    "bodyX": 360,
+    "bodyW": 576
+   },
+   {
+    "id": "sa2",
+    "top": 1961,
+    "labelX": 120,
+    "labelW": 208,
+    "labelH": 174,
+    "bodyX": 360,
+    "bodyW": 576
+   },
+   {
+    "id": "controller",
+    "top": 2248,
+    "labelX": 120,
+    "labelW": 208,
+    "labelH": 92,
+    "bodyX": 360,
+    "bodyW": 576
+   }
+  ],
+  "clipped": [],
+  "wide": [],
+  "cpl": 70,
+  "splits": [],
+  "axe": {
+   "v": [],
+   "inc": []
+  }
+ },
+ {
+  "name": "en-390-light-font16",
+  "lang": "en",
+  "title": "Privacy – Koivupiilo",
+  "sw": 390,
+  "cw": 390,
+  "bodyFont": "17px",
+  "h1": "48.14px",
+  "h2": "15px",
+  "h2weight": "600",
+  "hyphens": "manual",
+  "h1hyph": "manual",
+  "h1wrap": "break-word",
+  "proseW": 330,
+  "lineH": "26.35px",
+  "paraGapsRm": [
+   "0px",
+   "16px",
+   "16px"
+  ],
+  "paraGapsS1": [
+   "0px",
+   "16px"
+  ],
+  "rows": [
+   {
+    "id": "s1",
+    "top": 344,
+    "labelX": 44,
+    "labelW": 330,
+    "labelH": 21,
+    "bodyX": 44,
+    "bodyW": 330
+   },
+   {
+    "id": "s2",
+    "top": 721,
+    "labelX": 44,
+    "labelW": 330,
+    "labelH": 21,
+    "bodyX": 44,
+    "bodyW": 330
+   },
+   {
+    "id": "s3",
+    "top": 1004,
+    "labelX": 44,
+    "labelW": 330,
+    "labelH": 21,
+    "bodyX": 44,
+    "bodyW": 330
+   },
+   {
+    "id": "ratametsuri",
+    "top": 1233,
+    "labelX": 44,
+    "labelW": 330,
+    "labelH": 21,
+    "bodyX": 44,
+    "bodyW": 330
+   },
+   {
+    "id": "sa1",
+    "top": 1890,
+    "labelX": 44,
+    "labelW": 330,
+    "labelH": 21,
+    "bodyX": 44,
+    "bodyW": 330
+   },
+   {
+    "id": "sa2",
+    "top": 2189,
+    "labelX": 44,
+    "labelW": 330,
+    "labelH": 21,
+    "bodyX": 44,
+    "bodyW": 330
+   },
+   {
+    "id": "controller",
+    "top": 2540,
+    "labelX": 44,
+    "labelW": 330,
+    "labelH": 21,
+    "bodyX": 44,
+    "bodyW": 330
+   }
+  ],
+  "clipped": [],
+  "wide": [],
+  "cpl": 41,
+  "splits": [],
+  "axe": {
+   "v": [],
+   "inc": []
+  }
+ },
+ {
+  "name": "en-390-dark-font16",
+  "lang": "en",
+  "title": "Privacy – Koivupiilo",
+  "sw": 390,
+  "cw": 390,
+  "bodyFont": "17px",
+  "h1": "48.14px",
+  "h2": "15px",
+  "h2weight": "600",
+  "hyphens": "manual",
+  "h1hyph": "manual",
+  "h1wrap": "break-word",
+  "proseW": 330,
+  "lineH": "26.35px",
+  "paraGapsRm": [
+   "0px",
+   "16px",
+   "16px"
+  ],
+  "paraGapsS1": [
+   "0px",
+   "16px"
+  ],
+  "rows": [
+   {
+    "id": "s1",
+    "top": 344,
+    "labelX": 44,
+    "labelW": 330,
+    "labelH": 21,
+    "bodyX": 44,
+    "bodyW": 330
+   },
+   {
+    "id": "s2",
+    "top": 721,
+    "labelX": 44,
+    "labelW": 330,
+    "labelH": 21,
+    "bodyX": 44,
+    "bodyW": 330
+   },
+   {
+    "id": "s3",
+    "top": 1004,
+    "labelX": 44,
+    "labelW": 330,
+    "labelH": 21,
+    "bodyX": 44,
+    "bodyW": 330
+   },
+   {
+    "id": "ratametsuri",
+    "top": 1233,
+    "labelX": 44,
+    "labelW": 330,
+    "labelH": 21,
+    "bodyX": 44,
+    "bodyW": 330
+   },
+   {
+    "id": "sa1",
+    "top": 1890,
+    "labelX": 44,
+    "labelW": 330,
+    "labelH": 21,
+    "bodyX": 44,
+    "bodyW": 330
+   },
+   {
+    "id": "sa2",
+    "top": 2189,
+    "labelX": 44,
+    "labelW": 330,
+    "labelH": 21,
+    "bodyX": 44,
+    "bodyW": 330
+   },
+   {
+    "id": "controller",
+    "top": 2540,
+    "labelX": 44,
+    "labelW": 330,
+    "labelH": 21,
+    "bodyX": 44,
+    "bodyW": 330
+   }
+  ],
+  "clipped": [],
+  "wide": [],
+  "cpl": 41,
+  "splits": [],
+  "axe": {
+   "v": [],
+   "inc": []
+  }
+ },
+ {
+  "name": "en-1440-light-font16",
+  "lang": "en",
+  "title": "Privacy – Koivupiilo",
+  "sw": 1440,
+  "cw": 1440,
+  "bodyFont": "17px",
+  "h1": "104px",
+  "h2": "15px",
+  "h2weight": "600",
+  "hyphens": "manual",
+  "h1hyph": "manual",
+  "h1wrap": "break-word",
+  "proseW": 576,
+  "lineH": "26.35px",
+  "paraGapsRm": [
+   "0px",
+   "16px",
+   "16px"
+  ],
+  "paraGapsS1": [
+   "0px",
+   "16px"
+  ],
+  "rows": [
+   {
+    "id": "s1",
+    "top": 503,
+    "labelX": 120,
+    "labelW": 208,
+    "labelH": 174,
+    "bodyX": 360,
+    "bodyW": 576
+   },
+   {
+    "id": "s2",
+    "top": 790,
+    "labelX": 120,
+    "labelW": 208,
+    "labelH": 105,
+    "bodyX": 360,
+    "bodyW": 576
+   },
+   {
+    "id": "s3",
+    "top": 1009,
+    "labelX": 120,
+    "labelW": 208,
+    "labelH": 79,
+    "bodyX": 360,
+    "bodyW": 576
+   },
+   {
+    "id": "ratametsuri",
+    "top": 1201,
+    "labelX": 120,
+    "labelW": 208,
+    "labelH": 348,
+    "bodyX": 360,
+    "bodyW": 576
+   },
+   {
+    "id": "sa1",
+    "top": 1662,
+    "labelX": 120,
+    "labelW": 208,
+    "labelH": 121,
+    "bodyX": 360,
+    "bodyW": 576
+   },
+   {
+    "id": "sa2",
+    "top": 1896,
+    "labelX": 120,
+    "labelW": 208,
+    "labelH": 174,
+    "bodyX": 360,
+    "bodyW": 576
+   },
+   {
+    "id": "controller",
+    "top": 2183,
+    "labelX": 120,
+    "labelW": 208,
+    "labelH": 92,
+    "bodyX": 360,
+    "bodyW": 576
+   }
+  ],
+  "clipped": [],
+  "wide": [],
+  "cpl": 54,
+  "splits": [],
+  "axe": {
+   "v": [],
+   "inc": []
+  }
+ },
+ {
+  "name": "en-1440-dark-font16",
+  "lang": "en",
+  "title": "Privacy – Koivupiilo",
+  "sw": 1440,
+  "cw": 1440,
+  "bodyFont": "17px",
+  "h1": "104px",
+  "h2": "15px",
+  "h2weight": "600",
+  "hyphens": "manual",
+  "h1hyph": "manual",
+  "h1wrap": "break-word",
+  "proseW": 576,
+  "lineH": "26.35px",
+  "paraGapsRm": [
+   "0px",
+   "16px",
+   "16px"
+  ],
+  "paraGapsS1": [
+   "0px",
+   "16px"
+  ],
+  "rows": [
+   {
+    "id": "s1",
+    "top": 503,
+    "labelX": 120,
+    "labelW": 208,
+    "labelH": 174,
+    "bodyX": 360,
+    "bodyW": 576
+   },
+   {
+    "id": "s2",
+    "top": 790,
+    "labelX": 120,
+    "labelW": 208,
+    "labelH": 105,
+    "bodyX": 360,
+    "bodyW": 576
+   },
+   {
+    "id": "s3",
+    "top": 1009,
+    "labelX": 120,
+    "labelW": 208,
+    "labelH": 79,
+    "bodyX": 360,
+    "bodyW": 576
+   },
+   {
+    "id": "ratametsuri",
+    "top": 1201,
+    "labelX": 120,
+    "labelW": 208,
+    "labelH": 348,
+    "bodyX": 360,
+    "bodyW": 576
+   },
+   {
+    "id": "sa1",
+    "top": 1662,
+    "labelX": 120,
+    "labelW": 208,
+    "labelH": 121,
+    "bodyX": 360,
+    "bodyW": 576
+   },
+   {
+    "id": "sa2",
+    "top": 1896,
+    "labelX": 120,
+    "labelW": 208,
+    "labelH": 174,
+    "bodyX": 360,
+    "bodyW": 576
+   },
+   {
+    "id": "controller",
+    "top": 2183,
+    "labelX": 120,
+    "labelW": 208,
+    "labelH": 92,
+    "bodyX": 360,
+    "bodyW": 576
+   }
+  ],
+  "clipped": [],
+  "wide": [],
+  "cpl": 54,
+  "splits": [],
+  "axe": {
+   "v": [],
+   "inc": []
+  }
+ },
+ {
+  "name": "fi-390-light-font24",
+  "lang": "fi",
+  "title": "Tietosuoja – Koivupiilo",
+  "sw": 390,
+  "cw": 390,
+  "bodyFont": "25.5px",
+  "h1": "66px",
+  "h2": "22.5px",
+  "h2weight": "600",
+  "hyphens": "manual",
+  "h1hyph": "manual",
+  "h1wrap": "break-word",
+  "proseW": 314,
+  "lineH": "39.525px",
+  "paraGapsRm": [
+   "0px",
+   "24px",
+   "24px"
+  ],
+  "paraGapsS1": [
+   "0px",
+   "24px"
+  ],
+  "rows": [
+   {
+    "id": "s1",
+    "top": 732,
+    "labelX": 52,
+    "labelW": 314,
+    "labelH": 32,
+    "bodyX": 52,
+    "bodyW": 314
+   },
+   {
+    "id": "s2",
+    "top": 1495,
+    "labelX": 52,
+    "labelW": 314,
+    "labelH": 32,
+    "bodyX": 52,
+    "bodyW": 314
+   },
+   {
+    "id": "s3",
+    "top": 2156,
+    "labelX": 52,
+    "labelW": 314,
+    "labelH": 32,
+    "bodyX": 52,
+    "bodyW": 314
+   },
+   {
+    "id": "ratametsuri",
+    "top": 2658,
+    "labelX": 52,
+    "labelW": 314,
+    "labelH": 32,
+    "bodyX": 52,
+    "bodyW": 314
+   },
+   {
+    "id": "sa1",
+    "top": 4275,
+    "labelX": 52,
+    "labelW": 314,
+    "labelH": 32,
+    "bodyX": 52,
+    "bodyW": 314
+   },
+   {
+    "id": "sa2",
+    "top": 4959,
+    "labelX": 52,
+    "labelW": 314,
+    "labelH": 32,
+    "bodyX": 52,
+    "bodyW": 314
+   },
+   {
+    "id": "controller",
+    "top": 5722,
+    "labelX": 52,
+    "labelW": 314,
+    "labelH": 32,
+    "bodyX": 52,
+    "bodyW": 314
+   }
+  ],
+  "clipped": [],
+  "wide": [],
+  "cpl": 23,
+  "splits": [],
+  "axe": {
+   "v": [],
+   "inc": []
+  }
+ },
+ {
+  "name": "fi-390-dark-font24",
+  "lang": "fi",
+  "title": "Tietosuoja – Koivupiilo",
+  "sw": 390,
+  "cw": 390,
+  "bodyFont": "25.5px",
+  "h1": "66px",
+  "h2": "22.5px",
+  "h2weight": "600",
+  "hyphens": "manual",
+  "h1hyph": "manual",
+  "h1wrap": "break-word",
+  "proseW": 314,
+  "lineH": "39.525px",
+  "paraGapsRm": [
+   "0px",
+   "24px",
+   "24px"
+  ],
+  "paraGapsS1": [
+   "0px",
+   "24px"
+  ],
+  "rows": [
+   {
+    "id": "s1",
+    "top": 732,
+    "labelX": 52,
+    "labelW": 314,
+    "labelH": 32,
+    "bodyX": 52,
+    "bodyW": 314
+   },
+   {
+    "id": "s2",
+    "top": 1495,
+    "labelX": 52,
+    "labelW": 314,
+    "labelH": 32,
+    "bodyX": 52,
+    "bodyW": 314
+   },
+   {
+    "id": "s3",
+    "top": 2156,
+    "labelX": 52,
+    "labelW": 314,
+    "labelH": 32,
+    "bodyX": 52,
+    "bodyW": 314
+   },
+   {
+    "id": "ratametsuri",
+    "top": 2658,
+    "labelX": 52,
+    "labelW": 314,
+    "labelH": 32,
+    "bodyX": 52,
+    "bodyW": 314
+   },
+   {
+    "id": "sa1",
+    "top": 4275,
+    "labelX": 52,
+    "labelW": 314,
+    "labelH": 32,
+    "bodyX": 52,
+    "bodyW": 314
+   },
+   {
+    "id": "sa2",
+    "top": 4959,
+    "labelX": 52,
+    "labelW": 314,
+    "labelH": 32,
+    "bodyX": 52,
+    "bodyW": 314
+   },
+   {
+    "id": "controller",
+    "top": 5722,
+    "labelX": 52,
+    "labelW": 314,
+    "labelH": 32,
+    "bodyX": 52,
+    "bodyW": 314
+   }
+  ],
+  "clipped": [],
+  "wide": [],
+  "cpl": 23,
+  "splits": [],
+  "axe": {
+   "v": [],
+   "inc": []
+  }
+ },
+ {
+  "name": "fi-1440-light-font24",
+  "lang": "fi",
+  "title": "Tietosuoja – Koivupiilo",
+  "sw": 1440,
+  "cw": 1440,
+  "bodyFont": "25.5px",
+  "h1": "128.64px",
+  "h2": "22.5px",
+  "h2weight": "600",
+  "hyphens": "manual",
+  "h1hyph": "manual",
+  "h1wrap": "break-word",
+  "proseW": 864,
+  "lineH": "39.525px",
+  "paraGapsRm": [
+   "0px",
+   "24px",
+   "24px"
+  ],
+  "paraGapsS1": [
+   "0px",
+   "24px"
+  ],
+  "rows": [
+   {
+    "id": "s1",
+    "top": 706,
+    "labelX": 108,
+    "labelW": 1272,
+    "labelH": 32,
+    "bodyX": 108,
+    "bodyW": 864
+   },
+   {
+    "id": "s2",
+    "top": 1113,
+    "labelX": 108,
+    "labelW": 1272,
+    "labelH": 32,
+    "bodyX": 108,
+    "bodyW": 864
+   },
+   {
+    "id": "s3",
+    "top": 1495,
+    "labelX": 108,
+    "labelW": 1272,
+    "labelH": 32,
+    "bodyX": 108,
+    "bodyW": 864
+   },
+   {
+    "id": "ratametsuri",
+    "top": 1799,
+    "labelX": 108,
+    "labelW": 1272,
+    "labelH": 32,
+    "bodyX": 108,
+    "bodyW": 864
+   },
+   {
+    "id": "sa1",
+    "top": 2506,
+    "labelX": 108,
+    "labelW": 1272,
+    "labelH": 32,
+    "bodyX": 108,
+    "bodyW": 864
+   },
+   {
+    "id": "sa2",
+    "top": 2913,
+    "labelX": 108,
+    "labelW": 1272,
+    "labelH": 32,
+    "bodyX": 108,
+    "bodyW": 864
+   },
+   {
+    "id": "controller",
+    "top": 3359,
+    "labelX": 108,
+    "labelW": 1272,
+    "labelH": 32,
+    "bodyX": 108,
+    "bodyW": 864
+   }
+  ],
+  "clipped": [],
+  "wide": [],
+  "cpl": 70,
+  "splits": [],
+  "axe": {
+   "v": [],
+   "inc": []
+  }
+ },
+ {
+  "name": "fi-1440-dark-font24",
+  "lang": "fi",
+  "title": "Tietosuoja – Koivupiilo",
+  "sw": 1440,
+  "cw": 1440,
+  "bodyFont": "25.5px",
+  "h1": "128.64px",
+  "h2": "22.5px",
+  "h2weight": "600",
+  "hyphens": "manual",
+  "h1hyph": "manual",
+  "h1wrap": "break-word",
+  "proseW": 864,
+  "lineH": "39.525px",
+  "paraGapsRm": [
+   "0px",
+   "24px",
+   "24px"
+  ],
+  "paraGapsS1": [
+   "0px",
+   "24px"
+  ],
+  "rows": [
+   {
+    "id": "s1",
+    "top": 706,
+    "labelX": 108,
+    "labelW": 1272,
+    "labelH": 32,
+    "bodyX": 108,
+    "bodyW": 864
+   },
+   {
+    "id": "s2",
+    "top": 1113,
+    "labelX": 108,
+    "labelW": 1272,
+    "labelH": 32,
+    "bodyX": 108,
+    "bodyW": 864
+   },
+   {
+    "id": "s3",
+    "top": 1495,
+    "labelX": 108,
+    "labelW": 1272,
+    "labelH": 32,
+    "bodyX": 108,
+    "bodyW": 864
+   },
+   {
+    "id": "ratametsuri",
+    "top": 1799,
+    "labelX": 108,
+    "labelW": 1272,
+    "labelH": 32,
+    "bodyX": 108,
+    "bodyW": 864
+   },
+   {
+    "id": "sa1",
+    "top": 2506,
+    "labelX": 108,
+    "labelW": 1272,
+    "labelH": 32,
+    "bodyX": 108,
+    "bodyW": 864
+   },
+   {
+    "id": "sa2",
+    "top": 2913,
+    "labelX": 108,
+    "labelW": 1272,
+    "labelH": 32,
+    "bodyX": 108,
+    "bodyW": 864
+   },
+   {
+    "id": "controller",
+    "top": 3359,
+    "labelX": 108,
+    "labelW": 1272,
+    "labelH": 32,
+    "bodyX": 108,
+    "bodyW": 864
+   }
+  ],
+  "clipped": [],
+  "wide": [],
+  "cpl": 70,
+  "splits": [],
+  "axe": {
+   "v": [],
+   "inc": []
+  }
+ },
+ {
+  "name": "en-390-light-font24",
+  "lang": "en",
+  "title": "Privacy – Koivupiilo",
+  "sw": 390,
+  "cw": 390,
+  "bodyFont": "25.5px",
+  "h1": "66px",
+  "h2": "22.5px",
+  "h2weight": "600",
+  "hyphens": "manual",
+  "h1hyph": "manual",
+  "h1wrap": "break-word",
+  "proseW": 314,
+  "lineH": "39.525px",
+  "paraGapsRm": [
+   "0px",
+   "24px",
+   "24px"
+  ],
+  "paraGapsS1": [
+   "0px",
+   "24px"
+  ],
+  "rows": [
+   {
+    "id": "s1",
+    "top": 652,
+    "labelX": 52,
+    "labelW": 314,
+    "labelH": 32,
+    "bodyX": 52,
+    "bodyW": 314
+   },
+   {
+    "id": "s2",
+    "top": 1454,
+    "labelX": 52,
+    "labelW": 314,
+    "labelH": 32,
+    "bodyX": 52,
+    "bodyW": 314
+   },
+   {
+    "id": "s3",
+    "top": 2035,
+    "labelX": 52,
+    "labelW": 314,
+    "labelH": 32,
+    "bodyX": 52,
+    "bodyW": 314
+   },
+   {
+    "id": "ratametsuri",
+    "top": 2498,
+    "labelX": 52,
+    "labelW": 314,
+    "labelH": 32,
+    "bodyX": 52,
+    "bodyW": 314
+   },
+   {
+    "id": "sa1",
+    "top": 3957,
+    "labelX": 52,
+    "labelW": 314,
+    "labelH": 32,
+    "bodyX": 52,
+    "bodyW": 314
+   },
+   {
+    "id": "sa2",
+    "top": 4562,
+    "labelX": 52,
+    "labelW": 314,
+    "labelH": 32,
+    "bodyX": 52,
+    "bodyW": 314
+   },
+   {
+    "id": "controller",
+    "top": 5286,
+    "labelX": 52,
+    "labelW": 314,
+    "labelH": 32,
+    "bodyX": 52,
+    "bodyW": 314
+   }
+  ],
+  "clipped": [],
+  "wide": [],
+  "cpl": 23,
+  "splits": [],
+  "axe": {
+   "v": [],
+   "inc": []
+  }
+ },
+ {
+  "name": "en-390-dark-font24",
+  "lang": "en",
+  "title": "Privacy – Koivupiilo",
+  "sw": 390,
+  "cw": 390,
+  "bodyFont": "25.5px",
+  "h1": "66px",
+  "h2": "22.5px",
+  "h2weight": "600",
+  "hyphens": "manual",
+  "h1hyph": "manual",
+  "h1wrap": "break-word",
+  "proseW": 314,
+  "lineH": "39.525px",
+  "paraGapsRm": [
+   "0px",
+   "24px",
+   "24px"
+  ],
+  "paraGapsS1": [
+   "0px",
+   "24px"
+  ],
+  "rows": [
+   {
+    "id": "s1",
+    "top": 652,
+    "labelX": 52,
+    "labelW": 314,
+    "labelH": 32,
+    "bodyX": 52,
+    "bodyW": 314
+   },
+   {
+    "id": "s2",
+    "top": 1454,
+    "labelX": 52,
+    "labelW": 314,
+    "labelH": 32,
+    "bodyX": 52,
+    "bodyW": 314
+   },
+   {
+    "id": "s3",
+    "top": 2035,
+    "labelX": 52,
+    "labelW": 314,
+    "labelH": 32,
+    "bodyX": 52,
+    "bodyW": 314
+   },
+   {
+    "id": "ratametsuri",
+    "top": 2498,
+    "labelX": 52,
+    "labelW": 314,
+    "labelH": 32,
+    "bodyX": 52,
+    "bodyW": 314
+   },
+   {
+    "id": "sa1",
+    "top": 3957,
+    "labelX": 52,
+    "labelW": 314,
+    "labelH": 32,
+    "bodyX": 52,
+    "bodyW": 314
+   },
+   {
+    "id": "sa2",
+    "top": 4562,
+    "labelX": 52,
+    "labelW": 314,
+    "labelH": 32,
+    "bodyX": 52,
+    "bodyW": 314
+   },
+   {
+    "id": "controller",
+    "top": 5286,
+    "labelX": 52,
+    "labelW": 314,
+    "labelH": 32,
+    "bodyX": 52,
+    "bodyW": 314
+   }
+  ],
+  "clipped": [],
+  "wide": [],
+  "cpl": 23,
+  "splits": [],
+  "axe": {
+   "v": [],
+   "inc": []
+  }
+ },
+ {
+  "name": "en-1440-light-font24",
+  "lang": "en",
+  "title": "Privacy – Koivupiilo",
+  "sw": 1440,
+  "cw": 1440,
+  "bodyFont": "25.5px",
+  "h1": "128.64px",
+  "h2": "22.5px",
+  "h2weight": "600",
+  "hyphens": "manual",
+  "h1hyph": "manual",
+  "h1wrap": "break-word",
+  "proseW": 864,
+  "lineH": "39.525px",
+  "paraGapsRm": [
+   "0px",
+   "24px",
+   "24px"
+  ],
+  "paraGapsS1": [
+   "0px",
+   "24px"
+  ],
+  "rows": [
+   {
+    "id": "s1",
+    "top": 603,
+    "labelX": 108,
+    "labelW": 1272,
+    "labelH": 32,
+    "bodyX": 108,
+    "bodyW": 864
+   },
+   {
+    "id": "s2",
+    "top": 1050,
+    "labelX": 108,
+    "labelW": 1272,
+    "labelH": 32,
+    "bodyX": 108,
+    "bodyW": 864
+   },
+   {
+    "id": "s3",
+    "top": 1393,
+    "labelX": 108,
+    "labelW": 1272,
+    "labelH": 32,
+    "bodyX": 108,
+    "bodyW": 864
+   },
+   {
+    "id": "ratametsuri",
+    "top": 1697,
+    "labelX": 108,
+    "labelW": 1272,
+    "labelH": 32,
+    "bodyX": 108,
+    "bodyW": 864
+   },
+   {
+    "id": "sa1",
+    "top": 2404,
+    "labelX": 108,
+    "labelW": 1272,
+    "labelH": 32,
+    "bodyX": 108,
+    "bodyW": 864
+   },
+   {
+    "id": "sa2",
+    "top": 2771,
+    "labelX": 108,
+    "labelW": 1272,
+    "labelH": 32,
+    "bodyX": 108,
+    "bodyW": 864
+   },
+   {
+    "id": "controller",
+    "top": 3217,
+    "labelX": 108,
+    "labelW": 1272,
+    "labelH": 32,
+    "bodyX": 108,
+    "bodyW": 864
+   }
+  ],
+  "clipped": [],
+  "wide": [],
+  "cpl": 54,
+  "splits": [],
+  "axe": {
+   "v": [],
+   "inc": []
+  }
+ },
+ {
+  "name": "en-1440-dark-font24",
+  "lang": "en",
+  "title": "Privacy – Koivupiilo",
+  "sw": 1440,
+  "cw": 1440,
+  "bodyFont": "25.5px",
+  "h1": "128.64px",
+  "h2": "22.5px",
+  "h2weight": "600",
+  "hyphens": "manual",
+  "h1hyph": "manual",
+  "h1wrap": "break-word",
+  "proseW": 864,
+  "lineH": "39.525px",
+  "paraGapsRm": [
+   "0px",
+   "24px",
+   "24px"
+  ],
+  "paraGapsS1": [
+   "0px",
+   "24px"
+  ],
+  "rows": [
+   {
+    "id": "s1",
+    "top": 603,
+    "labelX": 108,
+    "labelW": 1272,
+    "labelH": 32,
+    "bodyX": 108,
+    "bodyW": 864
+   },
+   {
+    "id": "s2",
+    "top": 1050,
+    "labelX": 108,
+    "labelW": 1272,
+    "labelH": 32,
+    "bodyX": 108,
+    "bodyW": 864
+   },
+   {
+    "id": "s3",
+    "top": 1393,
+    "labelX": 108,
+    "labelW": 1272,
+    "labelH": 32,
+    "bodyX": 108,
+    "bodyW": 864
+   },
+   {
+    "id": "ratametsuri",
+    "top": 1697,
+    "labelX": 108,
+    "labelW": 1272,
+    "labelH": 32,
+    "bodyX": 108,
+    "bodyW": 864
+   },
+   {
+    "id": "sa1",
+    "top": 2404,
+    "labelX": 108,
+    "labelW": 1272,
+    "labelH": 32,
+    "bodyX": 108,
+    "bodyW": 864
+   },
+   {
+    "id": "sa2",
+    "top": 2771,
+    "labelX": 108,
+    "labelW": 1272,
+    "labelH": 32,
+    "bodyX": 108,
+    "bodyW": 864
+   },
+   {
+    "id": "controller",
+    "top": 3217,
+    "labelX": 108,
+    "labelW": 1272,
+    "labelH": 32,
+    "bodyX": 108,
+    "bodyW": 864
+   }
+  ],
+  "clipped": [],
+  "wide": [],
+  "cpl": 54,
+  "splits": [],
+  "axe": {
+   "v": [],
+   "inc": []
+  }
+ },
+ {
+  "name": "fi-390-light-font32",
+  "lang": "fi",
+  "title": "Tietosuoja – Koivupiilo",
+  "sw": 390,
+  "cw": 390,
+  "bodyFont": "34px",
+  "h1": "88px",
+  "h2": "30px",
+  "h2weight": "600",
+  "hyphens": "manual",
+  "h1hyph": "manual",
+  "h1wrap": "break-word",
+  "proseW": 298,
+  "lineH": "52.7px",
+  "paraGapsRm": [
+   "0px",
+   "32px",
+   "32px"
+  ],
+  "paraGapsS1": [
+   "0px",
+   "32px"
+  ],
+  "rows": [
+   {
+    "id": "s1",
+    "top": 1387,
+    "labelX": 60,
+    "labelW": 298,
+    "labelH": 84,
+    "bodyX": 60,
+    "bodyW": 298
+   },
+   {
+    "id": "s2",
+    "top": 2868,
+    "labelX": 60,
+    "labelW": 298,
+    "labelH": 42,
+    "bodyX": 60,
+    "bodyW": 298
+   },
+   {
+    "id": "s3",
+    "top": 4222,
+    "labelX": 60,
+    "labelW": 298,
+    "labelH": 42,
+    "bodyX": 60,
+    "bodyW": 298
+   },
+   {
+    "id": "ratametsuri",
+    "top": 5102,
+    "labelX": 60,
+    "labelW": 298,
+    "labelH": 42,
+    "bodyX": 60,
+    "bodyW": 298
+   },
+   {
+    "id": "sa1",
+    "top": 8206,
+    "labelX": 60,
+    "labelW": 298,
+    "labelH": 84,
+    "bodyX": 60,
+    "bodyW": 298
+   },
+   {
+    "id": "sa2",
+    "top": 9423,
+    "labelX": 60,
+    "labelW": 298,
+    "labelH": 42,
+    "bodyX": 60,
+    "bodyW": 298
+   },
+   {
+    "id": "controller",
+    "top": 10862,
+    "labelX": 60,
+    "labelW": 298,
+    "labelH": 42,
+    "bodyX": 60,
+    "bodyW": 298
+   }
+  ],
+  "clipped": [],
+  "wide": [],
+  "cpl": 15,
+  "splits": [
+   "Tietosu|oja",
+   "tallenna IP-|osoitettasi.",
+   "e sivun, IP-|osoitteesi v",
+   "ostiosoittee|si ja suostu",
+   "ojavaltuutet|un toimistol",
+   "piilo Oy, Y-|tunnus "
+  ],
+  "axe": {
+   "v": [],
+   "inc": []
+  }
+ },
+ {
+  "name": "fi-390-dark-font32",
+  "lang": "fi",
+  "title": "Tietosuoja – Koivupiilo",
+  "sw": 390,
+  "cw": 390,
+  "bodyFont": "34px",
+  "h1": "88px",
+  "h2": "30px",
+  "h2weight": "600",
+  "hyphens": "manual",
+  "h1hyph": "manual",
+  "h1wrap": "break-word",
+  "proseW": 298,
+  "lineH": "52.7px",
+  "paraGapsRm": [
+   "0px",
+   "32px",
+   "32px"
+  ],
+  "paraGapsS1": [
+   "0px",
+   "32px"
+  ],
+  "rows": [
+   {
+    "id": "s1",
+    "top": 1387,
+    "labelX": 60,
+    "labelW": 298,
+    "labelH": 84,
+    "bodyX": 60,
+    "bodyW": 298
+   },
+   {
+    "id": "s2",
+    "top": 2868,
+    "labelX": 60,
+    "labelW": 298,
+    "labelH": 42,
+    "bodyX": 60,
+    "bodyW": 298
+   },
+   {
+    "id": "s3",
+    "top": 4222,
+    "labelX": 60,
+    "labelW": 298,
+    "labelH": 42,
+    "bodyX": 60,
+    "bodyW": 298
+   },
+   {
+    "id": "ratametsuri",
+    "top": 5102,
+    "labelX": 60,
+    "labelW": 298,
+    "labelH": 42,
+    "bodyX": 60,
+    "bodyW": 298
+   },
+   {
+    "id": "sa1",
+    "top": 8206,
+    "labelX": 60,
+    "labelW": 298,
+    "labelH": 84,
+    "bodyX": 60,
+    "bodyW": 298
+   },
+   {
+    "id": "sa2",
+    "top": 9423,
+    "labelX": 60,
+    "labelW": 298,
+    "labelH": 42,
+    "bodyX": 60,
+    "bodyW": 298
+   },
+   {
+    "id": "controller",
+    "top": 10862,
+    "labelX": 60,
+    "labelW": 298,
+    "labelH": 42,
+    "bodyX": 60,
+    "bodyW": 298
+   }
+  ],
+  "clipped": [],
+  "wide": [],
+  "cpl": 15,
+  "splits": [
+   "Tietosu|oja",
+   "tallenna IP-|osoitettasi.",
+   "e sivun, IP-|osoitteesi v",
+   "ostiosoittee|si ja suostu",
+   "ojavaltuutet|un toimistol",
+   "piilo Oy, Y-|tunnus "
+  ],
+  "axe": {
+   "v": [],
+   "inc": []
+  }
+ },
+ {
+  "name": "fi-1440-light-font32",
+  "lang": "fi",
+  "title": "Tietosuoja – Koivupiilo",
+  "sw": 1440,
+  "cw": 1440,
+  "bodyFont": "34px",
+  "h1": "139.84px",
+  "h2": "30px",
+  "h2weight": "600",
+  "hyphens": "manual",
+  "h1hyph": "manual",
+  "h1wrap": "break-word",
+  "proseW": 1152,
+  "lineH": "52.7px",
+  "paraGapsRm": [
+   "0px",
+   "32px",
+   "32px"
+  ],
+  "paraGapsS1": [
+   "0px",
+   "32px"
+  ],
+  "rows": [
+   {
+    "id": "s1",
+    "top": 778,
+    "labelX": 128,
+    "labelW": 1232,
+    "labelH": 42,
+    "bodyX": 128,
+    "bodyW": 1152
+   },
+   {
+    "id": "s2",
+    "top": 1298,
+    "labelX": 128,
+    "labelW": 1232,
+    "labelH": 42,
+    "bodyX": 128,
+    "bodyW": 1152
+   },
+   {
+    "id": "s3",
+    "top": 1785,
+    "labelX": 128,
+    "labelW": 1232,
+    "labelH": 42,
+    "bodyX": 128,
+    "bodyW": 1152
+   },
+   {
+    "id": "ratametsuri",
+    "top": 2168,
+    "labelX": 128,
+    "labelW": 1232,
+    "labelH": 42,
+    "bodyX": 128,
+    "bodyW": 1152
+   },
+   {
+    "id": "sa1",
+    "top": 3089,
+    "labelX": 128,
+    "labelW": 1232,
+    "labelH": 42,
+    "bodyX": 128,
+    "bodyW": 1152
+   },
+   {
+    "id": "sa2",
+    "top": 3609,
+    "labelX": 128,
+    "labelW": 1232,
+    "labelH": 42,
+    "bodyX": 128,
+    "bodyW": 1152
+   },
+   {
+    "id": "controller",
+    "top": 4181,
+    "labelX": 128,
+    "labelW": 1232,
+    "labelH": 42,
+    "bodyX": 128,
+    "bodyW": 1152
+   }
+  ],
+  "clipped": [],
+  "wide": [],
+  "cpl": 70,
+  "splits": [],
+  "axe": {
+   "v": [],
+   "inc": []
+  }
+ },
+ {
+  "name": "fi-1440-dark-font32",
+  "lang": "fi",
+  "title": "Tietosuoja – Koivupiilo",
+  "sw": 1440,
+  "cw": 1440,
+  "bodyFont": "34px",
+  "h1": "139.84px",
+  "h2": "30px",
+  "h2weight": "600",
+  "hyphens": "manual",
+  "h1hyph": "manual",
+  "h1wrap": "break-word",
+  "proseW": 1152,
+  "lineH": "52.7px",
+  "paraGapsRm": [
+   "0px",
+   "32px",
+   "32px"
+  ],
+  "paraGapsS1": [
+   "0px",
+   "32px"
+  ],
+  "rows": [
+   {
+    "id": "s1",
+    "top": 778,
+    "labelX": 128,
+    "labelW": 1232,
+    "labelH": 42,
+    "bodyX": 128,
+    "bodyW": 1152
+   },
+   {
+    "id": "s2",
+    "top": 1298,
+    "labelX": 128,
+    "labelW": 1232,
+    "labelH": 42,
+    "bodyX": 128,
+    "bodyW": 1152
+   },
+   {
+    "id": "s3",
+    "top": 1785,
+    "labelX": 128,
+    "labelW": 1232,
+    "labelH": 42,
+    "bodyX": 128,
+    "bodyW": 1152
+   },
+   {
+    "id": "ratametsuri",
+    "top": 2168,
+    "labelX": 128,
+    "labelW": 1232,
+    "labelH": 42,
+    "bodyX": 128,
+    "bodyW": 1152
+   },
+   {
+    "id": "sa1",
+    "top": 3089,
+    "labelX": 128,
+    "labelW": 1232,
+    "labelH": 42,
+    "bodyX": 128,
+    "bodyW": 1152
+   },
+   {
+    "id": "sa2",
+    "top": 3609,
+    "labelX": 128,
+    "labelW": 1232,
+    "labelH": 42,
+    "bodyX": 128,
+    "bodyW": 1152
+   },
+   {
+    "id": "controller",
+    "top": 4181,
+    "labelX": 128,
+    "labelW": 1232,
+    "labelH": 42,
+    "bodyX": 128,
+    "bodyW": 1152
+   }
+  ],
+  "clipped": [],
+  "wide": [],
+  "cpl": 70,
+  "splits": [],
+  "axe": {
+   "v": [],
+   "inc": []
+  }
+ },
+ {
+  "name": "en-390-light-font32",
+  "lang": "en",
+  "title": "Privacy – Koivupiilo",
+  "sw": 390,
+  "cw": 390,
+  "bodyFont": "34px",
+  "h1": "88px",
+  "h2": "30px",
+  "h2weight": "600",
+  "hyphens": "manual",
+  "h1hyph": "manual",
+  "h1wrap": "break-word",
+  "proseW": 298,
+  "lineH": "52.7px",
+  "paraGapsRm": [
+   "0px",
+   "32px",
+   "32px"
+  ],
+  "paraGapsS1": [
+   "0px",
+   "32px"
+  ],
+  "rows": [
+   {
+    "id": "s1",
+    "top": 1030,
+    "labelX": 60,
+    "labelW": 298,
+    "labelH": 84,
+    "bodyX": 60,
+    "bodyW": 298
+   },
+   {
+    "id": "s2",
+    "top": 2511,
+    "labelX": 60,
+    "labelW": 298,
+    "labelH": 42,
+    "bodyX": 60,
+    "bodyW": 298
+   },
+   {
+    "id": "s3",
+    "top": 3602,
+    "labelX": 60,
+    "labelW": 298,
+    "labelH": 42,
+    "bodyX": 60,
+    "bodyW": 298
+   },
+   {
+    "id": "ratametsuri",
+    "top": 4376,
+    "labelX": 60,
+    "labelW": 298,
+    "labelH": 42,
+    "bodyX": 60,
+    "bodyW": 298
+   },
+   {
+    "id": "sa1",
+    "top": 6953,
+    "labelX": 60,
+    "labelW": 298,
+    "labelH": 42,
+    "bodyX": 60,
+    "bodyW": 298
+   },
+   {
+    "id": "sa2",
+    "top": 8023,
+    "labelX": 60,
+    "labelW": 298,
+    "labelH": 42,
+    "bodyX": 60,
+    "bodyW": 298
+   },
+   {
+    "id": "controller",
+    "top": 9357,
+    "labelX": 60,
+    "labelW": 298,
+    "labelH": 42,
+    "bodyX": 60,
+    "bodyW": 298
+   }
+  ],
+  "clipped": [],
+  "wide": [],
+  "cpl": 16,
+  "splits": [],
+  "axe": {
+   "v": [],
+   "inc": []
+  }
+ },
+ {
+  "name": "en-390-dark-font32",
+  "lang": "en",
+  "title": "Privacy – Koivupiilo",
+  "sw": 390,
+  "cw": 390,
+  "bodyFont": "34px",
+  "h1": "88px",
+  "h2": "30px",
+  "h2weight": "600",
+  "hyphens": "manual",
+  "h1hyph": "manual",
+  "h1wrap": "break-word",
+  "proseW": 298,
+  "lineH": "52.7px",
+  "paraGapsRm": [
+   "0px",
+   "32px",
+   "32px"
+  ],
+  "paraGapsS1": [
+   "0px",
+   "32px"
+  ],
+  "rows": [
+   {
+    "id": "s1",
+    "top": 1030,
+    "labelX": 60,
+    "labelW": 298,
+    "labelH": 84,
+    "bodyX": 60,
+    "bodyW": 298
+   },
+   {
+    "id": "s2",
+    "top": 2511,
+    "labelX": 60,
+    "labelW": 298,
+    "labelH": 42,
+    "bodyX": 60,
+    "bodyW": 298
+   },
+   {
+    "id": "s3",
+    "top": 3602,
+    "labelX": 60,
+    "labelW": 298,
+    "labelH": 42,
+    "bodyX": 60,
+    "bodyW": 298
+   },
+   {
+    "id": "ratametsuri",
+    "top": 4376,
+    "labelX": 60,
+    "labelW": 298,
+    "labelH": 42,
+    "bodyX": 60,
+    "bodyW": 298
+   },
+   {
+    "id": "sa1",
+    "top": 6953,
+    "labelX": 60,
+    "labelW": 298,
+    "labelH": 42,
+    "bodyX": 60,
+    "bodyW": 298
+   },
+   {
+    "id": "sa2",
+    "top": 8023,
+    "labelX": 60,
+    "labelW": 298,
+    "labelH": 42,
+    "bodyX": 60,
+    "bodyW": 298
+   },
+   {
+    "id": "controller",
+    "top": 9357,
+    "labelX": 60,
+    "labelW": 298,
+    "labelH": 42,
+    "bodyX": 60,
+    "bodyW": 298
+   }
+  ],
+  "clipped": [],
+  "wide": [],
+  "cpl": 16,
+  "splits": [],
+  "axe": {
+   "v": [],
+   "inc": []
+  }
+ },
+ {
+  "name": "en-1440-light-font32",
+  "lang": "en",
+  "title": "Privacy – Koivupiilo",
+  "sw": 1440,
+  "cw": 1440,
+  "bodyFont": "34px",
+  "h1": "139.84px",
+  "h2": "30px",
+  "h2weight": "600",
+  "hyphens": "manual",
+  "h1hyph": "manual",
+  "h1wrap": "break-word",
+  "proseW": 1152,
+  "lineH": "52.7px",
+  "paraGapsRm": [
+   "0px",
+   "32px",
+   "32px"
+  ],
+  "paraGapsS1": [
+   "0px",
+   "32px"
+  ],
+  "rows": [
+   {
+    "id": "s1",
+    "top": 715,
+    "labelX": 128,
+    "labelW": 1232,
+    "labelH": 42,
+    "bodyX": 128,
+    "bodyW": 1152
+   },
+   {
+    "id": "s2",
+    "top": 1288,
+    "labelX": 128,
+    "labelW": 1232,
+    "labelH": 42,
+    "bodyX": 128,
+    "bodyW": 1152
+   },
+   {
+    "id": "s3",
+    "top": 1723,
+    "labelX": 128,
+    "labelW": 1232,
+    "labelH": 42,
+    "bodyX": 128,
+    "bodyW": 1152
+   },
+   {
+    "id": "ratametsuri",
+    "top": 2105,
+    "labelX": 128,
+    "labelW": 1232,
+    "labelH": 42,
+    "bodyX": 128,
+    "bodyW": 1152
+   },
+   {
+    "id": "sa1",
+    "top": 3026,
+    "labelX": 128,
+    "labelW": 1232,
+    "labelH": 42,
+    "bodyX": 128,
+    "bodyW": 1152
+   },
+   {
+    "id": "sa2",
+    "top": 3493,
+    "labelX": 128,
+    "labelW": 1232,
+    "labelH": 42,
+    "bodyX": 128,
+    "bodyW": 1152
+   },
+   {
+    "id": "controller",
+    "top": 4066,
+    "labelX": 128,
+    "labelW": 1232,
+    "labelH": 42,
+    "bodyX": 128,
+    "bodyW": 1152
+   }
+  ],
+  "clipped": [],
+  "wide": [],
+  "cpl": 54,
+  "splits": [],
+  "axe": {
+   "v": [],
+   "inc": []
+  }
+ },
+ {
+  "name": "en-1440-dark-font32",
+  "lang": "en",
+  "title": "Privacy – Koivupiilo",
+  "sw": 1440,
+  "cw": 1440,
+  "bodyFont": "34px",
+  "h1": "139.84px",
+  "h2": "30px",
+  "h2weight": "600",
+  "hyphens": "manual",
+  "h1hyph": "manual",
+  "h1wrap": "break-word",
+  "proseW": 1152,
+  "lineH": "52.7px",
+  "paraGapsRm": [
+   "0px",
+   "32px",
+   "32px"
+  ],
+  "paraGapsS1": [
+   "0px",
+   "32px"
+  ],
+  "rows": [
+   {
+    "id": "s1",
+    "top": 715,
+    "labelX": 128,
+    "labelW": 1232,
+    "labelH": 42,
+    "bodyX": 128,
+    "bodyW": 1152
+   },
+   {
+    "id": "s2",
+    "top": 1288,
+    "labelX": 128,
+    "labelW": 1232,
+    "labelH": 42,
+    "bodyX": 128,
+    "bodyW": 1152
+   },
+   {
+    "id": "s3",
+    "top": 1723,
+    "labelX": 128,
+    "labelW": 1232,
+    "labelH": 42,
+    "bodyX": 128,
+    "bodyW": 1152
+   },
+   {
+    "id": "ratametsuri",
+    "top": 2105,
+    "labelX": 128,
+    "labelW": 1232,
+    "labelH": 42,
+    "bodyX": 128,
+    "bodyW": 1152
+   },
+   {
+    "id": "sa1",
+    "top": 3026,
+    "labelX": 128,
+    "labelW": 1232,
+    "labelH": 42,
+    "bodyX": 128,
+    "bodyW": 1152
+   },
+   {
+    "id": "sa2",
+    "top": 3493,
+    "labelX": 128,
+    "labelW": 1232,
+    "labelH": 42,
+    "bodyX": 128,
+    "bodyW": 1152
+   },
+   {
+    "id": "controller",
+    "top": 4066,
+    "labelX": 128,
+    "labelW": 1232,
+    "labelH": 42,
+    "bodyX": 128,
+    "bodyW": 1152
+   }
+  ],
+  "clipped": [],
+  "wide": [],
+  "cpl": 54,
+  "splits": [],
+  "axe": {
+   "v": [],
+   "inc": []
+  }
+ }
+]
