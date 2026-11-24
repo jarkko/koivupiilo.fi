@@ -1,0 +1,19 @@
+# Built HTML, BRIDGETOWN_ENV=production rake deploy, compared with diff(1)
+# head 3aec710 vs f707560 (last reviewed head), privacy pages:
+## tietosuoja/index.html
+(identical)
+## en/privacy/index.html
+(identical)
+# whole output/, f707560 vs 3aec710, differing paths outside ratametsuri/:
+(none)
+# head 3aec710 vs origin/main 88ecc37 (what this PR adds), every differing file in output/:
+Files main/output/en/privacy/index.html and head/output/en/privacy/index.html differ
+Files main/output/en/ratametsuri/index.html and head/output/en/ratametsuri/index.html differ
+Files main/output/ratametsuri/index.html and head/output/ratametsuri/index.html differ
+Files main/output/tietosuoja/index.html and head/output/tietosuoja/index.html differ
+## ratametsuri/index.html vs main
+29a30
+> <script defer src="https://umami.monitoring.koivupiilo.fi/script.js" data-website-id="eb3b8ad3-01d7-4084-a64e-1af9d3a64eb2" data-domains="koivupiilo.fi,join.koivupiilo.fi"></script>
+## en/ratametsuri/index.html vs main
+29a30
+> <script defer src="https://umami.monitoring.koivupiilo.fi/script.js" data-website-id="eb3b8ad3-01d7-4084-a64e-1af9d3a64eb2" data-domains="koivupiilo.fi,join.koivupiilo.fi"></script>

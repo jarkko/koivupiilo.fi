@@ -1,0 +1,68 @@
+[
+ {
+  "strip": "counter-late",
+  "lang": "fi",
+  "scheme": "dark",
+  "tag": "before",
+  "ms": 134,
+  "counterRan": false
+ },
+ {
+  "strip": "counter-late",
+  "lang": "fi",
+  "scheme": "dark",
+  "tag": "300ms",
+  "ms": 324,
+  "counterRan": false
+ },
+ {
+  "strip": "counter-late",
+  "lang": "fi",
+  "scheme": "dark",
+  "tag": "after",
+  "ms": 3419,
+  "counterRan": true
+ },
+ {
+  "strip": "counter-late",
+  "lang": "en",
+  "scheme": "light",
+  "tag": "before",
+  "ms": 119,
+  "counterRan": false
+ },
+ {
+  "strip": "counter-late",
+  "lang": "en",
+  "scheme": "light",
+  "tag": "300ms",
+  "ms": 325,
+  "counterRan": false
+ },
+ {
+  "strip": "counter-late",
+  "lang": "en",
+  "scheme": "light",
+  "tag": "after",
+  "ms": 3433,
+  "counterRan": true
+ },
+ {
+  "strip": "lang",
+  "from": "/ratametsuri/",
+  "label": "In English",
+  "landed": "/en/ratametsuri/",
+  "expected": "/en/ratametsuri/",
+  "htmlLang": "en",
+  "pageErrors": []
+ },
+ {
+  "strip": "lang",
+  "from": "/en/ratametsuri/",
+  "label": "Suomeksi",
+  "landed": "/ratametsuri/",
+  "expected": "/ratametsuri/",
+  "htmlLang": "fi",
+  "pageErrors": []
+ }
+]
