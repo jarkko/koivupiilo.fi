@@ -302,6 +302,11 @@ main {
   margin-block-start: var(--sp-4);
 }
 
+/* A value that must not break across lines, such as a business ID at its hyphen. */
+.nowrap {
+  white-space: nowrap;
+}
+
 /* Lists in rendered Markdown (the product privacy sections); the reset removes bullets. */
 .prose ul {
   list-style: disc;

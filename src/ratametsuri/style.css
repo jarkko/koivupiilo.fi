@@ -48,7 +48,7 @@ ol,ul{padding:0;list-style:none}
 .course > *:not(.legs){position:relative}
 
 .sym{position:absolute;display:block;overflow:visible;--sz:var(--d);width:var(--sz);height:var(--sz);
-  left:calc(var(--g) * (var(--fx) - 1) - var(--sz) / 2);top:calc(.5lh - var(--sz) / 2);
+  left:calc(var(--g) * ((var(--fx) - .5) * var(--amp, 1) - .5) - var(--sz) / 2);top:calc(.5lh - var(--sz) / 2);
   fill:var(--paper);stroke:var(--purple);stroke-width:2.2;stroke-linejoin:round}
 /* A control: a circle with its number as real text, so it scales with the reader's text size. */
 .sym.control{display:grid;place-items:center;border:calc(var(--sz) * .07) solid var(--purple);border-radius:50%;background:var(--paper);color:var(--purple);font:600 .9375rem/1 var(--text);font-variant-numeric:tabular-nums lining-nums}
@@ -187,9 +187,10 @@ button[aria-disabled=true]{cursor:progress}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important}}
 
 /* Large default text on a phone (a viewport under 19.5em, which at normal text is under 312 px):
-   a tighter gutter and edge so the name and the request still fit, and a button label that may wrap. */
+   a tighter gutter and edge so the name and the request still fit, and a button label that may wrap.
+   The controls also swing half as far from the line (--amp), so a circle keeps clear of its heading. */
 @media (max-width:19.5em){
-  :root{--g:calc(var(--d) * 1.4);--pad:.75rem}
+  :root{--g:calc(var(--d) * 1.4);--pad:.75rem;--amp:.5}
   /* At the very largest text (32 px default on a 320 px screen) even "Ratamestari-" is wider than
      the column: the type follows the screen width there, and a word breaks rather than overflows. */
   .headline{font-size:min(1.625rem,11.5vw);line-height:1.1;overflow-wrap:anywhere}

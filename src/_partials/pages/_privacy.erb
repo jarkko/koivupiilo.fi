@@ -46,7 +46,7 @@
   <h2 class="row-label" id="controller"><%= page.controller_heading %></h2>
   <div class="row-body">
     <div class="prose">
-      <p><%= c.legal_name %>, <%= t.facts.business_id %> <%= c.business_id %>, <%= city %><br><%= mail.html_safe %></p>
+      <p><%= c.legal_name %>, <%= t.facts.business_id %> <span class="nowrap"><%= c.business_id %></span>, <%= city %><br><%= mail.html_safe %></p>
       <p class="note"><%= page.updated % { date: date } %></p>
     </div>
   </div>
