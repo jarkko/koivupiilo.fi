@@ -1,0 +1,354 @@
+[
+  {
+    "path": "docs/design/baselines/tuotteet/phone-light-fi-FI.png",
+    "sha256": "c3de7beaf6a50cbac77e50fdedf3a4d11ba14f5db4ccaed0125500e140c3e76e",
+    "sheet": "docs/design/reviews/evidence/53cb5690/tuotteet-baselines.webp",
+    "dimensions": [
+      390,
+      1794
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/tuotteet/phone-dark-fi-FI.png",
+    "sha256": "63dc7fad9e3c02f4af97a1899222ca5228c6640d425485fda947695997e1a4bd",
+    "sheet": "docs/design/reviews/evidence/53cb5690/tuotteet-baselines.webp",
+    "dimensions": [
+      390,
+      1794
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/tuotteet/phone-light-en-GB.png",
+    "sha256": "c3de7beaf6a50cbac77e50fdedf3a4d11ba14f5db4ccaed0125500e140c3e76e",
+    "sheet": "docs/design/reviews/evidence/53cb5690/tuotteet-baselines.webp",
+    "dimensions": [
+      390,
+      1794
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/tuotteet/phone-dark-en-GB.png",
+    "sha256": "63dc7fad9e3c02f4af97a1899222ca5228c6640d425485fda947695997e1a4bd",
+    "sheet": "docs/design/reviews/evidence/53cb5690/tuotteet-baselines.webp",
+    "dimensions": [
+      390,
+      1794
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/tuotteet/desktop-light-fi-FI.png",
+    "sha256": "07a42d0ab788dd6804ded4b4dfbf7e4d4a43b87d30058975c6153b9bebb77a98",
+    "sheet": "docs/design/reviews/evidence/53cb5690/tuotteet-baselines.webp",
+    "dimensions": [
+      1440,
+      1554
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/tuotteet/desktop-dark-fi-FI.png",
+    "sha256": "3a45e47286fb2ff8eb5d7cbd701075328450122e20b81d19762c1466edadb9db",
+    "sheet": "docs/design/reviews/evidence/53cb5690/tuotteet-baselines.webp",
+    "dimensions": [
+      1440,
+      1554
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/tuotteet/desktop-light-en-GB.png",
+    "sha256": "07a42d0ab788dd6804ded4b4dfbf7e4d4a43b87d30058975c6153b9bebb77a98",
+    "sheet": "docs/design/reviews/evidence/53cb5690/tuotteet-baselines.webp",
+    "dimensions": [
+      1440,
+      1554
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/tuotteet/desktop-dark-en-GB.png",
+    "sha256": "3a45e47286fb2ff8eb5d7cbd701075328450122e20b81d19762c1466edadb9db",
+    "sheet": "docs/design/reviews/evidence/53cb5690/tuotteet-baselines.webp",
+    "dimensions": [
+      1440,
+      1554
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/en/products/phone-light-fi-FI.png",
+    "sha256": "85a2cc73a3ac88035394bb9d3d829588cd7262d6b6e2e32a19ae75523e6f8d52",
+    "sheet": "docs/design/reviews/evidence/53cb5690/en-products-baselines.webp",
+    "dimensions": [
+      390,
+      1794
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/en/products/phone-dark-fi-FI.png",
+    "sha256": "c251030c881da3527305fb43e2d55e5b89370a89515ce26a2eaeed264362e7a3",
+    "sheet": "docs/design/reviews/evidence/53cb5690/en-products-baselines.webp",
+    "dimensions": [
+      390,
+      1794
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/en/products/phone-light-en-GB.png",
+    "sha256": "85a2cc73a3ac88035394bb9d3d829588cd7262d6b6e2e32a19ae75523e6f8d52",
+    "sheet": "docs/design/reviews/evidence/53cb5690/en-products-baselines.webp",
+    "dimensions": [
+      390,
+      1794
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/en/products/phone-dark-en-GB.png",
+    "sha256": "c251030c881da3527305fb43e2d55e5b89370a89515ce26a2eaeed264362e7a3",
+    "sheet": "docs/design/reviews/evidence/53cb5690/en-products-baselines.webp",
+    "dimensions": [
+      390,
+      1794
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/en/products/desktop-light-fi-FI.png",
+    "sha256": "b1a1d882128f6b8db46be272dc065a9dcc92dc8e349d4b269b92b4ec6cad4dfb",
+    "sheet": "docs/design/reviews/evidence/53cb5690/en-products-baselines.webp",
+    "dimensions": [
+      1440,
+      1592
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/en/products/desktop-dark-fi-FI.png",
+    "sha256": "4298fef2f3094b1301b40497ec9c009e390cd2e84f95415d2fcaf40f9136c98d",
+    "sheet": "docs/design/reviews/evidence/53cb5690/en-products-baselines.webp",
+    "dimensions": [
+      1440,
+      1592
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/en/products/desktop-light-en-GB.png",
+    "sha256": "b1a1d882128f6b8db46be272dc065a9dcc92dc8e349d4b269b92b4ec6cad4dfb",
+    "sheet": "docs/design/reviews/evidence/53cb5690/en-products-baselines.webp",
+    "dimensions": [
+      1440,
+      1592
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/en/products/desktop-dark-en-GB.png",
+    "sha256": "4298fef2f3094b1301b40497ec9c009e390cd2e84f95415d2fcaf40f9136c98d",
+    "sheet": "docs/design/reviews/evidence/53cb5690/en-products-baselines.webp",
+    "dimensions": [
+      1440,
+      1592
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/tietosuoja/phone-light-fi-FI.png",
+    "sha256": "d5c79c7fc41df554591af198743611e84c27456910f0f5eb70667300c6269dec",
+    "sheet": "docs/design/reviews/evidence/53cb5690/tietosuoja-baselines.webp",
+    "dimensions": [
+      390,
+      4312
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/tietosuoja/phone-dark-fi-FI.png",
+    "sha256": "c2aa589b4990132973a1864ea0685dd42515f35382cb3130a0d6993a99b9f7fd",
+    "sheet": "docs/design/reviews/evidence/53cb5690/tietosuoja-baselines.webp",
+    "dimensions": [
+      390,
+      4312
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/tietosuoja/phone-light-en-GB.png",
+    "sha256": "d5c79c7fc41df554591af198743611e84c27456910f0f5eb70667300c6269dec",
+    "sheet": "docs/design/reviews/evidence/53cb5690/tietosuoja-baselines.webp",
+    "dimensions": [
+      390,
+      4312
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/tietosuoja/phone-dark-en-GB.png",
+    "sha256": "c2aa589b4990132973a1864ea0685dd42515f35382cb3130a0d6993a99b9f7fd",
+    "sheet": "docs/design/reviews/evidence/53cb5690/tietosuoja-baselines.webp",
+    "dimensions": [
+      390,
+      4312
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/tietosuoja/desktop-light-fi-FI.png",
+    "sha256": "492a4237f35e6c12255c8915a012e4e5a712118dd66eab8d4f9c7e5d65b954e7",
+    "sheet": "docs/design/reviews/evidence/53cb5690/tietosuoja-baselines.webp",
+    "dimensions": [
+      1440,
+      3851
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/tietosuoja/desktop-dark-fi-FI.png",
+    "sha256": "dea40944e511bd319396ce68a705714dfc2a3274ccdf2fe0fa4f18f2c80ed03d",
+    "sheet": "docs/design/reviews/evidence/53cb5690/tietosuoja-baselines.webp",
+    "dimensions": [
+      1440,
+      3851
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/tietosuoja/desktop-light-en-GB.png",
+    "sha256": "492a4237f35e6c12255c8915a012e4e5a712118dd66eab8d4f9c7e5d65b954e7",
+    "sheet": "docs/design/reviews/evidence/53cb5690/tietosuoja-baselines.webp",
+    "dimensions": [
+      1440,
+      3851
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/tietosuoja/desktop-dark-en-GB.png",
+    "sha256": "dea40944e511bd319396ce68a705714dfc2a3274ccdf2fe0fa4f18f2c80ed03d",
+    "sheet": "docs/design/reviews/evidence/53cb5690/tietosuoja-baselines.webp",
+    "dimensions": [
+      1440,
+      3851
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/en/privacy/phone-light-fi-FI.png",
+    "sha256": "e5a45bb383deeba14ef6db72f30211a41eedb4f097362c7d1633b1b451d60563",
+    "sheet": "docs/design/reviews/evidence/53cb5690/en-privacy-baselines.webp",
+    "dimensions": [
+      390,
+      4049
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/en/privacy/phone-dark-fi-FI.png",
+    "sha256": "578cf3b8a0e2885667f5fca816cfe5fde374c58c15a769d21b9caac9cccb2142",
+    "sheet": "docs/design/reviews/evidence/53cb5690/en-privacy-baselines.webp",
+    "dimensions": [
+      390,
+      4049
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/en/privacy/phone-light-en-GB.png",
+    "sha256": "e5a45bb383deeba14ef6db72f30211a41eedb4f097362c7d1633b1b451d60563",
+    "sheet": "docs/design/reviews/evidence/53cb5690/en-privacy-baselines.webp",
+    "dimensions": [
+      390,
+      4049
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/en/privacy/phone-dark-en-GB.png",
+    "sha256": "578cf3b8a0e2885667f5fca816cfe5fde374c58c15a769d21b9caac9cccb2142",
+    "sheet": "docs/design/reviews/evidence/53cb5690/en-privacy-baselines.webp",
+    "dimensions": [
+      390,
+      4049
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/en/privacy/desktop-light-fi-FI.png",
+    "sha256": "f216bf3c19c38c777c6b542e10528c5a4478dd224bd03de6eea451bc1a9209ae",
+    "sheet": "docs/design/reviews/evidence/53cb5690/en-privacy-baselines.webp",
+    "dimensions": [
+      1440,
+      3666
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/en/privacy/desktop-dark-fi-FI.png",
+    "sha256": "c6b41877cecb101360702a8560ec938351be85ff32d676139cf576d660548878",
+    "sheet": "docs/design/reviews/evidence/53cb5690/en-privacy-baselines.webp",
+    "dimensions": [
+      1440,
+      3666
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/en/privacy/desktop-light-en-GB.png",
+    "sha256": "f216bf3c19c38c777c6b542e10528c5a4478dd224bd03de6eea451bc1a9209ae",
+    "sheet": "docs/design/reviews/evidence/53cb5690/en-privacy-baselines.webp",
+    "dimensions": [
+      1440,
+      3666
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  },
+  {
+    "path": "docs/design/baselines/en/privacy/desktop-dark-en-GB.png",
+    "sha256": "c6b41877cecb101360702a8560ec938351be85ff32d676139cf576d660548878",
+    "sheet": "docs/design/reviews/evidence/53cb5690/en-privacy-baselines.webp",
+    "dimensions": [
+      1440,
+      3666
+    ],
+    "decision": "approve",
+    "reason": "Inspected this named complete baseline on its sheet; intended linked Ratametsuri entry / merged policy section and controller layout; no unexplained layout change."
+  }
+]

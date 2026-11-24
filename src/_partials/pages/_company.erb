@@ -27,10 +27,7 @@
   <h2 class="row-label" id="founder"><%= page.founder_heading %></h2>
   <div class="row-body">
     <p class="prose"><%= page.founder_text %></p>
-    <blockquote class="voice">
-      <p><%= site.data.jarkko.founder_note[lang] %></p>
-      <footer><%= c.founder %></footer>
-    </blockquote>
+    <p class="prose"><%= site.data.jarkko.founder_note[lang] %></p>
     <ul class="plain-list">
       <% page.founder_cv.each do |item| %>
       <li><%= item.text %><% if item.url %><a href="<%= item.url %>"><%= item.link %><%= render "ext" %></a><% end %></li>

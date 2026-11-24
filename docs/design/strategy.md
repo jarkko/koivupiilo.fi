@@ -80,7 +80,7 @@ Finnish at the root, English under `/en/` (D3); same page, other language (S-2).
 | Page | FI | EN | Job | Contents |
 |---|---|---|---|---|
 | Front | `/` | `/en/` | Pass the check; show the work; route on | The one sentence · the work (4 items) · Studio and Valmennus · founder line · the grove, quietly · facts footer |
-| Work | `/tyot/` | `/en/work/` | "What does it make?", complete | Every public item (D8 list + the court map), one line, status, link out; no item pages |
+| Work | `/tuotteet/` | `/en/products/` | "What does it make?", complete | Every public item (D8 list + the court map), one line, status, link out; no item pages |
 | Studio | `/studio/` | `/en/studio/` | Software work: who it suits, how it starts | What Koivupiilo takes on, how it works, stack, current capacity, email with a subject |
 | Valmennus | `/valmennus/` | `/en/coaching/` | Coaching: what, for whom, how to start | Volleyball coaching and coach education · team-lead coaching · credentials (award, roles, rules translation) · email |
 | Company | `/yritys/` | `/en/company/` | The full check in one place | The grove story · founder (photo, bio, link to jlaine.net) · company facts (name, business ID, address, contact) |

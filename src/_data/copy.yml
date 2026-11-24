@@ -1,6 +1,6 @@
 # Site copy, Finnish first (written natively), English derived from it.
-# Source drafts: docs/design/content/fi/*.md. Voice: D16 (the company in the
-# third person by name; "minä" only in the founder note and on Valmennus; never "me").
+# Source drafts: docs/design/content/fi/*.md. Voice: D23 (the company speaks as "me";
+# Jarkko is named in the third person; no "minä" lines).
 #
 # Not here on purpose:
 # - Jarkko's own lines (strategy §3, J) are in jarkko.yml.
@@ -13,10 +13,10 @@ fi:
     nav_label: Päävalikko
     home_label: Koivupiilo, etusivu
     other_language: English
-    external: toinen sivusto
+    external: ulkoinen linkki
     footer_label: Yritystiedot
   nav:
-    work: Työt
+    work: Tuotteet
     studio: Studio
     coaching: Valmennus
     company: Yritys
@@ -34,92 +34,90 @@ fi:
     country: ""
   mail:
     studio_subject: Ohjelmistoprojekti
-    studio_cta: Kirjoita Koivupiilolle
+    studio_cta: Lähetä sähköpostia
     coaching_subject: Valmennus
     coaching_cta: Kirjoita Jarkolle
   pages:
     front:
-      title: Koivupiilo Oy – ohjelmistoyritys Kangasalta
-      description: Koivupiilo Oy on ohjelmistoyritys Kangasalta. Omat tuotteet, konsultointi ja lentopallovalmennus. Y-tunnus 3458206-1.
-      work_heading: Työt
-      work_all: Kaikki työt
+      title: Koivupiilo Oy – kangasalalainen ohjelmistoyritys
+      description: Koivupiilo Oy on kangasalalainen ohjelmistoyritys. Teemme omia tuotteita ja konsulttitöitä, ja perustaja Jarkko Laine valmentaa myös lentopalloa. Y-tunnus 3458206-1.
+      work_heading: Tuotteet
+      work_all: Kaikki tuotteet
       studio_heading: Studio
-      studio_text: Koivupiilo tekee omia ohjelmistojaan ja ohjelmistokonsultointia.
-      studio_link: Lue lisää Studiosta
+      studio_text: Kehitämme omia tuotteitamme ja teemme konsulttitöitä.
+      studio_link: Studiosta tarkemmin
       coaching_heading: Valmennus
-      coaching_text: Jarkko Laine valmentaa lentopalloa ja beach volleyta, kouluttaa valmentajia ja auttaa uusia esihenkilöitä alkuun.
-      coaching_link: Lue lisää valmennuksesta
+      coaching_text: Jarkko Laine valmentaa lentopalloa ja beach volleyta sekä kouluttaa valmentajia.
+      coaching_link: Valmennuksesta tarkemmin
       company_heading: Yritys
-      company_text: Koivupiilon perusti vuonna 2024 Jarkko Laine, ohjelmistokehittäjä ja lentopallovalmentaja. Nimi tulee koivikosta Kangasalla.
-      company_link: Lue lisää yrityksestä
+      company_text: Koivupiilon perusti ohjelmistokehittäjä ja lentopallovalmentaja Jarkko Laine.
+      company_link: Yrityksestä tarkemmin
     work:
-      title: Työt – Koivupiilo
-      description: "Koivupiilon julkaisemat ja tekeillä olevat työt: Kvitti, Beach volley -kartta, Magistician ja muut. Jokaisesta kerrotaan, missä vaiheessa se on."
-      heading: Työt
-      lede: Koivupiilon julkaisemat ja tekeillä olevat työt.
-      list_label: Kaikki työt
-      checked: Päivämäärä kertoo, milloin tila on viimeksi tarkistettu.
+      title: Tuotteet – Koivupiilo
+      description: Koivupiilon tuotteet, kuten Kvitti, Beach volley -kartta ja Magistician. Osa on jo käytössä, osa vasta tekeillä.
+      heading: Tuotteet
+      lede: Osa on jo käytössä, osa vasta tekeillä.
+      list_label: Kaikki tuotteet
+      checked: tilanne
     studio:
       title: Studio – Koivupiilo
-      description: Koivupiilo tekee omia ohjelmistojaan ja ohjelmistokonsultointia. Sivulla kerrotaan tekniikka, tilanne ja se, miten projekti aloitetaan.
+      description: Kehitämme omia tuotteitamme ja teemme konsulttitöitä. Perustajamme Jarkko Laine on tehnyt webiä 1990-luvulta asti ja kirjoittanut Ruby on Railsista kirjoja.
       heading: Studio
-      lede: Koivupiilo tekee omia ohjelmistojaan ja ohjelmistokonsultointia.
+      lede: Teemme pääosin omia tuotteitamme, mutta otamme myös konsulttitöitä.
       products_heading: Omat tuotteet
-      products_text: Koivupiilo tekee ensisijaisesti omia tuotteitaan. Niitä ovat esimerkiksi Kvitti ja Magistician.
-      products_link: Kaikki työt
-      stack_heading: Tekniikka
-      stack_text: "Omissa tuotteissaan Koivupiilo käyttää näitä tekniikoita:"
-      stack:
-        - Elixir ja Phoenix
-        - Swift ja SwiftUI
-        - React Native
-        - Python
-      capacity_heading: Tilanne nyt
-      start_heading: Näin aloitetaan
-      start_text: Kirjoita lyhyesti, mitä olet rakentamassa, missä vaiheessa se on ja mihin mennessä tarvitset apua.
+      products_text: Työn alla ovat muun muassa Kvitti ja Magistician.
+      products_link: Kaikki tuotteet
+      stack_heading: Tausta
+      stack_text: Perustajamme Jarkko Laine on tehnyt webiä 1990-luvulta asti. Hän on kirjoittanut Ruby on Railsista kirjoja, muun muassa Beginning Ruby on Rails E-Commercen (Apress, 2006). Lisäksi hän on ollut mukana Wildfiressa, jonka Google osti, ja Hubtranissa, jonka TriumphPay osti. Nykyiset tuotteemme on tehty pääosin Elixirillä, Phoenixilla, Swiftillä, React Nativella ja Pythonilla.
+      stack: []
+      capacity_heading: Aikataulu
+      start_heading: Ota yhteyttä
+      start_text: Kerro lyhyesti, mitä olet tekemässä, missä vaiheessa työ on ja milloin tarvitset apua.
     coaching:
       title: Valmennus – Koivupiilo
-      description: Lentopallon ja beach volleyn valmennusta, valmentajakoulutusta ja valmennusta uusille esihenkilöille. Valmentajana Jarkko Laine.
+      description: Jarkko Laine valmentaa lentopalloa ja beach volleyta, kouluttaa seurojen valmentajia ja tukee vasta esihenkilöksi siirtyneitä.
       heading: Valmennus
-      byline: Jarkko Laine, Koivupiilon perustaja
-      offers_heading: Mitä valmennan
+      offers_heading: Palvelut
       offers:
         - name: Lentopallo ja beach volley
-          line: Valmennusta seuroille, joukkueille ja pelaajille.
+          line: Seuroille, joukkueille ja pelaajille.
         - name: Valmentajakoulutus
-          line: Koulutusta seurojen valmentajille.
-        - name: Uusien esihenkilöiden valmennus
-          line: Valmennusta niille, jotka ovat juuri aloittaneet tiimin vetäjänä.
-      offers_note: Sisällöstä ja laajuudesta sovitaan joka kerta erikseen.
+          line: Seurojen valmentajille.
+        - name: Esihenkilövalmennus
+          line: Vasta aloittaneille tiiminvetäjille.
       background_heading: Taustaa
       background:
+        - text: SM-mitaleja beach volley -valmentajana
         - text: Lentopalloliiton Kauden seuratoimija 2025
         - text: Pyynikin beach volley -turnausten järjestäjä
-        - link: Beach volleyn sääntöjen 2025–2028 suomennos
+        - link: Beach volley -sääntöjen suomennos 2025–2028
           url: https://jarkko.github.io/beach-volleyball-rules-fi/docs/
           after: " (kesken)"
-      software_heading: Ohjelmistot
-      software_text: Koivupiilo tekee lentopalloon myös ohjelmistoja. Niitä ovat esimerkiksi Magistician ja Beach volley -kartta.
-      software_link: Katso työt
-      start_heading: Näin aloitetaan
-      start_text: Kirjoita, mikä seura tai joukkue on kyseessä, mitä haluatte kehittää ja milloin.
+      software_heading: Tuotteet
+      software_text: Osa tuotteistamme on tehty lentopalloon, esimerkiksi Magistician ja Beach volley -kartta.
+      software_link: Kaikki tuotteet
+      start_heading: Ota yhteyttä
+      start_text: Kerro, ketä valmennus koskee, mitä halutaan kehittää ja mihin mennessä.
     company:
       title: Yritys – Koivupiilo
-      description: Koivupiilo Oy, Y-tunnus 3458206-1, Kangasala. Yritystiedot, perustaja ja se, mistä yrityksen nimi tulee.
+      description: Koivupiilo Oy (Y-tunnus 3458206-1) on kangasalalainen ohjelmistoyritys, jonka Jarkko Laine perusti vuonna 2024.
       heading: Yritys
       facts_heading: Yritystiedot
       founder_heading: Perustaja
       founder_text: Koivupiilon perusti Jarkko Laine vuonna 2024.
       founder_cv:
-        - text: Ohjelmistokehittäjä, Selma Financen lead developer vuodesta 2018
+        - text: Tehnyt webiä 1990-luvulta asti, GitHubin käyttäjä numero 439
+        - text: Kirjoittanut Ruby on Railsista kirjoja, muun muassa Beginning Ruby on Rails E-Commercen (Apress, 2006)
+        - text: Mukana Wildfiressa, jonka Google osti, ja Hubtranissa, jonka TriumphPay osti
+        - text: Selma Financen lead developer vuodesta 2018
+        - text: Puhunut Rails-, Elixir- ja React-konferensseissa
         - text: Lentopalloliiton Kauden seuratoimija 2025
         - text: "Kirjoittaa valmentamisesta ja kestävyysurheilusta: "
           link: jlaine.net
           url: https://jlaine.net
-      name_heading: Nimi tulee koivikosta
+      name_heading: Nimi
       name_text:
-        - Koivupiilo on koivikko Kangasalla, ja yritys sai nimensä siitä.
-        - Sivujen reunassa kulkeva tuohi on jäljennetty valokuvasta, joka on otettu yhdestä koivikon koivusta.
+        - Koivupiilo on koivikko Kangasalla.
     privacy:
       title: Tietosuoja – Koivupiilo
       description: Mitä tietoja Koivupiilo käsittelee sivustolla, sähköpostissa ja Ratametsurin betahaussa, kuinka kauan niitä säilytetään ja mitä oikeuksia sinulla on.
@@ -150,8 +148,8 @@ fi:
     notfound:
       title: Sivua ei löytynyt – Koivupiilo
       description: Tätä sivua ei ole Koivupiilon sivustolla.
-      heading: Eksyit koivikkoon.
-      text: Tätä sivua ei ole. Etusivulta pääsee takaisin polulle.
+      heading: Sivua ei löytynyt
+      text: Tarkista osoite.
       link: Etusivulle
 
 en:
@@ -160,10 +158,10 @@ en:
     nav_label: Main
     home_label: Koivupiilo, front page
     other_language: Suomeksi
-    external: another site
+    external: external link
     footer_label: Company details
   nav:
-    work: Work
+    work: Products
     studio: Studio
     coaching: Coaching
     company: Company
@@ -181,92 +179,90 @@ en:
     country: Finland
   mail:
     studio_subject: Software project
-    studio_cta: Write to Koivupiilo
+    studio_cta: Send us an email
     coaching_subject: Coaching
     coaching_cta: Write to Jarkko
   pages:
     front:
-      title: Koivupiilo Oy – a software company from Kangasala
-      description: Koivupiilo Oy is a software company from Kangasala, Finland. Its own products, consulting and volleyball coaching. Business ID 3458206-1.
-      work_heading: Work
-      work_all: All work
+      title: Koivupiilo Oy – a software company in Kangasala, Finland
+      description: Koivupiilo Oy is a software company in Kangasala, Finland. We build our own products and do consulting work, and our founder Jarkko Laine also coaches volleyball. Business ID 3458206-1.
+      work_heading: Products
+      work_all: All products
       studio_heading: Studio
-      studio_text: Koivupiilo builds its own software and does software consulting.
-      studio_link: More about Studio
+      studio_text: We build our own products and take on consulting work.
+      studio_link: About the studio
       coaching_heading: Coaching
-      coaching_text: Jarkko Laine coaches volleyball and beach volleyball, trains coaches and helps new team leads get started.
-      coaching_link: More about coaching
+      coaching_text: Jarkko Laine coaches volleyball and beach volleyball and trains coaches.
+      coaching_link: About coaching
       company_heading: Company
-      company_text: Jarkko Laine, a software developer and volleyball coach, founded Koivupiilo in 2024. The name comes from a birch grove in Kangasala.
-      company_link: More about the company
+      company_text: Koivupiilo was founded by Jarkko Laine, a software developer and volleyball coach.
+      company_link: About the company
     work:
-      title: Work – Koivupiilo
-      description: "Work Koivupiilo has released or is building: Kvitti, the beach volleyball court map, Magistician and more. Each item states its stage."
-      heading: Work
-      lede: Work Koivupiilo has released or is building.
-      list_label: All work
-      checked: The date shows when each status was last checked.
+      title: Products – Koivupiilo
+      description: Koivupiilo's products, such as Kvitti, the beach volleyball court map and Magistician. Some are already in use, some still in development.
+      heading: Products
+      lede: Some are already in use, some still in development.
+      list_label: All products
+      checked: as of
     studio:
       title: Studio – Koivupiilo
-      description: Koivupiilo builds its own software and does software consulting. This page covers the stack, the current situation and how a project starts.
+      description: We build our own products and take on consulting work. Our founder Jarkko Laine has built for the web since the 1990s and has written books on Ruby on Rails.
       heading: Studio
-      lede: Koivupiilo builds its own software and does software consulting.
+      lede: Most of our time goes into our own products, but we also take on consulting work.
       products_heading: Own products
-      products_text: Koivupiilo builds its own products first. Kvitti and Magistician are two of them.
-      products_link: All work
-      stack_heading: Stack
-      stack_text: "Koivupiilo builds its own products with:"
-      stack:
-        - Elixir and Phoenix
-        - Swift and SwiftUI
-        - React Native
-        - Python
-      capacity_heading: Right now
-      start_heading: How to start
-      start_text: Write a few lines about what you are building, how far along it is and when you need help by.
+      products_text: Kvitti and Magistician are among the products we are working on.
+      products_link: All products
+      stack_heading: Background
+      stack_text: Our founder Jarkko Laine has built for the web since the 1990s. He has written books on Ruby on Rails, among them Beginning Ruby on Rails E-Commerce (Apress, 2006). He also worked at Wildfire, later acquired by Google, and Hubtran, later acquired by TriumphPay. Our current products are built mainly with Elixir, Phoenix, Swift, React Native and Python.
+      stack: []
+      capacity_heading: Schedule
+      start_heading: Get in touch
+      start_text: Tell us briefly what you are working on, how far along it is and when you need help.
     coaching:
       title: Coaching – Koivupiilo
-      description: Volleyball and beach volleyball coaching, coach education and coaching for new team leads. Your coach is Jarkko Laine.
+      description: Jarkko Laine coaches volleyball and beach volleyball, trains club coaches and supports people who have just become team leads.
       heading: Coaching
-      byline: Jarkko Laine, founder of Koivupiilo
-      offers_heading: What I coach
+      offers_heading: Services
       offers:
         - name: Volleyball and beach volleyball
-          line: Coaching for clubs, teams and players.
+          line: For clubs, teams and players.
         - name: Coach education
-          line: Training for club coaches.
+          line: For club coaches.
         - name: Coaching for new team leads
           line: For people who have just started leading a team.
-      offers_note: I agree the content and scope with each club, team or person separately.
       background_heading: Background
       background:
+        - text: Finnish Championship medals as a beach volleyball coach
         - text: Club official of the season 2025 (Kauden seuratoimija), Finnish Volleyball Association
         - text: Organiser of the Pyynikki beach volleyball tournaments
         - link: Finnish translation of the beach volleyball rules for 2025–2028
           url: https://jarkko.github.io/beach-volleyball-rules-fi/docs/
           after: " (in progress)"
-      software_heading: Software
-      software_text: Koivupiilo also builds software for volleyball. Magistician and the beach volleyball court map are two examples.
-      software_link: See the work
-      start_heading: How to start
-      start_text: Tell me which club or team this is about, what you want to develop and when.
+      software_heading: Products
+      software_text: Some of our products are made for volleyball, such as Magistician and the beach volleyball court map.
+      software_link: All products
+      start_heading: Get in touch
+      start_text: Tell us who the coaching is for, what you want to develop and by when.
     company:
       title: Company – Koivupiilo
-      description: Koivupiilo Oy, Business ID 3458206-1, Kangasala, Finland. Company details, the founder and where the name comes from.
+      description: Koivupiilo Oy is a software company in Kangasala, Finland, founded by Jarkko Laine in 2024. Business ID 3458206-1.
       heading: Company
       facts_heading: Company details
       founder_heading: Founder
       founder_text: Jarkko Laine founded Koivupiilo in 2024.
       founder_cv:
-        - text: Software developer, lead developer at Selma Finance since 2018
+        - text: Building for the web since the 1990s, GitHub user number 439
+        - text: Author of books on Ruby on Rails, among them Beginning Ruby on Rails E-Commerce (Apress, 2006)
+        - text: Worked at Wildfire, acquired by Google, and Hubtran, acquired by TriumphPay
+        - text: Lead developer at Selma Finance since 2018
+        - text: Speaker at Rails, Elixir and React conferences
         - text: Club official of the season 2025 (Kauden seuratoimija), Finnish Volleyball Association
         - text: "Writes about coaching and endurance sports at "
           link: jlaine.net
           url: https://jlaine.net
-      name_heading: The name comes from a birch grove
+      name_heading: Name
       name_text:
-        - Koivupiilo is a birch grove in Kangasala, and the company is named after it.
-        - The bark along the edge of these pages is traced from a photo of one of the grove's birches.
+        - Koivupiilo is a birch grove in Kangasala.
     privacy:
       title: Privacy – Koivupiilo
       description: "Koivupiilo's privacy notice: what data it handles on the site, by email and for Ratametsuri beta applications, how long it keeps it, and what your rights are."
@@ -297,6 +293,6 @@ en:
     notfound:
       title: Page not found – Koivupiilo
       description: This page does not exist on the Koivupiilo site.
-      heading: You got lost in the birch grove.
-      text: This page does not exist. The front page puts you back on the path.
+      heading: Page not found
+      text: Check the address.
       link: To the front page

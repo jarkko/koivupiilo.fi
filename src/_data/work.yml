@@ -48,8 +48,8 @@ items:
       fi: Magistician
       en: Magistician
     line:
-      fi: Lentopallo-ottelun videosta kosketuskohtaiset tilastot ja videoklipit.
-      en: Per-touch statistics and video clips from the video of a volleyball match.
+      fi: Tekee lentopallo-ottelun videosta tilastot ja klipit jokaisesta pallokosketuksesta.
+      en: Turns the video of a volleyball match into statistics and clips of every touch.
     status: development
     checked: 2026-11-12
     url: https://magistician.com
@@ -57,33 +57,33 @@ items:
       fi: Hyppymittaus
       en: Jump measurement
     line:
-      fi: Hyppykorkeus iPhonella, lentopalloverkon antenni mittana.
-      en: Jump height on an iPhone, with the antenna of a volleyball net as the measure.
+      fi: Mittaa hyppykorkeuden iPhonella lentopalloverkon antennin avulla.
+      en: Measures jump height on an iPhone, using the antenna of a volleyball net.
     status: development
     checked: 2026-11-12
   - name:
       fi: BeachDesk
       en: BeachDesk
     line:
-      fi: Varaukset ja myynti beach volley -halleille.
-      en: Bookings and sales for beach volleyball halls.
+      fi: Varaus- ja myyntijärjestelmä beach volley -halleille.
+      en: A booking and sales system for beach volleyball halls.
     status: development
     checked: 2026-11-02
   - name:
       fi: Ratametsuri
       en: Ratametsuri
     line:
-      fi: Suunnistusratojen suunnittelu Macilla.
-      en: Orienteering course planning on a Mac.
+      fi: Suunnistusratojen suunnitteluohjelma Macille.
+      en: An orienteering course planner for the Mac.
     status: development
     checked: 2026-11-23 # confirmed with the Ratametsuri session and Jarkko (docs/design/ratametsuri/discovery.md)
     page: ratametsuri # its product page on this site (D24): a route in routes.yml, in both languages
   - name:
-      fi: Beach volleyn säännöt
+      fi: Beach volley -säännöt
       en: Beach volleyball rules
     line:
-      fi: FIVB:n beach volleyn sääntöjen 2025–2028 suomennos.
-      en: A Finnish translation of the FIVB beach volleyball rules for 2025–2028.
+      fi: FIVB:n beach volley -sääntöjen suomennos kausille 2025–2028.
+      en: A Finnish translation of the FIVB beach volleyball rules for the 2025–2028 seasons.
     status: progress
     checked: 2026-11-12
     url: https://jarkko.github.io/beach-volleyball-rules-fi/

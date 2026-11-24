@@ -21,20 +21,24 @@
   <h2 class="row-label" id="stack"><%= page.stack_heading %></h2>
   <div class="row-body">
     <p class="prose"><%= page.stack_text %></p>
+    <% if page.stack.to_a.any? %>
     <ul class="plain-list">
       <% page.stack.each do |item| %>
       <li><%= item %></li>
       <% end %>
     </ul>
+    <% end %>
   </div>
 </section>
 
+<% unless j.capacity[lang].to_s.empty? %>
 <section class="row" aria-labelledby="capacity">
   <h2 class="row-label" id="capacity"><%= page.capacity_heading %></h2>
   <div class="row-body">
     <p class="prose"><%= j.capacity[lang] %></p>
   </div>
 </section>
+<% end %>
 
 <section class="row" aria-labelledby="start">
   <h2 class="row-label" id="start"><%= page.start_heading %></h2>

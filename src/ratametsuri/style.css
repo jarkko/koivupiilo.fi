@@ -104,11 +104,12 @@ ol,ul{padding:0;list-style:none}
    or beside the field (desktop) while the DOM keeps the order field, consent, button. Rows whose
    item is hidden collapse; spacing is the items' own top margins. */
 .signup{margin-top:1rem;max-width:42rem;display:grid;grid-template-columns:minmax(0,1fr);
-  grid-template-areas:"label" "field" "err" "consent" "button" "msgs"}
+  grid-template-areas:"label" "field" "err" "consent" "cerr" "button" "msgs"}
 .field-label{grid-area:label}
 .signup input[type=email]{grid-area:field}
 .field-err{grid-area:err}
 .consent{grid-area:consent}
+.consent-err{grid-area:cerr}
 .signup button{grid-area:button}
 .msgs{grid-area:msgs}
 .field-label{display:block;font-weight:600;font-size:.9375rem;margin-bottom:.4rem}
@@ -145,6 +146,9 @@ button[aria-disabled=true]{cursor:progress}
 /* An invalid address: under the field (launchpad's 422 via form.js, or the no-JS return). The status
    after the button still holds the same words for screen readers, but shows nothing. */
 .field-err{display:none;position:relative;margin-top:.5rem;padding-left:1.5em;color:var(--danger);font-weight:500;line-height:1.45;hyphens:manual;scroll-margin-top:min(45vh,22rem)}
+/* The unticked-box answer: launchpad's form.js fills it and unhides it; same treatment as the field's. */
+.consent-err{margin-top:.5rem;color:var(--danger);font-weight:500;line-height:1.45;hyphens:manual}
+.consent-err[hidden]{display:none}
 .signup[data-state=idle] .field-err:target,
 .signup[data-state=error]:has(#email[aria-invalid=true]) .field-err{display:block}
 .signup[data-state=error]:has(#email[aria-invalid=true]) .answer{color:transparent}
@@ -214,7 +218,7 @@ button[aria-disabled=true]{cursor:progress}
 
 @media (min-width:36rem){
   .signup{grid-template-columns:minmax(0,1fr) auto;column-gap:1.25rem;align-items:start;
-    grid-template-areas:"label label" "field field" "err err" "consent button" "msgs msgs"}
+    grid-template-areas:"label label" "field field" "err err" "consent button" "cerr cerr" "msgs msgs"}
   button{width:auto}
   .msgs{min-height:2lh}
 }
@@ -259,6 +263,6 @@ button[aria-disabled=true]{cursor:progress}
   .beta-copy{padding-left:var(--g)}
   .beta h2{font-size:1.875rem}
   .signup{margin:0;column-gap:.75rem;
-    grid-template-areas:"label label" "field button" "err err" "consent consent" "msgs msgs"}
+    grid-template-areas:"label label" "field button" "err err" "consent consent" "cerr cerr" "msgs msgs"}
   .signup button{margin-top:0}
 }

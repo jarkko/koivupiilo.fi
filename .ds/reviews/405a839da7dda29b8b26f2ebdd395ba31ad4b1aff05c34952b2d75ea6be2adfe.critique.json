@@ -1,0 +1,90 @@
+{
+  "kind": "critique",
+  "ui_diff_hash": "405a839da7dda29b8b26f2ebdd395ba31ad4b1aff05c34952b2d75ea6be2adfe",
+  "head_sha": "2711d407fe7194c21d5931bb2e86987a3101cfbb",
+  "reviewer_run_id": "term_dac29bd2-b715-44ea-95ee-4109b4970073",
+  "implementer_family": "claude",
+  "reviewer_family": "codex",
+  "critique": {
+    "remove": [
+      {
+        "point": "On the bilingual 404, remove the second, faint field of decorative trunks behind the recovery text while retaining the normal edge bark. It adds no recovery information and creates six axe manual-contrast questions; the page would make its two destinations easier to scan. Counter-argument: the grove is the signature motif and its calculated contrast passes AA, so this is a quality choice, not a defect or required redesign.",
+        "evidence": [
+          "docs/design/reviews/evidence/405a839d/sheets/404.html.jpg",
+          "docs/design/reviews/evidence/405a839d/gate-summary.json"
+        ],
+        "grade": "anecdote",
+        "flow": "W0"
+      }
+    ],
+    "two_x": [
+      {
+        "point": "For the shared first-arrival/company-check journey (W0 leading to W1/W2/W4/W5), add one real, authorized product capture to the front product block, with synthetic data labelled where needed. This would turn the text-only assertion into immediate visual evidence and reduce the need to leave the company site before trusting its software craft. Keep W3 same-page parity for that asset and its accessible description. Strongest counter-argument: D14 makes this a short company site rather than product marketing, and screenshots add maintenance, privacy and loading costs; one responsive, consented capture must earn its place. This is the inherited S-1 opportunity, not a request to rewrite Finnish copy.",
+        "evidence": [
+          "docs/design/reviews/evidence/405a839d/sheets/_root.jpg",
+          "docs/design/reviews/evidence/405a839d/sheets/en.jpg",
+          "docs/design/reviews/evidence/405a839d/sheets/en-products.jpg",
+          "docs/design/reviews/evidence/405a839d/review-notes.md"
+        ],
+        "grade": "anecdote",
+        "flow": "W0"
+      }
+    ],
+    "short_of_references": [
+      {
+        "reference": "docs/design/references.md: CSS Wizardry, proof above the fold; thoughtbot CloseKnit and CSS Wizardry ISO.org, real visual evidence",
+        "point": "W0/W1: the products register gives names, purpose and dated status, but no screen to demonstrate the work. CSS Wizardry and the thoughtbot references make one tangible artifact the trust shortcut. D14 deliberately removes case-study pages, so use their proof mechanic in a single company-site block rather than reinstating long case studies.",
+        "evidence": [
+          "docs/design/reviews/evidence/405a839d/sheets/en.jpg",
+          "docs/design/reviews/evidence/405a839d/sheets/en-products.jpg"
+        ],
+        "grade": "practitioner consensus",
+        "flow": "W1"
+      },
+      {
+        "reference": "docs/design/references.md: Kisko Labs and Set Studio; Clearleft, contact expectations",
+        "point": "W2/W4: the services and founder history now establish who delivers the work, and the mailto is direct, but the service formats remain implicit and current availability remains owner-unsupplied under D23. A comparison shopper must email to learn engagement shape. Clearleft-style named contact is already present; the remaining opportunity is verified decision information, not extra promotional language, a guessed availability date or a guessed response promise.",
+        "evidence": [
+          "docs/design/reviews/evidence/405a839d/sheets/en-studio.jpg",
+          "docs/design/reviews/evidence/405a839d/sheets/en-coaching.jpg",
+          "docs/design/reviews/evidence/405a839d/audit.json"
+        ],
+        "grade": "practitioner consensus",
+        "flow": "W4"
+      },
+      {
+        "reference": "docs/design/references.md: Panic, bilingual and first ten seconds; Futurice, bilingual anti-reference",
+        "point": "W3 is stronger than the Futurice anti-reference: all six page pairs retain place in both browser locales, and redirects preserve language. Panic-level concise information is visible, but the shared first-viewport trust moment still relies entirely on text; the visual-proof opportunity spans both languages. No Finnish style judgement is made.",
+        "evidence": [
+          "docs/design/reviews/evidence/405a839d/audit.json",
+          "docs/design/reviews/evidence/405a839d/sheets/_root.jpg",
+          "docs/design/reviews/evidence/405a839d/sheets/en.jpg"
+        ],
+        "grade": "practitioner consensus",
+        "flow": "W3"
+      },
+      {
+        "reference": "references/awards/studio-portfolio.md#cristina-gomez",
+        "point": "Cristina G\u00f3mez uses one real image in deliberate empty space under factual labels. Our company check already has a strong factual register and distinctive wordmark, but the founder block remains entirely typographic; W5 cannot visually associate the company with its named person. An owner-approved portrait would close that gap. Do not copy the theme toggle or the canvas transitions; this opinion is based on the local library annotation and reference shots, not a new live-site measurement.",
+        "evidence": [
+          "docs/design/reviews/evidence/405a839d/sheets/en-company.jpg",
+          "docs/design/reviews/evidence/405a839d/sheets/yritys.jpg",
+          "docs/design/reviews/evidence/405a839d/review-notes.md"
+        ],
+        "grade": "practitioner consensus",
+        "flow": "W5"
+      },
+      {
+        "reference": "references/awards/studio-portfolio.md#ottografie-otto-van-den-toorn",
+        "point": "Ottografie makes each work category tangible through actual imagery; our ordered register is clear but asks visitors to imagine every product. Borrow only the immediate work evidence, not the intro, the slow loading or its animation. This is the same single S-1 improvement, rather than a second feature proposal; the local library mobile shot and annotations were inspected.",
+        "evidence": [
+          "docs/design/reviews/evidence/405a839d/sheets/en-products.jpg",
+          "docs/design/reviews/evidence/405a839d/sheets/en.jpg",
+          "docs/design/reviews/evidence/405a839d/review-notes.md"
+        ],
+        "grade": "practitioner consensus",
+        "flow": "W0"
+      }
+    ]
+  }
+}

@@ -1,0 +1,722 @@
+[
+  {
+    "path": "docs/design/baselines/404.html/desktop-dark-en-GB.png",
+    "status": "M",
+    "sha256": "61f6a8d07ead4867765be5ad2265df80a026e72be5089aa413da2c32b2f32cdc",
+    "image_sha256": "61f6a8d07ead4867765be5ad2265df80a026e72be5089aa413da2c32b2f32cdc"
+  },
+  {
+    "path": "docs/design/baselines/404.html/desktop-dark-fi-FI.png",
+    "status": "M",
+    "sha256": "61f6a8d07ead4867765be5ad2265df80a026e72be5089aa413da2c32b2f32cdc",
+    "image_sha256": "61f6a8d07ead4867765be5ad2265df80a026e72be5089aa413da2c32b2f32cdc"
+  },
+  {
+    "path": "docs/design/baselines/404.html/desktop-light-en-GB.png",
+    "status": "M",
+    "sha256": "59c9f4a80fd916bf011d8dd54fc6e648d1aa6dcad48703dea32c7607647776ed",
+    "image_sha256": "59c9f4a80fd916bf011d8dd54fc6e648d1aa6dcad48703dea32c7607647776ed"
+  },
+  {
+    "path": "docs/design/baselines/404.html/desktop-light-fi-FI.png",
+    "status": "M",
+    "sha256": "59c9f4a80fd916bf011d8dd54fc6e648d1aa6dcad48703dea32c7607647776ed",
+    "image_sha256": "59c9f4a80fd916bf011d8dd54fc6e648d1aa6dcad48703dea32c7607647776ed"
+  },
+  {
+    "path": "docs/design/baselines/404.html/phone-dark-en-GB.png",
+    "status": "M",
+    "sha256": "6716fe18388e08ee8051407dc53d8489186522eb703f13d4c15e48e0a74aa5de",
+    "image_sha256": "6716fe18388e08ee8051407dc53d8489186522eb703f13d4c15e48e0a74aa5de"
+  },
+  {
+    "path": "docs/design/baselines/404.html/phone-dark-fi-FI.png",
+    "status": "M",
+    "sha256": "6716fe18388e08ee8051407dc53d8489186522eb703f13d4c15e48e0a74aa5de",
+    "image_sha256": "6716fe18388e08ee8051407dc53d8489186522eb703f13d4c15e48e0a74aa5de"
+  },
+  {
+    "path": "docs/design/baselines/404.html/phone-light-en-GB.png",
+    "status": "M",
+    "sha256": "ce93c4fc7ab9aab775712b5d13175ea986283ec9db89408c742c5eb229016872",
+    "image_sha256": "ce93c4fc7ab9aab775712b5d13175ea986283ec9db89408c742c5eb229016872"
+  },
+  {
+    "path": "docs/design/baselines/404.html/phone-light-fi-FI.png",
+    "status": "M",
+    "sha256": "ce93c4fc7ab9aab775712b5d13175ea986283ec9db89408c742c5eb229016872",
+    "image_sha256": "ce93c4fc7ab9aab775712b5d13175ea986283ec9db89408c742c5eb229016872"
+  },
+  {
+    "path": "docs/design/baselines/_root/desktop-dark-en-GB.png",
+    "status": "M",
+    "sha256": "6b295579b7589ccffeb93e10e7a86b072ff5624978e2d472e4126de5c5942336",
+    "image_sha256": "6b295579b7589ccffeb93e10e7a86b072ff5624978e2d472e4126de5c5942336"
+  },
+  {
+    "path": "docs/design/baselines/_root/desktop-dark-fi-FI.png",
+    "status": "M",
+    "sha256": "6b295579b7589ccffeb93e10e7a86b072ff5624978e2d472e4126de5c5942336",
+    "image_sha256": "6b295579b7589ccffeb93e10e7a86b072ff5624978e2d472e4126de5c5942336"
+  },
+  {
+    "path": "docs/design/baselines/_root/desktop-light-en-GB.png",
+    "status": "M",
+    "sha256": "20f8c9c4f90bfff30e83598d15d723d81d599036a27a405ef1f413cf6cc39abf",
+    "image_sha256": "20f8c9c4f90bfff30e83598d15d723d81d599036a27a405ef1f413cf6cc39abf"
+  },
+  {
+    "path": "docs/design/baselines/_root/desktop-light-fi-FI.png",
+    "status": "M",
+    "sha256": "20f8c9c4f90bfff30e83598d15d723d81d599036a27a405ef1f413cf6cc39abf",
+    "image_sha256": "20f8c9c4f90bfff30e83598d15d723d81d599036a27a405ef1f413cf6cc39abf"
+  },
+  {
+    "path": "docs/design/baselines/_root/phone-dark-en-GB.png",
+    "status": "M",
+    "sha256": "552b3cae0c6a9d211364c5a5fae370cee7a21a5631bf34521d8d75d5b315b6d9",
+    "image_sha256": "552b3cae0c6a9d211364c5a5fae370cee7a21a5631bf34521d8d75d5b315b6d9"
+  },
+  {
+    "path": "docs/design/baselines/_root/phone-dark-fi-FI.png",
+    "status": "M",
+    "sha256": "552b3cae0c6a9d211364c5a5fae370cee7a21a5631bf34521d8d75d5b315b6d9",
+    "image_sha256": "552b3cae0c6a9d211364c5a5fae370cee7a21a5631bf34521d8d75d5b315b6d9"
+  },
+  {
+    "path": "docs/design/baselines/_root/phone-light-en-GB.png",
+    "status": "M",
+    "sha256": "b0f6030e141ab503f8a80a28d19650e44689ee358042bfa1ca9e71be6c3eaba0",
+    "image_sha256": "b0f6030e141ab503f8a80a28d19650e44689ee358042bfa1ca9e71be6c3eaba0"
+  },
+  {
+    "path": "docs/design/baselines/_root/phone-light-fi-FI.png",
+    "status": "M",
+    "sha256": "b0f6030e141ab503f8a80a28d19650e44689ee358042bfa1ca9e71be6c3eaba0",
+    "image_sha256": "b0f6030e141ab503f8a80a28d19650e44689ee358042bfa1ca9e71be6c3eaba0"
+  },
+  {
+    "path": "docs/design/baselines/en/coaching/desktop-dark-en-GB.png",
+    "status": "M",
+    "sha256": "de219a7a82cfdbc6e334cdc9712a4b4e768dadbb3f4487de8ec664a90916fe6b",
+    "image_sha256": "de219a7a82cfdbc6e334cdc9712a4b4e768dadbb3f4487de8ec664a90916fe6b"
+  },
+  {
+    "path": "docs/design/baselines/en/coaching/desktop-dark-fi-FI.png",
+    "status": "M",
+    "sha256": "de219a7a82cfdbc6e334cdc9712a4b4e768dadbb3f4487de8ec664a90916fe6b",
+    "image_sha256": "de219a7a82cfdbc6e334cdc9712a4b4e768dadbb3f4487de8ec664a90916fe6b"
+  },
+  {
+    "path": "docs/design/baselines/en/coaching/desktop-light-en-GB.png",
+    "status": "M",
+    "sha256": "64825179d5cc70902ba781809101499c5336fb811f32cd39b4a61b7cf97a6d4e",
+    "image_sha256": "64825179d5cc70902ba781809101499c5336fb811f32cd39b4a61b7cf97a6d4e"
+  },
+  {
+    "path": "docs/design/baselines/en/coaching/desktop-light-fi-FI.png",
+    "status": "M",
+    "sha256": "64825179d5cc70902ba781809101499c5336fb811f32cd39b4a61b7cf97a6d4e",
+    "image_sha256": "64825179d5cc70902ba781809101499c5336fb811f32cd39b4a61b7cf97a6d4e"
+  },
+  {
+    "path": "docs/design/baselines/en/coaching/phone-dark-en-GB.png",
+    "status": "M",
+    "sha256": "607eebf4d89ecf752608039ae7baf903aa6bd0f613489d97e277417954ff6236",
+    "image_sha256": "607eebf4d89ecf752608039ae7baf903aa6bd0f613489d97e277417954ff6236"
+  },
+  {
+    "path": "docs/design/baselines/en/coaching/phone-dark-fi-FI.png",
+    "status": "M",
+    "sha256": "607eebf4d89ecf752608039ae7baf903aa6bd0f613489d97e277417954ff6236",
+    "image_sha256": "607eebf4d89ecf752608039ae7baf903aa6bd0f613489d97e277417954ff6236"
+  },
+  {
+    "path": "docs/design/baselines/en/coaching/phone-light-en-GB.png",
+    "status": "M",
+    "sha256": "cf902e07d3bca6d25770102176413df3b81bd542c6318ad86befbeeccbe65444",
+    "image_sha256": "cf902e07d3bca6d25770102176413df3b81bd542c6318ad86befbeeccbe65444"
+  },
+  {
+    "path": "docs/design/baselines/en/coaching/phone-light-fi-FI.png",
+    "status": "M",
+    "sha256": "cf902e07d3bca6d25770102176413df3b81bd542c6318ad86befbeeccbe65444",
+    "image_sha256": "cf902e07d3bca6d25770102176413df3b81bd542c6318ad86befbeeccbe65444"
+  },
+  {
+    "path": "docs/design/baselines/en/company/desktop-dark-en-GB.png",
+    "status": "M",
+    "sha256": "279eb741b7b621c955619ef4c85595697d37c883e289aa3565c9482ba7e217aa",
+    "image_sha256": "279eb741b7b621c955619ef4c85595697d37c883e289aa3565c9482ba7e217aa"
+  },
+  {
+    "path": "docs/design/baselines/en/company/desktop-dark-fi-FI.png",
+    "status": "M",
+    "sha256": "279eb741b7b621c955619ef4c85595697d37c883e289aa3565c9482ba7e217aa",
+    "image_sha256": "279eb741b7b621c955619ef4c85595697d37c883e289aa3565c9482ba7e217aa"
+  },
+  {
+    "path": "docs/design/baselines/en/company/desktop-light-en-GB.png",
+    "status": "M",
+    "sha256": "1d4880c83f62b7ef055899aa43501c2e39c9d159067bbeb1d81c431cdbc8ffa2",
+    "image_sha256": "1d4880c83f62b7ef055899aa43501c2e39c9d159067bbeb1d81c431cdbc8ffa2"
+  },
+  {
+    "path": "docs/design/baselines/en/company/desktop-light-fi-FI.png",
+    "status": "M",
+    "sha256": "1d4880c83f62b7ef055899aa43501c2e39c9d159067bbeb1d81c431cdbc8ffa2",
+    "image_sha256": "1d4880c83f62b7ef055899aa43501c2e39c9d159067bbeb1d81c431cdbc8ffa2"
+  },
+  {
+    "path": "docs/design/baselines/en/company/phone-dark-en-GB.png",
+    "status": "M",
+    "sha256": "1b25101f180d147b3e17a5dee8b25a9fdf441dcc6595418684b28e86b5374659",
+    "image_sha256": "1b25101f180d147b3e17a5dee8b25a9fdf441dcc6595418684b28e86b5374659"
+  },
+  {
+    "path": "docs/design/baselines/en/company/phone-dark-fi-FI.png",
+    "status": "M",
+    "sha256": "1b25101f180d147b3e17a5dee8b25a9fdf441dcc6595418684b28e86b5374659",
+    "image_sha256": "1b25101f180d147b3e17a5dee8b25a9fdf441dcc6595418684b28e86b5374659"
+  },
+  {
+    "path": "docs/design/baselines/en/company/phone-light-en-GB.png",
+    "status": "M",
+    "sha256": "3ce7bf487fb4dba7cdec16ce636637c399fa90c693efec1ab58ca0652ba10962",
+    "image_sha256": "3ce7bf487fb4dba7cdec16ce636637c399fa90c693efec1ab58ca0652ba10962"
+  },
+  {
+    "path": "docs/design/baselines/en/company/phone-light-fi-FI.png",
+    "status": "M",
+    "sha256": "3ce7bf487fb4dba7cdec16ce636637c399fa90c693efec1ab58ca0652ba10962",
+    "image_sha256": "3ce7bf487fb4dba7cdec16ce636637c399fa90c693efec1ab58ca0652ba10962"
+  },
+  {
+    "path": "docs/design/baselines/en/desktop-dark-en-GB.png",
+    "status": "M",
+    "sha256": "6b751888ac67c7d58973bc236e03e4e23fabc6a5874e0f72b36bda72c28defeb",
+    "image_sha256": "6b751888ac67c7d58973bc236e03e4e23fabc6a5874e0f72b36bda72c28defeb"
+  },
+  {
+    "path": "docs/design/baselines/en/desktop-dark-fi-FI.png",
+    "status": "M",
+    "sha256": "6b751888ac67c7d58973bc236e03e4e23fabc6a5874e0f72b36bda72c28defeb",
+    "image_sha256": "6b751888ac67c7d58973bc236e03e4e23fabc6a5874e0f72b36bda72c28defeb"
+  },
+  {
+    "path": "docs/design/baselines/en/desktop-light-en-GB.png",
+    "status": "M",
+    "sha256": "dc3147c7f16f958767ebc08bd8b8db824c2b85a90a8754b2fe28a12c4f5c86f2",
+    "image_sha256": "dc3147c7f16f958767ebc08bd8b8db824c2b85a90a8754b2fe28a12c4f5c86f2"
+  },
+  {
+    "path": "docs/design/baselines/en/desktop-light-fi-FI.png",
+    "status": "M",
+    "sha256": "dc3147c7f16f958767ebc08bd8b8db824c2b85a90a8754b2fe28a12c4f5c86f2",
+    "image_sha256": "dc3147c7f16f958767ebc08bd8b8db824c2b85a90a8754b2fe28a12c4f5c86f2"
+  },
+  {
+    "path": "docs/design/baselines/en/phone-dark-en-GB.png",
+    "status": "M",
+    "sha256": "d05d7d85f3b0e555d85f1b8ceb8af6470ee42b4e91fee663e0339e68317fb505",
+    "image_sha256": "d05d7d85f3b0e555d85f1b8ceb8af6470ee42b4e91fee663e0339e68317fb505"
+  },
+  {
+    "path": "docs/design/baselines/en/phone-dark-fi-FI.png",
+    "status": "M",
+    "sha256": "d05d7d85f3b0e555d85f1b8ceb8af6470ee42b4e91fee663e0339e68317fb505",
+    "image_sha256": "d05d7d85f3b0e555d85f1b8ceb8af6470ee42b4e91fee663e0339e68317fb505"
+  },
+  {
+    "path": "docs/design/baselines/en/phone-light-en-GB.png",
+    "status": "M",
+    "sha256": "9c03717765dc1ef145bc3291ec81250fb7a7e202caf20e6756ad13cfe6711003",
+    "image_sha256": "9c03717765dc1ef145bc3291ec81250fb7a7e202caf20e6756ad13cfe6711003"
+  },
+  {
+    "path": "docs/design/baselines/en/phone-light-fi-FI.png",
+    "status": "M",
+    "sha256": "9c03717765dc1ef145bc3291ec81250fb7a7e202caf20e6756ad13cfe6711003",
+    "image_sha256": "9c03717765dc1ef145bc3291ec81250fb7a7e202caf20e6756ad13cfe6711003"
+  },
+  {
+    "path": "docs/design/baselines/en/privacy/desktop-dark-en-GB.png",
+    "status": "M",
+    "sha256": "7093430f2ab0d28253391891e8058fb9b70af665773ad8c80dd5e9ba5b07fd6f",
+    "image_sha256": "7093430f2ab0d28253391891e8058fb9b70af665773ad8c80dd5e9ba5b07fd6f"
+  },
+  {
+    "path": "docs/design/baselines/en/privacy/desktop-dark-fi-FI.png",
+    "status": "M",
+    "sha256": "7093430f2ab0d28253391891e8058fb9b70af665773ad8c80dd5e9ba5b07fd6f",
+    "image_sha256": "7093430f2ab0d28253391891e8058fb9b70af665773ad8c80dd5e9ba5b07fd6f"
+  },
+  {
+    "path": "docs/design/baselines/en/privacy/desktop-light-en-GB.png",
+    "status": "M",
+    "sha256": "a5cc07c2848c3474c57b5a922865eba03bf2f1311c2e3631fa53b1cb8c3a0f88",
+    "image_sha256": "a5cc07c2848c3474c57b5a922865eba03bf2f1311c2e3631fa53b1cb8c3a0f88"
+  },
+  {
+    "path": "docs/design/baselines/en/privacy/desktop-light-fi-FI.png",
+    "status": "M",
+    "sha256": "a5cc07c2848c3474c57b5a922865eba03bf2f1311c2e3631fa53b1cb8c3a0f88",
+    "image_sha256": "a5cc07c2848c3474c57b5a922865eba03bf2f1311c2e3631fa53b1cb8c3a0f88"
+  },
+  {
+    "path": "docs/design/baselines/en/privacy/phone-dark-en-GB.png",
+    "status": "M",
+    "sha256": "f9c19c2a27d43d06577e66c3b3deada675ef7f550876ec7e46b9e53b5415317c",
+    "image_sha256": "f9c19c2a27d43d06577e66c3b3deada675ef7f550876ec7e46b9e53b5415317c"
+  },
+  {
+    "path": "docs/design/baselines/en/privacy/phone-dark-fi-FI.png",
+    "status": "M",
+    "sha256": "f9c19c2a27d43d06577e66c3b3deada675ef7f550876ec7e46b9e53b5415317c",
+    "image_sha256": "f9c19c2a27d43d06577e66c3b3deada675ef7f550876ec7e46b9e53b5415317c"
+  },
+  {
+    "path": "docs/design/baselines/en/privacy/phone-light-en-GB.png",
+    "status": "M",
+    "sha256": "3ddf506f6273e5629505a1e97e135741f9c24009640e48d5fad1d67b10315c59",
+    "image_sha256": "3ddf506f6273e5629505a1e97e135741f9c24009640e48d5fad1d67b10315c59"
+  },
+  {
+    "path": "docs/design/baselines/en/privacy/phone-light-fi-FI.png",
+    "status": "M",
+    "sha256": "3ddf506f6273e5629505a1e97e135741f9c24009640e48d5fad1d67b10315c59",
+    "image_sha256": "3ddf506f6273e5629505a1e97e135741f9c24009640e48d5fad1d67b10315c59"
+  },
+  {
+    "path": "docs/design/baselines/en/products/desktop-dark-en-GB.png",
+    "status": "A",
+    "sha256": "6e2fdbd9d07f0039aea1b7f4a32125d044cab66387fcc7620f109f7601a7c700",
+    "image_sha256": "6e2fdbd9d07f0039aea1b7f4a32125d044cab66387fcc7620f109f7601a7c700"
+  },
+  {
+    "path": "docs/design/baselines/en/products/desktop-dark-fi-FI.png",
+    "status": "A",
+    "sha256": "6e2fdbd9d07f0039aea1b7f4a32125d044cab66387fcc7620f109f7601a7c700",
+    "image_sha256": "6e2fdbd9d07f0039aea1b7f4a32125d044cab66387fcc7620f109f7601a7c700"
+  },
+  {
+    "path": "docs/design/baselines/en/products/desktop-light-en-GB.png",
+    "status": "A",
+    "sha256": "4119d6c8910b640ae4cd0e9f0665e78674ebb62df9c43d995473f85a24454259",
+    "image_sha256": "4119d6c8910b640ae4cd0e9f0665e78674ebb62df9c43d995473f85a24454259"
+  },
+  {
+    "path": "docs/design/baselines/en/products/desktop-light-fi-FI.png",
+    "status": "A",
+    "sha256": "4119d6c8910b640ae4cd0e9f0665e78674ebb62df9c43d995473f85a24454259",
+    "image_sha256": "4119d6c8910b640ae4cd0e9f0665e78674ebb62df9c43d995473f85a24454259"
+  },
+  {
+    "path": "docs/design/baselines/en/products/phone-dark-en-GB.png",
+    "status": "A",
+    "sha256": "dd5868b1dd39327aaff3c1cc925353272f1ed5131fcd84ec7e050b9e1556422e",
+    "image_sha256": "dd5868b1dd39327aaff3c1cc925353272f1ed5131fcd84ec7e050b9e1556422e"
+  },
+  {
+    "path": "docs/design/baselines/en/products/phone-dark-fi-FI.png",
+    "status": "A",
+    "sha256": "dd5868b1dd39327aaff3c1cc925353272f1ed5131fcd84ec7e050b9e1556422e",
+    "image_sha256": "dd5868b1dd39327aaff3c1cc925353272f1ed5131fcd84ec7e050b9e1556422e"
+  },
+  {
+    "path": "docs/design/baselines/en/products/phone-light-en-GB.png",
+    "status": "A",
+    "sha256": "be584fa87b7ddbaab08af60704004cc2474d88555cf3fbdbf6f4e189f603057b",
+    "image_sha256": "be584fa87b7ddbaab08af60704004cc2474d88555cf3fbdbf6f4e189f603057b"
+  },
+  {
+    "path": "docs/design/baselines/en/products/phone-light-fi-FI.png",
+    "status": "A",
+    "sha256": "be584fa87b7ddbaab08af60704004cc2474d88555cf3fbdbf6f4e189f603057b",
+    "image_sha256": "be584fa87b7ddbaab08af60704004cc2474d88555cf3fbdbf6f4e189f603057b"
+  },
+  {
+    "path": "docs/design/baselines/en/studio/desktop-dark-en-GB.png",
+    "status": "M",
+    "sha256": "87678f2e6fad5e2bb0482047767e8a8e76548d37918a1d7853e6f0c0598752bc",
+    "image_sha256": "87678f2e6fad5e2bb0482047767e8a8e76548d37918a1d7853e6f0c0598752bc"
+  },
+  {
+    "path": "docs/design/baselines/en/studio/desktop-dark-fi-FI.png",
+    "status": "M",
+    "sha256": "87678f2e6fad5e2bb0482047767e8a8e76548d37918a1d7853e6f0c0598752bc",
+    "image_sha256": "87678f2e6fad5e2bb0482047767e8a8e76548d37918a1d7853e6f0c0598752bc"
+  },
+  {
+    "path": "docs/design/baselines/en/studio/desktop-light-en-GB.png",
+    "status": "M",
+    "sha256": "de0558bc25112165234b89286ac0d145dbd5b7322178b826e8150ae51cc8f225",
+    "image_sha256": "de0558bc25112165234b89286ac0d145dbd5b7322178b826e8150ae51cc8f225"
+  },
+  {
+    "path": "docs/design/baselines/en/studio/desktop-light-fi-FI.png",
+    "status": "M",
+    "sha256": "de0558bc25112165234b89286ac0d145dbd5b7322178b826e8150ae51cc8f225",
+    "image_sha256": "de0558bc25112165234b89286ac0d145dbd5b7322178b826e8150ae51cc8f225"
+  },
+  {
+    "path": "docs/design/baselines/en/studio/phone-dark-en-GB.png",
+    "status": "M",
+    "sha256": "af87354b4e28039f8c792f9d505d3c497b47fb26ebd054daf608989e1ddf74ce",
+    "image_sha256": "af87354b4e28039f8c792f9d505d3c497b47fb26ebd054daf608989e1ddf74ce"
+  },
+  {
+    "path": "docs/design/baselines/en/studio/phone-dark-fi-FI.png",
+    "status": "M",
+    "sha256": "af87354b4e28039f8c792f9d505d3c497b47fb26ebd054daf608989e1ddf74ce",
+    "image_sha256": "af87354b4e28039f8c792f9d505d3c497b47fb26ebd054daf608989e1ddf74ce"
+  },
+  {
+    "path": "docs/design/baselines/en/studio/phone-light-en-GB.png",
+    "status": "M",
+    "sha256": "f69efd85856d5a1abbe5e6a798368df25fdb1b9cc6a91043137cf454ddea1198",
+    "image_sha256": "f69efd85856d5a1abbe5e6a798368df25fdb1b9cc6a91043137cf454ddea1198"
+  },
+  {
+    "path": "docs/design/baselines/en/studio/phone-light-fi-FI.png",
+    "status": "M",
+    "sha256": "f69efd85856d5a1abbe5e6a798368df25fdb1b9cc6a91043137cf454ddea1198",
+    "image_sha256": "f69efd85856d5a1abbe5e6a798368df25fdb1b9cc6a91043137cf454ddea1198"
+  },
+  {
+    "path": "docs/design/baselines/en/work/desktop-dark-en-GB.png",
+    "status": "D",
+    "sha256": "deleted",
+    "image_sha256": "ecbe52dd172b076b7e3bd4b2a897316f993506e8dadd0b2efb6d1e2178a50bb2"
+  },
+  {
+    "path": "docs/design/baselines/en/work/desktop-dark-fi-FI.png",
+    "status": "D",
+    "sha256": "deleted",
+    "image_sha256": "ecbe52dd172b076b7e3bd4b2a897316f993506e8dadd0b2efb6d1e2178a50bb2"
+  },
+  {
+    "path": "docs/design/baselines/en/work/desktop-light-en-GB.png",
+    "status": "D",
+    "sha256": "deleted",
+    "image_sha256": "1dc9b68de0bb261710689059374e8eebb62e0eeafbe8998f5c4118818d22af6f"
+  },
+  {
+    "path": "docs/design/baselines/en/work/desktop-light-fi-FI.png",
+    "status": "D",
+    "sha256": "deleted",
+    "image_sha256": "1dc9b68de0bb261710689059374e8eebb62e0eeafbe8998f5c4118818d22af6f"
+  },
+  {
+    "path": "docs/design/baselines/en/work/phone-dark-en-GB.png",
+    "status": "D",
+    "sha256": "deleted",
+    "image_sha256": "20f6bd0442837dee7eb0a744ba60b84bbc5c993fd4042712844b8470aa3b3cd5"
+  },
+  {
+    "path": "docs/design/baselines/en/work/phone-dark-fi-FI.png",
+    "status": "D",
+    "sha256": "deleted",
+    "image_sha256": "20f6bd0442837dee7eb0a744ba60b84bbc5c993fd4042712844b8470aa3b3cd5"
+  },
+  {
+    "path": "docs/design/baselines/en/work/phone-light-en-GB.png",
+    "status": "D",
+    "sha256": "deleted",
+    "image_sha256": "d4975c4f3df0632f8b4e46ffdc0a4c99634191bc464172fac674552eea089070"
+  },
+  {
+    "path": "docs/design/baselines/en/work/phone-light-fi-FI.png",
+    "status": "D",
+    "sha256": "deleted",
+    "image_sha256": "d4975c4f3df0632f8b4e46ffdc0a4c99634191bc464172fac674552eea089070"
+  },
+  {
+    "path": "docs/design/baselines/studio/desktop-dark-en-GB.png",
+    "status": "M",
+    "sha256": "05f4e7a47335bff977dc244ba32f28f3a063494f319809b6035dbf0e7ef0d157",
+    "image_sha256": "05f4e7a47335bff977dc244ba32f28f3a063494f319809b6035dbf0e7ef0d157"
+  },
+  {
+    "path": "docs/design/baselines/studio/desktop-dark-fi-FI.png",
+    "status": "M",
+    "sha256": "05f4e7a47335bff977dc244ba32f28f3a063494f319809b6035dbf0e7ef0d157",
+    "image_sha256": "05f4e7a47335bff977dc244ba32f28f3a063494f319809b6035dbf0e7ef0d157"
+  },
+  {
+    "path": "docs/design/baselines/studio/desktop-light-en-GB.png",
+    "status": "M",
+    "sha256": "9e6f8d62739a70142c1437ccb60ad1d35ceb72b489e116fccbce7f1ab08bea9d",
+    "image_sha256": "9e6f8d62739a70142c1437ccb60ad1d35ceb72b489e116fccbce7f1ab08bea9d"
+  },
+  {
+    "path": "docs/design/baselines/studio/desktop-light-fi-FI.png",
+    "status": "M",
+    "sha256": "9e6f8d62739a70142c1437ccb60ad1d35ceb72b489e116fccbce7f1ab08bea9d",
+    "image_sha256": "9e6f8d62739a70142c1437ccb60ad1d35ceb72b489e116fccbce7f1ab08bea9d"
+  },
+  {
+    "path": "docs/design/baselines/studio/phone-dark-en-GB.png",
+    "status": "M",
+    "sha256": "ec7b5afa7490424931811359e77d1b62093cac96fbefae38b3cec9ee617eaa78",
+    "image_sha256": "ec7b5afa7490424931811359e77d1b62093cac96fbefae38b3cec9ee617eaa78"
+  },
+  {
+    "path": "docs/design/baselines/studio/phone-dark-fi-FI.png",
+    "status": "M",
+    "sha256": "ec7b5afa7490424931811359e77d1b62093cac96fbefae38b3cec9ee617eaa78",
+    "image_sha256": "ec7b5afa7490424931811359e77d1b62093cac96fbefae38b3cec9ee617eaa78"
+  },
+  {
+    "path": "docs/design/baselines/studio/phone-light-en-GB.png",
+    "status": "M",
+    "sha256": "242918e24daf6d01ac6d355a9008b8e233b2f3673da72571d8834540b42f8187",
+    "image_sha256": "242918e24daf6d01ac6d355a9008b8e233b2f3673da72571d8834540b42f8187"
+  },
+  {
+    "path": "docs/design/baselines/studio/phone-light-fi-FI.png",
+    "status": "M",
+    "sha256": "242918e24daf6d01ac6d355a9008b8e233b2f3673da72571d8834540b42f8187",
+    "image_sha256": "242918e24daf6d01ac6d355a9008b8e233b2f3673da72571d8834540b42f8187"
+  },
+  {
+    "path": "docs/design/baselines/tietosuoja/desktop-dark-en-GB.png",
+    "status": "M",
+    "sha256": "6b43acb18bc85e9142ecfb913425d31291819af70e7588ba644d36f611e88e3a",
+    "image_sha256": "6b43acb18bc85e9142ecfb913425d31291819af70e7588ba644d36f611e88e3a"
+  },
+  {
+    "path": "docs/design/baselines/tietosuoja/desktop-dark-fi-FI.png",
+    "status": "M",
+    "sha256": "6b43acb18bc85e9142ecfb913425d31291819af70e7588ba644d36f611e88e3a",
+    "image_sha256": "6b43acb18bc85e9142ecfb913425d31291819af70e7588ba644d36f611e88e3a"
+  },
+  {
+    "path": "docs/design/baselines/tietosuoja/desktop-light-en-GB.png",
+    "status": "M",
+    "sha256": "8968fa1ed76d9f9f964ce7fe0edf47245834064424070af43fbf7aa658ce6edc",
+    "image_sha256": "8968fa1ed76d9f9f964ce7fe0edf47245834064424070af43fbf7aa658ce6edc"
+  },
+  {
+    "path": "docs/design/baselines/tietosuoja/desktop-light-fi-FI.png",
+    "status": "M",
+    "sha256": "8968fa1ed76d9f9f964ce7fe0edf47245834064424070af43fbf7aa658ce6edc",
+    "image_sha256": "8968fa1ed76d9f9f964ce7fe0edf47245834064424070af43fbf7aa658ce6edc"
+  },
+  {
+    "path": "docs/design/baselines/tietosuoja/phone-dark-en-GB.png",
+    "status": "M",
+    "sha256": "6d5d6555ffa0c0ecad9460ea7f4df0a1cea93dcdbef2ac54b502206741b74e9e",
+    "image_sha256": "6d5d6555ffa0c0ecad9460ea7f4df0a1cea93dcdbef2ac54b502206741b74e9e"
+  },
+  {
+    "path": "docs/design/baselines/tietosuoja/phone-dark-fi-FI.png",
+    "status": "M",
+    "sha256": "6d5d6555ffa0c0ecad9460ea7f4df0a1cea93dcdbef2ac54b502206741b74e9e",
+    "image_sha256": "6d5d6555ffa0c0ecad9460ea7f4df0a1cea93dcdbef2ac54b502206741b74e9e"
+  },
+  {
+    "path": "docs/design/baselines/tietosuoja/phone-light-en-GB.png",
+    "status": "M",
+    "sha256": "79fbca18e037d01c909d7e1b5b5f5ff5d0209e4fd60c08f0160b48d5c34f8f6e",
+    "image_sha256": "79fbca18e037d01c909d7e1b5b5f5ff5d0209e4fd60c08f0160b48d5c34f8f6e"
+  },
+  {
+    "path": "docs/design/baselines/tietosuoja/phone-light-fi-FI.png",
+    "status": "M",
+    "sha256": "79fbca18e037d01c909d7e1b5b5f5ff5d0209e4fd60c08f0160b48d5c34f8f6e",
+    "image_sha256": "79fbca18e037d01c909d7e1b5b5f5ff5d0209e4fd60c08f0160b48d5c34f8f6e"
+  },
+  {
+    "path": "docs/design/baselines/tuotteet/desktop-dark-en-GB.png",
+    "status": "A",
+    "sha256": "7cc6f75d2e7635d1f10273008722b00c7905309e25d36a33a4e6a5bdf82d711b",
+    "image_sha256": "7cc6f75d2e7635d1f10273008722b00c7905309e25d36a33a4e6a5bdf82d711b"
+  },
+  {
+    "path": "docs/design/baselines/tuotteet/desktop-dark-fi-FI.png",
+    "status": "A",
+    "sha256": "7cc6f75d2e7635d1f10273008722b00c7905309e25d36a33a4e6a5bdf82d711b",
+    "image_sha256": "7cc6f75d2e7635d1f10273008722b00c7905309e25d36a33a4e6a5bdf82d711b"
+  },
+  {
+    "path": "docs/design/baselines/tuotteet/desktop-light-en-GB.png",
+    "status": "A",
+    "sha256": "b481f442e1cc2ae48e6aeef57862db334e86d6a1ddce43f4181e8059133364ee",
+    "image_sha256": "b481f442e1cc2ae48e6aeef57862db334e86d6a1ddce43f4181e8059133364ee"
+  },
+  {
+    "path": "docs/design/baselines/tuotteet/desktop-light-fi-FI.png",
+    "status": "A",
+    "sha256": "b481f442e1cc2ae48e6aeef57862db334e86d6a1ddce43f4181e8059133364ee",
+    "image_sha256": "b481f442e1cc2ae48e6aeef57862db334e86d6a1ddce43f4181e8059133364ee"
+  },
+  {
+    "path": "docs/design/baselines/tuotteet/phone-dark-en-GB.png",
+    "status": "A",
+    "sha256": "58cd81266e3a017c9d8ba924a9da7bc2638217f6c1c9289f4cc43091bf1d8d96",
+    "image_sha256": "58cd81266e3a017c9d8ba924a9da7bc2638217f6c1c9289f4cc43091bf1d8d96"
+  },
+  {
+    "path": "docs/design/baselines/tuotteet/phone-dark-fi-FI.png",
+    "status": "A",
+    "sha256": "58cd81266e3a017c9d8ba924a9da7bc2638217f6c1c9289f4cc43091bf1d8d96",
+    "image_sha256": "58cd81266e3a017c9d8ba924a9da7bc2638217f6c1c9289f4cc43091bf1d8d96"
+  },
+  {
+    "path": "docs/design/baselines/tuotteet/phone-light-en-GB.png",
+    "status": "A",
+    "sha256": "79e37b1142d783badec476d52097fb7a4cf0bf97ce922a1a6b4b700094f6613a",
+    "image_sha256": "79e37b1142d783badec476d52097fb7a4cf0bf97ce922a1a6b4b700094f6613a"
+  },
+  {
+    "path": "docs/design/baselines/tuotteet/phone-light-fi-FI.png",
+    "status": "A",
+    "sha256": "79e37b1142d783badec476d52097fb7a4cf0bf97ce922a1a6b4b700094f6613a",
+    "image_sha256": "79e37b1142d783badec476d52097fb7a4cf0bf97ce922a1a6b4b700094f6613a"
+  },
+  {
+    "path": "docs/design/baselines/tyot/desktop-dark-en-GB.png",
+    "status": "D",
+    "sha256": "deleted",
+    "image_sha256": "e9173bdbf06b5eaf621a80044b6ecc91e49464e31b209086b89f2c3e956a065c"
+  },
+  {
+    "path": "docs/design/baselines/tyot/desktop-dark-fi-FI.png",
+    "status": "D",
+    "sha256": "deleted",
+    "image_sha256": "e9173bdbf06b5eaf621a80044b6ecc91e49464e31b209086b89f2c3e956a065c"
+  },
+  {
+    "path": "docs/design/baselines/tyot/desktop-light-en-GB.png",
+    "status": "D",
+    "sha256": "deleted",
+    "image_sha256": "7476b054597588155f1247b830be65ba0fb4ad06ce062a0b88e6600fce452777"
+  },
+  {
+    "path": "docs/design/baselines/tyot/desktop-light-fi-FI.png",
+    "status": "D",
+    "sha256": "deleted",
+    "image_sha256": "7476b054597588155f1247b830be65ba0fb4ad06ce062a0b88e6600fce452777"
+  },
+  {
+    "path": "docs/design/baselines/tyot/phone-dark-en-GB.png",
+    "status": "D",
+    "sha256": "deleted",
+    "image_sha256": "ba3d5ce6151994858210b03f3c78af57a8a94570fe75cf4ebe0c0f3838920594"
+  },
+  {
+    "path": "docs/design/baselines/tyot/phone-dark-fi-FI.png",
+    "status": "D",
+    "sha256": "deleted",
+    "image_sha256": "ba3d5ce6151994858210b03f3c78af57a8a94570fe75cf4ebe0c0f3838920594"
+  },
+  {
+    "path": "docs/design/baselines/tyot/phone-light-en-GB.png",
+    "status": "D",
+    "sha256": "deleted",
+    "image_sha256": "2e177d6ab1938d5fa8823aa10ea781febc942f547a2690719cf0ca2633260cf9"
+  },
+  {
+    "path": "docs/design/baselines/tyot/phone-light-fi-FI.png",
+    "status": "D",
+    "sha256": "deleted",
+    "image_sha256": "2e177d6ab1938d5fa8823aa10ea781febc942f547a2690719cf0ca2633260cf9"
+  },
+  {
+    "path": "docs/design/baselines/valmennus/desktop-dark-en-GB.png",
+    "status": "M",
+    "sha256": "36036b90d21d5beef7329db2dd063e70c682d9d320f33f50e1490259e5ca74ac",
+    "image_sha256": "36036b90d21d5beef7329db2dd063e70c682d9d320f33f50e1490259e5ca74ac"
+  },
+  {
+    "path": "docs/design/baselines/valmennus/desktop-dark-fi-FI.png",
+    "status": "M",
+    "sha256": "36036b90d21d5beef7329db2dd063e70c682d9d320f33f50e1490259e5ca74ac",
+    "image_sha256": "36036b90d21d5beef7329db2dd063e70c682d9d320f33f50e1490259e5ca74ac"
+  },
+  {
+    "path": "docs/design/baselines/valmennus/desktop-light-en-GB.png",
+    "status": "M",
+    "sha256": "dd11c7800ba3d25c81355437ffe27349f8e299a78dfdb1c36bee0e41fe95d447",
+    "image_sha256": "dd11c7800ba3d25c81355437ffe27349f8e299a78dfdb1c36bee0e41fe95d447"
+  },
+  {
+    "path": "docs/design/baselines/valmennus/desktop-light-fi-FI.png",
+    "status": "M",
+    "sha256": "dd11c7800ba3d25c81355437ffe27349f8e299a78dfdb1c36bee0e41fe95d447",
+    "image_sha256": "dd11c7800ba3d25c81355437ffe27349f8e299a78dfdb1c36bee0e41fe95d447"
+  },
+  {
+    "path": "docs/design/baselines/valmennus/phone-dark-en-GB.png",
+    "status": "M",
+    "sha256": "5066789c8683b5b5b630e2a9613a6a1524190ad79a649dace30aa55dae54a797",
+    "image_sha256": "5066789c8683b5b5b630e2a9613a6a1524190ad79a649dace30aa55dae54a797"
+  },
+  {
+    "path": "docs/design/baselines/valmennus/phone-dark-fi-FI.png",
+    "status": "M",
+    "sha256": "5066789c8683b5b5b630e2a9613a6a1524190ad79a649dace30aa55dae54a797",
+    "image_sha256": "5066789c8683b5b5b630e2a9613a6a1524190ad79a649dace30aa55dae54a797"
+  },
+  {
+    "path": "docs/design/baselines/valmennus/phone-light-en-GB.png",
+    "status": "M",
+    "sha256": "088bcb80a300e0ce58c13cc68a04db1c1518e18191072c974fd0e7a2187be569",
+    "image_sha256": "088bcb80a300e0ce58c13cc68a04db1c1518e18191072c974fd0e7a2187be569"
+  },
+  {
+    "path": "docs/design/baselines/valmennus/phone-light-fi-FI.png",
+    "status": "M",
+    "sha256": "088bcb80a300e0ce58c13cc68a04db1c1518e18191072c974fd0e7a2187be569",
+    "image_sha256": "088bcb80a300e0ce58c13cc68a04db1c1518e18191072c974fd0e7a2187be569"
+  },
+  {
+    "path": "docs/design/baselines/yritys/desktop-dark-en-GB.png",
+    "status": "M",
+    "sha256": "2a4bff439b580ad4fe0243ed9e5c647ed27a168b5aec6d1002ef5c28a73abd29",
+    "image_sha256": "2a4bff439b580ad4fe0243ed9e5c647ed27a168b5aec6d1002ef5c28a73abd29"
+  },
+  {
+    "path": "docs/design/baselines/yritys/desktop-dark-fi-FI.png",
+    "status": "M",
+    "sha256": "2a4bff439b580ad4fe0243ed9e5c647ed27a168b5aec6d1002ef5c28a73abd29",
+    "image_sha256": "2a4bff439b580ad4fe0243ed9e5c647ed27a168b5aec6d1002ef5c28a73abd29"
+  },
+  {
+    "path": "docs/design/baselines/yritys/desktop-light-en-GB.png",
+    "status": "M",
+    "sha256": "6a6c604bfdc29da26254a9df2fa3b2327e435f954de0f6b7b7dbcec5cb30c98a",
+    "image_sha256": "6a6c604bfdc29da26254a9df2fa3b2327e435f954de0f6b7b7dbcec5cb30c98a"
+  },
+  {
+    "path": "docs/design/baselines/yritys/desktop-light-fi-FI.png",
+    "status": "M",
+    "sha256": "6a6c604bfdc29da26254a9df2fa3b2327e435f954de0f6b7b7dbcec5cb30c98a",
+    "image_sha256": "6a6c604bfdc29da26254a9df2fa3b2327e435f954de0f6b7b7dbcec5cb30c98a"
+  },
+  {
+    "path": "docs/design/baselines/yritys/phone-dark-en-GB.png",
+    "status": "M",
+    "sha256": "8ef862579f3bbb63cf11b785f6ff714891b0f46623a06fd8b602bc01ab529e4c",
+    "image_sha256": "8ef862579f3bbb63cf11b785f6ff714891b0f46623a06fd8b602bc01ab529e4c"
+  },
+  {
+    "path": "docs/design/baselines/yritys/phone-dark-fi-FI.png",
+    "status": "M",
+    "sha256": "8ef862579f3bbb63cf11b785f6ff714891b0f46623a06fd8b602bc01ab529e4c",
+    "image_sha256": "8ef862579f3bbb63cf11b785f6ff714891b0f46623a06fd8b602bc01ab529e4c"
+  },
+  {
+    "path": "docs/design/baselines/yritys/phone-light-en-GB.png",
+    "status": "M",
+    "sha256": "01a3a74bd937535e649d181b246f10458bcff2436b10dee4d38ef9b29a6a894f",
+    "image_sha256": "01a3a74bd937535e649d181b246f10458bcff2436b10dee4d38ef9b29a6a894f"
+  },
+  {
+    "path": "docs/design/baselines/yritys/phone-light-fi-FI.png",
+    "status": "M",
+    "sha256": "01a3a74bd937535e649d181b246f10458bcff2436b10dee4d38ef9b29a6a894f",
+    "image_sha256": "01a3a74bd937535e649d181b246f10458bcff2436b10dee4d38ef9b29a6a894f"
+  }
+]

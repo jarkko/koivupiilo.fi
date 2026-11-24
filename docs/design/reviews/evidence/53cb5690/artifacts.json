@@ -1,0 +1,162 @@
+[
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/baseline-manifest.json",
+    "bytes": 37439,
+    "sha256": "eef36d71810d1d20fc7b722e31b5073c7ce47c0a10743d49414ca22e06bfd72e"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/changed-baselines.json",
+    "bytes": 15923,
+    "sha256": "ca4628a4e3df7f7b53eb6d201ff771725f6a2de0cfb1149ce1aa98a6d6b9ff8a"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/checks.json",
+    "bytes": 2199,
+    "sha256": "7f929688a264febf386e3fc1a1e317911382335609cada7aaac770fb7a5047dc"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/critique-assessment.md",
+    "bytes": 3183,
+    "sha256": "ecbf3acd91c122a8d962ac1499ef6e9502b4ac9cce1801582e59a0dd8dc98e72"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/en-privacy-baselines.webp",
+    "bytes": 956340,
+    "sha256": "0cdb402e2f8085ed8cb22cfb1449fc1f584ad8e4d45d17d7d68d3e43195f5bb4"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/en-privacy-default24.jpg",
+    "bytes": 1121677,
+    "sha256": "96de9e3b0fe138db5d2cd86929ff947319f90b763beb0952eb5a0ae0e19e88d7"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/en-privacy-zoom200.webp",
+    "bytes": 31622,
+    "sha256": "ae2a0e9f3b0387b22a93087c153795aed895458de28722b4f873e3c3d64a5f5d"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/en-products-baselines.webp",
+    "bytes": 321428,
+    "sha256": "d7d9da3273a4c87a417238bedc43cde26a6b274ec93a952e66dbcba3c0d3b862"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/en-products-default24.webp",
+    "bytes": 236372,
+    "sha256": "9055071ed1a2ba459f238570ffb56e393206326f21216f2bac48e7c0bc4e907b"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/en-products-zoom200.webp",
+    "bytes": 29808,
+    "sha256": "8a6de98462455ca3e50339181fab8240110da8a1ec1910dc71621ed0b976f0f8"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/en-ratametsuri-default24.webp",
+    "bytes": 355382,
+    "sha256": "5a3a86e3453378bbe912d8b3341e8443f5daf4187bd2a8c8a142c98e78ea6eb2"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/gate-warnings.md",
+    "bytes": 21393,
+    "sha256": "479fff3c273b85182a21e7683f377d2ac560e068c4e270e23f73fb51a45cffe9"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/gate.json",
+    "bytes": 36784,
+    "sha256": "623f9bdc78c08bae57104f454f73eac690e42ff491479a79bfe6a769460a38fd"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/handoff.md",
+    "bytes": 2961,
+    "sha256": "e51b0197d140c084304ebb80f2073370b4e85826eba42f164c41425f93dd36fd"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/journey-en-1440-dark.webp",
+    "bytes": 174878,
+    "sha256": "94be43085c05734478999c2cc406a1bacbc36eefe1f081716258c9ec8653eef0"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/journey-en-1440-light.webp",
+    "bytes": 173472,
+    "sha256": "505231af761e99fe2ccdc33e29ab8eb77a1e200aef761354d10cd90b237ffafa"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/journey-en-390-dark.webp",
+    "bytes": 421726,
+    "sha256": "a471c0a0c5c58353cd162e34c9448a77995b5adc1480c72b23e46563671dd5e0"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/journey-en-390-light.webp",
+    "bytes": 417798,
+    "sha256": "9f5aafd1ad7b7cad04c2638a426ec3731b1c5153e4d206406c64c31b801ba970"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/journey-fi-1440-dark.webp",
+    "bytes": 173534,
+    "sha256": "c7ba8f2758fed3425370ba34f4fdcde8729c44b3c925295b2f34c4a01d96a898"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/journey-fi-1440-light.webp",
+    "bytes": 173732,
+    "sha256": "45ffdce5468735fa25da2a9485b1524deed687dd6003373de8fbbaf0a7a7af45"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/journey-fi-390-dark.webp",
+    "bytes": 421908,
+    "sha256": "6a1ac1c4faf41d8441085e1b76af3b3a14071fec03e88e5da3ac70bd32ed5203"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/journey-fi-390-light.webp",
+    "bytes": 422694,
+    "sha256": "e51828e577fe5829a1371b20163584a6cc23ea8ca141a08d2ce523f34809a022"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/ratametsuri-default24.webp",
+    "bytes": 355336,
+    "sha256": "10cfef1a291f281dfcc6ebd8273ecd904f7a66ebae8b4266f5a938a8a298b98f"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/review-notes.md",
+    "bytes": 6618,
+    "sha256": "9920358c410718382758e2b1787ee6d6781295496a32f6496bb1eca41963c6a9"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/review-verify.json",
+    "bytes": 4391,
+    "sha256": "d401daba457303d8a5890cdcb198368588bc8a8b2ef4e19a8bbbbd7300e2a8d5"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/tietosuoja-baselines.webp",
+    "bytes": 1063930,
+    "sha256": "b6ba514ac89e5199e7e48fbc39e940a9161e7061367b52eb5a0b7ace25c09e0a"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/tietosuoja-default24.jpg",
+    "bytes": 1229702,
+    "sha256": "15c2b80034edc0ccfe069785344422a20240c90e4f26d384b86c044d59761c8b"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/tietosuoja-zoom200.webp",
+    "bytes": 38338,
+    "sha256": "9f5d90e62af1e4a22e32db11f7d77bf04812dcfbe4e6b68b58eba3b1570c2b47"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/tuotteet-baselines.webp",
+    "bytes": 304364,
+    "sha256": "7c384c35b795684a2a240df3d8f120cef51552d217cf719aaff6434586702af7"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/tuotteet-default24.webp",
+    "bytes": 222740,
+    "sha256": "e33eb2c0de2c610710d6010761ac2bed83e567fd7c68519e7c203635e289da12"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/tuotteet-zoom200.webp",
+    "bytes": 27810,
+    "sha256": "4158d2de35038418b45fbf2c571694e292f6ab3863f1cbf43ef3992685bf70c1"
+  },
+  {
+    "path": "docs/design/reviews/evidence/53cb5690/walk-report.json",
+    "bytes": 216673,
+    "sha256": "04716887f2d58e909a19318a84bf5b17107085d1252fa4f152922448342f8214"
+  }
+]
