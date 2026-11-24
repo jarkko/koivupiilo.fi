@@ -144,7 +144,8 @@
         data-msg-invalid-email="<%= b.invalid_email %>"
         data-msg-rate-limited="<%= b.rate_limited %>"
         data-msg-failed="<%= b.failed %>"
-        data-msg-offline="<%= b.offline %>">
+        data-msg-offline="<%= b.offline %>"
+        data-msg-consent-required="<%= b.consent_required %>">
         <label class="field-label" for="email"><%= b.field_label %></label>
         <input id="email" name="email" type="email" autocomplete="email" inputmode="email" autocapitalize="off" spellcheck="false" required>
         <%# The invalid-address answer sits under the field it is about: launchpad's 422 (form.js marks
@@ -161,9 +162,10 @@
           <input id="website" name="website" type="text" value="" tabindex="-1" autocomplete="off" aria-hidden="true">
         </div>
         <div class="consent">
-          <input id="consent" type="checkbox" required>
+          <input id="consent" name="consent_given" type="checkbox" value="yes" required>
           <label for="consent"><%= consent_lead %><a href="<%= privacy %>"><%= consent.link_text %></a></label>
         </div>
+        <p class="consent-err" id="consent-error" data-launchpad-consent-error hidden></p>
         <button type="submit"><%= b.button %></button>
         <div class="msgs">
           <p class="answer" id="signup-status" data-launchpad-status role="status"></p>
