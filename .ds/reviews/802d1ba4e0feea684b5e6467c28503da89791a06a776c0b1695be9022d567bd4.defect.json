@@ -1,0 +1,223 @@
+{
+  "kind": "defect",
+  "ui_diff_hash": "802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4",
+  "head_sha": "8ef7aa28b6dad1dc10c4ef7988753b1ea1a53630",
+  "reviewer_run_id": "ctx_25ec406e3f20",
+  "implementer_family": "claude",
+  "reviewer_family": "gpt",
+  "walked": [
+    "W3"
+  ],
+  "regions": [
+    "fi_FI",
+    "en_GB"
+  ],
+  "rubric": [
+    {
+      "id": "house-rules",
+      "result": "pass",
+      "blocking": false,
+      "note": "Both language versions preserve a single reading hierarchy and no competing primary actions. Text, focus and links remain visible across the requested matrix. No new media, claims or third-party fonts were introduced. Editorial/legal assertions are explicitly outside this review; token lint is disabled by kit.toml.",
+      "evidence": [
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-390-light-font16-fi-FI.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/en-390-dark-font16-en-GB.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-1440-light-font16-fi-FI.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/en-1440-dark-font16-en-GB.jpg"
+      ]
+    },
+    {
+      "id": "model",
+      "result": "pass",
+      "blocking": false,
+      "note": "M2/D3 and W3: both privacy routes retain their own lang/title, unique H1, seven correctly labelled H2 sections, unique ids and matched language links; all 48 language activations preserve the privacy page. The structural move is within an existing page, with no new object, lifecycle, task or navigation destination. M3/legal claim accuracy and vocabulary editing remain with the owner/editorial pipeline.",
+      "evidence": [
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-390-light-font16-fi-FI.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/en-390-dark-font16-en-GB.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-1440-light-font16-fi-FI.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/en-1440-dark-font16-en-GB.jpg"
+      ]
+    },
+    {
+      "id": "heuristics",
+      "result": "pass",
+      "blocking": false,
+      "note": "The company and product passages share consistent row treatment; the Ratametsuri row sits between Email and Who handles the data. Desktop labels form a scan column and phone rows become a single readable column. A visible rights email and controller email provide the contact path; no input, destructive action, saved state or recovery dialog exists on the privacy pages. The short seven-section page does not need the large linked contents lists used by the much longer reference policies. Reference hierarchy inspected at https://stripe.com/privacy and https://linear.app/privacy; no copy/legal comparison was made.",
+      "evidence": [
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-390-light-font16-fi-FI.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/en-390-dark-font16-en-GB.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-1440-light-font16-fi-FI.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/en-1440-dark-font16-en-GB.jpg"
+      ]
+    },
+    {
+      "id": "interaction-craft",
+      "result": "pass",
+      "blocking": false,
+      "note": "W3 language and system-appearance changes were driven in the running app with reduced and ordinary motion; before/about-300-ms/settled strips show no blank or wrong-language settled frame. Keyboard Tab/Enter reaches the skip link, navigation, inline emails, controller and footer with visible 2 px focus and no trapped/obscured target. Counter extension: 32 baseline/loaded/2.5-second-delayed/blocked script cells preserve invalid-address focus and successful signup with exactly one mocked POST each. Two added signup strips cover pending and accepted states. External signup and telemetry POSTs were intercepted; no real address or external state was written.",
+      "evidence": [
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/transition-strips.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/keyboard-fi-dark-8.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/keyboard-en-light-8.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/product-fi-390-light-loaded-before.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/product-fi-390-light-loaded-300ms.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/product-fi-390-light-loaded-after.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/product-en-390-light-loaded-before.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/product-en-390-light-loaded-300ms.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/product-en-390-light-loaded-after.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/execution-summary.png"
+      ]
+    },
+    {
+      "id": "platform",
+      "result": "fail",
+      "blocking": false,
+      "note": "48 headless-shell privacy cells: both pages × 390/1440 × light/dark × 16/24/32 px actual browser defaults × fi-FI/en-GB; rendered body text grows 17 → 25.5 → 34 px. Zero overflow, clipped content, duplicate ids, broken aria-labelledby or axe violations/incomplete checks. Computed text/muted/focus contrast is 16.49/6.22/5.35:1 in light and 15.75/7.09/7.21:1 in dark; text and focus thresholds pass. Native browser zoom at every offered 100,110,125,150,175,200% step: 24 desktop page/theme cells pass; 200% top, Ratametsuri and controller screenshots attached. Supplemental full Chrome was isolated for its native zoom settings; the supplied shell was used for all other runs. Twelve 320/390/1440 increased-text-spacing cells pass. A true Firefox/Safari text-only zoom and physical assistive technology were not available; browser-default-text testing is an additional stress check, not a claim of those tests. The minor unhyphenated FI break remains.",
+      "evidence": [
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-390-light-font32-fi-FI.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/en-390-dark-font32-en-GB.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-1440-dark-font32-fi-FI.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/en-1440-light-font32-en-GB.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/zoom200-fi-light-ratametsuri.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/zoom200-en-dark-controller.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/execution-summary.png"
+      ]
+    },
+    {
+      "id": "owner-rules",
+      "result": "pass",
+      "blocking": false,
+      "note": "Both pages follow prefers-color-scheme and expose no appearance toggle or visible UUID. The counter website UUID is an invisible script attribute, not user-facing content. The two languages remain on the same paired privacy paths.",
+      "evidence": [
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-390-light-font16-fi-FI.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/en-390-dark-font16-en-GB.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-1440-light-font16-fi-FI.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/en-1440-dark-font16-en-GB.jpg"
+      ]
+    },
+    {
+      "id": "web-quality",
+      "result": "fail",
+      "blocking": true,
+      "note": "Production deploy and publish succeed. publish output contains 25 HTML files and zero data-ds-allow strings; the stripped privacy pages pass 16 further normal/large-text smoke cells with HTTP 200, seven sections, functional skip links and language switching. Raw machine reports remain under ignored design/shots/privacy-review/ as instructed; their bounded results are reproduced in this JSON and execution-summary.png, so all cited evidence is committed. Gate: 0 errors; 42 gate warnings: D1–D19 each lacks a Supersedes field (19); model.no-results: no configured tagged-test result files (1); retrofit.baselined: 9 accepted model gaps in retrofit.tsv (1); allowed skip-link tap-target warnings on /, /tyot/, /studio/, /valmennus/, /yritys/, /tietosuoja/, /en/, /en/work/, /en/studio/, /en/coaching/, /en/company/, /en/privacy/, /404.html, /ratametsuri/, /en/ratametsuri/ (15); pre-existing 404 pseudo-element contrast uncertainty for h1, first-section p, FI recovery link, h2, second-section p and EN recovery link (6). These decided allowances are recorded, not new findings. The visual run before the counter-origin allow-list fix reports 16 privacy size changes; its two origin errors are superseded by the current gate, while the changed-height screenshots remain valid. Counter performance comparison uses the real fetched 4773-byte script with controlled local production assets: identical geometry and pixel-identical full-page images in all eight normal route/width/theme pairs, no page errors; median observed LCP absent 48 ms, loaded 46 ms, delayed 48 ms, blocked 46 ms. These local PerformanceObserver samples show no counter regression; they are not fresh throttled Lighthouse budget measurements. Existing Lighthouse evidence in f42b0d0f is historical, not re-labelled as current.",
+      "evidence": [
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-390-light-font16-fi-FI.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-390-light-font32-fi-FI.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-390-dark-font16-fi-FI.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-390-dark-font32-fi-FI.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-1440-light-font16-fi-FI.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-1440-light-font32-fi-FI.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-1440-dark-font16-fi-FI.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-1440-dark-font32-fi-FI.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/en-390-light-font16-en-GB.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/en-390-light-font32-en-GB.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/en-390-dark-font16-en-GB.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/en-390-dark-font32-en-GB.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/en-1440-light-font16-en-GB.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/en-1440-light-font32-en-GB.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/en-1440-dark-font16-en-GB.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/en-1440-dark-font32-en-GB.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-large-title.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-390-dark-font32-fi-FI-ratametsuri.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/transition-strips.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/keyboard-fi-dark-8.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/keyboard-en-light-8.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/skip-fi-light.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/skip-en-dark.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/zoom200-fi-light-top.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/zoom200-fi-light-ratametsuri.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/zoom200-fi-light-controller.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/zoom200-fi-dark-top.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/zoom200-fi-dark-ratametsuri.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/zoom200-fi-dark-controller.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/zoom200-en-light-top.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/zoom200-en-light-ratametsuri.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/zoom200-en-light-controller.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/zoom200-en-dark-top.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/zoom200-en-dark-ratametsuri.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/zoom200-en-dark-controller.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/product-fi-390-light-loaded-before.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/product-fi-390-light-loaded-300ms.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/product-fi-390-light-loaded-after.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/published-fi-390-light-font16.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/published-fi-1440-dark-font32.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/product-en-390-light-loaded-before.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/product-en-390-light-loaded-300ms.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/product-en-390-light-loaded-after.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/published-en-390-light-font16.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/published-en-1440-dark-font32.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/product-fi-1440-light-loaded.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/product-en-390-dark-loaded.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/execution-summary.png"
+      ]
+    },
+    {
+      "id": "plan-conformance",
+      "result": "pass",
+      "blocking": false,
+      "note": "PR #4 rewrites the existing bilingual company privacy page and moves Ratametsuri between the two company section lists. The rendered order matches that scope, with one controller/contact section and no new UI flow. The coordinator extended scope only to counter interference on the two Ratametsuri routes; its layout, LCP samples and signup paths were checked. Copy, tone and legal sufficiency were not judged.",
+      "evidence": [
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-390-light-font16-fi-FI.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/en-390-dark-font16-en-GB.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-1440-light-font16-fi-FI.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/en-1440-dark-font16-en-GB.jpg"
+      ]
+    },
+    {
+      "id": "approved-design",
+      "result": "pass",
+      "blocking": false,
+      "note": "The existing approved Koivupiilo row grid, type, bark edge, monochrome system-theme treatment and footer are preserved. The shorter Ratametsuri row now shares the company section hierarchy. No new look-and-feel direction or signature animation was introduced. Best-in-class comparisons informed hierarchy and reading comfort; they did not impose a long-policy contents list on this shorter page.",
+      "evidence": [
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-390-light-font16-fi-FI.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/en-390-dark-font16-en-GB.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-1440-light-font16-fi-FI.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/en-1440-dark-font16-en-GB.jpg"
+      ]
+    },
+    {
+      "id": "baseline",
+      "result": "fail",
+      "blocking": true,
+      "note": "The rendered shortening and reordered sections are intended by PR #4; no unexplained layout drift appears. The committed baseline images still need the refresh and independent hash approval required by the guide. No baseline file is edited or approved by a failing verdict.",
+      "evidence": [
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-390-light-font16-fi-FI.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/en-390-dark-font16-en-GB.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-1440-light-font16-fi-FI.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/en-1440-dark-font16-en-GB.jpg"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "severity": "blocking",
+      "rubric": "web-quality",
+      "walk": "W3",
+      "message": "The two privacy pages have no current visual baselines: all 16 committed privacy matrix images still contain the former text and section order. ds run visual reports visual.size-changed in all 16 cells (for example FI phone 390×4444 → 390×3121 and desktop 1440×3877 → 1440×2922). Refresh only the FI/EN privacy baselines with the repository renderer and obtain independent approval of their exact hashes before merging; the intended shorter page is not itself a layout defect.",
+      "evidence": [
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-390-light-font16-fi-FI.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/en-390-dark-font16-en-GB.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-1440-light-font16-fi-FI.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/en-1440-dark-font16-en-GB.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/execution-summary.png",
+        "docs/design/baselines/tietosuoja/phone-light-fi-FI.png",
+        "docs/design/baselines/en/privacy/desktop-dark-en-GB.png"
+      ]
+    },
+    {
+      "id": "F2",
+      "severity": "minor",
+      "rubric": "platform",
+      "walk": "W3",
+      "message": "At /tietosuoja/ with 390 px width and 32 px browser default text, the title breaks as “Tietosu” / “oja” and the Ratametsuri paragraph breaks “sähköpostiosoittee” / “si” without a hyphen. Add tested Finnish hyphenation or discretionary break points while retaining overflow-safe reflow, so readers see recognisable word divisions at large text. All content remains present and controls work; this is reading polish, not an AA resize/reflow failure or an editorial judgment.",
+      "evidence": [
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-large-title.jpg",
+        "docs/design/reviews/evidence/802d1ba4e0feea684b5e6467c28503da89791a06a776c0b1695be9022d567bd4/fi-390-dark-font32-fi-FI-ratametsuri.jpg"
+      ]
+    }
+  ],
+  "no_further_issues_reason": "The independent review walked W3 on both privacy pages, in both shipped browser regions, at phone/desktop widths, light/dark, normal/large defaults, every native desktop zoom step through 200%, narrow reflow, text spacing and keyboard/skip-link states. Normal hierarchy, row separation, contrast, region switching and the relocated Ratametsuri section remained usable; the only visible polish issue was unhyphenated Finnish word breaks at the maximum default text size. The published build was walked after allowance stripping. The counter-only scope extension adds eight layout/pixel comparisons and 32 signup/LCP condition cells with no interference; no editorial/legal assessment was made.",
+  "model_changes": [],
+  "baselines_approved": [],
+  "verdict": "fail"
+}
