@@ -1,0 +1,4561 @@
+{
+  "head": "5501c2a6c79f1daaa4a7a3b95e78fae0a5f4101b",
+  "cells": [
+    {
+      "name": "fi-390-light-font16",
+      "state": "accepted",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "17px",
+      "email": {
+        "x": 62.796875,
+        "y": 344.8125,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 396.8125,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 62.796875,
+        "y": 556.09375,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 608.09375
+      },
+      "status": {
+        "x": 62.796875,
+        "y": 620.890625,
+        "w": 311.203125,
+        "h": 73.921875,
+        "bottom": 694.8125,
+        "text": "L\u00e4hetimme vahvistusviestin osoitteeseen a@b. Vahvista osoitteesi viestin painikkeella."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "accepted-short"
+    },
+    {
+      "name": "fi-390-light-font16",
+      "state": "accepted",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "17px",
+      "email": {
+        "x": 62.796875,
+        "y": 344.8125,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 396.8125,
+        "value": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 62.796875,
+        "y": 556.09375,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 608.09375
+      },
+      "status": {
+        "x": 62.796875,
+        "y": 620.890625,
+        "w": 311.203125,
+        "h": 123.203125,
+        "bottom": 744.09375,
+        "text": "L\u00e4hetimme vahvistusviestin osoitteeseen marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Vahvista osoitteesi viestin painikkeella."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "accepted-long"
+    },
+    {
+      "name": "fi-390-light-font16",
+      "state": "sending",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "17px",
+      "email": {
+        "x": 62.796875,
+        "y": 344.8125,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 396.8125,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 62.796875,
+        "y": 556.09375,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 608.09375
+      },
+      "status": {
+        "x": 62.796875,
+        "y": 620.890625,
+        "w": 311.203125,
+        "h": 123.203125,
+        "bottom": 744.09375,
+        "text": "L\u00e4hetimme vahvistusviestin osoitteeseen marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Vahvista osoitteesi viestin painikkeella."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "offline"
+    },
+    {
+      "name": "fi-390-light-font16",
+      "state": "error",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "17px",
+      "email": {
+        "x": 62.796875,
+        "y": 395.8125,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 447.8125,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 62.796875,
+        "y": 607.09375,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 659.09375
+      },
+      "status": {
+        "x": 62.796875,
+        "y": 671.890625,
+        "w": 311.203125,
+        "h": 73.921875,
+        "bottom": 745.8125,
+        "text": "T\u00e4m\u00e4 ei n\u00e4yt\u00e4 s\u00e4hk\u00f6postiosoitteelta. Tarkista osoite.\u00a0"
+      },
+      "focus": "email",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "invalid"
+    },
+    {
+      "name": "fi-390-light-font16",
+      "state": "error",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "17px",
+      "email": {
+        "x": 62.796875,
+        "y": 395.8125,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 447.8125,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 62.796875,
+        "y": 607.09375,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 659.09375
+      },
+      "status": {
+        "x": 62.796875,
+        "y": 671.890625,
+        "w": 311.203125,
+        "h": 73.921875,
+        "bottom": 745.8125,
+        "text": "T\u00e4m\u00e4 ei n\u00e4yt\u00e4 s\u00e4hk\u00f6postiosoitteelta. Tarkista osoite.\u00a0"
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "fragment-confirmation"
+    },
+    {
+      "name": "fi-390-dark-font16",
+      "state": "accepted",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "17px",
+      "email": {
+        "x": 62.796875,
+        "y": 344.8125,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 396.8125,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 62.796875,
+        "y": 556.09375,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 608.09375
+      },
+      "status": {
+        "x": 62.796875,
+        "y": 620.890625,
+        "w": 311.203125,
+        "h": 73.921875,
+        "bottom": 694.8125,
+        "text": "L\u00e4hetimme vahvistusviestin osoitteeseen a@b. Vahvista osoitteesi viestin painikkeella."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "accepted-short"
+    },
+    {
+      "name": "fi-390-dark-font16",
+      "state": "accepted",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "17px",
+      "email": {
+        "x": 62.796875,
+        "y": 344.8125,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 396.8125,
+        "value": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 62.796875,
+        "y": 556.09375,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 608.09375
+      },
+      "status": {
+        "x": 62.796875,
+        "y": 620.890625,
+        "w": 311.203125,
+        "h": 123.203125,
+        "bottom": 744.09375,
+        "text": "L\u00e4hetimme vahvistusviestin osoitteeseen marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Vahvista osoitteesi viestin painikkeella."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "accepted-long"
+    },
+    {
+      "name": "fi-390-dark-font16",
+      "state": "sending",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "17px",
+      "email": {
+        "x": 62.796875,
+        "y": 344.8125,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 396.8125,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 62.796875,
+        "y": 556.09375,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 608.09375
+      },
+      "status": {
+        "x": 62.796875,
+        "y": 620.890625,
+        "w": 311.203125,
+        "h": 123.203125,
+        "bottom": 744.09375,
+        "text": "L\u00e4hetimme vahvistusviestin osoitteeseen marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Vahvista osoitteesi viestin painikkeella."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "offline"
+    },
+    {
+      "name": "fi-390-dark-font16",
+      "state": "error",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "17px",
+      "email": {
+        "x": 62.796875,
+        "y": 395.8125,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 447.8125,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 62.796875,
+        "y": 607.09375,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 659.09375
+      },
+      "status": {
+        "x": 62.796875,
+        "y": 671.890625,
+        "w": 311.203125,
+        "h": 73.921875,
+        "bottom": 745.8125,
+        "text": "T\u00e4m\u00e4 ei n\u00e4yt\u00e4 s\u00e4hk\u00f6postiosoitteelta. Tarkista osoite.\u00a0"
+      },
+      "focus": "email",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "invalid"
+    },
+    {
+      "name": "fi-390-dark-font16",
+      "state": "error",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "17px",
+      "email": {
+        "x": 62.796875,
+        "y": 395.8125,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 447.8125,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 62.796875,
+        "y": 607.09375,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 659.09375
+      },
+      "status": {
+        "x": 62.796875,
+        "y": 671.890625,
+        "w": 311.203125,
+        "h": 73.921875,
+        "bottom": 745.8125,
+        "text": "T\u00e4m\u00e4 ei n\u00e4yt\u00e4 s\u00e4hk\u00f6postiosoitteelta. Tarkista osoite.\u00a0"
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "fragment-confirmation"
+    },
+    {
+      "name": "fi-1440-light-font16",
+      "state": "accepted",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "email": {
+        "x": 585.75,
+        "y": 781.15625,
+        "w": 748.65625,
+        "h": 52,
+        "bottom": 833.15625,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 1196.328125,
+        "y": 847.546875,
+        "w": 138.078125,
+        "h": 52,
+        "bottom": 899.546875
+      },
+      "status": {
+        "x": 585.75,
+        "y": 925.59375,
+        "w": 748.65625,
+        "h": 49.28125,
+        "bottom": 974.875,
+        "text": "L\u00e4hetimme vahvistusviestin osoitteeseen a@b. Vahvista osoitteesi viestin painikkeella."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "accepted-short"
+    },
+    {
+      "name": "fi-1440-light-font16",
+      "state": "accepted",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "email": {
+        "x": 585.75,
+        "y": 781.15625,
+        "w": 748.65625,
+        "h": 52,
+        "bottom": 833.15625,
+        "value": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 1196.328125,
+        "y": 847.546875,
+        "w": 138.078125,
+        "h": 52,
+        "bottom": 899.546875
+      },
+      "status": {
+        "x": 585.75,
+        "y": 925.59375,
+        "w": 748.65625,
+        "h": 49.28125,
+        "bottom": 974.875,
+        "text": "L\u00e4hetimme vahvistusviestin osoitteeseen marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Vahvista osoitteesi viestin painikkeella."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "accepted-long"
+    },
+    {
+      "name": "fi-1440-light-font16",
+      "state": "sending",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "email": {
+        "x": 585.75,
+        "y": 781.15625,
+        "w": 748.65625,
+        "h": 52,
+        "bottom": 833.15625,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 1196.328125,
+        "y": 847.546875,
+        "w": 138.078125,
+        "h": 52,
+        "bottom": 899.546875
+      },
+      "status": {
+        "x": 585.75,
+        "y": 925.59375,
+        "w": 748.65625,
+        "h": 49.28125,
+        "bottom": 974.875,
+        "text": "L\u00e4hetimme vahvistusviestin osoitteeseen marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Vahvista osoitteesi viestin painikkeella."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "offline"
+    },
+    {
+      "name": "fi-1440-light-font16",
+      "state": "error",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "email": {
+        "x": 585.75,
+        "y": 601.15625,
+        "w": 748.65625,
+        "h": 52,
+        "bottom": 653.15625,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 1196.328125,
+        "y": 667.546875,
+        "w": 138.078125,
+        "h": 52,
+        "bottom": 719.546875
+      },
+      "status": {
+        "x": 585.75,
+        "y": 745.59375,
+        "w": 748.65625,
+        "h": 49.28125,
+        "bottom": 794.875,
+        "text": "T\u00e4m\u00e4 ei n\u00e4yt\u00e4 s\u00e4hk\u00f6postiosoitteelta. Tarkista osoite.\u00a0"
+      },
+      "focus": "email",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "invalid"
+    },
+    {
+      "name": "fi-1440-light-font16",
+      "state": "error",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "email": {
+        "x": 585.75,
+        "y": 601.15625,
+        "w": 748.65625,
+        "h": 52,
+        "bottom": 653.15625,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 1196.328125,
+        "y": 667.546875,
+        "w": 138.078125,
+        "h": 52,
+        "bottom": 719.546875
+      },
+      "status": {
+        "x": 585.75,
+        "y": 745.59375,
+        "w": 748.65625,
+        "h": 49.28125,
+        "bottom": 794.875,
+        "text": "T\u00e4m\u00e4 ei n\u00e4yt\u00e4 s\u00e4hk\u00f6postiosoitteelta. Tarkista osoite.\u00a0"
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "fragment-confirmation"
+    },
+    {
+      "name": "fi-1440-dark-font16",
+      "state": "accepted",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "email": {
+        "x": 585.75,
+        "y": 781.15625,
+        "w": 748.65625,
+        "h": 52,
+        "bottom": 833.15625,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 1196.328125,
+        "y": 847.546875,
+        "w": 138.078125,
+        "h": 52,
+        "bottom": 899.546875
+      },
+      "status": {
+        "x": 585.75,
+        "y": 925.59375,
+        "w": 748.65625,
+        "h": 49.28125,
+        "bottom": 974.875,
+        "text": "L\u00e4hetimme vahvistusviestin osoitteeseen a@b. Vahvista osoitteesi viestin painikkeella."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "accepted-short"
+    },
+    {
+      "name": "fi-1440-dark-font16",
+      "state": "accepted",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "email": {
+        "x": 585.75,
+        "y": 781.15625,
+        "w": 748.65625,
+        "h": 52,
+        "bottom": 833.15625,
+        "value": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 1196.328125,
+        "y": 847.546875,
+        "w": 138.078125,
+        "h": 52,
+        "bottom": 899.546875
+      },
+      "status": {
+        "x": 585.75,
+        "y": 925.59375,
+        "w": 748.65625,
+        "h": 49.28125,
+        "bottom": 974.875,
+        "text": "L\u00e4hetimme vahvistusviestin osoitteeseen marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Vahvista osoitteesi viestin painikkeella."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "accepted-long"
+    },
+    {
+      "name": "fi-1440-dark-font16",
+      "state": "sending",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "email": {
+        "x": 585.75,
+        "y": 781.15625,
+        "w": 748.65625,
+        "h": 52,
+        "bottom": 833.15625,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 1196.328125,
+        "y": 847.546875,
+        "w": 138.078125,
+        "h": 52,
+        "bottom": 899.546875
+      },
+      "status": {
+        "x": 585.75,
+        "y": 925.59375,
+        "w": 748.65625,
+        "h": 49.28125,
+        "bottom": 974.875,
+        "text": "L\u00e4hetimme vahvistusviestin osoitteeseen marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Vahvista osoitteesi viestin painikkeella."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "offline"
+    },
+    {
+      "name": "fi-1440-dark-font16",
+      "state": "error",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "email": {
+        "x": 585.75,
+        "y": 601.15625,
+        "w": 748.65625,
+        "h": 52,
+        "bottom": 653.15625,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 1196.328125,
+        "y": 667.546875,
+        "w": 138.078125,
+        "h": 52,
+        "bottom": 719.546875
+      },
+      "status": {
+        "x": 585.75,
+        "y": 745.59375,
+        "w": 748.65625,
+        "h": 49.28125,
+        "bottom": 794.875,
+        "text": "T\u00e4m\u00e4 ei n\u00e4yt\u00e4 s\u00e4hk\u00f6postiosoitteelta. Tarkista osoite.\u00a0"
+      },
+      "focus": "email",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "invalid"
+    },
+    {
+      "name": "fi-1440-dark-font16",
+      "state": "error",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "email": {
+        "x": 585.75,
+        "y": 601.15625,
+        "w": 748.65625,
+        "h": 52,
+        "bottom": 653.15625,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 1196.328125,
+        "y": 667.546875,
+        "w": 138.078125,
+        "h": 52,
+        "bottom": 719.546875
+      },
+      "status": {
+        "x": 585.75,
+        "y": 745.59375,
+        "w": 748.65625,
+        "h": 49.28125,
+        "bottom": 794.875,
+        "text": "T\u00e4m\u00e4 ei n\u00e4yt\u00e4 s\u00e4hk\u00f6postiosoitteelta. Tarkista osoite.\u00a0"
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "fragment-confirmation"
+    },
+    {
+      "name": "en-390-light-font16",
+      "state": "accepted",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "17px",
+      "email": {
+        "x": 62.796875,
+        "y": 184.625,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 236.625,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 62.796875,
+        "y": 395.90625,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 447.90625
+      },
+      "status": {
+        "x": 62.796875,
+        "y": 460.703125,
+        "w": 311.203125,
+        "h": 73.921875,
+        "bottom": 534.625,
+        "text": "We sent a confirmation email to a@b. Confirm your address with the button in it."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "accepted-short"
+    },
+    {
+      "name": "en-390-light-font16",
+      "state": "accepted",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "17px",
+      "email": {
+        "x": 62.796875,
+        "y": 184.625,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 236.625,
+        "value": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 62.796875,
+        "y": 395.90625,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 447.90625
+      },
+      "status": {
+        "x": 62.796875,
+        "y": 460.703125,
+        "w": 311.203125,
+        "h": 123.203125,
+        "bottom": 583.90625,
+        "text": "We sent a confirmation email to marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Confirm your address with the button in it."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "accepted-long"
+    },
+    {
+      "name": "en-390-light-font16",
+      "state": "sending",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "17px",
+      "email": {
+        "x": 62.796875,
+        "y": 184.625,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 236.625,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 62.796875,
+        "y": 395.90625,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 447.90625
+      },
+      "status": {
+        "x": 62.796875,
+        "y": 460.703125,
+        "w": 311.203125,
+        "h": 123.203125,
+        "bottom": 583.90625,
+        "text": "We sent a confirmation email to marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Confirm your address with the button in it."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "offline"
+    },
+    {
+      "name": "en-390-light-font16",
+      "state": "error",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "17px",
+      "email": {
+        "x": 62.796875,
+        "y": 395.625,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 447.625,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 62.796875,
+        "y": 606.90625,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 658.90625
+      },
+      "status": {
+        "x": 62.796875,
+        "y": 671.703125,
+        "w": 311.203125,
+        "h": 73.921875,
+        "bottom": 745.625,
+        "text": "That doesn't look like an email address. Please check it.\u00a0"
+      },
+      "focus": "email",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "invalid"
+    },
+    {
+      "name": "en-390-light-font16",
+      "state": "error",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "17px",
+      "email": {
+        "x": 62.796875,
+        "y": 395.625,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 447.625,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 62.796875,
+        "y": 606.90625,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 658.90625
+      },
+      "status": {
+        "x": 62.796875,
+        "y": 671.703125,
+        "w": 311.203125,
+        "h": 73.921875,
+        "bottom": 745.625,
+        "text": "That doesn't look like an email address. Please check it.\u00a0"
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "fragment-confirmation"
+    },
+    {
+      "name": "en-390-dark-font16",
+      "state": "accepted",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "17px",
+      "email": {
+        "x": 62.796875,
+        "y": 184.625,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 236.625,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 62.796875,
+        "y": 395.90625,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 447.90625
+      },
+      "status": {
+        "x": 62.796875,
+        "y": 460.703125,
+        "w": 311.203125,
+        "h": 73.921875,
+        "bottom": 534.625,
+        "text": "We sent a confirmation email to a@b. Confirm your address with the button in it."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "accepted-short"
+    },
+    {
+      "name": "en-390-dark-font16",
+      "state": "accepted",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "17px",
+      "email": {
+        "x": 62.796875,
+        "y": 184.625,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 236.625,
+        "value": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 62.796875,
+        "y": 395.90625,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 447.90625
+      },
+      "status": {
+        "x": 62.796875,
+        "y": 460.703125,
+        "w": 311.203125,
+        "h": 123.203125,
+        "bottom": 583.90625,
+        "text": "We sent a confirmation email to marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Confirm your address with the button in it."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "accepted-long"
+    },
+    {
+      "name": "en-390-dark-font16",
+      "state": "sending",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "17px",
+      "email": {
+        "x": 62.796875,
+        "y": 184.625,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 236.625,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 62.796875,
+        "y": 395.90625,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 447.90625
+      },
+      "status": {
+        "x": 62.796875,
+        "y": 460.703125,
+        "w": 311.203125,
+        "h": 123.203125,
+        "bottom": 583.90625,
+        "text": "We sent a confirmation email to marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Confirm your address with the button in it."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "offline"
+    },
+    {
+      "name": "en-390-dark-font16",
+      "state": "error",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "17px",
+      "email": {
+        "x": 62.796875,
+        "y": 395.625,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 447.625,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 62.796875,
+        "y": 606.90625,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 658.90625
+      },
+      "status": {
+        "x": 62.796875,
+        "y": 671.703125,
+        "w": 311.203125,
+        "h": 73.921875,
+        "bottom": 745.625,
+        "text": "That doesn't look like an email address. Please check it.\u00a0"
+      },
+      "focus": "email",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "invalid"
+    },
+    {
+      "name": "en-390-dark-font16",
+      "state": "error",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "17px",
+      "email": {
+        "x": 62.796875,
+        "y": 395.625,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 447.625,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 62.796875,
+        "y": 606.90625,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 658.90625
+      },
+      "status": {
+        "x": 62.796875,
+        "y": 671.703125,
+        "w": 311.203125,
+        "h": 73.921875,
+        "bottom": 745.625,
+        "text": "That doesn't look like an email address. Please check it.\u00a0"
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "fragment-confirmation"
+    },
+    {
+      "name": "en-1440-light-font16",
+      "state": "accepted",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "email": {
+        "x": 585.75,
+        "y": 781.265625,
+        "w": 748.65625,
+        "h": 52,
+        "bottom": 833.265625,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 1166.609375,
+        "y": 847.65625,
+        "w": 167.796875,
+        "h": 52,
+        "bottom": 899.65625
+      },
+      "status": {
+        "x": 585.75,
+        "y": 925.703125,
+        "w": 748.65625,
+        "h": 49.28125,
+        "bottom": 974.984375,
+        "text": "We sent a confirmation email to a@b. Confirm your address with the button in it."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "accepted-short"
+    },
+    {
+      "name": "en-1440-light-font16",
+      "state": "accepted",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "email": {
+        "x": 585.75,
+        "y": 781.265625,
+        "w": 748.65625,
+        "h": 52,
+        "bottom": 833.265625,
+        "value": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 1166.609375,
+        "y": 847.65625,
+        "w": 167.796875,
+        "h": 52,
+        "bottom": 899.65625
+      },
+      "status": {
+        "x": 585.75,
+        "y": 925.703125,
+        "w": 748.65625,
+        "h": 49.28125,
+        "bottom": 974.984375,
+        "text": "We sent a confirmation email to marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Confirm your address with the button in it."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "accepted-long"
+    },
+    {
+      "name": "en-1440-light-font16",
+      "state": "sending",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "email": {
+        "x": 585.75,
+        "y": 781.265625,
+        "w": 748.65625,
+        "h": 52,
+        "bottom": 833.265625,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 1166.609375,
+        "y": 847.65625,
+        "w": 167.796875,
+        "h": 52,
+        "bottom": 899.65625
+      },
+      "status": {
+        "x": 585.75,
+        "y": 925.703125,
+        "w": 748.65625,
+        "h": 49.28125,
+        "bottom": 974.984375,
+        "text": "We sent a confirmation email to marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Confirm your address with the button in it."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "offline"
+    },
+    {
+      "name": "en-1440-light-font16",
+      "state": "error",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "email": {
+        "x": 585.75,
+        "y": 601.265625,
+        "w": 748.65625,
+        "h": 52,
+        "bottom": 653.265625,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 1166.609375,
+        "y": 667.65625,
+        "w": 167.796875,
+        "h": 52,
+        "bottom": 719.65625
+      },
+      "status": {
+        "x": 585.75,
+        "y": 745.703125,
+        "w": 748.65625,
+        "h": 49.28125,
+        "bottom": 794.984375,
+        "text": "That doesn't look like an email address. Please check it.\u00a0"
+      },
+      "focus": "email",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "invalid"
+    },
+    {
+      "name": "en-1440-light-font16",
+      "state": "error",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "email": {
+        "x": 585.75,
+        "y": 601.265625,
+        "w": 748.65625,
+        "h": 52,
+        "bottom": 653.265625,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 1166.609375,
+        "y": 667.65625,
+        "w": 167.796875,
+        "h": 52,
+        "bottom": 719.65625
+      },
+      "status": {
+        "x": 585.75,
+        "y": 745.703125,
+        "w": 748.65625,
+        "h": 49.28125,
+        "bottom": 794.984375,
+        "text": "That doesn't look like an email address. Please check it.\u00a0"
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "fragment-confirmation"
+    },
+    {
+      "name": "en-1440-dark-font16",
+      "state": "accepted",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "email": {
+        "x": 585.75,
+        "y": 781.265625,
+        "w": 748.65625,
+        "h": 52,
+        "bottom": 833.265625,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 1166.609375,
+        "y": 847.65625,
+        "w": 167.796875,
+        "h": 52,
+        "bottom": 899.65625
+      },
+      "status": {
+        "x": 585.75,
+        "y": 925.703125,
+        "w": 748.65625,
+        "h": 49.28125,
+        "bottom": 974.984375,
+        "text": "We sent a confirmation email to a@b. Confirm your address with the button in it."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "accepted-short"
+    },
+    {
+      "name": "en-1440-dark-font16",
+      "state": "accepted",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "email": {
+        "x": 585.75,
+        "y": 781.265625,
+        "w": 748.65625,
+        "h": 52,
+        "bottom": 833.265625,
+        "value": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 1166.609375,
+        "y": 847.65625,
+        "w": 167.796875,
+        "h": 52,
+        "bottom": 899.65625
+      },
+      "status": {
+        "x": 585.75,
+        "y": 925.703125,
+        "w": 748.65625,
+        "h": 49.28125,
+        "bottom": 974.984375,
+        "text": "We sent a confirmation email to marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Confirm your address with the button in it."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "accepted-long"
+    },
+    {
+      "name": "en-1440-dark-font16",
+      "state": "sending",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "email": {
+        "x": 585.75,
+        "y": 781.265625,
+        "w": 748.65625,
+        "h": 52,
+        "bottom": 833.265625,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 1166.609375,
+        "y": 847.65625,
+        "w": 167.796875,
+        "h": 52,
+        "bottom": 899.65625
+      },
+      "status": {
+        "x": 585.75,
+        "y": 925.703125,
+        "w": 748.65625,
+        "h": 49.28125,
+        "bottom": 974.984375,
+        "text": "We sent a confirmation email to marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Confirm your address with the button in it."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "offline"
+    },
+    {
+      "name": "en-1440-dark-font16",
+      "state": "error",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "email": {
+        "x": 585.75,
+        "y": 601.265625,
+        "w": 748.65625,
+        "h": 52,
+        "bottom": 653.265625,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 1166.609375,
+        "y": 667.65625,
+        "w": 167.796875,
+        "h": 52,
+        "bottom": 719.65625
+      },
+      "status": {
+        "x": 585.75,
+        "y": 745.703125,
+        "w": 748.65625,
+        "h": 49.28125,
+        "bottom": 794.984375,
+        "text": "That doesn't look like an email address. Please check it.\u00a0"
+      },
+      "focus": "email",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "invalid"
+    },
+    {
+      "name": "en-1440-dark-font16",
+      "state": "error",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "17px",
+      "email": {
+        "x": 585.75,
+        "y": 601.265625,
+        "w": 748.65625,
+        "h": 52,
+        "bottom": 653.265625,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 1166.609375,
+        "y": 667.65625,
+        "w": 167.796875,
+        "h": 52,
+        "bottom": 719.65625
+      },
+      "status": {
+        "x": 585.75,
+        "y": 745.703125,
+        "w": 748.65625,
+        "h": 49.28125,
+        "bottom": 794.984375,
+        "text": "That doesn't look like an email address. Please check it.\u00a0"
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "fragment-confirmation"
+    },
+    {
+      "name": "fi-390-light-font24",
+      "state": "accepted",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 68.390625,
+        "y": -97.375,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": -19.375,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 68.390625,
+        "y": 382.6875,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 460.6875
+      },
+      "status": {
+        "x": 68.390625,
+        "y": 479.875,
+        "w": 303.609375,
+        "h": 184.84375,
+        "bottom": 664.71875,
+        "text": "L\u00e4hetimme vahvistusviestin osoitteeseen a@b. Vahvista osoitteesi viestin painikkeella."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "accepted-short"
+    },
+    {
+      "name": "fi-390-light-font24",
+      "state": "accepted",
+      "width": 390,
+      "scrollWidth": 412,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 68.390625,
+        "y": -23.375,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 54.625,
+        "value": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 68.390625,
+        "y": 456.6875,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 534.6875
+      },
+      "status": {
+        "x": 68.390625,
+        "y": 553.875,
+        "w": 343.3125,
+        "h": 295.75,
+        "bottom": 849.625,
+        "text": "L\u00e4hetimme vahvistusviestin osoitteeseen marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Vahvista osoitteesi viestin painikkeella."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "accepted-long"
+    },
+    {
+      "name": "fi-390-light-font24",
+      "state": "sending",
+      "width": 390,
+      "scrollWidth": 412,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 68.390625,
+        "y": -23.375,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 54.625,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 68.390625,
+        "y": 456.6875,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 534.6875
+      },
+      "status": {
+        "x": 68.390625,
+        "y": 553.875,
+        "w": 343.3125,
+        "h": 295.75,
+        "bottom": 849.625,
+        "text": "L\u00e4hetimme vahvistusviestin osoitteeseen marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Vahvista osoitteesi viestin painikkeella."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "offline"
+    },
+    {
+      "name": "fi-390-light-font24",
+      "state": "error",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 68.390625,
+        "y": 382.625,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 460.625,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 68.390625,
+        "y": 862.6875,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 940.6875
+      },
+      "status": {
+        "x": 68.390625,
+        "y": 959.875,
+        "w": 303.609375,
+        "h": 184.84375,
+        "bottom": 1144.71875,
+        "text": "T\u00e4m\u00e4 ei n\u00e4yt\u00e4 s\u00e4hk\u00f6postiosoitteelta. Tarkista osoite.\u00a0"
+      },
+      "focus": "email",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "invalid"
+    },
+    {
+      "name": "fi-390-light-font24",
+      "state": "error",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 68.390625,
+        "y": 382.625,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 460.625,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 68.390625,
+        "y": 862.6875,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 940.6875
+      },
+      "status": {
+        "x": 68.390625,
+        "y": 959.875,
+        "w": 303.609375,
+        "h": 184.84375,
+        "bottom": 1144.71875,
+        "text": "T\u00e4m\u00e4 ei n\u00e4yt\u00e4 s\u00e4hk\u00f6postiosoitteelta. Tarkista osoite.\u00a0"
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "fragment-confirmation"
+    },
+    {
+      "name": "fi-390-dark-font24",
+      "state": "accepted",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 68.390625,
+        "y": -97.375,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": -19.375,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 68.390625,
+        "y": 382.6875,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 460.6875
+      },
+      "status": {
+        "x": 68.390625,
+        "y": 479.875,
+        "w": 303.609375,
+        "h": 184.84375,
+        "bottom": 664.71875,
+        "text": "L\u00e4hetimme vahvistusviestin osoitteeseen a@b. Vahvista osoitteesi viestin painikkeella."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "accepted-short"
+    },
+    {
+      "name": "fi-390-dark-font24",
+      "state": "accepted",
+      "width": 390,
+      "scrollWidth": 412,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 68.390625,
+        "y": -23.375,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 54.625,
+        "value": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 68.390625,
+        "y": 456.6875,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 534.6875
+      },
+      "status": {
+        "x": 68.390625,
+        "y": 553.875,
+        "w": 343.3125,
+        "h": 295.75,
+        "bottom": 849.625,
+        "text": "L\u00e4hetimme vahvistusviestin osoitteeseen marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Vahvista osoitteesi viestin painikkeella."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "accepted-long"
+    },
+    {
+      "name": "fi-390-dark-font24",
+      "state": "sending",
+      "width": 390,
+      "scrollWidth": 412,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 68.390625,
+        "y": -23.375,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 54.625,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 68.390625,
+        "y": 456.6875,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 534.6875
+      },
+      "status": {
+        "x": 68.390625,
+        "y": 553.875,
+        "w": 343.3125,
+        "h": 295.75,
+        "bottom": 849.625,
+        "text": "L\u00e4hetimme vahvistusviestin osoitteeseen marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Vahvista osoitteesi viestin painikkeella."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "offline"
+    },
+    {
+      "name": "fi-390-dark-font24",
+      "state": "error",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 68.390625,
+        "y": 382.625,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 460.625,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 68.390625,
+        "y": 862.6875,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 940.6875
+      },
+      "status": {
+        "x": 68.390625,
+        "y": 959.875,
+        "w": 303.609375,
+        "h": 184.84375,
+        "bottom": 1144.71875,
+        "text": "T\u00e4m\u00e4 ei n\u00e4yt\u00e4 s\u00e4hk\u00f6postiosoitteelta. Tarkista osoite.\u00a0"
+      },
+      "focus": "email",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "invalid"
+    },
+    {
+      "name": "fi-390-dark-font24",
+      "state": "error",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 68.390625,
+        "y": 382.625,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 460.625,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 68.390625,
+        "y": 862.6875,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 940.6875
+      },
+      "status": {
+        "x": 68.390625,
+        "y": 959.875,
+        "w": 303.609375,
+        "h": 184.84375,
+        "bottom": 1144.71875,
+        "text": "T\u00e4m\u00e4 ei n\u00e4yt\u00e4 s\u00e4hk\u00f6postiosoitteelta. Tarkista osoite.\u00a0"
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "fragment-confirmation"
+    },
+    {
+      "name": "fi-1440-light-font24",
+      "state": "accepted",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 127.78125,
+        "y": 410.71875,
+        "w": 1008,
+        "h": 78,
+        "bottom": 488.71875,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 928.671875,
+        "y": 510.3125,
+        "w": 207.109375,
+        "h": 78,
+        "bottom": 588.3125
+      },
+      "status": {
+        "x": 127.78125,
+        "y": 660,
+        "w": 1008,
+        "h": 73.9375,
+        "bottom": 733.9375,
+        "text": "L\u00e4hetimme vahvistusviestin osoitteeseen a@b. Vahvista osoitteesi viestin painikkeella."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "accepted-short"
+    },
+    {
+      "name": "fi-1440-light-font24",
+      "state": "accepted",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 127.78125,
+        "y": 410.71875,
+        "w": 1008,
+        "h": 78,
+        "bottom": 488.71875,
+        "value": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 928.671875,
+        "y": 510.3125,
+        "w": 207.109375,
+        "h": 78,
+        "bottom": 588.3125
+      },
+      "status": {
+        "x": 127.78125,
+        "y": 660,
+        "w": 1008,
+        "h": 110.90625,
+        "bottom": 770.90625,
+        "text": "L\u00e4hetimme vahvistusviestin osoitteeseen marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Vahvista osoitteesi viestin painikkeella."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "accepted-long"
+    },
+    {
+      "name": "fi-1440-light-font24",
+      "state": "sending",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 127.78125,
+        "y": 410.71875,
+        "w": 1008,
+        "h": 78,
+        "bottom": 488.71875,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 928.671875,
+        "y": 510.3125,
+        "w": 207.109375,
+        "h": 78,
+        "bottom": 588.3125
+      },
+      "status": {
+        "x": 127.78125,
+        "y": 660,
+        "w": 1008,
+        "h": 110.90625,
+        "bottom": 770.90625,
+        "text": "L\u00e4hetimme vahvistusviestin osoitteeseen marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Vahvista osoitteesi viestin painikkeella."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "offline"
+    },
+    {
+      "name": "fi-1440-light-font24",
+      "state": "error",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 127.78125,
+        "y": 410.71875,
+        "w": 1008,
+        "h": 78,
+        "bottom": 488.71875,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 928.671875,
+        "y": 510.3125,
+        "w": 207.109375,
+        "h": 78,
+        "bottom": 588.3125
+      },
+      "status": {
+        "x": 127.78125,
+        "y": 660,
+        "w": 1008,
+        "h": 73.9375,
+        "bottom": 733.9375,
+        "text": "T\u00e4m\u00e4 ei n\u00e4yt\u00e4 s\u00e4hk\u00f6postiosoitteelta. Tarkista osoite.\u00a0"
+      },
+      "focus": "email",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "invalid"
+    },
+    {
+      "name": "fi-1440-light-font24",
+      "state": "error",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 127.78125,
+        "y": 410.71875,
+        "w": 1008,
+        "h": 78,
+        "bottom": 488.71875,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 928.671875,
+        "y": 510.3125,
+        "w": 207.109375,
+        "h": 78,
+        "bottom": 588.3125
+      },
+      "status": {
+        "x": 127.78125,
+        "y": 660,
+        "w": 1008,
+        "h": 73.9375,
+        "bottom": 733.9375,
+        "text": "T\u00e4m\u00e4 ei n\u00e4yt\u00e4 s\u00e4hk\u00f6postiosoitteelta. Tarkista osoite.\u00a0"
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "fragment-confirmation"
+    },
+    {
+      "name": "fi-1440-dark-font24",
+      "state": "accepted",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 127.78125,
+        "y": 410.71875,
+        "w": 1008,
+        "h": 78,
+        "bottom": 488.71875,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 928.671875,
+        "y": 510.3125,
+        "w": 207.109375,
+        "h": 78,
+        "bottom": 588.3125
+      },
+      "status": {
+        "x": 127.78125,
+        "y": 660,
+        "w": 1008,
+        "h": 73.9375,
+        "bottom": 733.9375,
+        "text": "L\u00e4hetimme vahvistusviestin osoitteeseen a@b. Vahvista osoitteesi viestin painikkeella."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "accepted-short"
+    },
+    {
+      "name": "fi-1440-dark-font24",
+      "state": "accepted",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 127.78125,
+        "y": 410.71875,
+        "w": 1008,
+        "h": 78,
+        "bottom": 488.71875,
+        "value": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 928.671875,
+        "y": 510.3125,
+        "w": 207.109375,
+        "h": 78,
+        "bottom": 588.3125
+      },
+      "status": {
+        "x": 127.78125,
+        "y": 660,
+        "w": 1008,
+        "h": 110.90625,
+        "bottom": 770.90625,
+        "text": "L\u00e4hetimme vahvistusviestin osoitteeseen marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Vahvista osoitteesi viestin painikkeella."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "accepted-long"
+    },
+    {
+      "name": "fi-1440-dark-font24",
+      "state": "sending",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 127.78125,
+        "y": 410.71875,
+        "w": 1008,
+        "h": 78,
+        "bottom": 488.71875,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 928.671875,
+        "y": 510.3125,
+        "w": 207.109375,
+        "h": 78,
+        "bottom": 588.3125
+      },
+      "status": {
+        "x": 127.78125,
+        "y": 660,
+        "w": 1008,
+        "h": 110.90625,
+        "bottom": 770.90625,
+        "text": "L\u00e4hetimme vahvistusviestin osoitteeseen marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Vahvista osoitteesi viestin painikkeella."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "offline"
+    },
+    {
+      "name": "fi-1440-dark-font24",
+      "state": "error",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 127.78125,
+        "y": 410.71875,
+        "w": 1008,
+        "h": 78,
+        "bottom": 488.71875,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 928.671875,
+        "y": 510.3125,
+        "w": 207.109375,
+        "h": 78,
+        "bottom": 588.3125
+      },
+      "status": {
+        "x": 127.78125,
+        "y": 660,
+        "w": 1008,
+        "h": 73.9375,
+        "bottom": 733.9375,
+        "text": "T\u00e4m\u00e4 ei n\u00e4yt\u00e4 s\u00e4hk\u00f6postiosoitteelta. Tarkista osoite.\u00a0"
+      },
+      "focus": "email",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "invalid"
+    },
+    {
+      "name": "fi-1440-dark-font24",
+      "state": "error",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 127.78125,
+        "y": 410.71875,
+        "w": 1008,
+        "h": 78,
+        "bottom": 488.71875,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 928.671875,
+        "y": 510.3125,
+        "w": 207.109375,
+        "h": 78,
+        "bottom": 588.3125
+      },
+      "status": {
+        "x": 127.78125,
+        "y": 660,
+        "w": 1008,
+        "h": 73.9375,
+        "bottom": 733.9375,
+        "text": "T\u00e4m\u00e4 ei n\u00e4yt\u00e4 s\u00e4hk\u00f6postiosoitteelta. Tarkista osoite.\u00a0"
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Siirry sis\u00e4lt\u00f6\u00f6n",
+          "href": "#main"
+        },
+        {
+          "text": "In English",
+          "href": "/en/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/tietosuoja",
+          "href": "/tietosuoja/"
+        },
+        {
+          "text": "Tietosuoja",
+          "href": "/tietosuoja/"
+        }
+      ],
+      "scenario": "fragment-confirmation"
+    },
+    {
+      "name": "en-390-light-font24",
+      "state": "accepted",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 68.390625,
+        "y": 350.8125,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 428.8125,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 68.390625,
+        "y": 765.625,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 843.625
+      },
+      "status": {
+        "x": 68.390625,
+        "y": 862.8125,
+        "w": 303.609375,
+        "h": 184.84375,
+        "bottom": 1047.65625,
+        "text": "We sent a confirmation email to a@b. Confirm your address with the button in it."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "accepted-short"
+    },
+    {
+      "name": "en-390-light-font24",
+      "state": "accepted",
+      "width": 390,
+      "scrollWidth": 412,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 68.390625,
+        "y": 350.8125,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 428.8125,
+        "value": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 68.390625,
+        "y": 765.625,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 843.625
+      },
+      "status": {
+        "x": 68.390625,
+        "y": 862.8125,
+        "w": 343.3125,
+        "h": 258.78125,
+        "bottom": 1121.59375,
+        "text": "We sent a confirmation email to marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Confirm your address with the button in it."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "accepted-long"
+    },
+    {
+      "name": "en-390-light-font24",
+      "state": "sending",
+      "width": 390,
+      "scrollWidth": 412,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 68.390625,
+        "y": 350.8125,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 428.8125,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 68.390625,
+        "y": 765.625,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 843.625
+      },
+      "status": {
+        "x": 68.390625,
+        "y": 862.8125,
+        "w": 343.3125,
+        "h": 258.78125,
+        "bottom": 1121.59375,
+        "text": "We sent a confirmation email to marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Confirm your address with the button in it."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "offline"
+    },
+    {
+      "name": "en-390-light-font24",
+      "state": "error",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 68.390625,
+        "y": 382.8125,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 460.8125,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 68.390625,
+        "y": 797.625,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 875.625
+      },
+      "status": {
+        "x": 68.390625,
+        "y": 894.8125,
+        "w": 303.609375,
+        "h": 184.84375,
+        "bottom": 1079.65625,
+        "text": "That doesn't look like an email address. Please check it.\u00a0"
+      },
+      "focus": "email",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "invalid"
+    },
+    {
+      "name": "en-390-light-font24",
+      "state": "error",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 68.390625,
+        "y": 382.8125,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 460.8125,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 68.390625,
+        "y": 797.625,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 875.625
+      },
+      "status": {
+        "x": 68.390625,
+        "y": 894.8125,
+        "w": 303.609375,
+        "h": 184.84375,
+        "bottom": 1079.65625,
+        "text": "That doesn't look like an email address. Please check it.\u00a0"
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "fragment-confirmation"
+    },
+    {
+      "name": "en-390-dark-font24",
+      "state": "accepted",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 68.390625,
+        "y": 350.8125,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 428.8125,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 68.390625,
+        "y": 765.625,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 843.625
+      },
+      "status": {
+        "x": 68.390625,
+        "y": 862.8125,
+        "w": 303.609375,
+        "h": 184.84375,
+        "bottom": 1047.65625,
+        "text": "We sent a confirmation email to a@b. Confirm your address with the button in it."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "accepted-short"
+    },
+    {
+      "name": "en-390-dark-font24",
+      "state": "accepted",
+      "width": 390,
+      "scrollWidth": 412,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 68.390625,
+        "y": 350.8125,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 428.8125,
+        "value": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 68.390625,
+        "y": 765.625,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 843.625
+      },
+      "status": {
+        "x": 68.390625,
+        "y": 862.8125,
+        "w": 343.3125,
+        "h": 258.78125,
+        "bottom": 1121.59375,
+        "text": "We sent a confirmation email to marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Confirm your address with the button in it."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "accepted-long"
+    },
+    {
+      "name": "en-390-dark-font24",
+      "state": "sending",
+      "width": 390,
+      "scrollWidth": 412,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 68.390625,
+        "y": 350.8125,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 428.8125,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 68.390625,
+        "y": 765.625,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 843.625
+      },
+      "status": {
+        "x": 68.390625,
+        "y": 862.8125,
+        "w": 343.3125,
+        "h": 258.78125,
+        "bottom": 1121.59375,
+        "text": "We sent a confirmation email to marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Confirm your address with the button in it."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "offline"
+    },
+    {
+      "name": "en-390-dark-font24",
+      "state": "error",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 68.390625,
+        "y": 382.8125,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 460.8125,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 68.390625,
+        "y": 797.625,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 875.625
+      },
+      "status": {
+        "x": 68.390625,
+        "y": 894.8125,
+        "w": 303.609375,
+        "h": 184.84375,
+        "bottom": 1079.65625,
+        "text": "That doesn't look like an email address. Please check it.\u00a0"
+      },
+      "focus": "email",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "invalid"
+    },
+    {
+      "name": "en-390-dark-font24",
+      "state": "error",
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 68.390625,
+        "y": 382.8125,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 460.8125,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 68.390625,
+        "y": 797.625,
+        "w": 303.609375,
+        "h": 78,
+        "bottom": 875.625
+      },
+      "status": {
+        "x": 68.390625,
+        "y": 894.8125,
+        "w": 303.609375,
+        "h": 184.84375,
+        "bottom": 1079.65625,
+        "text": "That doesn't look like an email address. Please check it.\u00a0"
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "fragment-confirmation"
+    },
+    {
+      "name": "en-1440-light-font24",
+      "state": "accepted",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 127.78125,
+        "y": 410.96875,
+        "w": 1008,
+        "h": 78,
+        "bottom": 488.96875,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 884.09375,
+        "y": 510.5625,
+        "w": 251.6875,
+        "h": 78,
+        "bottom": 588.5625
+      },
+      "status": {
+        "x": 127.78125,
+        "y": 660.25,
+        "w": 1008,
+        "h": 73.9375,
+        "bottom": 734.1875,
+        "text": "We sent a confirmation email to a@b. Confirm your address with the button in it."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "accepted-short"
+    },
+    {
+      "name": "en-1440-light-font24",
+      "state": "accepted",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 127.78125,
+        "y": 410.96875,
+        "w": 1008,
+        "h": 78,
+        "bottom": 488.96875,
+        "value": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 884.09375,
+        "y": 510.5625,
+        "w": 251.6875,
+        "h": 78,
+        "bottom": 588.5625
+      },
+      "status": {
+        "x": 127.78125,
+        "y": 660.25,
+        "w": 1008,
+        "h": 73.9375,
+        "bottom": 734.1875,
+        "text": "We sent a confirmation email to marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Confirm your address with the button in it."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "accepted-long"
+    },
+    {
+      "name": "en-1440-light-font24",
+      "state": "sending",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 127.78125,
+        "y": 410.96875,
+        "w": 1008,
+        "h": 78,
+        "bottom": 488.96875,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 884.09375,
+        "y": 510.5625,
+        "w": 251.6875,
+        "h": 78,
+        "bottom": 588.5625
+      },
+      "status": {
+        "x": 127.78125,
+        "y": 660.25,
+        "w": 1008,
+        "h": 73.9375,
+        "bottom": 734.1875,
+        "text": "We sent a confirmation email to marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Confirm your address with the button in it."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "offline"
+    },
+    {
+      "name": "en-1440-light-font24",
+      "state": "error",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 127.78125,
+        "y": 410.96875,
+        "w": 1008,
+        "h": 78,
+        "bottom": 488.96875,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 884.09375,
+        "y": 510.5625,
+        "w": 251.6875,
+        "h": 78,
+        "bottom": 588.5625
+      },
+      "status": {
+        "x": 127.78125,
+        "y": 660.25,
+        "w": 1008,
+        "h": 73.9375,
+        "bottom": 734.1875,
+        "text": "That doesn't look like an email address. Please check it.\u00a0"
+      },
+      "focus": "email",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "invalid"
+    },
+    {
+      "name": "en-1440-light-font24",
+      "state": "error",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 127.78125,
+        "y": 410.96875,
+        "w": 1008,
+        "h": 78,
+        "bottom": 488.96875,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 884.09375,
+        "y": 510.5625,
+        "w": 251.6875,
+        "h": 78,
+        "bottom": 588.5625
+      },
+      "status": {
+        "x": 127.78125,
+        "y": 660.25,
+        "w": 1008,
+        "h": 73.9375,
+        "bottom": 734.1875,
+        "text": "That doesn't look like an email address. Please check it.\u00a0"
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "fragment-confirmation"
+    },
+    {
+      "name": "en-1440-dark-font24",
+      "state": "accepted",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 127.78125,
+        "y": 410.96875,
+        "w": 1008,
+        "h": 78,
+        "bottom": 488.96875,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 884.09375,
+        "y": 510.5625,
+        "w": 251.6875,
+        "h": 78,
+        "bottom": 588.5625
+      },
+      "status": {
+        "x": 127.78125,
+        "y": 660.25,
+        "w": 1008,
+        "h": 73.9375,
+        "bottom": 734.1875,
+        "text": "We sent a confirmation email to a@b. Confirm your address with the button in it."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "accepted-short"
+    },
+    {
+      "name": "en-1440-dark-font24",
+      "state": "accepted",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 127.78125,
+        "y": 410.96875,
+        "w": 1008,
+        "h": 78,
+        "bottom": 488.96875,
+        "value": "marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 884.09375,
+        "y": 510.5625,
+        "w": 251.6875,
+        "h": 78,
+        "bottom": 588.5625
+      },
+      "status": {
+        "x": 127.78125,
+        "y": 660.25,
+        "w": 1008,
+        "h": 73.9375,
+        "bottom": 734.1875,
+        "text": "We sent a confirmation email to marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Confirm your address with the button in it."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "accepted-long"
+    },
+    {
+      "name": "en-1440-dark-font24",
+      "state": "sending",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 127.78125,
+        "y": 410.96875,
+        "w": 1008,
+        "h": 78,
+        "bottom": 488.96875,
+        "value": "a@b",
+        "ariaInvalid": null,
+        "describedby": null
+      },
+      "button": {
+        "x": 884.09375,
+        "y": 510.5625,
+        "w": 251.6875,
+        "h": 78,
+        "bottom": 588.5625
+      },
+      "status": {
+        "x": 127.78125,
+        "y": 660.25,
+        "w": 1008,
+        "h": 73.9375,
+        "bottom": 734.1875,
+        "text": "We sent a confirmation email to marja-liisa.korhonen-virtanen@suunnistusseura-esimerkki.example.fi. Confirm your address with the button in it."
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "offline"
+    },
+    {
+      "name": "en-1440-dark-font24",
+      "state": "error",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 127.78125,
+        "y": 410.96875,
+        "w": 1008,
+        "h": 78,
+        "bottom": 488.96875,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 884.09375,
+        "y": 510.5625,
+        "w": 251.6875,
+        "h": 78,
+        "bottom": 588.5625
+      },
+      "status": {
+        "x": 127.78125,
+        "y": 660.25,
+        "w": 1008,
+        "h": 73.9375,
+        "bottom": 734.1875,
+        "text": "That doesn't look like an email address. Please check it.\u00a0"
+      },
+      "focus": "email",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "invalid"
+    },
+    {
+      "name": "en-1440-dark-font24",
+      "state": "error",
+      "width": 1440,
+      "scrollWidth": 1440,
+      "bodyFont": "25.5px",
+      "email": {
+        "x": 127.78125,
+        "y": 410.96875,
+        "w": 1008,
+        "h": 78,
+        "bottom": 488.96875,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 884.09375,
+        "y": 510.5625,
+        "w": 251.6875,
+        "h": 78,
+        "bottom": 588.5625
+      },
+      "status": {
+        "x": 127.78125,
+        "y": 660.25,
+        "w": 1008,
+        "h": 73.9375,
+        "bottom": 734.1875,
+        "text": "That doesn't look like an email address. Please check it.\u00a0"
+      },
+      "focus": "",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ],
+      "scenario": "fragment-confirmation"
+    }
+  ],
+  "axe": [
+    {
+      "name": "fi-390-light-font16-accepted",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "fi-390-light-font16-invalid",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "fi-390-light-font16-privacy",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "fi-390-dark-font16-accepted",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "fi-390-dark-font16-invalid",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "fi-390-dark-font16-privacy",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "fi-1440-light-font16-accepted",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "fi-1440-light-font16-invalid",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "fi-1440-light-font16-privacy",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "fi-1440-dark-font16-accepted",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "fi-1440-dark-font16-invalid",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "fi-1440-dark-font16-privacy",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "en-390-light-font16-accepted",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "en-390-light-font16-invalid",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "en-390-light-font16-privacy",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "en-390-dark-font16-accepted",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "en-390-dark-font16-invalid",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "en-390-dark-font16-privacy",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "en-1440-light-font16-accepted",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "en-1440-light-font16-invalid",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "en-1440-light-font16-privacy",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "en-1440-dark-font16-accepted",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "en-1440-dark-font16-invalid",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "en-1440-dark-font16-privacy",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "fi-390-light-font24-accepted",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "fi-390-light-font24-invalid",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "fi-390-light-font24-privacy",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "fi-390-dark-font24-accepted",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "fi-390-dark-font24-invalid",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "fi-390-dark-font24-privacy",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "fi-1440-light-font24-accepted",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "fi-1440-light-font24-invalid",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "fi-1440-light-font24-privacy",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "fi-1440-dark-font24-accepted",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "fi-1440-dark-font24-invalid",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "fi-1440-dark-font24-privacy",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "en-390-light-font24-accepted",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "en-390-light-font24-invalid",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "en-390-light-font24-privacy",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "en-390-dark-font24-accepted",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "en-390-dark-font24-invalid",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "en-390-dark-font24-privacy",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "en-1440-light-font24-accepted",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "en-1440-light-font24-invalid",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "en-1440-light-font24-privacy",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "en-1440-dark-font24-accepted",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "en-1440-dark-font24-invalid",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "name": "en-1440-dark-font24-privacy",
+      "violations": [],
+      "incomplete": []
+    }
+  ],
+  "live": [
+    {
+      "url": "https://join.koivupiilo.fi/kit/form.js",
+      "status": 200,
+      "method": "GET"
+    },
+    {
+      "url": "https://join.koivupiilo.fi/ratametsuri/signup/token",
+      "status": 200,
+      "method": "GET"
+    },
+    {
+      "url": "https://join.koivupiilo.fi/ratametsuri/signup",
+      "status": 422,
+      "method": "POST"
+    },
+    {
+      "url": "https://join.koivupiilo.fi/ratametsuri/signup/token",
+      "status": 200,
+      "method": "GET"
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "bodyFont": "17px",
+      "state": "error",
+      "email": {
+        "x": 62.796875,
+        "y": 184.625,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 236.625,
+        "value": "a@b",
+        "ariaInvalid": "true",
+        "describedby": "launchpad-status-1"
+      },
+      "button": {
+        "x": 62.796875,
+        "y": 395.90625,
+        "w": 311.203125,
+        "h": 52,
+        "bottom": 447.90625
+      },
+      "status": {
+        "x": 62.796875,
+        "y": 460.703125,
+        "w": 311.203125,
+        "h": 73.921875,
+        "bottom": 534.625,
+        "text": "That doesn't look like an email address. Please check it."
+      },
+      "focus": "email",
+      "visibleMessages": [],
+      "links": [
+        {
+          "text": "Skip to content",
+          "href": "#main"
+        },
+        {
+          "text": "Suomeksi",
+          "href": "/ratametsuri/"
+        },
+        {
+          "text": "koivupiilo.fi/en/privacy",
+          "href": "/en/privacy/"
+        },
+        {
+          "text": "Privacy",
+          "href": "/en/privacy/"
+        }
+      ]
+    }
+  ],
+  "contrast": []
+}

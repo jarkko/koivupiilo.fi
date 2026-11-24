@@ -1,0 +1,88 @@
+{
+  "kind": "critique",
+  "ui_diff_hash": "eef7d25e8c6941de8e882619974b890fb73b53ec535d060b77af029feab7f054",
+  "head_sha": "02542091a22d9dab1b15a6e02f65d926ecef1f73",
+  "reviewer_run_id": "ctx_5ffb28d7849b / term_109889c9-e525-4677-b9bf-048434b13fd6",
+  "implementer_family": "claude",
+  "reviewer_family": "gpt",
+  "walked": [
+    "W0"
+  ],
+  "regions": [
+    "fi_FI",
+    "en_GB"
+  ],
+  "critique": {
+    "remove": [
+      {
+        "flow": "W0",
+        "point": "Remove the second numbered feature as a standalone terminology-example block; retain factual language availability with requirements before the ask, with wording owned by the editorial pipeline. This is an element/hierarchy judgement, not a judgement of Finnish wording or tone. The block occupies 133.30 px on the observed English phone and 82.30 px on the Finnish desktop, adding a numbered stop while output qualifications sit later; the gain is a shorter supporting-proof route. Keep language suitability (J2), status/date, map credit, consent, limitations, maker and recovery. Opportunity: docs/design/opportunity-tree.md#ratametsuri-critique-eef7d25e (O-r1).",
+        "grade": "anecdote",
+        "evidence": [
+          "docs/design/reviews/evidence/eef7d25e/critique-assessment.md",
+          "docs/design/reviews/evidence/eef7d25e/critique-scene.json",
+          "docs/design/reviews/evidence/eef7d25e/critique-en-phone-full.jpg",
+          "docs/design/reviews/evidence/eef7d25e/critique-fi-desktop-full.jpg"
+        ]
+      }
+    ],
+    "two_x": [
+      {
+        "flow": "W0",
+        "point": "Replace the passive hero screenshot with one responsive real-app click-preview proof panel on the approved Kauppi map: native window context and readable actual preview/result in a compact static before/after composition. This supplies supporting proof for the decided native-Mac-plus-pipeline positioning; it changes no brand, model or signup lifecycle and introduces no new claim. The current 311.20x155.59 phone crop is map only; desktop shows a window but no demonstrated preview. 2x is an unmeasured test target: halve target setters' median time to identify native Mac UI and correctly explain what the shown click does, against this page, without reducing requirement/signup findability. Strongest counter-argument: the intentional map crop preserves readable course numbers and the first-screen field; a tiny whole window or two-frame panel can obscure both, add weight and push the field down. Reject the candidate unless actual app detail remains readable within the existing proof area and field reach/credit/web budgets survive. Opportunity/solution: docs/design/opportunity-tree.md#ratametsuri-critique-eef7d25e (O-r2, S-r1); facts: discovery.md section 3 D1 and section 5, with its later positioning update controlling.",
+        "grade": "anecdote",
+        "evidence": [
+          "docs/design/reviews/evidence/eef7d25e/critique-assessment.md",
+          "docs/design/reviews/evidence/eef7d25e/critique-scene.json",
+          "docs/design/reviews/evidence/eef7d25e/critique-en-phone-full.jpg",
+          "docs/design/reviews/evidence/eef7d25e/critique-fi-desktop-full.jpg",
+          "docs/design/reviews/evidence/eef7d25e/matrix-390-font16.jpg",
+          "docs/design/reviews/evidence/eef7d25e/matrix-1440-font16.jpg"
+        ]
+      }
+    ],
+    "short_of_references": [
+      {
+        "flow": "W0",
+        "reference": "Project [J1: Apple Final Cut Pro, Flighty and Mela](../../docs/design/ratametsuri/references.md#j1-proof-on-a-real-screen); shared kit [Flighty](../../../../../../code/metamorphosis/kit/references/awards/ios-app-landing.md#flighty), canonical references/awards/ios-app-landing.md#flighty.",
+        "point": "Flighty's own output demonstrates value; our map establishes the category but does not show the click-preview behavior. The phone discards native window context that the Final Cut Pro/Mela mechanics preserve. We beat Mela's product placement and avoid Flighty's loading/overlay costs, yet seeing a course is easier than seeing why this app's native interaction matters. The evidence report compares every J1 entry and the category baseline; no competitor naming or new product claim is proposed. Opportunity: docs/design/opportunity-tree.md#ratametsuri-critique-eef7d25e (O-r2).",
+        "grade": "anecdote",
+        "evidence": [
+          "docs/design/reviews/evidence/eef7d25e/critique-assessment.md",
+          "docs/design/reviews/evidence/eef7d25e/critique-scene.json",
+          "docs/design/reviews/evidence/eef7d25e/critique-en-phone-full.jpg",
+          "docs/design/reviews/evidence/eef7d25e/critique-fi-desktop-full.jpg",
+          "docs/design/reviews/evidence/eef7d25e/matrix-390-font16.jpg",
+          "docs/design/reviews/evidence/eef7d25e/matrix-1440-font16.jpg"
+        ]
+      },
+      {
+        "flow": "W0",
+        "reference": "Project [J2: CoolDock, Supaste and Wispr Flow](../../docs/design/ratametsuri/references.md#j2-trust-before-the-ask); shared kit [CoolDock](../../../../../../code/metamorphosis/kit/references/awards/ios-app-landing.md#cooldock), canonical references/awards/ios-app-landing.md#cooldock.",
+        "point": "CoolDock groups suitability facts at its action; our Mac requirement is legible before the field and meets the project's target, but explicit language suitability is a separate numbered feature after the phone ask. The ask is less self-contained for the brief's 'my Mac and my language' decision. We beat the Supaste clipping anti-pattern and already make Mac explicit as Wispr Flow does; no new platform labels or claims are needed. Both themes/languages preserve the same information-order gap. Opportunity: docs/design/opportunity-tree.md#ratametsuri-critique-eef7d25e (O-r3).",
+        "grade": "anecdote",
+        "evidence": [
+          "docs/design/reviews/evidence/eef7d25e/critique-assessment.md",
+          "docs/design/reviews/evidence/eef7d25e/critique-scene.json",
+          "docs/design/reviews/evidence/eef7d25e/critique-en-phone-full.jpg",
+          "docs/design/reviews/evidence/eef7d25e/matrix-390-font16.jpg",
+          "docs/design/reviews/evidence/eef7d25e/matrix-1440-font16.jpg"
+        ]
+      },
+      {
+        "flow": "W0",
+        "reference": "Project [J3: Dave Cleaner beta test, Mela and CleanShot X](../../docs/design/ratametsuri/references.md#j3-one-field-request); shared kit [CleanShot X](../../../../../../code/metamorphosis/kit/references/awards/ios-app-landing.md#cleanshot-x), canonical references/awards/ios-app-landing.md#cleanshot-x.",
+        "point": "CleanShot X locates risk reassurance beside the action. Our honest detailed output qualifications occur in the third feature: on the phone it starts at y=1537.86, after the button ends at y=1025.86, while desktop places it before the form. A phone setter may ask before encountering partial-description and tested-export scope, making the informed beta decision less self-contained. We already beat Dave Cleaner's duplicated CTA and absent consent, and meet Mela's plain privacy-explanation principle within our fixed contract. The gap is qualification placement, not missing states or a reason to shorten consent, add a second CTA, invent a guarantee or revive obsolete app-risk wording in the reference document. Opportunity: docs/design/opportunity-tree.md#ratametsuri-critique-eef7d25e (O-r4).",
+        "grade": "anecdote",
+        "evidence": [
+          "docs/design/reviews/evidence/eef7d25e/critique-assessment.md",
+          "docs/design/reviews/evidence/eef7d25e/critique-scene.json",
+          "docs/design/reviews/evidence/eef7d25e/critique-en-phone-full.jpg",
+          "docs/design/reviews/evidence/eef7d25e/critique-fi-desktop-full.jpg",
+          "docs/design/reviews/evidence/eef7d25e/matrix-390-font16.jpg",
+          "docs/design/reviews/evidence/eef7d25e/matrix-1440-font16.jpg"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+[
+  {
+    "lc": "fi",
+    "events": [
+      {
+        "event": "response",
+        "url": "https://join.koivupiilo.fi/kit/form.js",
+        "status": 200
+      },
+      {
+        "event": "response",
+        "url": "https://join.koivupiilo.fi/ratametsuri/signup/token",
+        "status": 200
+      },
+      {
+        "event": "response",
+        "url": "https://join.koivupiilo.fi/ratametsuri/signup",
+        "status": 422
+      },
+      {
+        "event": "console",
+        "text": "Failed to load resource: the server responded with a status of 422 ()"
+      },
+      {
+        "event": "response",
+        "url": "https://join.koivupiilo.fi/ratametsuri/signup/token",
+        "status": 200
+      }
+    ],
+    "state": "error",
+    "status": "Tämä ei näytä sähköpostiosoitteelta. Tarkista osoite.",
+    "value": "a@b",
+    "focused": "email",
+    "evidence": "docs/design/reviews/evidence/f42b0d0f/shots/live-prod-origin-fi.jpg"
+  },
+  {
+    "lc": "en",
+    "events": [
+      {
+        "event": "response",
+        "url": "https://join.koivupiilo.fi/kit/form.js",
+        "status": 200
+      },
+      {
+        "event": "response",
+        "url": "https://join.koivupiilo.fi/ratametsuri/signup/token",
+        "status": 200
+      },
+      {
+        "event": "response",
+        "url": "https://join.koivupiilo.fi/ratametsuri/signup",
+        "status": 422
+      },
+      {
+        "event": "console",
+        "text": "Failed to load resource: the server responded with a status of 422 ()"
+      },
+      {
+        "event": "response",
+        "url": "https://join.koivupiilo.fi/ratametsuri/signup/token",
+        "status": 200
+      }
+    ],
+    "state": "error",
+    "status": "That doesn't look like an email address. Please check it.",
+    "value": "a@b",
+    "focused": "email",
+    "evidence": "docs/design/reviews/evidence/f42b0d0f/shots/live-prod-origin-en.jpg"
+  }
+]

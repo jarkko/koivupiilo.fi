@@ -1,0 +1,80 @@
+{
+  "fi": {
+    "name": "Ratametsuri",
+    "intro": "Ratametsuri on Mac-sovellus suunnistusratojen suunnitteluun.",
+    "features_heading": "Mitä sillä voi jo tehdä",
+    "features": [
+      "Kartaksi kelpaa PDF-, PNG-, JPEG- tai TIFF-tiedosto.",
+      "Radat jakavat rastit. Kun siirrät rastia, se siirtyy kaikilla radoilla.",
+      "Rastimääritteet IOF 2024 -symboleilla päivittyvät sitä mukaa, kun rataa muokkaat.",
+      "Ulos saat radan PDF:nä tulostusta varten ja IOF XML 3.0 -tiedoston tulospalveluohjelmistolle."
+    ],
+    "requirements": "Vaatii macOS 14 Sonoman tai uudemman. Käyttöliittymä on suomeksi ja englanniksi.",
+    "status": "Kehitteillä. Beta on yksityinen.",
+    "beta": {
+      "heading": "Pyydä betakutsu",
+      "lead": "Jätä sähköpostiosoitteesi, niin lähetämme kutsun, kun beta avautuu.",
+      "field_label": "Sähköpostiosoite",
+      "button": "Pyydä kutsu",
+      "privacy_line": "Käytämme osoitetta vain betakutsuun.",
+      "privacy_link_text": "Tietosuoja",
+      "sending": "Lähetetään…",
+      "success": "Kiitos. Lähetämme sähköpostia, kun beta avautuu.",
+      "error_validation": "Tämä ei ole sähköpostiosoite. Tarkista kirjoitusasu.",
+      "error_server": "Lähetys ei onnistunut. Kirjoita meille osoitteeseen %{email}.",
+      "not_live": "Pyyntölomake ei ole vielä käytössä. Kirjoita osoitteeseen %{email} ja laita otsikoksi ”Ratametsuri beta”."
+    },
+    "screenshot_alt": "Ratametsurin ikkuna: kartalle suunniteltu rata ja sen vieressä rastimääritteet.",
+    "page_title": "Ratametsuri: Mac-sovellus suunnistusratojen suunnitteluun",
+    "meta_description": "Ratametsuri on Mac-sovellus suunnistusratojen suunnitteluun. Radat jakavat rastit, rastimääritteet päivittyvät ja tuloksena on PDF sekä IOF XML. Kehitteillä, beta on yksityinen.",
+    "privacy": {
+      "third_party_sentence": "Kolmansien osapuolten palvelimilta sivusto ei lataa mitään, mutta betapyyntö lähtee omalle palvelullemme.",
+      "beta_heading": "Ratametsurin beta",
+      "beta_paragraphs": [
+        "Betapyynnöstä tallennamme vain sähköpostiosoitteesi. Tarvitsemme sen yhteen asiaan: lähetämme sinulle TestFlight-kutsun Ratametsurin betaan.",
+        "Pyyntöpalvelumme toimii palvelimella %{host}. Viesti tulee meille Fastmailin kautta. Kutsua varten osoite menee Applen TestFlightiin, ja kutsun lähettää Apple.",
+        "Säilytämme osoitetta, kunnes beta päättyy, ja poistamme sen sitten. Poistamme sen aiemmin, jos pyydät.",
+        "Osoite ei mene muuhun käyttöön eikä muille kuin Fastmailille ja Applelle."
+      ]
+    }
+  },
+  "en": {
+    "name": "Ratametsuri",
+    "intro": "Ratametsuri is a Mac app for planning orienteering courses.",
+    "features_heading": "What it does today",
+    "features": [
+      "Use a PDF, PNG, JPEG or TIFF file as the map.",
+      "Courses share controls. Move a control and it moves on every course.",
+      "Control descriptions with IOF 2024 symbols update as you edit the course.",
+      "Out comes a course PDF for printing and an IOF XML 3.0 file for timing software."
+    ],
+    "requirements": "Needs macOS 14 Sonoma or later. The app is in Finnish and English.",
+    "status": "In development. The beta is private.",
+    "beta": {
+      "heading": "Request a beta invite",
+      "lead": "Leave your email address and we will send an invite when the beta opens.",
+      "field_label": "Email address",
+      "button": "Request invite",
+      "privacy_line": "We use the address only for the beta invite.",
+      "privacy_link_text": "Privacy",
+      "sending": "Sending…",
+      "success": "Thank you. We will email you when the beta opens.",
+      "error_validation": "That is not an email address. Check the spelling.",
+      "error_server": "Sending failed. Write to us at %{email}.",
+      "not_live": "The request form is not live yet. Write to %{email} with the subject “Ratametsuri beta”."
+    },
+    "screenshot_alt": "The Ratametsuri window: a course planned on a map, with the control descriptions beside it.",
+    "page_title": "Ratametsuri: a Mac app for planning orienteering courses",
+    "meta_description": "Ratametsuri is a Mac app for planning orienteering courses. Courses share controls, control descriptions update live, and output is PDF and IOF XML. In development, the beta is private.",
+    "privacy": {
+      "third_party_sentence": "The site loads nothing from third-party servers, but a beta request goes to our own service.",
+      "beta_heading": "Ratametsuri beta",
+      "beta_paragraphs": [
+        "From a beta request we store your email address and nothing else. We need it for one thing: to send you a TestFlight invite to the Ratametsuri beta.",
+        "Our request service runs on %{host}. The message reaches us through Fastmail. For the invite, the address goes to Apple's TestFlight, and Apple sends the invite.",
+        "We keep the address until the beta ends, then delete it. We delete it earlier if you ask.",
+        "The address has no other use and goes to no one but Fastmail and Apple."
+      ]
+    }
+  }
+}

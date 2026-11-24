@@ -1,0 +1,9 @@
+          Starting: Bridgetown v[35m2.0.3[0m (codename "[33mRiver City[0m")
+       Environment: [36mproduction[0m
+            Source: /Users/jarkko/orca/workspaces/koivupiilo.fi/ratametsuri-landing/src
+       Destination: /Users/jarkko/orca/workspaces/koivupiilo.fi/ratametsuri-landing/output
+    Custom Plugins: /Users/jarkko/orca/workspaces/koivupiilo.fi/ratametsuri-landing/plugins
+        Generating… 
+        Pagination: disabled. Enable in site config with pagination:\n enabled: true
+            Done! 🎉 [32m[1mCompleted[0m[0m in less than 0.26 seconds.
+ Auto-regeneration: disabled. Use --watch to enable.

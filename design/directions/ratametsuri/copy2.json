@@ -1,0 +1,130 @@
+{
+  "fi": {
+    "page_title": "Ratametsuri – suunnistusratojen suunnittelu Macilla",
+    "meta_description": "Ratametsuri on Mac-ohjelma, jolla ratamestari suunnittelee suunnistusradat omalle kartalleen. Ohjelma on kehitteillä. Pyydä betakutsu sähköpostiin.",
+    "headline": "Suunnittele suunnistusradat Macilla",
+    "features_heading": "Tämä toimii jo",
+    "features": [
+      {
+        "title": "Kartta",
+        "text": "Avaat kartan PDF-, PNG-, JPEG- tai TIFF-tiedostosta ja kerrot sen mittakaavan."
+      },
+      {
+        "title": "Yhteiset rastit",
+        "text": "Radat käyttävät samoja rasteja. Kun siirrät rastia, se siirtyy kaikilla radoilla, joilla se on."
+      },
+      {
+        "title": "Rastimääritteet",
+        "text": "Ratametsuri piirtää rastimääritteet IOF 2024 -symboleilla ja päivittää ne aina, kun muokkaat rataa."
+      },
+      {
+        "title": "PDF ja IOF XML",
+        "text": "Tallennat radat tulostettavaksi PDF:ksi, jokainen rata omalle sivulleen rastimääritteineen. Tulospalveluohjelmistoon viet radat IOF XML 3.0 -tiedostona."
+      }
+    ],
+    "requirements": {
+      "heading": "Mitä tarvitset",
+      "mac": "Mac, jossa on macOS 14 Sonoma tai uudempi",
+      "languages": "Ohjelma on suomeksi ja englanniksi"
+    },
+    "status": {
+      "label": "Kehitteillä",
+      "text": "Ratametsuri on kehitteillä. Betaan pääsee mukaan kutsulla."
+    },
+    "beta": {
+      "heading": "Pyydä betakutsu",
+      "lead": "Jätä sähköpostiosoitteesi, niin lähetämme kutsun, kun beta alkaa.",
+      "field_label": "Sähköpostiosoite",
+      "button": "Pyydä kutsu",
+      "privacy_line": "Käytämme osoitetta vain betakutsuun.",
+      "privacy_link_text": "Tietosuoja",
+      "sending": "Lähetetään…",
+      "success_plain": "Pyyntösi on perillä. Kutsu tulee sähköpostiin, kun beta alkaa.",
+      "success_confirm": "Lähetimme osoitteeseesi vahvistusviestin. Vahvista pyyntö viestissä olevasta linkistä. Kutsu tulee, kun beta alkaa.",
+      "error_validation": "Tämä ei näytä sähköpostiosoitteelta. Tarkista osoite.",
+      "error_server": "Lähetys ei onnistunut. Yritä hetken päästä uudelleen tai kirjoita osoitteeseen %{email}.",
+      "not_live": "Otamme pyynnöt toistaiseksi vastaan sähköpostilla. Lähetä viesti osoitteeseen %{email} aiheella ”Ratametsuri beta”."
+    },
+    "screenshot_alt": "Ratametsurin ikkuna: suunnistuskartalle suunniteltu rata ja vieressä sen rastimääritteet.",
+    "map_credit": "Kartta: %{credit}",
+    "maker_line": {
+      "text": "Ratametsuri on Koivupiilo Oy:n tuote",
+      "business_id": "Y-tunnus 3458206-1",
+      "privacy_link_text": "Tietosuoja"
+    },
+    "lang_link": "In English",
+    "skip_link": "Siirry sisältöön",
+    "course_words": {
+      "start": "lähtö",
+      "control": "rasti",
+      "finish": "maali",
+      "leg": "rastiväli",
+      "control_code": "rastikoodi",
+      "control_description": "rastimäärite"
+    }
+  },
+  "en": {
+    "page_title": "Ratametsuri – orienteering course planning for the Mac",
+    "meta_description": "Ratametsuri is a Mac app for planning orienteering courses on your own map. It is in development; ask for a beta invite by email.",
+    "headline": "Plan orienteering courses on your Mac",
+    "features_heading": "What works today",
+    "features": [
+      {
+        "title": "Map",
+        "text": "Open the map from a PDF, PNG, JPEG or TIFF file and enter its scale."
+      },
+      {
+        "title": "Shared controls",
+        "text": "Courses share controls. Move a control and it moves on every course that uses it."
+      },
+      {
+        "title": "Control descriptions",
+        "text": "Ratametsuri draws the control descriptions in IOF 2024 symbols and updates them as you edit the course."
+      },
+      {
+        "title": "PDF and IOF XML",
+        "text": "Save the courses as a PDF for printing, each course on its own page with its control descriptions. Take them to your results software as an IOF XML 3.0 file."
+      }
+    ],
+    "requirements": {
+      "heading": "What you need",
+      "mac": "A Mac with macOS 14 Sonoma or later",
+      "languages": "The app speaks Finnish and English"
+    },
+    "status": {
+      "label": "In development",
+      "text": "Ratametsuri is in development. The beta is invite only."
+    },
+    "beta": {
+      "heading": "Ask for a beta invite",
+      "lead": "Leave your email address and we'll send you an invite when the beta starts.",
+      "field_label": "Email address",
+      "button": "Ask for an invite",
+      "privacy_line": "We use your address only for the beta invite.",
+      "privacy_link_text": "Privacy",
+      "sending": "Sending…",
+      "success_plain": "Your request is in. The invite will come by email when the beta starts.",
+      "success_confirm": "We've sent you a confirmation email. Click the link in it to confirm your request. The invite will follow when the beta starts.",
+      "error_validation": "That doesn't look like an email address. Please check it.",
+      "error_server": "Sending failed. Try again in a moment, or write to %{email}.",
+      "not_live": "For now, we take requests by email. Write to %{email} with the subject “Ratametsuri beta”."
+    },
+    "screenshot_alt": "The Ratametsuri window: a course planned on an orienteering map, with its control descriptions beside it.",
+    "map_credit": "Map: %{credit}",
+    "maker_line": {
+      "text": "Ratametsuri is a product of Koivupiilo Oy",
+      "business_id": "Business ID 3458206-1",
+      "privacy_link_text": "Privacy"
+    },
+    "lang_link": "Suomeksi",
+    "skip_link": "Skip to content",
+    "course_words": {
+      "start": "start",
+      "control": "control",
+      "finish": "finish",
+      "leg": "leg",
+      "control_code": "control code",
+      "control_description": "control description"
+    }
+  }
+}

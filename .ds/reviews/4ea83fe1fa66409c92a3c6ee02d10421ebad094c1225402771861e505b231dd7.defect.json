@@ -1,0 +1,244 @@
+{
+  "kind": "defect",
+  "ui_diff_hash": "4ea83fe1fa66409c92a3c6ee02d10421ebad094c1225402771861e505b231dd7",
+  "head_sha": "5501c2a6c79f1daaa4a7a3b95e78fae0a5f4101b",
+  "reviewer_run_id": "ctx_d7e51f1e02d9 / term_13ee9ab4-4d96-4f02-aed4-78cd13e8d0c3",
+  "implementer_family": "claude",
+  "reviewer_family": "gpt",
+  "walked": [
+    "W0",
+    "W1",
+    "W3",
+    "W5"
+  ],
+  "regions": [
+    "fi_FI",
+    "en_GB"
+  ],
+  "rubric": [
+    {
+      "id": "house-rules",
+      "result": "fail",
+      "blocking": true,
+      "note": "F1 breaks the reflow rule in a real submitted state. Otherwise one primary action, system appearance, text/icon status, self-hosted assets and the requested matrix hold. Tokens/lint remain explicitly off in kit.toml. Finnish editorial quality and fixed consent wording are outside this review.",
+      "evidence": [
+        "docs/design/reviews/evidence/4ea83fe1/long-confirmation-report.json",
+        "docs/design/reviews/evidence/4ea83fe1/contrast-check.json",
+        "docs/design/reviews/evidence/4ea83fe1/review-notes.md"
+      ]
+    },
+    {
+      "id": "model",
+      "result": "fail",
+      "blocking": true,
+      "note": "F2 contradicts D24's product-list-to-product-page navigation. The new place, form exception and distribution choice otherwise have D24/D25/D26 decisions. No destructive operation, new unapproved model object or visible UUID was found. W3 preserves the corresponding product/privacy page in both languages.",
+      "evidence": [
+        "docs/design/reviews/evidence/4ea83fe1/navigation-report.json",
+        "docs/design/reviews/evidence/4ea83fe1/review-notes.md"
+      ]
+    },
+    {
+      "id": "heuristics",
+      "result": "fail",
+      "blocking": false,
+      "note": "F5 separates the invalid-field explanation from the focused field at large text; F6 leaves service failures with retry alone. Other submitted outcomes are explicit, values survive JS failure, and Back from privacy restores the field. Non-blocking here means these do not independently fail an M/W Pass when or establish an AA violation.",
+      "evidence": [
+        "docs/design/reviews/evidence/4ea83fe1/final-report.json",
+        "docs/design/reviews/evidence/4ea83fe1/shots/en-390-dark-font24-invalid-after.jpg",
+        "docs/design/reviews/evidence/238053d5/walk-report.json"
+      ]
+    },
+    {
+      "id": "interaction-craft",
+      "result": "pass",
+      "blocking": true,
+      "note": "Native controls respond immediately; pending submission changes state/cursor and later announces sending; repeat presses are ignored while busy. The field and button stay in place across JS answers, error focus and description are provided, motion reveals the course in order, and reduced motion shows it immediately. The first submission expands the reserved message height and moves later content; that limited polish issue is recorded in the notes. No destructive flow exists.",
+      "evidence": [
+        "docs/design/reviews/evidence/238053d5/walk-report.json",
+        "docs/design/reviews/evidence/238053d5/shots/motion-en-390-light-no-preference-300ms.jpg",
+        "docs/design/reviews/evidence/238053d5/shots/motion-en-390-light-reduce-after.jpg",
+        "docs/design/reviews/evidence/4ea83fe1/final-report.json"
+      ]
+    },
+    {
+      "id": "platform",
+      "result": "fail",
+      "blocking": true,
+      "note": "F1 fails WCAG 2.2 AA 1.4.10: an ordinary 57-character address in confirmation text creates horizontal page overflow at 320 CSS px. Native browser zoom at every available 100–200% step, text spacing, focus order, labels, live regions, targets and computed contrast otherwise passed the walked checks. F5 is a major sighted-use problem, not an asserted AA violation: the error is still associated through aria-describedby. No physical-device or screen-reader-speech pass is claimed.",
+      "evidence": [
+        "docs/design/reviews/evidence/4ea83fe1/long-confirmation-report.json",
+        "docs/design/reviews/evidence/4ea83fe1/shots/long-confirmation-unbroken-en-320-light-font16.jpg",
+        "docs/design/reviews/evidence/238053d5/zoom-report.json",
+        "docs/design/reviews/evidence/238053d5/shots/zoom200-en-light.jpg",
+        "docs/design/reviews/evidence/4ea83fe1/contrast-check.json",
+        "docs/design/reviews/evidence/4ea83fe1/final-report.json"
+      ]
+    },
+    {
+      "id": "owner-rules",
+      "result": "pass",
+      "blocking": true,
+      "note": "Both pages follow prefers-color-scheme without a toggle; no user-visible UUID was found. No names or faces of athletes or club members were introduced by the page. Excluded archived prototypes and the approved inspector screenshot are not findings.",
+      "evidence": [
+        "docs/design/reviews/evidence/238053d5/shots/fi-1440-light-font16-first.jpg",
+        "docs/design/reviews/evidence/238053d5/shots/en-390-dark-font24-full.jpg",
+        "docs/design/reviews/evidence/4ea83fe1/review-notes.md"
+      ]
+    },
+    {
+      "id": "web-quality",
+      "result": "fail",
+      "blocking": true,
+      "note": "F3: visual comparison reports 16 missing product-page baselines and 16 stale privacy-page baseline sizes. F4: Lighthouse median LCP is 3002 ms on each product route, over the unchanged 2000 ms budget. The final-head gate passes with warnings and 48 additional axe runs report zero violations; its idle-page invariants do not cover F1's accepted state.",
+      "evidence": [
+        "docs/design/reviews/evidence/4ea83fe1/gate.json",
+        "docs/design/reviews/evidence/4ea83fe1/visual.json",
+        "docs/design/reviews/evidence/4ea83fe1/final-report.json",
+        "docs/design/reviews/evidence/4ea83fe1/long-confirmation-report.json",
+        "docs/design/reviews/evidence/4ea83fe1/perf.json",
+        "docs/design/reviews/evidence/4ea83fe1/lighthouse/ratametsuri-run-1.html",
+        "docs/design/reviews/evidence/4ea83fe1/lighthouse/en-ratametsuri-run-1.html"
+      ]
+    },
+    {
+      "id": "plan-conformance",
+      "result": "fail",
+      "blocking": true,
+      "note": "D24's incoming product-list link is absent (F2). Brief J4's fallback request route is absent from failure/offline states (F6). The requirement and field do fit the normal 1440×900 viewport and the normal phone field ends within 844 px; the button-fold owner decision remains open (F7). The rest of the product-brand scope and language parity are implemented.",
+      "evidence": [
+        "docs/design/reviews/evidence/4ea83fe1/navigation-report.json",
+        "docs/design/reviews/evidence/4ea83fe1/final-report.json",
+        "docs/design/reviews/evidence/238053d5/walk-report.json",
+        "docs/design/reviews/evidence/4ea83fe1/review-notes.md"
+      ]
+    },
+    {
+      "id": "approved-design",
+      "result": "pass",
+      "blocking": true,
+      "note": "The shipped page implements documented direction D: Barlow type, overprint-purple course rail, actual product screenshot, start/control/finish symbols and separate product branding. F7 is the explicitly open owner fold decision, not an invented approval. The pipeline record still has older TODO entries; this review compares the shipped direction and does not invent missing owner-signoff provenance.",
+      "evidence": [
+        "docs/design/reviews/evidence/238053d5/shots/fi-1440-light-font16-full.jpg",
+        "docs/design/reviews/evidence/238053d5/shots/en-390-dark-font24-full.jpg",
+        "docs/design/reviews/evidence/4ea83fe1/review-notes.md"
+      ]
+    },
+    {
+      "id": "baseline",
+      "result": "fail",
+      "blocking": true,
+      "note": "No baseline file was added or updated in this diff, although the product pages are new and the privacy pages grow. The visual module cannot approve the missing/stale images (F3). No baseline is approved under this failing verdict; captured actual images are copied into durable review evidence.",
+      "evidence": [
+        "docs/design/reviews/evidence/4ea83fe1/visual.json",
+        "docs/design/reviews/evidence/4ea83fe1/visual-evidence/ratametsuri-phone-light-fi-FI.png",
+        "docs/design/reviews/evidence/4ea83fe1/visual-evidence/tietosuoja-phone-light-fi-FI.png"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "severity": "blocking",
+      "rubric": "platform",
+      "walk": "W0",
+      "message": "The accepted sign-up message expands its grid track to the email address's min-content width. Submitting the local fixture with liisa.korhonen@suunnistusseurankilpailutoimikunta.example (57 characters, honeypot filled) makes the page 539 px wide at both 320 and 390 px with normal text, and 783 px wide with a 24 px default font, in FI/EN and light/dark. The address and following confirmation instruction run beyond the viewport. This fails WCAG 2.2 AA 1.4.10. Constrain the message grid children to the form width and let the dynamic email break anywhere; do not change the fixed consent text.",
+      "evidence": [
+        "docs/design/reviews/evidence/4ea83fe1/long-confirmation-report.json",
+        "docs/design/reviews/evidence/4ea83fe1/shots/long-confirmation-unbroken-en-320-light-font16.jpg",
+        "docs/design/reviews/evidence/4ea83fe1/shots/long-confirmation-unbroken-fi-390-dark-font24.jpg",
+        "docs/design/reviews/evidence/4ea83fe1/shots/en-390-light-font24-accepted-long.jpg"
+      ]
+    },
+    {
+      "id": "F2",
+      "severity": "blocking",
+      "rubric": "model",
+      "walk": "W1",
+      "message": "On /tyot/ and /en/work/, Ratametsuri remains a plain heading with no product-page link; every walked product list has zero anchors to either new route. A visitor coming from the company's products cannot reach the new beta request page. D24 explicitly requires the product page to be linked from its products-list entry. Add a locale-correct internal link from that entry to /ratametsuri/ or /en/ratametsuri/.",
+      "evidence": [
+        "docs/design/reviews/evidence/4ea83fe1/navigation-report.json",
+        "docs/design/reviews/evidence/4ea83fe1/shots/work-en-390-light-missing-link.jpg",
+        "docs/design/reviews/evidence/4ea83fe1/shots/work-fi-1440-dark-missing-link.jpg"
+      ]
+    },
+    {
+      "id": "F3",
+      "severity": "blocking",
+      "rubric": "web-quality",
+      "walk": "W0",
+      "message": "The visual gate has no baselines for either Ratametsuri route (16 missing-baseline errors), while the existing privacy baselines still show the shorter pre-Ratametsuri pages (16 size-changed errors). Capture the intended new product and privacy baselines and obtain reviewer approval of those exact files after the blocking UI defects are fixed. This failing review approves no replacements.",
+      "evidence": [
+        "docs/design/reviews/evidence/4ea83fe1/visual.json",
+        "docs/design/reviews/evidence/4ea83fe1/visual-evidence/ratametsuri-phone-light-fi-FI.png",
+        "docs/design/reviews/evidence/4ea83fe1/visual-evidence/en_ratametsuri-desktop-dark-fi-FI.png",
+        "docs/design/reviews/evidence/4ea83fe1/visual-evidence/tietosuoja-phone-light-fi-FI.png"
+      ]
+    },
+    {
+      "id": "F4",
+      "severity": "blocking",
+      "rubric": "web-quality",
+      "walk": "W0",
+      "message": "Both product routes exceed the unchanged 2000 ms LCP budget: the median of three Lighthouse runs is 3002 ms for /ratametsuri/ (3002, 3002, 3003) and /en/ratametsuri/ (3002, 3004, 3002). Fix the loading/rendering delay and rerun the same module against the final build; a budget exception requires an explicit reason in kit.toml. The full Lighthouse reports are preserved in the evidence directory.",
+      "evidence": [
+        "docs/design/reviews/evidence/4ea83fe1/perf.json",
+        "docs/design/reviews/evidence/4ea83fe1/lighthouse/ratametsuri-run-1.html",
+        "docs/design/reviews/evidence/4ea83fe1/lighthouse/en-ratametsuri-run-1.html",
+        "docs/design/reviews/evidence/4ea83fe1/lighthouse/ratametsuri-final.jpg",
+        "docs/design/reviews/evidence/4ea83fe1/lighthouse/en-ratametsuri-final.jpg"
+      ]
+    },
+    {
+      "id": "F5",
+      "severity": "major",
+      "rubric": "heuristics",
+      "walk": "W0",
+      "message": "At 390×844 with a 24 px browser default font, an invalid-email response focuses the email field, but its explanation is below the entire consent block and submit button, outside the viewport (status top about 960 px FI and 895 px EN after focus). A sighted user sees the field's error border without the reason or correction guidance. Put field validation next to the email input, retaining its live-region association and the byte-exact consent label; keep general service outcomes in the form status slot.",
+      "evidence": [
+        "docs/design/reviews/evidence/4ea83fe1/final-report.json",
+        "docs/design/reviews/evidence/4ea83fe1/shots/en-390-dark-font24-invalid-after.jpg",
+        "docs/design/reviews/evidence/4ea83fe1/shots/fi-390-light-font24-invalid-after.jpg"
+      ]
+    },
+    {
+      "id": "F6",
+      "severity": "major",
+      "rubric": "plan-conformance",
+      "walk": "W0",
+      "message": "The server-failure and offline states offer only retrying the same endpoint. The product page has no visible alternate request/contact link; its only footer action is the privacy page, whose address requires discovering and reading the policy. This misses brief J4's requirement for another working way to ask when the form fails. Offer a direct fallback contact action in service-failure/offline states without changing the consent label.",
+      "evidence": [
+        "docs/design/reviews/evidence/4ea83fe1/final-report.json",
+        "docs/design/reviews/evidence/4ea83fe1/shots/en-390-light-font16-offline.jpg",
+        "docs/design/reviews/evidence/238053d5/shots/fi-390-light-font16-server-error-after.jpg"
+      ]
+    },
+    {
+      "id": "F7",
+      "severity": "major",
+      "rubric": "approved-design",
+      "walk": "W0",
+      "message": "Known open owner decision: at 1440×900 the primary submit button ends at y=949.55 in FI and y=928.66 in EN; only its top edge/part is visible at the fold. The one-screen request composition therefore shows the input but cuts its action. Resolve the owner decision by fitting the full consent-and-submit block in the intended first viewport or explicitly accepting the extra scroll. This is a major composition issue, not an AA failure or an additional merge-blocking model finding.",
+      "evidence": [
+        "docs/design/reviews/evidence/238053d5/walk-report.json",
+        "docs/design/reviews/evidence/238053d5/shots/fi-1440-light-font16-first.jpg",
+        "docs/design/reviews/evidence/238053d5/shots/en-1440-dark-font16-first.jpg"
+      ]
+    }
+  ],
+  "model_changes": [
+    {
+      "description": "Add a bilingual, independently branded hosted product place for Ratametsuri and its product-list navigation exception.",
+      "decision_ref": "D24"
+    },
+    {
+      "description": "Permit the one-field beta-request form and shared first-party sign-up service, with privacy content and progressive HTML/JS return states.",
+      "decision_ref": "D25"
+    },
+    {
+      "description": "Document email-invited Mac TestFlight beta distribution under the existing team; the page promises only the future invitation.",
+      "decision_ref": "D26"
+    }
+  ],
+  "baselines_approved": [],
+  "verdict": "fail"
+}

@@ -1,0 +1,44 @@
+{
+  "axe": [],
+  "long": [],
+  "live": [],
+  "double": [],
+  "paths": [
+    {
+      "lc": "fi",
+      "steps": [
+        "/tyot/",
+        "/ratametsuri/",
+        "/tietosuoja/",
+        "/yritys/"
+      ],
+      "company": "Yritys\nYritystiedot\nNimi\nKoivupiilo Oy\nY-tunnus\n3458206-1\nRekisteröity\n26.6.2024\nOsoite\nSopentie, 36200 Kangasala\nSähköposti\njarkko@koivupiilo.fi\nPerustaja\n\nKoivupiilon perusti Jarkko Laine vuonna 2024.\n\nOlen ohjelmistokehittäjä ja lentopallovalmentaja, ja Koivupiilo on yritys, jonka kautta teen kumpaakin työtä.\n\nJarkko Laine\nOhjelmistokehittäjä, Selma Financen lead developer vuodesta 2018\nLentopalloliiton Kauden seuratoimija 2025\nKirjoittaa valmentamisesta ja kestävyysurheilusta: jlaine.net\nNimi tulee koivikosta\n\nKoivupiilo on koivikko Kangasalla, ja yritys sai nimensä siitä.\n\nSivujen reunassa kulkeva tuohi on jäljennetty valokuvasta, joka on otettu yhdestä koivikon koivusta.",
+      "evidence": "docs/design/reviews/evidence/f42b0d0f/shots/trust-path-fi.jpg"
+    },
+    {
+      "lc": "en",
+      "steps": [
+        "/en/work/",
+        "/en/ratametsuri/",
+        "/en/privacy/",
+        "/en/company/"
+      ],
+      "company": "Company\nCompany details\nName\nKoivupiilo Oy\nBusiness ID\n3458206-1\nRegistered\n26 June 2024\nAddress\nSopentie, 36200 Kangasala, Finland\nEmail\njarkko@koivupiilo.fi\nFounder\n\nJarkko Laine founded Koivupiilo in 2024.\n\nI am a software developer and a volleyball coach, and Koivupiilo is the company I do both jobs through.\n\nJarkko Laine\nSoftware developer, lead developer at Selma Finance since 2018\nClub official of the season 2025 (Kauden seuratoimija), Finnish Volleyball Association\nWrites about coaching and endurance sports at jlaine.net\nThe name comes from a birch grove\n\nKoivupiilo is a birch grove in Kangasala, and the company is named after it.\n\nThe bark along the edge of these pages is traced from a photo of one of the grove's birches.",
+      "evidence": "docs/design/reviews/evidence/f42b0d0f/shots/trust-path-en.jpg"
+    }
+  ],
+  "reducedMidVisit": [
+    {
+      "width": 390,
+      "pre": 0,
+      "animations": 0,
+      "evidence": "docs/design/reviews/evidence/f42b0d0f/shots/reduced-mid-390.jpg"
+    },
+    {
+      "width": 1440,
+      "pre": 0,
+      "animations": 0,
+      "evidence": "docs/design/reviews/evidence/f42b0d0f/shots/reduced-mid-1440.jpg"
+    }
+  ]
+}

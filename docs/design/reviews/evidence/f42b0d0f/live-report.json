@@ -1,0 +1,110 @@
+[
+  {
+    "lc": "fi",
+    "events": [
+      {
+        "event": "response",
+        "url": "https://join.koivupiilo.fi/kit/form.js",
+        "status": 200
+      },
+      {
+        "event": "console",
+        "text": "Access to fetch at 'https://join.koivupiilo.fi/ratametsuri/signup/token' from origin 'http://localhost:55047' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+      },
+      {
+        "event": "failed",
+        "url": "https://join.koivupiilo.fi/ratametsuri/signup/token",
+        "error": "net::ERR_FAILED"
+      },
+      {
+        "event": "console",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      },
+      {
+        "event": "console",
+        "text": "Access to fetch at 'https://join.koivupiilo.fi/ratametsuri/signup' from origin 'http://localhost:55047' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+      },
+      {
+        "event": "failed",
+        "url": "https://join.koivupiilo.fi/ratametsuri/signup",
+        "error": "net::ERR_FAILED"
+      },
+      {
+        "event": "console",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      },
+      {
+        "event": "console",
+        "text": "Access to fetch at 'https://join.koivupiilo.fi/ratametsuri/signup/token' from origin 'http://localhost:55047' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+      },
+      {
+        "event": "failed",
+        "url": "https://join.koivupiilo.fi/ratametsuri/signup/token",
+        "error": "net::ERR_FAILED"
+      },
+      {
+        "event": "console",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      }
+    ],
+    "state": "error",
+    "status": "Pyyntö ei mennyt perille. Yritä hetken päästä uudelleen.",
+    "value": "a@b",
+    "focused": "",
+    "evidence": "docs/design/reviews/evidence/f42b0d0f/shots/live-network-fi.jpg"
+  },
+  {
+    "lc": "en",
+    "events": [
+      {
+        "event": "response",
+        "url": "https://join.koivupiilo.fi/kit/form.js",
+        "status": 200
+      },
+      {
+        "event": "console",
+        "text": "Access to fetch at 'https://join.koivupiilo.fi/ratametsuri/signup/token' from origin 'http://localhost:55047' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+      },
+      {
+        "event": "failed",
+        "url": "https://join.koivupiilo.fi/ratametsuri/signup/token",
+        "error": "net::ERR_FAILED"
+      },
+      {
+        "event": "console",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      },
+      {
+        "event": "console",
+        "text": "Access to fetch at 'https://join.koivupiilo.fi/ratametsuri/signup' from origin 'http://localhost:55047' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+      },
+      {
+        "event": "failed",
+        "url": "https://join.koivupiilo.fi/ratametsuri/signup",
+        "error": "net::ERR_FAILED"
+      },
+      {
+        "event": "console",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      },
+      {
+        "event": "console",
+        "text": "Access to fetch at 'https://join.koivupiilo.fi/ratametsuri/signup/token' from origin 'http://localhost:55047' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource."
+      },
+      {
+        "event": "failed",
+        "url": "https://join.koivupiilo.fi/ratametsuri/signup/token",
+        "error": "net::ERR_FAILED"
+      },
+      {
+        "event": "console",
+        "text": "Failed to load resource: net::ERR_FAILED"
+      }
+    ],
+    "state": "error",
+    "status": "Your request didn't get through. Try again in a moment.",
+    "value": "a@b",
+    "focused": "",
+    "evidence": "docs/design/reviews/evidence/f42b0d0f/shots/live-network-en.jpg"
+  }
+]

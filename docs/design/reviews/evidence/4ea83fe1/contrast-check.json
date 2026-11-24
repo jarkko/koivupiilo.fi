@@ -1,0 +1,133 @@
+{
+  "source": "src/ratametsuri/style.css at reviewed HEAD; colour pairs used for text, borders and focus in the walked build",
+  "pairs": [
+    {
+      "theme": "light",
+      "foreground": "ink",
+      "background": "paper",
+      "ratio": 15.192,
+      "minimum": 4.5,
+      "pass_": true
+    },
+    {
+      "theme": "light",
+      "foreground": "muted",
+      "background": "paper",
+      "ratio": 6.68,
+      "minimum": 4.5,
+      "pass_": true
+    },
+    {
+      "theme": "light",
+      "foreground": "danger",
+      "background": "paper",
+      "ratio": 5.795,
+      "minimum": 4.5,
+      "pass_": true
+    },
+    {
+      "theme": "light",
+      "foreground": "on-purple",
+      "background": "purple",
+      "ratio": 6.114,
+      "minimum": 4.5,
+      "pass_": true
+    },
+    {
+      "theme": "light",
+      "foreground": "on-purple",
+      "background": "purple-press",
+      "ratio": 7.841,
+      "minimum": 4.5,
+      "pass_": true
+    },
+    {
+      "theme": "light",
+      "foreground": "edge",
+      "background": "field",
+      "ratio": 4.109,
+      "minimum": 3,
+      "pass_": true
+    },
+    {
+      "theme": "light",
+      "foreground": "purple",
+      "background": "paper",
+      "ratio": 5.42,
+      "minimum": 3,
+      "pass_": true
+    },
+    {
+      "theme": "light",
+      "foreground": "purple",
+      "background": "field",
+      "ratio": 5.814,
+      "minimum": 3,
+      "pass_": true
+    },
+    {
+      "theme": "dark",
+      "foreground": "ink",
+      "background": "paper",
+      "ratio": 15.587,
+      "minimum": 4.5,
+      "pass_": true
+    },
+    {
+      "theme": "dark",
+      "foreground": "muted",
+      "background": "paper",
+      "ratio": 7.833,
+      "minimum": 4.5,
+      "pass_": true
+    },
+    {
+      "theme": "dark",
+      "foreground": "danger",
+      "background": "paper",
+      "ratio": 9.425,
+      "minimum": 4.5,
+      "pass_": true
+    },
+    {
+      "theme": "dark",
+      "foreground": "on-purple",
+      "background": "purple",
+      "ratio": 7.494,
+      "minimum": 4.5,
+      "pass_": true
+    },
+    {
+      "theme": "dark",
+      "foreground": "on-purple",
+      "background": "purple-press",
+      "ratio": 9.738,
+      "minimum": 4.5,
+      "pass_": true
+    },
+    {
+      "theme": "dark",
+      "foreground": "edge",
+      "background": "field",
+      "ratio": 5.084,
+      "minimum": 3,
+      "pass_": true
+    },
+    {
+      "theme": "dark",
+      "foreground": "purple",
+      "background": "paper",
+      "ratio": 7.494,
+      "minimum": 3,
+      "pass_": true
+    },
+    {
+      "theme": "dark",
+      "foreground": "purple",
+      "background": "field",
+      "ratio": 7.077,
+      "minimum": 3,
+      "pass_": true
+    }
+  ]
+}

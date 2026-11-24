@@ -1,0 +1,15 @@
+import {createRequire} from 'node:module';
+import {createServer} from 'node:http';
+import {readFileSync,writeFileSync,existsSync,statSync,mkdtempSync,rmSync} from 'node:fs';
+import {join,extname} from 'node:path';import {tmpdir} from 'node:os';
+const {chromium}=createRequire('/Users/jarkko/code/postiz-app/node_modules/')('playwright');
+const dir=join(process.cwd(),'docs/design/reviews/evidence/f42b0d0f');
+const server=createServer((q,r)=>{let p=join(process.cwd(),'output',q.url.split(/[?#]/)[0]);if(existsSync(p)&&statSync(p).isDirectory())p=join(p,'index.html');if(!existsSync(p)){r.writeHead(404);return r.end();}r.setHeader('content-type',({'.html':'text/html','.css':'text/css','.js':'text/javascript','.woff2':'font/woff2','.webp':'image/webp'})[extname(p)]||'application/octet-stream');r.end(readFileSync(p));}).listen(0);
+await new Promise(ok=>server.once('listening',ok));const origin=`http://localhost:${server.address().port}`;
+const profile=mkdtempSync(join(tmpdir(),'rmzoom-'));
+const ctx=await chromium.launchPersistentContext(profile,{executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',viewport:{width:1440,height:900},reducedMotion:'reduce'});
+await ctx.route('https://join.koivupiilo.fi/**',r=>r.abort());
+const settings=ctx.pages()[0],p=await ctx.newPage(),report={mechanism:'Real Chrome page zoom, set through chrome://settings/appearance #zoomLevel; no CSS zoom or device scale emulation.',zoom:[],stress:[]};
+await settings.goto('chrome://settings/appearance');await settings.locator('#zoomLevel').waitFor();
+await settings.locator("#zoomLevel").selectOption("2");
+const captures=[];for(const theme of ["light","dark"])for(const [lc,route] of [["fi","/ratametsuri/"],["en","/en/ratametsuri/"],["privacy-fi","/tietosuoja/"],["privacy-en","/en/privacy/"]]){await p.emulateMedia({colorScheme:theme});await p.goto(origin+route);await p.evaluate(()=>document.fonts.ready);const client=await ctx.newCDPSession(p);for(const stage of route.includes("ratametsuri")?["field","button"]:["policy"]){if(stage==="field")await p.locator("#email").focus();else if(stage==="button")await p.locator("button").focus();else await p.locator("h2").filter({hasText:"Ratametsuri"}).first().scrollIntoViewIfNeeded();await p.waitForTimeout(250);const {data}=await client.send("Page.captureScreenshot",{format:"jpeg",quality:75,fromSurface:true,captureBeyondViewport:false});const path=join(dir,"shots",`native200-${lc}-${theme}-${stage}.jpg`);writeFileSync(path,Buffer.from(data,"base64"));captures.push({lc,theme,stage,evidence:path.replace(process.cwd()+"/",""),metrics:await p.evaluate(()=>({innerWidth,innerHeight,scrollY,scrollWidth:document.documentElement.scrollWidth,active:document.activeElement.id}))});}await client.detach();}writeFileSync(join(dir,"native200-report.json"),JSON.stringify(captures,null,2));console.log(captures.length);await ctx.close();rmSync(profile,{recursive:true,force:true});server.close();

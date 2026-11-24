@@ -1,0 +1,113 @@
+{
+  "source": ".ds/out/perf/ratametsuri/run-3.html",
+  "url": "http://site.localhost:8080/ratametsuri/",
+  "fetchTime": "2026-11-23T21:46:50.787Z",
+  "lighthouseVersion": "12.6.1",
+  "metrics": {
+    "largest-contentful-paint": {
+      "value": 3002.839,
+      "display": "3.0\u00a0s"
+    },
+    "first-contentful-paint": {
+      "value": 1204.2585,
+      "display": "1.2\u00a0s"
+    },
+    "cumulative-layout-shift": {
+      "value": 0,
+      "display": "0"
+    },
+    "total-blocking-time": {
+      "value": 0,
+      "display": "0\u00a0ms"
+    },
+    "speed-index": {
+      "value": 1204.2585,
+      "display": "1.2\u00a0s"
+    }
+  },
+  "lcp_element": {
+    "type": "list",
+    "items": [
+      {
+        "type": "table",
+        "headings": [
+          {
+            "key": "node",
+            "valueType": "node",
+            "label": "Element"
+          }
+        ],
+        "items": [
+          {
+            "node": {
+              "type": "node",
+              "lhId": "page-0-SPAN",
+              "path": "1,HTML,1,BODY,1,DIV,2,MAIN,0,SECTION,1,P,1,SPAN",
+              "selector": "main#main > section.intro > p.status > span",
+              "boundingRect": {
+                "top": 161,
+                "bottom": 254,
+                "left": 88,
+                "right": 396,
+                "width": 307,
+                "height": 93
+              },
+              "snippet": "<span>",
+              "nodeLabel": "Viet radat tulos\u00adpalveluun IOF XML 3.0 -\u2060tiedostona niin kuin muistakin ratames\u2026"
+            }
+          }
+        ]
+      },
+      {
+        "type": "table",
+        "headings": [
+          {
+            "key": "phase",
+            "valueType": "text",
+            "label": "Phase"
+          },
+          {
+            "key": "percent",
+            "valueType": "text",
+            "label": "% of LCP"
+          },
+          {
+            "key": "timing",
+            "valueType": "ms",
+            "label": "Timing"
+          }
+        ],
+        "items": [
+          {
+            "phase": "TTFB",
+            "timing": 451.4195,
+            "percent": "15%"
+          },
+          {
+            "phase": "Load Delay",
+            "timing": 0,
+            "percent": "0%"
+          },
+          {
+            "phase": "Load Time",
+            "timing": 0,
+            "percent": "0%"
+          },
+          {
+            "phase": "Render Delay",
+            "timing": 2551.4195,
+            "percent": "85%"
+          }
+        ]
+      }
+    ]
+  },
+  "lcp_breakdown": null,
+  "lcp_discovery": null,
+  "categories": {
+    "performance": 0.94,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 1
+  }
+}

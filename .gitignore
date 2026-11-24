@@ -46,5 +46,9 @@ yarn-debug.log*
 !/tmp/pids/.keep
 design/out/
 design/shots/
+# Screenshots of third-party sites: private design reference, not for a public repo
+docs/design/ratametsuri/refs/
+# Full-size app screenshot masters (5 MB each); the repo keeps the WebP and PROVENANCE.md
+design/directions/ratametsuri/screens/*.png
 design/assets/photos/_raw*/
 .ds/out/

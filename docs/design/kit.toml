@@ -36,7 +36,7 @@ ui_globs = ["src/**", "frontend/**", "design/**/*.{mjs,html,css,svg,png,jpg,woff
 # (copied byte for byte from the kvnn repository's mockups/ at commit 9f8f6d7, without content.md).
 # They are outside the review hash, the term check and every web check.
 # docs/design/reviews/evidence/ is a reviewer's record: it may quote superseded wording to say it is gone.
-ignore_globs = ["node_modules/**", "output/**", "design/out/**", "design/shots/**", "**/*.generated.*", "src/kvnn/**", "docs/design/reviews/evidence/**"]
+ignore_globs = ["node_modules/**", "output/**", "design/out/**", "design/shots/**", "**/*.generated.*", "src/kvnn/**", "docs/design/reviews/evidence/**", "design/directions/**", "docs/design/ratametsuri/consent-draft.md"]
 # Phoenix: ignore_globs = ["deps/**", "_build/**", "node_modules/**", "**/*.generated.*"]
 
 [modules]
@@ -52,7 +52,7 @@ imagery = "No photos or video ship from src/; design/assets/photos/PROVENANCE.md
 tokens = "No chosen production token source yet; the directions use CSS custom properties. Enable DTCG tokens when the owner chooses the direction (process.md phases 3-5)."
 lint = "Needs tokens; enable design lint with the chosen production token source."
 # The old native haptics and full user-object lifecycle exclusions still apply to this static web site;
-# neither is a ds module. Real pages serve as feel prototypes. There are no forms or saved user state.
+# neither is a ds module. Real pages serve as feel prototypes. No saved user state; the one form (the Ratametsuri sign-up) posts to launchpad.
 # Outside testers remain optional at R1 (brief.md A2/A4); feedback stays on.
 # The old model_check_ci exclusion expired: ds now checks the model, with D20 accepting existing gaps.
 
@@ -146,16 +146,20 @@ routes = [
   "/", "/tyot/", "/studio/", "/valmennus/", "/yritys/", "/tietosuoja/",
   "/en/", "/en/work/", "/en/studio/", "/en/coaching/", "/en/company/", "/en/privacy/",
   "/404.html",
+  # The Ratametsuri product page: a standalone layout with the product's own brand.
+  "/ratametsuri/", "/en/ratametsuri/",
 ]
 # ds fixes phone/desktop widths at 390/1440 and renders light + dark in fi_FI + en_GB.
 # No theme toggle: follow prefers-color-scheme (AGENTS.md); no web setting overrides it.
 # ready = "main[data-ready]"          # wait for this before measuring
 # Third-party origins the pages may load. Everything else is blocked and reported.
-allow_origins = []                    # [{ origin = "https://…", reason = "why" }]
+allow_origins = [
+  { origin = "https://join.koivupiilo.fi", reason = "launchpad, our own sign-up service: the Ratametsuri form posts to it and loads its kit/form.js and fill-time token" },
+]
 # Files that can change a rendered page (default: ui_globs).
 # src/ is listed folder by folder so that src/kvnn/ (see ignore_globs) re-runs no web check:
 # a new folder under src/ that renders into a page has to be added here.
-render_globs = ["src/*", "src/_*/**", "src/fonts/**", "frontend/**", "config/**", "plugins/**", "Gemfile*", "package*.json", "Rakefile", "*.config.*"]
+render_globs = ["src/*", "src/_*/**", "src/fonts/**", "src/ratametsuri/**", "frontend/**", "config/**", "plugins/**", "Gemfile*", "package*.json", "Rakefile", "*.config.*"]
 #
 # Which routes a changed file affects. A rendering file matching no entry affects every route.
 # [web.route_map]
