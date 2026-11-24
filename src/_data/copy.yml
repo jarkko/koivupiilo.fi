@@ -122,14 +122,14 @@ fi:
         - Sivujen reunassa kulkeva tuohi on jäljennetty valokuvasta, joka on otettu yhdestä koivikon koivusta.
     privacy:
       title: Tietosuoja – Koivupiilo
-      description: "Koivupiilon tietosuojaseloste: mitä tietoja se käsittelee sivustolla, sähköpostissa ja Ratametsurin betakutsuissa, kuinka kauan se säilyttää niitä ja mitä oikeuksia sinulla on."
+      description: "Koivupiilon tietosuojaseloste: mitä tietoja se käsittelee sivustolla, sähköpostissa ja Ratametsurin betahauissa, kuinka kauan se säilyttää niitä ja mitä oikeuksia sinulla on."
       heading: Tietosuoja
-      lede: Koivupiilo käsittelee tietojasi, kun käyt sivustolla, lähetät sille sähköpostia tai pyydät Ratametsurin betakutsua.
+      lede: Koivupiilo käsittelee tietojasi, kun käyt sivustolla, lähetät sille sähköpostia tai haet Ratametsurin betaan.
       sections:
         - heading: Evästeet ja kävijämäärät
           text:
             - Koivupiilo käyttää evästeitä ja selaimen tallennustilaa siihen, mitä sivujen toiminta vaatii. Mainontaan tai kävijöiden seurantaan se ei käytä niitä ilman lupaasi.
-            - Koivupiilo laskee sivujen käyntien ja betakutsupyyntöjen kokonaismääriä nähdäkseen, miten sivuja käytetään. Laskuri on Koivupiilon itse ylläpitämä, toimii ilman evästeitä eikä tallenna IP-osoitettasi. Luvuista ei näe, kuka sivuilla kävi.
+            - Koivupiilo laskee sivujen käyntien ja betahakemusten kokonaismääriä nähdäkseen, miten sivuja käytetään. Laskuri on Koivupiilon itse ylläpitämä, toimii ilman evästeitä eikä tallenna IP-osoitettasi. Luvuista ei näe, kuka sivuilla kävi.
         - heading: Palvelimet
           text:
             - IP-osoitteesi välittyy palvelimille aina, kun selaimesi hakee sivun. Palveluntarjoajat voivat käyttää sitä palvelunsa suojaamiseen. Koivupiilo käyttää osoitetta lomakkeiden väärinkäytön estämiseen eikä säilytä sitä tuntia pidempään. Käsittely perustuu oikeutettuun etuun suojata sivustoa.
@@ -269,14 +269,14 @@ en:
         - The bark along the edge of these pages is traced from a photo of one of the grove's birches.
     privacy:
       title: Privacy – Koivupiilo
-      description: "Koivupiilo's privacy notice: what data it handles on the site, by email and for Ratametsuri beta invites, how long it keeps it, and what your rights are."
+      description: "Koivupiilo's privacy notice: what data it handles on the site, by email and for Ratametsuri beta applications, how long it keeps it, and what your rights are."
       heading: Privacy
-      lede: Koivupiilo handles your data when you visit the site, email it or ask for a Ratametsuri beta invite.
+      lede: Koivupiilo handles your data when you visit the site, email it or apply for the Ratametsuri beta.
       sections:
         - heading: Cookies and visitor counts
           text:
             - Koivupiilo uses cookies and browser storage for what the pages need to work. It doesn't use them for advertising or for tracking visitors without your permission.
-            - Koivupiilo counts total page visits and beta invite requests to see how the pages are used. It runs the counter itself, without cookies, and the counter doesn't store your IP address. The totals don't show who visited.
+            - Koivupiilo counts total page visits and beta applications to see how the pages are used. It runs the counter itself, without cookies, and the counter doesn't store your IP address. The totals don't show who visited.
         - heading: Servers
           text:
             - Your IP address reaches the servers whenever your browser fetches a page. The service providers may use it to protect their services. Koivupiilo uses it to stop abuse of its forms and keeps it for no more than an hour. The basis is a legitimate interest in protecting the site.
