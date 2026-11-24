@@ -9,35 +9,54 @@
 # consent.version).
 
 page_title: "Ratametsuri – ratamestarisovellus Macille"
-meta_description: "Ratametsuri on ratamestarisovellus Macille. Suunnittelet sillä suunnistusradat ja viet ne tulospalveluun IOF XML 3.0 -tiedostona. Sovellus on kehitteillä."
+meta_description: "Ratametsuri on ratamestarisovellus Macille. Suunnittelet radat omalle kartallesi ja viet ne tulospalveluun. Sovellus on kehitteillä, ja betaan voi pyytää kutsua."
 skip_link: "Siirry sisältöön"
 lang_link: "In English"
 
-headline: "Ratamestarisovellus Macille"
-status: "Viet radat tulospalveluun IOF XML 3.0 -tiedostona niin kuin muistakin ratamestarisovelluksista. Sovellus on kehitteillä."
-checked: "Tilanne tarkistettu %{date}." # M1: the date comes from work.yml, the one home of the status
+# REVIEW ONLY: three hero directions for the owner to compare (?hero=a|b|c on a local build).
+# hero_default is the one shown without the parameter. Keep only the chosen direction, as plain
+# tagline/line/beta keys, and remove the switch before any merge.
+hero_default: "a"
+hero:
+  a:
+    tagline: ["Kotonaan Macissa.", "Kotonaan suunnistuksen sovellusekosysteemissä."]
+    line: "Ratamestarisovellus, jolla suunnittelet radat omalle kartallesi ja viet ne tulospalveluun."
+    beta_heading: "Pyydä betakutsu"
+    beta_lead: "Kutsumme ensin 10–20 ratamestaria. Muut saavat tiedon, kun sovellus julkaistaan."
+  b:
+    tagline: ["Kotonaan Macissa.", "Kotonaan suunnistusohjelmistojen joukossa."]
+    line: "Ratamestarisovellus, jolla suunnittelet radat omalle kartallesi ja viet ne tulospalveluun."
+    beta_heading: "Pyydä betakutsu"
+    beta_lead: "Kutsumme ensin 10–20 ratamestaria. Muut saavat tiedon, kun sovellus julkaistaan."
+  c:
+    tagline: ["Kotonaan Macissa.", "Kotonaan suunnistuksen sovellusekosysteemissä."]
+    line: "Ratamestarisovellus, joka asettaa rastinmääritteet kartalle itse ja vie radat tulospalveluun."
+    beta_heading: "Pyydä betakutsu"
+    beta_lead: "Kutsumme ensin 10–20 ratamestaria. Muut saavat tiedon, kun sovellus julkaistaan."
+    feature3_title: "Rastinmääritteet jatkuvat viereiseen palstaan" # C's line already says they place themselves
 
-screenshot_alt: "Ratametsurin ikkuna: Kaupin kartalla rata A ja sen rastinmääritteet. Sivupalkissa ovat radat ja radan rastit."
+# The status label beside the wordmark: the status word comes from work.yml (statuses), and so does
+# the date (M1: the one home of the status).
+checked: "tarkistettu %{date}"
+
+screenshot_alt: "Kaupin kartta Ratametsurissa: rata A lähtökolmiosta rastien 1–11 kautta maaliin ja rastinmääritteet vasemmassa yläkulmassa."
 map_credit: "Kartta: Kauppi, Tampereen Pyrintö"
 
 requirements:
   heading: "Mitä tarvitset"
   items:
     - "Mac, jossa on macOS 14 Sonoma tai uudempi"
-    - "Kartta PDF-, PNG-, JPEG- tai TIFF-tiedostona"
 
 features_heading: "Mitä Ratametsuri jo osaa"
 features:
-  - title: "Osoitin kertoo, mitä napsautus tekee"
-    text: "Kun osoitin on toisen radan rastin päällä, sen vieressä lukee esimerkiksi ”Lisää 31 rastiksi 4” ja rastivälin päällä ”Lisää rastien 2 ja 3 väliin”. Jos osut rastiin, joka on jo radalla, napsautus vain valitsee sen eikä lisää sitä toista kertaa."
-  - title: "Suomeksi"
-    text: "Sovellus käyttää SSL:n termejä, kuten ”rastinmääritteet” ja ”rastipisteen kohde”."
-  - title: "PDF ja IOF XML 3.0"
-    text: "Jokaisesta radasta tulee oma PDF, jossa rastinmääritteet ovat kartalla. Sarakkeita E, G ja H ei voi vielä muokata. MeOS 5.0 on lukenut Ratametsurin radat ilman varoituksia. Muita tulospalveluohjelmistoja ei ole kokeiltu."
+  - title: "Näet ennen napsautusta, mitä tapahtuu"
+    text: "Osoittimen vieressä lukee esimerkiksi ”Lisää 31 rastiksi 4” tai ”Lisää rastien 2 ja 3 väliin”. Jos osut rastiin, joka on jo radalla, napsautus valitsee sen eikä lisää sitä toista kertaa."
+  - title: "Radat tulospalveluun IOF XML 3.0 -tiedostona"
+    text: "MeOS 5.0 on lukenut Ratametsurin radat ilman varoituksia."
+  - title: "Rastinmääritteet asettuvat kartalle itse"
+    text: "Jos ne eivät mahdu sivulle yhtenä palstana, viereen tulee toinen. Ne ovat kartalla myös radan PDF:ssä."
 
 beta:
-  heading: "Pyydä betakutsu"
-  lead: "Beta on seurojen ratamestareille, joilla on Mac. Aluksi mukaan mahtuu 10–20 ratamestaria, joten emme voi luvata kutsua kaikille."
   field_label: "Sähköpostiosoite"
   button: "Pyydä kutsu"
   # The form's answers. kit/form.js fills %{email} with the address sent and %{project} with the

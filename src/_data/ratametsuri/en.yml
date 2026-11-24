@@ -10,35 +10,52 @@
 # Change it only together with launchpad (and with a new consent.version).
 
 page_title: "Ratametsuri – course setting app for the Mac"
-meta_description: "Ratametsuri is a course setting app for the Mac. You plan orienteering courses in it and export them to your results software as an IOF XML 3.0 file. The app is in development."
+meta_description: "Ratametsuri is a course setting app for the Mac. Plan courses on your own map and export them to your results software. It's in development, and you can ask for a beta invite."
 skip_link: "Skip to content"
 lang_link: "Suomeksi"
 
-headline: "Course setting app for the Mac"
-status: "You export your courses to your results software as an IOF XML 3.0 file, as you do from other course setting apps. The app is in development."
-checked: "Status checked %{date}." # M1: the date comes from work.yml, the one home of the status
+# REVIEW ONLY: the three hero directions, derived from the Finnish (fi.yml). Keep only the chosen
+# one and remove the switch before any merge.
+hero_default: "a"
+hero:
+  a:
+    tagline: ["At home on the Mac.", "At home in orienteering's software ecosystem."]
+    line: "A course setting app: plan courses on your own map and export them to your results software."
+    beta_heading: "Ask for a beta invite"
+    beta_lead: "We're inviting 10–20 course setters first. Everyone else hears from us when the app is released."
+  b:
+    tagline: ["At home on the Mac.", "At home among orienteering software."]
+    line: "A course setting app: plan courses on your own map and export them to your results software."
+    beta_heading: "Ask for a beta invite"
+    beta_lead: "We're inviting 10–20 course setters first. Everyone else hears from us when the app is released."
+  c:
+    tagline: ["At home on the Mac.", "At home in orienteering's software ecosystem."]
+    line: "A course setting app that puts the control descriptions on the map by itself and exports your courses to the results software."
+    beta_heading: "Ask for a beta invite"
+    beta_lead: "We're inviting 10–20 course setters first. Everyone else hears from us when the app is released."
+    feature3_title: "The control descriptions continue in a second column"
 
-screenshot_alt: "The Ratametsuri window: course A and its control descriptions on the Kauppi map. The sidebar lists the courses and the course's controls."
+# The status label beside the wordmark: the status word and the date come from work.yml (M1).
+checked: "checked %{date}"
+
+screenshot_alt: "The Kauppi map in Ratametsuri: course A from the start triangle through controls 1–11 to the finish, with the control descriptions in the top left corner."
 map_credit: "Map: Kauppi, Tampereen Pyrintö"
 
 requirements:
   heading: "What you need"
   items:
     - "A Mac with macOS 14 Sonoma or later"
-    - "A map as a PDF, PNG, JPEG or TIFF file"
 
 features_heading: "What Ratametsuri can already do"
 features:
-  - title: "The pointer shows what a click will do"
-    text: "Over another course's control, the text next to the pointer reads, for example, “Add 31 as 4”, and over a leg, “Insert between 2 and 3”. Click a control that is already on the course and the click selects it instead of adding it a second time."
-  - title: "In Finnish"
-    text: "The Finnish version uses the Finnish Orienteering Federation's terms, such as “rastinmääritteet” (control descriptions) and “rastipisteen kohde” (control feature)."
-  - title: "PDF and IOF XML 3.0"
-    text: "Each course gets its own PDF with the control descriptions on the map. You can't edit columns E, G and H yet. MeOS 5.0 has imported Ratametsuri's courses without warnings. We haven't tried other results software."
+  - title: "See what a click will do before you click"
+    text: "Next to the pointer you read, for example, “Add 31 as 4” or “Insert between 2 and 3”. If you hit a control that's already on the course, the click selects it and doesn't add it again."
+  - title: "Courses to your results software as IOF XML 3.0"
+    text: "MeOS 5.0 has read Ratametsuri's courses without warnings."
+  - title: "The control descriptions place themselves on the map"
+    text: "If they don't fit the page in one column, a second one goes beside it. They're on the map in the course PDF too."
 
 beta:
-  heading: "Ask for a beta invite"
-  lead: "The beta is for club course setters with a Mac. At first there is room for 10–20 course setters, so we can't promise everyone an invite."
   field_label: "Email address"
   button: "Ask for an invite"
   # The form's answers. kit/form.js fills %{email} with the address sent and %{project} with the

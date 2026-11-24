@@ -46,6 +46,13 @@
     // The overlay covers the gutter only, never the text beside it.
     svg.setAttribute("width", Math.ceil(Math.max(0, ...pts.map((p) => p.x + p.r)) + 2));
     svg.setAttribute("height", cr.height);
+    // The start triangle points at the first control, as on a map. Its centroid is the box centre
+    // (16,16), so the leg leaves from the triangle's middle; without JS it points down (the markup).
+    const tri = syms[0] && syms[0].querySelector("polygon");
+    if (tri && pts[1]) {
+      const deg = Math.atan2(pts[1].y - pts[0].y, pts[1].x - pts[0].x) * 180 / Math.PI + 90;
+      tri.setAttribute("transform", `rotate(${deg.toFixed(1)} 16 16)`);
+    }
     legs.forEach((l, i) => {
       const a = pts[i], b = pts[i + 1];
       l.style.display = a && b ? "" : "none";
