@@ -17,6 +17,9 @@
 - **O-c4 (W2/W4), PR 2:** A service shopper still needs email to learn engagement shape; availability remains owner-unsupplied under D23. Source: the same critique, Kisko Labs/Set Studio/Clearleft comparison. No guessed availability or reply promise is proposed.
 - **O-c5 (W5), PR 2:** The named founder's background is visible but a checker cannot visually associate him with the company. Source: the same critique, Cristina Gómez comparison; an approved portrait is an option, not permission to publish an existing image.
 - **O-c6 (W0), PR 2:** The decorative second bark field on the 404 competes with recovery content and needs manual contrast evaluation. Source: the same critique, remove. Contrast passes; simplification is optional quality work.
+
+Re-assessed O-c3–O-c6 and the existing S-1 solution at merged critique [`53cb569055d6f756d125409b5e461e1e930354093448d66984b2d0eced419096`](../../.ds/reviews/53cb569055d6f756d125409b5e461e1e930354093448d66984b2d0eced419096.critique.json), 2026-11-24: retain the three answers and graded evidence from `405a839d`, with the hosted-proof rationale corrected. Visitors can now see Ratametsuri on its own page within this site; O-c3 concerns the still-text-only front viewport and index, not the absence of visual proof anywhere on the site. The service, founder and 404 surfaces remain unchanged; no duplicate opportunity or solution is added. Scope and counter-argument: [assessment](reviews/evidence/53cb5690/critique-assessment.md).
+
 ### Ratametsuri critique eef7d25e
 
 Source for O-r1–O-r4: independent **critique `eef7d25e8c6941de8e882619974b890fb73b53ec535d060b77af029feab7f054`**, 2026-11-24, [critique and graded evidence](../../.ds/reviews/eef7d25e8c6941de8e882619974b890fb73b53ec535d060b77af029feab7f054.critique.json). W0 is the product brief's one arrival-to-beta-request flow in FI/EN, phone/desktop and light/dark. These are reviewer hypotheses, not target-user findings.

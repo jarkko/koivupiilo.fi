@@ -1,0 +1,97 @@
+{
+  "kind": "critique",
+  "ui_diff_hash": "53cb569055d6f756d125409b5e461e1e930354093448d66984b2d0eced419096",
+  "head_sha": "6fd0c43fa519b62f06c46e64af97da3342148409",
+  "reviewer_run_id": "ctx_71e9723ef46a / term_e8bf3845-ed9f-4dff-b8db-d5a9fa2713cb",
+  "implementer_family": "claude",
+  "reviewer_family": "codex",
+  "critique": {
+    "remove": [
+      {
+        "point": "On the bilingual 404, remove the second, faint field of decorative trunks behind the recovery text while retaining the normal edge bark. It adds no recovery information and creates six axe manual-contrast questions; the page would make its two destinations easier to scan. Counter-argument: the grove is the signature motif and its calculated contrast passes AA, so this is a quality choice, not a defect or required redesign. Re-assessed for the merged hash; see the focused assessment for unchanged-surface reuse and the hosted Ratametsuri improvement.",
+        "evidence": [
+          "docs/design/reviews/evidence/405a839d/sheets/404.html.jpg",
+          "docs/design/reviews/evidence/405a839d/gate-summary.json",
+          "docs/design/reviews/evidence/53cb5690/critique-assessment.md"
+        ],
+        "grade": "anecdote",
+        "flow": "W0"
+      }
+    ],
+    "two_x": [
+      {
+        "point": "For W0 leading to W1/W2/W4/W5, put one authorized real product capture in the front product block, with synthetic data labelled where needed. The merged site now offers real Ratametsuri proof after opening Products and its entry, but a first-arrival visitor still sees only text. One responsive capture would shorten that path to the visual trust moment; 2x is an untested quality hypothesis. Preserve W3 language parity and accessible description. Strongest counter-argument: D14 makes this a short company site, Ratametsuri already has its own proof page under D24, and a front-page capture adds maintenance, privacy and loading costs; it must justify that duplication. This retains S-1/O-c3 as the single change. No wording change is proposed.",
+        "evidence": [
+          "docs/design/reviews/evidence/405a839d/sheets/_root.jpg",
+          "docs/design/reviews/evidence/405a839d/sheets/en.jpg",
+          "docs/design/reviews/evidence/405a839d/sheets/en-products.jpg",
+          "docs/design/reviews/evidence/405a839d/review-notes.md",
+          "docs/design/reviews/evidence/53cb5690/critique-assessment.md"
+        ],
+        "grade": "anecdote",
+        "flow": "W0"
+      }
+    ],
+    "short_of_references": [
+      {
+        "reference": "docs/design/references.md: CSS Wizardry, proof above the fold; thoughtbot CloseKnit and CSS Wizardry ISO.org, real visual evidence",
+        "point": "W0/W1: the products register gives names, purpose and dated status, but no screen to demonstrate the work. CSS Wizardry and the thoughtbot references make one tangible artifact the trust shortcut. D14 deliberately removes case-study pages, so use their proof mechanic in a single company-site block rather than reinstating long case studies. Re-assessed for the merged hash; see the focused assessment for unchanged-surface reuse and the hosted Ratametsuri improvement.",
+        "evidence": [
+          "docs/design/reviews/evidence/405a839d/sheets/en.jpg",
+          "docs/design/reviews/evidence/405a839d/sheets/en-products.jpg",
+          "docs/design/reviews/evidence/53cb5690/critique-assessment.md"
+        ],
+        "grade": "practitioner consensus",
+        "flow": "W1"
+      },
+      {
+        "reference": "docs/design/references.md: Kisko Labs and Set Studio; Clearleft, contact expectations",
+        "point": "W2/W4: the services and founder history now establish who delivers the work, and the mailto is direct, but the service formats remain implicit and current availability remains owner-unsupplied under D23. A comparison shopper must email to learn engagement shape. Clearleft-style named contact is already present; the remaining opportunity is verified decision information, not extra promotional language, a guessed availability date or a guessed response promise. Re-assessed for the merged hash; see the focused assessment for unchanged-surface reuse and the hosted Ratametsuri improvement.",
+        "evidence": [
+          "docs/design/reviews/evidence/405a839d/sheets/en-studio.jpg",
+          "docs/design/reviews/evidence/405a839d/sheets/en-coaching.jpg",
+          "docs/design/reviews/evidence/405a839d/audit.json",
+          "docs/design/reviews/evidence/53cb5690/critique-assessment.md"
+        ],
+        "grade": "practitioner consensus",
+        "flow": "W4"
+      },
+      {
+        "reference": "docs/design/references.md: Panic, bilingual and first ten seconds; Futurice, bilingual anti-reference",
+        "point": "W3 is stronger than the Futurice anti-reference: all six page pairs retain place in both browser locales, and redirects preserve language. Panic-level concise information is visible, but the shared first-viewport trust moment still relies entirely on text; the visual-proof opportunity spans both languages. No Finnish style judgement is made. Re-assessed for the merged hash; see the focused assessment for unchanged-surface reuse and the hosted Ratametsuri improvement.",
+        "evidence": [
+          "docs/design/reviews/evidence/405a839d/audit.json",
+          "docs/design/reviews/evidence/405a839d/sheets/_root.jpg",
+          "docs/design/reviews/evidence/405a839d/sheets/en.jpg",
+          "docs/design/reviews/evidence/53cb5690/critique-assessment.md"
+        ],
+        "grade": "practitioner consensus",
+        "flow": "W3"
+      },
+      {
+        "reference": "references/awards/studio-portfolio.md#cristina-gomez",
+        "point": "Cristina G\u00f3mez uses one real image in deliberate empty space under factual labels. Our company check already has a strong factual register and distinctive wordmark, but the founder block remains entirely typographic; W5 cannot visually associate the company with its named person. An owner-approved portrait would close that gap. Do not copy the theme toggle or the canvas transitions; this opinion is based on the local library annotation and reference shots, not a new live-site measurement. Re-assessed for the merged hash; see the focused assessment for unchanged-surface reuse and the hosted Ratametsuri improvement.",
+        "evidence": [
+          "docs/design/reviews/evidence/405a839d/sheets/en-company.jpg",
+          "docs/design/reviews/evidence/405a839d/sheets/yritys.jpg",
+          "docs/design/reviews/evidence/405a839d/review-notes.md",
+          "docs/design/reviews/evidence/53cb5690/critique-assessment.md"
+        ],
+        "grade": "practitioner consensus",
+        "flow": "W5"
+      },
+      {
+        "reference": "references/awards/studio-portfolio.md#ottografie-otto-van-den-toorn",
+        "point": "Ottografie makes each work category tangible through actual imagery; our ordered register is clear but asks visitors to imagine every product. Borrow only the immediate work evidence, not the intro, the slow loading or its animation. This is the same single S-1 improvement, rather than a second feature proposal; the local library mobile shot and annotations were inspected. Re-assessed for the merged hash; see the focused assessment for unchanged-surface reuse and the hosted Ratametsuri improvement.",
+        "evidence": [
+          "docs/design/reviews/evidence/405a839d/sheets/en-products.jpg",
+          "docs/design/reviews/evidence/405a839d/sheets/en.jpg",
+          "docs/design/reviews/evidence/405a839d/review-notes.md",
+          "docs/design/reviews/evidence/53cb5690/critique-assessment.md"
+        ],
+        "grade": "practitioner consensus",
+        "flow": "W0"
+      }
+    ]
+  }
+}
