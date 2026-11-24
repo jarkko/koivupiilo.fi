@@ -1,0 +1,774 @@
+[
+  {
+    "url": "/",
+    "scheme": "light",
+    "over": [
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "pilotissa",
+        "right": 1464.75,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "2.11.2026",
+        "right": 1464.75,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "käytössä",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12.11.2026",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "kehitteillä",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12.11.2026",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "kehitteillä",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12.11.2026",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      }
+    ]
+  },
+  {
+    "url": "/en/",
+    "scheme": "light",
+    "over": [
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "in pilot",
+        "right": 1459.984375,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "2 Nov 2026",
+        "right": 1459.984375,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "in use",
+        "right": 1474.53125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12 Nov 2026",
+        "right": 1474.53125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "in development",
+        "right": 1507.703125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12 Nov 2026",
+        "right": 1507.703125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "in development",
+        "right": 1507.703125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12 Nov 2026",
+        "right": 1507.703125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      }
+    ]
+  },
+  {
+    "url": "/tuotteet/",
+    "scheme": "light",
+    "over": [
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "pilotissa",
+        "right": 1464.75,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "2.11.2026",
+        "right": 1464.75,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "käytössä",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12.11.2026",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "kehitteillä",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12.11.2026",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "kehitteillä",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12.11.2026",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "kehitteillä",
+        "right": 1464.75,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "2.11.2026",
+        "right": 1464.75,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "kehitteillä",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12.11.2026",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "kesken",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12.11.2026",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      }
+    ]
+  },
+  {
+    "url": "/en/products/",
+    "scheme": "light",
+    "over": [
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "in pilot",
+        "right": 1459.984375,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "2 Nov 2026",
+        "right": 1459.984375,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "in use",
+        "right": 1474.53125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12 Nov 2026",
+        "right": 1474.53125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "in development",
+        "right": 1507.703125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12 Nov 2026",
+        "right": 1507.703125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "in development",
+        "right": 1507.703125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12 Nov 2026",
+        "right": 1507.703125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "in development",
+        "right": 1507.703125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "2 Nov 2026",
+        "right": 1507.703125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "in development",
+        "right": 1507.703125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12 Nov 2026",
+        "right": 1507.703125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "in progress",
+        "right": 1474.53125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12 Nov 2026",
+        "right": 1474.53125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      }
+    ]
+  },
+  {
+    "url": "/",
+    "scheme": "dark",
+    "over": [
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "pilotissa",
+        "right": 1464.75,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "2.11.2026",
+        "right": 1464.75,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "käytössä",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12.11.2026",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "kehitteillä",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12.11.2026",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "kehitteillä",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12.11.2026",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      }
+    ]
+  },
+  {
+    "url": "/en/",
+    "scheme": "dark",
+    "over": [
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "in pilot",
+        "right": 1459.984375,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "2 Nov 2026",
+        "right": 1459.984375,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "in use",
+        "right": 1474.53125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12 Nov 2026",
+        "right": 1474.53125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "in development",
+        "right": 1507.703125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12 Nov 2026",
+        "right": 1507.703125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "in development",
+        "right": 1507.703125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12 Nov 2026",
+        "right": 1507.703125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      }
+    ]
+  },
+  {
+    "url": "/tuotteet/",
+    "scheme": "dark",
+    "over": [
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "pilotissa",
+        "right": 1464.75,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "2.11.2026",
+        "right": 1464.75,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "käytössä",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12.11.2026",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "kehitteillä",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12.11.2026",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "kehitteillä",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12.11.2026",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "kehitteillä",
+        "right": 1464.75,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "2.11.2026",
+        "right": 1464.75,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "kehitteillä",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12.11.2026",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "kesken",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12.11.2026",
+        "right": 1479.3125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      }
+    ]
+  },
+  {
+    "url": "/en/products/",
+    "scheme": "dark",
+    "over": [
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "in pilot",
+        "right": 1459.984375,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "2 Nov 2026",
+        "right": 1459.984375,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "in use",
+        "right": 1474.53125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12 Nov 2026",
+        "right": 1474.53125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "in development",
+        "right": 1507.703125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12 Nov 2026",
+        "right": 1507.703125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "in development",
+        "right": 1507.703125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12 Nov 2026",
+        "right": 1507.703125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "in development",
+        "right": 1507.703125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "2 Nov 2026",
+        "right": 1507.703125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "in development",
+        "right": 1507.703125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12 Nov 2026",
+        "right": 1507.703125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "SPAN",
+        "class": "",
+        "text": "in progress",
+        "right": 1474.53125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      },
+      {
+        "tag": "TIME",
+        "class": "",
+        "text": "12 Nov 2026",
+        "right": 1474.53125,
+        "display": "block",
+        "whiteSpace": "nowrap"
+      }
+    ]
+  },
+  {
+    "errorRecovery": "Etusivulle",
+    "expected": "/",
+    "actual": "/"
+  },
+  {
+    "errorRecovery": "To the front page",
+    "expected": "/en/",
+    "actual": "/en/"
+  },
+  {
+    "reduce": "no-preference",
+    "animations": [],
+    "mainVisible": true
+  },
+  {
+    "reduce": "reduce",
+    "animations": [],
+    "mainVisible": true
+  }
+]

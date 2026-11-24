@@ -1,0 +1,2342 @@
+{
+  "routes": [
+    {
+      "locale": "fi-FI",
+      "path": "/",
+      "lang": "fi",
+      "title": "Koivupiilo Oy – kangasalalainen ohjelmistoyritys",
+      "canonical": "https://koivupiilo.fi/",
+      "alternates": [
+        [
+          "fi",
+          "https://koivupiilo.fi/"
+        ],
+        [
+          "en",
+          "https://koivupiilo.fi/en/"
+        ],
+        [
+          "x-default",
+          "https://koivupiilo.fi/"
+        ]
+      ],
+      "nav": [
+        [
+          "Tuotteet",
+          "/tuotteet/",
+          null
+        ],
+        [
+          "Studio",
+          "/studio/",
+          null
+        ],
+        [
+          "Valmennus",
+          "/valmennus/",
+          null
+        ],
+        [
+          "Yritys",
+          "/yritys/",
+          null
+        ],
+        [
+          "English",
+          "/en/",
+          null
+        ]
+      ],
+      "empty": [],
+      "statuses": [
+        "pilotissa · tilanne 2.11.2026",
+        "käytössä · tilanne 12.11.2026",
+        "kehitteillä · tilanne 12.11.2026",
+        "kehitteillä · tilanne 12.11.2026"
+      ],
+      "links": [
+        "#main",
+        "/",
+        "/tuotteet/",
+        "/studio/",
+        "/valmennus/",
+        "/yritys/",
+        "/en/",
+        "https://kvitti.fi",
+        "https://jlaine.net/beach-volleyball/",
+        "https://magistician.com",
+        "/tuotteet/",
+        "/studio/",
+        "/valmennus/",
+        "/yritys/",
+        "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+        "mailto:jarkko@koivupiilo.fi",
+        "/tietosuoja/",
+        "/en/"
+      ],
+      "switchTo": "/en/",
+      "switchBack": "/"
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/en/",
+      "lang": "en",
+      "title": "Koivupiilo Oy – a software company in Kangasala, Finland",
+      "canonical": "https://koivupiilo.fi/en/",
+      "alternates": [
+        [
+          "fi",
+          "https://koivupiilo.fi/"
+        ],
+        [
+          "en",
+          "https://koivupiilo.fi/en/"
+        ],
+        [
+          "x-default",
+          "https://koivupiilo.fi/"
+        ]
+      ],
+      "nav": [
+        [
+          "Products",
+          "/en/products/",
+          null
+        ],
+        [
+          "Studio",
+          "/en/studio/",
+          null
+        ],
+        [
+          "Coaching",
+          "/en/coaching/",
+          null
+        ],
+        [
+          "Company",
+          "/en/company/",
+          null
+        ],
+        [
+          "Suomeksi",
+          "/",
+          null
+        ]
+      ],
+      "empty": [],
+      "statuses": [
+        "in pilot · as of 2 Nov 2026",
+        "in use · as of 12 Nov 2026",
+        "in development · as of 12 Nov 2026",
+        "in development · as of 12 Nov 2026"
+      ],
+      "links": [
+        "#main",
+        "/en/",
+        "/en/products/",
+        "/en/studio/",
+        "/en/coaching/",
+        "/en/company/",
+        "/",
+        "https://kvitti.fi",
+        "https://jlaine.net/beach-volleyball/",
+        "https://magistician.com",
+        "/en/products/",
+        "/en/studio/",
+        "/en/coaching/",
+        "/en/company/",
+        "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+        "mailto:jarkko@koivupiilo.fi",
+        "/en/privacy/",
+        "/"
+      ],
+      "switchTo": "/",
+      "switchBack": "/en/"
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/tuotteet/",
+      "lang": "fi",
+      "title": "Tuotteet – Koivupiilo",
+      "canonical": "https://koivupiilo.fi/tuotteet/",
+      "alternates": [
+        [
+          "fi",
+          "https://koivupiilo.fi/tuotteet/"
+        ],
+        [
+          "en",
+          "https://koivupiilo.fi/en/products/"
+        ],
+        [
+          "x-default",
+          "https://koivupiilo.fi/tuotteet/"
+        ]
+      ],
+      "nav": [
+        [
+          "Tuotteet",
+          "/tuotteet/",
+          "page"
+        ],
+        [
+          "Studio",
+          "/studio/",
+          null
+        ],
+        [
+          "Valmennus",
+          "/valmennus/",
+          null
+        ],
+        [
+          "Yritys",
+          "/yritys/",
+          null
+        ],
+        [
+          "English",
+          "/en/products/",
+          null
+        ]
+      ],
+      "empty": [],
+      "statuses": [
+        "pilotissa · tilanne 2.11.2026",
+        "käytössä · tilanne 12.11.2026",
+        "kehitteillä · tilanne 12.11.2026",
+        "kehitteillä · tilanne 12.11.2026",
+        "kehitteillä · tilanne 2.11.2026",
+        "kehitteillä · tilanne 12.11.2026",
+        "kesken · tilanne 12.11.2026"
+      ],
+      "links": [
+        "#main",
+        "/",
+        "/tuotteet/",
+        "/studio/",
+        "/valmennus/",
+        "/yritys/",
+        "/en/products/",
+        "https://kvitti.fi",
+        "https://jlaine.net/beach-volleyball/",
+        "https://magistician.com",
+        "https://jarkko.github.io/beach-volleyball-rules-fi/",
+        "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+        "mailto:jarkko@koivupiilo.fi",
+        "/tietosuoja/",
+        "/en/products/"
+      ],
+      "switchTo": "/en/products/",
+      "switchBack": "/tuotteet/"
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/en/products/",
+      "lang": "en",
+      "title": "Products – Koivupiilo",
+      "canonical": "https://koivupiilo.fi/en/products/",
+      "alternates": [
+        [
+          "fi",
+          "https://koivupiilo.fi/tuotteet/"
+        ],
+        [
+          "en",
+          "https://koivupiilo.fi/en/products/"
+        ],
+        [
+          "x-default",
+          "https://koivupiilo.fi/tuotteet/"
+        ]
+      ],
+      "nav": [
+        [
+          "Products",
+          "/en/products/",
+          "page"
+        ],
+        [
+          "Studio",
+          "/en/studio/",
+          null
+        ],
+        [
+          "Coaching",
+          "/en/coaching/",
+          null
+        ],
+        [
+          "Company",
+          "/en/company/",
+          null
+        ],
+        [
+          "Suomeksi",
+          "/tuotteet/",
+          null
+        ]
+      ],
+      "empty": [],
+      "statuses": [
+        "in pilot · as of 2 Nov 2026",
+        "in use · as of 12 Nov 2026",
+        "in development · as of 12 Nov 2026",
+        "in development · as of 12 Nov 2026",
+        "in development · as of 2 Nov 2026",
+        "in development · as of 12 Nov 2026",
+        "in progress · as of 12 Nov 2026"
+      ],
+      "links": [
+        "#main",
+        "/en/",
+        "/en/products/",
+        "/en/studio/",
+        "/en/coaching/",
+        "/en/company/",
+        "/tuotteet/",
+        "https://kvitti.fi",
+        "https://jlaine.net/beach-volleyball/",
+        "https://magistician.com",
+        "https://jarkko.github.io/beach-volleyball-rules-fi/",
+        "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+        "mailto:jarkko@koivupiilo.fi",
+        "/en/privacy/",
+        "/tuotteet/"
+      ],
+      "switchTo": "/tuotteet/",
+      "switchBack": "/en/products/"
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/studio/",
+      "lang": "fi",
+      "title": "Studio – Koivupiilo",
+      "canonical": "https://koivupiilo.fi/studio/",
+      "alternates": [
+        [
+          "fi",
+          "https://koivupiilo.fi/studio/"
+        ],
+        [
+          "en",
+          "https://koivupiilo.fi/en/studio/"
+        ],
+        [
+          "x-default",
+          "https://koivupiilo.fi/studio/"
+        ]
+      ],
+      "nav": [
+        [
+          "Tuotteet",
+          "/tuotteet/",
+          null
+        ],
+        [
+          "Studio",
+          "/studio/",
+          "page"
+        ],
+        [
+          "Valmennus",
+          "/valmennus/",
+          null
+        ],
+        [
+          "Yritys",
+          "/yritys/",
+          null
+        ],
+        [
+          "English",
+          "/en/studio/",
+          null
+        ]
+      ],
+      "empty": [],
+      "statuses": [],
+      "links": [
+        "#main",
+        "/",
+        "/tuotteet/",
+        "/studio/",
+        "/valmennus/",
+        "/yritys/",
+        "/en/studio/",
+        "/tuotteet/",
+        "mailto:jarkko@koivupiilo.fi?subject=Ohjelmistoprojekti",
+        "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+        "mailto:jarkko@koivupiilo.fi",
+        "/tietosuoja/",
+        "/en/studio/"
+      ],
+      "switchTo": "/en/studio/",
+      "switchBack": "/studio/"
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/en/studio/",
+      "lang": "en",
+      "title": "Studio – Koivupiilo",
+      "canonical": "https://koivupiilo.fi/en/studio/",
+      "alternates": [
+        [
+          "fi",
+          "https://koivupiilo.fi/studio/"
+        ],
+        [
+          "en",
+          "https://koivupiilo.fi/en/studio/"
+        ],
+        [
+          "x-default",
+          "https://koivupiilo.fi/studio/"
+        ]
+      ],
+      "nav": [
+        [
+          "Products",
+          "/en/products/",
+          null
+        ],
+        [
+          "Studio",
+          "/en/studio/",
+          "page"
+        ],
+        [
+          "Coaching",
+          "/en/coaching/",
+          null
+        ],
+        [
+          "Company",
+          "/en/company/",
+          null
+        ],
+        [
+          "Suomeksi",
+          "/studio/",
+          null
+        ]
+      ],
+      "empty": [],
+      "statuses": [],
+      "links": [
+        "#main",
+        "/en/",
+        "/en/products/",
+        "/en/studio/",
+        "/en/coaching/",
+        "/en/company/",
+        "/studio/",
+        "/en/products/",
+        "mailto:jarkko@koivupiilo.fi?subject=Software%20project",
+        "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+        "mailto:jarkko@koivupiilo.fi",
+        "/en/privacy/",
+        "/studio/"
+      ],
+      "switchTo": "/studio/",
+      "switchBack": "/en/studio/"
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/valmennus/",
+      "lang": "fi",
+      "title": "Valmennus – Koivupiilo",
+      "canonical": "https://koivupiilo.fi/valmennus/",
+      "alternates": [
+        [
+          "fi",
+          "https://koivupiilo.fi/valmennus/"
+        ],
+        [
+          "en",
+          "https://koivupiilo.fi/en/coaching/"
+        ],
+        [
+          "x-default",
+          "https://koivupiilo.fi/valmennus/"
+        ]
+      ],
+      "nav": [
+        [
+          "Tuotteet",
+          "/tuotteet/",
+          null
+        ],
+        [
+          "Studio",
+          "/studio/",
+          null
+        ],
+        [
+          "Valmennus",
+          "/valmennus/",
+          "page"
+        ],
+        [
+          "Yritys",
+          "/yritys/",
+          null
+        ],
+        [
+          "English",
+          "/en/coaching/",
+          null
+        ]
+      ],
+      "empty": [],
+      "statuses": [],
+      "links": [
+        "#main",
+        "/",
+        "/tuotteet/",
+        "/studio/",
+        "/valmennus/",
+        "/yritys/",
+        "/en/coaching/",
+        "https://jarkko.github.io/beach-volleyball-rules-fi/docs/",
+        "/tuotteet/",
+        "mailto:jarkko@koivupiilo.fi?subject=Valmennus",
+        "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+        "mailto:jarkko@koivupiilo.fi",
+        "/tietosuoja/",
+        "/en/coaching/"
+      ],
+      "switchTo": "/en/coaching/",
+      "switchBack": "/valmennus/"
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/en/coaching/",
+      "lang": "en",
+      "title": "Coaching – Koivupiilo",
+      "canonical": "https://koivupiilo.fi/en/coaching/",
+      "alternates": [
+        [
+          "fi",
+          "https://koivupiilo.fi/valmennus/"
+        ],
+        [
+          "en",
+          "https://koivupiilo.fi/en/coaching/"
+        ],
+        [
+          "x-default",
+          "https://koivupiilo.fi/valmennus/"
+        ]
+      ],
+      "nav": [
+        [
+          "Products",
+          "/en/products/",
+          null
+        ],
+        [
+          "Studio",
+          "/en/studio/",
+          null
+        ],
+        [
+          "Coaching",
+          "/en/coaching/",
+          "page"
+        ],
+        [
+          "Company",
+          "/en/company/",
+          null
+        ],
+        [
+          "Suomeksi",
+          "/valmennus/",
+          null
+        ]
+      ],
+      "empty": [],
+      "statuses": [],
+      "links": [
+        "#main",
+        "/en/",
+        "/en/products/",
+        "/en/studio/",
+        "/en/coaching/",
+        "/en/company/",
+        "/valmennus/",
+        "https://jarkko.github.io/beach-volleyball-rules-fi/docs/",
+        "/en/products/",
+        "mailto:jarkko@koivupiilo.fi?subject=Coaching",
+        "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+        "mailto:jarkko@koivupiilo.fi",
+        "/en/privacy/",
+        "/valmennus/"
+      ],
+      "switchTo": "/valmennus/",
+      "switchBack": "/en/coaching/"
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/yritys/",
+      "lang": "fi",
+      "title": "Yritys – Koivupiilo",
+      "canonical": "https://koivupiilo.fi/yritys/",
+      "alternates": [
+        [
+          "fi",
+          "https://koivupiilo.fi/yritys/"
+        ],
+        [
+          "en",
+          "https://koivupiilo.fi/en/company/"
+        ],
+        [
+          "x-default",
+          "https://koivupiilo.fi/yritys/"
+        ]
+      ],
+      "nav": [
+        [
+          "Tuotteet",
+          "/tuotteet/",
+          null
+        ],
+        [
+          "Studio",
+          "/studio/",
+          null
+        ],
+        [
+          "Valmennus",
+          "/valmennus/",
+          null
+        ],
+        [
+          "Yritys",
+          "/yritys/",
+          "page"
+        ],
+        [
+          "English",
+          "/en/company/",
+          null
+        ]
+      ],
+      "empty": [],
+      "statuses": [],
+      "links": [
+        "#main",
+        "/",
+        "/tuotteet/",
+        "/studio/",
+        "/valmennus/",
+        "/yritys/",
+        "/en/company/",
+        "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+        "mailto:jarkko@koivupiilo.fi",
+        "https://jlaine.net",
+        "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+        "mailto:jarkko@koivupiilo.fi",
+        "/tietosuoja/",
+        "/en/company/"
+      ],
+      "switchTo": "/en/company/",
+      "switchBack": "/yritys/"
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/en/company/",
+      "lang": "en",
+      "title": "Company – Koivupiilo",
+      "canonical": "https://koivupiilo.fi/en/company/",
+      "alternates": [
+        [
+          "fi",
+          "https://koivupiilo.fi/yritys/"
+        ],
+        [
+          "en",
+          "https://koivupiilo.fi/en/company/"
+        ],
+        [
+          "x-default",
+          "https://koivupiilo.fi/yritys/"
+        ]
+      ],
+      "nav": [
+        [
+          "Products",
+          "/en/products/",
+          null
+        ],
+        [
+          "Studio",
+          "/en/studio/",
+          null
+        ],
+        [
+          "Coaching",
+          "/en/coaching/",
+          null
+        ],
+        [
+          "Company",
+          "/en/company/",
+          "page"
+        ],
+        [
+          "Suomeksi",
+          "/yritys/",
+          null
+        ]
+      ],
+      "empty": [],
+      "statuses": [],
+      "links": [
+        "#main",
+        "/en/",
+        "/en/products/",
+        "/en/studio/",
+        "/en/coaching/",
+        "/en/company/",
+        "/yritys/",
+        "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+        "mailto:jarkko@koivupiilo.fi",
+        "https://jlaine.net",
+        "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+        "mailto:jarkko@koivupiilo.fi",
+        "/en/privacy/",
+        "/yritys/"
+      ],
+      "switchTo": "/yritys/",
+      "switchBack": "/en/company/"
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/tietosuoja/",
+      "lang": "fi",
+      "title": "Tietosuoja – Koivupiilo",
+      "canonical": "https://koivupiilo.fi/tietosuoja/",
+      "alternates": [
+        [
+          "fi",
+          "https://koivupiilo.fi/tietosuoja/"
+        ],
+        [
+          "en",
+          "https://koivupiilo.fi/en/privacy/"
+        ],
+        [
+          "x-default",
+          "https://koivupiilo.fi/tietosuoja/"
+        ]
+      ],
+      "nav": [
+        [
+          "Tuotteet",
+          "/tuotteet/",
+          null
+        ],
+        [
+          "Studio",
+          "/studio/",
+          null
+        ],
+        [
+          "Valmennus",
+          "/valmennus/",
+          null
+        ],
+        [
+          "Yritys",
+          "/yritys/",
+          null
+        ],
+        [
+          "English",
+          "/en/privacy/",
+          null
+        ]
+      ],
+      "empty": [],
+      "statuses": [],
+      "links": [
+        "#main",
+        "/",
+        "/tuotteet/",
+        "/studio/",
+        "/valmennus/",
+        "/yritys/",
+        "/en/privacy/",
+        "mailto:jarkko@koivupiilo.fi",
+        "mailto:jarkko@koivupiilo.fi",
+        "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+        "mailto:jarkko@koivupiilo.fi",
+        "/tietosuoja/",
+        "/en/privacy/"
+      ],
+      "switchTo": "/en/privacy/",
+      "switchBack": "/tietosuoja/"
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/en/privacy/",
+      "lang": "en",
+      "title": "Privacy – Koivupiilo",
+      "canonical": "https://koivupiilo.fi/en/privacy/",
+      "alternates": [
+        [
+          "fi",
+          "https://koivupiilo.fi/tietosuoja/"
+        ],
+        [
+          "en",
+          "https://koivupiilo.fi/en/privacy/"
+        ],
+        [
+          "x-default",
+          "https://koivupiilo.fi/tietosuoja/"
+        ]
+      ],
+      "nav": [
+        [
+          "Products",
+          "/en/products/",
+          null
+        ],
+        [
+          "Studio",
+          "/en/studio/",
+          null
+        ],
+        [
+          "Coaching",
+          "/en/coaching/",
+          null
+        ],
+        [
+          "Company",
+          "/en/company/",
+          null
+        ],
+        [
+          "Suomeksi",
+          "/tietosuoja/",
+          null
+        ]
+      ],
+      "empty": [],
+      "statuses": [],
+      "links": [
+        "#main",
+        "/en/",
+        "/en/products/",
+        "/en/studio/",
+        "/en/coaching/",
+        "/en/company/",
+        "/tietosuoja/",
+        "mailto:jarkko@koivupiilo.fi",
+        "mailto:jarkko@koivupiilo.fi",
+        "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+        "mailto:jarkko@koivupiilo.fi",
+        "/en/privacy/",
+        "/tietosuoja/"
+      ],
+      "switchTo": "/tietosuoja/",
+      "switchBack": "/en/privacy/"
+    },
+    {
+      "locale": "en-GB",
+      "path": "/",
+      "lang": "fi",
+      "title": "Koivupiilo Oy – kangasalalainen ohjelmistoyritys",
+      "canonical": "https://koivupiilo.fi/",
+      "alternates": [
+        [
+          "fi",
+          "https://koivupiilo.fi/"
+        ],
+        [
+          "en",
+          "https://koivupiilo.fi/en/"
+        ],
+        [
+          "x-default",
+          "https://koivupiilo.fi/"
+        ]
+      ],
+      "nav": [
+        [
+          "Tuotteet",
+          "/tuotteet/",
+          null
+        ],
+        [
+          "Studio",
+          "/studio/",
+          null
+        ],
+        [
+          "Valmennus",
+          "/valmennus/",
+          null
+        ],
+        [
+          "Yritys",
+          "/yritys/",
+          null
+        ],
+        [
+          "English",
+          "/en/",
+          null
+        ]
+      ],
+      "empty": [],
+      "statuses": [
+        "pilotissa · tilanne 2.11.2026",
+        "käytössä · tilanne 12.11.2026",
+        "kehitteillä · tilanne 12.11.2026",
+        "kehitteillä · tilanne 12.11.2026"
+      ],
+      "links": [
+        "#main",
+        "/",
+        "/tuotteet/",
+        "/studio/",
+        "/valmennus/",
+        "/yritys/",
+        "/en/",
+        "https://kvitti.fi",
+        "https://jlaine.net/beach-volleyball/",
+        "https://magistician.com",
+        "/tuotteet/",
+        "/studio/",
+        "/valmennus/",
+        "/yritys/",
+        "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+        "mailto:jarkko@koivupiilo.fi",
+        "/tietosuoja/",
+        "/en/"
+      ],
+      "switchTo": "/en/",
+      "switchBack": "/"
+    },
+    {
+      "locale": "en-GB",
+      "path": "/en/",
+      "lang": "en",
+      "title": "Koivupiilo Oy – a software company in Kangasala, Finland",
+      "canonical": "https://koivupiilo.fi/en/",
+      "alternates": [
+        [
+          "fi",
+          "https://koivupiilo.fi/"
+        ],
+        [
+          "en",
+          "https://koivupiilo.fi/en/"
+        ],
+        [
+          "x-default",
+          "https://koivupiilo.fi/"
+        ]
+      ],
+      "nav": [
+        [
+          "Products",
+          "/en/products/",
+          null
+        ],
+        [
+          "Studio",
+          "/en/studio/",
+          null
+        ],
+        [
+          "Coaching",
+          "/en/coaching/",
+          null
+        ],
+        [
+          "Company",
+          "/en/company/",
+          null
+        ],
+        [
+          "Suomeksi",
+          "/",
+          null
+        ]
+      ],
+      "empty": [],
+      "statuses": [
+        "in pilot · as of 2 Nov 2026",
+        "in use · as of 12 Nov 2026",
+        "in development · as of 12 Nov 2026",
+        "in development · as of 12 Nov 2026"
+      ],
+      "links": [
+        "#main",
+        "/en/",
+        "/en/products/",
+        "/en/studio/",
+        "/en/coaching/",
+        "/en/company/",
+        "/",
+        "https://kvitti.fi",
+        "https://jlaine.net/beach-volleyball/",
+        "https://magistician.com",
+        "/en/products/",
+        "/en/studio/",
+        "/en/coaching/",
+        "/en/company/",
+        "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+        "mailto:jarkko@koivupiilo.fi",
+        "/en/privacy/",
+        "/"
+      ],
+      "switchTo": "/",
+      "switchBack": "/en/"
+    },
+    {
+      "locale": "en-GB",
+      "path": "/tuotteet/",
+      "lang": "fi",
+      "title": "Tuotteet – Koivupiilo",
+      "canonical": "https://koivupiilo.fi/tuotteet/",
+      "alternates": [
+        [
+          "fi",
+          "https://koivupiilo.fi/tuotteet/"
+        ],
+        [
+          "en",
+          "https://koivupiilo.fi/en/products/"
+        ],
+        [
+          "x-default",
+          "https://koivupiilo.fi/tuotteet/"
+        ]
+      ],
+      "nav": [
+        [
+          "Tuotteet",
+          "/tuotteet/",
+          "page"
+        ],
+        [
+          "Studio",
+          "/studio/",
+          null
+        ],
+        [
+          "Valmennus",
+          "/valmennus/",
+          null
+        ],
+        [
+          "Yritys",
+          "/yritys/",
+          null
+        ],
+        [
+          "English",
+          "/en/products/",
+          null
+        ]
+      ],
+      "empty": [],
+      "statuses": [
+        "pilotissa · tilanne 2.11.2026",
+        "käytössä · tilanne 12.11.2026",
+        "kehitteillä · tilanne 12.11.2026",
+        "kehitteillä · tilanne 12.11.2026",
+        "kehitteillä · tilanne 2.11.2026",
+        "kehitteillä · tilanne 12.11.2026",
+        "kesken · tilanne 12.11.2026"
+      ],
+      "links": [
+        "#main",
+        "/",
+        "/tuotteet/",
+        "/studio/",
+        "/valmennus/",
+        "/yritys/",
+        "/en/products/",
+        "https://kvitti.fi",
+        "https://jlaine.net/beach-volleyball/",
+        "https://magistician.com",
+        "https://jarkko.github.io/beach-volleyball-rules-fi/",
+        "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+        "mailto:jarkko@koivupiilo.fi",
+        "/tietosuoja/",
+        "/en/products/"
+      ],
+      "switchTo": "/en/products/",
+      "switchBack": "/tuotteet/"
+    },
+    {
+      "locale": "en-GB",
+      "path": "/en/products/",
+      "lang": "en",
+      "title": "Products – Koivupiilo",
+      "canonical": "https://koivupiilo.fi/en/products/",
+      "alternates": [
+        [
+          "fi",
+          "https://koivupiilo.fi/tuotteet/"
+        ],
+        [
+          "en",
+          "https://koivupiilo.fi/en/products/"
+        ],
+        [
+          "x-default",
+          "https://koivupiilo.fi/tuotteet/"
+        ]
+      ],
+      "nav": [
+        [
+          "Products",
+          "/en/products/",
+          "page"
+        ],
+        [
+          "Studio",
+          "/en/studio/",
+          null
+        ],
+        [
+          "Coaching",
+          "/en/coaching/",
+          null
+        ],
+        [
+          "Company",
+          "/en/company/",
+          null
+        ],
+        [
+          "Suomeksi",
+          "/tuotteet/",
+          null
+        ]
+      ],
+      "empty": [],
+      "statuses": [
+        "in pilot · as of 2 Nov 2026",
+        "in use · as of 12 Nov 2026",
+        "in development · as of 12 Nov 2026",
+        "in development · as of 12 Nov 2026",
+        "in development · as of 2 Nov 2026",
+        "in development · as of 12 Nov 2026",
+        "in progress · as of 12 Nov 2026"
+      ],
+      "links": [
+        "#main",
+        "/en/",
+        "/en/products/",
+        "/en/studio/",
+        "/en/coaching/",
+        "/en/company/",
+        "/tuotteet/",
+        "https://kvitti.fi",
+        "https://jlaine.net/beach-volleyball/",
+        "https://magistician.com",
+        "https://jarkko.github.io/beach-volleyball-rules-fi/",
+        "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+        "mailto:jarkko@koivupiilo.fi",
+        "/en/privacy/",
+        "/tuotteet/"
+      ],
+      "switchTo": "/tuotteet/",
+      "switchBack": "/en/products/"
+    },
+    {
+      "locale": "en-GB",
+      "path": "/studio/",
+      "lang": "fi",
+      "title": "Studio – Koivupiilo",
+      "canonical": "https://koivupiilo.fi/studio/",
+      "alternates": [
+        [
+          "fi",
+          "https://koivupiilo.fi/studio/"
+        ],
+        [
+          "en",
+          "https://koivupiilo.fi/en/studio/"
+        ],
+        [
+          "x-default",
+          "https://koivupiilo.fi/studio/"
+        ]
+      ],
+      "nav": [
+        [
+          "Tuotteet",
+          "/tuotteet/",
+          null
+        ],
+        [
+          "Studio",
+          "/studio/",
+          "page"
+        ],
+        [
+          "Valmennus",
+          "/valmennus/",
+          null
+        ],
+        [
+          "Yritys",
+          "/yritys/",
+          null
+        ],
+        [
+          "English",
+          "/en/studio/",
+          null
+        ]
+      ],
+      "empty": [],
+      "statuses": [],
+      "links": [
+        "#main",
+        "/",
+        "/tuotteet/",
+        "/studio/",
+        "/valmennus/",
+        "/yritys/",
+        "/en/studio/",
+        "/tuotteet/",
+        "mailto:jarkko@koivupiilo.fi?subject=Ohjelmistoprojekti",
+        "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+        "mailto:jarkko@koivupiilo.fi",
+        "/tietosuoja/",
+        "/en/studio/"
+      ],
+      "switchTo": "/en/studio/",
+      "switchBack": "/studio/"
+    },
+    {
+      "locale": "en-GB",
+      "path": "/en/studio/",
+      "lang": "en",
+      "title": "Studio – Koivupiilo",
+      "canonical": "https://koivupiilo.fi/en/studio/",
+      "alternates": [
+        [
+          "fi",
+          "https://koivupiilo.fi/studio/"
+        ],
+        [
+          "en",
+          "https://koivupiilo.fi/en/studio/"
+        ],
+        [
+          "x-default",
+          "https://koivupiilo.fi/studio/"
+        ]
+      ],
+      "nav": [
+        [
+          "Products",
+          "/en/products/",
+          null
+        ],
+        [
+          "Studio",
+          "/en/studio/",
+          "page"
+        ],
+        [
+          "Coaching",
+          "/en/coaching/",
+          null
+        ],
+        [
+          "Company",
+          "/en/company/",
+          null
+        ],
+        [
+          "Suomeksi",
+          "/studio/",
+          null
+        ]
+      ],
+      "empty": [],
+      "statuses": [],
+      "links": [
+        "#main",
+        "/en/",
+        "/en/products/",
+        "/en/studio/",
+        "/en/coaching/",
+        "/en/company/",
+        "/studio/",
+        "/en/products/",
+        "mailto:jarkko@koivupiilo.fi?subject=Software%20project",
+        "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+        "mailto:jarkko@koivupiilo.fi",
+        "/en/privacy/",
+        "/studio/"
+      ],
+      "switchTo": "/studio/",
+      "switchBack": "/en/studio/"
+    },
+    {
+      "locale": "en-GB",
+      "path": "/valmennus/",
+      "lang": "fi",
+      "title": "Valmennus – Koivupiilo",
+      "canonical": "https://koivupiilo.fi/valmennus/",
+      "alternates": [
+        [
+          "fi",
+          "https://koivupiilo.fi/valmennus/"
+        ],
+        [
+          "en",
+          "https://koivupiilo.fi/en/coaching/"
+        ],
+        [
+          "x-default",
+          "https://koivupiilo.fi/valmennus/"
+        ]
+      ],
+      "nav": [
+        [
+          "Tuotteet",
+          "/tuotteet/",
+          null
+        ],
+        [
+          "Studio",
+          "/studio/",
+          null
+        ],
+        [
+          "Valmennus",
+          "/valmennus/",
+          "page"
+        ],
+        [
+          "Yritys",
+          "/yritys/",
+          null
+        ],
+        [
+          "English",
+          "/en/coaching/",
+          null
+        ]
+      ],
+      "empty": [],
+      "statuses": [],
+      "links": [
+        "#main",
+        "/",
+        "/tuotteet/",
+        "/studio/",
+        "/valmennus/",
+        "/yritys/",
+        "/en/coaching/",
+        "https://jarkko.github.io/beach-volleyball-rules-fi/docs/",
+        "/tuotteet/",
+        "mailto:jarkko@koivupiilo.fi?subject=Valmennus",
+        "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+        "mailto:jarkko@koivupiilo.fi",
+        "/tietosuoja/",
+        "/en/coaching/"
+      ],
+      "switchTo": "/en/coaching/",
+      "switchBack": "/valmennus/"
+    },
+    {
+      "locale": "en-GB",
+      "path": "/en/coaching/",
+      "lang": "en",
+      "title": "Coaching – Koivupiilo",
+      "canonical": "https://koivupiilo.fi/en/coaching/",
+      "alternates": [
+        [
+          "fi",
+          "https://koivupiilo.fi/valmennus/"
+        ],
+        [
+          "en",
+          "https://koivupiilo.fi/en/coaching/"
+        ],
+        [
+          "x-default",
+          "https://koivupiilo.fi/valmennus/"
+        ]
+      ],
+      "nav": [
+        [
+          "Products",
+          "/en/products/",
+          null
+        ],
+        [
+          "Studio",
+          "/en/studio/",
+          null
+        ],
+        [
+          "Coaching",
+          "/en/coaching/",
+          "page"
+        ],
+        [
+          "Company",
+          "/en/company/",
+          null
+        ],
+        [
+          "Suomeksi",
+          "/valmennus/",
+          null
+        ]
+      ],
+      "empty": [],
+      "statuses": [],
+      "links": [
+        "#main",
+        "/en/",
+        "/en/products/",
+        "/en/studio/",
+        "/en/coaching/",
+        "/en/company/",
+        "/valmennus/",
+        "https://jarkko.github.io/beach-volleyball-rules-fi/docs/",
+        "/en/products/",
+        "mailto:jarkko@koivupiilo.fi?subject=Coaching",
+        "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+        "mailto:jarkko@koivupiilo.fi",
+        "/en/privacy/",
+        "/valmennus/"
+      ],
+      "switchTo": "/valmennus/",
+      "switchBack": "/en/coaching/"
+    },
+    {
+      "locale": "en-GB",
+      "path": "/yritys/",
+      "lang": "fi",
+      "title": "Yritys – Koivupiilo",
+      "canonical": "https://koivupiilo.fi/yritys/",
+      "alternates": [
+        [
+          "fi",
+          "https://koivupiilo.fi/yritys/"
+        ],
+        [
+          "en",
+          "https://koivupiilo.fi/en/company/"
+        ],
+        [
+          "x-default",
+          "https://koivupiilo.fi/yritys/"
+        ]
+      ],
+      "nav": [
+        [
+          "Tuotteet",
+          "/tuotteet/",
+          null
+        ],
+        [
+          "Studio",
+          "/studio/",
+          null
+        ],
+        [
+          "Valmennus",
+          "/valmennus/",
+          null
+        ],
+        [
+          "Yritys",
+          "/yritys/",
+          "page"
+        ],
+        [
+          "English",
+          "/en/company/",
+          null
+        ]
+      ],
+      "empty": [],
+      "statuses": [],
+      "links": [
+        "#main",
+        "/",
+        "/tuotteet/",
+        "/studio/",
+        "/valmennus/",
+        "/yritys/",
+        "/en/company/",
+        "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+        "mailto:jarkko@koivupiilo.fi",
+        "https://jlaine.net",
+        "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+        "mailto:jarkko@koivupiilo.fi",
+        "/tietosuoja/",
+        "/en/company/"
+      ],
+      "switchTo": "/en/company/",
+      "switchBack": "/yritys/"
+    },
+    {
+      "locale": "en-GB",
+      "path": "/en/company/",
+      "lang": "en",
+      "title": "Company – Koivupiilo",
+      "canonical": "https://koivupiilo.fi/en/company/",
+      "alternates": [
+        [
+          "fi",
+          "https://koivupiilo.fi/yritys/"
+        ],
+        [
+          "en",
+          "https://koivupiilo.fi/en/company/"
+        ],
+        [
+          "x-default",
+          "https://koivupiilo.fi/yritys/"
+        ]
+      ],
+      "nav": [
+        [
+          "Products",
+          "/en/products/",
+          null
+        ],
+        [
+          "Studio",
+          "/en/studio/",
+          null
+        ],
+        [
+          "Coaching",
+          "/en/coaching/",
+          null
+        ],
+        [
+          "Company",
+          "/en/company/",
+          "page"
+        ],
+        [
+          "Suomeksi",
+          "/yritys/",
+          null
+        ]
+      ],
+      "empty": [],
+      "statuses": [],
+      "links": [
+        "#main",
+        "/en/",
+        "/en/products/",
+        "/en/studio/",
+        "/en/coaching/",
+        "/en/company/",
+        "/yritys/",
+        "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+        "mailto:jarkko@koivupiilo.fi",
+        "https://jlaine.net",
+        "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+        "mailto:jarkko@koivupiilo.fi",
+        "/en/privacy/",
+        "/yritys/"
+      ],
+      "switchTo": "/yritys/",
+      "switchBack": "/en/company/"
+    },
+    {
+      "locale": "en-GB",
+      "path": "/tietosuoja/",
+      "lang": "fi",
+      "title": "Tietosuoja – Koivupiilo",
+      "canonical": "https://koivupiilo.fi/tietosuoja/",
+      "alternates": [
+        [
+          "fi",
+          "https://koivupiilo.fi/tietosuoja/"
+        ],
+        [
+          "en",
+          "https://koivupiilo.fi/en/privacy/"
+        ],
+        [
+          "x-default",
+          "https://koivupiilo.fi/tietosuoja/"
+        ]
+      ],
+      "nav": [
+        [
+          "Tuotteet",
+          "/tuotteet/",
+          null
+        ],
+        [
+          "Studio",
+          "/studio/",
+          null
+        ],
+        [
+          "Valmennus",
+          "/valmennus/",
+          null
+        ],
+        [
+          "Yritys",
+          "/yritys/",
+          null
+        ],
+        [
+          "English",
+          "/en/privacy/",
+          null
+        ]
+      ],
+      "empty": [],
+      "statuses": [],
+      "links": [
+        "#main",
+        "/",
+        "/tuotteet/",
+        "/studio/",
+        "/valmennus/",
+        "/yritys/",
+        "/en/privacy/",
+        "mailto:jarkko@koivupiilo.fi",
+        "mailto:jarkko@koivupiilo.fi",
+        "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+        "mailto:jarkko@koivupiilo.fi",
+        "/tietosuoja/",
+        "/en/privacy/"
+      ],
+      "switchTo": "/en/privacy/",
+      "switchBack": "/tietosuoja/"
+    },
+    {
+      "locale": "en-GB",
+      "path": "/en/privacy/",
+      "lang": "en",
+      "title": "Privacy – Koivupiilo",
+      "canonical": "https://koivupiilo.fi/en/privacy/",
+      "alternates": [
+        [
+          "fi",
+          "https://koivupiilo.fi/tietosuoja/"
+        ],
+        [
+          "en",
+          "https://koivupiilo.fi/en/privacy/"
+        ],
+        [
+          "x-default",
+          "https://koivupiilo.fi/tietosuoja/"
+        ]
+      ],
+      "nav": [
+        [
+          "Products",
+          "/en/products/",
+          null
+        ],
+        [
+          "Studio",
+          "/en/studio/",
+          null
+        ],
+        [
+          "Coaching",
+          "/en/coaching/",
+          null
+        ],
+        [
+          "Company",
+          "/en/company/",
+          null
+        ],
+        [
+          "Suomeksi",
+          "/tietosuoja/",
+          null
+        ]
+      ],
+      "empty": [],
+      "statuses": [],
+      "links": [
+        "#main",
+        "/en/",
+        "/en/products/",
+        "/en/studio/",
+        "/en/coaching/",
+        "/en/company/",
+        "/tietosuoja/",
+        "mailto:jarkko@koivupiilo.fi",
+        "mailto:jarkko@koivupiilo.fi",
+        "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+        "mailto:jarkko@koivupiilo.fi",
+        "/en/privacy/",
+        "/tietosuoja/"
+      ],
+      "switchTo": "/tietosuoja/",
+      "switchBack": "/en/privacy/"
+    }
+  ],
+  "redirects": [
+    {
+      "locale": "fi-FI",
+      "old": "/tyot/",
+      "to": "/tuotteet/",
+      "actual": "http://127.0.0.1:4188/tuotteet/",
+      "refresh": "http-equiv=\"refresh\" content=\"0; url=/tuotteet/\"",
+      "canonical": "rel=\"canonical\" href=\"https://koivupiilo.fi/tuotteet/\"",
+      "noindex": true,
+      "fallback": "/tuotteet/"
+    },
+    {
+      "locale": "fi-FI",
+      "old": "/en/work/",
+      "to": "/en/products/",
+      "actual": "http://127.0.0.1:4188/en/products/",
+      "refresh": "http-equiv=\"refresh\" content=\"0; url=/en/products/\"",
+      "canonical": "rel=\"canonical\" href=\"https://koivupiilo.fi/en/products/\"",
+      "noindex": true,
+      "fallback": "/en/products/"
+    },
+    {
+      "locale": "en-GB",
+      "old": "/tyot/",
+      "to": "/tuotteet/",
+      "actual": "http://127.0.0.1:4188/tuotteet/",
+      "refresh": "http-equiv=\"refresh\" content=\"0; url=/tuotteet/\"",
+      "canonical": "rel=\"canonical\" href=\"https://koivupiilo.fi/tuotteet/\"",
+      "noindex": true,
+      "fallback": "/tuotteet/"
+    },
+    {
+      "locale": "en-GB",
+      "old": "/en/work/",
+      "to": "/en/products/",
+      "actual": "http://127.0.0.1:4188/en/products/",
+      "refresh": "http-equiv=\"refresh\" content=\"0; url=/en/products/\"",
+      "canonical": "rel=\"canonical\" href=\"https://koivupiilo.fi/en/products/\"",
+      "noindex": true,
+      "fallback": "/en/products/"
+    }
+  ],
+  "walks": [
+    {
+      "locale": "fi-FI",
+      "path": "/",
+      "skip": "main"
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/en/",
+      "skip": "main"
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/tuotteet/",
+      "skip": "main"
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/en/products/",
+      "skip": "main"
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/studio/",
+      "skip": "main"
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/en/studio/",
+      "skip": "main"
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/valmennus/",
+      "skip": "main"
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/en/coaching/",
+      "skip": "main"
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/yritys/",
+      "skip": "main"
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/en/company/",
+      "skip": "main"
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/tietosuoja/",
+      "skip": "main"
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/en/privacy/",
+      "skip": "main"
+    },
+    {
+      "locale": "fi-FI",
+      "lang": "fi",
+      "label": "Tuotteet",
+      "target": "/tuotteet/",
+      "actual": "/tuotteet/",
+      "stem": "fi-FI-fi-1"
+    },
+    {
+      "locale": "fi-FI",
+      "lang": "fi",
+      "label": "Studio",
+      "target": "/studio/",
+      "actual": "/studio/",
+      "stem": "fi-FI-fi-2"
+    },
+    {
+      "locale": "fi-FI",
+      "lang": "fi",
+      "label": "Valmennus",
+      "target": "/valmennus/",
+      "actual": "/valmennus/",
+      "stem": "fi-FI-fi-3"
+    },
+    {
+      "locale": "fi-FI",
+      "lang": "fi",
+      "label": "Yritys",
+      "target": "/yritys/",
+      "actual": "/yritys/",
+      "stem": "fi-FI-fi-4"
+    },
+    {
+      "locale": "fi-FI",
+      "lang": "fi",
+      "label": "Tietosuoja",
+      "target": "/tietosuoja/",
+      "actual": "/tietosuoja/",
+      "stem": "fi-FI-fi-5"
+    },
+    {
+      "locale": "fi-FI",
+      "lang": "fi",
+      "label": "",
+      "target": "/",
+      "actual": "/",
+      "stem": "fi-FI-fi-6"
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/studio/",
+      "mail": [
+        [
+          "Lähetä sähköpostia",
+          "mailto:jarkko@koivupiilo.fi?subject=Ohjelmistoprojekti"
+        ],
+        [
+          "jarkko@koivupiilo.fi",
+          "mailto:jarkko@koivupiilo.fi"
+        ]
+      ]
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/valmennus/",
+      "mail": [
+        [
+          "Kirjoita Jarkolle",
+          "mailto:jarkko@koivupiilo.fi?subject=Valmennus"
+        ],
+        [
+          "jarkko@koivupiilo.fi",
+          "mailto:jarkko@koivupiilo.fi"
+        ]
+      ]
+    },
+    {
+      "locale": "fi-FI",
+      "lang": "en",
+      "label": "Products",
+      "target": "/en/products/",
+      "actual": "/en/products/",
+      "stem": "fi-FI-en-1"
+    },
+    {
+      "locale": "fi-FI",
+      "lang": "en",
+      "label": "Studio",
+      "target": "/en/studio/",
+      "actual": "/en/studio/",
+      "stem": "fi-FI-en-2"
+    },
+    {
+      "locale": "fi-FI",
+      "lang": "en",
+      "label": "Coaching",
+      "target": "/en/coaching/",
+      "actual": "/en/coaching/",
+      "stem": "fi-FI-en-3"
+    },
+    {
+      "locale": "fi-FI",
+      "lang": "en",
+      "label": "Company",
+      "target": "/en/company/",
+      "actual": "/en/company/",
+      "stem": "fi-FI-en-4"
+    },
+    {
+      "locale": "fi-FI",
+      "lang": "en",
+      "label": "Privacy",
+      "target": "/en/privacy/",
+      "actual": "/en/privacy/",
+      "stem": "fi-FI-en-5"
+    },
+    {
+      "locale": "fi-FI",
+      "lang": "en",
+      "label": "",
+      "target": "/en/",
+      "actual": "/en/",
+      "stem": "fi-FI-en-6"
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/en/studio/",
+      "mail": [
+        [
+          "Send us an email",
+          "mailto:jarkko@koivupiilo.fi?subject=Software%20project"
+        ],
+        [
+          "jarkko@koivupiilo.fi",
+          "mailto:jarkko@koivupiilo.fi"
+        ]
+      ]
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/en/coaching/",
+      "mail": [
+        [
+          "Write to Jarkko",
+          "mailto:jarkko@koivupiilo.fi?subject=Coaching"
+        ],
+        [
+          "jarkko@koivupiilo.fi",
+          "mailto:jarkko@koivupiilo.fi"
+        ]
+      ]
+    },
+    {
+      "locale": "en-GB",
+      "path": "/",
+      "skip": "main"
+    },
+    {
+      "locale": "en-GB",
+      "path": "/en/",
+      "skip": "main"
+    },
+    {
+      "locale": "en-GB",
+      "path": "/tuotteet/",
+      "skip": "main"
+    },
+    {
+      "locale": "en-GB",
+      "path": "/en/products/",
+      "skip": "main"
+    },
+    {
+      "locale": "en-GB",
+      "path": "/studio/",
+      "skip": "main"
+    },
+    {
+      "locale": "en-GB",
+      "path": "/en/studio/",
+      "skip": "main"
+    },
+    {
+      "locale": "en-GB",
+      "path": "/valmennus/",
+      "skip": "main"
+    },
+    {
+      "locale": "en-GB",
+      "path": "/en/coaching/",
+      "skip": "main"
+    },
+    {
+      "locale": "en-GB",
+      "path": "/yritys/",
+      "skip": "main"
+    },
+    {
+      "locale": "en-GB",
+      "path": "/en/company/",
+      "skip": "main"
+    },
+    {
+      "locale": "en-GB",
+      "path": "/tietosuoja/",
+      "skip": "main"
+    },
+    {
+      "locale": "en-GB",
+      "path": "/en/privacy/",
+      "skip": "main"
+    },
+    {
+      "locale": "en-GB",
+      "lang": "fi",
+      "label": "Tuotteet",
+      "target": "/tuotteet/",
+      "actual": "/tuotteet/",
+      "stem": "en-GB-fi-1"
+    },
+    {
+      "locale": "en-GB",
+      "lang": "fi",
+      "label": "Studio",
+      "target": "/studio/",
+      "actual": "/studio/",
+      "stem": "en-GB-fi-2"
+    },
+    {
+      "locale": "en-GB",
+      "lang": "fi",
+      "label": "Valmennus",
+      "target": "/valmennus/",
+      "actual": "/valmennus/",
+      "stem": "en-GB-fi-3"
+    },
+    {
+      "locale": "en-GB",
+      "lang": "fi",
+      "label": "Yritys",
+      "target": "/yritys/",
+      "actual": "/yritys/",
+      "stem": "en-GB-fi-4"
+    },
+    {
+      "locale": "en-GB",
+      "lang": "fi",
+      "label": "Tietosuoja",
+      "target": "/tietosuoja/",
+      "actual": "/tietosuoja/",
+      "stem": "en-GB-fi-5"
+    },
+    {
+      "locale": "en-GB",
+      "lang": "fi",
+      "label": "",
+      "target": "/",
+      "actual": "/",
+      "stem": "en-GB-fi-6"
+    },
+    {
+      "locale": "en-GB",
+      "path": "/studio/",
+      "mail": [
+        [
+          "Lähetä sähköpostia",
+          "mailto:jarkko@koivupiilo.fi?subject=Ohjelmistoprojekti"
+        ],
+        [
+          "jarkko@koivupiilo.fi",
+          "mailto:jarkko@koivupiilo.fi"
+        ]
+      ]
+    },
+    {
+      "locale": "en-GB",
+      "path": "/valmennus/",
+      "mail": [
+        [
+          "Kirjoita Jarkolle",
+          "mailto:jarkko@koivupiilo.fi?subject=Valmennus"
+        ],
+        [
+          "jarkko@koivupiilo.fi",
+          "mailto:jarkko@koivupiilo.fi"
+        ]
+      ]
+    },
+    {
+      "locale": "en-GB",
+      "lang": "en",
+      "label": "Products",
+      "target": "/en/products/",
+      "actual": "/en/products/",
+      "stem": "en-GB-en-1"
+    },
+    {
+      "locale": "en-GB",
+      "lang": "en",
+      "label": "Studio",
+      "target": "/en/studio/",
+      "actual": "/en/studio/",
+      "stem": "en-GB-en-2"
+    },
+    {
+      "locale": "en-GB",
+      "lang": "en",
+      "label": "Coaching",
+      "target": "/en/coaching/",
+      "actual": "/en/coaching/",
+      "stem": "en-GB-en-3"
+    },
+    {
+      "locale": "en-GB",
+      "lang": "en",
+      "label": "Company",
+      "target": "/en/company/",
+      "actual": "/en/company/",
+      "stem": "en-GB-en-4"
+    },
+    {
+      "locale": "en-GB",
+      "lang": "en",
+      "label": "Privacy",
+      "target": "/en/privacy/",
+      "actual": "/en/privacy/",
+      "stem": "en-GB-en-5"
+    },
+    {
+      "locale": "en-GB",
+      "lang": "en",
+      "label": "",
+      "target": "/en/",
+      "actual": "/en/",
+      "stem": "en-GB-en-6"
+    },
+    {
+      "locale": "en-GB",
+      "path": "/en/studio/",
+      "mail": [
+        [
+          "Send us an email",
+          "mailto:jarkko@koivupiilo.fi?subject=Software%20project"
+        ],
+        [
+          "jarkko@koivupiilo.fi",
+          "mailto:jarkko@koivupiilo.fi"
+        ]
+      ]
+    },
+    {
+      "locale": "en-GB",
+      "path": "/en/coaching/",
+      "mail": [
+        [
+          "Write to Jarkko",
+          "mailto:jarkko@koivupiilo.fi?subject=Coaching"
+        ],
+        [
+          "jarkko@koivupiilo.fi",
+          "mailto:jarkko@koivupiilo.fi"
+        ]
+      ]
+    }
+  ],
+  "zoom": [
+    {
+      "locale": "fi-FI",
+      "path": "/",
+      "kind": "computed-font-200%-stress",
+      "overflow": 39
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/en/",
+      "kind": "computed-font-200%-stress",
+      "overflow": 68
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/tuotteet/",
+      "kind": "computed-font-200%-stress",
+      "overflow": 39
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/en/products/",
+      "kind": "computed-font-200%-stress",
+      "overflow": 68
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/studio/",
+      "kind": "computed-font-200%-stress",
+      "overflow": 0
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/en/studio/",
+      "kind": "computed-font-200%-stress",
+      "overflow": 0
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/valmennus/",
+      "kind": "computed-font-200%-stress",
+      "overflow": 0
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/en/coaching/",
+      "kind": "computed-font-200%-stress",
+      "overflow": 0
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/yritys/",
+      "kind": "computed-font-200%-stress",
+      "overflow": 0
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/en/company/",
+      "kind": "computed-font-200%-stress",
+      "overflow": 0
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/tietosuoja/",
+      "kind": "computed-font-200%-stress",
+      "overflow": 0
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/en/privacy/",
+      "kind": "computed-font-200%-stress",
+      "overflow": 0
+    },
+    {
+      "locale": "fi-FI",
+      "path": "/404.html",
+      "kind": "computed-font-200%-stress",
+      "overflow": 0
+    },
+    {
+      "locale": "en-GB",
+      "path": "/",
+      "kind": "computed-font-200%-stress",
+      "overflow": 39
+    },
+    {
+      "locale": "en-GB",
+      "path": "/en/",
+      "kind": "computed-font-200%-stress",
+      "overflow": 68
+    },
+    {
+      "locale": "en-GB",
+      "path": "/tuotteet/",
+      "kind": "computed-font-200%-stress",
+      "overflow": 39
+    },
+    {
+      "locale": "en-GB",
+      "path": "/en/products/",
+      "kind": "computed-font-200%-stress",
+      "overflow": 68
+    },
+    {
+      "locale": "en-GB",
+      "path": "/studio/",
+      "kind": "computed-font-200%-stress",
+      "overflow": 0
+    },
+    {
+      "locale": "en-GB",
+      "path": "/en/studio/",
+      "kind": "computed-font-200%-stress",
+      "overflow": 0
+    },
+    {
+      "locale": "en-GB",
+      "path": "/valmennus/",
+      "kind": "computed-font-200%-stress",
+      "overflow": 0
+    },
+    {
+      "locale": "en-GB",
+      "path": "/en/coaching/",
+      "kind": "computed-font-200%-stress",
+      "overflow": 0
+    },
+    {
+      "locale": "en-GB",
+      "path": "/yritys/",
+      "kind": "computed-font-200%-stress",
+      "overflow": 0
+    },
+    {
+      "locale": "en-GB",
+      "path": "/en/company/",
+      "kind": "computed-font-200%-stress",
+      "overflow": 0
+    },
+    {
+      "locale": "en-GB",
+      "path": "/tietosuoja/",
+      "kind": "computed-font-200%-stress",
+      "overflow": 0
+    },
+    {
+      "locale": "en-GB",
+      "path": "/en/privacy/",
+      "kind": "computed-font-200%-stress",
+      "overflow": 0
+    },
+    {
+      "locale": "en-GB",
+      "path": "/404.html",
+      "kind": "computed-font-200%-stress",
+      "overflow": 0
+    }
+  ],
+  "errors": [],
+  "sitemap": [
+    "https://koivupiilo.fi/",
+    "https://koivupiilo.fi/en/",
+    "https://koivupiilo.fi/tuotteet/",
+    "https://koivupiilo.fi/en/products/",
+    "https://koivupiilo.fi/studio/",
+    "https://koivupiilo.fi/en/studio/",
+    "https://koivupiilo.fi/valmennus/",
+    "https://koivupiilo.fi/en/coaching/",
+    "https://koivupiilo.fi/yritys/",
+    "https://koivupiilo.fi/en/company/",
+    "https://koivupiilo.fi/tietosuoja/",
+    "https://koivupiilo.fi/en/privacy/"
+  ],
+  "sitemapHasOldPaths": false
+}

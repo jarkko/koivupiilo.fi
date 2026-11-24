@@ -6,7 +6,7 @@
 <section class="intro">
   <h1 class="display"><%= page.heading %></h1>
   <p class="lede"><%= site.data.jarkko.coaching_sentence[lang] %></p>
-  <p class="byline"><%= page.byline %></p>
+  <% if page.byline %><p class="byline"><%= page.byline %></p><% end %>
 </section>
 
 <section class="row" aria-labelledby="offers">
@@ -20,7 +20,7 @@
       </li>
       <% end %>
     </ul>
-    <p class="note"><%= page.offers_note %></p>
+    <% if page.offers_note %><p class="note"><%= page.offers_note %></p><% end %>
   </div>
 </section>
 
