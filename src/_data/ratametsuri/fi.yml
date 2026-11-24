@@ -9,7 +9,7 @@ skip_link: "Siirry sisältöön"
 lang_link: "In English"
 
 tagline: ["Kotonaan Macissa.", "Kotonaan suunnistuksen sovellusekosysteemissä."]
-line: "Ratametsuri on sovellus suunnistusratojen suunniteluun Macilla."
+line: "Ratametsuri on sovellus suunnistusratojen suunnitteluun Macilla."
 beta_heading: "Yksityinen beta"
 beta_lead: "Ratametsuri avautuu ensin yksityisenä betana. Hae mukaan vastaamalla lyhyeen kyselyyn."
 # The status label beside the wordmark: the status word comes from work.yml (statuses), and so does
