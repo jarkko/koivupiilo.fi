@@ -1,0 +1,8 @@
+# Opportunity-tree transfer, critique 0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc
+
+The coordinator restricted this commit to two JSONs and their cited evidence. Therefore `docs/design/opportunity-tree.md` is deliberately unchanged; these entries are the transfer for incorporation there, not a claim that the canonical tree was updated. Existing O-r2/S-r1 already describe the main presentation opportunity; update those rather than duplicating them.
+
+- Opportunities / W0 / remove: Reduce the visual hierarchy around the single Mac requirement; retain its fact and the owner’s strings. Source: this critique, remove[0]; evidence and grade stay in the critique JSON.
+- Opportunities / W0 / 2x / existing O-r2: A course setter sees real course output before seeing the native Mac interaction that distinguishes Ratametsuri. Source: this critique, two_x[0] and short_of_references[0].
+- Opportunities / W0 / trust placement: Keep proof and suitability close to the single survey action across widths; the tablet CTA currently starts below its first viewport and the distinctive behaviour is below the desktop fold. Source: this critique, short_of_references[1:3]; tablet correctness remains a non-blocking defect finding.
+- Solutions / existing S-r1: One responsive, real-app before/after click-preview proof panel within the existing image area, preserving sharp course output and the single D27 survey action. Test whether it halves the time to identify native Mac UI and explain the demonstrated click; no 2x result is claimed. Strongest counter-argument and reject conditions live in this critique’s two_x[0].

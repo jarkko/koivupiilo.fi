@@ -1,0 +1,72 @@
+{
+  "kind": "critique",
+  "ui_diff_hash": "ca6815cd002646fd603f4e6ed024ea5121fce3ab141ebc61861cf354ed19766e",
+  "head_sha": "d69d324df0e38aeac9f76d2c343ccfe7504a16ff",
+  "reviewer_run_id": "session_01UYroxfSoXT1vaQbkFJeRRT / PR #6 critique subagent",
+  "implementer_family": "claude",
+  "reviewer_family": "claude",
+  "walked": ["W0"],
+  "regions": ["fi_FI", "en_GB"],
+  "critique": {
+    "remove": [
+      {
+        "flow": "W0",
+        "point": "Beta block: the lead's first sentence ('Ratametsuri opens first as a private beta.') restates the heading ('Private beta'), and the button repeats 'beta' a third time. Three lines carry one fact. Cut the first sentence and the lead becomes the one thing the visitor doesn't know yet: the button opens a short survey. That saves a line on the 390 px first screen, where the button currently ends at 705-728 of 844 px. This is a structural point. The Finnish block has the same three-part shape, and its wording stays with the Finnish pipeline.",
+        "grade": "anecdote",
+        "evidence": [
+          "docs/design/reviews/evidence/ca6815cd002646fd603f4e6ed024ea5121fce3ab141ebc61861cf354ed19766e/critique-en-390-light-first.jpg",
+          "docs/design/reviews/evidence/ca6815cd002646fd603f4e6ed024ea5121fce3ab141ebc61861cf354ed19766e/critique-measurements.json"
+        ]
+      },
+      {
+        "flow": "W0",
+        "point": "'What you need' is now a heading over a list of one item: the map-format line was dropped, so the macOS 14 line stands alone. The heading takes a line and a second type style to frame one fact. As a single body-size line right under the button (for example 'Needs a Mac with macOS 14 Sonoma or later'), it still serves J2 and the action block loses a level. It would also match the CoolDock mechanic that references.md J2 asks for: the requirement directly under the button. Keep the fact, its contrast and its 390 px wrapping. Drop only the heading and the list.",
+        "grade": "anecdote",
+        "evidence": [
+          "docs/design/reviews/evidence/ca6815cd002646fd603f4e6ed024ea5121fce3ab141ebc61861cf354ed19766e/critique-fi-1440-light-first.jpg",
+          "docs/design/reviews/evidence/ca6815cd002646fd603f4e6ed024ea5121fce3ab141ebc61861cf354ed19766e/critique-en-390-light-first.jpg",
+          "docs/design/reviews/evidence/ca6815cd002646fd603f4e6ed024ea5121fce3ab141ebc61861cf354ed19766e/critique-measurements.json"
+        ]
+      }
+    ],
+    "two_x": [
+      {
+        "flow": "W0",
+        "point": "Put the app back in the picture: replace the map-only crop with one 2x crop that keeps a strip of the real window (toolbar or sidebar edge) and catches the pointer label ('Add 31 as 4') over a control. This PR made the map sharp, but it also removed the only evidence that this is a Mac app. On origin/main the desktop image was the whole window. At this head, both crops are map canvas only, which looks the same as any course-setting tool's PDF output. Meanwhile the new tagline's first beat claims 'At home on the Mac'. The signature behaviour appears only as text in feature 1, which starts at y 977 on the 1440x900 screen (below the fold) and under the button on the phone. One image would then prove J1 twice: it is a native Mac app, and a click shows what it will do before you make it. 2x target: in a five-second test with setters, double the share who can say both what the app is and what it does differently. Today the first screen supports only 'a map with a course'. This sharpens S-r1 (critique eef7d25e) and is presentation only, with no model change. Strongest counter-argument: the crop exists for sharpness. Window chrome at a 736 px slot shrinks the map back toward the old half-size, and on a 311 px phone slot chrome plus label may leave neither readable. The label is per-language and the chrome per-appearance, which brings back four file sets where there is one. A frozen hover label can also read as a mock-up. Reject it if control numbers and the label are not both legible at 390 and 1440, or if the button leaves the first phone screen.",
+        "grade": "practitioner consensus",
+        "evidence": [
+          "docs/design/reviews/evidence/ca6815cd002646fd603f4e6ed024ea5121fce3ab141ebc61861cf354ed19766e/critique-fi-1440-light-first.jpg",
+          "docs/design/reviews/evidence/ca6815cd002646fd603f4e6ed024ea5121fce3ab141ebc61861cf354ed19766e/critique-fi-1440-light-full.jpg",
+          "docs/design/reviews/evidence/ca6815cd002646fd603f4e6ed024ea5121fce3ab141ebc61861cf354ed19766e/critique-before-origin-main-fi-1440-light.jpg",
+          "docs/design/reviews/evidence/ca6815cd002646fd603f4e6ed024ea5121fce3ab141ebc61861cf354ed19766e/critique-en-390-light-first.jpg",
+          "docs/design/reviews/evidence/ca6815cd002646fd603f4e6ed024ea5121fce3ab141ebc61861cf354ed19766e/critique-measurements.json"
+        ]
+      }
+    ],
+    "short_of_references": [
+      {
+        "flow": "W0",
+        "reference": "docs/design/ratametsuri/references.md#j1-proof-on-a-real-screen (Apple Final Cut Pro; category baseline OCAD) and references/awards/ios-app-landing.md#flighty",
+        "point": "Final Cut Pro leads with the product on a screen, and OCAD, the category's best, shows 'a real map in a real window'. references.md direction 1 says 'The window leads ... plain frame'. Ours now shows no window at all: a crop-marked map canvas whose only product sign is the overprint course, which every setting tool prints. We now beat OCAD and Condes on legibility (the description sheet and control numbers read at 1440), but fall below OCAD on showing that it is software, and on the Mac. Flighty's mechanic is the app's own output as the supporting copy: its notification cards are the copy. Our equivalent, the pointer label, exists only as body text in feature 1, below the desktop fold (y 977 of 900). Dark mode makes the gap starker: the page turns dark while the map stays a white print, so nothing on screen looks like the app in its dark appearance.",
+        "grade": "anecdote",
+        "evidence": [
+          "docs/design/reviews/evidence/ca6815cd002646fd603f4e6ed024ea5121fce3ab141ebc61861cf354ed19766e/critique-fi-1440-light-first.jpg",
+          "docs/design/reviews/evidence/ca6815cd002646fd603f4e6ed024ea5121fce3ab141ebc61861cf354ed19766e/critique-en-1440-dark-first.jpg",
+          "docs/design/reviews/evidence/ca6815cd002646fd603f4e6ed024ea5121fce3ab141ebc61861cf354ed19766e/critique-before-origin-main-fi-1440-light.jpg",
+          "docs/design/reviews/evidence/ca6815cd002646fd603f4e6ed024ea5121fce3ab141ebc61861cf354ed19766e/critique-measurements.json"
+        ]
+      },
+      {
+        "flow": "W0",
+        "reference": "docs/design/ratametsuri/references.md#j3-one-field-request (Dave Cleaner beta test, CleanShot X) and references/awards/ios-app-landing.md#cleanshot-x",
+        "point": "references.md J3 sets the bar as 'what the visitor knows when they press the button'. CleanShot X puts one reassurance line directly under its action. The survey decision (D27) is the owner's, and it is right for a 10-20 person beta. The page should still carry the expectations the email form used to carry: the button now takes the visitor to another site, and nothing under it says how long the survey is or what happens after answering (the invite by email, TestFlight). 'Short' is the only cue. One plain line under the button, such as the number of questions or minutes and 'we email the invites', meets the bar without naming places or selection mechanics, which D27 rules out. Stating the cost up front doesn't weaken the survey as a filter; it only removes surprise. This beats Dave Cleaner's repeated CTA (we have one action) but falls short of its successor bar on informed consent to the next step.",
+        "grade": "anecdote",
+        "evidence": [
+          "docs/design/reviews/evidence/ca6815cd002646fd603f4e6ed024ea5121fce3ab141ebc61861cf354ed19766e/critique-en-390-light-first.jpg",
+          "docs/design/reviews/evidence/ca6815cd002646fd603f4e6ed024ea5121fce3ab141ebc61861cf354ed19766e/critique-fi-1440-light-first.jpg",
+          "docs/design/reviews/evidence/ca6815cd002646fd603f4e6ed024ea5121fce3ab141ebc61861cf354ed19766e/critique-measurements.json"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,248 @@
+{
+ "kind": "defect",
+ "ui_diff_hash": "0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a",
+ "head_sha": "ceb724b8deaffa0e3482ce75318417ce9b546338",
+ "reviewer_run_id": "term_91722319-59ad-4327-a39a-ff73ee0708e1",
+ "implementer_family": "claude",
+ "reviewer_family": "claude",
+ "walked": [
+  "W0"
+ ],
+ "regions": [
+  "fi_FI",
+  "en_GB"
+ ],
+ "rubric": [
+  {
+   "id": "house-rules",
+   "result": "pass",
+   "blocking": true,
+   "evidence": [
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/fi-390-light-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/fi-390-dark-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/fi-1440-light-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/fi-1440-dark-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/en-390-light-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/en-390-dark-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/en-1440-light-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/en-1440-dark-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/fi-320-light-full.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/en-320-light-full.jpg"
+   ],
+   "note": "One primary action per view (the purple beta link; the language link and privacy link are plain text links). No theme toggle. Status pill has a word and an icon. Contrast computed: white on #a626a4 6.11:1, #131018 on #dc84da 7.49:1, hover states 7.84 and 9.74:1, muted text 6.68 and 7.83:1. Targets: beta link 52 px tall, language link 44 px. Text reflows at 320 px with no overflow; the large-text word breaks are F3."
+  },
+  {
+   "id": "model",
+   "result": "fail",
+   "blocking": true,
+   "evidence": [
+    "docs/design/model.md",
+    "src/_layouts/ratametsuri.erb"
+   ],
+   "note": "F1: the survey link replaces D25's email field with no recorded decision. M1 status (word and date from work.yml) is unchanged and correct. Vocabulary: no termbase forbid hit seen in the new strings."
+  },
+  {
+   "id": "heuristics",
+   "result": "pass",
+   "blocking": true,
+   "evidence": [
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/strip-fi-390-dark-0-focus-before.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/strip-fi-390-dark-1-300ms.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/strip-fi-390-dark-2-after.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/strip-en-1440-light-0-focus-before.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/strip-en-1440-light-1-300ms.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/strip-en-1440-light-2-after.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/strip-fi-1440-dark-0-focus-before.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/strip-fi-1440-dark-1-300ms.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/strip-fi-1440-dark-2-after.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/strip-en-390-light-0-focus-before.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/strip-en-390-light-1-300ms.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/strip-en-390-light-2-after.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/press.json"
+   ],
+   "note": "Visibility: the lead says what happens ('answer a short survey') before the link, so leaving the site is expected. The page holds no user data, so nothing can be lost; Back returns to the page. The survey opens in the page's language (fi without a parameter, ?lang=en from English), both confirmed 200 with the right html lang."
+  },
+  {
+   "id": "interaction-craft",
+   "result": "pass",
+   "blocking": true,
+   "evidence": [
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/strip-fi-390-dark-0-focus-before.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/strip-fi-390-dark-1-300ms.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/strip-fi-390-dark-2-after.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/strip-en-1440-light-0-focus-before.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/strip-en-1440-light-1-300ms.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/strip-en-1440-light-2-after.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/strip-fi-1440-dark-0-focus-before.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/strip-fi-1440-dark-1-300ms.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/strip-fi-1440-dark-2-after.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/strip-en-390-light-0-focus-before.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/strip-en-390-light-1-300ms.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/strip-en-390-light-2-after.jpg"
+   ],
+   "note": "Keyboard order: skip link, language link, beta link, privacy link; visible 3 px focus ring with offset on the beta link in both themes; Enter navigates. Hover darkens in 150 ms. No destructive action exists. F4 is polish at the largest text size."
+  },
+  {
+   "id": "platform",
+   "result": "pass",
+   "blocking": true,
+   "evidence": [
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/fi-1440-light-zoom110.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/fi-1440-light-zoom125.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/fi-1440-light-zoom150.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/fi-1440-light-zoom175.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/fi-1440-light-zoom200.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/en-1440-light-zoom110.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/en-1440-light-zoom125.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/en-1440-light-zoom150.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/en-1440-light-zoom175.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/en-1440-light-zoom200.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/F3-fi-390-light-text32-tagline.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/F3-fi-320-dark-text32-tagline.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/walk-chrome-text-size.json"
+   ],
+   "note": "WCAG 2.2 AA: contrast passes (see house-rules), targets pass, focus order and names pass (the finish symbol in the beta heading is display:none at every width, so it is not announced). 1.4.4: page zoom at 110/125/150/175/200 % at 1440 px loses nothing and has no horizontal scroll in either language; 32 px default text keeps every control reachable. F3 is a quality defect, not a conformance failure. Not tested: a screen reader."
+  },
+  {
+   "id": "owner-rules",
+   "result": "pass",
+   "blocking": true,
+   "evidence": [
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/fi-390-light-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/fi-390-dark-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/fi-1440-light-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/fi-1440-dark-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/en-390-light-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/en-390-dark-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/en-1440-light-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/en-1440-dark-first.jpg"
+   ],
+   "note": "Appearance follows prefers-color-scheme with no toggle. No UUIDs: the survey URL uses a readable slug (course-setters)."
+  },
+  {
+   "id": "web-quality",
+   "result": "pass",
+   "blocking": true,
+   "evidence": [
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/walk-headless.json",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/walk-chrome-text-size.json"
+   ],
+   "note": "Checked by me in Chromium/Chrome: no horizontal overflow at 320 to 2560 px, at page zoom 110 to 200 % or at 24/32 px default text; no console errors; no request to any origin but the page's own until the beta link is pressed. Map sharpness: every width loads a file with at least one image pixel per device pixel (390 px at 3x: phone-960 for a 933 px slot; 1440 at 2x: screen-1600 for 1472; 1920 at 1x: screen-960 for 736; zoom 110 %: screen-960 for 810). Not run by me: Lighthouse, axe and the docker visual comparison (brief: no ds run visual); CI runs them."
+  },
+  {
+   "id": "plan-conformance",
+   "result": "pass",
+   "blocking": true,
+   "evidence": [
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/fi-390-light-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/fi-390-dark-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/fi-1440-light-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/fi-1440-dark-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/en-390-light-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/en-390-dark-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/en-1440-light-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/en-1440-dark-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/press.json"
+   ],
+   "note": "Matches the brief: two-beat tagline with the line under it, srcset map crops for phone and desktop, 'Hae betaan' / 'Apply for the beta' linking to the survey (?lang=en on English), requirements reduced to the macOS line, desktop order banner tagline, then beta and requirements left of the map, features below. What model.md doesn't yet describe is F1."
+  },
+  {
+   "id": "approved-design",
+   "result": "fail",
+   "blocking": false,
+   "evidence": [
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/F2-fi-1728-light-tagline-overflow.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/F5-fi-768-light-first.jpg"
+   ],
+   "note": "The direction D 'Ratapainatus' type, colour and course rail are kept. F2 (the banner overruns the grid on wide screens) and F5 (tablet beta link below the fold) drift from the layout the owner asked for. Neither blocks."
+  },
+  {
+   "id": "baseline",
+   "result": "pass",
+   "blocking": true,
+   "evidence": [
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/fi-390-light-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/fi-390-dark-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/fi-1440-light-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/fi-1440-dark-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/en-390-light-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/en-390-dark-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/en-1440-light-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/en-1440-dark-first.jpg"
+   ],
+   "note": "The 16 changed baselines under docs/design/baselines/{,en/}ratametsuri/ show the intended new layout at 390 and 1440, where F2 doesn't occur. Not approved here because the verdict is fail."
+  }
+ ],
+ "findings": [
+  {
+   "id": "F1",
+   "severity": "blocking",
+   "rubric": "model",
+   "walk": "W0",
+   "message": "The product page's beta action is now a link that leaves the site for launchpad's survey (join.koivupiilo.fi/ratametsuri/q/course-setters), but model.md still says the opposite and no decision records the change: D25 says beta requests come through one email field in a plain form, and the places table gives the product page 'ask for the beta', rare task 'Read what happens to the address' and density 'one field'. A navigation and object change with decision_ref null blocks (ux-review step 10). Right looks like: a D27 in model.md, in the owner's words, that supersedes D25 for Ratametsuri (the request is a survey answer on launchpad, which holds the consent wording and confirmation), with the places row updated (primary task 'apply for the beta through the survey', no field on this page). Also update the stale kit.toml allow_origins reason and the [modules.off] comment, both of which still say the page's form posts to launchpad.",
+   "evidence": [
+    "docs/design/model.md",
+    "src/_layouts/ratametsuri.erb",
+    "docs/design/kit.toml",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/press.json"
+   ]
+  },
+  {
+   "id": "F2",
+   "severity": "major",
+   "rubric": "approved-design",
+   "walk": "W0",
+   "message": "Desktop banner tagline, Finnish: the second beat 'Kotonaan suunnistuksen sovellusekosysteemissä.' is wider than its box at every viewport over about 1460 px (1512, 1728, 1920, 2560: scrollWidth 1234 px in a 1173 px box), so it runs about 61 px past the map's right edge and past 'In English'. At 1440 it fits exactly, which is why the 1440 baselines look right. Cause: `.tagline .beat{white-space:nowrap}` with `font-size:min(4.2vw,4rem)`: the 4rem cap lets the type keep growing after the 84rem column has stopped. Right looks like: the line ending at or inside the map's right edge at every width, e.g. a cap that tracks the column (about 3.8rem, or container query units on .intro), or letting beat 2 wrap at its soft hyphen when it doesn't fit. English fits at every width.",
+   "evidence": [
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/F2-fi-1728-light-tagline-overflow.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/F2-fi-2560-light-tagline-overflow.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/en-1728-dark-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/walk-headless.json",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/walk-chrome-text-size.json"
+   ]
+  },
+  {
+   "id": "F3",
+   "severity": "major",
+   "rubric": "platform",
+   "walk": "W0",
+   "message": "Phone at the largest default text (32 px): the Finnish tagline breaks inside words. At 390 px it ends 'ekosysteemiss' / 'ä.', a lone 'ä.' on its own line; at 320 px it also splits 'suunnistukse' / 'n'. Content isn't lost, so this isn't a WCAG 1.4.4 failure, but the page's headline visibly breaks. Cause: the max-width:19.5em rule sets the tagline to min(1.625rem,11.5vw) with overflow-wrap:anywhere, and at 390 px 11.5vw is still too large for 'ekosysteemissä.' in a 275 px column. Right looks like: the longest word fitting the column at 390 px (around 10vw there), so only the existing soft hyphen in sovellus-ekosysteemissä is used, keeping overflow-wrap:anywhere only as the 320 px last resort.",
+   "evidence": [
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/F3-fi-390-light-text32-tagline.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/F3-fi-320-dark-text32-tagline.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/walk-chrome-text-size.json"
+   ]
+  },
+  {
+   "id": "F4",
+   "severity": "minor",
+   "rubric": "interaction-craft",
+   "walk": "W0",
+   "message": "The beta button at 32 px default text on a 390 px phone: 'Hae betaan' and 'Apply for the beta' wrap onto two lines and sit left-aligned inside a button that has grown to the full 275 px column, so the label looks off-centre. .apply has justify-content:center but no text-align:center, and its 1.75rem side padding (56 px at this size) takes the room the label needs. Right looks like: a centred label (text-align:center) and side padding that shrinks at large text, so 'Hae betaan' stays on one line.",
+   "evidence": [
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/F4-fi-390-light-text32-beta-button.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/F4-en-390-dark-text32-beta-button.jpg"
+   ]
+  },
+  {
+   "id": "F5",
+   "severity": "minor",
+   "rubric": "approved-design",
+   "walk": "W0",
+   "message": "Tablet portrait (768×1024, the 36–62rem range): the beta button lands below the first screen (top at 1059 px) and the screen ends on the requirements line and the 'Yksityinen beta' heading, while phone (676 px of 844) and desktop (377 px of 900) both keep it on screen one, as the stylesheet's own comments intend. The tablet layout uses the tall 1920×1520 crop at full column width (660 px wide, about 520 px tall). Right looks like: the beta link on the first tablet screen, e.g. the 2:1 phone crop up to 48rem, or a shorter aspect for the window in this range.",
+   "evidence": [
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/F5-fi-768-light-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/F5-en-768-dark-first.jpg",
+    "docs/design/reviews/evidence/0dc55ba6392bb5fb3084afff8448aefd734b4fe3f0918b7d0c17ce63c7fbf52a/walk-headless.json"
+   ]
+  }
+ ],
+ "model_changes": [
+  {
+   "description": "The product page's beta request changes from one email field posting to launchpad (D25) to a link to launchpad's course-setters survey; the page no longer holds a field or explains what happens to the address.",
+   "decision_ref": null
+  }
+ ],
+ "baselines_approved": [],
+ "verdict": "fail"
+}
