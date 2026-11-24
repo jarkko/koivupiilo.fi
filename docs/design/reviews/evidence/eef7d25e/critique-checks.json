@@ -1,0 +1,113 @@
+{
+  "head_sha": "02542091a22d9dab1b15a6e02f65d926ecef1f73",
+  "ui_diff_hash": "eef7d25e8c6941de8e882619974b890fb73b53ec535d060b77af029feab7f054",
+  "schema": {
+    "source": "/Users/jarkko/code/metamorphosis/kit/schemas/review.schema.json",
+    "validator": "Ajv draft 2020-12",
+    "valid": true,
+    "errors": [],
+    "all_point_evidence_files_exist": true
+  },
+  "build": {
+    "command": "BRIDGETOWN_ENV=production bundle exec rake deploy",
+    "exit_code": 0,
+    "warnings": [
+      "npm unknown user config 14.18",
+      "baseline-browser-mapping data age",
+      "caniuse-lite data age"
+    ]
+  },
+  "gate": {
+    "command": "node tools/ds/ds.mjs gate",
+    "exit_code": 0,
+    "error_count": 0,
+    "warning_count": 42,
+    "warning_groups": {
+      "model.decision-no-supersedes": 19,
+      "model.no-results": 1,
+      "retrofit.baselined": 1,
+      "invariants.tap-target": 15,
+      "a11y.color-contrast": 6
+    },
+    "warnings": [
+      "docs/design/model.md:102: warn model.decision-no-supersedes: D1 has no \"Supersedes:\" field. Name what it overturns, or write \"Supersedes: none.\"",
+      "docs/design/model.md:108: warn model.decision-no-supersedes: D2 has no \"Supersedes:\" field. Name what it overturns, or write \"Supersedes: none.\"",
+      "docs/design/model.md:111: warn model.decision-no-supersedes: D3 has no \"Supersedes:\" field. Name what it overturns, or write \"Supersedes: none.\"",
+      "docs/design/model.md:114: warn model.decision-no-supersedes: D4 has no \"Supersedes:\" field. Name what it overturns, or write \"Supersedes: none.\"",
+      "docs/design/model.md:117: warn model.decision-no-supersedes: D5 has no \"Supersedes:\" field. Name what it overturns, or write \"Supersedes: none.\"",
+      "docs/design/model.md:119: warn model.decision-no-supersedes: D6 has no \"Supersedes:\" field. Name what it overturns, or write \"Supersedes: none.\"",
+      "docs/design/model.md:122: warn model.decision-no-supersedes: D7 has no \"Supersedes:\" field. Name what it overturns, or write \"Supersedes: none.\"",
+      "docs/design/model.md:126: warn model.decision-no-supersedes: D8 has no \"Supersedes:\" field. Name what it overturns, or write \"Supersedes: none.\"",
+      "docs/design/model.md:129: warn model.decision-no-supersedes: D9 has no \"Supersedes:\" field. Name what it overturns, or write \"Supersedes: none.\"",
+      "docs/design/model.md:132: warn model.decision-no-supersedes: D10 has no \"Supersedes:\" field. Name what it overturns, or write \"Supersedes: none.\"",
+      "docs/design/model.md:134: warn model.decision-no-supersedes: D11 has no \"Supersedes:\" field. Name what it overturns, or write \"Supersedes: none.\"",
+      "docs/design/model.md:136: warn model.decision-no-supersedes: D12 has no \"Supersedes:\" field. Name what it overturns, or write \"Supersedes: none.\"",
+      "docs/design/model.md:137: warn model.decision-no-supersedes: D13 has no \"Supersedes:\" field. Name what it overturns, or write \"Supersedes: none.\"",
+      "docs/design/model.md:140: warn model.decision-no-supersedes: D14 has no \"Supersedes:\" field. Name what it overturns, or write \"Supersedes: none.\"",
+      "docs/design/model.md:144: warn model.decision-no-supersedes: D15 has no \"Supersedes:\" field. Name what it overturns, or write \"Supersedes: none.\"",
+      "docs/design/model.md:147: warn model.decision-no-supersedes: D16 has no \"Supersedes:\" field. Name what it overturns, or write \"Supersedes: none.\"",
+      "docs/design/model.md:149: warn model.decision-no-supersedes: D17 has no \"Supersedes:\" field. Name what it overturns, or write \"Supersedes: none.\"",
+      "docs/design/model.md:151: warn model.decision-no-supersedes: D18 has no \"Supersedes:\" field. Name what it overturns, or write \"Supersedes: none.\"",
+      "docs/design/model.md:154: warn model.decision-no-supersedes: D19 has no \"Supersedes:\" field. Name what it overturns, or write \"Supersedes: none.\"",
+      "model: warn model.no-results: No test results to check. Set results = [\"<glob>\"] under [model] in docs/design/kit.toml, or pass --results <glob>.",
+      "docs/design/retrofit.tsv: warn retrofit.baselined: 9 model findings are on the retrofit list and don't block. Fix them and delete their rows.",
+      "/: warn invariants.tap-target: Tap target a.skip: 25 of 25 points in a 44 px circle on it land on something else, so it is too small or covered. Make its hit area at least 44\u00d744 px (size, padding or a ::before), or uncover it. (allowed: shown only while it has keyboard focus, so nobody taps it, and 44 px tall once shown) In phone 390\u00d7844, light, fi_FI; phone 390\u00d7844, light, en_GB; phone 390\u00d7844, dark, fi_FI; phone 390\u00d7844, dark, en_GB; phone 390\u00d7844, light, fi_FI, large default text; reflow 320\u00d7568, light, fi_FI, reflow. Screenshot: .ds/out/invariants/_root/phone-light-fi-FI/tap-target-1.png",
+      "/tyot/: warn invariants.tap-target: Tap target a.skip: 25 of 25 points in a 44 px circle on it land on something else, so it is too small or covered. Make its hit area at least 44\u00d744 px (size, padding or a ::before), or uncover it. (allowed: shown only while it has keyboard focus, so nobody taps it, and 44 px tall once shown) In phone 390\u00d7844, light, fi_FI; phone 390\u00d7844, light, en_GB; phone 390\u00d7844, dark, fi_FI; phone 390\u00d7844, dark, en_GB; phone 390\u00d7844, light, fi_FI, large default text; reflow 320\u00d7568, light, fi_FI, reflow. Screenshot: .ds/out/invariants/tyot/phone-light-fi-FI/tap-target-1.png",
+      "/studio/: warn invariants.tap-target: Tap target a.skip: 25 of 25 points in a 44 px circle on it land on something else, so it is too small or covered. Make its hit area at least 44\u00d744 px (size, padding or a ::before), or uncover it. (allowed: shown only while it has keyboard focus, so nobody taps it, and 44 px tall once shown) In phone 390\u00d7844, light, fi_FI; phone 390\u00d7844, light, en_GB; phone 390\u00d7844, dark, fi_FI; phone 390\u00d7844, dark, en_GB; phone 390\u00d7844, light, fi_FI, large default text; reflow 320\u00d7568, light, fi_FI, reflow. Screenshot: .ds/out/invariants/studio/phone-light-fi-FI/tap-target-1.png",
+      "/valmennus/: warn invariants.tap-target: Tap target a.skip: 25 of 25 points in a 44 px circle on it land on something else, so it is too small or covered. Make its hit area at least 44\u00d744 px (size, padding or a ::before), or uncover it. (allowed: shown only while it has keyboard focus, so nobody taps it, and 44 px tall once shown) In phone 390\u00d7844, light, fi_FI; phone 390\u00d7844, light, en_GB; phone 390\u00d7844, dark, fi_FI; phone 390\u00d7844, dark, en_GB; phone 390\u00d7844, light, fi_FI, large default text; reflow 320\u00d7568, light, fi_FI, reflow. Screenshot: .ds/out/invariants/valmennus/phone-light-fi-FI/tap-target-1.png",
+      "/yritys/: warn invariants.tap-target: Tap target a.skip: 25 of 25 points in a 44 px circle on it land on something else, so it is too small or covered. Make its hit area at least 44\u00d744 px (size, padding or a ::before), or uncover it. (allowed: shown only while it has keyboard focus, so nobody taps it, and 44 px tall once shown) In phone 390\u00d7844, light, fi_FI; phone 390\u00d7844, light, en_GB; phone 390\u00d7844, dark, fi_FI; phone 390\u00d7844, dark, en_GB; phone 390\u00d7844, light, fi_FI, large default text; reflow 320\u00d7568, light, fi_FI, reflow. Screenshot: .ds/out/invariants/yritys/phone-light-fi-FI/tap-target-1.png",
+      "/tietosuoja/: warn invariants.tap-target: Tap target a.skip: 25 of 25 points in a 44 px circle on it land on something else, so it is too small or covered. Make its hit area at least 44\u00d744 px (size, padding or a ::before), or uncover it. (allowed: shown only while it has keyboard focus, so nobody taps it, and 44 px tall once shown) In phone 390\u00d7844, light, fi_FI; phone 390\u00d7844, light, en_GB; phone 390\u00d7844, dark, fi_FI; phone 390\u00d7844, dark, en_GB; phone 390\u00d7844, light, fi_FI, large default text; reflow 320\u00d7568, light, fi_FI, reflow. Screenshot: .ds/out/invariants/tietosuoja/phone-light-fi-FI/tap-target-1.png",
+      "/en/: warn invariants.tap-target: Tap target a.skip: 25 of 25 points in a 44 px circle on it land on something else, so it is too small or covered. Make its hit area at least 44\u00d744 px (size, padding or a ::before), or uncover it. (allowed: shown only while it has keyboard focus, so nobody taps it, and 44 px tall once shown) In phone 390\u00d7844, light, fi_FI; phone 390\u00d7844, light, en_GB; phone 390\u00d7844, dark, fi_FI; phone 390\u00d7844, dark, en_GB; phone 390\u00d7844, light, fi_FI, large default text; reflow 320\u00d7568, light, fi_FI, reflow. Screenshot: .ds/out/invariants/en/phone-light-fi-FI/tap-target-1.png",
+      "/en/work/: warn invariants.tap-target: Tap target a.skip: 25 of 25 points in a 44 px circle on it land on something else, so it is too small or covered. Make its hit area at least 44\u00d744 px (size, padding or a ::before), or uncover it. (allowed: shown only while it has keyboard focus, so nobody taps it, and 44 px tall once shown) In phone 390\u00d7844, light, fi_FI; phone 390\u00d7844, light, en_GB; phone 390\u00d7844, dark, fi_FI; phone 390\u00d7844, dark, en_GB; phone 390\u00d7844, light, fi_FI, large default text; reflow 320\u00d7568, light, fi_FI, reflow. Screenshot: .ds/out/invariants/en/work/phone-light-fi-FI/tap-target-1.png",
+      "/en/studio/: warn invariants.tap-target: Tap target a.skip: 25 of 25 points in a 44 px circle on it land on something else, so it is too small or covered. Make its hit area at least 44\u00d744 px (size, padding or a ::before), or uncover it. (allowed: shown only while it has keyboard focus, so nobody taps it, and 44 px tall once shown) In phone 390\u00d7844, light, fi_FI; phone 390\u00d7844, light, en_GB; phone 390\u00d7844, dark, fi_FI; phone 390\u00d7844, dark, en_GB; phone 390\u00d7844, light, fi_FI, large default text; reflow 320\u00d7568, light, fi_FI, reflow. Screenshot: .ds/out/invariants/en/studio/phone-light-fi-FI/tap-target-1.png",
+      "/en/coaching/: warn invariants.tap-target: Tap target a.skip: 25 of 25 points in a 44 px circle on it land on something else, so it is too small or covered. Make its hit area at least 44\u00d744 px (size, padding or a ::before), or uncover it. (allowed: shown only while it has keyboard focus, so nobody taps it, and 44 px tall once shown) In phone 390\u00d7844, light, fi_FI; phone 390\u00d7844, light, en_GB; phone 390\u00d7844, dark, fi_FI; phone 390\u00d7844, dark, en_GB; phone 390\u00d7844, light, fi_FI, large default text; reflow 320\u00d7568, light, fi_FI, reflow. Screenshot: .ds/out/invariants/en/coaching/phone-light-fi-FI/tap-target-1.png",
+      "/en/company/: warn invariants.tap-target: Tap target a.skip: 25 of 25 points in a 44 px circle on it land on something else, so it is too small or covered. Make its hit area at least 44\u00d744 px (size, padding or a ::before), or uncover it. (allowed: shown only while it has keyboard focus, so nobody taps it, and 44 px tall once shown) In phone 390\u00d7844, light, fi_FI; phone 390\u00d7844, light, en_GB; phone 390\u00d7844, dark, fi_FI; phone 390\u00d7844, dark, en_GB; phone 390\u00d7844, light, fi_FI, large default text; reflow 320\u00d7568, light, fi_FI, reflow. Screenshot: .ds/out/invariants/en/company/phone-light-fi-FI/tap-target-1.png",
+      "/en/privacy/: warn invariants.tap-target: Tap target a.skip: 25 of 25 points in a 44 px circle on it land on something else, so it is too small or covered. Make its hit area at least 44\u00d744 px (size, padding or a ::before), or uncover it. (allowed: shown only while it has keyboard focus, so nobody taps it, and 44 px tall once shown) In phone 390\u00d7844, light, fi_FI; phone 390\u00d7844, light, en_GB; phone 390\u00d7844, dark, fi_FI; phone 390\u00d7844, dark, en_GB; phone 390\u00d7844, light, fi_FI, large default text; reflow 320\u00d7568, light, fi_FI, reflow. Screenshot: .ds/out/invariants/en/privacy/phone-light-fi-FI/tap-target-1.png",
+      "/404.html: warn invariants.tap-target: Tap target a.skip: 25 of 25 points in a 44 px circle on it land on something else, so it is too small or covered. Make its hit area at least 44\u00d744 px (size, padding or a ::before), or uncover it. (allowed: shown only while it has keyboard focus, so nobody taps it, and 44 px tall once shown) In phone 390\u00d7844, light, fi_FI; phone 390\u00d7844, light, en_GB; phone 390\u00d7844, dark, fi_FI; phone 390\u00d7844, dark, en_GB; phone 390\u00d7844, light, fi_FI, large default text; reflow 320\u00d7568, light, fi_FI, reflow. Screenshot: .ds/out/invariants/404.html/phone-light-fi-FI/tap-target-1.png",
+      "/ratametsuri/: warn invariants.tap-target: Tap target a.skip: 25 of 25 points in a 44 px circle on it land on something else, so it is too small or covered. Make its hit area at least 44\u00d744 px (size, padding or a ::before), or uncover it. (allowed: shown only while it has keyboard focus, so nobody taps it, and 44 px tall once shown) In phone 390\u00d7844, light, fi_FI; phone 390\u00d7844, light, en_GB; phone 390\u00d7844, dark, fi_FI; phone 390\u00d7844, dark, en_GB; phone 390\u00d7844, light, fi_FI, large default text; reflow 320\u00d7568, light, fi_FI, reflow. Screenshot: .ds/out/invariants/ratametsuri/phone-light-fi-FI/tap-target-1.png",
+      "/en/ratametsuri/: warn invariants.tap-target: Tap target a.skip: 25 of 25 points in a 44 px circle on it land on something else, so it is too small or covered. Make its hit area at least 44\u00d744 px (size, padding or a ::before), or uncover it. (allowed: shown only while it has keyboard focus, so nobody taps it, and 44 px tall once shown) In phone 390\u00d7844, light, fi_FI; phone 390\u00d7844, light, en_GB; phone 390\u00d7844, dark, fi_FI; phone 390\u00d7844, dark, en_GB; phone 390\u00d7844, light, fi_FI, large default text; reflow 320\u00d7568, light, fi_FI, reflow. Screenshot: .ds/out/invariants/en/ratametsuri/phone-light-fi-FI/tap-target-1.png",
+      "/404.html: warn a11y.color-contrast: axe couldn't decide whether h1 passes color-contrast (Elements must meet minimum color contrast ratio thresholds): Element's background color could not be determined due to a pseudo element. Check it by hand. Rule: https://dequeuniversity.com/rules/axe/4.14/color-contrast In phone 390\u00d7844, light, fi_FI; phone 390\u00d7844, light, en_GB; phone 390\u00d7844, dark, fi_FI; phone 390\u00d7844, dark, en_GB; desktop 1440\u00d7900, light, fi_FI; desktop 1440\u00d7900, light, en_GB; desktop 1440\u00d7900, dark, fi_FI; desktop 1440\u00d7900, dark, en_GB.",
+      "/404.html: warn a11y.color-contrast: axe couldn't decide whether section:nth-child(1) > p:nth-child(2) passes color-contrast (Elements must meet minimum color contrast ratio thresholds): Element's background color could not be determined due to a pseudo element. Check it by hand. Rule: https://dequeuniversity.com/rules/axe/4.14/color-contrast In phone 390\u00d7844, light, fi_FI; phone 390\u00d7844, light, en_GB; phone 390\u00d7844, dark, fi_FI; phone 390\u00d7844, dark, en_GB; desktop 1440\u00d7900, light, fi_FI; desktop 1440\u00d7900, light, en_GB; desktop 1440\u00d7900, dark, fi_FI; desktop 1440\u00d7900, dark, en_GB.",
+      "/404.html: warn a11y.color-contrast: axe couldn't decide whether .link[href=\"/\"] passes color-contrast (Elements must meet minimum color contrast ratio thresholds): Element's background color could not be determined due to a pseudo element. Check it by hand. Rule: https://dequeuniversity.com/rules/axe/4.14/color-contrast In phone 390\u00d7844, light, fi_FI; phone 390\u00d7844, light, en_GB; phone 390\u00d7844, dark, fi_FI; phone 390\u00d7844, dark, en_GB; desktop 1440\u00d7900, light, fi_FI; desktop 1440\u00d7900, light, en_GB; desktop 1440\u00d7900, dark, fi_FI; desktop 1440\u00d7900, dark, en_GB.",
+      "/404.html: warn a11y.color-contrast: axe couldn't decide whether h2 passes color-contrast (Elements must meet minimum color contrast ratio thresholds): Element's background color could not be determined due to a pseudo element. Check it by hand. Rule: https://dequeuniversity.com/rules/axe/4.14/color-contrast In phone 390\u00d7844, light, fi_FI; phone 390\u00d7844, light, en_GB; phone 390\u00d7844, dark, fi_FI; phone 390\u00d7844, dark, en_GB; desktop 1440\u00d7900, light, fi_FI; desktop 1440\u00d7900, light, en_GB; desktop 1440\u00d7900, dark, fi_FI; desktop 1440\u00d7900, dark, en_GB.",
+      "/404.html: warn a11y.color-contrast: axe couldn't decide whether section:nth-child(2) > p:nth-child(2) passes color-contrast (Elements must meet minimum color contrast ratio thresholds): Element's background color could not be determined due to a pseudo element. Check it by hand. Rule: https://dequeuniversity.com/rules/axe/4.14/color-contrast In phone 390\u00d7844, light, fi_FI; phone 390\u00d7844, light, en_GB; phone 390\u00d7844, dark, fi_FI; phone 390\u00d7844, dark, en_GB; desktop 1440\u00d7900, light, fi_FI; desktop 1440\u00d7900, light, en_GB; desktop 1440\u00d7900, dark, fi_FI; desktop 1440\u00d7900, dark, en_GB.",
+      "/404.html: warn a11y.color-contrast: axe couldn't decide whether .link[href$=\"en/\"] passes color-contrast (Elements must meet minimum color contrast ratio thresholds): Element's background color could not be determined due to a pseudo element. Check it by hand. Rule: https://dequeuniversity.com/rules/axe/4.14/color-contrast In phone 390\u00d7844, light, fi_FI; phone 390\u00d7844, light, en_GB; phone 390\u00d7844, dark, fi_FI; phone 390\u00d7844, dark, en_GB; desktop 1440\u00d7900, light, fi_FI; desktop 1440\u00d7900, light, en_GB; desktop 1440\u00d7900, dark, fi_FI; desktop 1440\u00d7900, dark, en_GB."
+    ],
+    "same_warning_groups_as_prior_defect_review": true,
+    "prior_explanations": "docs/design/reviews/evidence/eef7d25e/review-notes.md"
+  },
+  "review_verify": {
+    "command": "node tools/ds/ds.mjs review verify",
+    "exit_code": 0,
+    "error_count": 0,
+    "warning_count": 5,
+    "warnings": [
+      ".ds/reviews/eef7d25e8c6941de8e882619974b890fb73b53ec535d060b77af029feab7f054.critique.json: warn review.uncommitted-input: .ds/reviews/eef7d25e8c6941de8e882619974b890fb73b53ec535d060b77af029feab7f054.critique.json differs from HEAD. ds ci reads only the committed copy: commit this one with the review.",
+      ".ds/reviews/eef7d25e8c6941de8e882619974b890fb73b53ec535d060b77af029feab7f054.critique.json: warn review.uncommitted-evidence: Evidence docs/design/reviews/evidence/eef7d25e/critique-assessment.md is not committed. ds ci will reject it: copy it into docs/design/reviews/evidence/, cite that path, and commit it with the review.",
+      ".ds/reviews/eef7d25e8c6941de8e882619974b890fb73b53ec535d060b77af029feab7f054.critique.json: warn review.uncommitted-evidence: Evidence docs/design/reviews/evidence/eef7d25e/critique-scene.json is not committed. ds ci will reject it: copy it into docs/design/reviews/evidence/, cite that path, and commit it with the review.",
+      ".ds/reviews/eef7d25e8c6941de8e882619974b890fb73b53ec535d060b77af029feab7f054.critique.json: warn review.uncommitted-evidence: Evidence docs/design/reviews/evidence/eef7d25e/critique-en-phone-full.jpg is not committed. ds ci will reject it: copy it into docs/design/reviews/evidence/, cite that path, and commit it with the review.",
+      ".ds/reviews/eef7d25e8c6941de8e882619974b890fb73b53ec535d060b77af029feab7f054.critique.json: warn review.uncommitted-evidence: Evidence docs/design/reviews/evidence/eef7d25e/critique-fi-desktop-full.jpg is not committed. ds ci will reject it: copy it into docs/design/reviews/evidence/, cite that path, and commit it with the review."
+    ],
+    "reason": "Task explicitly prohibits commits; coordinator must commit accepted critique and four cited new evidence files before CI."
+  },
+  "other_checks": {
+    "git_diff_check": "pass",
+    "ui_hash_unchanged": true,
+    "project_and_award_relative_links_exist_locally": true,
+    "new_markdown_local_links_exist": true
+  },
+  "product_source_modified": false,
+  "commits_created": false,
+  "network_posts": 0,
+  "artifacts": [
+    ".ds/reviews/eef7d25e8c6941de8e882619974b890fb73b53ec535d060b77af029feab7f054.critique.json",
+    "docs/design/opportunity-tree.md",
+    "docs/design/reviews/evidence/eef7d25e/critique-assessment.md",
+    "docs/design/reviews/evidence/eef7d25e/critique-scene.json",
+    "docs/design/reviews/evidence/eef7d25e/critique-en-phone-full.jpg",
+    "docs/design/reviews/evidence/eef7d25e/critique-fi-desktop-full.jpg",
+    "docs/design/reviews/evidence/eef7d25e/critique-checks.json"
+  ],
+  "bulk_evidence": "design/shots/critique-eef7d25e/ (gitignored)",
+  "next_action": "Coordinator reviews/commits artifacts and prioritises non-blocking opportunities; S-r1 remains an untested proposal."
+}
