@@ -9,7 +9,7 @@
 # consent.version).
 
 page_title: "Ratametsuri – ratamestarisovellus Macille"
-meta_description: "Ratametsuri on ratamestarisovellus Macille. Suunnittelet radat omalle kartallesi ja viet ne tulospalveluun. Sovellus on kehitteillä, ja betaan voi pyytää kutsua."
+meta_description: "Ratametsuri on ratamestarin sovellus Macille. Se on kehitteillä, ja sen yksityiseen betaan voi hakea."
 skip_link: "Siirry sisältöön"
 lang_link: "In English"
 
@@ -21,18 +21,18 @@ hero:
   a:
     tagline: ["Kotonaan Macissa.", "Kotonaan suunnistuksen sovellusekosysteemissä."]
     line: "Ratamestarisovellus, jolla suunnittelet radat omalle kartallesi ja viet ne tulospalveluun."
-    beta_heading: "Pyydä betakutsu"
-    beta_lead: "Kutsumme ensin 10–20 ratamestaria. Muut saavat tiedon, kun sovellus julkaistaan."
+    beta_heading: "Yksityinen beta"
+    beta_lead: "Ratametsuri avautuu ensin yksityisenä betana. Hae mukaan vastaamalla lyhyeen kyselyyn."
   b:
     tagline: ["Kotonaan Macissa.", "Kotonaan suunnistusohjelmistojen joukossa."]
     line: "Ratamestarisovellus, jolla suunnittelet radat omalle kartallesi ja viet ne tulospalveluun."
-    beta_heading: "Pyydä betakutsu"
-    beta_lead: "Kutsumme ensin 10–20 ratamestaria. Muut saavat tiedon, kun sovellus julkaistaan."
+    beta_heading: "Yksityinen beta"
+    beta_lead: "Ratametsuri avautuu ensin yksityisenä betana. Hae mukaan vastaamalla lyhyeen kyselyyn."
   c:
     tagline: ["Kotonaan Macissa.", "Kotonaan suunnistuksen sovellusekosysteemissä."]
     line: "Ratamestarisovellus, joka asettaa rastinmääritteet kartalle itse ja vie radat tulospalveluun."
-    beta_heading: "Pyydä betakutsu"
-    beta_lead: "Kutsumme ensin 10–20 ratamestaria. Muut saavat tiedon, kun sovellus julkaistaan."
+    beta_heading: "Yksityinen beta"
+    beta_lead: "Ratametsuri avautuu ensin yksityisenä betana. Hae mukaan vastaamalla lyhyeen kyselyyn."
     feature3_title: "Rastinmääritteet jatkuvat viereiseen palstaan" # C's line already says they place themselves
 
 # The status label beside the wordmark: the status word comes from work.yml (statuses), and so does
@@ -51,36 +51,13 @@ features_heading: "Mitä Ratametsuri jo osaa"
 features:
   - title: "Näet ennen napsautusta, mitä tapahtuu"
     text: "Osoittimen vieressä lukee esimerkiksi ”Lisää 31 rastiksi 4” tai ”Lisää rastien 2 ja 3 väliin”. Jos osut rastiin, joka on jo radalla, napsautus valitsee sen eikä lisää sitä toista kertaa."
-  - title: "Radat tulospalveluun IOF XML 3.0 -tiedostona"
-    text: "MeOS 5.0 on lukenut Ratametsurin radat ilman varoituksia."
+  - title: "Radat suoraan tulospalveluun"
+    text: "Radat siirtyvät MeOSiin sellaisinaan."
   - title: "Rastinmääritteet asettuvat kartalle itse"
     text: "Jos ne eivät mahdu sivulle yhtenä palstana, viereen tulee toinen. Ne ovat kartalla myös radan PDF:ssä."
 
 beta:
-  field_label: "Sähköpostiosoite"
-  button: "Pyydä kutsu"
-  # The form's answers. kit/form.js fills %{email} with the address sent and %{project} with the
-  # product name; the no-JS states (#signup-check-email, #signup-error, #signup-try-later) show
-  # check_email_nojs, invalid_email and failed as they are, so those three must not use %{email}.
-  sending: "Lähetetään…"
-  check_email: "Lähetimme vahvistusviestin osoitteeseen %{email}. Vahvista osoitteesi viestin painikkeella." # launchpad !81; form.js fills %{email}
-  check_email_nojs: "Lähetimme vahvistusviestin. Vahvista osoitteesi viestin painikkeella." # shown via :target without JS, where %{email} cannot be filled
-  invalid_email: "Tämä ei näytä sähköpostiosoitteelta. Tarkista osoite."
-  failed: "Pyyntö ei mennyt perille. Yritä hetken päästä uudelleen."
-  rate_limited: "Verkostasi on tullut lyhyessä ajassa liian monta pyyntöä. Yritä uudelleen muutaman minuutin päästä."
-  offline: "Pyyntö ei lähtenyt. Tarkista verkkoyhteys ja yritä uudelleen."
-  consent_required: "Rastita ruutu, jos haluat kutsun sähköpostiisi."
-  # Under a failed, offline or rate-limited answer (and #signup-try-later): another way in, by
-  # email to the company address (company.yml email), which the page adds after this line as a link.
-  fallback: "Voit pyytää kutsun myös sähköpostilla:"
-  fallback_subject: "Ratametsurin betakutsu"
-  honeypot_label: "Jätä tämä kenttä tyhjäksi" # launchpad; hidden from everyone, read only by bots
-
-consent:
-  version: "beta-2026-11-23"
-  text: "Haluan sähköpostiini kutsun Ratametsurin betaan ja tiedon, kun sovellus julkaistaan. Osoitettani ei käytetä muuhun eikä luovuteta eteenpäin. Voin poistaa osoitteeni milloin tahansa. Lisätietoja tietosuojasta: koivupiilo.fi/tietosuoja"
-  # The end of consent.text that becomes the link; the build fails if text does not end with it.
-  link_text: "koivupiilo.fi/tietosuoja"
+  button: "Hae betaan"
 
 maker_line:
   text: "Ratametsuri on Koivupiilo Oy:n tuote"

@@ -10,7 +10,7 @@
 # Change it only together with launchpad (and with a new consent.version).
 
 page_title: "Ratametsuri – course setting app for the Mac"
-meta_description: "Ratametsuri is a course setting app for the Mac. Plan courses on your own map and export them to your results software. It's in development, and you can ask for a beta invite."
+meta_description: "Ratametsuri is a course setting app for the Mac. It's in development, and you can apply for its private beta."
 skip_link: "Skip to content"
 lang_link: "Suomeksi"
 
@@ -21,18 +21,18 @@ hero:
   a:
     tagline: ["At home on the Mac.", "At home in orienteering's software ecosystem."]
     line: "A course setting app: plan courses on your own map and export them to your results software."
-    beta_heading: "Ask for a beta invite"
-    beta_lead: "We're inviting 10–20 course setters first. Everyone else hears from us when the app is released."
+    beta_heading: "Private beta"
+    beta_lead: "Ratametsuri opens first as a private beta. Apply by answering a short survey."
   b:
     tagline: ["At home on the Mac.", "At home among orienteering software."]
     line: "A course setting app: plan courses on your own map and export them to your results software."
-    beta_heading: "Ask for a beta invite"
-    beta_lead: "We're inviting 10–20 course setters first. Everyone else hears from us when the app is released."
+    beta_heading: "Private beta"
+    beta_lead: "Ratametsuri opens first as a private beta. Apply by answering a short survey."
   c:
     tagline: ["At home on the Mac.", "At home in orienteering's software ecosystem."]
     line: "A course setting app that puts the control descriptions on the map by itself and exports your courses to the results software."
-    beta_heading: "Ask for a beta invite"
-    beta_lead: "We're inviting 10–20 course setters first. Everyone else hears from us when the app is released."
+    beta_heading: "Private beta"
+    beta_lead: "Ratametsuri opens first as a private beta. Apply by answering a short survey."
     feature3_title: "The control descriptions continue in a second column"
 
 # The status label beside the wordmark: the status word and the date come from work.yml (M1).
@@ -50,36 +50,13 @@ features_heading: "What Ratametsuri can already do"
 features:
   - title: "See what a click will do before you click"
     text: "Next to the pointer you read, for example, “Add 31 as 4” or “Insert between 2 and 3”. If you hit a control that's already on the course, the click selects it and doesn't add it again."
-  - title: "Courses to your results software as IOF XML 3.0"
-    text: "MeOS 5.0 has read Ratametsuri's courses without warnings."
+  - title: "Courses straight to your results software"
+    text: "MeOS reads them as they are."
   - title: "The control descriptions place themselves on the map"
     text: "If they don't fit the page in one column, a second one goes beside it. They're on the map in the course PDF too."
 
 beta:
-  field_label: "Email address"
-  button: "Ask for an invite"
-  # The form's answers. kit/form.js fills %{email} with the address sent and %{project} with the
-  # product name; the no-JS states (#signup-check-email, #signup-error, #signup-try-later) show
-  # check_email_nojs, invalid_email and failed as they are, so those three must not use %{email}.
-  sending: "Sending…"
-  check_email: "We sent a confirmation email to %{email}. Confirm your address with the button in it." # launchpad !81; form.js fills %{email}
-  check_email_nojs: "We sent you a confirmation email. Confirm your address with the button in it." # shown via :target without JS, where %{email} cannot be filled
-  invalid_email: "That doesn't look like an email address. Please check it."
-  failed: "Your request didn't get through. Try again in a moment."
-  rate_limited: "Too many requests have come from your network in a short time. Try again in a few minutes."
-  offline: "Your request wasn't sent. Check your connection and try again."
-  consent_required: "Tick the box if you'd like the invite by email."
-  # Under a failed, offline or rate-limited answer (and #signup-try-later): another way in, by
-  # email to the company address (company.yml email), which the page adds after this line as a link.
-  fallback: "You can also ask for an invite by email:"
-  fallback_subject: "Ratametsuri beta invite"
-  honeypot_label: "Leave this field empty" # launchpad; hidden from everyone, read only by bots
-
-consent:
-  version: "beta-2026-11-23"
-  text: "Email me an invite to the Ratametsuri beta and let me know when the app is released. My address won't be used for anything else or passed on. I can remove my address at any time. More about privacy: koivupiilo.fi/en/privacy"
-  # The end of consent.text that becomes the link; the build fails if text does not end with it.
-  link_text: "koivupiilo.fi/en/privacy"
+  button: "Apply for the beta"
 
 maker_line:
   text: "Ratametsuri is a product of Koivupiilo Oy"

@@ -32,14 +32,6 @@
       .gsub("for the Mac", "for&nbsp;the&nbsp;Mac")
   }
 
-  # The consent label is hashed by launchpad: its text content must be consent.text byte for byte,
-  # with the trailing link text as the privacy link.
-  consent = t.consent
-  unless consent.text.end_with?(consent.link_text)
-    raise "ratametsuri/#{lang}.yml: consent.text must end with consent.link_text"
-  end
-  consent_lead = consent.text.delete_suffix(consent.link_text)
-
   # The map view (screens/PROVENANCE.md): crops of the app's map canvas, the same in both languages
   # and appearances, each in the widths it is made in, and the width of its slot. Phone: the column
   # is the viewport less both edges (4vw, at least 1rem) and the 2.925rem course gutter. Tablet and
@@ -58,7 +50,6 @@
   status_word = site.data.work.statuses[rm_item.status][lang]
   checked_html = t.checked.sub("%{date}", %(<time datetime="#{rm_item.checked.iso8601}">#{rm_item.checked.strftime(lang == "fi" ? "%-d.%-m.%Y" : "%-d %b %Y")}</time>))
 
-  b = t.beta
   fx = [0.62, 0.38, 0.62, 0.38]
   err_icon = %(<svg class="ic" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="8"/><path d="M10 5.5v5.5M10 14.2v.1"/></svg>)
   tick_icon = %(<svg class="ic tick" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10.5l4 4 8-9"/></svg>)
@@ -145,48 +136,9 @@
         <h2 id="beta-h"><%== finish.("at-form", t.course_words.finish) %><%== each_hero.() { |id, h| %(<span data-hero-v="#{id}">#{ERB::Util.html_escape(h.beta_heading)}</span>) } %></h2>
         <%== each_hero.() { |id, h| %(<p class="lead" data-hero-v="#{id}">#{ERB::Util.html_escape(h.beta_lead)}</p>) } %>
       </div>
-      <%# The C1 sign-up form. It posts natively (launchpad answers 303 back here with a #signup-…
-          fragment); kit/form.js, when it loads, sends it with fetch and answers in the status. %>
-      <form class="signup" method="post" action="<%= join %>/signup" data-launchpad-form data-state="idle"
-        data-token-url="<%= join %>/signup/token"
-        data-project-name="Ratametsuri"
-        data-msg-sending="<%= b.sending %>"
-        data-msg-check-email="<%= b.check_email %>"
-        data-msg-invalid-email="<%= b.invalid_email %>"
-        data-msg-rate-limited="<%= b.rate_limited %>"
-        data-msg-failed="<%= b.failed %>"
-        data-msg-offline="<%= b.offline %>"
-        data-msg-consent-required="<%= b.consent_required %>">
-        <label class="field-label" for="email"><%= b.field_label %></label>
-        <input id="email" name="email" type="email" autocomplete="email" inputmode="email" autocapitalize="off" spellcheck="false" required>
-        <%# The invalid-address answer sits under the field it is about: launchpad's 422 (form.js marks
-            the field invalid; the script below points its aria-describedby here) or, without
-            form.js, its #signup-error return. %>
-        <p class="field-err" id="signup-error"><%== err_icon %><%= b.invalid_email %></p>
-        <input type="hidden" name="locale" value="<%= lang %>">
-        <input type="hidden" name="consent" value="<%= consent.version %>">
-        <input type="hidden" name="purposes[]" value="beta_invite">
-        <input type="hidden" name="source" value="<%= routes[lang] %>">
-        <input type="hidden" name="t" value="">
-        <div hidden>
-          <label for="website"><%= b.honeypot_label %></label>
-          <input id="website" name="website" type="text" value="" tabindex="-1" autocomplete="off" aria-hidden="true">
-        </div>
-        <div class="consent">
-          <input id="consent" name="consent_given" type="checkbox" value="yes" required>
-          <label for="consent"><%= consent_lead %><a href="<%= privacy %>"><%= consent.link_text %></a></label>
-        </div>
-        <p class="consent-err" id="consent-error" data-launchpad-consent-error hidden></p>
-        <button type="submit"><%= b.button %></button>
-        <div class="msgs">
-          <p class="answer" id="signup-status" data-launchpad-status role="status"></p>
-          <p class="msg ok" id="signup-check-email"><%== tick_icon %><%= b.check_email_nojs %></p>
-          <p class="msg err" id="signup-try-later"><%== err_icon %><%= b.failed %></p>
-          <%# Another way in when the request did not get through (J4): under a failed, offline or
-              rate-limited answer and the #signup-try-later return, never for an invalid address. %>
-          <p class="alt"><%= b.fallback %> <a href="mailto:<%= email %>?subject=<%= ERB::Util.url_encode(b.fallback_subject) %>"><%= email %></a></p>
-        </div>
-      </form>
+      <%# The private beta is applied for through launchpad's survey: a link, not an embed (the
+          survey is its own page, with its own consent wording and confirmation). %>
+      <a class="apply" href="<%= join %>/q/course-setters<%= lang == "en" ? "?lang=en" : "" %>"><%= t.beta.button %></a>
     </section>
 
     <section class="rail" aria-labelledby="feat-h">
@@ -208,51 +160,5 @@
   <p><%= t.maker_line.text %> <span aria-hidden="true">·</span> <span class="num"><%= t.maker_line.business_id %></span> <span aria-hidden="true">·</span> <a href="<%= privacy %>"><%= t.maker_line.privacy_link_text %></a></p>
 </footer>
 <script src="/ratametsuri/course.js"></script>
-<%# launchpad's kit/form.js (C5) sends the form with fetch. It loads when someone first touches the
-    form, so a visitor who only reads makes no request to join.koivupiilo.fi; until it has loaded,
-    or if it never does, the form posts natively and works the same. %>
-<script>
-(function () {
-  var f = document.querySelector("form[data-launchpad-form]");
-  if (!f) return;
-  function go() {
-    f.removeEventListener("focusin", go);
-    f.removeEventListener("pointerdown", go);
-    var s = document.createElement("script");
-    s.src = "https://join.koivupiilo.fi/kit/form.js";
-    document.head.appendChild(s);
-  }
-  f.addEventListener("focusin", go);
-  f.addEventListener("pointerdown", go);
-  // At a press form.js reserves the height of the tallest answer on the status itself. Move that
-  // reserve to the answers' box and add the fallback line's height, so the fallback sits right under
-  // a short answer and no answer moves what follows.
-  var msgs = f.querySelector(".msgs"), answer = document.getElementById("signup-status"), alt = f.querySelector(".alt");
-  new MutationObserver(function () {
-    var h = parseFloat(answer.style.minHeight);
-    if (!h) return;
-    answer.style.minHeight = "";
-    alt.classList.add("measure");
-    var a = alt.getBoundingClientRect().height + parseFloat(getComputedStyle(alt).marginTop);
-    alt.classList.remove("measure");
-    msgs.style.minHeight = h + a + "px";
-  }).observe(answer, { attributes: true, attributeFilter: ["style"] });
-  // An invalid address is explained under the field, so the field is described by that line,
-  // not by the status after the button (form.js points it there; the status still announces).
-  var field = f.elements.email, err = "signup-error", status = "signup-status";
-  if (location.hash === "#" + err) field.setAttribute("aria-invalid", "true");
-  function sync() {
-    var now = field.getAttribute("aria-describedby") || "";
-    var ids = now.split(" ").filter(function (id) { return id && id !== err && id !== status; });
-    if (field.getAttribute("aria-invalid") === "true") ids.push(err);
-    var want = ids.join(" ");
-    if (want === now) return;
-    if (want) field.setAttribute("aria-describedby", want);
-    else field.removeAttribute("aria-describedby");
-  }
-  sync();
-  new MutationObserver(sync).observe(field, { attributes: true, attributeFilter: ["aria-invalid", "aria-describedby"] });
-})();
-</script>
 </body>
 </html>

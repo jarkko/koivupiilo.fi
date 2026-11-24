@@ -141,6 +141,10 @@ input[type=email][aria-invalid=true]{border-color:var(--danger)}
 
 button{display:block;width:100%;height:3.25rem;margin-top:.9rem;padding:0 1.5rem;font:600 1.0625rem var(--text);color:var(--on-purple);background:var(--purple);border:0;border-radius:.5rem;cursor:pointer;white-space:nowrap;transition:background-color .15s}
 button:hover{background:var(--purple-press)}
+/* The private beta link, the page's one action: drawn as the button was. */
+.apply{display:inline-flex;align-items:center;justify-content:center;min-height:3.25rem;margin-top:1.25rem;padding:.6rem 1.75rem;font:600 1.0625rem/1.2 var(--text);color:var(--on-purple);background:var(--purple);border-radius:.5rem;text-decoration:none;transition:background-color .15s}
+.apply:hover{background:var(--purple-press);color:var(--on-purple)}
+.apply:focus-visible{outline:2px solid var(--purple);outline-offset:3px}
 button[aria-disabled=true]{cursor:progress}
 
 /* Answers. kit/form.js writes into .answer; without it, launchpad's 303 lands on a fragment and
