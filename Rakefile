@@ -13,6 +13,19 @@ task :deploy => [:clean, "frontend:build"] do
   Bridgetown::Commands::Build.start
 end
 
+desc "Build the site for GitHub Pages: the deploy build without the design kit's markup"
+task :publish => :deploy do
+  # data-ds-allow records why a design check is waived. The ds gate reads it in output/, so the
+  # deploy build keeps it; only the published copy drops it (visitors have no use for it).
+  Dir.glob("output/**/*.html").each do |path|
+    html = File.read(path)
+    stripped = html.gsub(/\s+data-ds-allow="[^"]*"/, "")
+    File.write(path, stripped) unless stripped == html
+  end
+  left = Dir.glob("output/**/*.html").select { |path| File.read(path).include?("data-ds-allow") }
+  abort "data-ds-allow left in: #{left.join(", ")}" unless left.empty?
+end
+
 desc "Build the site in a test environment"
 task :test do
   ENV["BRIDGETOWN_ENV"] = "test"

@@ -27,8 +27,9 @@
 <% end %>
 
 <%
-  # Product section, copied verbatim from launchpad main kit/privacy/ratametsuri.<lang>.md (!74).
-  # Update by copying again; don't edit here.
+  # Ratametsuri's part: what is stored, why, on what basis and for how long. The text is
+  # launchpad's (one source; it changes there and is copied here); controller, processors and
+  # rights are the company's and live once, in the rows around it.
   rm_md = File.read(File.join(site.config.source, "_partials", "privacy", "ratametsuri.#{lang}.md"))
   rm_heading, rm_body = rm_md.split("\n", 2)
   rm_heading = rm_heading.sub(/\A##\s*/, "")
@@ -41,6 +42,19 @@
     </div>
   </div>
 </section>
+
+<% page.sections_after.each_with_index do |section, i| %>
+<section class="row" aria-labelledby="sa<%= i + 1 %>">
+  <h2 class="row-label" id="sa<%= i + 1 %>"><%= section.heading %></h2>
+  <div class="row-body">
+    <div class="prose">
+      <% section.text.each do |paragraph| %>
+      <p><%= ERB::Util.html_escape(paragraph).sub("%{email}", mail).html_safe %></p>
+      <% end %>
+    </div>
+  </div>
+</section>
+<% end %>
 
 <section class="row" aria-labelledby="controller">
   <h2 class="row-label" id="controller"><%= page.controller_heading %></h2>
