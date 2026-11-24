@@ -14,27 +14,10 @@ meta_description: "Ratametsuri is a course setting app for the Mac. It's in deve
 skip_link: "Skip to content"
 lang_link: "Suomeksi"
 
-# REVIEW ONLY: the three hero directions, derived from the Finnish (fi.yml). Keep only the chosen
-# one and remove the switch before any merge.
-hero_default: "a"
-hero:
-  a:
-    tagline: ["At home on the Mac.", "At home in orienteering's software ecosystem."]
-    line: "A course setting app: plan courses on your own map and export them to your results software."
-    beta_heading: "Private beta"
-    beta_lead: "Ratametsuri opens first as a private beta. Apply by answering a short survey."
-  b:
-    tagline: ["At home on the Mac.", "At home among orienteering software."]
-    line: "A course setting app: plan courses on your own map and export them to your results software."
-    beta_heading: "Private beta"
-    beta_lead: "Ratametsuri opens first as a private beta. Apply by answering a short survey."
-  c:
-    tagline: ["At home on the Mac.", "At home in orienteering's software ecosystem."]
-    line: "A course setting app that puts the control descriptions on the map by itself and exports your courses to the results software."
-    beta_heading: "Private beta"
-    beta_lead: "Ratametsuri opens first as a private beta. Apply by answering a short survey."
-    feature3_title: "The control descriptions continue in a second column"
-
+tagline: ["At home on the Mac.", "At home in orienteering's software ecosystem."]
+line: "Ratametsuri is an app for planning orienteering courses on the Mac."
+beta_heading: "Private beta"
+beta_lead: "Ratametsuri opens first as a private beta. Apply by answering a short survey."
 # The status label beside the wordmark: the status word and the date come from work.yml (M1).
 checked: "checked %{date}"
 

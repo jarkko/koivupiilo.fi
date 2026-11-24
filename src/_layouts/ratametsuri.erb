@@ -43,16 +43,10 @@
   phone_sizes = "calc(92vw - 3rem)"
   screen_sizes = "(max-width: 61.99rem) calc(92vw - 3rem), min(46rem, calc(52vw - 2rem))"
 
-  # REVIEW ONLY: the hero directions (?hero=a|b|c); see hero_default in the copy files.
-  heroes = t.hero
-  hero_ids = heroes.keys.map(&:to_s)
-  each_hero = ->(&blk) { hero_ids.map { |id| blk.(id, heroes[id]) }.join }
   status_word = site.data.work.statuses[rm_item.status][lang]
   checked_html = t.checked.sub("%{date}", %(<time datetime="#{rm_item.checked.iso8601}">#{rm_item.checked.strftime(lang == "fi" ? "%-d.%-m.%Y" : "%-d %b %Y")}</time>))
 
   fx = [0.62, 0.38, 0.62, 0.38]
-  err_icon = %(<svg class="ic" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="8"/><path d="M10 5.5v5.5M10 14.2v.1"/></svg>)
-  tick_icon = %(<svg class="ic tick" viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10.5l4 4 8-9"/></svg>)
   # The course runs start (0), controls 1..n (the features), finish (n + 1); course.js draws the legs
   # in that order, so the feature count is free.
   finish_order = t.features.size + 1
@@ -62,7 +56,7 @@
   }
 -%>
 <!doctype html>
-<html lang="<%= lang %>" data-hero="<%= t.hero_default %>">
+<html lang="<%= lang %>">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -91,8 +85,6 @@
 <link rel="preload" as="image" media="(min-width: 62rem)" imagesrcset="<%= screen_set %>" imagesizes="<%= screen_sizes %>" fetchpriority="high">
 <link rel="stylesheet" href="/ratametsuri/style.css">
 <script>document.documentElement.classList.add("js")</script>
-<%# REVIEW ONLY: ?hero=a|b|c picks a hero direction; remove before any merge. %>
-<script>(function(){var h=new URLSearchParams(location.search).get("hero");if(/^[<%= hero_ids.join %>]$/.test(h||""))document.documentElement.dataset.hero=h})()</script>
 <%= live_reload_dev_js %>
 </head>
 <body>
@@ -106,7 +98,8 @@
   </header>
   <main id="main" class="main" tabindex="-1">
     <section class="intro">
-      <%== each_hero.() { |id, h| %(<p class="tagline" data-hero-v="#{id}">#{h.tagline.map { |b| %(<span class="beat">#{tidy.(b)}</span>) }.join(" ")}</p><p class="what" data-hero-v="#{id}">#{tidy.(h.line)}</p>) } %>
+      <p class="tagline"><% t.tagline.each_with_index do |b, i| %><%= " " if i > 0 %><span class="beat"><%== tidy.(b) %></span><% end %></p>
+      <p class="what"><%== tidy.(t.line) %></p>
     </section>
 
     <figure class="shot">
@@ -133,8 +126,8 @@
 
     <section class="beta" id="beta" aria-labelledby="beta-h">
       <div class="beta-copy">
-        <h2 id="beta-h"><%== finish.("at-form", t.course_words.finish) %><%== each_hero.() { |id, h| %(<span data-hero-v="#{id}">#{ERB::Util.html_escape(h.beta_heading)}</span>) } %></h2>
-        <%== each_hero.() { |id, h| %(<p class="lead" data-hero-v="#{id}">#{ERB::Util.html_escape(h.beta_lead)}</p>) } %>
+        <h2 id="beta-h"><%== finish.("at-form", t.course_words.finish) %><%= t.beta_heading %></h2>
+        <p class="lead"><%= t.beta_lead %></p>
       </div>
       <%# The private beta is applied for through launchpad's survey: a link, not an embed (the
           survey is its own page, with its own consent wording and confirmation). %>
@@ -146,7 +139,7 @@
       <ol class="features">
         <% t.features.each_with_index do |f, i| %>
         <li class="feature">
-          <h3><span class="sym control" data-order="<%= i + 1 %>" style="--fx:<%= fx[i % 4] %>" role="img" aria-label="<%= t.course_words.control %> <%= i + 1 %>"><span aria-hidden="true"><%= i + 1 %></span></span><% if i == 2 && heroes.values.any? { |h| h["feature3_title"] } %><%== each_hero.() { |id, h| %(<span data-hero-v="#{id}">#{tidy.(h["feature3_title"] || f.title)}</span>) } %><% else %><%== tidy.(f.title) %><% end %></h3>
+          <h3><span class="sym control" data-order="<%= i + 1 %>" style="--fx:<%= fx[i % 4] %>" role="img" aria-label="<%= t.course_words.control %> <%= i + 1 %>"><span aria-hidden="true"><%= i + 1 %></span></span><%== tidy.(f.title) %></h3>
           <p><%== tidy.(f.text) %></p>
         </li>
         <% end %>

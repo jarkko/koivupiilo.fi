@@ -1,7 +1,7 @@
 // The course line on the Ratametsuri page: legs between the symbols in course order (start,
 // controls 1 to n, finish), stopping short of each circle's edge like the app's own leg gaps,
 // drawn in order on arrival. Decoration only: without it the page is whole, just without legs.
-// The sign-up form is not here; launchpad's kit/form.js handles it.
+// The beta link goes to launchpad's survey; nothing here handles it.
 (() => {
   const root = document.documentElement;
   const course = document.getElementById("course");

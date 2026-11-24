@@ -13,28 +13,10 @@ meta_description: "Ratametsuri on ratamestarin sovellus Macille. Se on kehitteil
 skip_link: "Siirry sisältöön"
 lang_link: "In English"
 
-# REVIEW ONLY: three hero directions for the owner to compare (?hero=a|b|c on a local build).
-# hero_default is the one shown without the parameter. Keep only the chosen direction, as plain
-# tagline/line/beta keys, and remove the switch before any merge.
-hero_default: "a"
-hero:
-  a:
-    tagline: ["Kotonaan Macissa.", "Kotonaan suunnistuksen sovellusekosysteemissä."]
-    line: "Ratamestarisovellus, jolla suunnittelet radat omalle kartallesi ja viet ne tulospalveluun."
-    beta_heading: "Yksityinen beta"
-    beta_lead: "Ratametsuri avautuu ensin yksityisenä betana. Hae mukaan vastaamalla lyhyeen kyselyyn."
-  b:
-    tagline: ["Kotonaan Macissa.", "Kotonaan suunnistusohjelmistojen joukossa."]
-    line: "Ratamestarisovellus, jolla suunnittelet radat omalle kartallesi ja viet ne tulospalveluun."
-    beta_heading: "Yksityinen beta"
-    beta_lead: "Ratametsuri avautuu ensin yksityisenä betana. Hae mukaan vastaamalla lyhyeen kyselyyn."
-  c:
-    tagline: ["Kotonaan Macissa.", "Kotonaan suunnistuksen sovellusekosysteemissä."]
-    line: "Ratamestarisovellus, joka asettaa rastinmääritteet kartalle itse ja vie radat tulospalveluun."
-    beta_heading: "Yksityinen beta"
-    beta_lead: "Ratametsuri avautuu ensin yksityisenä betana. Hae mukaan vastaamalla lyhyeen kyselyyn."
-    feature3_title: "Rastinmääritteet jatkuvat viereiseen palstaan" # C's line already says they place themselves
-
+tagline: ["Kotonaan Macissa.", "Kotonaan suunnistuksen sovellusekosysteemissä."]
+line: "Ratametsuri on sovellus suunnistusratojen suunniteluun Macilla."
+beta_heading: "Yksityinen beta"
+beta_lead: "Ratametsuri avautuu ensin yksityisenä betana. Hae mukaan vastaamalla lyhyeen kyselyyn."
 # The status label beside the wordmark: the status word comes from work.yml (statuses), and so does
 # the date (M1: the one home of the status).
 checked: "tarkistettu %{date}"

@@ -7,24 +7,20 @@
 @font-face{font-family:"Barlow Semi Condensed";font-weight:600;font-style:normal;font-display:swap;src:url(/fonts/barlow-sc-600.woff2) format("woff2")}
 
 :root{
-  --paper:#f4f1ea; --paper2:#e9e4d9; --field:#fbf9f5;
+  --paper:#f4f1ea; --paper2:#e9e4d9;
   --ink:#1d1a24; --muted:#58525f; --edge:#7d7787; --hair:#b9b2a6;
   --purple:#a626a4; --on-purple:#ffffff; --purple-press:#8c1f8a;
-  --danger:#b3261e;
   --win-ring:rgba(29,26,36,.16); --win-shadow:0 2px 4px rgba(40,24,56,.06),0 18px 40px -10px rgba(40,24,56,.30),0 40px 80px -30px rgba(40,24,56,.25);
   --d:1.5rem; --g:calc(var(--d) * 1.95);
   --display:"Barlow Semi Condensed","Barlow",system-ui,sans-serif;
   --text:"Barlow",system-ui,-apple-system,"Segoe UI",sans-serif;
   --pad:clamp(1rem,4vw,3.6rem);
-  --icon-err:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='black' stroke-width='1.8' stroke-linecap='round'%3E%3Ccircle cx='10' cy='10' r='8'/%3E%3Cpath d='M10 5.5v5.5M10 14.2v.1'/%3E%3C/svg%3E");
-  --icon-ok:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='black' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M4 10.5l4 4 8-9'/%3E%3C/svg%3E");
 }
 @media (prefers-color-scheme:dark){
   :root{
-    --paper:#131018; --paper2:#1c1824; --field:#1a1621;
+    --paper:#131018; --paper2:#1c1824;
     --ink:#ece8f1; --muted:#aba4b8; --edge:#8d8699; --hair:#4a4356;
     --purple:#dc84da; --on-purple:#131018; --purple-press:#e9a3e7;
-    --danger:#ff9d95;
     --win-ring:rgba(255,255,255,.14); --win-shadow:0 2px 4px rgba(0,0,0,.4),0 18px 40px -10px rgba(0,0,0,.6),0 40px 80px -30px rgba(0,0,0,.6);
   }
 }
@@ -68,13 +64,9 @@ ol,ul{padding:0;list-style:none}
 .lang{white-space:nowrap;font-size:.9375rem;font-weight:500;padding:.45rem .1rem;min-height:2.75rem;display:inline-flex;align-items:center}
 
 /* Phone order (the DOM order): headline, status, window, requirements, request, features.
-   The request comes before the features so the field is on the first screen. */
+   The request comes before the features so the beta link is on the first screen. */
 .main{display:grid;grid-template-columns:minmax(0,1fr)}
 .main > *{padding-left:var(--g)}
-
-/* REVIEW ONLY: one hero direction shows at a time (html[data-hero], ?hero=a|b|c). */
-[data-hero-v]{display:none}
-:root[data-hero=a] [data-hero-v=a],:root[data-hero=b] [data-hero-v=b],:root[data-hero=c] [data-hero-v=c]{display:revert}
 
 .intro{margin-top:1.1rem}
 /* The tagline: two beats, each on its own line. No balance: it would split a compound at its soft
@@ -91,7 +83,7 @@ ol,ul{padding:0;list-style:none}
 .win img{object-fit:cover}
 .credit{margin-top:.6rem;font-size:.9375rem;color:var(--muted)}
 
-/* Requirements: the Mac line, on the same screen as the field at every width */
+/* Requirements: the Mac line, on the same screen as the beta link at every width */
 .eyebrow{font:600 1rem/1.3 var(--text);color:var(--ink)}
 .req{margin-top:1.1rem}
 .req ul{margin-top:.3rem;display:grid;gap:.1rem}
@@ -108,86 +100,10 @@ ol,ul{padding:0;list-style:none}
 .beta{margin-top:1.75rem}
 .beta h2{position:relative;font:600 1.75rem/1.2 var(--display);letter-spacing:.005em}
 .lead{margin-top:.3rem;max-width:30rem;color:var(--muted)}
-/* The form is a grid of named areas, so the layout can put the button beside the consent (tablet)
-   or beside the field (desktop) while the DOM keeps the order field, consent, button. Rows whose
-   item is hidden collapse; spacing is the items' own top margins. */
-.signup{margin-top:1rem;max-width:42rem;display:grid;grid-template-columns:minmax(0,1fr);
-  grid-template-areas:"label" "field" "err" "consent" "cerr" "button" "msgs"}
-.field-label{grid-area:label}
-.signup input[type=email]{grid-area:field}
-.field-err{grid-area:err}
-.consent{grid-area:consent}
-.consent-err{grid-area:cerr}
-.signup button{grid-area:button}
-.msgs{grid-area:msgs}
-.field-label{display:block;font-weight:600;font-size:.9375rem;margin-bottom:.4rem}
-input[type=email]{display:block;width:100%;height:3.25rem;padding:0 1rem;font:inherit;font-size:1.0625rem;color:var(--ink);background:var(--field);border:1.5px solid var(--edge);border-radius:.5rem;transition:border-color .2s}
-input[type=email]:focus-visible{outline-offset:2px;border-color:var(--purple)}
-input[type=email][aria-invalid=true]{border-color:var(--danger)}
-
-.consent{margin-top:.9rem;display:grid;grid-template-columns:auto minmax(0,1fr);gap:0;align-items:start;font-size:.9375rem;line-height:1.45;color:var(--muted)}
-.consent label{cursor:pointer;hyphens:manual}
-.consent a{color:var(--ink);overflow-wrap:anywhere}
-.consent a:hover{color:var(--purple)}
-/* The box is 22 px with a 44 px hit area (the label is clickable too). */
-.consent input{appearance:none;-webkit-appearance:none;margin:-.6875rem 0 -.6875rem -.6875rem;width:2.75rem;height:2.75rem;background:none;border:0;border-radius:.5rem;cursor:pointer;position:relative}
-.consent input::before,.consent input::after{content:"";position:absolute;left:50%;top:calc(50% + .02rem);translate:-50% -50%}
-.consent input::before{width:1.375rem;height:1.375rem;border:1.5px solid var(--edge);border-radius:.3rem;background:var(--field);transition:background-color .15s,border-color .15s}
-.consent input::after{width:.875rem;height:.875rem;background:var(--on-purple);-webkit-mask:var(--icon-ok) center/contain no-repeat;mask:var(--icon-ok) center/contain no-repeat;opacity:0;transition:opacity .15s}
-.consent input:checked::before{background:var(--purple);border-color:var(--purple)}
-.consent input:checked::after{opacity:1}
-.consent input:focus-visible{outline:0}
-.consent input:focus-visible::before{outline:3px solid var(--purple);outline-offset:2px}
-
-button{display:block;width:100%;height:3.25rem;margin-top:.9rem;padding:0 1.5rem;font:600 1.0625rem var(--text);color:var(--on-purple);background:var(--purple);border:0;border-radius:.5rem;cursor:pointer;white-space:nowrap;transition:background-color .15s}
-button:hover{background:var(--purple-press)}
-/* The private beta link, the page's one action: drawn as the button was. */
+/* The private beta link, the page's one action. */
 .apply{display:inline-flex;align-items:center;justify-content:center;min-height:3.25rem;margin-top:1.25rem;padding:.6rem 1.75rem;font:600 1.0625rem/1.2 var(--text);color:var(--on-purple);background:var(--purple);border-radius:.5rem;text-decoration:none;transition:background-color .15s}
 .apply:hover{background:var(--purple-press);color:var(--on-purple)}
 .apply:focus-visible{outline:2px solid var(--purple);outline-offset:3px}
-button[aria-disabled=true]{cursor:progress}
-
-/* Answers. kit/form.js writes into .answer; without it, launchpad's 303 lands on a fragment and
-   :target shows that state. All share one cell, and the line is reserved before form.js loads.
-   The column may shrink below its content (minmax(0,…)) and the answer breaks anywhere it must:
-   form.js puts the address sent into it, and a long address is one unbreakable word. */
-.msgs{display:grid;grid-template-columns:minmax(0,1fr);align-content:start;margin-top:.8rem;min-height:1lh;font-size:1.0625rem;line-height:1.45}
-.msgs > *{grid-area:1/1;position:relative;padding-left:1.5em;min-width:0}
-.answer,.msg{hyphens:manual}
-.answer{overflow-wrap:anywhere}
-/* An invalid address: under the field (launchpad's 422 via form.js, or the no-JS return). The status
-   after the button still holds the same words for screen readers, but shows nothing. */
-.field-err{display:none;position:relative;margin-top:.5rem;padding-left:1.5em;color:var(--danger);font-weight:500;line-height:1.45;hyphens:manual;scroll-margin-top:min(45vh,22rem)}
-/* The unticked-box answer: launchpad's form.js fills it and unhides it; same treatment as the field's. */
-.consent-err{margin-top:.5rem;color:var(--danger);font-weight:500;line-height:1.45;hyphens:manual}
-.consent-err[hidden]{display:none}
-.signup[data-state=idle] .field-err:target,
-.signup[data-state=error]:has(#email[aria-invalid=true]) .field-err{display:block}
-.signup[data-state=error]:has(#email[aria-invalid=true]) .answer{color:transparent}
-/* Another way in, under a failure that is not the address's fault: the row under the answer. Its
-   height is part of the reserve the page script sets on .msgs at a press (.measure: measured then). */
-.msgs > .alt{grid-area:2/1}
-.alt{display:none;margin-top:.35rem;padding-left:1.5em;font-size:1.0625rem;line-height:1.45;color:var(--muted)}
-/* A 44 px tall hit area around the address without changing the line's height. */
-.alt a{color:var(--ink);overflow-wrap:anywhere;display:inline-block;padding:.75rem 0;margin:-.75rem 0}
-.alt a:hover{color:var(--purple)}
-.alt.measure{display:block;visibility:hidden}
-.signup[data-state=idle]:has(#signup-try-later:target) .alt,
-.signup[data-state=error]:not(:has(#email[aria-invalid=true])) .alt{display:block;visibility:visible}
-.msg{display:none;scroll-margin-top:min(45vh,22rem)}
-.msg:target{display:block}
-.signup:not([data-state=idle]) .msg{display:none}
-.ic{position:absolute;left:0;top:.17em;width:1.1em;height:1.1em;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
-.ic.tick{stroke:var(--purple);stroke-width:2.2}
-.err{color:var(--danger);font-weight:500}
-.signup[data-state=error] .answer{color:var(--danger);font-weight:500}
-.signup[data-state=sending] .answer{color:var(--muted)}
-.signup[data-state=error] .answer::before,.signup[data-state=accepted] .answer::before{content:"";position:absolute;left:0;top:.17em;width:1.1em;height:1.1em;background:currentColor;-webkit-mask:var(--icon-err) center/contain no-repeat;mask:var(--icon-err) center/contain no-repeat}
-.signup[data-state=accepted] .answer::before{background:var(--purple);-webkit-mask-image:var(--icon-ok);mask-image:var(--icon-ok)}
-/* The course ends: the finish fills when the request is in. */
-.course:has(.signup[data-state=accepted]) .sym.finish .inner,
-.course:has(#signup-check-email:target) .sym.finish .inner{fill:var(--purple)}
-
 .maker{max-width:84rem;margin:0 auto;padding:1.5rem var(--pad) 2.5rem calc(var(--pad) + var(--g));font-size:.9375rem;color:var(--muted)}
 .maker p{border-top:1px solid var(--hair);padding-top:1.1rem}
 .maker a{display:inline-flex;align-items:center;min-height:2.75rem;margin:-.75rem 0}
@@ -203,7 +119,7 @@ button[aria-disabled=true]{cursor:progress}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important}}
 
 /* Large default text on a phone (a viewport under 19.5em, which at normal text is under 312 px):
-   a tighter gutter and edge so the name and the request still fit, and a button label that may wrap.
+   a tighter gutter and edge so the name and the request still fit.
    The controls also swing half as far from the line (--amp), so a circle keeps clear of its heading. */
 @media (max-width:19.5em){
   :root{--g:calc(var(--d) * 1.4);--pad:.75rem;--amp:.5}
@@ -213,13 +129,12 @@ button[aria-disabled=true]{cursor:progress}
   .state{min-width:0}.pill{padding:0;border:0} /* very large text: the label keeps its dot, not its outline */
   .mark{font-size:min(1.375rem,10.5vw)}
   .nb{white-space:normal}
-  button{height:auto;min-height:3.25rem;padding:.6rem 1rem;white-space:normal;line-height:1.2}
 }
 
 /* Phone: the finish is at the end of the features. Desktop: at the request, as drawn. */
 .sym.at-form{display:none}
 
-/* Phone: a little tighter, so the field still ends on the first 390x844 screen under the longer
+/* Phone: a little tighter, so the beta link still ends on the first 390x844 screen under the longer
    status line and its checked date. */
 @media (max-width:35.99rem){
   .intro{margin-top:.9rem}
@@ -229,14 +144,7 @@ button[aria-disabled=true]{cursor:progress}
   .beta{margin-top:1.25rem}
 }
 
-@media (min-width:36rem){
-  .signup{grid-template-columns:minmax(0,1fr) auto;column-gap:1.25rem;align-items:start;
-    grid-template-areas:"label label" "field field" "err err" "consent button" "cerr cerr" "msgs msgs"}
-  button{width:auto}
-  .msgs{min-height:2lh}
-}
-
-/* Desktop: the screen beside the course; requirements and field on the first 1440x900 screen.
+/* Desktop: the screen beside the course; requirements and the beta link on the first 1440x900 screen.
    The course column widens with the window (up to 23rem of text), so the features stay shorter
    than the screen beside them. */
 @media (min-width:62rem){
@@ -253,7 +161,7 @@ button[aria-disabled=true]{cursor:progress}
   .intro{grid-column:1/-1;grid-row:1;margin-top:1rem;padding-left:var(--g)}
   .tagline{font-size:clamp(2.75rem,1.2rem + 2.5vw,3.25rem);hyphens:none}
   .what{font-size:1.1875rem;max-width:40rem;text-wrap:balance;hyphens:none}
-  .shot,.req,.signup{justify-self:end;width:100%;max-width:min(60rem,calc(100% - 3.5rem))}
+  .shot,.req{justify-self:end;width:100%;max-width:min(60rem,calc(100% - 3.5rem))}
   .shot{grid-column:2;grid-row:2;margin-top:1rem}
   .win{border-radius:12px}
   .credit{margin-top:.9rem}
@@ -275,47 +183,26 @@ button[aria-disabled=true]{cursor:progress}
   .beta{grid-column:1/-1;grid-row:4;margin-top:1.5rem;display:grid;grid-template-columns:minmax(0,var(--col)) minmax(0,1fr);align-items:start;padding-left:0}
   .beta-copy{padding-left:var(--g)}
   .beta h2{font-size:1.875rem}
-  .signup{margin:0;column-gap:.75rem;
-    grid-template-areas:"label label" "field button" "err err" "consent consent" "cerr cerr" "msgs msgs"}
-  .signup button{margin-top:0}
 }
 
-/* REVIEW ONLY: the desktop layouts of the hero directions.
-   C: the tagline over the course; the features and requirements beside the map, the request under.
-   A: a banner tagline across the page, then the request beside the map; the features below.
-   B: a split hero, the tagline and the request in a wide left column, the map beside them from the top.
-   In A and B the map spans the request's rows; the last of them takes the slack (1fr), so the
-   requirements sit right under the request. */
+/* Desktop: a banner tagline across the page, then the request beside the map; the features below.
+   The map spans the request's rows; the last of them takes the slack (1fr), so the requirements
+   sit right under the request. */
 @media (min-width:62rem){
-  :root[data-hero=c]{--col:calc(var(--g) + clamp(20rem,30vw,28rem))}
-  :root[data-hero=c] .tagline{font-size:clamp(2.5rem,3.4vw,3.25rem)}
-  :root[data-hero=c] .tagline .beat{white-space:nowrap}
-  :root[data-hero=c] .rail{grid-row:2}
-  :root[data-hero=c] .req{grid-column:1;grid-row:3;justify-self:stretch;max-width:none;display:block;margin-top:1.75rem;padding-left:var(--g)}
-  :root[data-hero=c] .req ul{display:grid;gap:.1rem;margin-top:.3rem}
-  :root[data-hero=c] .shot{grid-row:2/span 2;max-width:min(36rem,calc(100% - 3.5rem))}
+  :root{--col:calc(var(--g) + clamp(20rem,28vw,26rem))}
+  .main{grid-template-rows:auto auto 1fr auto}
+  .sym.at-form{display:none}
+  .rail-end{display:block}
+  .beta{grid-column:1;grid-row:2;display:block;margin-top:1.75rem;padding-left:var(--g);padding-right:2.5rem}
+  .beta-copy{padding-left:0}
+  .beta h2{font-size:1.5rem}
+  .req{grid-column:1;grid-row:3;align-self:start;display:block;justify-self:stretch;max-width:none;margin-top:1.25rem;padding-left:var(--g);padding-right:2.5rem}
+  .req ul{display:grid;gap:.1rem;margin-top:.3rem}
+  .rail{grid-column:1/-1;grid-row:4;margin-top:3rem}
+  .features{max-width:40rem;gap:1.6rem}
 
-  :root[data-hero=a],:root[data-hero=b]{--col:calc(var(--g) + clamp(20rem,28vw,26rem))}
-  :root[data-hero=b]{--col:calc(var(--g) + clamp(24rem,38vw,36rem))}
-  :root[data-hero=a] .main,:root[data-hero=b] .main{grid-template-rows:auto auto 1fr auto}
-  :root[data-hero=a] .sym.at-form,:root[data-hero=b] .sym.at-form{display:none}
-  :root[data-hero=a] .rail-end,:root[data-hero=b] .rail-end{display:block}
-  :root[data-hero=a] .beta,:root[data-hero=b] .beta{grid-column:1;grid-row:2;display:block;margin-top:1.75rem;padding-left:var(--g);padding-right:2.5rem}
-  :root[data-hero=a] .beta-copy,:root[data-hero=b] .beta-copy{padding-left:0}
-  :root[data-hero=a] .beta h2,:root[data-hero=b] .beta h2{font-size:1.5rem}
-  :root[data-hero=a] .signup,:root[data-hero=b] .signup{justify-self:stretch;max-width:none;margin-top:1rem}
-  :root[data-hero=a] .req,:root[data-hero=b] .req{grid-column:1;grid-row:3;align-self:start;display:block;justify-self:stretch;max-width:none;margin-top:1.25rem;padding-left:var(--g);padding-right:2.5rem}
-  :root[data-hero=a] .req ul,:root[data-hero=b] .req ul{display:grid;gap:.1rem;margin-top:.3rem}
-  :root[data-hero=a] .rail,:root[data-hero=b] .rail{grid-column:1/-1;grid-row:4;margin-top:3rem}
-  :root[data-hero=a] .features,:root[data-hero=b] .features{max-width:40rem;gap:1.6rem}
-
-  :root[data-hero=a] .tagline{font-size:min(4.2vw,4rem);line-height:1}
-  :root[data-hero=a] .tagline .beat{white-space:nowrap}
-  :root[data-hero=a] .what{margin-top:1rem}
-  :root[data-hero=a] .shot{grid-column:2;grid-row:2/span 2;margin-top:1.75rem;max-width:min(46rem,100%)}
-
-  :root[data-hero=b] .intro{grid-column:1;grid-row:1;padding-right:2rem;margin-top:2.5rem}
-  :root[data-hero=b] .beta,:root[data-hero=b] .req{padding-right:2rem}
-  :root[data-hero=b] .tagline{font-size:clamp(2.25rem,3.3vw,3.25rem)}
-  :root[data-hero=b] .shot{grid-column:2;grid-row:1/span 3;align-self:start;margin-top:1.5rem;max-width:min(46rem,100%)}
+  .tagline{font-size:min(4.2vw,4rem);line-height:1}
+  .tagline .beat{white-space:nowrap}
+  .what{margin-top:1rem}
+  .shot{grid-column:2;grid-row:2/span 2;margin-top:1.75rem;max-width:min(46rem,100%)}
 }
