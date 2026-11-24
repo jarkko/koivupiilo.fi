@@ -1,0 +1,233 @@
+{
+  "reviewed_head": "c935f341e0e8c1c2205f43206d6e36de680d316b",
+  "ui_hash": "0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc",
+  "build_exit": 0,
+  "standard_matrix_exit": 0,
+  "fresh_walk": {
+    "layout_cases": 48,
+    "zoom_cases": 24,
+    "spacing_cases": 4,
+    "navigation_cases": 6,
+    "motion_cases": 8,
+    "axe_violations": 0,
+    "geometry_failures": [],
+    "script_errors": [],
+    "blocked_non_GET_requests": []
+  },
+  "contrast": [
+    {
+      "theme": "light",
+      "ink_on_paper": 15.192,
+      "muted_on_paper": 6.68,
+      "apply_text_on_background": 6.114,
+      "focus_on_paper": 5.42
+    },
+    {
+      "theme": "dark",
+      "ink_on_paper": 15.587,
+      "muted_on_paper": 7.833,
+      "apply_text_on_background": 7.494,
+      "focus_on_paper": 7.494
+    }
+  ],
+  "CI_reuse": {
+    "run": 45489940945,
+    "url": "https://github.com/jarkko/koivupiilo.fi/actions/runs/45489940945",
+    "head": "4a21cf26d9e604bfbd177388468c59d8caa0d58f",
+    "reason": "git diff from CI head to reviewed head contains only 12 baseline refreshes; all built source, scripts, configuration and assets are identical. Reuse invariants, a11y and perf. The old visual failures describe the now-refreshed baselines; do not call that run green. Twelve new baselines equal its actual PNG bytes; the other four English phone cells passed there and produced no actual PNG. All 16 independently visually inspected against the fresh running page.",
+    "checks": [
+      {
+        "tool": "config",
+        "ok": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      {
+        "tool": "terms",
+        "ok": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      {
+        "tool": "model",
+        "ok": true,
+        "errors": 0,
+        "warnings": 21
+      },
+      {
+        "tool": "invariants",
+        "ok": true,
+        "errors": 0,
+        "warnings": 15
+      },
+      {
+        "tool": "a11y",
+        "ok": true,
+        "errors": 0,
+        "warnings": 6
+      },
+      {
+        "tool": "perf",
+        "ok": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      {
+        "tool": "visual",
+        "ok": false,
+        "errors": 12,
+        "warnings": 0
+      },
+      {
+        "tool": "retrofit",
+        "ok": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      {
+        "tool": "review",
+        "ok": false,
+        "errors": 2,
+        "warnings": 0
+      }
+    ]
+  },
+  "lighthouse_runs": [
+    {
+      "route": "ratametsuri",
+      "run": "run-1.html",
+      "lighthouse": "12.6.1",
+      "score": 1,
+      "lcp_ms": 1578.4185,
+      "cls": 0,
+      "tbt_ms": 0
+    },
+    {
+      "route": "ratametsuri",
+      "run": "run-2.html",
+      "lighthouse": "12.6.1",
+      "score": 1,
+      "lcp_ms": 1578.5504999999998,
+      "cls": 0,
+      "tbt_ms": 0
+    },
+    {
+      "route": "ratametsuri",
+      "run": "run-3.html",
+      "lighthouse": "12.6.1",
+      "score": 1,
+      "lcp_ms": 1579.5149999999999,
+      "cls": 0,
+      "tbt_ms": 0
+    },
+    {
+      "route": "en-ratametsuri",
+      "run": "run-1.html",
+      "lighthouse": "12.6.1",
+      "score": 1,
+      "lcp_ms": 1579.3049999999998,
+      "cls": 3.908036861007171e-05,
+      "tbt_ms": 0
+    },
+    {
+      "route": "en-ratametsuri",
+      "run": "run-2.html",
+      "lighthouse": "12.6.1",
+      "score": 1,
+      "lcp_ms": 1578.432,
+      "cls": 3.908036861007171e-05,
+      "tbt_ms": 0
+    },
+    {
+      "route": "en-ratametsuri",
+      "run": "run-3.html",
+      "lighthouse": "12.6.1",
+      "score": 1,
+      "lcp_ms": 1578.5010000000002,
+      "cls": 3.908036861007171e-05,
+      "tbt_ms": 0
+    }
+  ],
+  "gate": {
+    "command": "node tools/ds/ds.mjs gate --no-docker",
+    "reason": "Explicit task forbids Docker visual checks and simulators. --no-docker runs the local non-container gate and reports skipped browser checks as warnings. Fresh Chrome axe/geometry and same-source CI reports supply that evidence.",
+    "errors": 0,
+    "warnings": 23,
+    "warning_groups": [
+      "19 historical model.decision-no-supersedes warnings, D1-D19",
+      "model.no-results: no tagged JUnit results configured",
+      "retrofit.baselined: 9 accepted model findings in docs/design/retrofit.tsv; no fabricated walkthrough-test pass",
+      "gate.docker-unavailable for invariants (skipped explicitly)",
+      "gate.docker-unavailable for a11y (skipped explicitly)"
+    ]
+  },
+  "scope_limits": [
+    "Owner-provided Finnish/English wording is fixed; rendering only was judged.",
+    "No email or other value was entered; only landing-to-survey GET navigation, Back and local navigation were activated.",
+    "No simulator, emulator, Docker browser check, physical-device test, screen-reader speech test, Safari run or native text-only zoom is claimed.",
+    "Canonical .ds/reviews/steps and opportunity-tree.md are outside the explicitly allowed two-JSON-plus-evidence commit scope. Executed numbered steps and opportunity-tree transfer notes are preserved in this evidence directory for coordinator incorporation."
+  ],
+  "current_head_CI": {
+    "run": 45501495607,
+    "url": "https://github.com/jarkko/koivupiilo.fi/actions/runs/45501495607",
+    "head": "c935f341e0e8c1c2205f43206d6e36de680d316b",
+    "conclusion": "failure only because the two current-hash reviews were absent when CI started; all web checks including visual pass",
+    "checks": [
+      {
+        "tool": "config",
+        "ok": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      {
+        "tool": "terms",
+        "ok": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      {
+        "tool": "model",
+        "ok": true,
+        "errors": 0,
+        "warnings": 21
+      },
+      {
+        "tool": "invariants",
+        "ok": true,
+        "errors": 0,
+        "warnings": 15
+      },
+      {
+        "tool": "a11y",
+        "ok": true,
+        "errors": 0,
+        "warnings": 6
+      },
+      {
+        "tool": "perf",
+        "ok": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      {
+        "tool": "visual",
+        "ok": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      {
+        "tool": "retrofit",
+        "ok": true,
+        "errors": 0,
+        "warnings": 0
+      },
+      {
+        "tool": "review",
+        "ok": false,
+        "errors": 2,
+        "warnings": 0
+      }
+    ]
+  },
+  "lighthouse_source_run": 45501495607
+}
