@@ -122,29 +122,29 @@ fi:
         - Sivujen reunassa kulkeva tuohi on jäljennetty valokuvasta, joka on otettu yhdestä koivikon koivusta.
     privacy:
       title: Tietosuoja – Koivupiilo
-      description: "Koivupiilon tietosuojaseloste: mitä tietoja se käsittelee sivustolla, sähköpostissa ja Ratametsurin betahauissa, kuinka kauan se säilyttää niitä ja mitä oikeuksia sinulla on."
+      description: Mitä tietoja Koivupiilo käsittelee sivustolla, sähköpostissa ja Ratametsurin betahaussa, kuinka kauan niitä säilytetään ja mitä oikeuksia sinulla on.
       heading: Tietosuoja
-      lede: Koivupiilo käsittelee tietojasi, kun käyt sivustolla, lähetät sille sähköpostia tai haet Ratametsurin betaan.
+      lede: Kun käyt sivustolla, lähetät sähköpostia tai haet Ratametsurin betaan, Koivupiilo käsittelee tietojasi. Tällä sivulla kerrotaan, mitä tietoja ja miksi.
       sections:
         - heading: Evästeet ja kävijämäärät
           text:
-            - Koivupiilo käyttää evästeitä ja selaimen tallennustilaa siihen, mitä sivujen toiminta vaatii. Mainontaan tai kävijöiden seurantaan se ei käytä niitä ilman lupaasi.
-            - Koivupiilo laskee sivujen käyntien ja betahakemusten kokonaismääriä nähdäkseen, miten sivuja käytetään. Laskuri on Koivupiilon itse ylläpitämä, toimii ilman evästeitä eikä tallenna IP-osoitettasi. Luvuista ei näe, kuka sivuilla kävi.
+            - Sivustolla käytetään evästeitä ja selaimen tallennustilaa, jotta sivut toimivat. Niitä ei käytetä mainontaan eikä seurantaan ilman lupaasi.
+            - Koivupiilo laskee käynnit ja betahakemukset nähdäkseen, miten sivuja käytetään. Laskuri on Koivupiilon oma. Se toimii ilman evästeitä eikä tallenna IP-osoitettasi. Luvuista ei näe, kuka sivuilla on käynyt.
         - heading: Palvelimet
           text:
-            - IP-osoitteesi välittyy palvelimille aina, kun selaimesi hakee sivun. Palveluntarjoajat voivat käyttää sitä palvelunsa suojaamiseen. Koivupiilo käyttää osoitetta lomakkeiden väärinkäytön estämiseen eikä säilytä sitä tuntia pidempään. Käsittely perustuu oikeutettuun etuun suojata sivustoa.
+            - Kun selaimesi hakee sivun, IP-osoitteesi välittyy palvelimelle. Palvelimista vastaava palveluntarjoaja voi käyttää osoitetta palvelunsa suojaamiseen. Koivupiilo käyttää osoitetta estääkseen lomakkeiden väärinkäytön ja säilyttää sitä enintään tunnin. Käsittely perustuu oikeutettuun etuun eli sivuston suojaamiseen.
         - heading: Sähköposti
           text:
-            - Kun kirjoitat Koivupiilolle, se käyttää osoitettasi ja viestiäsi vain vastaamiseen. Käsittely perustuu oikeutettuun etuun vastata yhteydenottoihin. Viestisi säilyy, kunnes pyydät poistamaan sen.
+            - Kun lähetät Koivupiilolle sähköpostia, osoitettasi ja viestiäsi käytetään vain vastaamiseen. Viesti säilytetään, kunnes pyydät poistamaan sen. Käsittely perustuu oikeutettuun etuun eli yhteydenottoihin vastaamiseen.
       sections_after:
         - heading: Kuka tietoja käsittelee
           text:
-            - Palvelimia ja sähköpostia ylläpitävät palveluntarjoajat käsittelevät tietoja Koivupiilon lukuun. Tietoja ei myydä eikä luovuteta muille.
-            - Osa palveluntarjoajista toimii EU:n ulkopuolella. Silloin tietojen siirto perustuu EU:n komission hyväksymiin suojakeinoihin.
+            - Palvelimista ja sähköpostista huolehtivat palveluntarjoajat, jotka käsittelevät tietoja Koivupiilon lukuun. Tietoja ei myydä eikä luovuteta muille.
+            - Osa palveluntarjoajista toimii EU:n ulkopuolella. Tietojen siirto niille perustuu Euroopan komission hyväksymiin suojatoimiin.
         - heading: Oikeutesi
           text:
-            - Voit pyytää nähtäväksesi tiedot, jotka Koivupiilolla on sinusta, ja saada ne myös tiedostona. Voit pyytää poistamaan tietosi ja vastustaa kyselyvastaustesi käyttöä. Suostumuksesi voit perua milloin tahansa. Kirjoita osoitteeseen %{email}.
-            - Jos tietojesi käsittelyssä on mielestäsi virhe, voit valittaa tietosuojavaltuutetulle.
+            - Voit pyytää nähtäväksesi sinusta tallennetut tiedot ja saada ne tiedostona. Voit myös pyytää niiden poistamista ja vastustaa kyselyvastaustesi käyttöä. Voit perua suostumuksesi milloin tahansa. Lähetä pyyntö osoitteeseen %{email}.
+            - Jos katsot, että tietojasi on käsitelty väärin, voit tehdä valituksen tietosuojavaltuutetun toimistolle.
       controller_heading: Rekisterinpitäjä
       updated: Päivitetty %{date}.
     notfound:

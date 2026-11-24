@@ -1,7 +1,7 @@
 ## Ratametsurin beta
 
-Ratametsurin yksityiseen betaan haetaan kyselyllä. Jos haet, Koivupiilo tallentaa vastauksesi, sähköpostiosoitteesi ja suostumuksesi. Osoitteeseen lähetetään vahvistusviesti, kutsu betaan ja tieto sovelluksen julkaisusta. Käsittely perustuu suostumukseesi.
+Ratametsurin yksityiseen betaan haetaan vastaamalla kyselyyn. Hakemuksen mukana tallennetaan vastauksesi, sähköpostiosoitteesi ja suostumuksesi. Osoitteeseesi lähetetään vahvistusviesti, kutsu betaan ja tieto sovelluksen julkaisusta. Käsittely perustuu suostumukseesi.
 
-Jos et vahvista osoitettasi, se poistetaan viikon sisällä viimeisestä vahvistusviestistä. Vahvistettu osoite säilytetään, kunnes poistat sen. Jokaisessa viestissä on linkki, jolla voit poistaa osoitteesi. Sen jälkeen vastauksiasi ei voi yhdistää sinuun.
+Jos et vahvista osoitettasi, se poistetaan, kun viimeisestä vahvistusviestistä on kulunut viikko. Vahvistettu osoite säilytetään, kunnes poistat sen. Jokaisessa viestissä on linkki, josta voit poistaa osoitteesi. Kun osoite on poistettu, vastauksiasi ei voi enää yhdistää sinuun.
 
-Koivupiilo käyttää vastauksia myös sovelluksen kehittämiseen ja poistaa ne viimeistään kahden vuoden kuluttua. Jos vastaat hakematta betaan, vastauksesi ovat nimettömiä, ja niiden käyttö perustuu oikeutettuun etuun kuulla sovelluksen tulevia käyttäjiä.
+Vastauksia käytetään myös sovelluksen kehittämiseen, ja ne poistetaan viimeistään kahden vuoden kuluttua. Jos vastaat kyselyyn hakematta betaan, vastauksesi ovat nimettömiä. Niiden käyttö perustuu oikeutettuun etuun eli sovelluksen tulevien käyttäjien kuulemiseen.
