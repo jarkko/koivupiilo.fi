@@ -13,7 +13,7 @@ task :deploy => [:clean, "frontend:build"] do
   Bridgetown::Commands::Build.start
 end
 
-desc "Build the site for GitHub Pages: the deploy build without the design kit's markup"
+desc "Build the site for publishing: the deploy build without the design kit's markup"
 task :publish => :deploy do
   # data-ds-allow records why a design check is waived. The ds gate reads it in output/, so the
   # deploy build keeps it; only the published copy drops it (visitors have no use for it).

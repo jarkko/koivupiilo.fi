@@ -36,7 +36,7 @@ jobs:
         run: npm ci
 
       - name: Build site
-        run: bundle exec rake deploy
+        run: bundle exec rake publish
         env:
           BRIDGETOWN_ENV: production
 
