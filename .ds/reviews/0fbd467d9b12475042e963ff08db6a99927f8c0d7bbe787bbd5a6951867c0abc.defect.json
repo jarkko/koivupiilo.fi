@@ -1,0 +1,379 @@
+{
+  "ui_diff_hash": "0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc",
+  "head_sha": "c935f341e0e8c1c2205f43206d6e36de680d316b",
+  "reviewer_run_id": "ctx_3a6ca84aa05d / task_9f96027cfe96 / Orca Codex independent reviewer",
+  "implementer_family": "claude",
+  "reviewer_family": "gpt",
+  "walked": [
+    "W0",
+    "W3"
+  ],
+  "regions": [
+    "fi_FI",
+    "en_GB"
+  ],
+  "kind": "defect",
+  "rubric": [
+    {
+      "id": "house-rules",
+      "result": "pass",
+      "blocking": true,
+      "note": "Single primary beta link, system appearance, local fonts, sourced map/status, dated state, accessible real anchors; complete changed-page matrix. Form/data-loss/large-dataset rules are inapplicable to this static page after D27. Local gate and inherited warnings are disclosed.",
+      "evidence": [
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/review-notes.md",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/checks.json",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/walk.json",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-1440-light-full.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/en-390-dark-font16.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/capture.mjs",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/build.txt",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/gate.txt"
+      ]
+    },
+    {
+      "id": "model",
+      "result": "pass",
+      "blocking": true,
+      "note": "D27 explicitly decides the email-form-to-survey navigation change; no landing input/consent/local lifecycle remains. M2 parity, M3 sourced claims and W3 same-place language switch hold in the running routes.",
+      "evidence": [
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/review-notes.md",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/steps-W0.md",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/steps-W3.md",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/walk.json",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-fi-390-beta.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-en-390-beta.jpg"
+      ]
+    },
+    {
+      "id": "heuristics",
+      "result": "pass",
+      "blocking": true,
+      "note": "The page states app, Mac requirement, development status and a clear next action; real link, Back, same-page language and privacy navigation work. No data entry, saved data, destructive task or inline recovery state exists here; the survey introduction explains its own next step before any input.",
+      "evidence": [
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/steps-W0.md",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/walk.json",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-fi-1440-beta.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-en-1440-beta.jpg"
+      ]
+    },
+    {
+      "id": "interaction-craft",
+      "result": "pass",
+      "blocking": true,
+      "note": "All four keyboard stops show focus; anchors activate by Enter, navigation is reversible through Back, no confirmation is needed for GET navigation. Arrival/course motion settles and reduced motion exposes all symbols immediately. No destructive or asynchronous submit interaction remains on the landing page.",
+      "evidence": [
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/walk.json",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-fi-390-lang.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-en-1440-lang.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-fi-390-motion-no-preference.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-fi-390-motion-no-preference-scroll.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-en-1440-motion-reduce.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-en-390-lang.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-fi-390-motion-reduce-scroll.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-en-1440-motion-reduce-scroll.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-fi-1440-beta.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-en-390-motion-reduce.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-en-1440-motion-no-preference.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-en-390-motion-no-preference.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-en-390-motion-reduce-scroll.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-en-1440-beta.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-en-390-privacy.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-en-1440-privacy.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-fi-390-privacy.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-en-390-beta.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-fi-1440-motion-no-preference.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-fi-1440-lang.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-en-390-motion-no-preference-scroll.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-fi-1440-motion-reduce.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-fi-1440-privacy.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-en-1440-motion-no-preference-scroll.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-fi-390-motion-reduce.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-fi-1440-motion-reduce-scroll.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-fi-390-beta.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-fi-1440-motion-no-preference-scroll.jpg"
+      ]
+    },
+    {
+      "id": "platform",
+      "result": "pass",
+      "blocking": true,
+      "note": "Fresh axe/geometry, contrast calculations, 320 px reflow, spacing and actual Chrome page-zoom steps all pass; no WCAG AA failure found. Extra 32 px narrow-phone body wrapping has minor F2. Speech output, native text-only zoom, Safari and real devices are not claimed.",
+      "evidence": [
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/checks.json",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/walk.json",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-zoom200-light.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-zoom200-dark.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/en-zoom200-light.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/en-zoom200-dark.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-spacing320-light.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/en-spacing320-dark.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-390-light-font32-full.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/en-390-dark-font32-full.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-2560-light-font16.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-1728-light-font16.jpg"
+      ]
+    },
+    {
+      "id": "owner-rules",
+      "result": "pass",
+      "blocking": true,
+      "note": "System light/dark follows media preference; no theme toggle or user-visible UUID. Owner strings preserved and the D27 survey decision respected.",
+      "evidence": [
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-1440-light-full.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/en-1440-dark-full.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/walk.json"
+      ]
+    },
+    {
+      "id": "web-quality",
+      "result": "pass",
+      "blocking": true,
+      "note": "Current reviewed-head CI run 45501495607 passes invariants, a11y, perf and visual. It fails only on the two review records that were absent at its committed head. Fresh independent Chrome axe/geometry/contrast also pass; all 16 baseline updates match the running page and are individually approved here. All 42 inherited CI warnings are disclosed.",
+      "evidence": [
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/ci-45489940945.json",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/baseline-manifest.json",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/checks.json",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/review-notes.md",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/matrix.txt",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/ci-45501495607.json"
+      ]
+    },
+    {
+      "id": "plan-conformance",
+      "result": "pass",
+      "blocking": true,
+      "note": "The dispatched scope is implemented: two-beat banner and explanatory line, responsive sharp map crops, single locale-specific survey link, one macOS requirement, desktop ask/requirements left of map and features below; D27 supersedes the old brief/form contract.",
+      "evidence": [
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/review-notes.md",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/walk.json",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-1440-light-full.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/en-1440-dark-full.jpg"
+      ]
+    },
+    {
+      "id": "approved-design",
+      "result": "pass",
+      "blocking": true,
+      "note": "The approved Ratapainatus direction retains typography, purple course rail, map and system themes. Documented scope deliberately changes the desktop hierarchy. Minor tablet-fold and extreme-text body-wrap findings do not constitute unapproved model changes.",
+      "evidence": [
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/review-notes.md",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-1440-light-full.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-768-light-font16.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/en-768-dark-font16.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-320-light-font32-full.jpg"
+      ]
+    },
+    {
+      "id": "baseline",
+      "result": "pass",
+      "blocking": true,
+      "note": "Current reviewed-head CI visual check passes; every changed baseline is intended and visually matches the independently walked production build. Baseline manifest records all 16 SHA-256 values and provenance. Linux/macOS rendering differences are acknowledged; no local Docker visual check was run.",
+      "evidence": [
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/baseline-manifest.json",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/matrix.txt",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-1440-light-full.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/en-1440-dark-full.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-390-light-font16.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/en-390-dark-font16.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/ci-45501495607.json"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "severity": "minor",
+      "rubric": "approved-design",
+      "walk": "W0",
+      "message": "Tablet portrait, FI and EN at 768×1024 normal text: the beta link begins at y1059 and ends at y1111, below the first viewport, while it is visible on the first 390/1440 screen. This is previous F5, still present. Give the map a shallower tablet crop/aspect or tighten the tablet spacing so the action remains in the opening viewport, preserving its readable map and requirement. Scrolling and keyboard access work, and no applicable W pass condition requires this tablet fold, so this is non-blocking polish.",
+      "evidence": [
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-768-light-font16.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/en-768-dark-font16.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/walk.json"
+      ]
+    },
+    {
+      "id": "F2",
+      "severity": "minor",
+      "rubric": "platform",
+      "walk": "W0",
+      "message": "FI at the extreme extra-quality case of 320 px width and a real 32 px browser default: the explanatory line under the now-fixed headline breaks the compound “suunnistusratojen” mid-word without a visible hyphen. The content remains readable and reachable and every native 100–200% page-zoom step passes; this is not an SC 1.4.4 failure. Add a valid discretionary break or use a responsive measure/type treatment for that line, preserving the owner’s wording. The headline itself no longer strands its final letter at 320 or 390 px.",
+      "evidence": [
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-320-light-font32.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-320-light-font32-full.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-390-light-font32-full.jpg",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/walk.json"
+      ]
+    }
+  ],
+  "no_further_issues_reason": "Walked the affected standalone-product adaptation of W0 plus W3 in fi_FI/en_GB, light/dark, 320–2560 px, real 16/32 px defaults, all actual desktop Chrome 100–200% zoom steps, increased spacing, keyboard/Back/privacy/language navigation, live GET-only survey introductions, no-JS and normal/reduced arrival/scroll motion. No data was entered or submitted. Axe/geometry/contrast and same-source CI web reports found no additional blocker; old F1–F4 are independently closed, old tablet F5 remains minor. Static content has no input dataset, empty state or local destructive lifecycle to stress; mobile hardware, Safari, native text-only zoom and speech output remain unclaimed. Numbered evidence steps and reference/opportunity transfer are cited under the allowed evidence path rather than editing canonical files outside the task scope.",
+  "model_changes": [
+    {
+      "description": "Beta application moves from the landing email form/script to a real link to launchpad’s course-setters survey; the survey owns the email address and consent. Finnish uses the base survey URL, English ?lang=en, and the standalone product place remains the same.",
+      "decision_ref": "D27"
+    }
+  ],
+  "baselines_approved": [
+    {
+      "path": "docs/design/baselines/en/ratametsuri/desktop-dark-en-GB.png",
+      "sha256": "e7e157db0aee5fa526e173501d8dd01cd57885b23bf097b7685cea1adbfee0d4",
+      "evidence": [
+        "docs/design/baselines/en/ratametsuri/desktop-dark-en-GB.png",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/baseline-manifest.json",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/en-1440-dark-full.jpg"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/desktop-dark-fi-FI.png",
+      "sha256": "7aadc14f6586d0135a1f9e4b592fc29d3f00255819925a4eb37e111fad0b2346",
+      "evidence": [
+        "docs/design/baselines/en/ratametsuri/desktop-dark-fi-FI.png",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/baseline-manifest.json",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/en-1440-dark-full.jpg"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/desktop-light-en-GB.png",
+      "sha256": "a9ad2a6b716c974a0361a87ba9f5bf4b850b27ccf68acdfb7c425246c39ea0d7",
+      "evidence": [
+        "docs/design/baselines/en/ratametsuri/desktop-light-en-GB.png",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/baseline-manifest.json",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/en-1440-dark-full.jpg"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/desktop-light-fi-FI.png",
+      "sha256": "eb6f4395239122637e0a79a805abb0e3a5e95f6fe60b957c4240d66427cd2fc9",
+      "evidence": [
+        "docs/design/baselines/en/ratametsuri/desktop-light-fi-FI.png",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/baseline-manifest.json",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/en-1440-dark-full.jpg"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/phone-dark-en-GB.png",
+      "sha256": "35a9b72ed5bf4bea5f11377e83e03144b3e8c930ddb0a527c4bc8f4e060290bd",
+      "evidence": [
+        "docs/design/baselines/en/ratametsuri/phone-dark-en-GB.png",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/baseline-manifest.json",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/en-390-dark-font16.jpg"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/phone-dark-fi-FI.png",
+      "sha256": "35a9b72ed5bf4bea5f11377e83e03144b3e8c930ddb0a527c4bc8f4e060290bd",
+      "evidence": [
+        "docs/design/baselines/en/ratametsuri/phone-dark-fi-FI.png",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/baseline-manifest.json",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/en-390-dark-font16.jpg"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/phone-light-en-GB.png",
+      "sha256": "5411ba358090464ef45f8b9e4d4613c21f8019c0383c1c0a02564a9fb714377d",
+      "evidence": [
+        "docs/design/baselines/en/ratametsuri/phone-light-en-GB.png",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/baseline-manifest.json",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/en-390-dark-font16.jpg"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/phone-light-fi-FI.png",
+      "sha256": "f57c29c9208d58a4d9e99f0962f3556e5e860ff344796251f7c49faca934f494",
+      "evidence": [
+        "docs/design/baselines/en/ratametsuri/phone-light-fi-FI.png",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/baseline-manifest.json",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/en-390-dark-font16.jpg"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/desktop-dark-en-GB.png",
+      "sha256": "b0a1a10927e55839178b621f7b6e028540cc0aae90676ba88bff8449ae41ac7b",
+      "evidence": [
+        "docs/design/baselines/ratametsuri/desktop-dark-en-GB.png",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/baseline-manifest.json",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-1440-light-full.jpg"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/desktop-dark-fi-FI.png",
+      "sha256": "b0a1a10927e55839178b621f7b6e028540cc0aae90676ba88bff8449ae41ac7b",
+      "evidence": [
+        "docs/design/baselines/ratametsuri/desktop-dark-fi-FI.png",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/baseline-manifest.json",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-1440-light-full.jpg"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/desktop-light-en-GB.png",
+      "sha256": "f9f0cd3df24f5e1b740bd8c71eac5449d6acf06370abb77d244a02213a5d1bf6",
+      "evidence": [
+        "docs/design/baselines/ratametsuri/desktop-light-en-GB.png",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/baseline-manifest.json",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-1440-light-full.jpg"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/desktop-light-fi-FI.png",
+      "sha256": "b1a3f213d03319b5ae1e3071a57f0113e664a669757f7913ba120294ab8d8095",
+      "evidence": [
+        "docs/design/baselines/ratametsuri/desktop-light-fi-FI.png",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/baseline-manifest.json",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-1440-light-full.jpg"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/phone-dark-en-GB.png",
+      "sha256": "381dbf17000e95ef00322d483a1d171d3886b76e4fc81cb3a4bac77f642af00e",
+      "evidence": [
+        "docs/design/baselines/ratametsuri/phone-dark-en-GB.png",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/baseline-manifest.json",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-390-light-font16.jpg"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/phone-dark-fi-FI.png",
+      "sha256": "cad6c0a469ad5cd39e7ab9ed2b47d02dd07f04b58baef5991eda4e2431f004ca",
+      "evidence": [
+        "docs/design/baselines/ratametsuri/phone-dark-fi-FI.png",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/baseline-manifest.json",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-390-light-font16.jpg"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/phone-light-en-GB.png",
+      "sha256": "b33405385c4b92c31fab63ff634d93454c39adb8c130f4433b9ff0f07899a9c7",
+      "evidence": [
+        "docs/design/baselines/ratametsuri/phone-light-en-GB.png",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/baseline-manifest.json",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-390-light-font16.jpg"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/phone-light-fi-FI.png",
+      "sha256": "17426ab09278b01440df0ba41f7eb4fbda9aa9de5f16b32c95c485adf6f67f3c",
+      "evidence": [
+        "docs/design/baselines/ratametsuri/phone-light-fi-FI.png",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/baseline-manifest.json",
+        "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-390-light-font16.jpg"
+      ],
+      "taste_relevant": true
+    }
+  ],
+  "verdict": "pass"
+}

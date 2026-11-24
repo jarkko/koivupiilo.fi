@@ -1,0 +1,83 @@
+{
+  "ui_diff_hash": "0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc",
+  "head_sha": "c935f341e0e8c1c2205f43206d6e36de680d316b",
+  "reviewer_run_id": "ctx_3a6ca84aa05d / task_9f96027cfe96 / Orca Codex independent reviewer",
+  "implementer_family": "claude",
+  "reviewer_family": "gpt",
+  "walked": [
+    "W0",
+    "W3"
+  ],
+  "regions": [
+    "fi_FI",
+    "en_GB"
+  ],
+  "kind": "critique",
+  "critique": {
+    "remove": [
+      {
+        "flow": "W0",
+        "point": "Remove the separate heading/list treatment around the single Mac requirement. Keep the exact owner text and the fact next to the beta action, but render it as one supporting fact rather than a section containing one list item. This reduces one visual level between proof and action on a narrow screen and follows the useful part of the CoolDock requirement-row mechanic. This is a structural recommendation, not a Finnish/English wording judgement. Opportunity-tree transfer: opportunity-tree-transfer.md.",
+        "grade": "anecdote",
+        "evidence": [
+          "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-1440-light-full.jpg",
+          "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/en-390-dark-font16.jpg",
+          "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/reference-comparison.md",
+          "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/opportunity-tree-transfer.md"
+        ]
+      }
+    ],
+    "two_x": [
+      {
+        "flow": "W0",
+        "point": "Make the existing proof area show one real native-Mac click preview and its result, using a compact responsive before/after composition that retains the sharp course crop. A visitor currently sees genuine course output but no app window, toolbar, pointer preview or action result; the first distinctive behaviour begins below the 1440×900 fold. This single change advances J1 from recognising a map to understanding why this app is different without reading the feature paragraph. Test target: halve the time for a course setter to identify native Mac software and correctly explain the shown click; no measured 2x improvement is claimed. It refines existing O-r2/S-r1, not a new model or a reversal of D27. Strongest counter-argument: native chrome and two states can shrink control numbers, add locale/theme assets and displace the CTA or hurt loading; reject the composition unless its control/preview labels remain legible at 390/1440 and its proof stays within the existing image area and performance budgets. The award-library Flighty mechanic is product output as explanation; CleanShot X shows the real UI doing its feature. Source opportunity and solution transfer: opportunity-tree-transfer.md.",
+        "grade": "practitioner consensus",
+        "evidence": [
+          "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-1440-light-full.jpg",
+          "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/en-1440-dark-full.jpg",
+          "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/en-390-dark-font16.jpg",
+          "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/checks.json",
+          "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/reference-comparison.md",
+          "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/opportunity-tree-transfer.md"
+        ]
+      }
+    ],
+    "short_of_references": [
+      {
+        "flow": "W0",
+        "reference": "docs/design/ratametsuri/references.md#j1-proof-on-a-real-screen; docs/design/ratametsuri/references.md#category-baseline-course-setting-tools-today; [Flighty](references/awards/ios-app-landing.md#flighty); [CleanShot X](references/awards/ios-app-landing.md#cleanshot-x)",
+        "point": "J1: Final Cut Pro and Mela make native product context visible, and Flighty’s output communicates a distinctive behaviour directly. Our readable map beats Purple Pen’s absent product and Condes’ small screen, and improves on OCAD’s control legibility, but OCAD still identifies software with a real window while our image could be a printed map. The click-preview feature is text below the desktop fold, rather than visual proof. Compared with CleanShot X’s real-UI feature demonstration, the native-Mac half of the offer is not yet demonstrated. This is the single main quality gap, not a requirement to restore the old whole-window scale.",
+        "grade": "anecdote",
+        "evidence": [
+          "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-1440-light-full.jpg",
+          "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/en-1440-dark-full.jpg",
+          "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/reference-comparison.md"
+        ]
+      },
+      {
+        "flow": "W0",
+        "reference": "docs/design/ratametsuri/references.md#j2-trust-before-the-ask; [CoolDock](references/awards/ios-app-landing.md#cooldock)",
+        "point": "J2: The page beats Supaste’s recorded clipping and CoolDock’s low-contrast requirement text: the Mac fact wraps fully and its computed muted-text contrast is 6.68/7.83. Wispr Flow names the platform at the action; ours clearly names it nearby. The remaining craft gap to CoolDock’s compact trust row is the disproportionate separate heading/list for one fact and, at tablet portrait, the separation of the ask below the first viewport. Simplify that visual wrapper and preserve proximity across widths without adding unsupported claims or changing the owner strings.",
+        "grade": "anecdote",
+        "evidence": [
+          "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-1440-light-full.jpg",
+          "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/fi-768-light-font16.jpg",
+          "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/checks.json",
+          "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/reference-comparison.md"
+        ]
+      },
+      {
+        "flow": "W0",
+        "reference": "docs/design/ratametsuri/references.md#j3-one-field-request; [CleanShot X](references/awards/ios-app-landing.md#cleanshot-x); [Mela](references/awards/ios-app-landing.md#mela)",
+        "point": "J3: D27 supersedes this reference section’s email-form prescription. One real survey link is clearer than Dave Cleaner’s duplicate ask, and the destination introduction supplies the three-minute expectation and optional email purpose before any input, so restoring a landing form or privacy field is unwarranted. The structural shortfall to Mela’s adjacent privacy mechanic and CleanShot X’s immediate reassurance is that the most useful distinctive-product proof remains below the ask while the map-only picture carries no interaction. Move evidence of the real interaction into the existing proof area, the same single two_x change, while leaving all owner wording and the survey decision intact.",
+        "grade": "anecdote",
+        "evidence": [
+          "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-en-390-beta.jpg",
+          "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/strip-fi-390-beta.jpg",
+          "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/en-1440-dark-full.jpg",
+          "docs/design/reviews/evidence/0fbd467d9b12475042e963ff08db6a99927f8c0d7bbe787bbd5a6951867c0abc/reference-comparison.md"
+        ]
+      }
+    ]
+  }
+}

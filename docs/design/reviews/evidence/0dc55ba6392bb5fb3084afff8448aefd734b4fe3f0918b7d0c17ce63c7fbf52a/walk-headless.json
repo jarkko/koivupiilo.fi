@@ -1,0 +1,3038 @@
+[
+ {
+  "name": "fi-390-light-font16",
+  "errs": [],
+  "docW": 390,
+  "vw": 390,
+  "H": 1449,
+  "over": [],
+  "beats": [
+   {
+    "w": 311,
+    "cw": 311,
+    "r": 374,
+    "lines": 1
+   },
+   {
+    "w": 311,
+    "cw": 311,
+    "r": 374,
+    "lines": 2
+   }
+  ],
+  "tagFont": "30.08px",
+  "apply": {
+   "x": 63,
+   "y": 676,
+   "w": 140,
+   "h": 52,
+   "right": 203
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Hae betaan",
+  "mac": {
+   "x": 63,
+   "y": 505,
+   "w": 311,
+   "h": 23,
+   "right": 374
+  },
+  "shot": {
+   "x": 63,
+   "y": 276,
+   "w": 311,
+   "h": 156,
+   "right": 374
+  },
+  "feat": {
+   "x": 16,
+   "y": 772,
+   "w": 358,
+   "h": 549,
+   "right": 374
+  },
+  "betaH": {
+   "x": 63,
+   "y": 548,
+   "w": 311,
+   "h": 34,
+   "right": 374
+  },
+  "img": {
+   "src": "phone-960.webp",
+   "nat": 310,
+   "disp": 311,
+   "dpr": 3,
+   "ratio": 0.33
+  }
+ },
+ {
+  "name": "fi-390-light-font32",
+  "errs": [],
+  "docW": 390,
+  "vw": 390,
+  "H": 1449,
+  "over": [],
+  "beats": [
+   {
+    "w": 311,
+    "cw": 311,
+    "r": 374,
+    "lines": 1
+   },
+   {
+    "w": 311,
+    "cw": 311,
+    "r": 374,
+    "lines": 2
+   }
+  ],
+  "tagFont": "30.08px",
+  "apply": {
+   "x": 63,
+   "y": 676,
+   "w": 140,
+   "h": 52,
+   "right": 203
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Hae betaan",
+  "mac": {
+   "x": 63,
+   "y": 505,
+   "w": 311,
+   "h": 23,
+   "right": 374
+  },
+  "shot": {
+   "x": 63,
+   "y": 276,
+   "w": 311,
+   "h": 156,
+   "right": 374
+  },
+  "feat": {
+   "x": 16,
+   "y": 772,
+   "w": 358,
+   "h": 549,
+   "right": 374
+  },
+  "betaH": {
+   "x": 63,
+   "y": 548,
+   "w": 311,
+   "h": 34,
+   "right": 374
+  },
+  "img": {
+   "src": "phone-960.webp",
+   "nat": 310,
+   "disp": 311,
+   "dpr": 3,
+   "ratio": 0.33
+  }
+ },
+ {
+  "name": "fi-1440-light-font16",
+  "errs": [],
+  "docW": 1440,
+  "vw": 1440,
+  "H": 1447,
+  "over": [],
+  "beats": [
+   {
+    "w": 1173,
+    "cw": 1173,
+    "r": 1334,
+    "lines": 1
+   },
+   {
+    "w": 1173,
+    "cw": 1173,
+    "r": 1334,
+    "lines": 1
+   }
+  ],
+  "tagFont": "60.48px",
+  "apply": {
+   "x": 162,
+   "y": 377,
+   "w": 140,
+   "h": 52,
+   "right": 302
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Hae betaan",
+  "mac": {
+   "x": 162,
+   "y": 475,
+   "w": 363,
+   "h": 26,
+   "right": 525
+  },
+  "shot": {
+   "x": 598,
+   "y": 273,
+   "w": 736,
+   "h": 583,
+   "right": 1334
+  },
+  "feat": {
+   "x": 106,
+   "y": 940,
+   "w": 1229,
+   "h": 402,
+   "right": 1334
+  },
+  "betaH": {
+   "x": 162,
+   "y": 273,
+   "w": 363,
+   "h": 29,
+   "right": 525
+  },
+  "img": {
+   "src": "screen-1600.webp",
+   "nat": 716,
+   "disp": 736,
+   "dpr": 2,
+   "ratio": 0.49
+  }
+ },
+ {
+  "name": "fi-1440-light-font32",
+  "errs": [],
+  "docW": 1440,
+  "vw": 1440,
+  "H": 1447,
+  "over": [],
+  "beats": [
+   {
+    "w": 1173,
+    "cw": 1173,
+    "r": 1334,
+    "lines": 1
+   },
+   {
+    "w": 1173,
+    "cw": 1173,
+    "r": 1334,
+    "lines": 1
+   }
+  ],
+  "tagFont": "60.48px",
+  "apply": {
+   "x": 162,
+   "y": 377,
+   "w": 140,
+   "h": 52,
+   "right": 302
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Hae betaan",
+  "mac": {
+   "x": 162,
+   "y": 475,
+   "w": 363,
+   "h": 26,
+   "right": 525
+  },
+  "shot": {
+   "x": 598,
+   "y": 273,
+   "w": 736,
+   "h": 583,
+   "right": 1334
+  },
+  "feat": {
+   "x": 106,
+   "y": 940,
+   "w": 1229,
+   "h": 402,
+   "right": 1334
+  },
+  "betaH": {
+   "x": 162,
+   "y": 273,
+   "w": 363,
+   "h": 29,
+   "right": 525
+  },
+  "img": {
+   "src": "screen-1600.webp",
+   "nat": 716,
+   "disp": 736,
+   "dpr": 2,
+   "ratio": 0.49
+  }
+ },
+ {
+  "name": "fi-2048-light-font32",
+  "errs": [],
+  "docW": 2048,
+  "vw": 2048,
+  "H": 1454,
+  "over": [],
+  "beats": [
+   {
+    "w": 1173,
+    "cw": 1173,
+    "r": 1638,
+    "lines": 1
+   },
+   {
+    "w": 1234,
+    "cw": 1173,
+    "r": 1638,
+    "lines": 1
+   }
+  ],
+  "tagFont": "64px",
+  "apply": {
+   "x": 466,
+   "y": 384,
+   "w": 140,
+   "h": 52,
+   "right": 606
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Hae betaan",
+  "mac": {
+   "x": 466,
+   "y": 482,
+   "w": 376,
+   "h": 26,
+   "right": 842
+  },
+  "shot": {
+   "x": 902,
+   "y": 280,
+   "w": 736,
+   "h": 583,
+   "right": 1638
+  },
+  "feat": {
+   "x": 410,
+   "y": 947,
+   "w": 1229,
+   "h": 402,
+   "right": 1638
+  },
+  "betaH": {
+   "x": 466,
+   "y": 280,
+   "w": 376,
+   "h": 29,
+   "right": 842
+  },
+  "img": {
+   "src": "screen-1600.webp",
+   "nat": 736,
+   "disp": 736,
+   "dpr": 2,
+   "ratio": 0.5
+  }
+ },
+ {
+  "name": "fi-768-light-font16",
+  "errs": [],
+  "docW": 768,
+  "vw": 768,
+  "H": 1678,
+  "over": [],
+  "beats": [
+   {
+    "w": 660,
+    "cw": 660,
+    "r": 737,
+    "lines": 1
+   },
+   {
+    "w": 660,
+    "cw": 660,
+    "r": 737,
+    "lines": 2
+   }
+  ],
+  "tagFont": "42.176px",
+  "apply": {
+   "x": 78,
+   "y": 1059,
+   "w": 140,
+   "h": 52,
+   "right": 218
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Hae betaan",
+  "mac": {
+   "x": 78,
+   "y": 896,
+   "w": 660,
+   "h": 26,
+   "right": 737
+  },
+  "shot": {
+   "x": 78,
+   "y": 299,
+   "w": 660,
+   "h": 522,
+   "right": 737
+  },
+  "feat": {
+   "x": 31,
+   "y": 1155,
+   "w": 707,
+   "h": 418,
+   "right": 737
+  },
+  "betaH": {
+   "x": 78,
+   "y": 950,
+   "w": 660,
+   "h": 34,
+   "right": 737
+  },
+  "img": {
+   "src": "screen-1600.webp",
+   "nat": 658,
+   "disp": 660,
+   "dpr": 2,
+   "ratio": 0.5
+  }
+ },
+ {
+  "name": "fi-390-dark-font16",
+  "errs": [],
+  "docW": 390,
+  "vw": 390,
+  "H": 1449,
+  "over": [],
+  "beats": [
+   {
+    "w": 311,
+    "cw": 311,
+    "r": 374,
+    "lines": 1
+   },
+   {
+    "w": 311,
+    "cw": 311,
+    "r": 374,
+    "lines": 2
+   }
+  ],
+  "tagFont": "30.08px",
+  "apply": {
+   "x": 63,
+   "y": 676,
+   "w": 140,
+   "h": 52,
+   "right": 203
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters",
+  "applyColor": "rgb(19, 16, 24)",
+  "applyBg": "rgb(220, 132, 218)",
+  "applyText": "Hae betaan",
+  "mac": {
+   "x": 63,
+   "y": 505,
+   "w": 311,
+   "h": 23,
+   "right": 374
+  },
+  "shot": {
+   "x": 63,
+   "y": 276,
+   "w": 311,
+   "h": 156,
+   "right": 374
+  },
+  "feat": {
+   "x": 16,
+   "y": 772,
+   "w": 358,
+   "h": 549,
+   "right": 374
+  },
+  "betaH": {
+   "x": 63,
+   "y": 548,
+   "w": 311,
+   "h": 34,
+   "right": 374
+  },
+  "img": {
+   "src": "phone-960.webp",
+   "nat": 310,
+   "disp": 311,
+   "dpr": 3,
+   "ratio": 0.33
+  }
+ },
+ {
+  "name": "fi-390-dark-font32",
+  "errs": [],
+  "docW": 390,
+  "vw": 390,
+  "H": 1449,
+  "over": [],
+  "beats": [
+   {
+    "w": 311,
+    "cw": 311,
+    "r": 374,
+    "lines": 1
+   },
+   {
+    "w": 311,
+    "cw": 311,
+    "r": 374,
+    "lines": 2
+   }
+  ],
+  "tagFont": "30.08px",
+  "apply": {
+   "x": 63,
+   "y": 676,
+   "w": 140,
+   "h": 52,
+   "right": 203
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters",
+  "applyColor": "rgb(19, 16, 24)",
+  "applyBg": "rgb(220, 132, 218)",
+  "applyText": "Hae betaan",
+  "mac": {
+   "x": 63,
+   "y": 505,
+   "w": 311,
+   "h": 23,
+   "right": 374
+  },
+  "shot": {
+   "x": 63,
+   "y": 276,
+   "w": 311,
+   "h": 156,
+   "right": 374
+  },
+  "feat": {
+   "x": 16,
+   "y": 772,
+   "w": 358,
+   "h": 549,
+   "right": 374
+  },
+  "betaH": {
+   "x": 63,
+   "y": 548,
+   "w": 311,
+   "h": 34,
+   "right": 374
+  },
+  "img": {
+   "src": "phone-960.webp",
+   "nat": 310,
+   "disp": 311,
+   "dpr": 3,
+   "ratio": 0.33
+  }
+ },
+ {
+  "name": "fi-1440-dark-font16",
+  "errs": [],
+  "docW": 1440,
+  "vw": 1440,
+  "H": 1447,
+  "over": [],
+  "beats": [
+   {
+    "w": 1173,
+    "cw": 1173,
+    "r": 1334,
+    "lines": 1
+   },
+   {
+    "w": 1173,
+    "cw": 1173,
+    "r": 1334,
+    "lines": 1
+   }
+  ],
+  "tagFont": "60.48px",
+  "apply": {
+   "x": 162,
+   "y": 377,
+   "w": 140,
+   "h": 52,
+   "right": 302
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters",
+  "applyColor": "rgb(19, 16, 24)",
+  "applyBg": "rgb(220, 132, 218)",
+  "applyText": "Hae betaan",
+  "mac": {
+   "x": 162,
+   "y": 475,
+   "w": 363,
+   "h": 26,
+   "right": 525
+  },
+  "shot": {
+   "x": 598,
+   "y": 273,
+   "w": 736,
+   "h": 583,
+   "right": 1334
+  },
+  "feat": {
+   "x": 106,
+   "y": 940,
+   "w": 1229,
+   "h": 402,
+   "right": 1334
+  },
+  "betaH": {
+   "x": 162,
+   "y": 273,
+   "w": 363,
+   "h": 29,
+   "right": 525
+  },
+  "img": {
+   "src": "screen-1600.webp",
+   "nat": 716,
+   "disp": 736,
+   "dpr": 2,
+   "ratio": 0.49
+  }
+ },
+ {
+  "name": "fi-1440-dark-font32",
+  "errs": [],
+  "docW": 1440,
+  "vw": 1440,
+  "H": 1447,
+  "over": [],
+  "beats": [
+   {
+    "w": 1173,
+    "cw": 1173,
+    "r": 1334,
+    "lines": 1
+   },
+   {
+    "w": 1173,
+    "cw": 1173,
+    "r": 1334,
+    "lines": 1
+   }
+  ],
+  "tagFont": "60.48px",
+  "apply": {
+   "x": 162,
+   "y": 377,
+   "w": 140,
+   "h": 52,
+   "right": 302
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters",
+  "applyColor": "rgb(19, 16, 24)",
+  "applyBg": "rgb(220, 132, 218)",
+  "applyText": "Hae betaan",
+  "mac": {
+   "x": 162,
+   "y": 475,
+   "w": 363,
+   "h": 26,
+   "right": 525
+  },
+  "shot": {
+   "x": 598,
+   "y": 273,
+   "w": 736,
+   "h": 583,
+   "right": 1334
+  },
+  "feat": {
+   "x": 106,
+   "y": 940,
+   "w": 1229,
+   "h": 402,
+   "right": 1334
+  },
+  "betaH": {
+   "x": 162,
+   "y": 273,
+   "w": 363,
+   "h": 29,
+   "right": 525
+  },
+  "img": {
+   "src": "screen-1600.webp",
+   "nat": 716,
+   "disp": 736,
+   "dpr": 2,
+   "ratio": 0.49
+  }
+ },
+ {
+  "name": "fi-2048-dark-font32",
+  "errs": [],
+  "docW": 2048,
+  "vw": 2048,
+  "H": 1454,
+  "over": [],
+  "beats": [
+   {
+    "w": 1173,
+    "cw": 1173,
+    "r": 1638,
+    "lines": 1
+   },
+   {
+    "w": 1234,
+    "cw": 1173,
+    "r": 1638,
+    "lines": 1
+   }
+  ],
+  "tagFont": "64px",
+  "apply": {
+   "x": 466,
+   "y": 384,
+   "w": 140,
+   "h": 52,
+   "right": 606
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters",
+  "applyColor": "rgb(19, 16, 24)",
+  "applyBg": "rgb(220, 132, 218)",
+  "applyText": "Hae betaan",
+  "mac": {
+   "x": 466,
+   "y": 482,
+   "w": 376,
+   "h": 26,
+   "right": 842
+  },
+  "shot": {
+   "x": 902,
+   "y": 280,
+   "w": 736,
+   "h": 583,
+   "right": 1638
+  },
+  "feat": {
+   "x": 410,
+   "y": 947,
+   "w": 1229,
+   "h": 402,
+   "right": 1638
+  },
+  "betaH": {
+   "x": 466,
+   "y": 280,
+   "w": 376,
+   "h": 29,
+   "right": 842
+  },
+  "img": {
+   "src": "screen-1600.webp",
+   "nat": 736,
+   "disp": 736,
+   "dpr": 2,
+   "ratio": 0.5
+  }
+ },
+ {
+  "name": "fi-768-dark-font16",
+  "errs": [],
+  "docW": 768,
+  "vw": 768,
+  "H": 1678,
+  "over": [],
+  "beats": [
+   {
+    "w": 660,
+    "cw": 660,
+    "r": 737,
+    "lines": 1
+   },
+   {
+    "w": 660,
+    "cw": 660,
+    "r": 737,
+    "lines": 2
+   }
+  ],
+  "tagFont": "42.176px",
+  "apply": {
+   "x": 78,
+   "y": 1059,
+   "w": 140,
+   "h": 52,
+   "right": 218
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters",
+  "applyColor": "rgb(19, 16, 24)",
+  "applyBg": "rgb(220, 132, 218)",
+  "applyText": "Hae betaan",
+  "mac": {
+   "x": 78,
+   "y": 896,
+   "w": 660,
+   "h": 26,
+   "right": 737
+  },
+  "shot": {
+   "x": 78,
+   "y": 299,
+   "w": 660,
+   "h": 522,
+   "right": 737
+  },
+  "feat": {
+   "x": 31,
+   "y": 1155,
+   "w": 707,
+   "h": 418,
+   "right": 737
+  },
+  "betaH": {
+   "x": 78,
+   "y": 950,
+   "w": 660,
+   "h": 34,
+   "right": 737
+  },
+  "img": {
+   "src": "screen-1600.webp",
+   "nat": 658,
+   "disp": 660,
+   "dpr": 2,
+   "ratio": 0.5
+  }
+ },
+ {
+  "name": "en-390-light-font16",
+  "errs": [],
+  "docW": 390,
+  "vw": 390,
+  "H": 1453,
+  "over": [],
+  "beats": [
+   {
+    "w": 311,
+    "cw": 311,
+    "r": 374,
+    "lines": 1
+   },
+   {
+    "w": 311,
+    "cw": 311,
+    "r": 374,
+    "lines": 2
+   }
+  ],
+  "tagFont": "30.08px",
+  "apply": {
+   "x": 63,
+   "y": 653,
+   "w": 189,
+   "h": 52,
+   "right": 252
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Apply for the beta",
+  "mac": {
+   "x": 63,
+   "y": 505,
+   "w": 311,
+   "h": 23,
+   "right": 374
+  },
+  "shot": {
+   "x": 63,
+   "y": 276,
+   "w": 311,
+   "h": 156,
+   "right": 374
+  },
+  "feat": {
+   "x": 16,
+   "y": 749,
+   "w": 358,
+   "h": 576,
+   "right": 374
+  },
+  "betaH": {
+   "x": 63,
+   "y": 548,
+   "w": 311,
+   "h": 34,
+   "right": 374
+  },
+  "img": {
+   "src": "phone-960.webp",
+   "nat": 310,
+   "disp": 311,
+   "dpr": 3,
+   "ratio": 0.33
+  }
+ },
+ {
+  "name": "en-390-light-font32",
+  "errs": [],
+  "docW": 390,
+  "vw": 390,
+  "H": 1453,
+  "over": [],
+  "beats": [
+   {
+    "w": 311,
+    "cw": 311,
+    "r": 374,
+    "lines": 1
+   },
+   {
+    "w": 311,
+    "cw": 311,
+    "r": 374,
+    "lines": 2
+   }
+  ],
+  "tagFont": "30.08px",
+  "apply": {
+   "x": 63,
+   "y": 653,
+   "w": 189,
+   "h": 52,
+   "right": 252
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Apply for the beta",
+  "mac": {
+   "x": 63,
+   "y": 505,
+   "w": 311,
+   "h": 23,
+   "right": 374
+  },
+  "shot": {
+   "x": 63,
+   "y": 276,
+   "w": 311,
+   "h": 156,
+   "right": 374
+  },
+  "feat": {
+   "x": 16,
+   "y": 749,
+   "w": 358,
+   "h": 576,
+   "right": 374
+  },
+  "betaH": {
+   "x": 63,
+   "y": 548,
+   "w": 311,
+   "h": 34,
+   "right": 374
+  },
+  "img": {
+   "src": "phone-960.webp",
+   "nat": 310,
+   "disp": 311,
+   "dpr": 3,
+   "ratio": 0.33
+  }
+ },
+ {
+  "name": "en-1440-light-font16",
+  "errs": [],
+  "docW": 1440,
+  "vw": 1440,
+  "H": 1447,
+  "over": [],
+  "beats": [
+   {
+    "w": 1173,
+    "cw": 1173,
+    "r": 1334,
+    "lines": 1
+   },
+   {
+    "w": 1173,
+    "cw": 1173,
+    "r": 1334,
+    "lines": 1
+   }
+  ],
+  "tagFont": "60.48px",
+  "apply": {
+   "x": 162,
+   "y": 377,
+   "w": 189,
+   "h": 52,
+   "right": 351
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Apply for the beta",
+  "mac": {
+   "x": 162,
+   "y": 475,
+   "w": 363,
+   "h": 26,
+   "right": 525
+  },
+  "shot": {
+   "x": 598,
+   "y": 273,
+   "w": 736,
+   "h": 583,
+   "right": 1334
+  },
+  "feat": {
+   "x": 106,
+   "y": 940,
+   "w": 1229,
+   "h": 402,
+   "right": 1334
+  },
+  "betaH": {
+   "x": 162,
+   "y": 273,
+   "w": 363,
+   "h": 29,
+   "right": 525
+  },
+  "img": {
+   "src": "screen-1600.webp",
+   "nat": 716,
+   "disp": 736,
+   "dpr": 2,
+   "ratio": 0.49
+  }
+ },
+ {
+  "name": "en-1440-light-font32",
+  "errs": [],
+  "docW": 1440,
+  "vw": 1440,
+  "H": 1447,
+  "over": [],
+  "beats": [
+   {
+    "w": 1173,
+    "cw": 1173,
+    "r": 1334,
+    "lines": 1
+   },
+   {
+    "w": 1173,
+    "cw": 1173,
+    "r": 1334,
+    "lines": 1
+   }
+  ],
+  "tagFont": "60.48px",
+  "apply": {
+   "x": 162,
+   "y": 377,
+   "w": 189,
+   "h": 52,
+   "right": 351
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Apply for the beta",
+  "mac": {
+   "x": 162,
+   "y": 475,
+   "w": 363,
+   "h": 26,
+   "right": 525
+  },
+  "shot": {
+   "x": 598,
+   "y": 273,
+   "w": 736,
+   "h": 583,
+   "right": 1334
+  },
+  "feat": {
+   "x": 106,
+   "y": 940,
+   "w": 1229,
+   "h": 402,
+   "right": 1334
+  },
+  "betaH": {
+   "x": 162,
+   "y": 273,
+   "w": 363,
+   "h": 29,
+   "right": 525
+  },
+  "img": {
+   "src": "screen-1600.webp",
+   "nat": 716,
+   "disp": 736,
+   "dpr": 2,
+   "ratio": 0.49
+  }
+ },
+ {
+  "name": "en-2048-light-font32",
+  "errs": [],
+  "docW": 2048,
+  "vw": 2048,
+  "H": 1454,
+  "over": [],
+  "beats": [
+   {
+    "w": 1173,
+    "cw": 1173,
+    "r": 1638,
+    "lines": 1
+   },
+   {
+    "w": 1173,
+    "cw": 1173,
+    "r": 1638,
+    "lines": 1
+   }
+  ],
+  "tagFont": "64px",
+  "apply": {
+   "x": 466,
+   "y": 384,
+   "w": 189,
+   "h": 52,
+   "right": 655
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Apply for the beta",
+  "mac": {
+   "x": 466,
+   "y": 482,
+   "w": 376,
+   "h": 26,
+   "right": 842
+  },
+  "shot": {
+   "x": 902,
+   "y": 280,
+   "w": 736,
+   "h": 583,
+   "right": 1638
+  },
+  "feat": {
+   "x": 410,
+   "y": 947,
+   "w": 1229,
+   "h": 402,
+   "right": 1638
+  },
+  "betaH": {
+   "x": 466,
+   "y": 280,
+   "w": 376,
+   "h": 29,
+   "right": 842
+  },
+  "img": {
+   "src": "screen-1600.webp",
+   "nat": 736,
+   "disp": 736,
+   "dpr": 2,
+   "ratio": 0.5
+  }
+ },
+ {
+  "name": "en-768-light-font16",
+  "errs": [],
+  "docW": 768,
+  "vw": 768,
+  "H": 1678,
+  "over": [],
+  "beats": [
+   {
+    "w": 660,
+    "cw": 660,
+    "r": 737,
+    "lines": 1
+   },
+   {
+    "w": 660,
+    "cw": 660,
+    "r": 737,
+    "lines": 2
+   }
+  ],
+  "tagFont": "42.176px",
+  "apply": {
+   "x": 78,
+   "y": 1059,
+   "w": 189,
+   "h": 52,
+   "right": 266
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Apply for the beta",
+  "mac": {
+   "x": 78,
+   "y": 896,
+   "w": 660,
+   "h": 26,
+   "right": 737
+  },
+  "shot": {
+   "x": 78,
+   "y": 299,
+   "w": 660,
+   "h": 522,
+   "right": 737
+  },
+  "feat": {
+   "x": 31,
+   "y": 1155,
+   "w": 707,
+   "h": 418,
+   "right": 737
+  },
+  "betaH": {
+   "x": 78,
+   "y": 950,
+   "w": 660,
+   "h": 34,
+   "right": 737
+  },
+  "img": {
+   "src": "screen-1600.webp",
+   "nat": 658,
+   "disp": 660,
+   "dpr": 2,
+   "ratio": 0.5
+  }
+ },
+ {
+  "name": "en-390-dark-font16",
+  "errs": [],
+  "docW": 390,
+  "vw": 390,
+  "H": 1453,
+  "over": [],
+  "beats": [
+   {
+    "w": 311,
+    "cw": 311,
+    "r": 374,
+    "lines": 1
+   },
+   {
+    "w": 311,
+    "cw": 311,
+    "r": 374,
+    "lines": 2
+   }
+  ],
+  "tagFont": "30.08px",
+  "apply": {
+   "x": 63,
+   "y": 653,
+   "w": 189,
+   "h": 52,
+   "right": 252
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en",
+  "applyColor": "rgb(19, 16, 24)",
+  "applyBg": "rgb(220, 132, 218)",
+  "applyText": "Apply for the beta",
+  "mac": {
+   "x": 63,
+   "y": 505,
+   "w": 311,
+   "h": 23,
+   "right": 374
+  },
+  "shot": {
+   "x": 63,
+   "y": 276,
+   "w": 311,
+   "h": 156,
+   "right": 374
+  },
+  "feat": {
+   "x": 16,
+   "y": 749,
+   "w": 358,
+   "h": 576,
+   "right": 374
+  },
+  "betaH": {
+   "x": 63,
+   "y": 548,
+   "w": 311,
+   "h": 34,
+   "right": 374
+  },
+  "img": {
+   "src": "phone-960.webp",
+   "nat": 310,
+   "disp": 311,
+   "dpr": 3,
+   "ratio": 0.33
+  }
+ },
+ {
+  "name": "en-390-dark-font32",
+  "errs": [],
+  "docW": 390,
+  "vw": 390,
+  "H": 1453,
+  "over": [],
+  "beats": [
+   {
+    "w": 311,
+    "cw": 311,
+    "r": 374,
+    "lines": 1
+   },
+   {
+    "w": 311,
+    "cw": 311,
+    "r": 374,
+    "lines": 2
+   }
+  ],
+  "tagFont": "30.08px",
+  "apply": {
+   "x": 63,
+   "y": 653,
+   "w": 189,
+   "h": 52,
+   "right": 252
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en",
+  "applyColor": "rgb(19, 16, 24)",
+  "applyBg": "rgb(220, 132, 218)",
+  "applyText": "Apply for the beta",
+  "mac": {
+   "x": 63,
+   "y": 505,
+   "w": 311,
+   "h": 23,
+   "right": 374
+  },
+  "shot": {
+   "x": 63,
+   "y": 276,
+   "w": 311,
+   "h": 156,
+   "right": 374
+  },
+  "feat": {
+   "x": 16,
+   "y": 749,
+   "w": 358,
+   "h": 576,
+   "right": 374
+  },
+  "betaH": {
+   "x": 63,
+   "y": 548,
+   "w": 311,
+   "h": 34,
+   "right": 374
+  },
+  "img": {
+   "src": "phone-960.webp",
+   "nat": 310,
+   "disp": 311,
+   "dpr": 3,
+   "ratio": 0.33
+  }
+ },
+ {
+  "name": "en-1440-dark-font16",
+  "errs": [],
+  "docW": 1440,
+  "vw": 1440,
+  "H": 1447,
+  "over": [],
+  "beats": [
+   {
+    "w": 1173,
+    "cw": 1173,
+    "r": 1334,
+    "lines": 1
+   },
+   {
+    "w": 1173,
+    "cw": 1173,
+    "r": 1334,
+    "lines": 1
+   }
+  ],
+  "tagFont": "60.48px",
+  "apply": {
+   "x": 162,
+   "y": 377,
+   "w": 189,
+   "h": 52,
+   "right": 351
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en",
+  "applyColor": "rgb(19, 16, 24)",
+  "applyBg": "rgb(220, 132, 218)",
+  "applyText": "Apply for the beta",
+  "mac": {
+   "x": 162,
+   "y": 475,
+   "w": 363,
+   "h": 26,
+   "right": 525
+  },
+  "shot": {
+   "x": 598,
+   "y": 273,
+   "w": 736,
+   "h": 583,
+   "right": 1334
+  },
+  "feat": {
+   "x": 106,
+   "y": 940,
+   "w": 1229,
+   "h": 402,
+   "right": 1334
+  },
+  "betaH": {
+   "x": 162,
+   "y": 273,
+   "w": 363,
+   "h": 29,
+   "right": 525
+  },
+  "img": {
+   "src": "screen-1600.webp",
+   "nat": 716,
+   "disp": 736,
+   "dpr": 2,
+   "ratio": 0.49
+  }
+ },
+ {
+  "name": "en-1440-dark-font32",
+  "errs": [],
+  "docW": 1440,
+  "vw": 1440,
+  "H": 1447,
+  "over": [],
+  "beats": [
+   {
+    "w": 1173,
+    "cw": 1173,
+    "r": 1334,
+    "lines": 1
+   },
+   {
+    "w": 1173,
+    "cw": 1173,
+    "r": 1334,
+    "lines": 1
+   }
+  ],
+  "tagFont": "60.48px",
+  "apply": {
+   "x": 162,
+   "y": 377,
+   "w": 189,
+   "h": 52,
+   "right": 351
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en",
+  "applyColor": "rgb(19, 16, 24)",
+  "applyBg": "rgb(220, 132, 218)",
+  "applyText": "Apply for the beta",
+  "mac": {
+   "x": 162,
+   "y": 475,
+   "w": 363,
+   "h": 26,
+   "right": 525
+  },
+  "shot": {
+   "x": 598,
+   "y": 273,
+   "w": 736,
+   "h": 583,
+   "right": 1334
+  },
+  "feat": {
+   "x": 106,
+   "y": 940,
+   "w": 1229,
+   "h": 402,
+   "right": 1334
+  },
+  "betaH": {
+   "x": 162,
+   "y": 273,
+   "w": 363,
+   "h": 29,
+   "right": 525
+  },
+  "img": {
+   "src": "screen-1600.webp",
+   "nat": 716,
+   "disp": 736,
+   "dpr": 2,
+   "ratio": 0.49
+  }
+ },
+ {
+  "name": "en-2048-dark-font32",
+  "errs": [],
+  "docW": 2048,
+  "vw": 2048,
+  "H": 1454,
+  "over": [],
+  "beats": [
+   {
+    "w": 1173,
+    "cw": 1173,
+    "r": 1638,
+    "lines": 1
+   },
+   {
+    "w": 1173,
+    "cw": 1173,
+    "r": 1638,
+    "lines": 1
+   }
+  ],
+  "tagFont": "64px",
+  "apply": {
+   "x": 466,
+   "y": 384,
+   "w": 189,
+   "h": 52,
+   "right": 655
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en",
+  "applyColor": "rgb(19, 16, 24)",
+  "applyBg": "rgb(220, 132, 218)",
+  "applyText": "Apply for the beta",
+  "mac": {
+   "x": 466,
+   "y": 482,
+   "w": 376,
+   "h": 26,
+   "right": 842
+  },
+  "shot": {
+   "x": 902,
+   "y": 280,
+   "w": 736,
+   "h": 583,
+   "right": 1638
+  },
+  "feat": {
+   "x": 410,
+   "y": 947,
+   "w": 1229,
+   "h": 402,
+   "right": 1638
+  },
+  "betaH": {
+   "x": 466,
+   "y": 280,
+   "w": 376,
+   "h": 29,
+   "right": 842
+  },
+  "img": {
+   "src": "screen-1600.webp",
+   "nat": 736,
+   "disp": 736,
+   "dpr": 2,
+   "ratio": 0.5
+  }
+ },
+ {
+  "name": "en-768-dark-font16",
+  "errs": [],
+  "docW": 768,
+  "vw": 768,
+  "H": 1678,
+  "over": [],
+  "beats": [
+   {
+    "w": 660,
+    "cw": 660,
+    "r": 737,
+    "lines": 1
+   },
+   {
+    "w": 660,
+    "cw": 660,
+    "r": 737,
+    "lines": 2
+   }
+  ],
+  "tagFont": "42.176px",
+  "apply": {
+   "x": 78,
+   "y": 1059,
+   "w": 189,
+   "h": 52,
+   "right": 266
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en",
+  "applyColor": "rgb(19, 16, 24)",
+  "applyBg": "rgb(220, 132, 218)",
+  "applyText": "Apply for the beta",
+  "mac": {
+   "x": 78,
+   "y": 896,
+   "w": 660,
+   "h": 26,
+   "right": 737
+  },
+  "shot": {
+   "x": 78,
+   "y": 299,
+   "w": 660,
+   "h": 522,
+   "right": 737
+  },
+  "feat": {
+   "x": 31,
+   "y": 1155,
+   "w": 707,
+   "h": 418,
+   "right": 737
+  },
+  "betaH": {
+   "x": 78,
+   "y": 950,
+   "w": 660,
+   "h": 34,
+   "right": 737
+  },
+  "img": {
+   "src": "screen-1600.webp",
+   "nat": 658,
+   "disp": 660,
+   "dpr": 2,
+   "ratio": 0.5
+  }
+ },
+ {
+  "name": "fi-320-light-font16",
+  "errs": [],
+  "docW": 320,
+  "vw": 320,
+  "H": 1648,
+  "over": [],
+  "beats": [
+   {
+    "w": 241,
+    "cw": 241,
+    "r": 304,
+    "lines": 1
+   },
+   {
+    "w": 241,
+    "cw": 241,
+    "r": 304,
+    "lines": 4
+   }
+  ],
+  "tagFont": "30px",
+  "apply": {
+   "x": 63,
+   "y": 772,
+   "w": 140,
+   "h": 52,
+   "right": 203
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Hae betaan",
+  "mac": {
+   "x": 63,
+   "y": 577,
+   "w": 241,
+   "h": 46,
+   "right": 304
+  },
+  "shot": {
+   "x": 63,
+   "y": 383,
+   "w": 241,
+   "h": 121,
+   "right": 304
+  },
+  "feat": {
+   "x": 16,
+   "y": 868,
+   "w": 288,
+   "h": 653,
+   "right": 304
+  },
+  "betaH": {
+   "x": 63,
+   "y": 644,
+   "w": 241,
+   "h": 34,
+   "right": 304
+  },
+  "img": {
+   "src": "phone-640.webp",
+   "nat": 246,
+   "disp": 241,
+   "dpr": 2,
+   "ratio": 0.51
+  }
+ },
+ {
+  "name": "fi-1024-light-font16",
+  "errs": [],
+  "docW": 1024,
+  "vw": 1024,
+  "H": 1278,
+  "over": [],
+  "beats": [
+   {
+    "w": 886,
+    "cw": 886,
+    "r": 983,
+    "lines": 1
+   },
+   {
+    "w": 886,
+    "cw": 886,
+    "r": 983,
+    "lines": 1
+   }
+  ],
+  "tagFont": "43.008px",
+  "apply": {
+   "x": 97,
+   "y": 368,
+   "w": 140,
+   "h": 52,
+   "right": 237
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Hae betaan",
+  "mac": {
+   "x": 97,
+   "y": 465,
+   "w": 280,
+   "h": 51,
+   "right": 377
+  },
+  "shot": {
+   "x": 417,
+   "y": 238,
+   "w": 566,
+   "h": 448,
+   "right": 983
+  },
+  "feat": {
+   "x": 41,
+   "y": 771,
+   "w": 942,
+   "h": 402,
+   "right": 983
+  },
+  "betaH": {
+   "x": 97,
+   "y": 238,
+   "w": 280,
+   "h": 29,
+   "right": 377
+  },
+  "img": {
+   "src": "screen-1600.webp",
+   "nat": 500,
+   "disp": 566,
+   "dpr": 2,
+   "ratio": 0.44
+  }
+ },
+ {
+  "name": "fi-1280-dark-font16",
+  "errs": [],
+  "docW": 1280,
+  "vw": 1280,
+  "H": 1434,
+  "over": [],
+  "beats": [
+   {
+    "w": 1121,
+    "cw": 1121,
+    "r": 1229,
+    "lines": 1
+   },
+   {
+    "w": 1121,
+    "cw": 1121,
+    "r": 1229,
+    "lines": 1
+   }
+  ],
+  "tagFont": "53.76px",
+  "apply": {
+   "x": 107,
+   "y": 389,
+   "w": 140,
+   "h": 52,
+   "right": 247
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters",
+  "applyColor": "rgb(19, 16, 24)",
+  "applyBg": "rgb(220, 132, 218)",
+  "applyText": "Hae betaan",
+  "mac": {
+   "x": 107,
+   "y": 487,
+   "w": 318,
+   "h": 51,
+   "right": 426
+  },
+  "shot": {
+   "x": 493,
+   "y": 259,
+   "w": 736,
+   "h": 583,
+   "right": 1229
+  },
+  "feat": {
+   "x": 51,
+   "y": 927,
+   "w": 1178,
+   "h": 402,
+   "right": 1229
+  },
+  "betaH": {
+   "x": 107,
+   "y": 259,
+   "w": 318,
+   "h": 29,
+   "right": 426
+  },
+  "img": {
+   "src": "screen-1600.webp",
+   "nat": 633,
+   "disp": 736,
+   "dpr": 2,
+   "ratio": 0.43
+  }
+ },
+ {
+  "name": "fi-1920-light-font24",
+  "errs": [],
+  "docW": 1920,
+  "vw": 1920,
+  "H": 1454,
+  "over": [],
+  "beats": [
+   {
+    "w": 1173,
+    "cw": 1173,
+    "r": 1574,
+    "lines": 1
+   },
+   {
+    "w": 1234,
+    "cw": 1173,
+    "r": 1574,
+    "lines": 1
+   }
+  ],
+  "tagFont": "64px",
+  "apply": {
+   "x": 402,
+   "y": 384,
+   "w": 140,
+   "h": 52,
+   "right": 542
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Hae betaan",
+  "mac": {
+   "x": 402,
+   "y": 482,
+   "w": 376,
+   "h": 26,
+   "right": 778
+  },
+  "shot": {
+   "x": 838,
+   "y": 280,
+   "w": 736,
+   "h": 583,
+   "right": 1574
+  },
+  "feat": {
+   "x": 346,
+   "y": 947,
+   "w": 1229,
+   "h": 402,
+   "right": 1574
+  },
+  "betaH": {
+   "x": 402,
+   "y": 280,
+   "w": 376,
+   "h": 29,
+   "right": 778
+  },
+  "img": {
+   "src": "screen-960.webp",
+   "nat": 736,
+   "disp": 736,
+   "dpr": 1,
+   "ratio": 1
+  }
+ },
+ {
+  "name": "fi-2560-light-font16",
+  "errs": [],
+  "docW": 2560,
+  "vw": 2560,
+  "H": 1454,
+  "over": [],
+  "beats": [
+   {
+    "w": 1173,
+    "cw": 1173,
+    "r": 1894,
+    "lines": 1
+   },
+   {
+    "w": 1234,
+    "cw": 1173,
+    "r": 1894,
+    "lines": 1
+   }
+  ],
+  "tagFont": "64px",
+  "apply": {
+   "x": 722,
+   "y": 384,
+   "w": 140,
+   "h": 52,
+   "right": 862
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Hae betaan",
+  "mac": {
+   "x": 722,
+   "y": 482,
+   "w": 376,
+   "h": 26,
+   "right": 1098
+  },
+  "shot": {
+   "x": 1158,
+   "y": 280,
+   "w": 736,
+   "h": 583,
+   "right": 1894
+  },
+  "feat": {
+   "x": 666,
+   "y": 947,
+   "w": 1229,
+   "h": 402,
+   "right": 1894
+  },
+  "betaH": {
+   "x": 722,
+   "y": 280,
+   "w": 376,
+   "h": 29,
+   "right": 1098
+  },
+  "img": {
+   "src": "screen-1600.webp",
+   "nat": 736,
+   "disp": 736,
+   "dpr": 2,
+   "ratio": 0.5
+  }
+ },
+ {
+  "name": "fi-1440-light-font16-zoom110",
+  "errs": [],
+  "docW": 1309,
+  "vw": 1309,
+  "H": 1436,
+  "over": [],
+  "beats": [
+   {
+    "w": 1148,
+    "cw": 1148,
+    "r": 1257,
+    "lines": 1
+   },
+   {
+    "w": 1148,
+    "cw": 1148,
+    "r": 1257,
+    "lines": 1
+   }
+  ],
+  "tagFont": "54.978px",
+  "apply": {
+   "x": 109,
+   "y": 392,
+   "w": 140,
+   "h": 52,
+   "right": 249
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Hae betaan",
+  "mac": {
+   "x": 109,
+   "y": 489,
+   "w": 327,
+   "h": 26,
+   "right": 435
+  },
+  "shot": {
+   "x": 521,
+   "y": 262,
+   "w": 736,
+   "h": 583,
+   "right": 1257
+  },
+  "feat": {
+   "x": 52,
+   "y": 929,
+   "w": 1204,
+   "h": 402,
+   "right": 1257
+  },
+  "betaH": {
+   "x": 109,
+   "y": 262,
+   "w": 327,
+   "h": 29,
+   "right": 435
+  },
+  "img": {
+   "src": "screen-960.webp",
+   "nat": 648,
+   "disp": 736,
+   "dpr": 1.100000023841858,
+   "ratio": 0.8
+  }
+ },
+ {
+  "name": "fi-1440-light-font16-zoom125",
+  "errs": [],
+  "docW": 1152,
+  "vw": 1152,
+  "H": 1380,
+  "over": [],
+  "beats": [
+   {
+    "w": 1004,
+    "cw": 1004,
+    "r": 1106,
+    "lines": 1
+   },
+   {
+    "w": 1004,
+    "cw": 1004,
+    "r": 1106,
+    "lines": 1
+   }
+  ],
+  "tagFont": "48.384px",
+  "apply": {
+   "x": 102,
+   "y": 378,
+   "w": 140,
+   "h": 52,
+   "right": 242
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Hae betaan",
+  "mac": {
+   "x": 102,
+   "y": 476,
+   "w": 283,
+   "h": 51,
+   "right": 385
+  },
+  "shot": {
+   "x": 425,
+   "y": 248,
+   "w": 681,
+   "h": 539,
+   "right": 1106
+  },
+  "feat": {
+   "x": 46,
+   "y": 872,
+   "w": 1060,
+   "h": 402,
+   "right": 1106
+  },
+  "betaH": {
+   "x": 102,
+   "y": 248,
+   "w": 283,
+   "h": 29,
+   "right": 385
+  },
+  "img": {
+   "src": "screen-960.webp",
+   "nat": 567,
+   "disp": 681,
+   "dpr": 1.25,
+   "ratio": 0.67
+  }
+ },
+ {
+  "name": "fi-1440-light-font16-zoom150",
+  "errs": [],
+  "docW": 960,
+  "vw": 960,
+  "H": 1837,
+  "over": [],
+  "beats": [
+   {
+    "w": 836,
+    "cw": 836,
+    "r": 922,
+    "lines": 1
+   },
+   {
+    "w": 836,
+    "cw": 836,
+    "r": 922,
+    "lines": 2
+   }
+  ],
+  "tagFont": "48.32px",
+  "apply": {
+   "x": 85,
+   "y": 1218,
+   "w": 140,
+   "h": 52,
+   "right": 225
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Hae betaan",
+  "mac": {
+   "x": 85,
+   "y": 1055,
+   "w": 836,
+   "h": 26,
+   "right": 922
+  },
+  "shot": {
+   "x": 85,
+   "y": 318,
+   "w": 836,
+   "h": 662,
+   "right": 922
+  },
+  "feat": {
+   "x": 38,
+   "y": 1314,
+   "w": 883,
+   "h": 418,
+   "right": 922
+  },
+  "betaH": {
+   "x": 85,
+   "y": 1109,
+   "w": 836,
+   "h": 34,
+   "right": 922
+  },
+  "img": {
+   "src": "screen-1600.webp",
+   "nat": 835,
+   "disp": 836,
+   "dpr": 1.5,
+   "ratio": 0.67
+  }
+ },
+ {
+  "name": "fi-1440-light-font16-zoom175",
+  "errs": [],
+  "docW": 823,
+  "vw": 823,
+  "H": 1724,
+  "over": [],
+  "beats": [
+   {
+    "w": 710,
+    "cw": 710,
+    "r": 790,
+    "lines": 1
+   },
+   {
+    "w": 710,
+    "cw": 710,
+    "r": 790,
+    "lines": 2
+   }
+  ],
+  "tagFont": "43.936px",
+  "apply": {
+   "x": 80,
+   "y": 1105,
+   "w": 140,
+   "h": 52,
+   "right": 220
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Hae betaan",
+  "mac": {
+   "x": 80,
+   "y": 942,
+   "w": 710,
+   "h": 26,
+   "right": 790
+  },
+  "shot": {
+   "x": 80,
+   "y": 304,
+   "w": 710,
+   "h": 562,
+   "right": 790
+  },
+  "feat": {
+   "x": 33,
+   "y": 1201,
+   "w": 757,
+   "h": 418,
+   "right": 790
+  },
+  "betaH": {
+   "x": 80,
+   "y": 995,
+   "w": 710,
+   "h": 34,
+   "right": 790
+  },
+  "img": {
+   "src": "screen-1600.webp",
+   "nat": 709,
+   "disp": 710,
+   "dpr": 1.75,
+   "ratio": 0.57
+  }
+ },
+ {
+  "name": "fi-1440-light-font16-zoom200",
+  "errs": [],
+  "docW": 720,
+  "vw": 720,
+  "H": 1639,
+  "over": [],
+  "beats": [
+   {
+    "w": 616,
+    "cw": 616,
+    "r": 691,
+    "lines": 1
+   },
+   {
+    "w": 616,
+    "cw": 616,
+    "r": 691,
+    "lines": 2
+   }
+  ],
+  "tagFont": "40.64px",
+  "apply": {
+   "x": 76,
+   "y": 1020,
+   "w": 140,
+   "h": 52,
+   "right": 216
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Hae betaan",
+  "mac": {
+   "x": 76,
+   "y": 857,
+   "w": 616,
+   "h": 26,
+   "right": 691
+  },
+  "shot": {
+   "x": 76,
+   "y": 294,
+   "w": 616,
+   "h": 487,
+   "right": 691
+  },
+  "feat": {
+   "x": 29,
+   "y": 1116,
+   "w": 662,
+   "h": 418,
+   "right": 691
+  },
+  "betaH": {
+   "x": 76,
+   "y": 910,
+   "w": 616,
+   "h": 34,
+   "right": 691
+  },
+  "img": {
+   "src": "screen-1600.webp",
+   "nat": 614,
+   "disp": 616,
+   "dpr": 2,
+   "ratio": 0.5
+  }
+ },
+ {
+  "name": "en-320-light-font16",
+  "errs": [],
+  "docW": 320,
+  "vw": 320,
+  "H": 1649,
+  "over": [],
+  "beats": [
+   {
+    "w": 241,
+    "cw": 241,
+    "r": 304,
+    "lines": 1
+   },
+   {
+    "w": 241,
+    "cw": 241,
+    "r": 304,
+    "lines": 4
+   }
+  ],
+  "tagFont": "30px",
+  "apply": {
+   "x": 63,
+   "y": 748,
+   "w": 189,
+   "h": 52,
+   "right": 252
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Apply for the beta",
+  "mac": {
+   "x": 63,
+   "y": 554,
+   "w": 241,
+   "h": 46,
+   "right": 304
+  },
+  "shot": {
+   "x": 63,
+   "y": 360,
+   "w": 241,
+   "h": 121,
+   "right": 304
+  },
+  "feat": {
+   "x": 16,
+   "y": 844,
+   "w": 288,
+   "h": 655,
+   "right": 304
+  },
+  "betaH": {
+   "x": 63,
+   "y": 621,
+   "w": 241,
+   "h": 34,
+   "right": 304
+  },
+  "img": {
+   "src": "phone-640.webp",
+   "nat": 246,
+   "disp": 241,
+   "dpr": 2,
+   "ratio": 0.51
+  }
+ },
+ {
+  "name": "en-1024-light-font16",
+  "errs": [],
+  "docW": 1024,
+  "vw": 1024,
+  "H": 1278,
+  "over": [],
+  "beats": [
+   {
+    "w": 886,
+    "cw": 886,
+    "r": 983,
+    "lines": 1
+   },
+   {
+    "w": 886,
+    "cw": 886,
+    "r": 983,
+    "lines": 1
+   }
+  ],
+  "tagFont": "43.008px",
+  "apply": {
+   "x": 97,
+   "y": 368,
+   "w": 189,
+   "h": 52,
+   "right": 286
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Apply for the beta",
+  "mac": {
+   "x": 97,
+   "y": 465,
+   "w": 280,
+   "h": 26,
+   "right": 377
+  },
+  "shot": {
+   "x": 417,
+   "y": 238,
+   "w": 566,
+   "h": 448,
+   "right": 983
+  },
+  "feat": {
+   "x": 41,
+   "y": 771,
+   "w": 942,
+   "h": 402,
+   "right": 983
+  },
+  "betaH": {
+   "x": 97,
+   "y": 238,
+   "w": 280,
+   "h": 29,
+   "right": 377
+  },
+  "img": {
+   "src": "screen-1600.webp",
+   "nat": 500,
+   "disp": 566,
+   "dpr": 2,
+   "ratio": 0.44
+  }
+ },
+ {
+  "name": "en-1280-dark-font16",
+  "errs": [],
+  "docW": 1280,
+  "vw": 1280,
+  "H": 1434,
+  "over": [],
+  "beats": [
+   {
+    "w": 1121,
+    "cw": 1121,
+    "r": 1229,
+    "lines": 1
+   },
+   {
+    "w": 1121,
+    "cw": 1121,
+    "r": 1229,
+    "lines": 1
+   }
+  ],
+  "tagFont": "53.76px",
+  "apply": {
+   "x": 107,
+   "y": 364,
+   "w": 189,
+   "h": 52,
+   "right": 296
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en",
+  "applyColor": "rgb(19, 16, 24)",
+  "applyBg": "rgb(220, 132, 218)",
+  "applyText": "Apply for the beta",
+  "mac": {
+   "x": 107,
+   "y": 461,
+   "w": 318,
+   "h": 26,
+   "right": 426
+  },
+  "shot": {
+   "x": 493,
+   "y": 259,
+   "w": 736,
+   "h": 583,
+   "right": 1229
+  },
+  "feat": {
+   "x": 51,
+   "y": 927,
+   "w": 1178,
+   "h": 402,
+   "right": 1229
+  },
+  "betaH": {
+   "x": 107,
+   "y": 259,
+   "w": 318,
+   "h": 29,
+   "right": 426
+  },
+  "img": {
+   "src": "screen-1600.webp",
+   "nat": 633,
+   "disp": 736,
+   "dpr": 2,
+   "ratio": 0.43
+  }
+ },
+ {
+  "name": "en-1920-light-font24",
+  "errs": [],
+  "docW": 1920,
+  "vw": 1920,
+  "H": 1454,
+  "over": [],
+  "beats": [
+   {
+    "w": 1173,
+    "cw": 1173,
+    "r": 1574,
+    "lines": 1
+   },
+   {
+    "w": 1173,
+    "cw": 1173,
+    "r": 1574,
+    "lines": 1
+   }
+  ],
+  "tagFont": "64px",
+  "apply": {
+   "x": 402,
+   "y": 384,
+   "w": 189,
+   "h": 52,
+   "right": 591
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Apply for the beta",
+  "mac": {
+   "x": 402,
+   "y": 482,
+   "w": 376,
+   "h": 26,
+   "right": 778
+  },
+  "shot": {
+   "x": 838,
+   "y": 280,
+   "w": 736,
+   "h": 583,
+   "right": 1574
+  },
+  "feat": {
+   "x": 346,
+   "y": 947,
+   "w": 1229,
+   "h": 402,
+   "right": 1574
+  },
+  "betaH": {
+   "x": 402,
+   "y": 280,
+   "w": 376,
+   "h": 29,
+   "right": 778
+  },
+  "img": {
+   "src": "screen-960.webp",
+   "nat": 736,
+   "disp": 736,
+   "dpr": 1,
+   "ratio": 1
+  }
+ },
+ {
+  "name": "en-2560-light-font16",
+  "errs": [],
+  "docW": 2560,
+  "vw": 2560,
+  "H": 1454,
+  "over": [],
+  "beats": [
+   {
+    "w": 1173,
+    "cw": 1173,
+    "r": 1894,
+    "lines": 1
+   },
+   {
+    "w": 1173,
+    "cw": 1173,
+    "r": 1894,
+    "lines": 1
+   }
+  ],
+  "tagFont": "64px",
+  "apply": {
+   "x": 722,
+   "y": 384,
+   "w": 189,
+   "h": 52,
+   "right": 911
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Apply for the beta",
+  "mac": {
+   "x": 722,
+   "y": 482,
+   "w": 376,
+   "h": 26,
+   "right": 1098
+  },
+  "shot": {
+   "x": 1158,
+   "y": 280,
+   "w": 736,
+   "h": 583,
+   "right": 1894
+  },
+  "feat": {
+   "x": 666,
+   "y": 947,
+   "w": 1229,
+   "h": 402,
+   "right": 1894
+  },
+  "betaH": {
+   "x": 722,
+   "y": 280,
+   "w": 376,
+   "h": 29,
+   "right": 1098
+  },
+  "img": {
+   "src": "screen-1600.webp",
+   "nat": 736,
+   "disp": 736,
+   "dpr": 2,
+   "ratio": 0.5
+  }
+ },
+ {
+  "name": "en-1440-light-font16-zoom110",
+  "errs": [],
+  "docW": 1309,
+  "vw": 1309,
+  "H": 1436,
+  "over": [],
+  "beats": [
+   {
+    "w": 1148,
+    "cw": 1148,
+    "r": 1257,
+    "lines": 1
+   },
+   {
+    "w": 1148,
+    "cw": 1148,
+    "r": 1257,
+    "lines": 1
+   }
+  ],
+  "tagFont": "54.978px",
+  "apply": {
+   "x": 109,
+   "y": 366,
+   "w": 189,
+   "h": 52,
+   "right": 297
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Apply for the beta",
+  "mac": {
+   "x": 109,
+   "y": 464,
+   "w": 327,
+   "h": 26,
+   "right": 435
+  },
+  "shot": {
+   "x": 521,
+   "y": 262,
+   "w": 736,
+   "h": 583,
+   "right": 1257
+  },
+  "feat": {
+   "x": 52,
+   "y": 929,
+   "w": 1204,
+   "h": 402,
+   "right": 1257
+  },
+  "betaH": {
+   "x": 109,
+   "y": 262,
+   "w": 327,
+   "h": 29,
+   "right": 435
+  },
+  "img": {
+   "src": "screen-960.webp",
+   "nat": 648,
+   "disp": 736,
+   "dpr": 1.100000023841858,
+   "ratio": 0.8
+  }
+ },
+ {
+  "name": "en-1440-light-font16-zoom125",
+  "errs": [],
+  "docW": 1152,
+  "vw": 1152,
+  "H": 1380,
+  "over": [],
+  "beats": [
+   {
+    "w": 1004,
+    "cw": 1004,
+    "r": 1106,
+    "lines": 1
+   },
+   {
+    "w": 1004,
+    "cw": 1004,
+    "r": 1106,
+    "lines": 1
+   }
+  ],
+  "tagFont": "48.384px",
+  "apply": {
+   "x": 102,
+   "y": 378,
+   "w": 189,
+   "h": 52,
+   "right": 291
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Apply for the beta",
+  "mac": {
+   "x": 102,
+   "y": 476,
+   "w": 283,
+   "h": 26,
+   "right": 385
+  },
+  "shot": {
+   "x": 425,
+   "y": 248,
+   "w": 681,
+   "h": 539,
+   "right": 1106
+  },
+  "feat": {
+   "x": 46,
+   "y": 872,
+   "w": 1060,
+   "h": 402,
+   "right": 1106
+  },
+  "betaH": {
+   "x": 102,
+   "y": 248,
+   "w": 283,
+   "h": 29,
+   "right": 385
+  },
+  "img": {
+   "src": "screen-960.webp",
+   "nat": 567,
+   "disp": 681,
+   "dpr": 1.25,
+   "ratio": 0.67
+  }
+ },
+ {
+  "name": "en-1440-light-font16-zoom150",
+  "errs": [],
+  "docW": 960,
+  "vw": 960,
+  "H": 1837,
+  "over": [],
+  "beats": [
+   {
+    "w": 836,
+    "cw": 836,
+    "r": 922,
+    "lines": 1
+   },
+   {
+    "w": 836,
+    "cw": 836,
+    "r": 922,
+    "lines": 2
+   }
+  ],
+  "tagFont": "48.32px",
+  "apply": {
+   "x": 85,
+   "y": 1218,
+   "w": 189,
+   "h": 52,
+   "right": 274
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Apply for the beta",
+  "mac": {
+   "x": 85,
+   "y": 1055,
+   "w": 836,
+   "h": 26,
+   "right": 922
+  },
+  "shot": {
+   "x": 85,
+   "y": 318,
+   "w": 836,
+   "h": 662,
+   "right": 922
+  },
+  "feat": {
+   "x": 38,
+   "y": 1314,
+   "w": 883,
+   "h": 418,
+   "right": 922
+  },
+  "betaH": {
+   "x": 85,
+   "y": 1109,
+   "w": 836,
+   "h": 34,
+   "right": 922
+  },
+  "img": {
+   "src": "screen-1600.webp",
+   "nat": 835,
+   "disp": 836,
+   "dpr": 1.5,
+   "ratio": 0.67
+  }
+ },
+ {
+  "name": "en-1440-light-font16-zoom175",
+  "errs": [],
+  "docW": 823,
+  "vw": 823,
+  "H": 1724,
+  "over": [],
+  "beats": [
+   {
+    "w": 710,
+    "cw": 710,
+    "r": 790,
+    "lines": 1
+   },
+   {
+    "w": 710,
+    "cw": 710,
+    "r": 790,
+    "lines": 2
+   }
+  ],
+  "tagFont": "43.936px",
+  "apply": {
+   "x": 80,
+   "y": 1105,
+   "w": 189,
+   "h": 52,
+   "right": 269
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Apply for the beta",
+  "mac": {
+   "x": 80,
+   "y": 942,
+   "w": 710,
+   "h": 26,
+   "right": 790
+  },
+  "shot": {
+   "x": 80,
+   "y": 304,
+   "w": 710,
+   "h": 562,
+   "right": 790
+  },
+  "feat": {
+   "x": 33,
+   "y": 1201,
+   "w": 757,
+   "h": 418,
+   "right": 790
+  },
+  "betaH": {
+   "x": 80,
+   "y": 995,
+   "w": 710,
+   "h": 34,
+   "right": 790
+  },
+  "img": {
+   "src": "screen-1600.webp",
+   "nat": 709,
+   "disp": 710,
+   "dpr": 1.75,
+   "ratio": 0.57
+  }
+ },
+ {
+  "name": "en-1440-light-font16-zoom200",
+  "errs": [],
+  "docW": 720,
+  "vw": 720,
+  "H": 1639,
+  "over": [],
+  "beats": [
+   {
+    "w": 616,
+    "cw": 616,
+    "r": 691,
+    "lines": 1
+   },
+   {
+    "w": 616,
+    "cw": 616,
+    "r": 691,
+    "lines": 2
+   }
+  ],
+  "tagFont": "40.64px",
+  "apply": {
+   "x": 76,
+   "y": 1020,
+   "w": 189,
+   "h": 52,
+   "right": 264
+  },
+  "href": "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en",
+  "applyColor": "rgb(255, 255, 255)",
+  "applyBg": "rgb(166, 38, 164)",
+  "applyText": "Apply for the beta",
+  "mac": {
+   "x": 76,
+   "y": 857,
+   "w": 616,
+   "h": 26,
+   "right": 691
+  },
+  "shot": {
+   "x": 76,
+   "y": 294,
+   "w": 616,
+   "h": 487,
+   "right": 691
+  },
+  "feat": {
+   "x": 29,
+   "y": 1116,
+   "w": 662,
+   "h": 418,
+   "right": 691
+  },
+  "betaH": {
+   "x": 76,
+   "y": 910,
+   "w": 616,
+   "h": 34,
+   "right": 691
+  },
+  "img": {
+   "src": "screen-1600.webp",
+   "nat": 614,
+   "disp": 616,
+   "dpr": 2,
+   "ratio": 0.5
+  }
+ }
+]

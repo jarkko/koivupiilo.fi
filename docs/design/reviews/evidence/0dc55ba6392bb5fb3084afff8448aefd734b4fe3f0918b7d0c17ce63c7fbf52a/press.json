@@ -1,0 +1,122 @@
+[
+ {
+  "tag": "fi-390-light",
+  "order": [
+   "skip:Siirry sisältöön",
+   "lang:In English",
+   "apply:Hae betaan",
+   "A:Tietosuoja",
+   "BODY:Siirry sisältöön\n\n  \n    Ratam",
+   "skip:Siirry sisältöön"
+  ],
+  "landed": "https://join.koivupiilo.fi/ratametsuri/q/course-setters",
+  "seen": [
+   "https://join.koivupiilo.fi/ratametsuri/q/course-setters"
+  ]
+ },
+ {
+  "tag": "fi-390-dark",
+  "order": [
+   "skip:Siirry sisältöön",
+   "lang:In English",
+   "apply:Hae betaan",
+   "A:Tietosuoja",
+   "BODY:Siirry sisältöön\n\n  \n    Ratam",
+   "skip:Siirry sisältöön"
+  ],
+  "landed": "https://join.koivupiilo.fi/ratametsuri/q/course-setters",
+  "seen": [
+   "https://join.koivupiilo.fi/ratametsuri/q/course-setters"
+  ]
+ },
+ {
+  "tag": "fi-1440-light",
+  "order": [
+   "skip:Siirry sisältöön",
+   "lang:In English",
+   "apply:Hae betaan",
+   "A:Tietosuoja",
+   "BODY:Siirry sisältöön\n\n  \n    Ratam",
+   "skip:Siirry sisältöön"
+  ],
+  "landed": "https://join.koivupiilo.fi/ratametsuri/q/course-setters",
+  "seen": [
+   "https://join.koivupiilo.fi/ratametsuri/q/course-setters"
+  ]
+ },
+ {
+  "tag": "fi-1440-dark",
+  "order": [
+   "skip:Siirry sisältöön",
+   "lang:In English",
+   "apply:Hae betaan",
+   "A:Tietosuoja",
+   "BODY:Siirry sisältöön\n\n  \n    Ratam",
+   "skip:Siirry sisältöön"
+  ],
+  "landed": "https://join.koivupiilo.fi/ratametsuri/q/course-setters",
+  "seen": [
+   "https://join.koivupiilo.fi/ratametsuri/q/course-setters"
+  ]
+ },
+ {
+  "tag": "en-390-light",
+  "order": [
+   "skip:Skip to content",
+   "lang:Suomeksi",
+   "apply:Apply for the beta",
+   "A:Privacy",
+   "BODY:Skip to content\n\n  \n    Ratame",
+   "skip:Skip to content"
+  ],
+  "landed": "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en",
+  "seen": [
+   "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en"
+  ]
+ },
+ {
+  "tag": "en-390-dark",
+  "order": [
+   "skip:Skip to content",
+   "lang:Suomeksi",
+   "apply:Apply for the beta",
+   "A:Privacy",
+   "BODY:Skip to content\n\n  \n    Ratame",
+   "skip:Skip to content"
+  ],
+  "landed": "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en",
+  "seen": [
+   "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en"
+  ]
+ },
+ {
+  "tag": "en-1440-light",
+  "order": [
+   "skip:Skip to content",
+   "lang:Suomeksi",
+   "apply:Apply for the beta",
+   "A:Privacy",
+   "BODY:Skip to content\n\n  \n    Ratame",
+   "skip:Skip to content"
+  ],
+  "landed": "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en",
+  "seen": [
+   "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en"
+  ]
+ },
+ {
+  "tag": "en-1440-dark",
+  "order": [
+   "skip:Skip to content",
+   "lang:Suomeksi",
+   "apply:Apply for the beta",
+   "A:Privacy",
+   "BODY:Skip to content\n\n  \n    Ratame",
+   "skip:Skip to content"
+  ],
+  "landed": "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en",
+  "seen": [
+   "https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en"
+  ]
+ }
+]

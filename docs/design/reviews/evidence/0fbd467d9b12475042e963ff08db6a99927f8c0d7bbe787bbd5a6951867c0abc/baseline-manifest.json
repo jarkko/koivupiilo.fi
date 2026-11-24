@@ -1,0 +1,162 @@
+[
+  {
+    "path": "docs/design/baselines/en/ratametsuri/desktop-dark-en-GB.png",
+    "sha256": "e7e157db0aee5fa526e173501d8dd01cd57885b23bf097b7685cea1adbfee0d4",
+    "size": [
+      1440,
+      1446
+    ],
+    "CI_actual_identical": true,
+    "inspection": "Visually compared with the running production build and the fresh 390/1440 light/dark captures. Intended two-beat banner, map crop, single survey action, Mac-only requirements, features below. Linux rasterization differs from local macOS Chrome."
+  },
+  {
+    "path": "docs/design/baselines/en/ratametsuri/desktop-dark-fi-FI.png",
+    "sha256": "7aadc14f6586d0135a1f9e4b592fc29d3f00255819925a4eb37e111fad0b2346",
+    "size": [
+      1440,
+      1446
+    ],
+    "CI_actual_identical": true,
+    "inspection": "Visually compared with the running production build and the fresh 390/1440 light/dark captures. Intended two-beat banner, map crop, single survey action, Mac-only requirements, features below. Linux rasterization differs from local macOS Chrome."
+  },
+  {
+    "path": "docs/design/baselines/en/ratametsuri/desktop-light-en-GB.png",
+    "sha256": "a9ad2a6b716c974a0361a87ba9f5bf4b850b27ccf68acdfb7c425246c39ea0d7",
+    "size": [
+      1440,
+      1446
+    ],
+    "CI_actual_identical": true,
+    "inspection": "Visually compared with the running production build and the fresh 390/1440 light/dark captures. Intended two-beat banner, map crop, single survey action, Mac-only requirements, features below. Linux rasterization differs from local macOS Chrome."
+  },
+  {
+    "path": "docs/design/baselines/en/ratametsuri/desktop-light-fi-FI.png",
+    "sha256": "eb6f4395239122637e0a79a805abb0e3a5e95f6fe60b957c4240d66427cd2fc9",
+    "size": [
+      1440,
+      1446
+    ],
+    "CI_actual_identical": true,
+    "inspection": "Visually compared with the running production build and the fresh 390/1440 light/dark captures. Intended two-beat banner, map crop, single survey action, Mac-only requirements, features below. Linux rasterization differs from local macOS Chrome."
+  },
+  {
+    "path": "docs/design/baselines/en/ratametsuri/phone-dark-en-GB.png",
+    "sha256": "35a9b72ed5bf4bea5f11377e83e03144b3e8c930ddb0a527c4bc8f4e060290bd",
+    "size": [
+      390,
+      1453
+    ],
+    "CI_actual_identical": false,
+    "inspection": "Visually compared with the running production build and the fresh 390/1440 light/dark captures. Intended two-beat banner, map crop, single survey action, Mac-only requirements, features below. Linux rasterization differs from local macOS Chrome."
+  },
+  {
+    "path": "docs/design/baselines/en/ratametsuri/phone-dark-fi-FI.png",
+    "sha256": "35a9b72ed5bf4bea5f11377e83e03144b3e8c930ddb0a527c4bc8f4e060290bd",
+    "size": [
+      390,
+      1453
+    ],
+    "CI_actual_identical": false,
+    "inspection": "Visually compared with the running production build and the fresh 390/1440 light/dark captures. Intended two-beat banner, map crop, single survey action, Mac-only requirements, features below. Linux rasterization differs from local macOS Chrome."
+  },
+  {
+    "path": "docs/design/baselines/en/ratametsuri/phone-light-en-GB.png",
+    "sha256": "5411ba358090464ef45f8b9e4d4613c21f8019c0383c1c0a02564a9fb714377d",
+    "size": [
+      390,
+      1453
+    ],
+    "CI_actual_identical": false,
+    "inspection": "Visually compared with the running production build and the fresh 390/1440 light/dark captures. Intended two-beat banner, map crop, single survey action, Mac-only requirements, features below. Linux rasterization differs from local macOS Chrome."
+  },
+  {
+    "path": "docs/design/baselines/en/ratametsuri/phone-light-fi-FI.png",
+    "sha256": "f57c29c9208d58a4d9e99f0962f3556e5e860ff344796251f7c49faca934f494",
+    "size": [
+      390,
+      1453
+    ],
+    "CI_actual_identical": false,
+    "inspection": "Visually compared with the running production build and the fresh 390/1440 light/dark captures. Intended two-beat banner, map crop, single survey action, Mac-only requirements, features below. Linux rasterization differs from local macOS Chrome."
+  },
+  {
+    "path": "docs/design/baselines/ratametsuri/desktop-dark-en-GB.png",
+    "sha256": "b0a1a10927e55839178b621f7b6e028540cc0aae90676ba88bff8449ae41ac7b",
+    "size": [
+      1440,
+      1446
+    ],
+    "CI_actual_identical": true,
+    "inspection": "Visually compared with the running production build and the fresh 390/1440 light/dark captures. Intended two-beat banner, map crop, single survey action, Mac-only requirements, features below. Linux rasterization differs from local macOS Chrome."
+  },
+  {
+    "path": "docs/design/baselines/ratametsuri/desktop-dark-fi-FI.png",
+    "sha256": "b0a1a10927e55839178b621f7b6e028540cc0aae90676ba88bff8449ae41ac7b",
+    "size": [
+      1440,
+      1446
+    ],
+    "CI_actual_identical": true,
+    "inspection": "Visually compared with the running production build and the fresh 390/1440 light/dark captures. Intended two-beat banner, map crop, single survey action, Mac-only requirements, features below. Linux rasterization differs from local macOS Chrome."
+  },
+  {
+    "path": "docs/design/baselines/ratametsuri/desktop-light-en-GB.png",
+    "sha256": "f9f0cd3df24f5e1b740bd8c71eac5449d6acf06370abb77d244a02213a5d1bf6",
+    "size": [
+      1440,
+      1446
+    ],
+    "CI_actual_identical": true,
+    "inspection": "Visually compared with the running production build and the fresh 390/1440 light/dark captures. Intended two-beat banner, map crop, single survey action, Mac-only requirements, features below. Linux rasterization differs from local macOS Chrome."
+  },
+  {
+    "path": "docs/design/baselines/ratametsuri/desktop-light-fi-FI.png",
+    "sha256": "b1a3f213d03319b5ae1e3071a57f0113e664a669757f7913ba120294ab8d8095",
+    "size": [
+      1440,
+      1446
+    ],
+    "CI_actual_identical": true,
+    "inspection": "Visually compared with the running production build and the fresh 390/1440 light/dark captures. Intended two-beat banner, map crop, single survey action, Mac-only requirements, features below. Linux rasterization differs from local macOS Chrome."
+  },
+  {
+    "path": "docs/design/baselines/ratametsuri/phone-dark-en-GB.png",
+    "sha256": "381dbf17000e95ef00322d483a1d171d3886b76e4fc81cb3a4bac77f642af00e",
+    "size": [
+      390,
+      1449
+    ],
+    "CI_actual_identical": true,
+    "inspection": "Visually compared with the running production build and the fresh 390/1440 light/dark captures. Intended two-beat banner, map crop, single survey action, Mac-only requirements, features below. Linux rasterization differs from local macOS Chrome."
+  },
+  {
+    "path": "docs/design/baselines/ratametsuri/phone-dark-fi-FI.png",
+    "sha256": "cad6c0a469ad5cd39e7ab9ed2b47d02dd07f04b58baef5991eda4e2431f004ca",
+    "size": [
+      390,
+      1449
+    ],
+    "CI_actual_identical": true,
+    "inspection": "Visually compared with the running production build and the fresh 390/1440 light/dark captures. Intended two-beat banner, map crop, single survey action, Mac-only requirements, features below. Linux rasterization differs from local macOS Chrome."
+  },
+  {
+    "path": "docs/design/baselines/ratametsuri/phone-light-en-GB.png",
+    "sha256": "b33405385c4b92c31fab63ff634d93454c39adb8c130f4433b9ff0f07899a9c7",
+    "size": [
+      390,
+      1449
+    ],
+    "CI_actual_identical": true,
+    "inspection": "Visually compared with the running production build and the fresh 390/1440 light/dark captures. Intended two-beat banner, map crop, single survey action, Mac-only requirements, features below. Linux rasterization differs from local macOS Chrome."
+  },
+  {
+    "path": "docs/design/baselines/ratametsuri/phone-light-fi-FI.png",
+    "sha256": "17426ab09278b01440df0ba41f7eb4fbda9aa9de5f16b32c95c485adf6f67f3c",
+    "size": [
+      390,
+      1449
+    ],
+    "CI_actual_identical": true,
+    "inspection": "Visually compared with the running production build and the fresh 390/1440 light/dark captures. Intended two-beat banner, map crop, single survey action, Mac-only requirements, features below. Linux rasterization differs from local macOS Chrome."
+  }
+]

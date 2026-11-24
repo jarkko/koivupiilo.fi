@@ -13,32 +13,36 @@ Map: © Tampereen Pyrintö (Kauppi), used with Jarkko's approval (see Source map
 |---|---|
 | `kauppi-{fi,en}-{light,dark}.png` | Window only, no shadow, 3000 x 1880 px (1500 x 940 pt at 2x). Masters, gitignored, not in the repo |
 | `kauppi-{fi,en}-{light,dark}-shadow.png` | Same, with the system window shadow (transparent). Scratchpad only |
-| `kauppi-{fi,en}-{light,dark}.webp` | Web versions, 2400 x 1504 px, quality 82 |
+| `kauppi-{fi,en}-{light,dark}.webp` | Web versions of the whole window, 2400 x 1504 px, quality 82 (no longer on the page) |
 
 All four are the same event, course and view; only the UI language and the
 appearance differ.
 
 ### On the page (`src/ratametsuri/`)
 
-| File | Made from | Size |
+Since 2026-11-24 the page shows crops of the map canvas only, made from the 3000 x 1880 px PNG
+masters, not the whole window. The canvas is drawn the same in both languages and appearances:
+the crops below come out pixel-identical from all four masters (`magick compare -metric AE` gives 0),
+so one file set serves every language and appearance.
+
+Every file: `magick <master> -crop <crop> +repage [-resize <w>x] -colorspace sRGB -strip -quality 90 -define webp:method=6`.
+
+| File | Crop of the master | Size |
 |---|---|---|
-| `screen-{fi,en}-{light,dark}.webp` | The 2400 px WebP above, unchanged (the whole window, inspector included) | 2400 x 1504 px |
-| `phone-{fi,en}-{light,dark}.webp` | The PNG master, cropped 1200 x 705 px at x 900, y 1075 (`PHONE_CROP` in `../d/build.mjs`: x 0.30, y 0.572, w 0.40, h 0.375 of the master), `magick … -resize 1200x -strip -quality 82` | 1200 x 705 px |
-| `phone-{fi,en}-{light,dark}-{640,960}.webp` | The same crop, `magick <master> -crop 1200x705+900+1075 +repage -resize {640,960}x -strip -quality 82` | 640 x 376, 960 x 564 px |
-| `screen-{fi,en}-{light,dark}-{1200,1600}.webp` | The PNG master, uncropped, `magick <master> -resize {1200,1600}x -strip -quality 82 -define webp:method=6` | 1200 x 752, 1600 x 1003 px |
+| `screen.webp` | 1920 x 1520 px at x 596, y 250: the description sheet, the "KAUPPI 1 : 10000" title and the whole of course A, start to finish | 1920 x 1520 px |
+| `screen-{960,1600}.webp` | The same crop, resized | 960 x 760, 1600 x 1267 px |
+| `phone.webp` | 1140 x 570 px at x 1360, y 1260: the start triangle, controls 1, 2 and 11 and the finish | 1140 x 570 px |
+| `phone-{640,960}.webp` | The same crop, resized | 640 x 320, 960 x 480 px |
 
-The smaller widths go in each source's `srcset` with a `sizes` for the window's slot, so a phone
-loads the 640 or 960 px crop and a desktop the 1200 or 1600 px window instead of the largest file
-(the 1200 px crop held the phone's Largest Contentful Paint at 3 s in Lighthouse).
+Pixel density. The master is the app at 2x, so `screen.webp` is the canvas at its own 2x pixels.
+In its desktop slot (about 580 to 740 CSS px wide at 1440) a 2x screen loads the 1600 px file:
+about 2.2 to 2.8 image pixels per CSS px, at least one per device pixel, and the map at 0.6x to
+0.77x of its size in the app. The earlier desktop image was the whole 3000 px window shown in about
+750 CSS px (the map at half its size in the app), and a 2x screen got the 1600 px file, 2.1 image
+pixels per CSS px of a window whose canvas was then scaled down. The phone slot (about 311 CSS px at
+390) loads 640 px at 2x and 960 px at 3x.
 
-The phone crop is map canvas only, so the four phone files come out
-byte-identical: the app draws the map and course the same way in both languages
-and appearances. They keep per-language names so that the layout picks every
-image the same way, and a future reshoot can differ.
-
-The desktop shot is not cropped. Cutting the inspector off the right edge would
-cut through the window's toolbar and its right corners, and make the image 4:3,
-which pushes the e-mail field below the fold at 1440 x 900.
+The PNG masters stay out of the repo (gitignored).
 
 ## Capture (2026-11-23)
 
@@ -66,7 +70,7 @@ which pushes the e-mail field below the fold at 1440 x 900.
 - Processing, on the laptop: converted to sRGB (`magick -profile "sRGB Profile.icc"`),
   every metadata chunk removed (`-strip -define png:exclude-chunk=all`: no EXIF, XMP,
   text or profile chunks), then WebP at 2400 px wide, quality 82, method 6, no metadata.
-  Phone crops as in the table above. No camera or photo-library asset is involved.
+  The page's crops as in the table above. No camera or photo-library asset is involved.
 
 The first capture (2026-11-21, English UI only, `kauppi-{light,dark}`)
 is superseded by this one and its files are removed; it is in git history.
