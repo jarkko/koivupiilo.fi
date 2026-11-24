@@ -2,12 +2,12 @@
 // Usage: BRIDGETOWN_ENV=production bundle exec rake deploy && node design/shoot-ratametsuri-site.mjs
 //
 // Serves output/ locally. The beta is a link to launchpad's survey (join.koivupiilo.fi), so nothing
-// is posted and no request leaves the machine but the visitor counter's, which is blocked.
+// is posted and nothing leaves the machine; the visitor counter (PR 4), if present, is blocked.
 //
-// Matrix: fi/en x 390/1440 x light/dark (plus large text at 390), and the arrival motion.
+// Matrix: fi/en x 390/768/1440/1920 x light/dark (plus large text at 390), and the arrival motion.
 // Fails on horizontal overflow, console errors, requests to any other origin, small tap targets,
-// a beta link that doesn't go to the survey in the page's language, the beta link or the Mac line
-// below the 1440 fold, and the beta link below the first phone screen.
+// a beta link that doesn't go to the survey in the page's language, a tagline wider than its column,
+// the beta link or the Mac line below the 1440 fold, and the beta link below the first phone screen.
 // Output: design/shots/ratametsuri-site/ (gitignored).
 import { createServer } from 'node:http';
 import { readFileSync, existsSync, statSync, mkdirSync, mkdtempSync, writeFileSync, rmSync } from 'node:fs';
@@ -73,7 +73,7 @@ const measure = (p) => p.evaluate(() => {
     if (r.height < 23.5 || r.width < 23.5) small.push(`${e.tagName}#${e.id || e.className}:${Math.round(r.width)}x${Math.round(r.height)}`);
   }
   const y = (s) => { const e = document.querySelector(s); if (!e) return null; const r = e.getBoundingClientRect(); return { top: Math.round(r.top + scrollY), bottom: Math.round(r.bottom + scrollY) }; };
-  return { over: de.scrollWidth - de.clientWidth, small, apply: y('.apply'), href: document.querySelector('.apply')?.getAttribute('href'), mac: y('.req li'), fold: innerHeight, H: de.scrollHeight };
+  return { over: de.scrollWidth - de.clientWidth, small, apply: y('.apply'), href: document.querySelector('.apply')?.getAttribute('href'), mac: y('.req li'), beatOver: Math.round(Math.max(...[...document.querySelectorAll('.tagline .beat')].map((b) => { const g = document.createRange(); g.selectNodeContents(b); return Math.max(...[...g.getClientRects()].map((x) => x.right)); })) - document.querySelector('.intro').getBoundingClientRect().right), fold: innerHeight, H: de.scrollHeight };
 });
 
 const record = (name, info, bad) => {
@@ -87,7 +87,7 @@ const record = (name, info, bad) => {
 const SURVEY = { fi: 'https://join.koivupiilo.fi/ratametsuri/q/course-setters', en: 'https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en' };
 
 // 1. The page across the matrix.
-for (const lang of ['fi', 'en']) for (const [w, h] of [[390, 844], [1440, 900]]) for (const scheme of ['light', 'dark']) for (const xl of w === 390 ? [false, true] : [false]) {
+for (const lang of ['fi', 'en']) for (const [w, h] of [[390, 844], [768, 1024], [1440, 900], [1920, 1080]]) for (const scheme of ['light', 'dark']) for (const xl of w === 390 ? [false, true] : [false]) {
   const opts = { viewport: { width: w, height: h }, colorScheme: scheme, reducedMotion: 'reduce' };
   const ctx = xl ? await chromium.launchPersistentContext(xlDir, { ...opts, executablePath: CHROME }) : await browser.newContext(opts);
   await block(ctx);
@@ -101,7 +101,8 @@ for (const lang of ['fi', 'en']) for (const [w, h] of [[390, 844], [1440, 900]])
   if (!xl) await p.screenshot({ path: join(shots, name + '-first-screen.png') });
   record(name, info, bad);
   if (info.href !== SURVEY[lang]) failures.push(`${name}: the beta link goes to ${info.href}`);
-  if (!xl && info.apply.bottom > h) failures.push(`${name}: the beta link ends at ${info.apply.bottom}, below the ${h}px ${w === 390 ? 'first screen' : 'fold'}`);
+  if (!xl && [390, 1440].includes(w) && info.apply.bottom > h) failures.push(`${name}: the beta link ends at ${info.apply.bottom}, below the ${h}px ${w === 390 ? 'first screen' : 'fold'}`);
+  if (info.beatOver > 0) failures.push(`${name}: the tagline runs ${info.beatOver}px past its column`);
   if (!xl && w === 1440 && info.mac.bottom > h) failures.push(`${name}: the Mac line ends at ${info.mac.bottom}, below the ${h}px fold`);
   await ctx.close();
 }

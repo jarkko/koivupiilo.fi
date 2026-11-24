@@ -261,7 +261,7 @@ Technologist", "three core service areas", "Fortune 500", "success stories",
   Supersedes: D25's email field on the page, and the kit form script it loaded.
   Changed: Product page row in Places; Product non-goals; `src/_layouts/ratametsuri.erb`,
   `src/ratametsuri/style.css`, `src/_data/ratametsuri/{fi,en}.yml`;
-  `design/shoot-ratametsuri-site.mjs`; `docs/design/kit.toml` comments; the privacy page.
+  `design/shoot-ratametsuri-site.mjs`; `docs/design/kit.toml` comments.
   Evidence: anecdote or opinion: Jarkko: "a user that takes the minute to respond
   to the survey is a beta user we'd much rather have, considering we only take a
   limited number to begin with." and "we do not have to say how many we invite.

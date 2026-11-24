@@ -132,7 +132,7 @@ ol,ul{padding:0;list-style:none}
   .nb{white-space:normal}
 }
 
-/* Phone: the finish is at the end of the features. Desktop: at the request, as drawn. */
+/* The finish is at the end of the features; the one in the beta heading stays hidden. */
 .sym.at-form{display:none}
 
 /* Phone: a little tighter, so the beta link still ends on the first 390x844 screen under the longer
@@ -141,7 +141,7 @@ ol,ul{padding:0;list-style:none}
   .intro{margin-top:.9rem}
   .what,.lead,.req ul{font-size:1rem;line-height:1.45}
   .shot,.req{margin-top:1rem}
-  .win{aspect-ratio:2/1} /* the phone crop: start, control 1 and the finish */
+  .win{aspect-ratio:2/1} /* the phone crop: start, controls 1, 2 and 11, and the finish */
   .beta{margin-top:1.25rem}
 }
 

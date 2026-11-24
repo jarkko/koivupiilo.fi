@@ -10,7 +10,6 @@
   privacy = site.data.routes.privacy[lang]
   origin = site.config.url
   join = "https://join.koivupiilo.fi/ratametsuri"
-  email = site.data.company.email
   locale = { "fi" => "fi_FI", "en" => "en_GB" }
 
   # Line breaking only, never wording: soft hyphens at Finnish compound boundaries (hyphens:auto
@@ -105,7 +104,7 @@
     <figure class="shot">
       <div class="frame"><div class="win">
         <%# Widths for the slot the window has (sizes): a phone takes the 640 or 960 px crop rather than
-            the 1200 px one. Low priority: on a phone the text above it is the first screen's content
+            the 1920 px one. Low priority: on a phone the text above it is the first screen's content
             and must not share the network with a map; the desktop preload in <head> outranks this. %>
         <picture>
           <source media="(max-width: 35.99rem)" srcset="<%= phone_set %>" sizes="<%= phone_sizes %>" width="1140" height="570">
@@ -144,7 +143,7 @@
         </li>
         <% end %>
       </ol>
-      <%# On a phone the request sits above the features, so the course finishes here instead. %>
+      <%# The course finishes after the features at every width (the request sits above them). %>
       <div class="rail-end"><%== finish.("at-end", nil) %></div>
     </section>
   </main>
