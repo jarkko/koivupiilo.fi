@@ -52,7 +52,7 @@ imagery = "No photos or video ship from src/; design/assets/photos/PROVENANCE.md
 tokens = "No chosen production token source yet; the directions use CSS custom properties. Enable DTCG tokens when the owner chooses the direction (process.md phases 3-5)."
 lint = "Needs tokens; enable design lint with the chosen production token source."
 # The old native haptics and full user-object lifecycle exclusions still apply to this static web site;
-# neither is a ds module. Real pages serve as feel prototypes. No saved user state; the one form (the Ratametsuri sign-up) posts to launchpad.
+# neither is a ds module. Real pages serve as feel prototypes. No saved user state; the Ratametsuri beta links to launchpad's survey (D27).
 # Outside testers remain optional at R1 (brief.md A2/A4); feedback stays on.
 # The old model_check_ci exclusion expired: ds now checks the model, with D20 accepting existing gaps.
 
@@ -154,7 +154,7 @@ routes = [
 # ready = "main[data-ready]"          # wait for this before measuring
 # Third-party origins the pages may load. Everything else is blocked and reported.
 allow_origins = [
-  { origin = "https://join.koivupiilo.fi", reason = "launchpad, our own sign-up service: the Ratametsuri form posts to it and loads its kit/form.js and fill-time token" },
+  { origin = "https://join.koivupiilo.fi", reason = "launchpad, our own sign-up service: the Ratametsuri beta link goes to its survey (D27)" },
 ]
 # Files that can change a rendered page (default: ui_globs).
 # src/ is listed folder by folder so that src/kvnn/ (see ignore_globs) re-runs no web check:

@@ -42,7 +42,7 @@ language link. Footer: email, business ID, imprint, language link.
 | Offers | `/palvelut/` | `/en/services/` | Find the matching offer and how it starts (J2, J3) | See proof per offer | — | Medium: three blocks |
 | About | `/tietoa/` | `/en/about/` | Verify the person (J4, J5) | — | Business ID | Low |
 | Contact | `/yhteys/` | `/en/contact/` | Write a good first email (J1–J3) | Other channels | Imprint | Low |
-| Product page (D24) | `/ratametsuri/` | `/en/ratametsuri/` | See what Ratametsuri does and ask for the beta | Check the Mac it needs | Read what happens to the address | Low: one screen, a few lines, one field |
+| Product page (D24) | `/ratametsuri/` | `/en/ratametsuri/` | See what Ratametsuri does and ask for the beta | Check the Mac it needs | Apply through the survey (D27) | Low: one screen, a few lines, one link |
 | 404 | `/404.html` | — | Get back on track, in both languages | | | Minimal |
 
 ## Trust moments
@@ -95,7 +95,7 @@ language link. Footer: email, business ID, imprint, language link.
 
 ## Product non-goals
 
-Blog, contact form (the beta request field is the one exception, D25), booking, newsletter, CMS, client logos, theme toggle.
+Blog, contact form (the beta is applied for on launchpad's survey, D27), booking, newsletter, CMS, client logos, theme toggle.
 
 ## Decisions
 
@@ -252,3 +252,19 @@ Technologist", "three core service areas", "Fortune 500", "success stories",
   membership fee.
   Dissent: the agent recommended Koivupiilo Oy's own membership so that the
   developer name matches the company that runs the page.
+
+- **D27 (2026-11-24, Jarkko).** The Ratametsuri beta is a private beta, applied
+  for through launchpad's course setters' survey
+  (`join.koivupiilo.fi/ratametsuri/q/course-setters`). The page links to it
+  ("Hae betaan"); the survey holds the email address and the consent. The page
+  says only "private beta": no number of places, no selection mechanics.
+  Supersedes: D25's email field on the page, and the kit form script it loaded.
+  Changed: Product page row in Places; Product non-goals; `src/_layouts/ratametsuri.erb`,
+  `src/ratametsuri/style.css`, `src/_data/ratametsuri/{fi,en}.yml`;
+  `design/shoot-ratametsuri-site.mjs`; `docs/design/kit.toml` comments; the privacy page.
+  Evidence: anecdote or opinion: Jarkko: "a user that takes the minute to respond
+  to the survey is a beta user we'd much rather have, considering we only take a
+  limited number to begin with." and "we do not have to say how many we invite.
+  just call it a private beta and be done with it".
+  Dissent: the agent first argued for keeping the email form for sign-up volume;
+  withdrawn, since volume is not the goal.
