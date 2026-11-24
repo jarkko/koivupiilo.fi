@@ -1,0 +1,2752 @@
+{
+ "cells": [
+  {
+   "name": "fi-390-light-font16",
+   "lang": "fi",
+   "sw": 390,
+   "cw": 390,
+   "bodyFont": "17px",
+   "headerH": 112,
+   "navItems": [
+    {
+     "t": "",
+     "href": "/",
+     "x": 44,
+     "y": 12,
+     "w": 97,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Tuotteet",
+     "href": "/tuotteet/",
+     "x": 36,
+     "y": 56,
+     "w": 72,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Studio",
+     "href": "/studio/",
+     "x": 108,
+     "y": 56,
+     "w": 59,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Valmennus",
+     "href": "/valmennus/",
+     "x": 167,
+     "y": 56,
+     "w": 90,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Yritys",
+     "href": "/yritys/",
+     "x": 257,
+     "y": 56,
+     "w": 54,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "English",
+     "href": "/en/privacy/",
+     "x": 318,
+     "y": 12,
+     "w": 64,
+     "h": 44,
+     "cur": null
+    }
+   ],
+   "footer": [
+    {
+     "t": "3458206-1",
+     "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+     "cur": null
+    },
+    {
+     "t": "jarkko@koivupiilo.fi",
+     "href": "mailto:jarkko@koivupiilo.fi",
+     "cur": null
+    },
+    {
+     "t": "Tietosuoja",
+     "href": "/tietosuoja/",
+     "cur": "page"
+    },
+    {
+     "t": "English",
+     "href": "/en/privacy/",
+     "cur": null
+    }
+   ],
+   "overlaps": [],
+   "wide": [],
+   "clipped": [],
+   "smallTargets": [
+    "3458206-1",
+    "jarkko@koivupiilo.fi"
+   ],
+   "axe": {
+    "v": [],
+    "inc": []
+   }
+  },
+  {
+   "name": "fi-390-dark-font16",
+   "lang": "fi",
+   "sw": 390,
+   "cw": 390,
+   "bodyFont": "17px",
+   "headerH": 112,
+   "navItems": [
+    {
+     "t": "",
+     "href": "/",
+     "x": 44,
+     "y": 12,
+     "w": 97,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Tuotteet",
+     "href": "/tuotteet/",
+     "x": 36,
+     "y": 56,
+     "w": 72,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Studio",
+     "href": "/studio/",
+     "x": 108,
+     "y": 56,
+     "w": 59,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Valmennus",
+     "href": "/valmennus/",
+     "x": 167,
+     "y": 56,
+     "w": 90,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Yritys",
+     "href": "/yritys/",
+     "x": 257,
+     "y": 56,
+     "w": 54,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "English",
+     "href": "/en/privacy/",
+     "x": 318,
+     "y": 12,
+     "w": 64,
+     "h": 44,
+     "cur": null
+    }
+   ],
+   "footer": [
+    {
+     "t": "3458206-1",
+     "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+     "cur": null
+    },
+    {
+     "t": "jarkko@koivupiilo.fi",
+     "href": "mailto:jarkko@koivupiilo.fi",
+     "cur": null
+    },
+    {
+     "t": "Tietosuoja",
+     "href": "/tietosuoja/",
+     "cur": "page"
+    },
+    {
+     "t": "English",
+     "href": "/en/privacy/",
+     "cur": null
+    }
+   ],
+   "overlaps": [],
+   "wide": [],
+   "clipped": [],
+   "smallTargets": [
+    "3458206-1",
+    "jarkko@koivupiilo.fi"
+   ],
+   "axe": {
+    "v": [],
+    "inc": []
+   }
+  },
+  {
+   "name": "fi-1440-light-font16",
+   "lang": "fi",
+   "sw": 1440,
+   "cw": 1440,
+   "bodyFont": "17px",
+   "headerH": 92,
+   "navItems": [
+    {
+     "t": "",
+     "href": "/",
+     "x": 120,
+     "y": 24,
+     "w": 97,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Tuotteet",
+     "href": "/tuotteet/",
+     "x": 998,
+     "y": 24,
+     "w": 72,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Studio",
+     "href": "/studio/",
+     "x": 1078,
+     "y": 24,
+     "w": 59,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Valmennus",
+     "href": "/valmennus/",
+     "x": 1145,
+     "y": 24,
+     "w": 90,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Yritys",
+     "href": "/yritys/",
+     "x": 1243,
+     "y": 24,
+     "w": 54,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "English",
+     "href": "/en/privacy/",
+     "x": 1328,
+     "y": 24,
+     "w": 64,
+     "h": 44,
+     "cur": null
+    }
+   ],
+   "footer": [
+    {
+     "t": "3458206-1",
+     "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+     "cur": null
+    },
+    {
+     "t": "jarkko@koivupiilo.fi",
+     "href": "mailto:jarkko@koivupiilo.fi",
+     "cur": null
+    },
+    {
+     "t": "Tietosuoja",
+     "href": "/tietosuoja/",
+     "cur": "page"
+    },
+    {
+     "t": "English",
+     "href": "/en/privacy/",
+     "cur": null
+    }
+   ],
+   "overlaps": [],
+   "wide": [],
+   "clipped": [],
+   "smallTargets": [
+    "3458206-1",
+    "jarkko@koivupiilo.fi"
+   ],
+   "axe": {
+    "v": [],
+    "inc": []
+   }
+  },
+  {
+   "name": "fi-1440-dark-font16",
+   "lang": "fi",
+   "sw": 1440,
+   "cw": 1440,
+   "bodyFont": "17px",
+   "headerH": 92,
+   "navItems": [
+    {
+     "t": "",
+     "href": "/",
+     "x": 120,
+     "y": 24,
+     "w": 97,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Tuotteet",
+     "href": "/tuotteet/",
+     "x": 998,
+     "y": 24,
+     "w": 72,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Studio",
+     "href": "/studio/",
+     "x": 1078,
+     "y": 24,
+     "w": 59,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Valmennus",
+     "href": "/valmennus/",
+     "x": 1145,
+     "y": 24,
+     "w": 90,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Yritys",
+     "href": "/yritys/",
+     "x": 1243,
+     "y": 24,
+     "w": 54,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "English",
+     "href": "/en/privacy/",
+     "x": 1328,
+     "y": 24,
+     "w": 64,
+     "h": 44,
+     "cur": null
+    }
+   ],
+   "footer": [
+    {
+     "t": "3458206-1",
+     "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+     "cur": null
+    },
+    {
+     "t": "jarkko@koivupiilo.fi",
+     "href": "mailto:jarkko@koivupiilo.fi",
+     "cur": null
+    },
+    {
+     "t": "Tietosuoja",
+     "href": "/tietosuoja/",
+     "cur": "page"
+    },
+    {
+     "t": "English",
+     "href": "/en/privacy/",
+     "cur": null
+    }
+   ],
+   "overlaps": [],
+   "wide": [],
+   "clipped": [],
+   "smallTargets": [
+    "3458206-1",
+    "jarkko@koivupiilo.fi"
+   ],
+   "axe": {
+    "v": [],
+    "inc": []
+   }
+  },
+  {
+   "name": "en-390-light-font16",
+   "lang": "en",
+   "sw": 390,
+   "cw": 390,
+   "bodyFont": "17px",
+   "headerH": 112,
+   "navItems": [
+    {
+     "t": "",
+     "href": "/en/",
+     "x": 44,
+     "y": 12,
+     "w": 97,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Products",
+     "href": "/en/products/",
+     "x": 36,
+     "y": 56,
+     "w": 76,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Studio",
+     "href": "/en/studio/",
+     "x": 112,
+     "y": 56,
+     "w": 59,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Coaching",
+     "href": "/en/coaching/",
+     "x": 171,
+     "y": 56,
+     "w": 79,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Company",
+     "href": "/en/company/",
+     "x": 250,
+     "y": 56,
+     "w": 81,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Suomeksi",
+     "href": "/tietosuoja/",
+     "x": 301,
+     "y": 12,
+     "w": 81,
+     "h": 44,
+     "cur": null
+    }
+   ],
+   "footer": [
+    {
+     "t": "3458206-1",
+     "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+     "cur": null
+    },
+    {
+     "t": "jarkko@koivupiilo.fi",
+     "href": "mailto:jarkko@koivupiilo.fi",
+     "cur": null
+    },
+    {
+     "t": "Privacy",
+     "href": "/en/privacy/",
+     "cur": "page"
+    },
+    {
+     "t": "Suomeksi",
+     "href": "/tietosuoja/",
+     "cur": null
+    }
+   ],
+   "overlaps": [],
+   "wide": [],
+   "clipped": [],
+   "smallTargets": [
+    "3458206-1",
+    "jarkko@koivupiilo.fi"
+   ],
+   "axe": {
+    "v": [],
+    "inc": []
+   }
+  },
+  {
+   "name": "en-390-dark-font16",
+   "lang": "en",
+   "sw": 390,
+   "cw": 390,
+   "bodyFont": "17px",
+   "headerH": 112,
+   "navItems": [
+    {
+     "t": "",
+     "href": "/en/",
+     "x": 44,
+     "y": 12,
+     "w": 97,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Products",
+     "href": "/en/products/",
+     "x": 36,
+     "y": 56,
+     "w": 76,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Studio",
+     "href": "/en/studio/",
+     "x": 112,
+     "y": 56,
+     "w": 59,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Coaching",
+     "href": "/en/coaching/",
+     "x": 171,
+     "y": 56,
+     "w": 79,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Company",
+     "href": "/en/company/",
+     "x": 250,
+     "y": 56,
+     "w": 81,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Suomeksi",
+     "href": "/tietosuoja/",
+     "x": 301,
+     "y": 12,
+     "w": 81,
+     "h": 44,
+     "cur": null
+    }
+   ],
+   "footer": [
+    {
+     "t": "3458206-1",
+     "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+     "cur": null
+    },
+    {
+     "t": "jarkko@koivupiilo.fi",
+     "href": "mailto:jarkko@koivupiilo.fi",
+     "cur": null
+    },
+    {
+     "t": "Privacy",
+     "href": "/en/privacy/",
+     "cur": "page"
+    },
+    {
+     "t": "Suomeksi",
+     "href": "/tietosuoja/",
+     "cur": null
+    }
+   ],
+   "overlaps": [],
+   "wide": [],
+   "clipped": [],
+   "smallTargets": [
+    "3458206-1",
+    "jarkko@koivupiilo.fi"
+   ],
+   "axe": {
+    "v": [],
+    "inc": []
+   }
+  },
+  {
+   "name": "en-1440-light-font16",
+   "lang": "en",
+   "sw": 1440,
+   "cw": 1440,
+   "bodyFont": "17px",
+   "headerH": 92,
+   "navItems": [
+    {
+     "t": "",
+     "href": "/en/",
+     "x": 120,
+     "y": 24,
+     "w": 97,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Products",
+     "href": "/en/products/",
+     "x": 961,
+     "y": 24,
+     "w": 76,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Studio",
+     "href": "/en/studio/",
+     "x": 1045,
+     "y": 24,
+     "w": 59,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Coaching",
+     "href": "/en/coaching/",
+     "x": 1112,
+     "y": 24,
+     "w": 79,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Company",
+     "href": "/en/company/",
+     "x": 1199,
+     "y": 24,
+     "w": 81,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Suomeksi",
+     "href": "/tietosuoja/",
+     "x": 1311,
+     "y": 24,
+     "w": 81,
+     "h": 44,
+     "cur": null
+    }
+   ],
+   "footer": [
+    {
+     "t": "3458206-1",
+     "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+     "cur": null
+    },
+    {
+     "t": "jarkko@koivupiilo.fi",
+     "href": "mailto:jarkko@koivupiilo.fi",
+     "cur": null
+    },
+    {
+     "t": "Privacy",
+     "href": "/en/privacy/",
+     "cur": "page"
+    },
+    {
+     "t": "Suomeksi",
+     "href": "/tietosuoja/",
+     "cur": null
+    }
+   ],
+   "overlaps": [],
+   "wide": [],
+   "clipped": [],
+   "smallTargets": [
+    "3458206-1",
+    "jarkko@koivupiilo.fi"
+   ],
+   "axe": {
+    "v": [],
+    "inc": []
+   }
+  },
+  {
+   "name": "en-1440-dark-font16",
+   "lang": "en",
+   "sw": 1440,
+   "cw": 1440,
+   "bodyFont": "17px",
+   "headerH": 92,
+   "navItems": [
+    {
+     "t": "",
+     "href": "/en/",
+     "x": 120,
+     "y": 24,
+     "w": 97,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Products",
+     "href": "/en/products/",
+     "x": 961,
+     "y": 24,
+     "w": 76,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Studio",
+     "href": "/en/studio/",
+     "x": 1045,
+     "y": 24,
+     "w": 59,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Coaching",
+     "href": "/en/coaching/",
+     "x": 1112,
+     "y": 24,
+     "w": 79,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Company",
+     "href": "/en/company/",
+     "x": 1199,
+     "y": 24,
+     "w": 81,
+     "h": 44,
+     "cur": null
+    },
+    {
+     "t": "Suomeksi",
+     "href": "/tietosuoja/",
+     "x": 1311,
+     "y": 24,
+     "w": 81,
+     "h": 44,
+     "cur": null
+    }
+   ],
+   "footer": [
+    {
+     "t": "3458206-1",
+     "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+     "cur": null
+    },
+    {
+     "t": "jarkko@koivupiilo.fi",
+     "href": "mailto:jarkko@koivupiilo.fi",
+     "cur": null
+    },
+    {
+     "t": "Privacy",
+     "href": "/en/privacy/",
+     "cur": "page"
+    },
+    {
+     "t": "Suomeksi",
+     "href": "/tietosuoja/",
+     "cur": null
+    }
+   ],
+   "overlaps": [],
+   "wide": [],
+   "clipped": [],
+   "smallTargets": [
+    "3458206-1",
+    "jarkko@koivupiilo.fi"
+   ],
+   "axe": {
+    "v": [],
+    "inc": []
+   }
+  },
+  {
+   "name": "fi-390-light-font24",
+   "lang": "fi",
+   "sw": 390,
+   "cw": 390,
+   "bodyFont": "25.5px",
+   "headerH": 234,
+   "navItems": [
+    {
+     "t": "",
+     "href": "/",
+     "x": 52,
+     "y": 18,
+     "w": 145,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Tuotteet",
+     "href": "/tuotteet/",
+     "x": 40,
+     "y": 84,
+     "w": 109,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Studio",
+     "href": "/studio/",
+     "x": 149,
+     "y": 84,
+     "w": 88,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Valmennus",
+     "href": "/valmennus/",
+     "x": 236,
+     "y": 84,
+     "w": 134,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Yritys",
+     "href": "/yritys/",
+     "x": 40,
+     "y": 150,
+     "w": 81,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "English",
+     "href": "/en/privacy/",
+     "x": 282,
+     "y": 18,
+     "w": 96,
+     "h": 66,
+     "cur": null
+    }
+   ],
+   "footer": [
+    {
+     "t": "3458206-1",
+     "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+     "cur": null
+    },
+    {
+     "t": "jarkko@koivupiilo.fi",
+     "href": "mailto:jarkko@koivupiilo.fi",
+     "cur": null
+    },
+    {
+     "t": "Tietosuoja",
+     "href": "/tietosuoja/",
+     "cur": "page"
+    },
+    {
+     "t": "English",
+     "href": "/en/privacy/",
+     "cur": null
+    }
+   ],
+   "overlaps": [
+    "Studio/Valmennus"
+   ],
+   "wide": [],
+   "clipped": [],
+   "smallTargets": [],
+   "axe": {
+    "v": [],
+    "inc": []
+   }
+  },
+  {
+   "name": "fi-390-dark-font24",
+   "lang": "fi",
+   "sw": 390,
+   "cw": 390,
+   "bodyFont": "25.5px",
+   "headerH": 234,
+   "navItems": [
+    {
+     "t": "",
+     "href": "/",
+     "x": 52,
+     "y": 18,
+     "w": 145,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Tuotteet",
+     "href": "/tuotteet/",
+     "x": 40,
+     "y": 84,
+     "w": 109,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Studio",
+     "href": "/studio/",
+     "x": 149,
+     "y": 84,
+     "w": 88,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Valmennus",
+     "href": "/valmennus/",
+     "x": 236,
+     "y": 84,
+     "w": 134,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Yritys",
+     "href": "/yritys/",
+     "x": 40,
+     "y": 150,
+     "w": 81,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "English",
+     "href": "/en/privacy/",
+     "x": 282,
+     "y": 18,
+     "w": 96,
+     "h": 66,
+     "cur": null
+    }
+   ],
+   "footer": [
+    {
+     "t": "3458206-1",
+     "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+     "cur": null
+    },
+    {
+     "t": "jarkko@koivupiilo.fi",
+     "href": "mailto:jarkko@koivupiilo.fi",
+     "cur": null
+    },
+    {
+     "t": "Tietosuoja",
+     "href": "/tietosuoja/",
+     "cur": "page"
+    },
+    {
+     "t": "English",
+     "href": "/en/privacy/",
+     "cur": null
+    }
+   ],
+   "overlaps": [
+    "Studio/Valmennus"
+   ],
+   "wide": [],
+   "clipped": [],
+   "smallTargets": [],
+   "axe": {
+    "v": [],
+    "inc": []
+   }
+  },
+  {
+   "name": "fi-1440-light-font24",
+   "lang": "fi",
+   "sw": 1440,
+   "cw": 1440,
+   "bodyFont": "25.5px",
+   "headerH": 138,
+   "navItems": [
+    {
+     "t": "",
+     "href": "/",
+     "x": 108,
+     "y": 36,
+     "w": 145,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Tuotteet",
+     "href": "/tuotteet/",
+     "x": 801,
+     "y": 36,
+     "w": 109,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Studio",
+     "href": "/studio/",
+     "x": 922,
+     "y": 36,
+     "w": 88,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Valmennus",
+     "href": "/valmennus/",
+     "x": 1021,
+     "y": 36,
+     "w": 134,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Yritys",
+     "href": "/yritys/",
+     "x": 1168,
+     "y": 36,
+     "w": 81,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "English",
+     "href": "/en/privacy/",
+     "x": 1296,
+     "y": 36,
+     "w": 96,
+     "h": 66,
+     "cur": null
+    }
+   ],
+   "footer": [
+    {
+     "t": "3458206-1",
+     "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+     "cur": null
+    },
+    {
+     "t": "jarkko@koivupiilo.fi",
+     "href": "mailto:jarkko@koivupiilo.fi",
+     "cur": null
+    },
+    {
+     "t": "Tietosuoja",
+     "href": "/tietosuoja/",
+     "cur": "page"
+    },
+    {
+     "t": "English",
+     "href": "/en/privacy/",
+     "cur": null
+    }
+   ],
+   "overlaps": [],
+   "wide": [],
+   "clipped": [],
+   "smallTargets": [],
+   "axe": {
+    "v": [],
+    "inc": []
+   }
+  },
+  {
+   "name": "fi-1440-dark-font24",
+   "lang": "fi",
+   "sw": 1440,
+   "cw": 1440,
+   "bodyFont": "25.5px",
+   "headerH": 138,
+   "navItems": [
+    {
+     "t": "",
+     "href": "/",
+     "x": 108,
+     "y": 36,
+     "w": 145,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Tuotteet",
+     "href": "/tuotteet/",
+     "x": 801,
+     "y": 36,
+     "w": 109,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Studio",
+     "href": "/studio/",
+     "x": 922,
+     "y": 36,
+     "w": 88,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Valmennus",
+     "href": "/valmennus/",
+     "x": 1021,
+     "y": 36,
+     "w": 134,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Yritys",
+     "href": "/yritys/",
+     "x": 1168,
+     "y": 36,
+     "w": 81,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "English",
+     "href": "/en/privacy/",
+     "x": 1296,
+     "y": 36,
+     "w": 96,
+     "h": 66,
+     "cur": null
+    }
+   ],
+   "footer": [
+    {
+     "t": "3458206-1",
+     "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+     "cur": null
+    },
+    {
+     "t": "jarkko@koivupiilo.fi",
+     "href": "mailto:jarkko@koivupiilo.fi",
+     "cur": null
+    },
+    {
+     "t": "Tietosuoja",
+     "href": "/tietosuoja/",
+     "cur": "page"
+    },
+    {
+     "t": "English",
+     "href": "/en/privacy/",
+     "cur": null
+    }
+   ],
+   "overlaps": [],
+   "wide": [],
+   "clipped": [],
+   "smallTargets": [],
+   "axe": {
+    "v": [],
+    "inc": []
+   }
+  },
+  {
+   "name": "en-390-light-font24",
+   "lang": "en",
+   "sw": 390,
+   "cw": 390,
+   "bodyFont": "25.5px",
+   "headerH": 234,
+   "navItems": [
+    {
+     "t": "",
+     "href": "/en/",
+     "x": 52,
+     "y": 18,
+     "w": 145,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Products",
+     "href": "/en/products/",
+     "x": 40,
+     "y": 84,
+     "w": 114,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Studio",
+     "href": "/en/studio/",
+     "x": 154,
+     "y": 84,
+     "w": 88,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Coaching",
+     "href": "/en/coaching/",
+     "x": 242,
+     "y": 84,
+     "w": 118,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Company",
+     "href": "/en/company/",
+     "x": 40,
+     "y": 150,
+     "w": 121,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Suomeksi",
+     "href": "/tietosuoja/",
+     "x": 257,
+     "y": 18,
+     "w": 121,
+     "h": 66,
+     "cur": null
+    }
+   ],
+   "footer": [
+    {
+     "t": "3458206-1",
+     "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+     "cur": null
+    },
+    {
+     "t": "jarkko@koivupiilo.fi",
+     "href": "mailto:jarkko@koivupiilo.fi",
+     "cur": null
+    },
+    {
+     "t": "Privacy",
+     "href": "/en/privacy/",
+     "cur": "page"
+    },
+    {
+     "t": "Suomeksi",
+     "href": "/tietosuoja/",
+     "cur": null
+    }
+   ],
+   "overlaps": [],
+   "wide": [],
+   "clipped": [],
+   "smallTargets": [],
+   "axe": {
+    "v": [],
+    "inc": []
+   }
+  },
+  {
+   "name": "en-390-dark-font24",
+   "lang": "en",
+   "sw": 390,
+   "cw": 390,
+   "bodyFont": "25.5px",
+   "headerH": 234,
+   "navItems": [
+    {
+     "t": "",
+     "href": "/en/",
+     "x": 52,
+     "y": 18,
+     "w": 145,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Products",
+     "href": "/en/products/",
+     "x": 40,
+     "y": 84,
+     "w": 114,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Studio",
+     "href": "/en/studio/",
+     "x": 154,
+     "y": 84,
+     "w": 88,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Coaching",
+     "href": "/en/coaching/",
+     "x": 242,
+     "y": 84,
+     "w": 118,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Company",
+     "href": "/en/company/",
+     "x": 40,
+     "y": 150,
+     "w": 121,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Suomeksi",
+     "href": "/tietosuoja/",
+     "x": 257,
+     "y": 18,
+     "w": 121,
+     "h": 66,
+     "cur": null
+    }
+   ],
+   "footer": [
+    {
+     "t": "3458206-1",
+     "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+     "cur": null
+    },
+    {
+     "t": "jarkko@koivupiilo.fi",
+     "href": "mailto:jarkko@koivupiilo.fi",
+     "cur": null
+    },
+    {
+     "t": "Privacy",
+     "href": "/en/privacy/",
+     "cur": "page"
+    },
+    {
+     "t": "Suomeksi",
+     "href": "/tietosuoja/",
+     "cur": null
+    }
+   ],
+   "overlaps": [],
+   "wide": [],
+   "clipped": [],
+   "smallTargets": [],
+   "axe": {
+    "v": [],
+    "inc": []
+   }
+  },
+  {
+   "name": "en-1440-light-font24",
+   "lang": "en",
+   "sw": 1440,
+   "cw": 1440,
+   "bodyFont": "25.5px",
+   "headerH": 138,
+   "navItems": [
+    {
+     "t": "",
+     "href": "/en/",
+     "x": 108,
+     "y": 36,
+     "w": 145,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Products",
+     "href": "/en/products/",
+     "x": 746,
+     "y": 36,
+     "w": 114,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Studio",
+     "href": "/en/studio/",
+     "x": 872,
+     "y": 36,
+     "w": 88,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Coaching",
+     "href": "/en/coaching/",
+     "x": 972,
+     "y": 36,
+     "w": 118,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Company",
+     "href": "/en/company/",
+     "x": 1102,
+     "y": 36,
+     "w": 121,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Suomeksi",
+     "href": "/tietosuoja/",
+     "x": 1271,
+     "y": 36,
+     "w": 121,
+     "h": 66,
+     "cur": null
+    }
+   ],
+   "footer": [
+    {
+     "t": "3458206-1",
+     "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+     "cur": null
+    },
+    {
+     "t": "jarkko@koivupiilo.fi",
+     "href": "mailto:jarkko@koivupiilo.fi",
+     "cur": null
+    },
+    {
+     "t": "Privacy",
+     "href": "/en/privacy/",
+     "cur": "page"
+    },
+    {
+     "t": "Suomeksi",
+     "href": "/tietosuoja/",
+     "cur": null
+    }
+   ],
+   "overlaps": [],
+   "wide": [],
+   "clipped": [],
+   "smallTargets": [],
+   "axe": {
+    "v": [],
+    "inc": []
+   }
+  },
+  {
+   "name": "en-1440-dark-font24",
+   "lang": "en",
+   "sw": 1440,
+   "cw": 1440,
+   "bodyFont": "25.5px",
+   "headerH": 138,
+   "navItems": [
+    {
+     "t": "",
+     "href": "/en/",
+     "x": 108,
+     "y": 36,
+     "w": 145,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Products",
+     "href": "/en/products/",
+     "x": 746,
+     "y": 36,
+     "w": 114,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Studio",
+     "href": "/en/studio/",
+     "x": 872,
+     "y": 36,
+     "w": 88,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Coaching",
+     "href": "/en/coaching/",
+     "x": 972,
+     "y": 36,
+     "w": 118,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Company",
+     "href": "/en/company/",
+     "x": 1102,
+     "y": 36,
+     "w": 121,
+     "h": 66,
+     "cur": null
+    },
+    {
+     "t": "Suomeksi",
+     "href": "/tietosuoja/",
+     "x": 1271,
+     "y": 36,
+     "w": 121,
+     "h": 66,
+     "cur": null
+    }
+   ],
+   "footer": [
+    {
+     "t": "3458206-1",
+     "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+     "cur": null
+    },
+    {
+     "t": "jarkko@koivupiilo.fi",
+     "href": "mailto:jarkko@koivupiilo.fi",
+     "cur": null
+    },
+    {
+     "t": "Privacy",
+     "href": "/en/privacy/",
+     "cur": "page"
+    },
+    {
+     "t": "Suomeksi",
+     "href": "/tietosuoja/",
+     "cur": null
+    }
+   ],
+   "overlaps": [],
+   "wide": [],
+   "clipped": [],
+   "smallTargets": [],
+   "axe": {
+    "v": [],
+    "inc": []
+   }
+  },
+  {
+   "name": "fi-390-light-font32",
+   "lang": "fi",
+   "sw": 390,
+   "cw": 390,
+   "bodyFont": "34px",
+   "headerH": 312,
+   "navItems": [
+    {
+     "t": "",
+     "href": "/",
+     "x": 60,
+     "y": 24,
+     "w": 194,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Tuotteet",
+     "href": "/tuotteet/",
+     "x": 44,
+     "y": 112,
+     "w": 145,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Studio",
+     "href": "/studio/",
+     "x": 189,
+     "y": 112,
+     "w": 117,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Valmennus",
+     "href": "/valmennus/",
+     "x": 44,
+     "y": 200,
+     "w": 179,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Yritys",
+     "href": "/yritys/",
+     "x": 223,
+     "y": 200,
+     "w": 108,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "English",
+     "href": "/en/privacy/",
+     "x": 247,
+     "y": 24,
+     "w": 127,
+     "h": 88,
+     "cur": null
+    }
+   ],
+   "footer": [
+    {
+     "t": "3458206-1",
+     "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+     "cur": null
+    },
+    {
+     "t": "jarkko@koivupiilo.fi",
+     "href": "mailto:jarkko@koivupiilo.fi",
+     "cur": null
+    },
+    {
+     "t": "Tietosuoja",
+     "href": "/tietosuoja/",
+     "cur": "page"
+    },
+    {
+     "t": "English",
+     "href": "/en/privacy/",
+     "cur": null
+    }
+   ],
+   "overlaps": [
+    "/English"
+   ],
+   "wide": [],
+   "clipped": [],
+   "smallTargets": [],
+   "axe": {
+    "v": [],
+    "inc": []
+   }
+  },
+  {
+   "name": "fi-390-dark-font32",
+   "lang": "fi",
+   "sw": 390,
+   "cw": 390,
+   "bodyFont": "34px",
+   "headerH": 312,
+   "navItems": [
+    {
+     "t": "",
+     "href": "/",
+     "x": 60,
+     "y": 24,
+     "w": 194,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Tuotteet",
+     "href": "/tuotteet/",
+     "x": 44,
+     "y": 112,
+     "w": 145,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Studio",
+     "href": "/studio/",
+     "x": 189,
+     "y": 112,
+     "w": 117,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Valmennus",
+     "href": "/valmennus/",
+     "x": 44,
+     "y": 200,
+     "w": 179,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Yritys",
+     "href": "/yritys/",
+     "x": 223,
+     "y": 200,
+     "w": 108,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "English",
+     "href": "/en/privacy/",
+     "x": 247,
+     "y": 24,
+     "w": 127,
+     "h": 88,
+     "cur": null
+    }
+   ],
+   "footer": [
+    {
+     "t": "3458206-1",
+     "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+     "cur": null
+    },
+    {
+     "t": "jarkko@koivupiilo.fi",
+     "href": "mailto:jarkko@koivupiilo.fi",
+     "cur": null
+    },
+    {
+     "t": "Tietosuoja",
+     "href": "/tietosuoja/",
+     "cur": "page"
+    },
+    {
+     "t": "English",
+     "href": "/en/privacy/",
+     "cur": null
+    }
+   ],
+   "overlaps": [
+    "/English"
+   ],
+   "wide": [],
+   "clipped": [],
+   "smallTargets": [],
+   "axe": {
+    "v": [],
+    "inc": []
+   }
+  },
+  {
+   "name": "fi-1440-light-font32",
+   "lang": "fi",
+   "sw": 1440,
+   "cw": 1440,
+   "bodyFont": "34px",
+   "headerH": 184,
+   "navItems": [
+    {
+     "t": "",
+     "href": "/",
+     "x": 128,
+     "y": 48,
+     "w": 194,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Tuotteet",
+     "href": "/tuotteet/",
+     "x": 588,
+     "y": 48,
+     "w": 145,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Studio",
+     "href": "/studio/",
+     "x": 749,
+     "y": 48,
+     "w": 117,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Valmennus",
+     "href": "/valmennus/",
+     "x": 882,
+     "y": 48,
+     "w": 179,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Yritys",
+     "href": "/yritys/",
+     "x": 1077,
+     "y": 48,
+     "w": 108,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "English",
+     "href": "/en/privacy/",
+     "x": 1249,
+     "y": 48,
+     "w": 127,
+     "h": 88,
+     "cur": null
+    }
+   ],
+   "footer": [
+    {
+     "t": "3458206-1",
+     "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+     "cur": null
+    },
+    {
+     "t": "jarkko@koivupiilo.fi",
+     "href": "mailto:jarkko@koivupiilo.fi",
+     "cur": null
+    },
+    {
+     "t": "Tietosuoja",
+     "href": "/tietosuoja/",
+     "cur": "page"
+    },
+    {
+     "t": "English",
+     "href": "/en/privacy/",
+     "cur": null
+    }
+   ],
+   "overlaps": [],
+   "wide": [],
+   "clipped": [],
+   "smallTargets": [],
+   "axe": {
+    "v": [],
+    "inc": []
+   }
+  },
+  {
+   "name": "fi-1440-dark-font32",
+   "lang": "fi",
+   "sw": 1440,
+   "cw": 1440,
+   "bodyFont": "34px",
+   "headerH": 184,
+   "navItems": [
+    {
+     "t": "",
+     "href": "/",
+     "x": 128,
+     "y": 48,
+     "w": 194,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Tuotteet",
+     "href": "/tuotteet/",
+     "x": 588,
+     "y": 48,
+     "w": 145,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Studio",
+     "href": "/studio/",
+     "x": 749,
+     "y": 48,
+     "w": 117,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Valmennus",
+     "href": "/valmennus/",
+     "x": 882,
+     "y": 48,
+     "w": 179,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Yritys",
+     "href": "/yritys/",
+     "x": 1077,
+     "y": 48,
+     "w": 108,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "English",
+     "href": "/en/privacy/",
+     "x": 1249,
+     "y": 48,
+     "w": 127,
+     "h": 88,
+     "cur": null
+    }
+   ],
+   "footer": [
+    {
+     "t": "3458206-1",
+     "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+     "cur": null
+    },
+    {
+     "t": "jarkko@koivupiilo.fi",
+     "href": "mailto:jarkko@koivupiilo.fi",
+     "cur": null
+    },
+    {
+     "t": "Tietosuoja",
+     "href": "/tietosuoja/",
+     "cur": "page"
+    },
+    {
+     "t": "English",
+     "href": "/en/privacy/",
+     "cur": null
+    }
+   ],
+   "overlaps": [],
+   "wide": [],
+   "clipped": [],
+   "smallTargets": [],
+   "axe": {
+    "v": [],
+    "inc": []
+   }
+  },
+  {
+   "name": "en-390-light-font32",
+   "lang": "en",
+   "sw": 390,
+   "cw": 390,
+   "bodyFont": "34px",
+   "headerH": 312,
+   "navItems": [
+    {
+     "t": "",
+     "href": "/en/",
+     "x": 60,
+     "y": 24,
+     "w": 194,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Products",
+     "href": "/en/products/",
+     "x": 44,
+     "y": 112,
+     "w": 152,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Studio",
+     "href": "/en/studio/",
+     "x": 196,
+     "y": 112,
+     "w": 117,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Coaching",
+     "href": "/en/coaching/",
+     "x": 44,
+     "y": 200,
+     "w": 158,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Company",
+     "href": "/en/company/",
+     "x": 202,
+     "y": 200,
+     "w": 161,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Suomeksi",
+     "href": "/tietosuoja/",
+     "x": 213,
+     "y": 24,
+     "w": 161,
+     "h": 88,
+     "cur": null
+    }
+   ],
+   "footer": [
+    {
+     "t": "3458206-1",
+     "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+     "cur": null
+    },
+    {
+     "t": "jarkko@koivupiilo.fi",
+     "href": "mailto:jarkko@koivupiilo.fi",
+     "cur": null
+    },
+    {
+     "t": "Privacy",
+     "href": "/en/privacy/",
+     "cur": "page"
+    },
+    {
+     "t": "Suomeksi",
+     "href": "/tietosuoja/",
+     "cur": null
+    }
+   ],
+   "overlaps": [
+    "/Suomeksi"
+   ],
+   "wide": [],
+   "clipped": [],
+   "smallTargets": [],
+   "axe": {
+    "v": [],
+    "inc": []
+   }
+  },
+  {
+   "name": "en-390-dark-font32",
+   "lang": "en",
+   "sw": 390,
+   "cw": 390,
+   "bodyFont": "34px",
+   "headerH": 312,
+   "navItems": [
+    {
+     "t": "",
+     "href": "/en/",
+     "x": 60,
+     "y": 24,
+     "w": 194,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Products",
+     "href": "/en/products/",
+     "x": 44,
+     "y": 112,
+     "w": 152,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Studio",
+     "href": "/en/studio/",
+     "x": 196,
+     "y": 112,
+     "w": 117,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Coaching",
+     "href": "/en/coaching/",
+     "x": 44,
+     "y": 200,
+     "w": 158,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Company",
+     "href": "/en/company/",
+     "x": 202,
+     "y": 200,
+     "w": 161,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Suomeksi",
+     "href": "/tietosuoja/",
+     "x": 213,
+     "y": 24,
+     "w": 161,
+     "h": 88,
+     "cur": null
+    }
+   ],
+   "footer": [
+    {
+     "t": "3458206-1",
+     "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+     "cur": null
+    },
+    {
+     "t": "jarkko@koivupiilo.fi",
+     "href": "mailto:jarkko@koivupiilo.fi",
+     "cur": null
+    },
+    {
+     "t": "Privacy",
+     "href": "/en/privacy/",
+     "cur": "page"
+    },
+    {
+     "t": "Suomeksi",
+     "href": "/tietosuoja/",
+     "cur": null
+    }
+   ],
+   "overlaps": [
+    "/Suomeksi"
+   ],
+   "wide": [],
+   "clipped": [],
+   "smallTargets": [],
+   "axe": {
+    "v": [],
+    "inc": []
+   }
+  },
+  {
+   "name": "en-1440-light-font32",
+   "lang": "en",
+   "sw": 1440,
+   "cw": 1440,
+   "bodyFont": "34px",
+   "headerH": 184,
+   "navItems": [
+    {
+     "t": "",
+     "href": "/en/",
+     "x": 128,
+     "y": 48,
+     "w": 194,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Products",
+     "href": "/en/products/",
+     "x": 514,
+     "y": 48,
+     "w": 152,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Studio",
+     "href": "/en/studio/",
+     "x": 682,
+     "y": 48,
+     "w": 117,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Coaching",
+     "href": "/en/coaching/",
+     "x": 815,
+     "y": 48,
+     "w": 158,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Company",
+     "href": "/en/company/",
+     "x": 989,
+     "y": 48,
+     "w": 161,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Suomeksi",
+     "href": "/tietosuoja/",
+     "x": 1215,
+     "y": 48,
+     "w": 161,
+     "h": 88,
+     "cur": null
+    }
+   ],
+   "footer": [
+    {
+     "t": "3458206-1",
+     "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+     "cur": null
+    },
+    {
+     "t": "jarkko@koivupiilo.fi",
+     "href": "mailto:jarkko@koivupiilo.fi",
+     "cur": null
+    },
+    {
+     "t": "Privacy",
+     "href": "/en/privacy/",
+     "cur": "page"
+    },
+    {
+     "t": "Suomeksi",
+     "href": "/tietosuoja/",
+     "cur": null
+    }
+   ],
+   "overlaps": [],
+   "wide": [],
+   "clipped": [],
+   "smallTargets": [],
+   "axe": {
+    "v": [],
+    "inc": []
+   }
+  },
+  {
+   "name": "en-1440-dark-font32",
+   "lang": "en",
+   "sw": 1440,
+   "cw": 1440,
+   "bodyFont": "34px",
+   "headerH": 184,
+   "navItems": [
+    {
+     "t": "",
+     "href": "/en/",
+     "x": 128,
+     "y": 48,
+     "w": 194,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Products",
+     "href": "/en/products/",
+     "x": 514,
+     "y": 48,
+     "w": 152,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Studio",
+     "href": "/en/studio/",
+     "x": 682,
+     "y": 48,
+     "w": 117,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Coaching",
+     "href": "/en/coaching/",
+     "x": 815,
+     "y": 48,
+     "w": 158,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Company",
+     "href": "/en/company/",
+     "x": 989,
+     "y": 48,
+     "w": 161,
+     "h": 88,
+     "cur": null
+    },
+    {
+     "t": "Suomeksi",
+     "href": "/tietosuoja/",
+     "x": 1215,
+     "y": 48,
+     "w": 161,
+     "h": 88,
+     "cur": null
+    }
+   ],
+   "footer": [
+    {
+     "t": "3458206-1",
+     "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+     "cur": null
+    },
+    {
+     "t": "jarkko@koivupiilo.fi",
+     "href": "mailto:jarkko@koivupiilo.fi",
+     "cur": null
+    },
+    {
+     "t": "Privacy",
+     "href": "/en/privacy/",
+     "cur": "page"
+    },
+    {
+     "t": "Suomeksi",
+     "href": "/tietosuoja/",
+     "cur": null
+    }
+   ],
+   "overlaps": [],
+   "wide": [],
+   "clipped": [],
+   "smallTargets": [],
+   "axe": {
+    "v": [],
+    "inc": []
+   }
+  }
+ ],
+ "zoom": [
+  {
+   "lang": "fi",
+   "scheme": "light",
+   "z": 1,
+   "sw": 1440,
+   "cw": 1440,
+   "wide": 0,
+   "headerH": 92
+  },
+  {
+   "lang": "fi",
+   "scheme": "light",
+   "z": 1.1,
+   "sw": 1309,
+   "cw": 1309,
+   "wide": 0,
+   "headerH": 92
+  },
+  {
+   "lang": "fi",
+   "scheme": "light",
+   "z": 1.25,
+   "sw": 1152,
+   "cw": 1152,
+   "wide": 0,
+   "headerH": 92
+  },
+  {
+   "lang": "fi",
+   "scheme": "light",
+   "z": 1.5,
+   "sw": 960,
+   "cw": 960,
+   "wide": 0,
+   "headerH": 92
+  },
+  {
+   "lang": "fi",
+   "scheme": "light",
+   "z": 1.75,
+   "sw": 823,
+   "cw": 823,
+   "wide": 0,
+   "headerH": 92
+  },
+  {
+   "lang": "fi",
+   "scheme": "light",
+   "z": 2,
+   "sw": 720,
+   "cw": 720,
+   "wide": 0,
+   "headerH": 92
+  },
+  {
+   "lang": "fi",
+   "scheme": "dark",
+   "z": 1,
+   "sw": 1440,
+   "cw": 1440,
+   "wide": 0,
+   "headerH": 92
+  },
+  {
+   "lang": "fi",
+   "scheme": "dark",
+   "z": 1.1,
+   "sw": 1309,
+   "cw": 1309,
+   "wide": 0,
+   "headerH": 92
+  },
+  {
+   "lang": "fi",
+   "scheme": "dark",
+   "z": 1.25,
+   "sw": 1152,
+   "cw": 1152,
+   "wide": 0,
+   "headerH": 92
+  },
+  {
+   "lang": "fi",
+   "scheme": "dark",
+   "z": 1.5,
+   "sw": 960,
+   "cw": 960,
+   "wide": 0,
+   "headerH": 92
+  },
+  {
+   "lang": "fi",
+   "scheme": "dark",
+   "z": 1.75,
+   "sw": 823,
+   "cw": 823,
+   "wide": 0,
+   "headerH": 92
+  },
+  {
+   "lang": "fi",
+   "scheme": "dark",
+   "z": 2,
+   "sw": 720,
+   "cw": 720,
+   "wide": 0,
+   "headerH": 92
+  },
+  {
+   "lang": "en",
+   "scheme": "light",
+   "z": 1,
+   "sw": 1440,
+   "cw": 1440,
+   "wide": 0,
+   "headerH": 92
+  },
+  {
+   "lang": "en",
+   "scheme": "light",
+   "z": 1.1,
+   "sw": 1309,
+   "cw": 1309,
+   "wide": 0,
+   "headerH": 92
+  },
+  {
+   "lang": "en",
+   "scheme": "light",
+   "z": 1.25,
+   "sw": 1152,
+   "cw": 1152,
+   "wide": 0,
+   "headerH": 92
+  },
+  {
+   "lang": "en",
+   "scheme": "light",
+   "z": 1.5,
+   "sw": 960,
+   "cw": 960,
+   "wide": 0,
+   "headerH": 92
+  },
+  {
+   "lang": "en",
+   "scheme": "light",
+   "z": 1.75,
+   "sw": 823,
+   "cw": 823,
+   "wide": 0,
+   "headerH": 92
+  },
+  {
+   "lang": "en",
+   "scheme": "light",
+   "z": 2,
+   "sw": 720,
+   "cw": 720,
+   "wide": 0,
+   "headerH": 92
+  },
+  {
+   "lang": "en",
+   "scheme": "dark",
+   "z": 1,
+   "sw": 1440,
+   "cw": 1440,
+   "wide": 0,
+   "headerH": 92
+  },
+  {
+   "lang": "en",
+   "scheme": "dark",
+   "z": 1.1,
+   "sw": 1309,
+   "cw": 1309,
+   "wide": 0,
+   "headerH": 92
+  },
+  {
+   "lang": "en",
+   "scheme": "dark",
+   "z": 1.25,
+   "sw": 1152,
+   "cw": 1152,
+   "wide": 0,
+   "headerH": 92
+  },
+  {
+   "lang": "en",
+   "scheme": "dark",
+   "z": 1.5,
+   "sw": 960,
+   "cw": 960,
+   "wide": 0,
+   "headerH": 92
+  },
+  {
+   "lang": "en",
+   "scheme": "dark",
+   "z": 1.75,
+   "sw": 823,
+   "cw": 823,
+   "wide": 0,
+   "headerH": 92
+  },
+  {
+   "lang": "en",
+   "scheme": "dark",
+   "z": 2,
+   "sw": 720,
+   "cw": 720,
+   "wide": 0,
+   "headerH": 92
+  }
+ ],
+ "links": [
+  {
+   "from": "/tietosuoja/",
+   "where": "header",
+   "t": "",
+   "href": "http://127.0.0.1:8761/",
+   "status": 200,
+   "final": "/",
+   "lang": "fi"
+  },
+  {
+   "from": "/tietosuoja/",
+   "where": "header",
+   "t": "Tuotteet",
+   "href": "http://127.0.0.1:8761/tuotteet/",
+   "status": 200,
+   "final": "/tuotteet/",
+   "lang": "fi"
+  },
+  {
+   "from": "/tietosuoja/",
+   "where": "header",
+   "t": "Studio",
+   "href": "http://127.0.0.1:8761/studio/",
+   "status": 200,
+   "final": "/studio/",
+   "lang": "fi"
+  },
+  {
+   "from": "/tietosuoja/",
+   "where": "header",
+   "t": "Valmennus",
+   "href": "http://127.0.0.1:8761/valmennus/",
+   "status": 200,
+   "final": "/valmennus/",
+   "lang": "fi"
+  },
+  {
+   "from": "/tietosuoja/",
+   "where": "header",
+   "t": "Yritys",
+   "href": "http://127.0.0.1:8761/yritys/",
+   "status": 200,
+   "final": "/yritys/",
+   "lang": "fi"
+  },
+  {
+   "from": "/tietosuoja/",
+   "where": "header",
+   "t": "English",
+   "href": "http://127.0.0.1:8761/en/privacy/",
+   "status": 200,
+   "final": "/en/privacy/",
+   "lang": "en"
+  },
+  {
+   "from": "/tietosuoja/",
+   "where": "footer",
+   "t": "3458206-1",
+   "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+   "status": "external/mailto, not followed"
+  },
+  {
+   "from": "/tietosuoja/",
+   "where": "footer",
+   "t": "jarkko@koivupiilo.fi",
+   "href": "mailto:jarkko@koivupiilo.fi",
+   "status": "external/mailto, not followed"
+  },
+  {
+   "from": "/tietosuoja/",
+   "where": "footer",
+   "t": "Tietosuoja",
+   "href": "http://127.0.0.1:8761/tietosuoja/",
+   "status": 200,
+   "final": "/tietosuoja/",
+   "lang": "fi"
+  },
+  {
+   "from": "/tietosuoja/",
+   "where": "footer",
+   "t": "English",
+   "href": "http://127.0.0.1:8761/en/privacy/",
+   "status": 200,
+   "final": "/en/privacy/",
+   "lang": "en"
+  },
+  {
+   "from": "/en/privacy/",
+   "where": "header",
+   "t": "",
+   "href": "http://127.0.0.1:8761/en/",
+   "status": 200,
+   "final": "/en/",
+   "lang": "en"
+  },
+  {
+   "from": "/en/privacy/",
+   "where": "header",
+   "t": "Products",
+   "href": "http://127.0.0.1:8761/en/products/",
+   "status": 200,
+   "final": "/en/products/",
+   "lang": "en"
+  },
+  {
+   "from": "/en/privacy/",
+   "where": "header",
+   "t": "Studio",
+   "href": "http://127.0.0.1:8761/en/studio/",
+   "status": 200,
+   "final": "/en/studio/",
+   "lang": "en"
+  },
+  {
+   "from": "/en/privacy/",
+   "where": "header",
+   "t": "Coaching",
+   "href": "http://127.0.0.1:8761/en/coaching/",
+   "status": 200,
+   "final": "/en/coaching/",
+   "lang": "en"
+  },
+  {
+   "from": "/en/privacy/",
+   "where": "header",
+   "t": "Company",
+   "href": "http://127.0.0.1:8761/en/company/",
+   "status": 200,
+   "final": "/en/company/",
+   "lang": "en"
+  },
+  {
+   "from": "/en/privacy/",
+   "where": "header",
+   "t": "Suomeksi",
+   "href": "http://127.0.0.1:8761/tietosuoja/",
+   "status": 200,
+   "final": "/tietosuoja/",
+   "lang": "fi"
+  },
+  {
+   "from": "/en/privacy/",
+   "where": "footer",
+   "t": "3458206-1",
+   "href": "https://tietopalvelu.ytj.fi/yritys/3458206-1",
+   "status": "external/mailto, not followed"
+  },
+  {
+   "from": "/en/privacy/",
+   "where": "footer",
+   "t": "jarkko@koivupiilo.fi",
+   "href": "mailto:jarkko@koivupiilo.fi",
+   "status": "external/mailto, not followed"
+  },
+  {
+   "from": "/en/privacy/",
+   "where": "footer",
+   "t": "Privacy",
+   "href": "http://127.0.0.1:8761/en/privacy/",
+   "status": 200,
+   "final": "/en/privacy/",
+   "lang": "en"
+  },
+  {
+   "from": "/en/privacy/",
+   "where": "footer",
+   "t": "Suomeksi",
+   "href": "http://127.0.0.1:8761/tietosuoja/",
+   "status": 200,
+   "final": "/tietosuoja/",
+   "lang": "fi"
+  },
+  {
+   "from": "direct",
+   "href": "/tyot/",
+   "status": 200,
+   "final": "/tuotteet/"
+  },
+  {
+   "from": "direct",
+   "href": "/en/work/",
+   "status": 200,
+   "final": "/en/products/"
+  }
+ ],
+ "strips": [
+  {
+   "tag": "fi2en",
+   "url": "/en/privacy/",
+   "lang": "en"
+  },
+  {
+   "tag": "en2fi",
+   "url": "/tietosuoja/",
+   "lang": "fi"
+  }
+ ],
+ "keyboard": [
+  {
+   "path": "/tietosuoja/",
+   "seq": [
+    "Siirry sisältöön [solid 2px]",
+    " [solid 2px]",
+    "Tuotteet [solid 2px]",
+    "Studio [solid 2px]",
+    "Valmennus [solid 2px]",
+    "Yritys [solid 2px]",
+    "English [solid 2px]",
+    "jarkko@koivupiilo.fi [solid 2px]",
+    "jarkko@koivupiilo.fi [solid 2px]",
+    "3458206-1 [solid 2px]",
+    "jarkko@koivupiilo.fi [solid 2px]",
+    "Tietosuoja [solid 2px]",
+    "English [solid 2px]",
+    "Siirry sisältöön\n    \n    [none 3px]"
+   ]
+  },
+  {
+   "path": "/en/privacy/",
+   "seq": [
+    "Skip to content [solid 2px]",
+    " [solid 2px]",
+    "Products [solid 2px]",
+    "Studio [solid 2px]",
+    "Coaching [solid 2px]",
+    "Company [solid 2px]",
+    "Suomeksi [solid 2px]",
+    "jarkko@koivupiilo.fi [solid 2px]",
+    "jarkko@koivupiilo.fi [solid 2px]",
+    "3458206-1 [solid 2px]",
+    "jarkko@koivupiilo.fi [solid 2px]",
+    "Privacy [solid 2px]",
+    "Suomeksi [solid 2px]",
+    "Skip to content\n    \n     [none 3px]"
+   ]
+  }
+ ]
+}

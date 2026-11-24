@@ -1,0 +1,18 @@
+=== /tietosuoja/ (built at 2ed9060 vs 2b81714, BRIDGETOWN_ENV=production rake deploy)
+42c42
+<       <li><a href="/tyot/">Työt</a></li>
+---
+>       <li><a href="/tuotteet/">Tuotteet</a></li>
+130c130
+<     <div><dt>Y-tunnus</dt><dd><a href="https://tietopalvelu.ytj.fi/yritys/3458206-1">3458206-1<svg class="ext" viewBox="0 0 10 10" role="img" aria-label="(toinen sivusto)" focusable="false"><path d="M1.5 8.5 8.5 1.5M3 1.5h5.5V7"/></svg></a></dd></div>
+---
+>     <div><dt>Y-tunnus</dt><dd><a href="https://tietopalvelu.ytj.fi/yritys/3458206-1">3458206-1<svg class="ext" viewBox="0 0 10 10" role="img" aria-label="(ulkoinen linkki)" focusable="false"><path d="M1.5 8.5 8.5 1.5M3 1.5h5.5V7"/></svg></a></dd></div>
+=== /en/privacy/
+42c42
+<       <li><a href="/en/work/">Work</a></li>
+---
+>       <li><a href="/en/products/">Products</a></li>
+130c130
+<     <div><dt>Business ID</dt><dd><a href="https://tietopalvelu.ytj.fi/yritys/3458206-1">3458206-1<svg class="ext" viewBox="0 0 10 10" role="img" aria-label="(another site)" focusable="false"><path d="M1.5 8.5 8.5 1.5M3 1.5h5.5V7"/></svg></a></dd></div>
+---
+>     <div><dt>Business ID</dt><dd><a href="https://tietopalvelu.ytj.fi/yritys/3458206-1">3458206-1<svg class="ext" viewBox="0 0 10 10" role="img" aria-label="(external link)" focusable="false"><path d="M1.5 8.5 8.5 1.5M3 1.5h5.5V7"/></svg></a></dd></div>
