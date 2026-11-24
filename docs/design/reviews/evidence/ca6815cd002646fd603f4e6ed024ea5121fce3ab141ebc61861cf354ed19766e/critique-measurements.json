@@ -1,0 +1,21 @@
+{
+  "head": "d69d324df0e38aeac9f76d2c343ccfe7504a16ff",
+  "build": "BRIDGETOWN_ENV=production bundle exec rake deploy",
+  "tool": "design/shoot-ratametsuri-site.mjs (all checks passed, 14 shots) plus a Playwright probe of the built output/ in Chrome, reduced motion, light",
+  "units": "CSS px from the top of the page; fold = viewport height",
+  "desktop_1440x900": {
+    "fi": { "beta_link_bottom": 428, "mac_line_bottom": 500, "first_feature_top": 977, "fold": 900, "map_slot_width": 736, "map_src_dpr1": "screen-960.webp", "map_src_dpr2": "screen-1600.webp" },
+    "en": { "beta_link_bottom": 428, "mac_line_bottom": 500, "first_feature_top": 977, "fold": 900 }
+  },
+  "phone_390x844": {
+    "fi": { "beta_link_bottom": 728, "first_feature_top": 810, "map_box": "311 x 155", "map_src_dpr3": "phone-960.webp" },
+    "en": { "beta_link_bottom": 705, "first_feature_top": 787, "map_box": "311 x 155" }
+  },
+  "tagline_fi_second_beat_right_vs_column_right": {
+    "1440": [1319, 1334], "1600": [1399, 1414], "1920": [1559, 1574]
+  },
+  "image_content": "Both crops are map canvas only (design/directions/ratametsuri/screens/PROVENANCE.md, 'On the page'): no window chrome, sidebar, toolbar, inspector or pointer label appears anywhere on the page at this head. The origin/main desktop image was the whole app window (critique-before-origin-main-fi-1440-light.jpg).",
+  "pointer_label_on_page": "Only as text, in feature 1 ('Add 31 as 4'), which starts at y 977 on a 900 px desktop screen and at y 787-810 on a 844 px phone screen.",
+  "beta_block_text_en": ["Private beta", "Ratametsuri opens first as a private beta. Apply by answering a short survey.", "Apply for the beta"],
+  "requirements_block_en": { "heading": "What you need", "items": ["A Mac with macOS 14 Sonoma or later"] }
+}
