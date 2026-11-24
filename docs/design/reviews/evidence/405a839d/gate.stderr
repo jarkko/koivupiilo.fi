@@ -1,0 +1,42 @@
+ds: lint is off (Needs tokens; enable design lint with the chosen production token source.), skipping
+ds: imagery is off (No photos or video ship from src/; design/assets/photos/PROVENANCE.md records unapproved spike photos. Enable imagery with canonical provenance and confirmed cameras before publishing them.), skipping
+ds: tokens is off (No chosen production token source yet; the directions use CSS custom properties. Enable DTCG tokens when the owner chooses the direction (process.md phases 3-5).), skipping
+ds: web checks on 13 of 13 routes: /, /tuotteet/, /studio/, /valmennus/, /yritys/, /tietosuoja/, /en/, /en/products/, /en/studio/, /en/coaching/, /en/company/, /en/privacy/, /404.html
+ds: building the ds-web image for linux/arm64 (first run, a few minutes)
+#0 building with "desktop-linux" instance using docker driver
+
+#1 [internal] load build definition from Dockerfile
+#1 transferring dockerfile: 779B done
+#1 DONE 0.0s
+
+#2 [internal] load metadata for mcr.microsoft.com/playwright:v1.64.1-noble@sha256:47b510dd9230bf0b9bfc9b20102241e577ea7a99334ab4c3ca19f19770e9b8ea
+#2 DONE 0.2s
+
+#3 [internal] load .dockerignore
+#3 transferring context: 2B done
+#3 DONE 0.0s
+
+#4 [1/5] FROM mcr.microsoft.com/playwright:v1.64.1-noble@sha256:47b510dd9230bf0b9bfc9b20102241e577ea7a99334ab4c3ca19f19770e9b8ea
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 103B done
+#5 DONE 0.0s
+
+#6 [3/5] COPY package.json package-lock.json ./
+#6 CACHED
+
+#7 [2/5] WORKDIR /opt/ds-web
+#7 CACHED
+
+#8 [4/5] RUN npm ci --omit=dev --ignore-scripts --no-audit --no-fund
+#8 CACHED
+
+#9 [5/5] COPY ds-web.mjs ./
+#9 DONE 0.0s
+
+#10 exporting to image
+#10 exporting layers done
+#10 writing image sha256:be9bc841edd45e4adfd0eb0d4f9d7161f3791ae74b833de6d1d7375cc406422b done
+#10 naming to docker.io/library/ds-web:0.2.0-1980c7c65e1a-linux-arm64 done
+#10 DONE 0.0s

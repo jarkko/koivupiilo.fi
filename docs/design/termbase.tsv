@@ -1,6 +1,6 @@
 concept	fi	en	forbid	notes
 company	Koivupiilo	Koivupiilo		"Koivupiilo Oy" only in footer/imprint
-work (place)	Työt	Work		nav label; a work item is "työ" / "project" or product name
+work (place)	Tuotteet	Products	Työt, Projektit	nav label (D23); an item is called by its product name
 product	tuote	product		own products
 offers (place)	Palvelut	Services		nav label; the three items are "offers" internally
 software offer	Ohjelmistot	Software

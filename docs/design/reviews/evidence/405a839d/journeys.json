@@ -1,0 +1,290 @@
+[
+  {
+    "locale": "fi-FI",
+    "walk": "W3",
+    "label": "English",
+    "expected": "/en/",
+    "actual": "/en/",
+    "mainVisible": true,
+    "stem": "journey-fi-FI-1"
+  },
+  {
+    "locale": "fi-FI",
+    "walk": "W3",
+    "label": "Suomeksi",
+    "expected": "/",
+    "actual": "/",
+    "mainVisible": true,
+    "stem": "journey-fi-FI-2"
+  },
+  {
+    "locale": "fi-FI",
+    "walk": "W3",
+    "label": "English",
+    "expected": "/en/products/",
+    "actual": "/en/products/",
+    "mainVisible": true,
+    "stem": "journey-fi-FI-3"
+  },
+  {
+    "locale": "fi-FI",
+    "walk": "W3",
+    "label": "Suomeksi",
+    "expected": "/tuotteet/",
+    "actual": "/tuotteet/",
+    "mainVisible": true,
+    "stem": "journey-fi-FI-4"
+  },
+  {
+    "locale": "fi-FI",
+    "walk": "W3",
+    "label": "English",
+    "expected": "/en/studio/",
+    "actual": "/en/studio/",
+    "mainVisible": true,
+    "stem": "journey-fi-FI-5"
+  },
+  {
+    "locale": "fi-FI",
+    "walk": "W3",
+    "label": "Suomeksi",
+    "expected": "/studio/",
+    "actual": "/studio/",
+    "mainVisible": true,
+    "stem": "journey-fi-FI-6"
+  },
+  {
+    "locale": "fi-FI",
+    "walk": "W3",
+    "label": "English",
+    "expected": "/en/coaching/",
+    "actual": "/en/coaching/",
+    "mainVisible": true,
+    "stem": "journey-fi-FI-7"
+  },
+  {
+    "locale": "fi-FI",
+    "walk": "W3",
+    "label": "Suomeksi",
+    "expected": "/valmennus/",
+    "actual": "/valmennus/",
+    "mainVisible": true,
+    "stem": "journey-fi-FI-8"
+  },
+  {
+    "locale": "fi-FI",
+    "walk": "W3",
+    "label": "English",
+    "expected": "/en/company/",
+    "actual": "/en/company/",
+    "mainVisible": true,
+    "stem": "journey-fi-FI-9"
+  },
+  {
+    "locale": "fi-FI",
+    "walk": "W3",
+    "label": "Suomeksi",
+    "expected": "/yritys/",
+    "actual": "/yritys/",
+    "mainVisible": true,
+    "stem": "journey-fi-FI-10"
+  },
+  {
+    "locale": "fi-FI",
+    "walk": "W3",
+    "label": "English",
+    "expected": "/en/privacy/",
+    "actual": "/en/privacy/",
+    "mainVisible": true,
+    "stem": "journey-fi-FI-11"
+  },
+  {
+    "locale": "fi-FI",
+    "walk": "W3",
+    "label": "Suomeksi",
+    "expected": "/tietosuoja/",
+    "actual": "/tietosuoja/",
+    "mainVisible": true,
+    "stem": "journey-fi-FI-12"
+  },
+  {
+    "locale": "fi-FI",
+    "walk": "W2",
+    "label": "Kaikki tuotteet",
+    "expected": "/tuotteet/",
+    "actual": "/tuotteet/",
+    "mainVisible": true,
+    "stem": "journey-fi-FI-13"
+  },
+  {
+    "locale": "fi-FI",
+    "walk": "W2",
+    "label": "Valmennus",
+    "expected": "/valmennus/",
+    "actual": "/valmennus/",
+    "mainVisible": true,
+    "stem": "journey-fi-FI-14"
+  },
+  {
+    "locale": "fi-FI",
+    "walk": "W2",
+    "label": "All products",
+    "expected": "/en/products/",
+    "actual": "/en/products/",
+    "mainVisible": true,
+    "stem": "journey-fi-FI-15"
+  },
+  {
+    "locale": "fi-FI",
+    "walk": "W2",
+    "label": "Coaching",
+    "expected": "/en/coaching/",
+    "actual": "/en/coaching/",
+    "mainVisible": true,
+    "stem": "journey-fi-FI-16"
+  },
+  {
+    "locale": "en-GB",
+    "walk": "W3",
+    "label": "English",
+    "expected": "/en/",
+    "actual": "/en/",
+    "mainVisible": true,
+    "stem": "journey-en-GB-1"
+  },
+  {
+    "locale": "en-GB",
+    "walk": "W3",
+    "label": "Suomeksi",
+    "expected": "/",
+    "actual": "/",
+    "mainVisible": true,
+    "stem": "journey-en-GB-2"
+  },
+  {
+    "locale": "en-GB",
+    "walk": "W3",
+    "label": "English",
+    "expected": "/en/products/",
+    "actual": "/en/products/",
+    "mainVisible": true,
+    "stem": "journey-en-GB-3"
+  },
+  {
+    "locale": "en-GB",
+    "walk": "W3",
+    "label": "Suomeksi",
+    "expected": "/tuotteet/",
+    "actual": "/tuotteet/",
+    "mainVisible": true,
+    "stem": "journey-en-GB-4"
+  },
+  {
+    "locale": "en-GB",
+    "walk": "W3",
+    "label": "English",
+    "expected": "/en/studio/",
+    "actual": "/en/studio/",
+    "mainVisible": true,
+    "stem": "journey-en-GB-5"
+  },
+  {
+    "locale": "en-GB",
+    "walk": "W3",
+    "label": "Suomeksi",
+    "expected": "/studio/",
+    "actual": "/studio/",
+    "mainVisible": true,
+    "stem": "journey-en-GB-6"
+  },
+  {
+    "locale": "en-GB",
+    "walk": "W3",
+    "label": "English",
+    "expected": "/en/coaching/",
+    "actual": "/en/coaching/",
+    "mainVisible": true,
+    "stem": "journey-en-GB-7"
+  },
+  {
+    "locale": "en-GB",
+    "walk": "W3",
+    "label": "Suomeksi",
+    "expected": "/valmennus/",
+    "actual": "/valmennus/",
+    "mainVisible": true,
+    "stem": "journey-en-GB-8"
+  },
+  {
+    "locale": "en-GB",
+    "walk": "W3",
+    "label": "English",
+    "expected": "/en/company/",
+    "actual": "/en/company/",
+    "mainVisible": true,
+    "stem": "journey-en-GB-9"
+  },
+  {
+    "locale": "en-GB",
+    "walk": "W3",
+    "label": "Suomeksi",
+    "expected": "/yritys/",
+    "actual": "/yritys/",
+    "mainVisible": true,
+    "stem": "journey-en-GB-10"
+  },
+  {
+    "locale": "en-GB",
+    "walk": "W3",
+    "label": "English",
+    "expected": "/en/privacy/",
+    "actual": "/en/privacy/",
+    "mainVisible": true,
+    "stem": "journey-en-GB-11"
+  },
+  {
+    "locale": "en-GB",
+    "walk": "W3",
+    "label": "Suomeksi",
+    "expected": "/tietosuoja/",
+    "actual": "/tietosuoja/",
+    "mainVisible": true,
+    "stem": "journey-en-GB-12"
+  },
+  {
+    "locale": "en-GB",
+    "walk": "W2",
+    "label": "Kaikki tuotteet",
+    "expected": "/tuotteet/",
+    "actual": "/tuotteet/",
+    "mainVisible": true,
+    "stem": "journey-en-GB-13"
+  },
+  {
+    "locale": "en-GB",
+    "walk": "W2",
+    "label": "Valmennus",
+    "expected": "/valmennus/",
+    "actual": "/valmennus/",
+    "mainVisible": true,
+    "stem": "journey-en-GB-14"
+  },
+  {
+    "locale": "en-GB",
+    "walk": "W2",
+    "label": "All products",
+    "expected": "/en/products/",
+    "actual": "/en/products/",
+    "mainVisible": true,
+    "stem": "journey-en-GB-15"
+  },
+  {
+    "locale": "en-GB",
+    "walk": "W2",
+    "label": "Coaching",
+    "expected": "/en/coaching/",
+    "actual": "/en/coaching/",
+    "mainVisible": true,
+    "stem": "journey-en-GB-16"
+  }
+]

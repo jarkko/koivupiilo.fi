@@ -19,7 +19,7 @@ const srv = createServer((q, r) => {
   r.writeHead(200, { 'content-type': types[extname(p)] || 'application/octet-stream' }); r.end(readFileSync(p));
 }).listen(PORT);
 export const pages = [
-  ['front', '/', '/en/'], ['work', '/tyot/', '/en/work/'], ['studio', '/studio/', '/en/studio/'],
+  ['front', '/', '/en/'], ['work', '/tuotteet/', '/en/products/'], ['studio', '/studio/', '/en/studio/'],
   ['coaching', '/valmennus/', '/en/coaching/'], ['company', '/yritys/', '/en/company/'], ['privacy', '/tietosuoja/', '/en/privacy/'],
   ['404', '/ei-ole/sivua/', null],
 ];

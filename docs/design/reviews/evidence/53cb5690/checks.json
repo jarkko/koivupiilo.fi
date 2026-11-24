@@ -1,0 +1,55 @@
+{
+  "head": "6fd0c43fa519b62f06c46e64af97da3342148409",
+  "hash": "53cb569055d6f756d125409b5e461e1e930354093448d66984b2d0eced419096",
+  "matrix": 128,
+  "reflow": 48,
+  "journeys": 32,
+  "transitions": 160,
+  "native_zoom_cells": 96,
+  "native_zoom_levels": [
+    1,
+    1.1,
+    1.25,
+    1.5,
+    1.75,
+    2
+  ],
+  "geometry_failures": [],
+  "errors": [],
+  "live_posts": 0,
+  "intercepted_posts": 0,
+  "screenshots": [
+    "docs/design/reviews/evidence/53cb5690/journey-fi-390-light.webp",
+    "docs/design/reviews/evidence/53cb5690/journey-en-390-light.webp",
+    "docs/design/reviews/evidence/53cb5690/journey-fi-390-dark.webp",
+    "docs/design/reviews/evidence/53cb5690/journey-en-390-dark.webp",
+    "docs/design/reviews/evidence/53cb5690/journey-fi-1440-light.webp",
+    "docs/design/reviews/evidence/53cb5690/journey-en-1440-light.webp",
+    "docs/design/reviews/evidence/53cb5690/journey-fi-1440-dark.webp",
+    "docs/design/reviews/evidence/53cb5690/journey-en-1440-dark.webp",
+    "docs/design/reviews/evidence/53cb5690/tuotteet-zoom200.webp",
+    "docs/design/reviews/evidence/53cb5690/en-products-zoom200.webp",
+    "docs/design/reviews/evidence/53cb5690/tietosuoja-zoom200.webp",
+    "docs/design/reviews/evidence/53cb5690/en-privacy-zoom200.webp",
+    "docs/design/reviews/evidence/53cb5690/tuotteet-default24.webp",
+    "docs/design/reviews/evidence/53cb5690/en-products-default24.webp",
+    "docs/design/reviews/evidence/53cb5690/tietosuoja-default24.jpg",
+    "docs/design/reviews/evidence/53cb5690/en-privacy-default24.jpg",
+    "docs/design/reviews/evidence/53cb5690/ratametsuri-default24.webp",
+    "docs/design/reviews/evidence/53cb5690/en-ratametsuri-default24.webp"
+  ],
+  "baseline_current": 120,
+  "fresh_approvals": 32,
+  "baseline_reused_current": 88,
+  "baseline_reused_deleted": 16,
+  "production_build": {
+    "command": "BRIDGETOWN_ENV=production bundle exec rake deploy",
+    "exit_code": 0,
+    "log": "design/shots/review-53cb5690/build.log"
+  },
+  "consent_continuity": {
+    "source_commit": "dc39f7573c434e1aa00dfb71cefe6782ec734775",
+    "current_source_matches": true,
+    "review": "d6a4e42c1d1285996f821d5445943b1a803dcb58e5e40c0f07a81a6748060a41"
+  }
+}

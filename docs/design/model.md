@@ -37,8 +37,8 @@ language link. Footer: email, business ID, imprint, language link.
 | Place | FI path | EN path | Primary task | Secondary | Rare | Density |
 |---|---|---|---|---|---|---|
 | Front | `/` | `/en/` | Grasp what Koivupiilo is and see real products (J1, J4) | Jump to an offer | — | Low: one sentence, products, three offers, contact line |
-| Work (index) | `/tyot/` | `/en/work/` | Pick a product to look at | Scan everything built | — | Medium: list with status |
-| Work item | `/tyot/<slug>/` | `/en/work/<slug>/` | Judge competence from one real product (J1–J3) | Contact from the end | Open the product's own site | Reading page, 400–700 words |
+| Work (index) | `/tuotteet/` | `/en/products/` | Pick a product to look at | Scan everything built | — | Medium: list with status |
+| Work item | `/tuotteet/<slug>/` | `/en/products/<slug>/` | Judge competence from one real product (J1–J3) | Contact from the end | Open the product's own site | Reading page, 400–700 words |
 | Offers | `/palvelut/` | `/en/services/` | Find the matching offer and how it starts (J2, J3) | See proof per offer | — | Medium: three blocks |
 | About | `/tietoa/` | `/en/about/` | Verify the person (J4, J5) | — | Business ID | Low |
 | Contact | `/yhteys/` | `/en/contact/` | Write a good first email (J1–J3) | Other channels | Imprint | Low |
@@ -144,7 +144,7 @@ Blog, contact form (the beta is applied for on launchpad's survey, D27), booking
 - **D15 (2026-11-01, Jarkko).** Discovery gate passed: the problem is a proper company web presence that passes
   the legitimacy check, with Jarkko's name vouching for Koivupiilo rather than standing in for it (`discovery.md` §3).
 
-- **D16 (2026-11-01, Jarkko).** Voice: the company speaks in the third person by name ("Koivupiilo tekee …");
+- **D16 (2026-11-01, Jarkko; superseded by D23).** Voice: the company speaks in the third person by name ("Koivupiilo tekee …");
   Jarkko says "I" only in the founder note and on Valmennus; never "we". Supersedes D2's first-person rule.
 - **D17 (2026-11-01, Jarkko).** The grove story may be told publicly, without the children's names; the house
   and the children are not shown (D10).
@@ -203,6 +203,25 @@ Technologist", "three core service areas", "Fortune 500", "success stories",
   relayed on 2026-11-12; there is no reply time to publish (D6, M3).
   Dissent: review 2b66b9b3 (F5) asks for a reply expectation before launch. A
   time Jarkko has not given would be an invented claim (D6).
+- **D23 (2026-11-21, Jarkko).** Voice: the company speaks in the first person
+  plural ("Teemme …", "Kun lähetät meille sähköpostia …"). Jarkko is named in
+  the third person ("Jarkko Laine valmentaa …"); no "minä" lines are put in his
+  mouth. Finnish copy is written natively through the Finnish skills
+  (suomen-kieli, stop-slop, toimittajan-tarkistus critic and language check);
+  Codex neither writes nor reviews Finnish. English is derived from the Finnish.
+  The products page is "Tuotteet" / "Products" at `/tuotteet/` and `/en/products/`;
+  the old `/tyot/` and `/en/work/` redirect there. Jarkko's recorded history
+  (claims audit in `brief.md`: web since the 1990s, the Rails books, Wildfire,
+  Hubtran, conference talks, SM medals as a beach coach) is shown on Studio,
+  Yritys and Valmennus. The Studio capacity section and the Valmennus byline are
+  removed; `capacity` in `jarkko.yml` is empty until Jarkko gives real availability.
+  Supersedes: D16, the capacity line in D22, and the claims-audit hold in D6 for
+  the items listed here.
+  Evidence: Jarkko on 2026-11-21 called the D16 copy "super cringe" and
+  "English text translated word by word to Finnish", and said "You can use
+  first person plural however", that the Stack list wrongly implied a closed
+  skill set ("I have written Ruby on Rails books"), that the copy skipped his
+  recorded history, and asked for "Products" over "Työt"/"Projektit".
 
 - **D24 (2026-11-21, Jarkko, relayed by the coordinator).** A product without
   its own site may have one page on koivupiilo.fi until it gets one. Ratametsuri

@@ -4,8 +4,8 @@ front:
   fi: /
   en: /en/
 work:
-  fi: /tyot/
-  en: /en/work/
+  fi: /tuotteet/
+  en: /en/products/
 studio:
   fi: /studio/
   en: /en/studio/
