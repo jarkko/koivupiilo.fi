@@ -1,0 +1,727 @@
+{
+  "head": "98ca22835021516aff2d922fc5b9688e2c8e9194",
+  "approved_count": 48,
+  "changed_count": 12,
+  "entries": [
+    {
+      "path": "docs/design/baselines/en/privacy/desktop-dark-en-GB.png",
+      "sha256": "cd1184e310b9eda14fa81d954eb64d45a52200a9e3134ded0b1347cbfd381517",
+      "changed_by_4323320": true,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/en/privacy/desktop-dark-en-GB.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/5b9534ad/baseline-changes.jpg",
+        "docs/design/reviews/evidence/5b9534ad/privacy-controller-1440.jpg"
+      ],
+      "before_sha256": "f393c26f3ead0d92fdc52b4fab1a5daa69b42731c741a923423e93e2e2665a43",
+      "diff_bbox": [
+        558,
+        3038,
+        704,
+        3051
+      ],
+      "different_pixels": 231,
+      "reason": "U2: unbroken ID span adds no semantic/content change; only local glyph rasterization around controller text changes."
+    },
+    {
+      "path": "docs/design/baselines/en/privacy/desktop-dark-fi-FI.png",
+      "sha256": "cd1184e310b9eda14fa81d954eb64d45a52200a9e3134ded0b1347cbfd381517",
+      "changed_by_4323320": true,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/en/privacy/desktop-dark-fi-FI.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/5b9534ad/baseline-changes.jpg",
+        "docs/design/reviews/evidence/5b9534ad/privacy-controller-1440.jpg"
+      ],
+      "before_sha256": "f393c26f3ead0d92fdc52b4fab1a5daa69b42731c741a923423e93e2e2665a43",
+      "diff_bbox": [
+        558,
+        3038,
+        704,
+        3051
+      ],
+      "different_pixels": 231,
+      "reason": "U2: unbroken ID span adds no semantic/content change; only local glyph rasterization around controller text changes."
+    },
+    {
+      "path": "docs/design/baselines/en/privacy/desktop-light-en-GB.png",
+      "sha256": "76c102ccc6c301d0cb4d73856ebcb36dc6d99b35da7769835da0ddd55931a733",
+      "changed_by_4323320": true,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/en/privacy/desktop-light-en-GB.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/5b9534ad/baseline-changes.jpg",
+        "docs/design/reviews/evidence/5b9534ad/privacy-controller-1440.jpg"
+      ],
+      "before_sha256": "cd6ce1877e9bd806039f536b41062e471d98adbe663b9fe3695b30ae5bd2561f",
+      "diff_bbox": [
+        558,
+        3038,
+        704,
+        3051
+      ],
+      "different_pixels": 220,
+      "reason": "U2: unbroken ID span adds no semantic/content change; only local glyph rasterization around controller text changes."
+    },
+    {
+      "path": "docs/design/baselines/en/privacy/desktop-light-fi-FI.png",
+      "sha256": "76c102ccc6c301d0cb4d73856ebcb36dc6d99b35da7769835da0ddd55931a733",
+      "changed_by_4323320": true,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/en/privacy/desktop-light-fi-FI.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/5b9534ad/baseline-changes.jpg",
+        "docs/design/reviews/evidence/5b9534ad/privacy-controller-1440.jpg"
+      ],
+      "before_sha256": "cd6ce1877e9bd806039f536b41062e471d98adbe663b9fe3695b30ae5bd2561f",
+      "diff_bbox": [
+        558,
+        3038,
+        704,
+        3051
+      ],
+      "different_pixels": 220,
+      "reason": "U2: unbroken ID span adds no semantic/content change; only local glyph rasterization around controller text changes."
+    },
+    {
+      "path": "docs/design/baselines/en/privacy/phone-dark-en-GB.png",
+      "sha256": "0f9d4948bdb67514f3f4cffc24dc0b0ceeff464f786df14f39ed41fdb2064842",
+      "changed_by_4323320": true,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/en/privacy/phone-dark-en-GB.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/5b9534ad/baseline-changes.jpg",
+        "docs/design/reviews/evidence/5b9534ad/privacy-controller-390.jpg"
+      ],
+      "before_sha256": "d473620a7884d918a7f4887706ffa4beb7ea387e0429dd824489942c936826b3",
+      "diff_bbox": [
+        242,
+        3582,
+        253,
+        3595
+      ],
+      "different_pixels": 93,
+      "reason": "U2: unbroken ID span adds no semantic/content change; only local glyph rasterization around controller text changes."
+    },
+    {
+      "path": "docs/design/baselines/en/privacy/phone-dark-fi-FI.png",
+      "sha256": "0f9d4948bdb67514f3f4cffc24dc0b0ceeff464f786df14f39ed41fdb2064842",
+      "changed_by_4323320": true,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/en/privacy/phone-dark-fi-FI.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/5b9534ad/baseline-changes.jpg",
+        "docs/design/reviews/evidence/5b9534ad/privacy-controller-390.jpg"
+      ],
+      "before_sha256": "d473620a7884d918a7f4887706ffa4beb7ea387e0429dd824489942c936826b3",
+      "diff_bbox": [
+        242,
+        3582,
+        253,
+        3595
+      ],
+      "different_pixels": 93,
+      "reason": "U2: unbroken ID span adds no semantic/content change; only local glyph rasterization around controller text changes."
+    },
+    {
+      "path": "docs/design/baselines/en/privacy/phone-light-en-GB.png",
+      "sha256": "1edbb47b73996ba55c938f59f1605631c7a218541f815d94fccce142ac5301c3",
+      "changed_by_4323320": true,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/en/privacy/phone-light-en-GB.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/5b9534ad/baseline-changes.jpg",
+        "docs/design/reviews/evidence/5b9534ad/privacy-controller-390.jpg"
+      ],
+      "before_sha256": "d7486de0ef6a6ac95cbeece3938e98cedcdb59fbfb5db73aa83316ba29a899f7",
+      "diff_bbox": [
+        242,
+        3582,
+        252,
+        3595
+      ],
+      "different_pixels": 86,
+      "reason": "U2: unbroken ID span adds no semantic/content change; only local glyph rasterization around controller text changes."
+    },
+    {
+      "path": "docs/design/baselines/en/privacy/phone-light-fi-FI.png",
+      "sha256": "1edbb47b73996ba55c938f59f1605631c7a218541f815d94fccce142ac5301c3",
+      "changed_by_4323320": true,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/en/privacy/phone-light-fi-FI.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/5b9534ad/baseline-changes.jpg",
+        "docs/design/reviews/evidence/5b9534ad/privacy-controller-390.jpg"
+      ],
+      "before_sha256": "d7486de0ef6a6ac95cbeece3938e98cedcdb59fbfb5db73aa83316ba29a899f7",
+      "diff_bbox": [
+        242,
+        3582,
+        252,
+        3595
+      ],
+      "different_pixels": 86,
+      "reason": "U2: unbroken ID span adds no semantic/content change; only local glyph rasterization around controller text changes."
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/desktop-dark-en-GB.png",
+      "sha256": "7c04b1eca872ffa39f4fb0d53e8d04974dc9b8e77ab48fc883b74205124cc0bf",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/en/ratametsuri/desktop-dark-en-GB.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/desktop-dark-fi-FI.png",
+      "sha256": "7c04b1eca872ffa39f4fb0d53e8d04974dc9b8e77ab48fc883b74205124cc0bf",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/en/ratametsuri/desktop-dark-fi-FI.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/desktop-light-en-GB.png",
+      "sha256": "03664a039f99808abe03d29f10451cbaeb29cd4291a52378b544bc5a77a8fb54",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/en/ratametsuri/desktop-light-en-GB.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/desktop-light-fi-FI.png",
+      "sha256": "03664a039f99808abe03d29f10451cbaeb29cd4291a52378b544bc5a77a8fb54",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/en/ratametsuri/desktop-light-fi-FI.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/phone-dark-en-GB.png",
+      "sha256": "b8afffd72d57c20ee64786d2dccd74287151f740eb3b5758aa3107115a59af21",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/en/ratametsuri/phone-dark-en-GB.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/phone-dark-fi-FI.png",
+      "sha256": "b8afffd72d57c20ee64786d2dccd74287151f740eb3b5758aa3107115a59af21",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/en/ratametsuri/phone-dark-fi-FI.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/phone-light-en-GB.png",
+      "sha256": "46611ea94d503fa28c148ad84d66e4d5caf5d3f060805c12a551063a9bdfeb2b",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/en/ratametsuri/phone-light-en-GB.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/phone-light-fi-FI.png",
+      "sha256": "46611ea94d503fa28c148ad84d66e4d5caf5d3f060805c12a551063a9bdfeb2b",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/en/ratametsuri/phone-light-fi-FI.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/en/work/desktop-dark-en-GB.png",
+      "sha256": "9522b24dfdeaa647f11cb78c684611a1f93fe0051d93e12c3754e338290b2aca",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/en/work/desktop-dark-en-GB.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/en/work/desktop-dark-fi-FI.png",
+      "sha256": "9522b24dfdeaa647f11cb78c684611a1f93fe0051d93e12c3754e338290b2aca",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/en/work/desktop-dark-fi-FI.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/en/work/desktop-light-en-GB.png",
+      "sha256": "5037d558da9599ed2b42c4fffb21458d4b81aa6c1a208afb9ebda3231132aa53",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/en/work/desktop-light-en-GB.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/en/work/desktop-light-fi-FI.png",
+      "sha256": "5037d558da9599ed2b42c4fffb21458d4b81aa6c1a208afb9ebda3231132aa53",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/en/work/desktop-light-fi-FI.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/en/work/phone-dark-en-GB.png",
+      "sha256": "a6780e6684eb80a90b7b7ef32cb0b5b2114c30974349c281dc89ce36d1fd3e55",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/en/work/phone-dark-en-GB.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/en/work/phone-dark-fi-FI.png",
+      "sha256": "a6780e6684eb80a90b7b7ef32cb0b5b2114c30974349c281dc89ce36d1fd3e55",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/en/work/phone-dark-fi-FI.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/en/work/phone-light-en-GB.png",
+      "sha256": "846df0159c6b39ee24d0280fad69ca29e917a989548ddcb33b3173c4adb48949",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/en/work/phone-light-en-GB.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/en/work/phone-light-fi-FI.png",
+      "sha256": "846df0159c6b39ee24d0280fad69ca29e917a989548ddcb33b3173c4adb48949",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/en/work/phone-light-fi-FI.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/desktop-dark-en-GB.png",
+      "sha256": "8428e1d877c6884fcd6d3b8014a58275d5b24be37f7aaccbe18d2e942bcc682e",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/ratametsuri/desktop-dark-en-GB.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/desktop-dark-fi-FI.png",
+      "sha256": "8428e1d877c6884fcd6d3b8014a58275d5b24be37f7aaccbe18d2e942bcc682e",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/ratametsuri/desktop-dark-fi-FI.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/desktop-light-en-GB.png",
+      "sha256": "300b233e5dff8e016c1db16ab25c8f7e20d1e035c80041e95be611fa619fa1af",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/ratametsuri/desktop-light-en-GB.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/desktop-light-fi-FI.png",
+      "sha256": "300b233e5dff8e016c1db16ab25c8f7e20d1e035c80041e95be611fa619fa1af",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/ratametsuri/desktop-light-fi-FI.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/phone-dark-en-GB.png",
+      "sha256": "8214cdaec90673705795c1cd4c6223bce9795ee53429ab570703f922e5bce4bf",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/ratametsuri/phone-dark-en-GB.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/phone-dark-fi-FI.png",
+      "sha256": "8214cdaec90673705795c1cd4c6223bce9795ee53429ab570703f922e5bce4bf",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/ratametsuri/phone-dark-fi-FI.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/phone-light-en-GB.png",
+      "sha256": "0c615432f5748fa7434a4235aa3109c899a1bc659049694b126d810942df81c6",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/ratametsuri/phone-light-en-GB.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/phone-light-fi-FI.png",
+      "sha256": "0c615432f5748fa7434a4235aa3109c899a1bc659049694b126d810942df81c6",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/ratametsuri/phone-light-fi-FI.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/tietosuoja/desktop-dark-en-GB.png",
+      "sha256": "f31fb14b91149ced6cd2be7efaf88ba112c0c66cdc01a58d1a52d973fd40f6df",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/tietosuoja/desktop-dark-en-GB.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/tietosuoja/desktop-dark-fi-FI.png",
+      "sha256": "f31fb14b91149ced6cd2be7efaf88ba112c0c66cdc01a58d1a52d973fd40f6df",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/tietosuoja/desktop-dark-fi-FI.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/tietosuoja/desktop-light-en-GB.png",
+      "sha256": "afbfc8567fb4f7b03f30501d89cf4c72de679780d9eedbc9745b1f355f85d3a4",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/tietosuoja/desktop-light-en-GB.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/tietosuoja/desktop-light-fi-FI.png",
+      "sha256": "afbfc8567fb4f7b03f30501d89cf4c72de679780d9eedbc9745b1f355f85d3a4",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/tietosuoja/desktop-light-fi-FI.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/tietosuoja/phone-dark-en-GB.png",
+      "sha256": "383fe45974d7f1b96469b524c3c79a1d1bd9eefba4112c1fb441169ddad8da14",
+      "changed_by_4323320": true,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/tietosuoja/phone-dark-en-GB.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/5b9534ad/baseline-changes.jpg",
+        "docs/design/reviews/evidence/5b9534ad/privacy-controller-390.jpg"
+      ],
+      "before_sha256": "5b83fce1eeda91401829d11729657daf418e2e2f8e02be094d2f8fa0f23a9924",
+      "diff_bbox": [
+        43,
+        3898,
+        296,
+        3940
+      ],
+      "different_pixels": 2326,
+      "reason": "U2: the Finnish phone controller row wraps before the complete business ID; all changed pixels stay within the controller text."
+    },
+    {
+      "path": "docs/design/baselines/tietosuoja/phone-dark-fi-FI.png",
+      "sha256": "383fe45974d7f1b96469b524c3c79a1d1bd9eefba4112c1fb441169ddad8da14",
+      "changed_by_4323320": true,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/tietosuoja/phone-dark-fi-FI.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/5b9534ad/baseline-changes.jpg",
+        "docs/design/reviews/evidence/5b9534ad/privacy-controller-390.jpg"
+      ],
+      "before_sha256": "5b83fce1eeda91401829d11729657daf418e2e2f8e02be094d2f8fa0f23a9924",
+      "diff_bbox": [
+        43,
+        3898,
+        296,
+        3940
+      ],
+      "different_pixels": 2326,
+      "reason": "U2: the Finnish phone controller row wraps before the complete business ID; all changed pixels stay within the controller text."
+    },
+    {
+      "path": "docs/design/baselines/tietosuoja/phone-light-en-GB.png",
+      "sha256": "c26bcf075d4760597d44ed84317969f79b0f6d9611b80d1ee7170a7cf02bd342",
+      "changed_by_4323320": true,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/tietosuoja/phone-light-en-GB.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/5b9534ad/baseline-changes.jpg",
+        "docs/design/reviews/evidence/5b9534ad/privacy-controller-390.jpg"
+      ],
+      "before_sha256": "4c03d4d48febf52f57dfad284a2d516ed8c9a8f43c7926cf7b95fda4ffc5b6b2",
+      "diff_bbox": [
+        43,
+        3898,
+        296,
+        3940
+      ],
+      "different_pixels": 2256,
+      "reason": "U2: the Finnish phone controller row wraps before the complete business ID; all changed pixels stay within the controller text."
+    },
+    {
+      "path": "docs/design/baselines/tietosuoja/phone-light-fi-FI.png",
+      "sha256": "c26bcf075d4760597d44ed84317969f79b0f6d9611b80d1ee7170a7cf02bd342",
+      "changed_by_4323320": true,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/tietosuoja/phone-light-fi-FI.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/5b9534ad/baseline-changes.jpg",
+        "docs/design/reviews/evidence/5b9534ad/privacy-controller-390.jpg"
+      ],
+      "before_sha256": "4c03d4d48febf52f57dfad284a2d516ed8c9a8f43c7926cf7b95fda4ffc5b6b2",
+      "diff_bbox": [
+        43,
+        3898,
+        296,
+        3940
+      ],
+      "different_pixels": 2256,
+      "reason": "U2: the Finnish phone controller row wraps before the complete business ID; all changed pixels stay within the controller text."
+    },
+    {
+      "path": "docs/design/baselines/tyot/desktop-dark-en-GB.png",
+      "sha256": "c4e791767cac8bb180df0439add1ed205fabc1a21e9e694fa8758606e9d9866f",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/tyot/desktop-dark-en-GB.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/tyot/desktop-dark-fi-FI.png",
+      "sha256": "c4e791767cac8bb180df0439add1ed205fabc1a21e9e694fa8758606e9d9866f",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/tyot/desktop-dark-fi-FI.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/tyot/desktop-light-en-GB.png",
+      "sha256": "a1db08421e9fe0076804cb09add6460967676d772a9085711c9ed31a33e0749d",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/tyot/desktop-light-en-GB.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/tyot/desktop-light-fi-FI.png",
+      "sha256": "a1db08421e9fe0076804cb09add6460967676d772a9085711c9ed31a33e0749d",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/tyot/desktop-light-fi-FI.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/tyot/phone-dark-en-GB.png",
+      "sha256": "8e38587f506fce6ad17216cc61ae645b9367e0a1d1349f4022a9dd5e2b9988c1",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/tyot/phone-dark-en-GB.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/tyot/phone-dark-fi-FI.png",
+      "sha256": "8e38587f506fce6ad17216cc61ae645b9367e0a1d1349f4022a9dd5e2b9988c1",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/tyot/phone-dark-fi-FI.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/tyot/phone-light-en-GB.png",
+      "sha256": "b53f3d7ffa803bcc3b45fb0bee472891db71b14e1582d0afe2a79f8a1af04573",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/tyot/phone-light-en-GB.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    },
+    {
+      "path": "docs/design/baselines/tyot/phone-light-fi-FI.png",
+      "sha256": "b53f3d7ffa803bcc3b45fb0bee472891db71b14e1582d0afe2a79f8a1af04573",
+      "changed_by_4323320": false,
+      "verdict": "approve",
+      "evidence": [
+        "docs/design/baselines/tyot/phone-light-fi-FI.png",
+        "docs/design/reviews/evidence/5b9534ad/baseline-manifest.json",
+        "docs/design/reviews/evidence/eef7d25e/visual.json",
+        "docs/design/reviews/evidence/eef7d25e/baseline-manifest.json"
+      ],
+      "reason": "Unchanged baseline bytes: reapprove with the prior eef7d25e evidence; this diff cannot affect normal-default Ratametsuri or Finnish desktop privacy geometry."
+    }
+  ]
+}

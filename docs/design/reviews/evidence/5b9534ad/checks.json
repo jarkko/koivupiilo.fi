@@ -1,0 +1,52 @@
+{
+  "head": "98ca22835021516aff2d922fc5b9688e2c8e9194",
+  "ui_diff_hash": "5b9534ad287eb70ffd653ad37f70131bc7c209b5cc8dd4620911c58903657722",
+  "production_build": {
+    "command": "BRIDGETOWN_ENV=production bundle exec rake deploy",
+    "exit_code": 0,
+    "log_location": "design/shots/review-5b9534ad/build.log (ignored)"
+  },
+  "gate": {
+    "command": "node tools/ds/ds.mjs gate --json",
+    "exit_code": 0,
+    "ok": true,
+    "warnings": 42,
+    "errors": 0
+  },
+  "initial_capture_harness": {
+    "exit_code": 1,
+    "report": "walk-report.json",
+    "explanation": "Ten observations: four optional 320px/32px existing footer overflows, four timing-sensitive leg endpoint checks, two incomplete-arrival captures. Follow-up comparison in motion-check.json and review-notes.md establishes no 4323320 regression; raw failures retained."
+  },
+  "followup_motion_harness": {
+    "exit_code": 0,
+    "report": "motion-check.json"
+  },
+  "signup_safety": {
+    "live_posts": 0,
+    "intercepted_posts": 8,
+    "email": "a@b"
+  },
+  "source_changes_by_reviewer": [],
+  "visual": {
+    "command": "node tools/ds/ds.mjs run visual --json",
+    "exit_code": 0,
+    "ok": true,
+    "findings": 0
+  },
+  "documentation_terms": {
+    "exit_code": 0,
+    "findings": 0
+  },
+  "git_diff_check": {
+    "exit_code": 0
+  },
+  "review_verify": {
+    "command": "node tools/ds/ds.mjs review verify --json",
+    "exit_code": 0,
+    "ok": true,
+    "errors": 0,
+    "uncommitted_input_warnings": 2,
+    "uncommitted_evidence_warnings": 37
+  }
+}

@@ -1,0 +1,3123 @@
+{
+  "method": "Native headless Chrome; fixed viewport snapshots only; sequential scroll to each symbol for >=1200ms, original 4323320^ CSS served locally for comparison; no source changes.",
+  "motionRows": [
+    {
+      "name": "motion-real-current-fi-light-font32",
+      "version": "current",
+      "lc": "fi",
+      "theme": "light",
+      "width": 390,
+      "height": 844,
+      "locale": "fi-FI",
+      "lang": "fi",
+      "rootFont": "32px",
+      "bodyFont": "34px",
+      "amp": ".5",
+      "overflow": 0,
+      "clipped": [],
+      "offscreen": [],
+      "sym": [
+        {
+          "order": "0",
+          "box": {
+            "x": 36.796875,
+            "y": 36.78125,
+            "width": 41.59375,
+            "height": 41.59375,
+            "right": 78.390625,
+            "bottom": 78.375
+          },
+          "control": false,
+          "heading": null,
+          "gap": null
+        },
+        {
+          "order": "1",
+          "box": {
+            "x": 37.625,
+            "y": 3524.5,
+            "width": 48,
+            "height": 48,
+            "right": 85.625,
+            "bottom": 3572.5
+          },
+          "control": true,
+          "heading": {
+            "x": 91.1875,
+            "y": 3533.5,
+            "width": 274.8125,
+            "height": 218.375,
+            "right": 366,
+            "bottom": 3751.875
+          },
+          "gap": 5.5625
+        },
+        {
+          "order": "2",
+          "box": {
+            "x": 29.5625,
+            "y": 4516.0625,
+            "width": 48,
+            "height": 48,
+            "right": 77.5625,
+            "bottom": 4564.0625
+          },
+          "control": true,
+          "heading": {
+            "x": 91.1875,
+            "y": 4525.0625,
+            "width": 274.8125,
+            "height": 54.59375,
+            "right": 366,
+            "bottom": 4579.65625
+          },
+          "gap": 13.625
+        },
+        {
+          "order": "3",
+          "box": {
+            "x": 37.625,
+            "y": 4935.84375,
+            "width": 48,
+            "height": 48,
+            "right": 85.625,
+            "bottom": 4983.84375
+          },
+          "control": true,
+          "heading": {
+            "x": 91.1875,
+            "y": 4944.84375,
+            "width": 274.8125,
+            "height": 109.1875,
+            "right": 366,
+            "bottom": 5054.03125
+          },
+          "gap": 5.5625
+        },
+        {
+          "order": "4",
+          "box": {
+            "x": 28,
+            "y": 5950.03125,
+            "width": 59.1875,
+            "height": 59.1875,
+            "right": 87.1875,
+            "bottom": 6009.21875
+          },
+          "control": false,
+          "heading": null,
+          "gap": null
+        }
+      ],
+      "lines": [
+        {
+          "on": true,
+          "x1": 57.62,
+          "y1": 81.37,
+          "x2": 61.61,
+          "y2": 3532.3
+        },
+        {
+          "on": true,
+          "x1": 61.49,
+          "y1": 3564.7,
+          "x2": 53.69,
+          "y2": 4523.86
+        },
+        {
+          "on": true,
+          "x1": 53.87,
+          "y1": 4556.26,
+          "x2": 61.31,
+          "y2": 4943.65
+        },
+        {
+          "on": true,
+          "x1": 61.56,
+          "y1": 4976.04,
+          "x2": 57.67,
+          "y2": 5960.35
+        }
+      ],
+      "legErrors": [
+        10.799981997511622,
+        10.799107493265637,
+        10.801271402495331,
+        13.318495337696731
+      ],
+      "field": {
+        "x": 91.1875,
+        "y": 2175.734375,
+        "width": 274.8125,
+        "height": 104,
+        "right": 366,
+        "bottom": 2279.734375
+      },
+      "button": {
+        "x": 91.1875,
+        "y": 3163.828125,
+        "width": 274.8125,
+        "height": 104,
+        "right": 366,
+        "bottom": 3267.828125
+      },
+      "textBoxes": [
+        {
+          "class": "headline",
+          "box": {
+            "x": 91.1875,
+            "y": 215.984375,
+            "width": 274.8125,
+            "height": 98.65625,
+            "right": 366,
+            "bottom": 314.640625
+          }
+        },
+        {
+          "class": "status",
+          "box": {
+            "x": 91.1875,
+            "y": 338.640625,
+            "width": 274.8125,
+            "height": 556.6875,
+            "right": 366,
+            "bottom": 895.328125
+          }
+        },
+        {
+          "class": "win",
+          "box": {
+            "x": 91.1875,
+            "y": 927.328125,
+            "width": 274.8125,
+            "height": 137.40625,
+            "right": 366,
+            "bottom": 1064.734375
+          }
+        },
+        {
+          "class": "req",
+          "box": {
+            "x": 24,
+            "y": 1205.921875,
+            "width": 342,
+            "height": 324.921875,
+            "right": 366,
+            "bottom": 1530.84375
+          }
+        },
+        {
+          "class": "beta",
+          "box": {
+            "x": 24,
+            "y": 1570.84375,
+            "width": 342,
+            "height": 1771.875,
+            "right": 366,
+            "bottom": 3342.71875
+          }
+        },
+        {
+          "class": "rail",
+          "box": {
+            "x": 24,
+            "y": 3430.71875,
+            "width": 342,
+            "height": 2610.5,
+            "right": 366,
+            "bottom": 6041.21875
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 3533.5,
+            "width": 274.8125,
+            "height": 218.375,
+            "right": 366,
+            "bottom": 3751.875
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 3759.875,
+            "width": 274.8125,
+            "height": 714,
+            "right": 366,
+            "bottom": 4473.875
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 4525.0625,
+            "width": 274.8125,
+            "height": 54.59375,
+            "right": 366,
+            "bottom": 4579.65625
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 4587.65625,
+            "width": 274.8125,
+            "height": 306,
+            "right": 366,
+            "bottom": 4893.65625
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 4944.84375,
+            "width": 274.8125,
+            "height": 109.1875,
+            "right": 366,
+            "bottom": 5054.03125
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 5062.03125,
+            "width": 274.8125,
+            "height": 816,
+            "right": 366,
+            "bottom": 5878.03125
+          }
+        }
+      ],
+      "idWhitespace": null,
+      "idRects": [],
+      "idBox": null,
+      "date": "Tilanne tarkistettu 23.11.2026.",
+      "pre": 0,
+      "styles": [
+        {
+          "order": "1",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "order": "2",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "order": "3",
+          "transform": "none",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "name": "motion-real-current-fi-dark-font32",
+      "version": "current",
+      "lc": "fi",
+      "theme": "dark",
+      "width": 390,
+      "height": 844,
+      "locale": "fi-FI",
+      "lang": "fi",
+      "rootFont": "32px",
+      "bodyFont": "34px",
+      "amp": ".5",
+      "overflow": 0,
+      "clipped": [],
+      "offscreen": [],
+      "sym": [
+        {
+          "order": "0",
+          "box": {
+            "x": 36.796875,
+            "y": 36.78125,
+            "width": 41.59375,
+            "height": 41.59375,
+            "right": 78.390625,
+            "bottom": 78.375
+          },
+          "control": false,
+          "heading": null,
+          "gap": null
+        },
+        {
+          "order": "1",
+          "box": {
+            "x": 37.625,
+            "y": 3524.5,
+            "width": 48,
+            "height": 48,
+            "right": 85.625,
+            "bottom": 3572.5
+          },
+          "control": true,
+          "heading": {
+            "x": 91.1875,
+            "y": 3533.5,
+            "width": 274.8125,
+            "height": 218.375,
+            "right": 366,
+            "bottom": 3751.875
+          },
+          "gap": 5.5625
+        },
+        {
+          "order": "2",
+          "box": {
+            "x": 29.5625,
+            "y": 4516.0625,
+            "width": 48,
+            "height": 48,
+            "right": 77.5625,
+            "bottom": 4564.0625
+          },
+          "control": true,
+          "heading": {
+            "x": 91.1875,
+            "y": 4525.0625,
+            "width": 274.8125,
+            "height": 54.59375,
+            "right": 366,
+            "bottom": 4579.65625
+          },
+          "gap": 13.625
+        },
+        {
+          "order": "3",
+          "box": {
+            "x": 37.625,
+            "y": 4935.84375,
+            "width": 48,
+            "height": 48,
+            "right": 85.625,
+            "bottom": 4983.84375
+          },
+          "control": true,
+          "heading": {
+            "x": 91.1875,
+            "y": 4944.84375,
+            "width": 274.8125,
+            "height": 109.1875,
+            "right": 366,
+            "bottom": 5054.03125
+          },
+          "gap": 5.5625
+        },
+        {
+          "order": "4",
+          "box": {
+            "x": 28,
+            "y": 5950.03125,
+            "width": 59.1875,
+            "height": 59.1875,
+            "right": 87.1875,
+            "bottom": 6009.21875
+          },
+          "control": false,
+          "heading": null,
+          "gap": null
+        }
+      ],
+      "lines": [
+        {
+          "on": true,
+          "x1": 57.62,
+          "y1": 81.37,
+          "x2": 61.61,
+          "y2": 3532.3
+        },
+        {
+          "on": true,
+          "x1": 61.49,
+          "y1": 3564.7,
+          "x2": 53.69,
+          "y2": 4523.86
+        },
+        {
+          "on": true,
+          "x1": 53.87,
+          "y1": 4556.26,
+          "x2": 61.31,
+          "y2": 4943.65
+        },
+        {
+          "on": true,
+          "x1": 61.56,
+          "y1": 4976.04,
+          "x2": 57.67,
+          "y2": 5960.35
+        }
+      ],
+      "legErrors": [
+        10.799981997511622,
+        10.799107493265637,
+        10.801271402495331,
+        13.318495337696731
+      ],
+      "field": {
+        "x": 91.1875,
+        "y": 2175.734375,
+        "width": 274.8125,
+        "height": 104,
+        "right": 366,
+        "bottom": 2279.734375
+      },
+      "button": {
+        "x": 91.1875,
+        "y": 3163.828125,
+        "width": 274.8125,
+        "height": 104,
+        "right": 366,
+        "bottom": 3267.828125
+      },
+      "textBoxes": [
+        {
+          "class": "headline",
+          "box": {
+            "x": 91.1875,
+            "y": 215.984375,
+            "width": 274.8125,
+            "height": 98.65625,
+            "right": 366,
+            "bottom": 314.640625
+          }
+        },
+        {
+          "class": "status",
+          "box": {
+            "x": 91.1875,
+            "y": 338.640625,
+            "width": 274.8125,
+            "height": 556.6875,
+            "right": 366,
+            "bottom": 895.328125
+          }
+        },
+        {
+          "class": "win",
+          "box": {
+            "x": 91.1875,
+            "y": 927.328125,
+            "width": 274.8125,
+            "height": 137.40625,
+            "right": 366,
+            "bottom": 1064.734375
+          }
+        },
+        {
+          "class": "req",
+          "box": {
+            "x": 24,
+            "y": 1205.921875,
+            "width": 342,
+            "height": 324.921875,
+            "right": 366,
+            "bottom": 1530.84375
+          }
+        },
+        {
+          "class": "beta",
+          "box": {
+            "x": 24,
+            "y": 1570.84375,
+            "width": 342,
+            "height": 1771.875,
+            "right": 366,
+            "bottom": 3342.71875
+          }
+        },
+        {
+          "class": "rail",
+          "box": {
+            "x": 24,
+            "y": 3430.71875,
+            "width": 342,
+            "height": 2610.5,
+            "right": 366,
+            "bottom": 6041.21875
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 3533.5,
+            "width": 274.8125,
+            "height": 218.375,
+            "right": 366,
+            "bottom": 3751.875
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 3759.875,
+            "width": 274.8125,
+            "height": 714,
+            "right": 366,
+            "bottom": 4473.875
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 4525.0625,
+            "width": 274.8125,
+            "height": 54.59375,
+            "right": 366,
+            "bottom": 4579.65625
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 4587.65625,
+            "width": 274.8125,
+            "height": 306,
+            "right": 366,
+            "bottom": 4893.65625
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 4944.84375,
+            "width": 274.8125,
+            "height": 109.1875,
+            "right": 366,
+            "bottom": 5054.03125
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 5062.03125,
+            "width": 274.8125,
+            "height": 816,
+            "right": 366,
+            "bottom": 5878.03125
+          }
+        }
+      ],
+      "idWhitespace": null,
+      "idRects": [],
+      "idBox": null,
+      "date": "Tilanne tarkistettu 23.11.2026.",
+      "pre": 0,
+      "styles": [
+        {
+          "order": "1",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "order": "2",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "order": "3",
+          "transform": "none",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "name": "motion-real-current-en-light-font32",
+      "version": "current",
+      "lc": "en",
+      "theme": "light",
+      "width": 390,
+      "height": 844,
+      "locale": "en-GB",
+      "lang": "en",
+      "rootFont": "32px",
+      "bodyFont": "34px",
+      "amp": ".5",
+      "overflow": 0,
+      "clipped": [],
+      "offscreen": [],
+      "sym": [
+        {
+          "order": "0",
+          "box": {
+            "x": 36.796875,
+            "y": 36.78125,
+            "width": 41.59375,
+            "height": 41.59375,
+            "right": 78.390625,
+            "bottom": 78.375
+          },
+          "control": false,
+          "heading": null,
+          "gap": null
+        },
+        {
+          "order": "1",
+          "box": {
+            "x": 37.625,
+            "y": 3348.09375,
+            "width": 48,
+            "height": 48,
+            "right": 85.625,
+            "bottom": 3396.09375
+          },
+          "control": true,
+          "heading": {
+            "x": 91.1875,
+            "y": 3357.09375,
+            "width": 274.8125,
+            "height": 163.78125,
+            "right": 366,
+            "bottom": 3520.875
+          },
+          "gap": 5.5625
+        },
+        {
+          "order": "2",
+          "box": {
+            "x": 29.5625,
+            "y": 4285.0625,
+            "width": 48,
+            "height": 48,
+            "right": 77.5625,
+            "bottom": 4333.0625
+          },
+          "control": true,
+          "heading": {
+            "x": 91.1875,
+            "y": 4294.0625,
+            "width": 274.8125,
+            "height": 54.59375,
+            "right": 366,
+            "bottom": 4348.65625
+          },
+          "gap": 13.625
+        },
+        {
+          "order": "3",
+          "box": {
+            "x": 37.625,
+            "y": 5010.84375,
+            "width": 48,
+            "height": 48,
+            "right": 85.625,
+            "bottom": 5058.84375
+          },
+          "control": true,
+          "heading": {
+            "x": 91.1875,
+            "y": 5019.84375,
+            "width": 274.8125,
+            "height": 109.1875,
+            "right": 366,
+            "bottom": 5129.03125
+          },
+          "gap": 5.5625
+        },
+        {
+          "order": "4",
+          "box": {
+            "x": 28,
+            "y": 5923.03125,
+            "width": 59.1875,
+            "height": 59.1875,
+            "right": 87.1875,
+            "bottom": 5982.21875
+          },
+          "control": false,
+          "heading": null,
+          "gap": null
+        }
+      ],
+      "lines": [
+        {
+          "on": true,
+          "x1": 57.62,
+          "y1": 81.37,
+          "x2": 61.61,
+          "y2": 3355.89
+        },
+        {
+          "on": true,
+          "x1": 61.49,
+          "y1": 3388.29,
+          "x2": 53.7,
+          "y2": 4292.86
+        },
+        {
+          "on": true,
+          "x1": 53.74,
+          "y1": 4325.26,
+          "x2": 61.45,
+          "y2": 5018.64
+        },
+        {
+          "on": true,
+          "x1": 61.55,
+          "y1": 5051.04,
+          "x2": 57.68,
+          "y2": 5933.35
+        }
+      ],
+      "legErrors": [
+        10.796230030250626,
+        10.802750462956283,
+        10.800834205045248,
+        13.31843558797209
+      ],
+      "field": {
+        "x": 91.1875,
+        "y": 2036.5625,
+        "width": 274.8125,
+        "height": 104,
+        "right": 366,
+        "bottom": 2140.5625
+      },
+      "button": {
+        "x": 91.1875,
+        "y": 2937.65625,
+        "width": 274.8125,
+        "height": 119.96875,
+        "right": 366,
+        "bottom": 3057.625
+      },
+      "textBoxes": [
+        {
+          "class": "headline",
+          "box": {
+            "x": 91.1875,
+            "y": 215.984375,
+            "width": 274.8125,
+            "height": 98.65625,
+            "right": 366,
+            "bottom": 314.640625
+          }
+        },
+        {
+          "class": "status",
+          "box": {
+            "x": 91.1875,
+            "y": 338.640625,
+            "width": 274.8125,
+            "height": 510.296875,
+            "right": 366,
+            "bottom": 848.9375
+          }
+        },
+        {
+          "class": "win",
+          "box": {
+            "x": 91.1875,
+            "y": 880.9375,
+            "width": 274.8125,
+            "height": 137.40625,
+            "right": 366,
+            "bottom": 1018.34375
+          }
+        },
+        {
+          "class": "req",
+          "box": {
+            "x": 24,
+            "y": 1159.53125,
+            "width": 342,
+            "height": 278.53125,
+            "right": 366,
+            "bottom": 1438.0625
+          }
+        },
+        {
+          "class": "beta",
+          "box": {
+            "x": 24,
+            "y": 1478.0625,
+            "width": 342,
+            "height": 1654.453125,
+            "right": 366,
+            "bottom": 3132.515625
+          }
+        },
+        {
+          "class": "rail",
+          "box": {
+            "x": 24,
+            "y": 3220.515625,
+            "width": 342,
+            "height": 2793.703125,
+            "right": 366,
+            "bottom": 6014.21875
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 3357.09375,
+            "width": 274.8125,
+            "height": 163.78125,
+            "right": 366,
+            "bottom": 3520.875
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 3528.875,
+            "width": 274.8125,
+            "height": 714,
+            "right": 366,
+            "bottom": 4242.875
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 4294.0625,
+            "width": 274.8125,
+            "height": 54.59375,
+            "right": 366,
+            "bottom": 4348.65625
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 4356.65625,
+            "width": 274.8125,
+            "height": 612,
+            "right": 366,
+            "bottom": 4968.65625
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 5019.84375,
+            "width": 274.8125,
+            "height": 109.1875,
+            "right": 366,
+            "bottom": 5129.03125
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 5137.03125,
+            "width": 274.8125,
+            "height": 714,
+            "right": 366,
+            "bottom": 5851.03125
+          }
+        }
+      ],
+      "idWhitespace": null,
+      "idRects": [],
+      "idBox": null,
+      "date": "Status checked 23 Nov 2026.",
+      "pre": 0,
+      "styles": [
+        {
+          "order": "1",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "order": "2",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "order": "3",
+          "transform": "none",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "name": "motion-real-current-en-dark-font32",
+      "version": "current",
+      "lc": "en",
+      "theme": "dark",
+      "width": 390,
+      "height": 844,
+      "locale": "en-GB",
+      "lang": "en",
+      "rootFont": "32px",
+      "bodyFont": "34px",
+      "amp": ".5",
+      "overflow": 0,
+      "clipped": [],
+      "offscreen": [],
+      "sym": [
+        {
+          "order": "0",
+          "box": {
+            "x": 36.796875,
+            "y": 36.78125,
+            "width": 41.59375,
+            "height": 41.59375,
+            "right": 78.390625,
+            "bottom": 78.375
+          },
+          "control": false,
+          "heading": null,
+          "gap": null
+        },
+        {
+          "order": "1",
+          "box": {
+            "x": 37.625,
+            "y": 3348.09375,
+            "width": 48,
+            "height": 48,
+            "right": 85.625,
+            "bottom": 3396.09375
+          },
+          "control": true,
+          "heading": {
+            "x": 91.1875,
+            "y": 3357.09375,
+            "width": 274.8125,
+            "height": 163.78125,
+            "right": 366,
+            "bottom": 3520.875
+          },
+          "gap": 5.5625
+        },
+        {
+          "order": "2",
+          "box": {
+            "x": 29.5625,
+            "y": 4285.0625,
+            "width": 48,
+            "height": 48,
+            "right": 77.5625,
+            "bottom": 4333.0625
+          },
+          "control": true,
+          "heading": {
+            "x": 91.1875,
+            "y": 4294.0625,
+            "width": 274.8125,
+            "height": 54.59375,
+            "right": 366,
+            "bottom": 4348.65625
+          },
+          "gap": 13.625
+        },
+        {
+          "order": "3",
+          "box": {
+            "x": 37.625,
+            "y": 5010.84375,
+            "width": 48,
+            "height": 48,
+            "right": 85.625,
+            "bottom": 5058.84375
+          },
+          "control": true,
+          "heading": {
+            "x": 91.1875,
+            "y": 5019.84375,
+            "width": 274.8125,
+            "height": 109.1875,
+            "right": 366,
+            "bottom": 5129.03125
+          },
+          "gap": 5.5625
+        },
+        {
+          "order": "4",
+          "box": {
+            "x": 28,
+            "y": 5923.03125,
+            "width": 59.1875,
+            "height": 59.1875,
+            "right": 87.1875,
+            "bottom": 5982.21875
+          },
+          "control": false,
+          "heading": null,
+          "gap": null
+        }
+      ],
+      "lines": [
+        {
+          "on": true,
+          "x1": 57.62,
+          "y1": 81.37,
+          "x2": 61.59,
+          "y2": 3345.09
+        },
+        {
+          "on": true,
+          "x1": 61.39,
+          "y1": 3399.09,
+          "x2": 53.79,
+          "y2": 4282.06
+        },
+        {
+          "on": true,
+          "x1": 53.86,
+          "y1": 4336.06,
+          "x2": 61.33,
+          "y2": 5007.85
+        },
+        {
+          "on": true,
+          "x1": 61.51,
+          "y1": 5061.84,
+          "x2": 57.74,
+          "y2": 5920.03
+        }
+      ],
+      "legErrors": [
+        0.00498239934725575,
+        0.00482305371185987,
+        0.00491690957596802,
+        0.0035932923021917418
+      ],
+      "field": {
+        "x": 91.1875,
+        "y": 2036.5625,
+        "width": 274.8125,
+        "height": 104,
+        "right": 366,
+        "bottom": 2140.5625
+      },
+      "button": {
+        "x": 91.1875,
+        "y": 2937.65625,
+        "width": 274.8125,
+        "height": 119.96875,
+        "right": 366,
+        "bottom": 3057.625
+      },
+      "textBoxes": [
+        {
+          "class": "headline",
+          "box": {
+            "x": 91.1875,
+            "y": 215.984375,
+            "width": 274.8125,
+            "height": 98.65625,
+            "right": 366,
+            "bottom": 314.640625
+          }
+        },
+        {
+          "class": "status",
+          "box": {
+            "x": 91.1875,
+            "y": 338.640625,
+            "width": 274.8125,
+            "height": 510.296875,
+            "right": 366,
+            "bottom": 848.9375
+          }
+        },
+        {
+          "class": "win",
+          "box": {
+            "x": 91.1875,
+            "y": 880.9375,
+            "width": 274.8125,
+            "height": 137.40625,
+            "right": 366,
+            "bottom": 1018.34375
+          }
+        },
+        {
+          "class": "req",
+          "box": {
+            "x": 24,
+            "y": 1159.53125,
+            "width": 342,
+            "height": 278.53125,
+            "right": 366,
+            "bottom": 1438.0625
+          }
+        },
+        {
+          "class": "beta",
+          "box": {
+            "x": 24,
+            "y": 1478.0625,
+            "width": 342,
+            "height": 1654.453125,
+            "right": 366,
+            "bottom": 3132.515625
+          }
+        },
+        {
+          "class": "rail",
+          "box": {
+            "x": 24,
+            "y": 3220.515625,
+            "width": 342,
+            "height": 2793.703125,
+            "right": 366,
+            "bottom": 6014.21875
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 3357.09375,
+            "width": 274.8125,
+            "height": 163.78125,
+            "right": 366,
+            "bottom": 3520.875
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 3528.875,
+            "width": 274.8125,
+            "height": 714,
+            "right": 366,
+            "bottom": 4242.875
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 4294.0625,
+            "width": 274.8125,
+            "height": 54.59375,
+            "right": 366,
+            "bottom": 4348.65625
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 4356.65625,
+            "width": 274.8125,
+            "height": 612,
+            "right": 366,
+            "bottom": 4968.65625
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 5019.84375,
+            "width": 274.8125,
+            "height": 109.1875,
+            "right": 366,
+            "bottom": 5129.03125
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 5137.03125,
+            "width": 274.8125,
+            "height": 714,
+            "right": 366,
+            "bottom": 5851.03125
+          }
+        }
+      ],
+      "idWhitespace": null,
+      "idRects": [],
+      "idBox": null,
+      "date": "Status checked 23 Nov 2026.",
+      "pre": 0,
+      "styles": [
+        {
+          "order": "1",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "order": "2",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "order": "3",
+          "transform": "none",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "name": "motion-real-before4323320-fi-light-font32",
+      "version": "before4323320",
+      "lc": "fi",
+      "theme": "light",
+      "width": 390,
+      "height": 844,
+      "locale": "fi-FI",
+      "lang": "fi",
+      "rootFont": "32px",
+      "bodyFont": "34px",
+      "amp": "1",
+      "overflow": 0,
+      "clipped": [],
+      "offscreen": [],
+      "sym": [
+        {
+          "order": "0",
+          "box": {
+            "x": 36.796875,
+            "y": 36.78125,
+            "width": 41.59375,
+            "height": 41.59375,
+            "right": 78.390625,
+            "bottom": 78.375
+          },
+          "control": false,
+          "heading": null,
+          "gap": null
+        },
+        {
+          "order": "1",
+          "box": {
+            "x": 41.65625,
+            "y": 3524.5,
+            "width": 48,
+            "height": 48,
+            "right": 89.65625,
+            "bottom": 3572.5
+          },
+          "control": true,
+          "heading": {
+            "x": 91.1875,
+            "y": 3533.5,
+            "width": 274.8125,
+            "height": 218.375,
+            "right": 366,
+            "bottom": 3751.875
+          },
+          "gap": 1.53125
+        },
+        {
+          "order": "2",
+          "box": {
+            "x": 25.53125,
+            "y": 4516.0625,
+            "width": 48,
+            "height": 48,
+            "right": 73.53125,
+            "bottom": 4564.0625
+          },
+          "control": true,
+          "heading": {
+            "x": 91.1875,
+            "y": 4525.0625,
+            "width": 274.8125,
+            "height": 54.59375,
+            "right": 366,
+            "bottom": 4579.65625
+          },
+          "gap": 17.65625
+        },
+        {
+          "order": "3",
+          "box": {
+            "x": 41.65625,
+            "y": 4935.84375,
+            "width": 48,
+            "height": 48,
+            "right": 89.65625,
+            "bottom": 4983.84375
+          },
+          "control": true,
+          "heading": {
+            "x": 91.1875,
+            "y": 4944.84375,
+            "width": 274.8125,
+            "height": 109.1875,
+            "right": 366,
+            "bottom": 5054.03125
+          },
+          "gap": 1.53125
+        },
+        {
+          "order": "4",
+          "box": {
+            "x": 28,
+            "y": 5950.03125,
+            "width": 59.1875,
+            "height": 59.1875,
+            "right": 87.1875,
+            "bottom": 6009.21875
+          },
+          "control": false,
+          "heading": null,
+          "gap": null
+        }
+      ],
+      "lines": [
+        {
+          "on": true,
+          "x1": 57.65,
+          "y1": 81.37,
+          "x2": 65.59,
+          "y2": 3521.5
+        },
+        {
+          "on": true,
+          "x1": 65.22,
+          "y1": 3575.5,
+          "x2": 49.97,
+          "y2": 4513.07
+        },
+        {
+          "on": true,
+          "x1": 50.57,
+          "y1": 4567.04,
+          "x2": 64.62,
+          "y2": 4932.86
+        },
+        {
+          "on": true,
+          "x1": 65.44,
+          "y1": 4986.84,
+          "x2": 57.85,
+          "y2": 5947.03
+        }
+      ],
+      "legErrors": [
+        0.004936533084475059,
+        0.003930504012714664,
+        0.003647881960205268,
+        0.0029062013627481065
+      ],
+      "field": {
+        "x": 91.1875,
+        "y": 2175.734375,
+        "width": 274.8125,
+        "height": 104,
+        "right": 366,
+        "bottom": 2279.734375
+      },
+      "button": {
+        "x": 91.1875,
+        "y": 3163.828125,
+        "width": 274.8125,
+        "height": 104,
+        "right": 366,
+        "bottom": 3267.828125
+      },
+      "textBoxes": [
+        {
+          "class": "headline",
+          "box": {
+            "x": 91.1875,
+            "y": 215.984375,
+            "width": 274.8125,
+            "height": 98.65625,
+            "right": 366,
+            "bottom": 314.640625
+          }
+        },
+        {
+          "class": "status",
+          "box": {
+            "x": 91.1875,
+            "y": 338.640625,
+            "width": 274.8125,
+            "height": 556.6875,
+            "right": 366,
+            "bottom": 895.328125
+          }
+        },
+        {
+          "class": "win",
+          "box": {
+            "x": 91.1875,
+            "y": 927.328125,
+            "width": 274.8125,
+            "height": 137.40625,
+            "right": 366,
+            "bottom": 1064.734375
+          }
+        },
+        {
+          "class": "req",
+          "box": {
+            "x": 24,
+            "y": 1205.921875,
+            "width": 342,
+            "height": 324.921875,
+            "right": 366,
+            "bottom": 1530.84375
+          }
+        },
+        {
+          "class": "beta",
+          "box": {
+            "x": 24,
+            "y": 1570.84375,
+            "width": 342,
+            "height": 1771.875,
+            "right": 366,
+            "bottom": 3342.71875
+          }
+        },
+        {
+          "class": "rail",
+          "box": {
+            "x": 24,
+            "y": 3430.71875,
+            "width": 342,
+            "height": 2610.5,
+            "right": 366,
+            "bottom": 6041.21875
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 3533.5,
+            "width": 274.8125,
+            "height": 218.375,
+            "right": 366,
+            "bottom": 3751.875
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 3759.875,
+            "width": 274.8125,
+            "height": 714,
+            "right": 366,
+            "bottom": 4473.875
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 4525.0625,
+            "width": 274.8125,
+            "height": 54.59375,
+            "right": 366,
+            "bottom": 4579.65625
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 4587.65625,
+            "width": 274.8125,
+            "height": 306,
+            "right": 366,
+            "bottom": 4893.65625
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 4944.84375,
+            "width": 274.8125,
+            "height": 109.1875,
+            "right": 366,
+            "bottom": 5054.03125
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 5062.03125,
+            "width": 274.8125,
+            "height": 816,
+            "right": 366,
+            "bottom": 5878.03125
+          }
+        }
+      ],
+      "idWhitespace": null,
+      "idRects": [],
+      "idBox": null,
+      "date": "Tilanne tarkistettu 23.11.2026.",
+      "pre": 0,
+      "styles": [
+        {
+          "order": "1",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "order": "2",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "order": "3",
+          "transform": "none",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "name": "motion-real-before4323320-fi-dark-font32",
+      "version": "before4323320",
+      "lc": "fi",
+      "theme": "dark",
+      "width": 390,
+      "height": 844,
+      "locale": "fi-FI",
+      "lang": "fi",
+      "rootFont": "32px",
+      "bodyFont": "34px",
+      "amp": "1",
+      "overflow": 0,
+      "clipped": [],
+      "offscreen": [],
+      "sym": [
+        {
+          "order": "0",
+          "box": {
+            "x": 36.796875,
+            "y": 36.78125,
+            "width": 41.59375,
+            "height": 41.59375,
+            "right": 78.390625,
+            "bottom": 78.375
+          },
+          "control": false,
+          "heading": null,
+          "gap": null
+        },
+        {
+          "order": "1",
+          "box": {
+            "x": 41.65625,
+            "y": 3524.5,
+            "width": 48,
+            "height": 48,
+            "right": 89.65625,
+            "bottom": 3572.5
+          },
+          "control": true,
+          "heading": {
+            "x": 91.1875,
+            "y": 3533.5,
+            "width": 274.8125,
+            "height": 218.375,
+            "right": 366,
+            "bottom": 3751.875
+          },
+          "gap": 1.53125
+        },
+        {
+          "order": "2",
+          "box": {
+            "x": 25.53125,
+            "y": 4516.0625,
+            "width": 48,
+            "height": 48,
+            "right": 73.53125,
+            "bottom": 4564.0625
+          },
+          "control": true,
+          "heading": {
+            "x": 91.1875,
+            "y": 4525.0625,
+            "width": 274.8125,
+            "height": 54.59375,
+            "right": 366,
+            "bottom": 4579.65625
+          },
+          "gap": 17.65625
+        },
+        {
+          "order": "3",
+          "box": {
+            "x": 41.65625,
+            "y": 4935.84375,
+            "width": 48,
+            "height": 48,
+            "right": 89.65625,
+            "bottom": 4983.84375
+          },
+          "control": true,
+          "heading": {
+            "x": 91.1875,
+            "y": 4944.84375,
+            "width": 274.8125,
+            "height": 109.1875,
+            "right": 366,
+            "bottom": 5054.03125
+          },
+          "gap": 1.53125
+        },
+        {
+          "order": "4",
+          "box": {
+            "x": 28,
+            "y": 5950.03125,
+            "width": 59.1875,
+            "height": 59.1875,
+            "right": 87.1875,
+            "bottom": 6009.21875
+          },
+          "control": false,
+          "heading": null,
+          "gap": null
+        }
+      ],
+      "lines": [
+        {
+          "on": true,
+          "x1": 57.65,
+          "y1": 81.37,
+          "x2": 65.59,
+          "y2": 3521.5
+        },
+        {
+          "on": true,
+          "x1": 65.22,
+          "y1": 3575.5,
+          "x2": 49.97,
+          "y2": 4513.07
+        },
+        {
+          "on": true,
+          "x1": 50.57,
+          "y1": 4567.04,
+          "x2": 64.62,
+          "y2": 4932.86
+        },
+        {
+          "on": true,
+          "x1": 65.44,
+          "y1": 4986.84,
+          "x2": 57.85,
+          "y2": 5947.03
+        }
+      ],
+      "legErrors": [
+        0.004936533084475059,
+        0.003930504012714664,
+        0.003647881960205268,
+        0.0029062013627481065
+      ],
+      "field": {
+        "x": 91.1875,
+        "y": 2175.734375,
+        "width": 274.8125,
+        "height": 104,
+        "right": 366,
+        "bottom": 2279.734375
+      },
+      "button": {
+        "x": 91.1875,
+        "y": 3163.828125,
+        "width": 274.8125,
+        "height": 104,
+        "right": 366,
+        "bottom": 3267.828125
+      },
+      "textBoxes": [
+        {
+          "class": "headline",
+          "box": {
+            "x": 91.1875,
+            "y": 215.984375,
+            "width": 274.8125,
+            "height": 98.65625,
+            "right": 366,
+            "bottom": 314.640625
+          }
+        },
+        {
+          "class": "status",
+          "box": {
+            "x": 91.1875,
+            "y": 338.640625,
+            "width": 274.8125,
+            "height": 556.6875,
+            "right": 366,
+            "bottom": 895.328125
+          }
+        },
+        {
+          "class": "win",
+          "box": {
+            "x": 91.1875,
+            "y": 927.328125,
+            "width": 274.8125,
+            "height": 137.40625,
+            "right": 366,
+            "bottom": 1064.734375
+          }
+        },
+        {
+          "class": "req",
+          "box": {
+            "x": 24,
+            "y": 1205.921875,
+            "width": 342,
+            "height": 324.921875,
+            "right": 366,
+            "bottom": 1530.84375
+          }
+        },
+        {
+          "class": "beta",
+          "box": {
+            "x": 24,
+            "y": 1570.84375,
+            "width": 342,
+            "height": 1771.875,
+            "right": 366,
+            "bottom": 3342.71875
+          }
+        },
+        {
+          "class": "rail",
+          "box": {
+            "x": 24,
+            "y": 3430.71875,
+            "width": 342,
+            "height": 2610.5,
+            "right": 366,
+            "bottom": 6041.21875
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 3533.5,
+            "width": 274.8125,
+            "height": 218.375,
+            "right": 366,
+            "bottom": 3751.875
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 3759.875,
+            "width": 274.8125,
+            "height": 714,
+            "right": 366,
+            "bottom": 4473.875
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 4525.0625,
+            "width": 274.8125,
+            "height": 54.59375,
+            "right": 366,
+            "bottom": 4579.65625
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 4587.65625,
+            "width": 274.8125,
+            "height": 306,
+            "right": 366,
+            "bottom": 4893.65625
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 4944.84375,
+            "width": 274.8125,
+            "height": 109.1875,
+            "right": 366,
+            "bottom": 5054.03125
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 5062.03125,
+            "width": 274.8125,
+            "height": 816,
+            "right": 366,
+            "bottom": 5878.03125
+          }
+        }
+      ],
+      "idWhitespace": null,
+      "idRects": [],
+      "idBox": null,
+      "date": "Tilanne tarkistettu 23.11.2026.",
+      "pre": 0,
+      "styles": [
+        {
+          "order": "1",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "order": "2",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "order": "3",
+          "transform": "none",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "name": "motion-real-before4323320-en-light-font32",
+      "version": "before4323320",
+      "lc": "en",
+      "theme": "light",
+      "width": 390,
+      "height": 844,
+      "locale": "en-GB",
+      "lang": "en",
+      "rootFont": "32px",
+      "bodyFont": "34px",
+      "amp": "1",
+      "overflow": 0,
+      "clipped": [],
+      "offscreen": [],
+      "sym": [
+        {
+          "order": "0",
+          "box": {
+            "x": 36.796875,
+            "y": 36.78125,
+            "width": 41.59375,
+            "height": 41.59375,
+            "right": 78.390625,
+            "bottom": 78.375
+          },
+          "control": false,
+          "heading": null,
+          "gap": null
+        },
+        {
+          "order": "1",
+          "box": {
+            "x": 41.65625,
+            "y": 3348.09375,
+            "width": 48,
+            "height": 48,
+            "right": 89.65625,
+            "bottom": 3396.09375
+          },
+          "control": true,
+          "heading": {
+            "x": 91.1875,
+            "y": 3357.09375,
+            "width": 274.8125,
+            "height": 163.78125,
+            "right": 366,
+            "bottom": 3520.875
+          },
+          "gap": 1.53125
+        },
+        {
+          "order": "2",
+          "box": {
+            "x": 25.53125,
+            "y": 4285.0625,
+            "width": 48,
+            "height": 48,
+            "right": 73.53125,
+            "bottom": 4333.0625
+          },
+          "control": true,
+          "heading": {
+            "x": 91.1875,
+            "y": 4294.0625,
+            "width": 274.8125,
+            "height": 54.59375,
+            "right": 366,
+            "bottom": 4348.65625
+          },
+          "gap": 17.65625
+        },
+        {
+          "order": "3",
+          "box": {
+            "x": 41.65625,
+            "y": 5010.84375,
+            "width": 48,
+            "height": 48,
+            "right": 89.65625,
+            "bottom": 5058.84375
+          },
+          "control": true,
+          "heading": {
+            "x": 91.1875,
+            "y": 5019.84375,
+            "width": 274.8125,
+            "height": 109.1875,
+            "right": 366,
+            "bottom": 5129.03125
+          },
+          "gap": 1.53125
+        },
+        {
+          "order": "4",
+          "box": {
+            "x": 28,
+            "y": 5923.03125,
+            "width": 59.1875,
+            "height": 59.1875,
+            "right": 87.1875,
+            "bottom": 5982.21875
+          },
+          "control": false,
+          "heading": null,
+          "gap": null
+        }
+      ],
+      "lines": [
+        {
+          "on": true,
+          "x1": 57.65,
+          "y1": 81.37,
+          "x2": 65.59,
+          "y2": 3345.09
+        },
+        {
+          "on": true,
+          "x1": 65.19,
+          "y1": 3399.09,
+          "x2": 50,
+          "y2": 4282.07
+        },
+        {
+          "on": true,
+          "x1": 50.13,
+          "y1": 4336.06,
+          "x2": 65.06,
+          "y2": 5007.85
+        },
+        {
+          "on": true,
+          "x1": 65.42,
+          "y1": 5061.84,
+          "x2": 57.88,
+          "y2": 5920.03
+        }
+      ],
+      "legErrors": [
+        0.0049295976233452166,
+        0.004155486470480696,
+        0.004161330510214611,
+        0.0027082350870841765
+      ],
+      "field": {
+        "x": 91.1875,
+        "y": 2036.5625,
+        "width": 274.8125,
+        "height": 104,
+        "right": 366,
+        "bottom": 2140.5625
+      },
+      "button": {
+        "x": 91.1875,
+        "y": 2937.65625,
+        "width": 274.8125,
+        "height": 119.96875,
+        "right": 366,
+        "bottom": 3057.625
+      },
+      "textBoxes": [
+        {
+          "class": "headline",
+          "box": {
+            "x": 91.1875,
+            "y": 215.984375,
+            "width": 274.8125,
+            "height": 98.65625,
+            "right": 366,
+            "bottom": 314.640625
+          }
+        },
+        {
+          "class": "status",
+          "box": {
+            "x": 91.1875,
+            "y": 338.640625,
+            "width": 274.8125,
+            "height": 510.296875,
+            "right": 366,
+            "bottom": 848.9375
+          }
+        },
+        {
+          "class": "win",
+          "box": {
+            "x": 91.1875,
+            "y": 880.9375,
+            "width": 274.8125,
+            "height": 137.40625,
+            "right": 366,
+            "bottom": 1018.34375
+          }
+        },
+        {
+          "class": "req",
+          "box": {
+            "x": 24,
+            "y": 1159.53125,
+            "width": 342,
+            "height": 278.53125,
+            "right": 366,
+            "bottom": 1438.0625
+          }
+        },
+        {
+          "class": "beta",
+          "box": {
+            "x": 24,
+            "y": 1478.0625,
+            "width": 342,
+            "height": 1654.453125,
+            "right": 366,
+            "bottom": 3132.515625
+          }
+        },
+        {
+          "class": "rail",
+          "box": {
+            "x": 24,
+            "y": 3220.515625,
+            "width": 342,
+            "height": 2793.703125,
+            "right": 366,
+            "bottom": 6014.21875
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 3357.09375,
+            "width": 274.8125,
+            "height": 163.78125,
+            "right": 366,
+            "bottom": 3520.875
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 3528.875,
+            "width": 274.8125,
+            "height": 714,
+            "right": 366,
+            "bottom": 4242.875
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 4294.0625,
+            "width": 274.8125,
+            "height": 54.59375,
+            "right": 366,
+            "bottom": 4348.65625
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 4356.65625,
+            "width": 274.8125,
+            "height": 612,
+            "right": 366,
+            "bottom": 4968.65625
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 5019.84375,
+            "width": 274.8125,
+            "height": 109.1875,
+            "right": 366,
+            "bottom": 5129.03125
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 5137.03125,
+            "width": 274.8125,
+            "height": 714,
+            "right": 366,
+            "bottom": 5851.03125
+          }
+        }
+      ],
+      "idWhitespace": null,
+      "idRects": [],
+      "idBox": null,
+      "date": "Status checked 23 Nov 2026.",
+      "pre": 0,
+      "styles": [
+        {
+          "order": "1",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "order": "2",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "order": "3",
+          "transform": "none",
+          "opacity": "1"
+        }
+      ]
+    },
+    {
+      "name": "motion-real-before4323320-en-dark-font32",
+      "version": "before4323320",
+      "lc": "en",
+      "theme": "dark",
+      "width": 390,
+      "height": 844,
+      "locale": "en-GB",
+      "lang": "en",
+      "rootFont": "32px",
+      "bodyFont": "34px",
+      "amp": "1",
+      "overflow": 0,
+      "clipped": [],
+      "offscreen": [],
+      "sym": [
+        {
+          "order": "0",
+          "box": {
+            "x": 36.796875,
+            "y": 36.78125,
+            "width": 41.59375,
+            "height": 41.59375,
+            "right": 78.390625,
+            "bottom": 78.375
+          },
+          "control": false,
+          "heading": null,
+          "gap": null
+        },
+        {
+          "order": "1",
+          "box": {
+            "x": 41.65625,
+            "y": 3348.09375,
+            "width": 48,
+            "height": 48,
+            "right": 89.65625,
+            "bottom": 3396.09375
+          },
+          "control": true,
+          "heading": {
+            "x": 91.1875,
+            "y": 3357.09375,
+            "width": 274.8125,
+            "height": 163.78125,
+            "right": 366,
+            "bottom": 3520.875
+          },
+          "gap": 1.53125
+        },
+        {
+          "order": "2",
+          "box": {
+            "x": 25.53125,
+            "y": 4285.0625,
+            "width": 48,
+            "height": 48,
+            "right": 73.53125,
+            "bottom": 4333.0625
+          },
+          "control": true,
+          "heading": {
+            "x": 91.1875,
+            "y": 4294.0625,
+            "width": 274.8125,
+            "height": 54.59375,
+            "right": 366,
+            "bottom": 4348.65625
+          },
+          "gap": 17.65625
+        },
+        {
+          "order": "3",
+          "box": {
+            "x": 41.65625,
+            "y": 5010.84375,
+            "width": 48,
+            "height": 48,
+            "right": 89.65625,
+            "bottom": 5058.84375
+          },
+          "control": true,
+          "heading": {
+            "x": 91.1875,
+            "y": 5019.84375,
+            "width": 274.8125,
+            "height": 109.1875,
+            "right": 366,
+            "bottom": 5129.03125
+          },
+          "gap": 1.53125
+        },
+        {
+          "order": "4",
+          "box": {
+            "x": 28,
+            "y": 5923.03125,
+            "width": 59.1875,
+            "height": 59.1875,
+            "right": 87.1875,
+            "bottom": 5982.21875
+          },
+          "control": false,
+          "heading": null,
+          "gap": null
+        }
+      ],
+      "lines": [
+        {
+          "on": true,
+          "x1": 57.65,
+          "y1": 81.37,
+          "x2": 65.62,
+          "y2": 3355.89
+        },
+        {
+          "on": true,
+          "x1": 65.38,
+          "y1": 3388.29,
+          "x2": 49.81,
+          "y2": 4292.86
+        },
+        {
+          "on": true,
+          "x1": 49.89,
+          "y1": 4325.26,
+          "x2": 65.3,
+          "y2": 5018.65
+        },
+        {
+          "on": true,
+          "x1": 65.51,
+          "y1": 5051.04,
+          "x2": 57.76,
+          "y2": 5933.35
+        }
+      ],
+      "legErrors": [
+        10.79617012126937,
+        10.7997525177434,
+        10.799588669489822,
+        13.317492406476958
+      ],
+      "field": {
+        "x": 91.1875,
+        "y": 2036.5625,
+        "width": 274.8125,
+        "height": 104,
+        "right": 366,
+        "bottom": 2140.5625
+      },
+      "button": {
+        "x": 91.1875,
+        "y": 2937.65625,
+        "width": 274.8125,
+        "height": 119.96875,
+        "right": 366,
+        "bottom": 3057.625
+      },
+      "textBoxes": [
+        {
+          "class": "headline",
+          "box": {
+            "x": 91.1875,
+            "y": 215.984375,
+            "width": 274.8125,
+            "height": 98.65625,
+            "right": 366,
+            "bottom": 314.640625
+          }
+        },
+        {
+          "class": "status",
+          "box": {
+            "x": 91.1875,
+            "y": 338.640625,
+            "width": 274.8125,
+            "height": 510.296875,
+            "right": 366,
+            "bottom": 848.9375
+          }
+        },
+        {
+          "class": "win",
+          "box": {
+            "x": 91.1875,
+            "y": 880.9375,
+            "width": 274.8125,
+            "height": 137.40625,
+            "right": 366,
+            "bottom": 1018.34375
+          }
+        },
+        {
+          "class": "req",
+          "box": {
+            "x": 24,
+            "y": 1159.53125,
+            "width": 342,
+            "height": 278.53125,
+            "right": 366,
+            "bottom": 1438.0625
+          }
+        },
+        {
+          "class": "beta",
+          "box": {
+            "x": 24,
+            "y": 1478.0625,
+            "width": 342,
+            "height": 1654.453125,
+            "right": 366,
+            "bottom": 3132.515625
+          }
+        },
+        {
+          "class": "rail",
+          "box": {
+            "x": 24,
+            "y": 3220.515625,
+            "width": 342,
+            "height": 2793.703125,
+            "right": 366,
+            "bottom": 6014.21875
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 3357.09375,
+            "width": 274.8125,
+            "height": 163.78125,
+            "right": 366,
+            "bottom": 3520.875
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 3528.875,
+            "width": 274.8125,
+            "height": 714,
+            "right": 366,
+            "bottom": 4242.875
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 4294.0625,
+            "width": 274.8125,
+            "height": 54.59375,
+            "right": 366,
+            "bottom": 4348.65625
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 4356.65625,
+            "width": 274.8125,
+            "height": 612,
+            "right": 366,
+            "bottom": 4968.65625
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 5019.84375,
+            "width": 274.8125,
+            "height": 109.1875,
+            "right": 366,
+            "bottom": 5129.03125
+          }
+        },
+        {
+          "class": "",
+          "box": {
+            "x": 91.1875,
+            "y": 5137.03125,
+            "width": 274.8125,
+            "height": 714,
+            "right": 366,
+            "bottom": 5851.03125
+          }
+        }
+      ],
+      "idWhitespace": null,
+      "idRects": [],
+      "idBox": null,
+      "date": "Status checked 23 Nov 2026.",
+      "pre": 0,
+      "styles": [
+        {
+          "order": "1",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "order": "2",
+          "transform": "none",
+          "opacity": "1"
+        },
+        {
+          "order": "3",
+          "transform": "none",
+          "opacity": "1"
+        }
+      ]
+    }
+  ],
+  "privacyStress": [
+    {
+      "version": "current",
+      "lc": "fi",
+      "width": 320,
+      "height": 844,
+      "locale": "en-GB",
+      "lang": "fi",
+      "rootFont": "32px",
+      "bodyFont": "34px",
+      "amp": "1",
+      "overflow": 12,
+      "clipped": [],
+      "offscreen": [],
+      "sym": [],
+      "lines": [],
+      "legErrors": [],
+      "field": null,
+      "button": null,
+      "textBoxes": [],
+      "id": "3458206-1",
+      "idWhitespace": "nowrap",
+      "idRects": [
+        {
+          "x": 60,
+          "y": 19087.125,
+          "width": 163.453125,
+          "height": 44
+        }
+      ],
+      "idBox": {
+        "x": 60,
+        "y": 19087.125,
+        "width": 163.453125,
+        "height": 44,
+        "right": 223.453125,
+        "bottom": 19131.125
+      },
+      "controller": "Koivupiilo Oy, Y-tunnus 3458206-1, Kangasala\njarkko@koivupiilo.fi\n\nPäivitetty 23.11.2026.",
+      "offenders": [
+        {
+          "tag": "DIV",
+          "cls": "",
+          "text": "YritysKoivupiilo Oy",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DT",
+          "cls": "",
+          "text": "Yritys",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DD",
+          "cls": "",
+          "text": "Koivupiilo Oy",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "text": "Y-tunnus3458206-1",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DT",
+          "cls": "",
+          "text": "Y-tunnus",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DD",
+          "cls": "",
+          "text": "3458206-1",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "text": "PaikkakuntaKangasala",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DT",
+          "cls": "",
+          "text": "Paikkakunta",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DD",
+          "cls": "",
+          "text": "Kangasala",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "text": "Sähköpostijarkko@koivupiilo.fi",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DT",
+          "cls": "",
+          "text": "Sähköposti",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DD",
+          "cls": "",
+          "text": "jarkko@koivupiilo.fi",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "A",
+          "cls": "",
+          "text": "jarkko@koivupiilo.fi",
+          "x": 60,
+          "right": 322.5,
+          "width": 262.5
+        }
+      ]
+    },
+    {
+      "version": "current",
+      "lc": "en",
+      "width": 320,
+      "height": 844,
+      "locale": "en-GB",
+      "lang": "en",
+      "rootFont": "32px",
+      "bodyFont": "34px",
+      "amp": "1",
+      "overflow": 12,
+      "clipped": [],
+      "offscreen": [],
+      "sym": [],
+      "lines": [],
+      "legErrors": [],
+      "field": null,
+      "button": null,
+      "textBoxes": [],
+      "id": "3458206-1",
+      "idWhitespace": "nowrap",
+      "idRects": [
+        {
+          "x": 60,
+          "y": 17086.0625,
+          "width": 163.453125,
+          "height": 44
+        }
+      ],
+      "idBox": {
+        "x": 60,
+        "y": 17086.0625,
+        "width": 163.453125,
+        "height": 44,
+        "right": 223.453125,
+        "bottom": 17130.0625
+      },
+      "controller": "Koivupiilo Oy, Business ID 3458206-1, Kangasala, Finland\njarkko@koivupiilo.fi\n\nUpdated 23 November 2026.",
+      "offenders": [
+        {
+          "tag": "DIV",
+          "cls": "",
+          "text": "CompanyKoivupiilo Oy",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DT",
+          "cls": "",
+          "text": "Company",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DD",
+          "cls": "",
+          "text": "Koivupiilo Oy",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "text": "Business ID3458206-1",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DT",
+          "cls": "",
+          "text": "Business ID",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DD",
+          "cls": "",
+          "text": "3458206-1",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "text": "LocationKangasala, Finland",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DT",
+          "cls": "",
+          "text": "Location",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DD",
+          "cls": "",
+          "text": "Kangasala, Finland",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "text": "Emailjarkko@koivupiilo.fi",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DT",
+          "cls": "",
+          "text": "Email",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DD",
+          "cls": "",
+          "text": "jarkko@koivupiilo.fi",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "A",
+          "cls": "",
+          "text": "jarkko@koivupiilo.fi",
+          "x": 60,
+          "right": 322.5,
+          "width": 262.5
+        }
+      ]
+    },
+    {
+      "version": "before4323320",
+      "lc": "fi",
+      "width": 320,
+      "height": 844,
+      "locale": "en-GB",
+      "lang": "fi",
+      "rootFont": "32px",
+      "bodyFont": "34px",
+      "amp": "1",
+      "overflow": 12,
+      "clipped": [],
+      "offscreen": [],
+      "sym": [],
+      "lines": [],
+      "legErrors": [],
+      "field": null,
+      "button": null,
+      "textBoxes": [],
+      "id": "3458206-1",
+      "idWhitespace": "normal",
+      "idRects": [
+        {
+          "x": 60,
+          "y": 19087.125,
+          "width": 163.453125,
+          "height": 44
+        }
+      ],
+      "idBox": {
+        "x": 60,
+        "y": 19087.125,
+        "width": 163.453125,
+        "height": 44,
+        "right": 223.453125,
+        "bottom": 19131.125
+      },
+      "controller": "Koivupiilo Oy, Y-tunnus 3458206-1, Kangasala\njarkko@koivupiilo.fi\n\nPäivitetty 23.11.2026.",
+      "offenders": [
+        {
+          "tag": "DIV",
+          "cls": "",
+          "text": "YritysKoivupiilo Oy",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DT",
+          "cls": "",
+          "text": "Yritys",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DD",
+          "cls": "",
+          "text": "Koivupiilo Oy",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "text": "Y-tunnus3458206-1",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DT",
+          "cls": "",
+          "text": "Y-tunnus",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DD",
+          "cls": "",
+          "text": "3458206-1",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "text": "PaikkakuntaKangasala",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DT",
+          "cls": "",
+          "text": "Paikkakunta",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DD",
+          "cls": "",
+          "text": "Kangasala",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "text": "Sähköpostijarkko@koivupiilo.fi",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DT",
+          "cls": "",
+          "text": "Sähköposti",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DD",
+          "cls": "",
+          "text": "jarkko@koivupiilo.fi",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "A",
+          "cls": "",
+          "text": "jarkko@koivupiilo.fi",
+          "x": 60,
+          "right": 322.5,
+          "width": 262.5
+        }
+      ]
+    },
+    {
+      "version": "before4323320",
+      "lc": "en",
+      "width": 320,
+      "height": 844,
+      "locale": "en-GB",
+      "lang": "en",
+      "rootFont": "32px",
+      "bodyFont": "34px",
+      "amp": "1",
+      "overflow": 12,
+      "clipped": [],
+      "offscreen": [],
+      "sym": [],
+      "lines": [],
+      "legErrors": [],
+      "field": null,
+      "button": null,
+      "textBoxes": [],
+      "id": "3458206-1",
+      "idWhitespace": "normal",
+      "idRects": [
+        {
+          "x": 60,
+          "y": 17086.0625,
+          "width": 163.453125,
+          "height": 44
+        }
+      ],
+      "idBox": {
+        "x": 60,
+        "y": 17086.0625,
+        "width": 163.453125,
+        "height": 44,
+        "right": 223.453125,
+        "bottom": 17130.0625
+      },
+      "controller": "Koivupiilo Oy, Business ID 3458206-1, Kangasala, Finland\njarkko@koivupiilo.fi\n\nUpdated 23 November 2026.",
+      "offenders": [
+        {
+          "tag": "DIV",
+          "cls": "",
+          "text": "CompanyKoivupiilo Oy",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DT",
+          "cls": "",
+          "text": "Company",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DD",
+          "cls": "",
+          "text": "Koivupiilo Oy",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "text": "Business ID3458206-1",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DT",
+          "cls": "",
+          "text": "Business ID",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DD",
+          "cls": "",
+          "text": "3458206-1",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "text": "LocationKangasala, Finland",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DT",
+          "cls": "",
+          "text": "Location",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DD",
+          "cls": "",
+          "text": "Kangasala, Finland",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DIV",
+          "cls": "",
+          "text": "Emailjarkko@koivupiilo.fi",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DT",
+          "cls": "",
+          "text": "Email",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "DD",
+          "cls": "",
+          "text": "jarkko@koivupiilo.fi",
+          "x": 60,
+          "right": 332,
+          "width": 272
+        },
+        {
+          "tag": "A",
+          "cls": "",
+          "text": "jarkko@koivupiilo.fi",
+          "x": 60,
+          "right": 322.5,
+          "width": 262.5
+        }
+      ]
+    }
+  ]
+}
