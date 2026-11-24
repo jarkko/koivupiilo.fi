@@ -75,7 +75,8 @@
         data-msg-invalid-email="That doesn&#39;t look like an email address. Please check it."
         data-msg-rate-limited="Too many requests have come from your network in a short time. Try again in a few minutes."
         data-msg-failed="Your request didn&#39;t get through. Try again in a moment."
-        data-msg-offline="Your request wasn&#39;t sent. Check your connection and try again.">
+        data-msg-offline="Your request wasn&#39;t sent. Check your connection and try again."
+        data-msg-consent-required="Tick the box if you&#39;d like the invite by email.">
         <label class="field-label" for="email">Email address</label>
         <input id="email" name="email" type="email" autocomplete="email" inputmode="email" autocapitalize="off" spellcheck="false" required>
         <p class="field-err" id="signup-error"><svg class="ic" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="8"/><path d="M10 5.5v5.5M10 14.2v.1"/></svg>That doesn&#39;t look like an email address. Please check it.</p>
@@ -89,9 +90,10 @@
           <input id="website" name="website" type="text" value="" tabindex="-1" autocomplete="off" aria-hidden="true">
         </div>
         <div class="consent">
-          <input id="consent" type="checkbox" required>
+          <input id="consent" name="consent_given" type="checkbox" value="yes" required>
           <label for="consent">Email me an invite to the Ratametsuri beta and let me know when the app is released. My address won&#39;t be used for anything else or passed on. I can remove my address at any time. More about privacy: <a href="/en/privacy/">koivupiilo.fi/en/privacy</a></label>
         </div>
+        <p class="consent-err" id="consent-error" data-launchpad-consent-error hidden></p>
         <button type="submit">Ask for an invite</button>
         <div class="msgs">
           <p class="answer" id="signup-status" data-launchpad-status role="status"></p>

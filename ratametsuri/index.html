@@ -75,7 +75,8 @@
         data-msg-invalid-email="Tämä ei näytä sähköpostiosoitteelta. Tarkista osoite."
         data-msg-rate-limited="Verkostasi on tullut lyhyessä ajassa liian monta pyyntöä. Yritä uudelleen muutaman minuutin päästä."
         data-msg-failed="Pyyntö ei mennyt perille. Yritä hetken päästä uudelleen."
-        data-msg-offline="Pyyntö ei lähtenyt. Tarkista verkkoyhteys ja yritä uudelleen.">
+        data-msg-offline="Pyyntö ei lähtenyt. Tarkista verkkoyhteys ja yritä uudelleen."
+        data-msg-consent-required="Rastita ruutu, jos haluat kutsun sähköpostiisi.">
         <label class="field-label" for="email">Sähköpostiosoite</label>
         <input id="email" name="email" type="email" autocomplete="email" inputmode="email" autocapitalize="off" spellcheck="false" required>
         <p class="field-err" id="signup-error"><svg class="ic" viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="8"/><path d="M10 5.5v5.5M10 14.2v.1"/></svg>Tämä ei näytä sähköpostiosoitteelta. Tarkista osoite.</p>
@@ -89,9 +90,10 @@
           <input id="website" name="website" type="text" value="" tabindex="-1" autocomplete="off" aria-hidden="true">
         </div>
         <div class="consent">
-          <input id="consent" type="checkbox" required>
+          <input id="consent" name="consent_given" type="checkbox" value="yes" required>
           <label for="consent">Haluan sähköpostiini kutsun Ratametsurin betaan ja tiedon, kun sovellus julkaistaan. Osoitettani ei käytetä muuhun eikä luovuteta eteenpäin. Voin poistaa osoitteeni milloin tahansa. Lisätietoja tietosuojasta: <a href="/tietosuoja/">koivupiilo.fi/tietosuoja</a></label>
         </div>
+        <p class="consent-err" id="consent-error" data-launchpad-consent-error hidden></p>
         <button type="submit">Pyydä kutsu</button>
         <div class="msgs">
           <p class="answer" id="signup-status" data-launchpad-status role="status"></p>
