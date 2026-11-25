@@ -1,0 +1,27 @@
+fi light 1 {"sw":1440,"cw":1440,"wide":0,"cur":["Siirry sisältöön:none","Tietosuoja:page"]}
+fi light 1.1 {"sw":1309,"cw":1309,"wide":0,"cur":["Siirry sisältöön:none","Tietosuoja:page"]}
+fi light 1.25 {"sw":1152,"cw":1152,"wide":0,"cur":["Siirry sisältöön:none","Tietosuoja:page"]}
+fi light 1.5 {"sw":960,"cw":960,"wide":0,"cur":["Siirry sisältöön:none","Tietosuoja:page"]}
+fi light 1.75 {"sw":823,"cw":823,"wide":0,"cur":["Siirry sisältöön:none","Tietosuoja:page"]}
+fi light 2 {"sw":720,"cw":720,"wide":0,"cur":["Siirry sisältöön:none","Tietosuoja:page"]}
+fi dark 1 {"sw":1440,"cw":1440,"wide":0,"cur":["Siirry sisältöön:none","Tietosuoja:page"]}
+fi dark 1.1 {"sw":1309,"cw":1309,"wide":0,"cur":["Siirry sisältöön:none","Tietosuoja:page"]}
+fi dark 1.25 {"sw":1152,"cw":1152,"wide":0,"cur":["Siirry sisältöön:none","Tietosuoja:page"]}
+fi dark 1.5 {"sw":960,"cw":960,"wide":0,"cur":["Siirry sisältöön:none","Tietosuoja:page"]}
+fi dark 1.75 {"sw":823,"cw":823,"wide":0,"cur":["Siirry sisältöön:none","Tietosuoja:page"]}
+fi dark 2 {"sw":720,"cw":720,"wide":0,"cur":["Siirry sisältöön:none","Tietosuoja:page"]}
+en light 1 {"sw":1440,"cw":1440,"wide":0,"cur":["Skip to content:none","Privacy:page"]}
+en light 1.1 {"sw":1309,"cw":1309,"wide":0,"cur":["Skip to content:none","Privacy:page"]}
+en light 1.25 {"sw":1152,"cw":1152,"wide":0,"cur":["Skip to content:none","Privacy:page"]}
+en light 1.5 {"sw":960,"cw":960,"wide":0,"cur":["Skip to content:none","Privacy:page"]}
+en light 1.75 {"sw":823,"cw":823,"wide":0,"cur":["Skip to content:none","Privacy:page"]}
+en light 2 {"sw":720,"cw":720,"wide":0,"cur":["Skip to content:none","Privacy:page"]}
+en dark 1 {"sw":1440,"cw":1440,"wide":0,"cur":["Skip to content:none","Privacy:page"]}
+en dark 1.1 {"sw":1309,"cw":1309,"wide":0,"cur":["Skip to content:none","Privacy:page"]}
+en dark 1.25 {"sw":1152,"cw":1152,"wide":0,"cur":["Skip to content:none","Privacy:page"]}
+en dark 1.5 {"sw":960,"cw":960,"wide":0,"cur":["Skip to content:none","Privacy:page"]}
+en dark 1.75 {"sw":823,"cw":823,"wide":0,"cur":["Skip to content:none","Privacy:page"]}
+en dark 2 {"sw":720,"cw":720,"wide":0,"cur":["Skip to content:none","Privacy:page"]}
+Siirry sisältöön [solid 2px] |  [solid 2px] | Työt [solid 2px] | Studio [solid 2px] | Valmennus [solid 2px] | Yritys [solid 2px] | English [solid 2px] | jarkko@koivupiilo.fi [solid 2px] | jarkko@koivupiilo.fi [solid 2px] | 3458206-1 [solid 2px] | jarkko@koivupiilo.fi [solid 2px] | Tietosuoja [solid 2px] | English [solid 2px] | Siirry sisältöön
+    
+    [none 3px]

@@ -120,24 +120,29 @@ fi:
         - Koivupiilo on koivikko Kangasalla.
     privacy:
       title: Tietosuoja – Koivupiilo
-      description: Koivupiilo.fi ei käytä evästeitä eikä analytiikkaa. Kerromme, mitä tietoja palvelin ja sähköposti käsittelevät ja kuka on rekisterinpitäjä.
+      description: Mitä tietoja Koivupiilo käsittelee sivustolla, sähköpostissa ja Ratametsurin betahaussa, kuinka kauan niitä säilytetään ja mitä oikeuksia sinulla on.
       heading: Tietosuoja
-      lede: Koivupiilo.fi ei käytä evästeitä eikä seuraa kävijöitä.
+      lede: Kun käyt sivustolla, lähetät sähköpostia tai haet Ratametsurin betaan, Koivupiilo käsittelee tietojasi. Tällä sivulla kerrotaan, mitä tietoja ja miksi.
       sections:
-        - heading: Evästeet ja analytiikka
+        - heading: Evästeet ja kävijämäärät
           text:
-            - Sivusto ei tallenna selaimeesi mitään.
-            - Se ei myöskään lataa mitään kolmansien osapuolten palvelimilta, ei edes fontteja.
-        - heading: Palvelin
+            - Sivustolla käytetään evästeitä ja selaimen tallennustilaa, jotta sivut toimivat. Niitä ei käytetä mainontaan eikä seurantaan ilman lupaasi.
+            - Koivupiilo laskee käynnit ja betahakemukset nähdäkseen, miten sivuja käytetään. Laskuri on Koivupiilon oma. Se toimii ilman evästeitä eikä tallenna IP-osoitettasi. Luvuista ei näe, kuka sivuilla on käynyt.
+        - heading: Palvelimet
           text:
-            - Sivusto on GitHub Pagesissa. GitHub voi tallentaa kävijöiden IP-osoitteita tietoturvasyistä.
+            - Kun selaimesi hakee sivun, IP-osoitteesi välittyy palvelimelle. Palvelimista vastaava palveluntarjoaja voi käyttää osoitetta palvelunsa suojaamiseen. Koivupiilo käyttää osoitetta estääkseen lomakkeiden väärinkäytön ja säilyttää sitä enintään tunnin. Käsittely perustuu oikeutettuun etuun eli sivuston suojaamiseen.
         - heading: Sähköposti
           text:
-            - Kun lähetät meille sähköpostia, käytämme osoitettasi ja viestiäsi vain vastaamiseen emmekä luovuta niitä eteenpäin. Sähköposti kulkee Fastmailin palvelimien kautta.
+            - Kun lähetät Koivupiilolle sähköpostia, osoitettasi ja viestiäsi käytetään vain vastaamiseen. Viesti säilytetään, kunnes pyydät poistamaan sen. Käsittely perustuu oikeutettuun etuun eli yhteydenottoihin vastaamiseen.
+      sections_after:
+        - heading: Kuka tietoja käsittelee
+          text:
+            - Palvelimista ja sähköpostista huolehtivat palveluntarjoajat, jotka käsittelevät tietoja Koivupiilon lukuun. Tietoja ei myydä eikä luovuteta muille.
+            - Osa palveluntarjoajista toimii EU:n ulkopuolella. Tietojen siirto niille perustuu Euroopan komission hyväksymiin suojatoimiin.
         - heading: Oikeutesi
           text:
-            - Voit pyytää nähtäväksesi, korjattavaksi tai poistettavaksi tiedot, jotka meillä on sinusta. Kirjoita osoitteeseen %{email}.
-            - Jos tietojasi on mielestäsi käsitelty väärin, voit valittaa tietosuojavaltuutetulle.
+            - Voit pyytää nähtäväksesi sinusta tallennetut tiedot ja saada ne tiedostona. Voit myös pyytää niiden poistamista ja vastustaa kyselyvastaustesi käyttöä. Voit perua suostumuksesi milloin tahansa. Lähetä pyyntö osoitteeseen %{email}.
+            - Jos katsot, että tietojasi on käsitelty väärin, voit tehdä valituksen tietosuojavaltuutetun toimistolle.
       controller_heading: Rekisterinpitäjä
       updated: Päivitetty %{date}.
     notfound:
@@ -260,23 +265,28 @@ en:
         - Koivupiilo is a birch grove in Kangasala.
     privacy:
       title: Privacy – Koivupiilo
-      description: Koivupiilo.fi uses no cookies and no analytics. Here is what the server and email handle, and who the controller is.
+      description: "Koivupiilo's privacy notice: what data it handles on the site, by email and for Ratametsuri beta applications, how long it keeps it, and what your rights are."
       heading: Privacy
-      lede: Koivupiilo.fi uses no cookies and does not track visitors.
+      lede: Koivupiilo handles your data when you visit the site, email it or apply for the Ratametsuri beta.
       sections:
-        - heading: Cookies and analytics
+        - heading: Cookies and visitor counts
           text:
-            - The site stores nothing in your browser.
-            - Nor does it load anything from third-party servers, not even fonts.
-        - heading: Server
+            - Koivupiilo uses cookies and browser storage for what the pages need to work. It doesn't use them for advertising or for tracking visitors without your permission.
+            - Koivupiilo counts total page visits and beta applications to see how the pages are used. It runs the counter itself, without cookies, and the counter doesn't store your IP address. The totals don't show who visited.
+        - heading: Servers
           text:
-            - The site is hosted on GitHub Pages. GitHub may log visitors' IP addresses for security reasons.
+            - Your IP address reaches the servers whenever your browser fetches a page. The service providers may use it to protect their services. Koivupiilo uses it to stop abuse of its forms and keeps it for no more than an hour. The basis is a legitimate interest in protecting the site.
         - heading: Email
           text:
-            - When you email us, we use your address and message only to reply and pass neither on. Email travels through Fastmail's servers.
+            - When you write to Koivupiilo, it uses your address and your message only to reply. The basis is a legitimate interest in answering. Your message is kept until you ask for it to be deleted.
+      sections_after:
+        - heading: Who handles the data
+          text:
+            - The service providers that run the servers and email handle data on Koivupiilo's behalf. The data isn't sold or passed on to anyone else.
+            - Some of the providers operate outside the EU. Transfers to them rely on safeguards approved by the European Commission.
         - heading: Your rights
           text:
-            - You can ask to see, correct or delete the data we hold about you. Write to %{email}.
+            - You can ask to see the data Koivupiilo holds about you, and to get it as a file. You can ask for it to be deleted, and object to the use of your survey answers. You can withdraw your consent at any time. Write to %{email}.
             - If you think your data has been handled wrongly, you can complain to the Finnish Data Protection Ombudsman.
       controller_heading: Controller
       updated: Updated %{date}.

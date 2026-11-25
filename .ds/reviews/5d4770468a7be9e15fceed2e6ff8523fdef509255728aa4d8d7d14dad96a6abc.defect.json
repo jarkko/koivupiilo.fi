@@ -1,0 +1,357 @@
+{
+  "kind": "defect",
+  "ui_diff_hash": "5d4770468a7be9e15fceed2e6ff8523fdef509255728aa4d8d7d14dad96a6abc",
+  "head_sha": "3aec7100bc245df1caad5c4b6dfd351cd4b9c2a9",
+  "reviewer_run_id": "term_91722319-59ad-4327-a39a-ff73ee0708e1",
+  "implementer_family": "claude",
+  "reviewer_family": "claude",
+  "walked": [
+    "W1",
+    "W3"
+  ],
+  "regions": [
+    "fi_FI",
+    "en_GB"
+  ],
+  "rubric": [
+    {
+      "id": "house-rules",
+      "result": "pass",
+      "blocking": false,
+      "note": "Privacy pages: built HTML and assets byte-identical to the f707560 build, so the f9fa51b0 result stands. Ratametsuri: the counter adds no element and no action; one primary action (\"Hae betaan\" / \"Apply for the beta\") per page in every cell, blocked, slow or loaded.",
+      "evidence": [
+        "docs/design/reviews/evidence/5d477046/html-diff-f707560-main-3aec710.txt",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-counter-report.json",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-fi-390-light-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-fi-390-dark-counter-blocked.jpg",
+        "docs/design/reviews/evidence/f9fa51b0/fi-390-light-font16.jpg",
+        "docs/design/reviews/evidence/f9fa51b0/en-390-dark-font16.jpg"
+      ]
+    },
+    {
+      "id": "model",
+      "result": "pass",
+      "blocking": false,
+      "note": "W1/W3: the only output change against main on the product pages is one <script defer> line in <head>; the product page still shows its dated status and the survey link. Language links land on the paired page with the counter blocked (/ratametsuri/ -> /en/ratametsuri/, lang=en; reverse, lang=fi). The privacy section \"Evästeet ja kävijämäärät\" / \"Cookies and visitor counts\" describes a self-run, cookieless counter, which matches what the tag loads (own subdomain, no cookie set in any run).",
+      "evidence": [
+        "docs/design/reviews/evidence/5d477046/html-diff-f707560-main-3aec710.txt",
+        "docs/design/reviews/evidence/5d477046/strips-report.json",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-counter-report.json"
+      ]
+    },
+    {
+      "id": "heuristics",
+      "result": "pass",
+      "blocking": false,
+      "note": "Nothing a visitor sees changes: full-page captures with the counter blocked, slow and loaded are pixel-identical to the main build without it (0.0000 % differing pixels, same page height) in all 8 cells per mode.",
+      "evidence": [
+        "docs/design/reviews/evidence/5d477046/ratametsuri-counter-report.json",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-fi-390-light-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-fi-390-dark-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-fi-1440-light-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-fi-1440-dark-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-en-390-light-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-en-390-dark-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-en-1440-light-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-en-1440-dark-counter-blocked.jpg"
+      ]
+    },
+    {
+      "id": "interaction-craft",
+      "result": "pass",
+      "blocking": false,
+      "note": "Frame strips at 390 px: counter answering after 3 s (before ~100 ms, ~300 ms, after it ran at ~3.4 s) shows the page painted and stable throughout (only the map image's own fade-in from main, same as without the counter); language switches with the counter blocked show no blank or wrong-language settled frame. With a slow counter, first contentful paint stays 32-120 ms; only DOMContentLoaded/load wait for it (3.0 s), as defer implies, and no page code waits on either (course.js is a synchronous end-of-body script using fonts.ready and IntersectionObserver).",
+      "evidence": [
+        "docs/design/reviews/evidence/5d477046/strip-counter-late-fi-390-dark.jpg",
+        "docs/design/reviews/evidence/5d477046/strip-counter-late-en-390-light.jpg",
+        "docs/design/reviews/evidence/5d477046/strip-lang-fi-390-light-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/strip-lang-en-390-dark-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/strips-report.json",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-counter-report.json"
+      ]
+    },
+    {
+      "id": "platform",
+      "result": "pass",
+      "blocking": false,
+      "note": "Ratametsuri, 32 runs (fi/en x 390/1440 x light/dark x no-counter/blocked/slow/loaded): scrollWidth equals clientWidth, no element outside the viewport, no page error. CLS identical with and without the counter (0 to 0.00015, the same tiny shifts already present on main). Text-size and zoom behaviour are unaffected by a head script and were not re-run; the privacy pages' 24-cell large-text/zoom/axe pass from f9fa51b0 stands because their output is byte-identical. Known pre-existing items F1-F3 carried over.",
+      "evidence": [
+        "docs/design/reviews/evidence/5d477046/ratametsuri-counter-report.json",
+        "docs/design/reviews/evidence/5d477046/html-diff-f707560-main-3aec710.txt",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-fi-390-light-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-fi-390-dark-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-fi-1440-light-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-fi-1440-dark-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-en-390-light-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-en-390-dark-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-en-1440-light-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-en-1440-dark-counter-blocked.jpg"
+      ]
+    },
+    {
+      "id": "owner-rules",
+      "result": "pass",
+      "blocking": false,
+      "note": "No toggle added; appearance follows the system in all captures. The counter's data-website-id is a UUID, but only in page source, never on screen or in a URL a person sees.",
+      "evidence": [
+        "docs/design/reviews/evidence/5d477046/ratametsuri-fi-390-light-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-fi-390-dark-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-fi-1440-light-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-fi-1440-dark-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-en-390-light-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-en-390-dark-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-en-1440-light-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-en-1440-dark-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/html-diff-f707560-main-3aec710.txt"
+      ]
+    },
+    {
+      "id": "web-quality",
+      "result": "pass",
+      "blocking": false,
+      "note": "Production build (BRIDGETOWN_ENV=production rake deploy) served from output/. The counter origin is listed in kit.toml allow_origins with a reason. With the counter blocked, the only console line is Chrome's network-level 'Failed to load resource: net::ERR_BLOCKED_BY_CLIENT' for the script itself (any blocked resource logs this; no script error, no uncaught exception, page still complete); slow and loaded runs log nothing. Docker visual (ds run visual) not run by instruction; the 16 privacy baselines are unchanged from the f9fa51b0 approval (same sha256) and no Ratametsuri baseline changes in this PR.",
+      "evidence": [
+        "docs/design/reviews/evidence/5d477046/ratametsuri-counter-report.json",
+        "docs/design/reviews/evidence/5d477046/strips-report.json",
+        "docs/design/reviews/evidence/5d477046/html-diff-f707560-main-3aec710.txt",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-fi-390-light-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-fi-390-dark-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-fi-1440-light-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-fi-1440-dark-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-en-390-light-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-en-390-dark-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-en-1440-light-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-en-1440-dark-counter-blocked.jpg"
+      ]
+    },
+    {
+      "id": "plan-conformance",
+      "result": "pass",
+      "blocking": false,
+      "note": "This PR on top of main changes exactly four built files: the two privacy pages (content reviewed at f9fa51b0, unchanged since) and the two Ratametsuri pages (one deferred counter script in <head>). Nothing else in output/ differs.",
+      "evidence": [
+        "docs/design/reviews/evidence/5d477046/html-diff-f707560-main-3aec710.txt"
+      ]
+    },
+    {
+      "id": "approved-design",
+      "result": "pass",
+      "blocking": false,
+      "note": "Ratametsuri pages are pixel-identical to main's approved rendering with the counter blocked, slow or loaded; privacy pages unchanged from the approved f9fa51b0 rendering.",
+      "evidence": [
+        "docs/design/reviews/evidence/5d477046/ratametsuri-fi-390-light-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-fi-390-dark-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-fi-1440-light-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-fi-1440-dark-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-en-390-light-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-en-390-dark-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-en-1440-light-counter-blocked.jpg",
+        "docs/design/reviews/evidence/5d477046/ratametsuri-en-1440-dark-counter-blocked.jpg",
+        "docs/design/reviews/evidence/f9fa51b0/fi-390-light-font16.jpg",
+        "docs/design/reviews/evidence/f9fa51b0/en-390-dark-font16.jpg",
+        "docs/design/reviews/evidence/f9fa51b0/fi-1440-light-font16.jpg",
+        "docs/design/reviews/evidence/f9fa51b0/en-1440-dark-font16.jpg"
+      ]
+    },
+    {
+      "id": "baseline",
+      "result": "pass",
+      "blocking": false,
+      "note": "Baselines changed against main are the 16 privacy PNGs, each with the same sha256 that f9fa51b0 approved; nothing changed under docs/design/baselines/ since f707560.",
+      "evidence": [
+        "docs/design/reviews/evidence/5d477046/html-diff-f707560-main-3aec710.txt",
+        "docs/design/reviews/evidence/f9fa51b0/fi-390-light-font16.jpg",
+        "docs/design/reviews/evidence/f9fa51b0/en-390-dark-font16.jpg",
+        "docs/design/reviews/evidence/f9fa51b0/fi-1440-light-font16.jpg",
+        "docs/design/reviews/evidence/f9fa51b0/en-1440-dark-font16.jpg"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "severity": "major",
+      "rubric": "platform",
+      "walk": "W3",
+      "message": "Known, carried over from f9fa51b0 F1 (pre-existing, not changed by this PR or the PR #6 merge): Shared header at 390 px with 32 px browser default text: on /en/privacy/ the Koivupiilo wordmark link (x 60-254) runs into the 'Suomeksi' link (x 213-374) and the wordmark's final 'o' covers the 'S'; on /tietosuoja/ the wordmark and 'English' touch with no gap. Not caused by the merge: the earlier review's own capture at cdbf80c1 shows the same overlap (header-en-390-font32-at-cdbf80c1.jpg), and the header markup did not change. Right: let the language link wrap to its own line, or cap the wordmark's em-based width, when the brand row cannot fit both (e.g. flex-wrap with a gap on the brand row), so the two never overlap at large text. Content is still readable and both links still work, so it is not a 1.4.4 failure (browser zoom to 200 % passes), but it is a visible break at a common accessibility setting.",
+      "evidence": [
+        "docs/design/reviews/evidence/f9fa51b0/header-390-overlap-sheet.jpg",
+        "docs/design/reviews/evidence/f9fa51b0/en-390-light-font32.jpg",
+        "docs/design/reviews/evidence/f9fa51b0/fi-390-dark-font32.jpg",
+        "docs/design/reviews/evidence/f9fa51b0/header-en-390-font32-at-cdbf80c1.jpg",
+        "docs/design/reviews/evidence/f9fa51b0/walk-report.json"
+      ]
+    },
+    {
+      "id": "F2",
+      "severity": "minor",
+      "rubric": "platform",
+      "walk": "W3",
+      "message": "Known, carried over from f9fa51b0 F2 (pre-existing, not changed by this PR or the PR #6 merge): Carried over unchanged from review cdbf80c1 F1 (the merge did not touch the privacy copy or styles): /tietosuoja/ at 390 px with 32 px default text breaks long Finnish words without a hyphen (H1 'Tietosu' / 'oja'). Right: hyphens:auto on lang=fi prose and the display heading, or &shy; in the long compounds.",
+      "evidence": [
+        "docs/design/reviews/evidence/f9fa51b0/fi-390-dark-font32.jpg",
+        "docs/design/reviews/evidence/f9fa51b0/privacy-html-diff-2ed9060-2b81714.txt"
+      ]
+    },
+    {
+      "id": "F3",
+      "severity": "minor",
+      "rubric": "house-rules",
+      "walk": "W3",
+      "message": "Known, carried over from f9fa51b0 F3 (pre-existing, not changed by this PR or the PR #6 merge): Carried over unchanged from review cdbf80c1 F2: /en/privacy/ mixes curly apostrophes (Ratametsuri row, through markdownify) with straight ones (rows from copy.yml), e.g. 'doesn't' in 'Cookies and visitor counts'. Right: one glyph across the page.",
+      "evidence": [
+        "docs/design/reviews/evidence/f9fa51b0/en-1440-dark-font16.jpg",
+        "docs/design/reviews/evidence/f9fa51b0/privacy-html-diff-2ed9060-2b81714.txt"
+      ]
+    }
+  ],
+  "no_further_issues_reason": "No new defect. Covered: the full output diff against f707560 and main (only the two privacy pages and the two Ratametsuri pages differ from main; privacy pages byte-identical to the reviewed f707560 build); /ratametsuri/ and /en/ratametsuri/ at 390 and 1440 px, light and dark, in fi-FI and en-GB, with the counter absent, blocked, 3 s slow and loaded (stubbed, no visit sent): pixel-identical renders, unchanged CLS, no overflow, no page error, FCP unaffected; frame strips for the late counter and for both language switches with the counter blocked. Considered and not filed: defer holds DOMContentLoaded/load until a slow counter answers (async would not hold DOMContentLoaded), but nothing on the page waits on either event, so no visitor sees a difference. F1-F3 are the known pre-existing items, carried over.",
+  "model_changes": [],
+  "baselines_approved": [
+    {
+      "path": "docs/design/baselines/en/privacy/desktop-dark-en-GB.png",
+      "sha256": "2431c30d0d37fbba5de15977ab75a6384e76eb237fdd9287d5e4c3c80673774b",
+      "evidence": [
+        "docs/design/baselines/en/privacy/desktop-dark-en-GB.png",
+        "docs/design/reviews/evidence/f9fa51b0/en-1440-dark-font16.jpg"
+      ],
+      "taste_relevant": false
+    },
+    {
+      "path": "docs/design/baselines/en/privacy/desktop-dark-fi-FI.png",
+      "sha256": "2431c30d0d37fbba5de15977ab75a6384e76eb237fdd9287d5e4c3c80673774b",
+      "evidence": [
+        "docs/design/baselines/en/privacy/desktop-dark-fi-FI.png",
+        "docs/design/reviews/evidence/f9fa51b0/en-1440-dark-font16.jpg"
+      ],
+      "taste_relevant": false
+    },
+    {
+      "path": "docs/design/baselines/en/privacy/desktop-light-en-GB.png",
+      "sha256": "7542960ac8c1f686f41a6149631d6b8328a994fa805c74dd5c85732e5de93302",
+      "evidence": [
+        "docs/design/baselines/en/privacy/desktop-light-en-GB.png",
+        "docs/design/reviews/evidence/f9fa51b0/en-1440-light-font16.jpg"
+      ],
+      "taste_relevant": false
+    },
+    {
+      "path": "docs/design/baselines/en/privacy/desktop-light-fi-FI.png",
+      "sha256": "7542960ac8c1f686f41a6149631d6b8328a994fa805c74dd5c85732e5de93302",
+      "evidence": [
+        "docs/design/baselines/en/privacy/desktop-light-fi-FI.png",
+        "docs/design/reviews/evidence/f9fa51b0/en-1440-light-font16.jpg"
+      ],
+      "taste_relevant": false
+    },
+    {
+      "path": "docs/design/baselines/en/privacy/phone-dark-en-GB.png",
+      "sha256": "b4a32b81ed61396aca27b190600f2636aefb48f95fca19753ed139d36e70a006",
+      "evidence": [
+        "docs/design/baselines/en/privacy/phone-dark-en-GB.png",
+        "docs/design/reviews/evidence/f9fa51b0/en-390-dark-font16.jpg"
+      ],
+      "taste_relevant": false
+    },
+    {
+      "path": "docs/design/baselines/en/privacy/phone-dark-fi-FI.png",
+      "sha256": "b4a32b81ed61396aca27b190600f2636aefb48f95fca19753ed139d36e70a006",
+      "evidence": [
+        "docs/design/baselines/en/privacy/phone-dark-fi-FI.png",
+        "docs/design/reviews/evidence/f9fa51b0/en-390-dark-font16.jpg"
+      ],
+      "taste_relevant": false
+    },
+    {
+      "path": "docs/design/baselines/en/privacy/phone-light-en-GB.png",
+      "sha256": "75fa380b1e9f15fd451e792e5a9ec97f098050c1b114525130ec8c4cb76ab034",
+      "evidence": [
+        "docs/design/baselines/en/privacy/phone-light-en-GB.png",
+        "docs/design/reviews/evidence/f9fa51b0/en-390-light-font16.jpg"
+      ],
+      "taste_relevant": false
+    },
+    {
+      "path": "docs/design/baselines/en/privacy/phone-light-fi-FI.png",
+      "sha256": "75fa380b1e9f15fd451e792e5a9ec97f098050c1b114525130ec8c4cb76ab034",
+      "evidence": [
+        "docs/design/baselines/en/privacy/phone-light-fi-FI.png",
+        "docs/design/reviews/evidence/f9fa51b0/en-390-light-font16.jpg"
+      ],
+      "taste_relevant": false
+    },
+    {
+      "path": "docs/design/baselines/tietosuoja/desktop-dark-en-GB.png",
+      "sha256": "8c3b53aec891f2cd650a8099f9090e2669b95c54156e2192c333110873b2d74a",
+      "evidence": [
+        "docs/design/baselines/tietosuoja/desktop-dark-en-GB.png",
+        "docs/design/reviews/evidence/f9fa51b0/fi-1440-dark-font16.jpg"
+      ],
+      "taste_relevant": false
+    },
+    {
+      "path": "docs/design/baselines/tietosuoja/desktop-dark-fi-FI.png",
+      "sha256": "8c3b53aec891f2cd650a8099f9090e2669b95c54156e2192c333110873b2d74a",
+      "evidence": [
+        "docs/design/baselines/tietosuoja/desktop-dark-fi-FI.png",
+        "docs/design/reviews/evidence/f9fa51b0/fi-1440-dark-font16.jpg"
+      ],
+      "taste_relevant": false
+    },
+    {
+      "path": "docs/design/baselines/tietosuoja/desktop-light-en-GB.png",
+      "sha256": "60e19f4e35eeaa4ef954a22db1138d74e16c76daa28244799eaeaf34f71e6377",
+      "evidence": [
+        "docs/design/baselines/tietosuoja/desktop-light-en-GB.png",
+        "docs/design/reviews/evidence/f9fa51b0/fi-1440-light-font16.jpg"
+      ],
+      "taste_relevant": false
+    },
+    {
+      "path": "docs/design/baselines/tietosuoja/desktop-light-fi-FI.png",
+      "sha256": "60e19f4e35eeaa4ef954a22db1138d74e16c76daa28244799eaeaf34f71e6377",
+      "evidence": [
+        "docs/design/baselines/tietosuoja/desktop-light-fi-FI.png",
+        "docs/design/reviews/evidence/f9fa51b0/fi-1440-light-font16.jpg"
+      ],
+      "taste_relevant": false
+    },
+    {
+      "path": "docs/design/baselines/tietosuoja/phone-dark-en-GB.png",
+      "sha256": "56a110a1a9770468c1ea8b0ef637d2d11b94af0682aefad630162e8515d3de37",
+      "evidence": [
+        "docs/design/baselines/tietosuoja/phone-dark-en-GB.png",
+        "docs/design/reviews/evidence/f9fa51b0/fi-390-dark-font16.jpg"
+      ],
+      "taste_relevant": false
+    },
+    {
+      "path": "docs/design/baselines/tietosuoja/phone-dark-fi-FI.png",
+      "sha256": "56a110a1a9770468c1ea8b0ef637d2d11b94af0682aefad630162e8515d3de37",
+      "evidence": [
+        "docs/design/baselines/tietosuoja/phone-dark-fi-FI.png",
+        "docs/design/reviews/evidence/f9fa51b0/fi-390-dark-font16.jpg"
+      ],
+      "taste_relevant": false
+    },
+    {
+      "path": "docs/design/baselines/tietosuoja/phone-light-en-GB.png",
+      "sha256": "2ebd177b692913416ac524fdde2cac5b37cd6e116a4f5794205a27ec35c8da7c",
+      "evidence": [
+        "docs/design/baselines/tietosuoja/phone-light-en-GB.png",
+        "docs/design/reviews/evidence/f9fa51b0/fi-390-light-font16.jpg"
+      ],
+      "taste_relevant": false
+    },
+    {
+      "path": "docs/design/baselines/tietosuoja/phone-light-fi-FI.png",
+      "sha256": "2ebd177b692913416ac524fdde2cac5b37cd6e116a4f5794205a27ec35c8da7c",
+      "evidence": [
+        "docs/design/baselines/tietosuoja/phone-light-fi-FI.png",
+        "docs/design/reviews/evidence/f9fa51b0/fi-390-light-font16.jpg"
+      ],
+      "taste_relevant": false
+    }
+  ],
+  "verdict": "pass"
+}
