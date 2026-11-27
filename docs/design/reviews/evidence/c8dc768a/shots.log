@@ -1,0 +1,24 @@
+fi-390-light {"over":0,"apply":{"top":646,"bottom":698},"href":"https://join.koivupiilo.fi/ratametsuri/q/course-setters","mac":{"top":473,"bottom":496},"beatOver":-24,"fold":844,"H":1548} 
+fi-390-light-xl {"over":0,"apply":{"top":1100,"bottom":1178},"href":"https://join.koivupiilo.fi/ratametsuri/q/course-setters","mac":{"top":702,"bottom":772},"beatOver":-50,"fold":844,"H":2834} 
+fi-390-dark {"over":0,"apply":{"top":646,"bottom":698},"href":"https://join.koivupiilo.fi/ratametsuri/q/course-setters","mac":{"top":473,"bottom":496},"beatOver":-24,"fold":844,"H":1548} 
+fi-390-dark-xl {"over":0,"apply":{"top":1100,"bottom":1178},"href":"https://join.koivupiilo.fi/ratametsuri/q/course-setters","mac":{"top":702,"bottom":772},"beatOver":-50,"fold":844,"H":2834} 
+fi-768-light {"over":0,"apply":{"top":1054,"bottom":1106},"href":"https://join.koivupiilo.fi/ratametsuri/q/course-setters","mac":{"top":864,"bottom":890},"beatOver":-102,"fold":1024,"H":1724} 
+fi-768-dark {"over":0,"apply":{"top":1054,"bottom":1106},"href":"https://join.koivupiilo.fi/ratametsuri/q/course-setters","mac":{"top":864,"bottom":890},"beatOver":-102,"fold":1024,"H":1724} 
+fi-1440-light {"over":0,"apply":{"top":376,"bottom":428},"href":"https://join.koivupiilo.fi/ratametsuri/q/course-setters","mac":{"top":474,"bottom":499},"beatOver":-15,"fold":900,"H":1460} 
+fi-1440-dark {"over":0,"apply":{"top":376,"bottom":428},"href":"https://join.koivupiilo.fi/ratametsuri/q/course-setters","mac":{"top":474,"bottom":499},"beatOver":-15,"fold":900,"H":1460} 
+fi-1920-light {"over":0,"apply":{"top":376,"bottom":428},"href":"https://join.koivupiilo.fi/ratametsuri/q/course-setters","mac":{"top":474,"bottom":499},"beatOver":-15,"fold":1080,"H":1460} 
+fi-1920-dark {"over":0,"apply":{"top":376,"bottom":428},"href":"https://join.koivupiilo.fi/ratametsuri/q/course-setters","mac":{"top":474,"bottom":499},"beatOver":-15,"fold":1080,"H":1460} 
+en-390-light {"over":0,"apply":{"top":646,"bottom":698},"href":"https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en","mac":{"top":473,"bottom":496},"beatOver":-22,"fold":844,"H":1520} 
+en-390-light-xl {"over":0,"apply":{"top":1027,"bottom":1105},"href":"https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en","mac":{"top":663,"bottom":733},"beatOver":-20,"fold":844,"H":2753} 
+en-390-dark {"over":0,"apply":{"top":646,"bottom":698},"href":"https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en","mac":{"top":473,"bottom":496},"beatOver":-22,"fold":844,"H":1520} 
+en-390-dark-xl {"over":0,"apply":{"top":1027,"bottom":1105},"href":"https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en","mac":{"top":663,"bottom":733},"beatOver":-20,"fold":844,"H":2753} 
+en-768-light {"over":0,"apply":{"top":1054,"bottom":1106},"href":"https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en","mac":{"top":864,"bottom":890},"beatOver":-100,"fold":1024,"H":1724} 
+en-768-dark {"over":0,"apply":{"top":1054,"bottom":1106},"href":"https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en","mac":{"top":864,"bottom":890},"beatOver":-100,"fold":1024,"H":1724} 
+en-1440-light {"over":0,"apply":{"top":376,"bottom":428},"href":"https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en","mac":{"top":474,"bottom":499},"beatOver":-100,"fold":900,"H":1460} 
+en-1440-dark {"over":0,"apply":{"top":376,"bottom":428},"href":"https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en","mac":{"top":474,"bottom":499},"beatOver":-100,"fold":900,"H":1460} 
+en-1920-light {"over":0,"apply":{"top":376,"bottom":428},"href":"https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en","mac":{"top":474,"bottom":499},"beatOver":-100,"fold":1080,"H":1460} 
+en-1920-dark {"over":0,"apply":{"top":376,"bottom":428},"href":"https://join.koivupiilo.fi/ratametsuri/q/course-setters?lang=en","mac":{"top":474,"bottom":499},"beatOver":-100,"fold":1080,"H":1460} 
+motion-1440 {"over":0,"apply":{"top":376,"bottom":428},"href":"https://join.koivupiilo.fi/ratametsuri/q/course-setters","mac":{"top":474,"bottom":499},"beatOver":-15,"fold":900,"H":1460} 
+motion-390 {"over":0,"apply":{"top":646,"bottom":698},"href":"https://join.koivupiilo.fi/ratametsuri/q/course-setters","mac":{"top":473,"bottom":496},"beatOver":-24,"fold":844,"H":1548} 
+22 shots in /Users/jarkko/orca/workspaces/koivupiilo.fi/ratametsuri-copy-v2/design/shots/ratametsuri-site
+all checks passed

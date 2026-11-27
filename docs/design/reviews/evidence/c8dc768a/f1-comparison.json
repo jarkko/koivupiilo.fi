@@ -1,0 +1,2466 @@
+[
+  {
+    "lang": "fi",
+    "width": 390,
+    "theme": "light",
+    "xl": false,
+    "before": [
+      {
+        "rect": [
+          62.797,
+          779.891,
+          311.203,
+          54.594
+        ],
+        "lines": [
+          [
+            "Rasti",
+            "menee",
+            "sinne,",
+            "minne"
+          ],
+          [
+            "tarkoitit"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          62.797,
+          1017.078,
+          311.203,
+          54.594
+        ],
+        "lines": [
+          [
+            "Rastin­määritteet",
+            "asettuvat"
+          ],
+          [
+            "kartalle",
+            "itsestään"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          62.797,
+          1203.266,
+          311.203,
+          54.594
+        ],
+        "lines": [
+          [
+            "Radat",
+            "siirtyvät",
+            "MeOSiin"
+          ],
+          [
+            "sellaisinaan"
+          ]
+        ]
+      }
+    ],
+    "after": [
+      {
+        "rect": [
+          62.797,
+          779.891,
+          311.203,
+          54.594
+        ],
+        "lines": [
+          [
+            "Rasti",
+            "menee",
+            "sinne,"
+          ],
+          [
+            "minne",
+            "tarkoitit"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          62.797,
+          1017.078,
+          311.203,
+          54.594
+        ],
+        "lines": [
+          [
+            "Rastin­määritteet",
+            "asettuvat"
+          ],
+          [
+            "kartalle",
+            "itsestään"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          62.797,
+          1203.266,
+          311.203,
+          54.594
+        ],
+        "lines": [
+          [
+            "Radat",
+            "siirtyvät"
+          ],
+          [
+            "MeOSiin",
+            "sellaisinaan"
+          ]
+        ]
+      }
+    ],
+    "overflow": 0,
+    "moved": []
+  },
+  {
+    "lang": "fi",
+    "width": 390,
+    "theme": "light",
+    "xl": true,
+    "before": [
+      {
+        "rect": [
+          68.391,
+          1301.938,
+          303.609,
+          81.875
+        ],
+        "lines": [
+          [
+            "Rasti",
+            "menee",
+            "sinne,"
+          ],
+          [
+            "minne",
+            "tarkoitit"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          68.391,
+          1810.703,
+          303.609,
+          122.813
+        ],
+        "lines": [
+          [
+            "Rastin­määritteet"
+          ],
+          [
+            "asettuvat",
+            "kartalle"
+          ],
+          [
+            "itsestään"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          68.391,
+          2207.406,
+          303.609,
+          81.875
+        ],
+        "lines": [
+          [
+            "Radat",
+            "siirtyvät"
+          ],
+          [
+            "MeOSiin",
+            "sellaisinaan"
+          ]
+        ]
+      }
+    ],
+    "after": [
+      {
+        "rect": [
+          68.391,
+          1301.938,
+          303.609,
+          81.875
+        ],
+        "lines": [
+          [
+            "Rasti",
+            "menee",
+            "sinne,"
+          ],
+          [
+            "minne",
+            "tarkoitit"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          68.391,
+          1810.703,
+          303.609,
+          122.813
+        ],
+        "lines": [
+          [
+            "Rastin­määritteet"
+          ],
+          [
+            "asettuvat"
+          ],
+          [
+            "kartalle",
+            "itsestään"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          68.391,
+          2207.406,
+          303.609,
+          81.875
+        ],
+        "lines": [
+          [
+            "Radat",
+            "siirtyvät"
+          ],
+          [
+            "MeOSiin",
+            "sellaisinaan"
+          ]
+        ]
+      }
+    ],
+    "overflow": 0,
+    "moved": []
+  },
+  {
+    "lang": "fi",
+    "width": 390,
+    "theme": "dark",
+    "xl": false,
+    "before": [
+      {
+        "rect": [
+          62.797,
+          779.891,
+          311.203,
+          54.594
+        ],
+        "lines": [
+          [
+            "Rasti",
+            "menee",
+            "sinne,",
+            "minne"
+          ],
+          [
+            "tarkoitit"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          62.797,
+          1017.078,
+          311.203,
+          54.594
+        ],
+        "lines": [
+          [
+            "Rastin­määritteet",
+            "asettuvat"
+          ],
+          [
+            "kartalle",
+            "itsestään"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          62.797,
+          1203.266,
+          311.203,
+          54.594
+        ],
+        "lines": [
+          [
+            "Radat",
+            "siirtyvät",
+            "MeOSiin"
+          ],
+          [
+            "sellaisinaan"
+          ]
+        ]
+      }
+    ],
+    "after": [
+      {
+        "rect": [
+          62.797,
+          779.891,
+          311.203,
+          54.594
+        ],
+        "lines": [
+          [
+            "Rasti",
+            "menee",
+            "sinne,"
+          ],
+          [
+            "minne",
+            "tarkoitit"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          62.797,
+          1017.078,
+          311.203,
+          54.594
+        ],
+        "lines": [
+          [
+            "Rastin­määritteet",
+            "asettuvat"
+          ],
+          [
+            "kartalle",
+            "itsestään"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          62.797,
+          1203.266,
+          311.203,
+          54.594
+        ],
+        "lines": [
+          [
+            "Radat",
+            "siirtyvät"
+          ],
+          [
+            "MeOSiin",
+            "sellaisinaan"
+          ]
+        ]
+      }
+    ],
+    "overflow": 0,
+    "moved": []
+  },
+  {
+    "lang": "fi",
+    "width": 390,
+    "theme": "dark",
+    "xl": true,
+    "before": [
+      {
+        "rect": [
+          68.391,
+          1301.938,
+          303.609,
+          81.875
+        ],
+        "lines": [
+          [
+            "Rasti",
+            "menee",
+            "sinne,"
+          ],
+          [
+            "minne",
+            "tarkoitit"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          68.391,
+          1810.703,
+          303.609,
+          122.813
+        ],
+        "lines": [
+          [
+            "Rastin­määritteet"
+          ],
+          [
+            "asettuvat",
+            "kartalle"
+          ],
+          [
+            "itsestään"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          68.391,
+          2207.406,
+          303.609,
+          81.875
+        ],
+        "lines": [
+          [
+            "Radat",
+            "siirtyvät"
+          ],
+          [
+            "MeOSiin",
+            "sellaisinaan"
+          ]
+        ]
+      }
+    ],
+    "after": [
+      {
+        "rect": [
+          68.391,
+          1301.938,
+          303.609,
+          81.875
+        ],
+        "lines": [
+          [
+            "Rasti",
+            "menee",
+            "sinne,"
+          ],
+          [
+            "minne",
+            "tarkoitit"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          68.391,
+          1810.703,
+          303.609,
+          122.813
+        ],
+        "lines": [
+          [
+            "Rastin­määritteet"
+          ],
+          [
+            "asettuvat"
+          ],
+          [
+            "kartalle",
+            "itsestään"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          68.391,
+          2207.406,
+          303.609,
+          81.875
+        ],
+        "lines": [
+          [
+            "Radat",
+            "siirtyvät"
+          ],
+          [
+            "MeOSiin",
+            "sellaisinaan"
+          ]
+        ]
+      }
+    ],
+    "overflow": 0,
+    "moved": []
+  },
+  {
+    "lang": "fi",
+    "width": 768,
+    "theme": "light",
+    "xl": false,
+    "before": [
+      {
+        "rect": [
+          77.516,
+          1188.609,
+          659.766,
+          27.297
+        ],
+        "lines": [
+          [
+            "Rasti",
+            "menee",
+            "sinne,",
+            "minne",
+            "tarkoitit"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          77.516,
+          1347.5,
+          659.766,
+          27.297
+        ],
+        "lines": [
+          [
+            "Rastin­määritteet",
+            "asettuvat",
+            "kartalle",
+            "itsestään"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          77.516,
+          1455.391,
+          659.766,
+          27.297
+        ],
+        "lines": [
+          [
+            "Radat",
+            "siirtyvät",
+            "MeOSiin",
+            "sellaisinaan"
+          ]
+        ]
+      }
+    ],
+    "after": [
+      {
+        "rect": [
+          77.516,
+          1188.609,
+          659.766,
+          27.297
+        ],
+        "lines": [
+          [
+            "Rasti",
+            "menee",
+            "sinne,",
+            "minne",
+            "tarkoitit"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          77.516,
+          1347.5,
+          659.766,
+          27.297
+        ],
+        "lines": [
+          [
+            "Rastin­määritteet",
+            "asettuvat",
+            "kartalle",
+            "itsestään"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          77.516,
+          1455.391,
+          659.766,
+          27.297
+        ],
+        "lines": [
+          [
+            "Radat",
+            "siirtyvät",
+            "MeOSiin",
+            "sellaisinaan"
+          ]
+        ]
+      }
+    ],
+    "overflow": 0,
+    "moved": []
+  },
+  {
+    "lang": "fi",
+    "width": 768,
+    "theme": "dark",
+    "xl": false,
+    "before": [
+      {
+        "rect": [
+          77.516,
+          1188.609,
+          659.766,
+          27.297
+        ],
+        "lines": [
+          [
+            "Rasti",
+            "menee",
+            "sinne,",
+            "minne",
+            "tarkoitit"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          77.516,
+          1347.5,
+          659.766,
+          27.297
+        ],
+        "lines": [
+          [
+            "Rastin­määritteet",
+            "asettuvat",
+            "kartalle",
+            "itsestään"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          77.516,
+          1455.391,
+          659.766,
+          27.297
+        ],
+        "lines": [
+          [
+            "Radat",
+            "siirtyvät",
+            "MeOSiin",
+            "sellaisinaan"
+          ]
+        ]
+      }
+    ],
+    "after": [
+      {
+        "rect": [
+          77.516,
+          1188.609,
+          659.766,
+          27.297
+        ],
+        "lines": [
+          [
+            "Rasti",
+            "menee",
+            "sinne,",
+            "minne",
+            "tarkoitit"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          77.516,
+          1347.5,
+          659.766,
+          27.297
+        ],
+        "lines": [
+          [
+            "Rastin­määritteet",
+            "asettuvat",
+            "kartalle",
+            "itsestään"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          77.516,
+          1455.391,
+          659.766,
+          27.297
+        ],
+        "lines": [
+          [
+            "Radat",
+            "siirtyvät",
+            "MeOSiin",
+            "sellaisinaan"
+          ]
+        ]
+      }
+    ],
+    "overflow": 0,
+    "moved": []
+  },
+  {
+    "lang": "fi",
+    "width": 1440,
+    "theme": "light",
+    "xl": false,
+    "before": [
+      {
+        "rect": [
+          161.75,
+          940.594,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Rasti",
+            "menee",
+            "sinne,",
+            "minne",
+            "tarkoitit"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          161.75,
+          1099.484,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Rastin­määritteet",
+            "asettuvat",
+            "kartalle",
+            "itsestään"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          161.75,
+          1207.375,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Radat",
+            "siirtyvät",
+            "MeOSiin",
+            "sellaisinaan"
+          ]
+        ]
+      }
+    ],
+    "after": [
+      {
+        "rect": [
+          161.75,
+          940.594,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Rasti",
+            "menee",
+            "sinne,",
+            "minne",
+            "tarkoitit"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          161.75,
+          1099.484,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Rastin­määritteet",
+            "asettuvat",
+            "kartalle",
+            "itsestään"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          161.75,
+          1207.375,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Radat",
+            "siirtyvät",
+            "MeOSiin",
+            "sellaisinaan"
+          ]
+        ]
+      }
+    ],
+    "overflow": 0,
+    "moved": []
+  },
+  {
+    "lang": "fi",
+    "width": 1440,
+    "theme": "dark",
+    "xl": false,
+    "before": [
+      {
+        "rect": [
+          161.75,
+          940.594,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Rasti",
+            "menee",
+            "sinne,",
+            "minne",
+            "tarkoitit"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          161.75,
+          1099.484,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Rastin­määritteet",
+            "asettuvat",
+            "kartalle",
+            "itsestään"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          161.75,
+          1207.375,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Radat",
+            "siirtyvät",
+            "MeOSiin",
+            "sellaisinaan"
+          ]
+        ]
+      }
+    ],
+    "after": [
+      {
+        "rect": [
+          161.75,
+          940.594,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Rasti",
+            "menee",
+            "sinne,",
+            "minne",
+            "tarkoitit"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          161.75,
+          1099.484,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Rastin­määritteet",
+            "asettuvat",
+            "kartalle",
+            "itsestään"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          161.75,
+          1207.375,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Radat",
+            "siirtyvät",
+            "MeOSiin",
+            "sellaisinaan"
+          ]
+        ]
+      }
+    ],
+    "overflow": 0,
+    "moved": []
+  },
+  {
+    "lang": "fi",
+    "width": 1920,
+    "theme": "light",
+    "xl": false,
+    "before": [
+      {
+        "rect": [
+          401.75,
+          940.594,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Rasti",
+            "menee",
+            "sinne,",
+            "minne",
+            "tarkoitit"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          401.75,
+          1099.484,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Rastin­määritteet",
+            "asettuvat",
+            "kartalle",
+            "itsestään"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          401.75,
+          1207.375,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Radat",
+            "siirtyvät",
+            "MeOSiin",
+            "sellaisinaan"
+          ]
+        ]
+      }
+    ],
+    "after": [
+      {
+        "rect": [
+          401.75,
+          940.594,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Rasti",
+            "menee",
+            "sinne,",
+            "minne",
+            "tarkoitit"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          401.75,
+          1099.484,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Rastin­määritteet",
+            "asettuvat",
+            "kartalle",
+            "itsestään"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          401.75,
+          1207.375,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Radat",
+            "siirtyvät",
+            "MeOSiin",
+            "sellaisinaan"
+          ]
+        ]
+      }
+    ],
+    "overflow": 0,
+    "moved": []
+  },
+  {
+    "lang": "fi",
+    "width": 1920,
+    "theme": "dark",
+    "xl": false,
+    "before": [
+      {
+        "rect": [
+          401.75,
+          940.594,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Rasti",
+            "menee",
+            "sinne,",
+            "minne",
+            "tarkoitit"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          401.75,
+          1099.484,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Rastin­määritteet",
+            "asettuvat",
+            "kartalle",
+            "itsestään"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          401.75,
+          1207.375,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Radat",
+            "siirtyvät",
+            "MeOSiin",
+            "sellaisinaan"
+          ]
+        ]
+      }
+    ],
+    "after": [
+      {
+        "rect": [
+          401.75,
+          940.594,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Rasti",
+            "menee",
+            "sinne,",
+            "minne",
+            "tarkoitit"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          401.75,
+          1099.484,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Rastin­määritteet",
+            "asettuvat",
+            "kartalle",
+            "itsestään"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          401.75,
+          1207.375,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Radat",
+            "siirtyvät",
+            "MeOSiin",
+            "sellaisinaan"
+          ]
+        ]
+      }
+    ],
+    "overflow": 0,
+    "moved": []
+  },
+  {
+    "lang": "en",
+    "width": 390,
+    "theme": "light",
+    "xl": false,
+    "before": [
+      {
+        "rect": [
+          62.797,
+          779.891,
+          311.203,
+          54.594
+        ],
+        "lines": [
+          [
+            "Controls",
+            "go",
+            "where",
+            "you",
+            "meant"
+          ],
+          [
+            "them"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          62.797,
+          1017.078,
+          311.203,
+          54.594
+        ],
+        "lines": [
+          [
+            "Control",
+            "descriptions",
+            "lay"
+          ],
+          [
+            "themselves",
+            "out",
+            "on",
+            "the",
+            "map"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          62.797,
+          1203.266,
+          311.203,
+          27.297
+        ],
+        "lines": [
+          [
+            "Courses",
+            "go",
+            "into",
+            "MeOS",
+            "as",
+            "they",
+            "are"
+          ]
+        ]
+      }
+    ],
+    "after": [
+      {
+        "rect": [
+          62.797,
+          779.891,
+          311.203,
+          54.594
+        ],
+        "lines": [
+          [
+            "Controls",
+            "go",
+            "where"
+          ],
+          [
+            "you",
+            "meant",
+            "them"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          62.797,
+          1017.078,
+          311.203,
+          54.594
+        ],
+        "lines": [
+          [
+            "Control",
+            "descriptions",
+            "lay"
+          ],
+          [
+            "themselves",
+            "out",
+            "on",
+            "the",
+            "map"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          62.797,
+          1203.266,
+          311.203,
+          27.297
+        ],
+        "lines": [
+          [
+            "Courses",
+            "go",
+            "into",
+            "MeOS",
+            "as",
+            "they",
+            "are"
+          ]
+        ]
+      }
+    ],
+    "overflow": 0,
+    "moved": []
+  },
+  {
+    "lang": "en",
+    "width": 390,
+    "theme": "light",
+    "xl": true,
+    "before": [
+      {
+        "rect": [
+          68.391,
+          1259.734,
+          303.609,
+          81.875
+        ],
+        "lines": [
+          [
+            "Controls",
+            "go",
+            "where"
+          ],
+          [
+            "you",
+            "meant",
+            "them"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          68.391,
+          1730.25,
+          303.609,
+          122.813
+        ],
+        "lines": [
+          [
+            "Control",
+            "descriptions"
+          ],
+          [
+            "lay",
+            "themselves",
+            "out",
+            "on"
+          ],
+          [
+            "the",
+            "map"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          68.391,
+          2126.953,
+          303.609,
+          81.875
+        ],
+        "lines": [
+          [
+            "Courses",
+            "go",
+            "into",
+            "MeOS"
+          ],
+          [
+            "as",
+            "they",
+            "are"
+          ]
+        ]
+      }
+    ],
+    "after": [
+      {
+        "rect": [
+          68.391,
+          1259.734,
+          303.609,
+          81.875
+        ],
+        "lines": [
+          [
+            "Controls",
+            "go",
+            "where"
+          ],
+          [
+            "you",
+            "meant",
+            "them"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          68.391,
+          1730.25,
+          303.609,
+          122.813
+        ],
+        "lines": [
+          [
+            "Control",
+            "descriptions"
+          ],
+          [
+            "lay",
+            "themselves"
+          ],
+          [
+            "out",
+            "on",
+            "the",
+            "map"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          68.391,
+          2126.953,
+          303.609,
+          81.875
+        ],
+        "lines": [
+          [
+            "Courses",
+            "go",
+            "into"
+          ],
+          [
+            "MeOS",
+            "as",
+            "they",
+            "are"
+          ]
+        ]
+      }
+    ],
+    "overflow": 0,
+    "moved": []
+  },
+  {
+    "lang": "en",
+    "width": 390,
+    "theme": "dark",
+    "xl": false,
+    "before": [
+      {
+        "rect": [
+          62.797,
+          779.891,
+          311.203,
+          54.594
+        ],
+        "lines": [
+          [
+            "Controls",
+            "go",
+            "where",
+            "you",
+            "meant"
+          ],
+          [
+            "them"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          62.797,
+          1017.078,
+          311.203,
+          54.594
+        ],
+        "lines": [
+          [
+            "Control",
+            "descriptions",
+            "lay"
+          ],
+          [
+            "themselves",
+            "out",
+            "on",
+            "the",
+            "map"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          62.797,
+          1203.266,
+          311.203,
+          27.297
+        ],
+        "lines": [
+          [
+            "Courses",
+            "go",
+            "into",
+            "MeOS",
+            "as",
+            "they",
+            "are"
+          ]
+        ]
+      }
+    ],
+    "after": [
+      {
+        "rect": [
+          62.797,
+          779.891,
+          311.203,
+          54.594
+        ],
+        "lines": [
+          [
+            "Controls",
+            "go",
+            "where"
+          ],
+          [
+            "you",
+            "meant",
+            "them"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          62.797,
+          1017.078,
+          311.203,
+          54.594
+        ],
+        "lines": [
+          [
+            "Control",
+            "descriptions",
+            "lay"
+          ],
+          [
+            "themselves",
+            "out",
+            "on",
+            "the",
+            "map"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          62.797,
+          1203.266,
+          311.203,
+          27.297
+        ],
+        "lines": [
+          [
+            "Courses",
+            "go",
+            "into",
+            "MeOS",
+            "as",
+            "they",
+            "are"
+          ]
+        ]
+      }
+    ],
+    "overflow": 0,
+    "moved": []
+  },
+  {
+    "lang": "en",
+    "width": 390,
+    "theme": "dark",
+    "xl": true,
+    "before": [
+      {
+        "rect": [
+          68.391,
+          1259.734,
+          303.609,
+          81.875
+        ],
+        "lines": [
+          [
+            "Controls",
+            "go",
+            "where"
+          ],
+          [
+            "you",
+            "meant",
+            "them"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          68.391,
+          1730.25,
+          303.609,
+          122.813
+        ],
+        "lines": [
+          [
+            "Control",
+            "descriptions"
+          ],
+          [
+            "lay",
+            "themselves",
+            "out",
+            "on"
+          ],
+          [
+            "the",
+            "map"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          68.391,
+          2126.953,
+          303.609,
+          81.875
+        ],
+        "lines": [
+          [
+            "Courses",
+            "go",
+            "into",
+            "MeOS"
+          ],
+          [
+            "as",
+            "they",
+            "are"
+          ]
+        ]
+      }
+    ],
+    "after": [
+      {
+        "rect": [
+          68.391,
+          1259.734,
+          303.609,
+          81.875
+        ],
+        "lines": [
+          [
+            "Controls",
+            "go",
+            "where"
+          ],
+          [
+            "you",
+            "meant",
+            "them"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          68.391,
+          1730.25,
+          303.609,
+          122.813
+        ],
+        "lines": [
+          [
+            "Control",
+            "descriptions"
+          ],
+          [
+            "lay",
+            "themselves"
+          ],
+          [
+            "out",
+            "on",
+            "the",
+            "map"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          68.391,
+          2126.953,
+          303.609,
+          81.875
+        ],
+        "lines": [
+          [
+            "Courses",
+            "go",
+            "into"
+          ],
+          [
+            "MeOS",
+            "as",
+            "they",
+            "are"
+          ]
+        ]
+      }
+    ],
+    "overflow": 0,
+    "moved": []
+  },
+  {
+    "lang": "en",
+    "width": 768,
+    "theme": "light",
+    "xl": false,
+    "before": [
+      {
+        "rect": [
+          77.516,
+          1188.609,
+          659.766,
+          27.297
+        ],
+        "lines": [
+          [
+            "Controls",
+            "go",
+            "where",
+            "you",
+            "meant",
+            "them"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          77.516,
+          1347.5,
+          659.766,
+          27.297
+        ],
+        "lines": [
+          [
+            "Control",
+            "descriptions",
+            "lay",
+            "themselves",
+            "out",
+            "on",
+            "the",
+            "map"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          77.516,
+          1455.391,
+          659.766,
+          27.297
+        ],
+        "lines": [
+          [
+            "Courses",
+            "go",
+            "into",
+            "MeOS",
+            "as",
+            "they",
+            "are"
+          ]
+        ]
+      }
+    ],
+    "after": [
+      {
+        "rect": [
+          77.516,
+          1188.609,
+          659.766,
+          27.297
+        ],
+        "lines": [
+          [
+            "Controls",
+            "go",
+            "where",
+            "you",
+            "meant",
+            "them"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          77.516,
+          1347.5,
+          659.766,
+          27.297
+        ],
+        "lines": [
+          [
+            "Control",
+            "descriptions",
+            "lay",
+            "themselves",
+            "out",
+            "on",
+            "the",
+            "map"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          77.516,
+          1455.391,
+          659.766,
+          27.297
+        ],
+        "lines": [
+          [
+            "Courses",
+            "go",
+            "into",
+            "MeOS",
+            "as",
+            "they",
+            "are"
+          ]
+        ]
+      }
+    ],
+    "overflow": 0,
+    "moved": []
+  },
+  {
+    "lang": "en",
+    "width": 768,
+    "theme": "dark",
+    "xl": false,
+    "before": [
+      {
+        "rect": [
+          77.516,
+          1188.609,
+          659.766,
+          27.297
+        ],
+        "lines": [
+          [
+            "Controls",
+            "go",
+            "where",
+            "you",
+            "meant",
+            "them"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          77.516,
+          1347.5,
+          659.766,
+          27.297
+        ],
+        "lines": [
+          [
+            "Control",
+            "descriptions",
+            "lay",
+            "themselves",
+            "out",
+            "on",
+            "the",
+            "map"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          77.516,
+          1455.391,
+          659.766,
+          27.297
+        ],
+        "lines": [
+          [
+            "Courses",
+            "go",
+            "into",
+            "MeOS",
+            "as",
+            "they",
+            "are"
+          ]
+        ]
+      }
+    ],
+    "after": [
+      {
+        "rect": [
+          77.516,
+          1188.609,
+          659.766,
+          27.297
+        ],
+        "lines": [
+          [
+            "Controls",
+            "go",
+            "where",
+            "you",
+            "meant",
+            "them"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          77.516,
+          1347.5,
+          659.766,
+          27.297
+        ],
+        "lines": [
+          [
+            "Control",
+            "descriptions",
+            "lay",
+            "themselves",
+            "out",
+            "on",
+            "the",
+            "map"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          77.516,
+          1455.391,
+          659.766,
+          27.297
+        ],
+        "lines": [
+          [
+            "Courses",
+            "go",
+            "into",
+            "MeOS",
+            "as",
+            "they",
+            "are"
+          ]
+        ]
+      }
+    ],
+    "overflow": 0,
+    "moved": []
+  },
+  {
+    "lang": "en",
+    "width": 1440,
+    "theme": "light",
+    "xl": false,
+    "before": [
+      {
+        "rect": [
+          161.75,
+          940.594,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Controls",
+            "go",
+            "where",
+            "you",
+            "meant",
+            "them"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          161.75,
+          1099.484,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Control",
+            "descriptions",
+            "lay",
+            "themselves",
+            "out",
+            "on",
+            "the",
+            "map"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          161.75,
+          1207.375,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Courses",
+            "go",
+            "into",
+            "MeOS",
+            "as",
+            "they",
+            "are"
+          ]
+        ]
+      }
+    ],
+    "after": [
+      {
+        "rect": [
+          161.75,
+          940.594,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Controls",
+            "go",
+            "where",
+            "you",
+            "meant",
+            "them"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          161.75,
+          1099.484,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Control",
+            "descriptions",
+            "lay",
+            "themselves",
+            "out",
+            "on",
+            "the",
+            "map"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          161.75,
+          1207.375,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Courses",
+            "go",
+            "into",
+            "MeOS",
+            "as",
+            "they",
+            "are"
+          ]
+        ]
+      }
+    ],
+    "overflow": 0,
+    "moved": []
+  },
+  {
+    "lang": "en",
+    "width": 1440,
+    "theme": "dark",
+    "xl": false,
+    "before": [
+      {
+        "rect": [
+          161.75,
+          940.594,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Controls",
+            "go",
+            "where",
+            "you",
+            "meant",
+            "them"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          161.75,
+          1099.484,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Control",
+            "descriptions",
+            "lay",
+            "themselves",
+            "out",
+            "on",
+            "the",
+            "map"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          161.75,
+          1207.375,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Courses",
+            "go",
+            "into",
+            "MeOS",
+            "as",
+            "they",
+            "are"
+          ]
+        ]
+      }
+    ],
+    "after": [
+      {
+        "rect": [
+          161.75,
+          940.594,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Controls",
+            "go",
+            "where",
+            "you",
+            "meant",
+            "them"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          161.75,
+          1099.484,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Control",
+            "descriptions",
+            "lay",
+            "themselves",
+            "out",
+            "on",
+            "the",
+            "map"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          161.75,
+          1207.375,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Courses",
+            "go",
+            "into",
+            "MeOS",
+            "as",
+            "they",
+            "are"
+          ]
+        ]
+      }
+    ],
+    "overflow": 0,
+    "moved": []
+  },
+  {
+    "lang": "en",
+    "width": 1920,
+    "theme": "light",
+    "xl": false,
+    "before": [
+      {
+        "rect": [
+          401.75,
+          940.594,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Controls",
+            "go",
+            "where",
+            "you",
+            "meant",
+            "them"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          401.75,
+          1099.484,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Control",
+            "descriptions",
+            "lay",
+            "themselves",
+            "out",
+            "on",
+            "the",
+            "map"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          401.75,
+          1207.375,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Courses",
+            "go",
+            "into",
+            "MeOS",
+            "as",
+            "they",
+            "are"
+          ]
+        ]
+      }
+    ],
+    "after": [
+      {
+        "rect": [
+          401.75,
+          940.594,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Controls",
+            "go",
+            "where",
+            "you",
+            "meant",
+            "them"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          401.75,
+          1099.484,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Control",
+            "descriptions",
+            "lay",
+            "themselves",
+            "out",
+            "on",
+            "the",
+            "map"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          401.75,
+          1207.375,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Courses",
+            "go",
+            "into",
+            "MeOS",
+            "as",
+            "they",
+            "are"
+          ]
+        ]
+      }
+    ],
+    "overflow": 0,
+    "moved": []
+  },
+  {
+    "lang": "en",
+    "width": 1920,
+    "theme": "dark",
+    "xl": false,
+    "before": [
+      {
+        "rect": [
+          401.75,
+          940.594,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Controls",
+            "go",
+            "where",
+            "you",
+            "meant",
+            "them"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          401.75,
+          1099.484,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Control",
+            "descriptions",
+            "lay",
+            "themselves",
+            "out",
+            "on",
+            "the",
+            "map"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          401.75,
+          1207.375,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Courses",
+            "go",
+            "into",
+            "MeOS",
+            "as",
+            "they",
+            "are"
+          ]
+        ]
+      }
+    ],
+    "after": [
+      {
+        "rect": [
+          401.75,
+          940.594,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Controls",
+            "go",
+            "where",
+            "you",
+            "meant",
+            "them"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          401.75,
+          1099.484,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Control",
+            "descriptions",
+            "lay",
+            "themselves",
+            "out",
+            "on",
+            "the",
+            "map"
+          ]
+        ]
+      },
+      {
+        "rect": [
+          401.75,
+          1207.375,
+          640,
+          27.297
+        ],
+        "lines": [
+          [
+            "Courses",
+            "go",
+            "into",
+            "MeOS",
+            "as",
+            "they",
+            "are"
+          ]
+        ]
+      }
+    ],
+    "overflow": 0,
+    "moved": []
+  }
+]

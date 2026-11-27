@@ -1,0 +1,137 @@
+{
+  "kind": "defect",
+  "ui_diff_hash": "cc58cc6c376189b643694712f4e5849944535026fba7ba6beb75e3da98431d44",
+  "head_sha": "23da2524257f7d5441aa00aab68736784bd90d18",
+  "reviewer_run_id": "term_bcfae316-8c0c-4c27-95ae-87676ae28dce",
+  "implementer_family": "claude",
+  "reviewer_family": "gpt",
+  "walked": [
+    "W0",
+    "W3",
+    "W5"
+  ],
+  "regions": [
+    "fi_FI",
+    "en_GB"
+  ],
+  "rubric": [
+    {
+      "id": "house-rules",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/cc58cc6c/phone-matrix.jpg",
+        "docs/design/reviews/evidence/cc58cc6c/desktop-wide-matrix.jpg",
+        "docs/design/reviews/evidence/cc58cc6c/contrast.json"
+      ],
+      "note": "Layout scope: one visually primary beta action; status has an open mark and a word; measured touch links are at least 44 px in each dimension; themes and scaling retain content. Tokens module is off. Copy, claims, policy and vocabulary were explicitly excluded by the dispatch."
+    },
+    {
+      "id": "model",
+      "result": "n/a",
+      "blocking": false,
+      "evidence": [],
+      "note": "Dispatch explicitly limits this independent review to layout and visual defects. No finding or approval is offered about wording, claims, vocabulary, the status-date policy/M1, or model-change decisions; those belong to the lead and the separate copy/model review. W0/W3/W5 are used below only to identify the portions visually walked."
+    },
+    {
+      "id": "heuristics",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/cc58cc6c/phone-matrix.jpg",
+        "docs/design/reviews/evidence/cc58cc6c/language-switch-strips.jpg"
+      ],
+      "note": "The beta action, platform requirements and language switch remain recognisable; reading and Back work. No data-entry, destructive or saved-state UI occurs on this static landing page."
+    },
+    {
+      "id": "interaction-craft",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/cc58cc6c/language-switch-strips.jpg",
+        "docs/design/reviews/evidence/cc58cc6c/extra-checks.json",
+        "docs/design/reviews/evidence/cc58cc6c/shots.log"
+      ],
+      "note": "Language-switch and arrival strips show before, approximately 300 ms and settled frames. Normal and reduced arrival complete with four legs and visible symbols. Keyboard focus is visible; all navigation remains ordinary links. No user-data mutations were exercised."
+    },
+    {
+      "id": "platform",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/cc58cc6c/large-and-native-zoom200.jpg",
+        "docs/design/reviews/evidence/cc58cc6c/extra-checks.json",
+        "docs/design/reviews/evidence/cc58cc6c/axe.json",
+        "docs/design/reviews/evidence/cc58cc6c/contrast.json"
+      ],
+      "note": "Chrome/Chromium visual coverage: 24 real browser-zoom cells (100/110/125/150/175/200 percent), both regions/themes; 320 px reflow and increased text spacing; 24 px browser-default text on phone. No overflow, content loss or undersized touch links. Eight fresh axe cells have zero WCAG A/AA violations and zero incomplete checks. Ink/muted/CTA/focus/course contrast passes in both themes. Safari/iOS, hardware and native text-only zoom are not claimed."
+    },
+    {
+      "id": "owner-rules",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/cc58cc6c/phone-matrix.jpg",
+        "docs/design/reviews/evidence/cc58cc6c/desktop-wide-matrix.jpg"
+      ],
+      "note": "No appearance toggle or visible UUID; page follows the system appearance."
+    },
+    {
+      "id": "web-quality",
+      "result": "n/a",
+      "blocking": false,
+      "evidence": [],
+      "note": "The standard gate was attempted and stopped because the Docker daemon is unavailable. Its --no-docker run has zero errors and 23 warnings, explicitly skipping the repository invariants and a11y runners. Fresh local screenshot geometry, axe and contrast checks are supplied, but this is not a claim that Docker visual/performance/CI gates passed; the lead must use normal CI before merge."
+    },
+    {
+      "id": "plan-conformance",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/cc58cc6c/phone-matrix.jpg",
+        "docs/design/reviews/evidence/cc58cc6c/desktop-wide-matrix.jpg",
+        "docs/design/reviews/evidence/cc58cc6c/shots.log"
+      ],
+      "note": "Visual scope only: the status pill remains legible, the removed date and map caption leave no dangling separator, the two requirements stay grouped, and both language layouts contain the intended regions. At 390x844 CTA bottom is 698 px; at 1440x900 it is 428 px in both languages. No policy or wording approval is implied."
+    },
+    {
+      "id": "approved-design",
+      "result": "fail",
+      "blocking": false,
+      "evidence": [
+        "docs/design/reviews/evidence/cc58cc6c/phone-matrix.jpg",
+        "docs/design/reviews/evidence/cc58cc6c/desktop-wide-matrix.jpg",
+        "docs/design/reviews/evidence/cc58cc6c/tablet-matrix.jpg"
+      ],
+      "note": "The Ratapainatus direction and course metaphor remain intact: triangle points to control 1 and four legs join successive symbols without entering them. Header, CTA and requirements align; the original generous desktop map/request composition remains as on the live reference. F1 is minor typographic polish, not a blocking departure."
+    },
+    {
+      "id": "baseline",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/cc58cc6c/phone-matrix.jpg",
+        "docs/design/reviews/evidence/cc58cc6c/desktop-wide-matrix.jpg",
+        "docs/design/reviews/evidence/cc58cc6c/tablet-matrix.jpg"
+      ],
+      "note": "Manual comparison with the live Ratametsuri page confirms the same composition, image crops and course treatment; the intended copy, status-date/caption removals and second requirement explain changed wraps and heights. No baseline files changed in this diff, and none are approved for replacement. Automated visual regression was not run here."
+    }
+  ],
+  "findings": [
+    {
+      "id": "F1",
+      "severity": "minor",
+      "rubric": "approved-design",
+      "walk": "W0",
+      "message": "At 390 px in both themes, the first feature heading (src/ratametsuri/style.css, .feature:first-child h3) leaves one isolated word on its second line: “tarkoitit” in Finnish and “them” in English. Balance these short headings with text-wrap: balance on .feature h3 (or a scoped equivalent), retaining every word; the last line should contain a meaningful phrase rather than one word.",
+      "evidence": [
+        "docs/design/reviews/evidence/cc58cc6c/phone-matrix.jpg",
+        "docs/design/reviews/evidence/cc58cc6c/language-switch-strips.jpg"
+      ]
+    }
+  ],
+  "no_further_issues_reason": "Inspected all 38 PNGs from the required shooter: FI/EN x 390/768/1440/1920 x light/dark, large phone text, first screens and completed motion. Walked the product page and both language switches in the running Orca browser, followed both maker privacy links and returned; supplied native zoom, 320 px/spacing, axe and contrast evidence. The status pill, second requirement and real soft-hyphen character introduce no overflow, clipping, literal entity or broken symbol/leg alignment. Desktop whitespace and the tablet CTA below the 1024 px viewport are existing composition characteristics, not regressions from this copy change. F1 is the only visual polish defect found; copy and model policy were outside the authorized review scope.",
+  "model_changes": [],
+  "baselines_approved": [],
+  "verdict": "pass"
+}

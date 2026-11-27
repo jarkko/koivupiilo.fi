@@ -5,7 +5,7 @@
   lang = data.lang
   other = lang == "fi" ? "en" : "fi"
   t = site.data.ratametsuri[lang]
-  rm_item = site.data.work.items.find { |i| i.page == "ratametsuri" } or raise "work.yml has no Ratametsuri item (M1 date)"
+  rm_item = site.data.work.items.find { |i| i.page == "ratametsuri" } or raise "work.yml has no Ratametsuri item (status)"
   routes = site.data.routes.ratametsuri
   privacy = site.data.routes.privacy[lang]
   origin = site.config.url
@@ -13,21 +13,19 @@
   locale = { "fi" => "fi_FI", "en" => "en_GB" }
 
   # Line breaking only, never wording: soft hyphens at Finnish compound boundaries (hyphens:auto
-  # splits Finnish wrongly) and no-break spaces inside standard names. "IOF XML 3.0 -tiedostona"
-  # stays on one line through .nb, which lets go only at very large text (style.css), where the
-  # whole name is wider than the column. No-ops when the copy changes.
+  # splits Finnish wrongly) and no-break spaces inside standard names. The soft hyphen goes in as
+  # the character itself (U+00AD), not as the "&shy;" entity, so no reader, feed or text extractor
+  # can ever show it as literal text. No-ops when the copy changes.
+  shy = "\u00AD"
   tidy = ->(s) {
     ERB::Util.html_escape(s)
-      .gsub(/([Rr]atamestari)(sovellu)/, "\\1&shy;\\2")
-      .gsub(/([Rr]astin)(määritte)/, "\\1&shy;\\2")
-      .gsub(/([Rr]asti)(pisteen|välin)/, "\\1&shy;\\2")
-      .gsub(/([Tt]ulos)(palvelu)/, "\\1&shy;\\2")
-      .gsub("sovellusekosysteemi", "sovellus&shy;ekosysteemi")
-      .gsub("suunnistusohjelmisto", "suunnistus&shy;ohjelmisto")
-      .gsub("palveluohjelmisto", "palvelu&shy;ohjelmisto")
-      .gsub(/IOF XML 3\.0 -([[:alpha:]]+)/, %(<span class="nb">IOF XML 3.0 -&#8288;\\1</span>))
-      .gsub("IOF XML 3.0 file", %(<span class="nb">IOF XML 3.0 file</span>))
-      .gsub("MeOS 5.0", "MeOS&nbsp;5.0")
+      .gsub(/([Rr]atamestari)(sovellu)/, "\\1#{shy}\\2")
+      .gsub(/([Rr]astin)(määritte)/, "\\1#{shy}\\2")
+      .gsub(/([Tt]ulos)(palvelu)/, "\\1#{shy}\\2")
+      .gsub("sovellusekosysteemi", "sovellus#{shy}ekosysteemi")
+      .gsub("suunnistusratojen", "suunnistus#{shy}ratojen")
+      .gsub(/IOF XML -([[:alpha:]]+)/, %(<span class="nb">IOF&nbsp;XML -&#8288;\\1</span>))
+      .gsub("IOF XML file", "IOF&nbsp;XML file")
       .gsub("for the Mac", "for&nbsp;the&nbsp;Mac")
   }
 
@@ -43,7 +41,6 @@
   screen_sizes = "(max-width: 61.99rem) calc(92vw - 3rem), min(46rem, calc(52vw - 2rem))"
 
   status_word = site.data.work.statuses[rm_item.status][lang]
-  checked_html = t.checked.sub("%{date}", %(<time datetime="#{rm_item.checked.iso8601}">#{rm_item.checked.strftime(lang == "fi" ? "%-d.%-m.%Y" : "%-d %b %Y")}</time>))
 
   fx = [0.62, 0.38, 0.62, 0.38]
   # The course runs start (0), controls 1..n (the features), finish (n + 1); course.js draws the legs
@@ -93,8 +90,10 @@
 <div class="course" id="course">
   <header class="top">
     <h1 class="mark"><svg class="sym start" data-order="0" style="--fx:.5" viewBox="0 0 32 32" aria-hidden="true"><polygon points="16,4 26.39,22 5.61,22" transform="rotate(180 16 16)"/></svg>Ratametsuri</h1>
-    <%# The status, as a label beside the name (M1): the word and the date from work.yml. %>
-    <p class="state"><span class="pill"><svg class="dot" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="5.5"/></svg><%= status_word %></span> <span class="checked"><%== checked_html %></span></p>
+    <%# The status, as a label beside the name: the word from work.yml. The checked date stays in the
+        work lists (M1), where it tells a reader how fresh each entry is; on the product's own page it
+        meant nothing to a course setter. %>
+    <p class="state"><span class="pill"><svg class="dot" viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="5.5"/></svg><%= status_word %></span></p>
     <a class="lang" href="<%= routes[other] %>" lang="<%= other %>" hreflang="<%= other %>"><%= t.lang_link %></a>
   </header>
   <main id="main" class="main" tabindex="-1">
@@ -113,7 +112,6 @@
           <img src="/ratametsuri/screen.webp" srcset="<%= screen_set %>" sizes="<%= screen_sizes %>" width="1920" height="1520" alt="<%= t.screenshot_alt %>" fetchpriority="low">
         </picture>
       </div></div>
-      <figcaption class="credit"><%= t.map_credit %></figcaption>
     </figure>
 
     <section class="req" aria-labelledby="req-h">

@@ -1,0 +1,16 @@
+{
+  "light": {
+    "ink": 15.192,
+    "muted": 6.68,
+    "course_and_focus": 5.42,
+    "cta": 6.114,
+    "cta_pressed": 7.841
+  },
+  "dark": {
+    "ink": 15.587,
+    "muted": 7.833,
+    "course_and_focus": 7.494,
+    "cta": 7.494,
+    "cta_pressed": 9.738
+  }
+}

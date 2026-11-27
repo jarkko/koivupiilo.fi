@@ -1,0 +1,131 @@
+{
+  "kind": "defect",
+  "ui_diff_hash": "c8dc768a06e0ac5306be9fcdcb1e901724e321d5401ad0ecee26c610c84f017b",
+  "head_sha": "5afc767283eb32f5f1fd35cad880029344b2845f",
+  "reviewer_run_id": "term_bcfae316-8c0c-4c27-95ae-87676ae28dce/task_b09c1aab66f4",
+  "implementer_family": "claude",
+  "reviewer_family": "gpt",
+  "walked": [
+    "W0",
+    "W3",
+    "W5"
+  ],
+  "regions": [
+    "fi_FI",
+    "en_GB"
+  ],
+  "rubric": [
+    {
+      "id": "house-rules",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/c8dc768a/phone-fixed.jpg",
+        "docs/design/reviews/evidence/cc58cc6c/desktop-wide-matrix.jpg",
+        "docs/design/reviews/evidence/cc58cc6c/contrast.json"
+      ],
+      "note": "Layout scope: one visually primary beta action; status has an open mark and a word; measured touch links are at least 44 px in each dimension; themes and scaling retain content. Tokens module is off. Copy, claims, policy and vocabulary were explicitly excluded by the dispatch."
+    },
+    {
+      "id": "model",
+      "result": "n/a",
+      "blocking": false,
+      "evidence": [],
+      "note": "Dispatch explicitly limits this independent review to layout and visual defects. No finding or approval is offered about wording, claims, vocabulary, the status-date policy/M1, or model-change decisions; those belong to the lead and the separate copy/model review. W0/W3/W5 are used below only to identify the portions visually walked."
+    },
+    {
+      "id": "heuristics",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/c8dc768a/phone-fixed.jpg",
+        "docs/design/reviews/evidence/cc58cc6c/language-switch-strips.jpg"
+      ],
+      "note": "The beta action, platform requirements and language switch remain recognisable; reading and Back work. No data-entry, destructive or saved-state UI occurs on this static landing page."
+    },
+    {
+      "id": "interaction-craft",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/cc58cc6c/language-switch-strips.jpg",
+        "docs/design/reviews/evidence/cc58cc6c/extra-checks.json",
+        "docs/design/reviews/evidence/cc58cc6c/shots.log"
+      ],
+      "note": "Language-switch and arrival strips show before, approximately 300 ms and settled frames. Normal and reduced arrival complete with four legs and visible symbols. Keyboard focus is visible; all navigation remains ordinary links. No user-data mutations were exercised. Prior strips are reused for unchanged navigation and arrival behavior; fresh normal-motion shots and matched geometry verify no timing or symbol-placement regression."
+    },
+    {
+      "id": "platform",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/c8dc768a/phone-fixed.jpg",
+        "docs/design/reviews/evidence/c8dc768a/phone-large-fixed.jpg",
+        "docs/design/reviews/evidence/c8dc768a/f1-comparison.json",
+        "docs/design/reviews/evidence/c8dc768a/extra-checks.json",
+        "docs/design/reviews/evidence/cc58cc6c/axe.json",
+        "docs/design/reviews/evidence/cc58cc6c/contrast.json"
+      ],
+      "note": "Fresh required matrix and matched before/after geometry show zero overflow or shifted controls in 20 cells, including large default text. Fresh native browser zoom and reflow/spacing are reported in extra-checks.json. Prior axe and contrast evidence is reused explicitly: the only source delta is text-wrap:balance on feature headings; colors, fonts, links, accessibility structure and geometry remain unchanged. No Safari/iOS or hardware pass is claimed."
+    },
+    {
+      "id": "owner-rules",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/c8dc768a/phone-fixed.jpg",
+        "docs/design/reviews/evidence/cc58cc6c/desktop-wide-matrix.jpg"
+      ],
+      "note": "No appearance toggle or visible UUID; page follows the system appearance."
+    },
+    {
+      "id": "web-quality",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/c8dc768a/gate.log",
+        "docs/design/reviews/evidence/c8dc768a/gate-summary.json",
+        "docs/design/reviews/evidence/c8dc768a/f1-comparison.json"
+      ],
+      "note": "Docker setup recovered without changing kit settings. Fresh node tools/ds/ds.mjs gate completed successfully across all 15 configured routes: zero errors, 42 warnings (19 existing decision Supersedes warnings, no model results, one accepted retrofit, 15 allowed skip-link tap-target warnings, six existing 404 contrast uncertainties). Repository invariants and a11y actually ran. Manual pixel/geometry comparison covers this CSS-only change; visual/performance CI gates were not invoked by this gate and remain normal merge checks."
+    },
+    {
+      "id": "plan-conformance",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/c8dc768a/f1-comparison.json",
+        "docs/design/reviews/evidence/c8dc768a/shots.log"
+      ],
+      "note": "The one-line text-wrap fix resolves F1 without changing wording, heights or other element positions. Original first-screen CTA geometry is retained: bottom 698 px at 390x844 and 428 px at 1440x900 in both languages."
+    },
+    {
+      "id": "approved-design",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/c8dc768a/phone-fixed.jpg",
+        "docs/design/reviews/evidence/c8dc768a/phone-large-fixed.jpg",
+        "docs/design/reviews/evidence/c8dc768a/f1-comparison.json",
+        "docs/design/reviews/evidence/c8dc768a/pixel-comparison.json"
+      ],
+      "note": "F1 FIXED at 5afc767: the first feature heading now ends with a phrase in both languages at 390 px, light/dark. Normal and large text render cleanly. All 20 required cells retain the same heading heights and all other measured element rectangles; only intended text distribution changes. Triangle, controls, legs, CTA and map positions are unchanged."
+    },
+    {
+      "id": "baseline",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/c8dc768a/pixel-comparison.json",
+        "docs/design/reviews/evidence/c8dc768a/f1-comparison.json",
+        "docs/design/reviews/evidence/c8dc768a/phone-fixed.jpg"
+      ],
+      "note": "38 fresh PNGs compared with the previous reviewed build: 24 pixel-identical, 13 with intended heading text redistribution, and one FI 1440 light frame with only small rasterization differences (maximum channel delta 46, 51 pixels above delta 10) in unchanged text/map regions. No box moved or changed dimensions across 20 matched geometry cells; all page image dimensions remain identical. No baseline files changed or approved."
+    }
+  ],
+  "findings": [],
+  "no_further_issues_reason": "F1 is FIXED: at 390 px the first heading ends with “minne tarkoitit” (FI) and “you meant them” (EN), with no solitary final word. Rebuilt and re-shot the full required 38-PNG matrix; compared every image against the previous reviewed render and inspected changed normal/large phone captures plus the one desktop rasterization-only difference. Fresh before/after geometry in all 20 required layout cells shows zero moved or resized elements and zero overflow. Unchanged 24 images and prior contrast, axe, language/footer and motion evidence are carried over explicitly. No new layout defect was found; wording and policy remain outside this layout-only review. The full repository gate also completed with zero errors; all 42 warnings are recorded in gate-summary.json and the handoff.",
+  "model_changes": [],
+  "baselines_approved": [],
+  "verdict": "pass"
+}

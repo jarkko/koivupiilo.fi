@@ -1,37 +1,34 @@
 # Every visible string on /ratametsuri/ (the Finnish Ratametsuri page).
-# The templates read nothing else. Source: docs/design/ratametsuri/copy-deck.md ("Revision
-# 2026-11-23" wins over the earlier tables); the hero line is the owner's (2026-11-24).
+# The templates read nothing else. Written in Finnish first (2026-11-27 copy pass); the tagline
+# and the line under it are Jarkko's own (2026-11-24). Facts: docs/design/ratametsuri/discovery.md.
 # The beta is applied for through launchpad's survey, which holds its own consent wording.
 
 page_title: "Ratametsuri – ratamestarisovellus Macille"
-meta_description: "Ratametsuri on ratamestarin sovellus Macille. Se on kehitteillä, ja sen yksityiseen betaan voi hakea."
+meta_description: "Ratametsuri on sovellus suunnistusratojen suunnitteluun Macilla. Hae mukaan suljettuun betaan."
 skip_link: "Siirry sisältöön"
 lang_link: "In English"
 
 tagline: ["Kotonaan Macissa.", "Kotonaan suunnistuksen sovellusekosysteemissä."]
 line: "Ratametsuri on sovellus suunnistusratojen suunnitteluun Macilla."
-beta_heading: "Yksityinen beta"
-beta_lead: "Ratametsuri avautuu ensin yksityisenä betana. Hae mukaan vastaamalla lyhyeen kyselyyn."
-# The status label beside the wordmark: the status word comes from work.yml (statuses), and so does
-# the date (M1: the one home of the status).
-checked: "tarkistettu %{date}"
+beta_heading: "Suljettu beta"
+beta_lead: "Aluksi mukaan mahtuu 10–20 ratamestaria. Hae paikkaa vastaamalla lyhyeen kyselyyn."
 
 screenshot_alt: "Kaupin kartta Ratametsurissa: rata A lähtökolmiosta rastien 1–11 kautta maaliin ja rastinmääritteet vasemmassa yläkulmassa."
-map_credit: "Kartta: Kauppi, Tampereen Pyrintö"
 
 requirements:
   heading: "Mitä tarvitset"
   items:
     - "Mac, jossa on macOS 14 Sonoma tai uudempi"
+    - "Kartta PDF- tai kuvatiedostona"
 
-features_heading: "Mitä Ratametsuri jo osaa"
+features_heading: "Mitä Ratametsuri osaa jo"
 features:
-  - title: "Näet ennen napsautusta, mitä tapahtuu"
-    text: "Osoittimen vieressä lukee esimerkiksi ”Lisää 31 rastiksi 4” tai ”Lisää rastien 2 ja 3 väliin”. Jos osut rastiin, joka on jo radalla, napsautus valitsee sen eikä lisää sitä toista kertaa."
-  - title: "Radat suoraan tulospalveluun"
-    text: "Radat siirtyvät MeOSiin sellaisinaan."
-  - title: "Rastinmääritteet asettuvat kartalle itse"
-    text: "Jos ne eivät mahdu sivulle yhtenä palstana, viereen tulee toinen. Ne ovat kartalla myös radan PDF:ssä."
+  - title: "Rasti menee sinne, minne tarkoitit"
+    text: "Kun lisäät rasteja, osoittimen vieressä lukee etukäteen, mitä napsautus tekee: esimerkiksi ”Lisää 31 rastiksi 4” tai ”Lisää rastien 2 ja 3 väliin”. Jos osut rastiin, joka on jo radalla, napsautus vain valitsee sen eikä lisää sitä vahingossa toista kertaa."
+  - title: "Rastinmääritteet asettuvat kartalle itsestään"
+    text: "Jos rasteja on paljon, määritteet jatkuvat toiseen palstaan. Jokaisesta radasta saat oman PDF:n, jossa määritteet ovat kartalla."
+  - title: "Radat siirtyvät MeOSiin sellaisinaan"
+    text: "Viet radat IOF XML -tiedostona, ja MeOS lukee ne suoraan. Tulospalvelussa ei tarvitse tehdä mitään toisin."
 
 beta:
   button: "Hae betaan"
