@@ -1,37 +1,34 @@
 # Every visible string on /en/ratametsuri/ (the English Ratametsuri page).
-# The templates read nothing else. Derived from the Finnish (fi.yml, from
-# docs/design/ratametsuri/copy-deck.md): the same claims in an English course setter's words,
-# nothing added. The quoted pointer texts are the app's own English strings
-# (RatametsuriCore CourseInteraction.swift).
+# The templates read nothing else. Derived from the Finnish (fi.yml, 2026-11-27 copy pass): the same
+# claims in an English course setter's words, nothing added. The quoted pointer texts are the app's
+# own English strings (RatametsuriCore CourseInteraction.swift).
 
 page_title: "Ratametsuri – course setting app for the Mac"
-meta_description: "Ratametsuri is a course setting app for the Mac. It's in development, and you can apply for its private beta."
+meta_description: "Ratametsuri is an app for planning orienteering courses on the Mac. Apply for the private beta."
 skip_link: "Skip to content"
 lang_link: "Suomeksi"
 
 tagline: ["At home on the Mac.", "At home in orienteering's software ecosystem."]
 line: "Ratametsuri is an app for planning orienteering courses on the Mac."
 beta_heading: "Private beta"
-beta_lead: "Ratametsuri opens first as a private beta. Apply by answering a short survey."
-# The status label beside the wordmark: the status word and the date come from work.yml (M1).
-checked: "checked %{date}"
+beta_lead: "There's room for 10–20 course setters at first. Apply by answering a short survey."
 
 screenshot_alt: "The Kauppi map in Ratametsuri: course A from the start triangle through controls 1–11 to the finish, with the control descriptions in the top left corner."
-map_credit: "Map: Kauppi, Tampereen Pyrintö"
 
 requirements:
   heading: "What you need"
   items:
     - "A Mac with macOS 14 Sonoma or later"
+    - "A map as a PDF or an image file"
 
 features_heading: "What Ratametsuri can already do"
 features:
-  - title: "See what a click will do before you click"
-    text: "Next to the pointer you read, for example, “Add 31 as 4” or “Insert between 2 and 3”. If you hit a control that's already on the course, the click selects it and doesn't add it again."
-  - title: "Courses straight to your results software"
-    text: "MeOS reads them as they are."
-  - title: "The control descriptions place themselves on the map"
-    text: "If they don't fit the page in one column, a second one goes beside it. They're on the map in the course PDF too."
+  - title: "Controls go where you meant them"
+    text: "While you add controls, the text next to the pointer tells you what a click will do, such as “Add 31 as 4” or “Insert between 2 and 3”. Click a control that's already on the course and it's only selected, never added twice by accident."
+  - title: "Control descriptions lay themselves out on the map"
+    text: "On a course with many controls, the descriptions run on into a second column. Every course gets its own PDF with the descriptions on the map."
+  - title: "Courses go into MeOS as they are"
+    text: "You export the courses as an IOF XML file and MeOS reads them straight in. Nothing changes for whoever runs the results."
 
 beta:
   button: "Apply for the beta"
