@@ -1,0 +1,294 @@
+{
+  "kind": "defect",
+  "ui_diff_hash": "e371a951ce062012ae672b495f23c1d3f8cb17b3bd6cb72a56bb5b72a9a2175d",
+  "head_sha": "71dfb47190662954ae991757b504d4db05c7724e",
+  "reviewer_run_id": "term_36491e30a069afc48247c0ceee866a4c/task_37d06098f5d3",
+  "implementer_family": "claude",
+  "reviewer_family": "gpt",
+  "walked": [
+    "W0",
+    "W3",
+    "W5"
+  ],
+  "regions": [
+    "fi_FI",
+    "en_GB"
+  ],
+  "rubric": [
+    {
+      "id": "house-rules",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/c8dc768a/phone-fixed.jpg",
+        "docs/design/reviews/evidence/cc58cc6c/desktop-wide-matrix.jpg",
+        "docs/design/reviews/evidence/cc58cc6c/contrast.json"
+      ],
+      "note": "Layout scope: one visually primary beta action; status has an open mark and a word; measured touch links are at least 44 px in each dimension; themes and scaling retain content. Tokens module is off. Copy, claims, policy and vocabulary were explicitly excluded by the dispatch."
+    },
+    {
+      "id": "model",
+      "result": "n/a",
+      "blocking": false,
+      "evidence": [],
+      "note": "Dispatch explicitly limits this independent review to layout and visual defects. No finding or approval is offered about wording, claims, vocabulary, the status-date policy/M1, or model-change decisions; those belong to the lead and the separate copy/model review. W0/W3/W5 are used below only to identify the portions visually walked."
+    },
+    {
+      "id": "heuristics",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/c8dc768a/phone-fixed.jpg",
+        "docs/design/reviews/evidence/cc58cc6c/language-switch-strips.jpg"
+      ],
+      "note": "The beta action, platform requirements and language switch remain recognisable; reading and Back work. No data-entry, destructive or saved-state UI occurs on this static landing page."
+    },
+    {
+      "id": "interaction-craft",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/cc58cc6c/language-switch-strips.jpg",
+        "docs/design/reviews/evidence/cc58cc6c/extra-checks.json",
+        "docs/design/reviews/evidence/cc58cc6c/shots.log"
+      ],
+      "note": "Language-switch and arrival strips show before, approximately 300 ms and settled frames. Normal and reduced arrival complete with four legs and visible symbols. Keyboard focus is visible; all navigation remains ordinary links. No user-data mutations were exercised. Prior strips are reused for unchanged navigation and arrival behavior; fresh normal-motion shots and matched geometry verify no timing or symbol-placement regression."
+    },
+    {
+      "id": "platform",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/c8dc768a/phone-fixed.jpg",
+        "docs/design/reviews/evidence/c8dc768a/phone-large-fixed.jpg",
+        "docs/design/reviews/evidence/c8dc768a/f1-comparison.json",
+        "docs/design/reviews/evidence/c8dc768a/extra-checks.json",
+        "docs/design/reviews/evidence/cc58cc6c/axe.json",
+        "docs/design/reviews/evidence/cc58cc6c/contrast.json"
+      ],
+      "note": "Fresh required matrix and matched before/after geometry show zero overflow or shifted controls in 20 cells, including large default text. Fresh native browser zoom and reflow/spacing are reported in extra-checks.json. Prior axe and contrast evidence is reused explicitly: the only source delta is text-wrap:balance on feature headings; colors, fonts, links, accessibility structure and geometry remain unchanged. No Safari/iOS or hardware pass is claimed."
+    },
+    {
+      "id": "owner-rules",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/c8dc768a/phone-fixed.jpg",
+        "docs/design/reviews/evidence/cc58cc6c/desktop-wide-matrix.jpg"
+      ],
+      "note": "No appearance toggle or visible UUID; page follows the system appearance."
+    },
+    {
+      "id": "web-quality",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/e371a951/ci-summary.json",
+        "docs/design/reviews/evidence/e371a951/gate.log",
+        "docs/design/reviews/evidence/c8dc768a/gate-summary.json"
+      ],
+      "note": "Reuse CI run 46070955845 for unchanged source/build inputs: invariants, a11y, perf, model, terms, config and review passed. Its only 16 errors were visual.size-changed for these now-approved Ratametsuri baselines; all actual files match approved bytes. Its 42 warnings are unchanged: 19 decision Supersedes, no model results, one accepted retrofit, 15 allowed skip-link targets and six 404 contrast uncertainties. Fresh gate --base 88bc78d passes with 21 model warnings; rendering checks correctly need no rerun for a baseline-only delta. The future current-head CI visual pass is not claimed by this review."
+    },
+    {
+      "id": "plan-conformance",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/c8dc768a/f1-comparison.json",
+        "docs/design/reviews/evidence/c8dc768a/shots.log",
+        "docs/design/reviews/evidence/e371a951/baseline-manifest.json"
+      ],
+      "note": "The one-line text-wrap fix resolves F1 without changing wording, heights or other element positions. Original first-screen CTA geometry is retained: bottom 698 px at 390x844 and 428 px at 1440x900 in both languages. This follow-up changes only 16 image baselines; no page, font, asset, build or kit source changed."
+    },
+    {
+      "id": "approved-design",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/c8dc768a/phone-fixed.jpg",
+        "docs/design/reviews/evidence/c8dc768a/phone-large-fixed.jpg",
+        "docs/design/reviews/evidence/c8dc768a/f1-comparison.json",
+        "docs/design/reviews/evidence/c8dc768a/pixel-comparison.json",
+        "docs/design/baselines/ratametsuri/phone-light-fi-FI.png",
+        "docs/design/baselines/en/ratametsuri/phone-dark-en-GB.png"
+      ],
+      "note": "F1 FIXED at 5afc767: the first feature heading now ends with a phrase in both languages at 390 px, light/dark. Normal and large text render cleanly. All 20 required cells retain the same heading heights and all other measured element rectangles; only intended text distribution changes. Triangle, controls, legs, CTA and map positions are unchanged. Baseline-only follow-up at 71dfb47 confirms these exact balanced headings and the same course, map, CTA, requirements and footer composition in all 16 CI baseline images."
+    },
+    {
+      "id": "baseline",
+      "result": "pass",
+      "blocking": true,
+      "evidence": [
+        "docs/design/reviews/evidence/e371a951/baseline-manifest.json",
+        "docs/design/reviews/evidence/e371a951/ci-summary.json",
+        "docs/design/baselines/ratametsuri/desktop-dark-en-GB.png",
+        "docs/design/baselines/ratametsuri/desktop-dark-fi-FI.png",
+        "docs/design/baselines/ratametsuri/desktop-light-en-GB.png",
+        "docs/design/baselines/ratametsuri/desktop-light-fi-FI.png",
+        "docs/design/baselines/ratametsuri/phone-dark-en-GB.png",
+        "docs/design/baselines/ratametsuri/phone-dark-fi-FI.png",
+        "docs/design/baselines/ratametsuri/phone-light-en-GB.png",
+        "docs/design/baselines/ratametsuri/phone-light-fi-FI.png",
+        "docs/design/baselines/en/ratametsuri/desktop-dark-en-GB.png",
+        "docs/design/baselines/en/ratametsuri/desktop-dark-fi-FI.png",
+        "docs/design/baselines/en/ratametsuri/desktop-light-en-GB.png",
+        "docs/design/baselines/en/ratametsuri/desktop-light-fi-FI.png",
+        "docs/design/baselines/en/ratametsuri/phone-dark-en-GB.png",
+        "docs/design/baselines/en/ratametsuri/phone-dark-fi-FI.png",
+        "docs/design/baselines/en/ratametsuri/phone-light-en-GB.png",
+        "docs/design/baselines/en/ratametsuri/phone-light-fi-FI.png"
+      ],
+      "note": "All 16 modified baselines were visually inspected: both product routes, 390/1440, light/dark, fi-FI/en-GB browser locales. Each is byte-identical to the corresponding actual PNG in CI run 46070955845 at 88bc78d. Source/build/kit inputs are unchanged since the passing c8dc768a review; HEAD changes only these 16 baselines from 88bc78d. The intended copy heights match the reviewed renders (FI phone 1548, EN phone 1520, all desktop 1460), F1 remains fixed, and every baseline is approved individually by SHA-256. Size changes produced expected/actual screenshots without a diff image, so none is claimed."
+    }
+  ],
+  "findings": [],
+  "no_further_issues_reason": "Baseline-only follow-up to the passing c8dc768a review: inspected every one of the 16 CI PNGs across FI/EN product routes, phone/desktop, both themes and both browser locales. They show the page already reviewed, including the fixed first-feature heading wraps, two requirements, status pill, removed date/caption, intact map crop, correctly directed triangle, four legs, CTA and footer. All baseline bytes match run 46070955845 actual renders and page heights match prior reviewed screenshots; no unexplained difference or new defect was found. Git proves no rendering-input changes since 5afc767 and only these 16 baseline changes since the CI head 88bc78d. Prior W0/W3/W5, large text, native zoom, reflow, focus, contrast and motion evidence is carried over by reference because the running page is unchanged; wording and model policy remain outside the layout review.",
+  "model_changes": [],
+  "baselines_approved": [
+    {
+      "path": "docs/design/baselines/ratametsuri/desktop-dark-en-GB.png",
+      "sha256": "52aa7dd101b524f55efa5f3c10e4d99c273a4a6eef825a87c523050f2cc5b4fc",
+      "evidence": [
+        "docs/design/baselines/ratametsuri/desktop-dark-en-GB.png",
+        "docs/design/reviews/evidence/e371a951/baseline-manifest.json"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/desktop-dark-fi-FI.png",
+      "sha256": "b59a6f70e77dd194607fe58afec4215ec7d56ed5a0ac461ac06139d40c8d4eb0",
+      "evidence": [
+        "docs/design/baselines/ratametsuri/desktop-dark-fi-FI.png",
+        "docs/design/reviews/evidence/e371a951/baseline-manifest.json"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/desktop-light-en-GB.png",
+      "sha256": "edd2e564ba3d3fa9405d6074dbe61919d0f34a4d161c777cb256fd5bd4e47ef0",
+      "evidence": [
+        "docs/design/baselines/ratametsuri/desktop-light-en-GB.png",
+        "docs/design/reviews/evidence/e371a951/baseline-manifest.json"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/desktop-light-fi-FI.png",
+      "sha256": "edd2e564ba3d3fa9405d6074dbe61919d0f34a4d161c777cb256fd5bd4e47ef0",
+      "evidence": [
+        "docs/design/baselines/ratametsuri/desktop-light-fi-FI.png",
+        "docs/design/reviews/evidence/e371a951/baseline-manifest.json"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/phone-dark-en-GB.png",
+      "sha256": "fe6ebe187f22a8d10bdc7051d32533dabd6eb361fad352076f1cccee4bd74760",
+      "evidence": [
+        "docs/design/baselines/ratametsuri/phone-dark-en-GB.png",
+        "docs/design/reviews/evidence/e371a951/baseline-manifest.json"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/phone-dark-fi-FI.png",
+      "sha256": "fe6ebe187f22a8d10bdc7051d32533dabd6eb361fad352076f1cccee4bd74760",
+      "evidence": [
+        "docs/design/baselines/ratametsuri/phone-dark-fi-FI.png",
+        "docs/design/reviews/evidence/e371a951/baseline-manifest.json"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/phone-light-en-GB.png",
+      "sha256": "420ed3e6f144f53ea0a662b100f6c6320b4864bfbb08640d18da7bcc84a66804",
+      "evidence": [
+        "docs/design/baselines/ratametsuri/phone-light-en-GB.png",
+        "docs/design/reviews/evidence/e371a951/baseline-manifest.json"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/phone-light-fi-FI.png",
+      "sha256": "82991d28ce5f581235381dada800f433c54c44ab347cdb5862483172bba51191",
+      "evidence": [
+        "docs/design/baselines/ratametsuri/phone-light-fi-FI.png",
+        "docs/design/reviews/evidence/e371a951/baseline-manifest.json"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/desktop-dark-en-GB.png",
+      "sha256": "319e23e71df89b323c2e42c6729d3d25009a1b98e01814e2ba9d797fc030038c",
+      "evidence": [
+        "docs/design/baselines/en/ratametsuri/desktop-dark-en-GB.png",
+        "docs/design/reviews/evidence/e371a951/baseline-manifest.json"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/desktop-dark-fi-FI.png",
+      "sha256": "319e23e71df89b323c2e42c6729d3d25009a1b98e01814e2ba9d797fc030038c",
+      "evidence": [
+        "docs/design/baselines/en/ratametsuri/desktop-dark-fi-FI.png",
+        "docs/design/reviews/evidence/e371a951/baseline-manifest.json"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/desktop-light-en-GB.png",
+      "sha256": "720d4d523c432a39236b661661ca6ee0b03dc64af61718aa108668cc2089feaa",
+      "evidence": [
+        "docs/design/baselines/en/ratametsuri/desktop-light-en-GB.png",
+        "docs/design/reviews/evidence/e371a951/baseline-manifest.json"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/desktop-light-fi-FI.png",
+      "sha256": "bbcee828812bd54a64627521449036bfa277a97ca0d3a415cafa965b689919b9",
+      "evidence": [
+        "docs/design/baselines/en/ratametsuri/desktop-light-fi-FI.png",
+        "docs/design/reviews/evidence/e371a951/baseline-manifest.json"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/phone-dark-en-GB.png",
+      "sha256": "0df5da98a6d7b32bb5ede4a60b87c0346cba524ae560ed41e505b83b1935eab3",
+      "evidence": [
+        "docs/design/baselines/en/ratametsuri/phone-dark-en-GB.png",
+        "docs/design/reviews/evidence/e371a951/baseline-manifest.json"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/phone-dark-fi-FI.png",
+      "sha256": "4b0c64e4f8f90b836d4f6d33e20d93af7b59ea0dcc4cccd906bdc6dc68343919",
+      "evidence": [
+        "docs/design/baselines/en/ratametsuri/phone-dark-fi-FI.png",
+        "docs/design/reviews/evidence/e371a951/baseline-manifest.json"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/phone-light-en-GB.png",
+      "sha256": "cd03f00be64005e04ff66d7364b4c0fa8cb6279cd5e6b8aa3635317e6b559cd1",
+      "evidence": [
+        "docs/design/baselines/en/ratametsuri/phone-light-en-GB.png",
+        "docs/design/reviews/evidence/e371a951/baseline-manifest.json"
+      ],
+      "taste_relevant": true
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/phone-light-fi-FI.png",
+      "sha256": "cd03f00be64005e04ff66d7364b4c0fa8cb6279cd5e6b8aa3635317e6b559cd1",
+      "evidence": [
+        "docs/design/baselines/en/ratametsuri/phone-light-fi-FI.png",
+        "docs/design/reviews/evidence/e371a951/baseline-manifest.json"
+      ],
+      "taste_relevant": true
+    }
+  ],
+  "verdict": "pass"
+}

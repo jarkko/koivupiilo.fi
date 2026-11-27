@@ -1,0 +1,30 @@
+ds: lint is off (Needs tokens; enable design lint with the chosen production token source.), skipping
+ds: imagery is off (No photos or video ship from src/; design/assets/photos/PROVENANCE.md records unapproved spike photos. Enable imagery with canonical provenance and confirmed cameras before publishing them.), skipping
+ds: tokens is off (No chosen production token source yet; the directions use CSS custom properties. Enable DTCG tokens when the owner chooses the direction (process.md phases 3-5).), skipping
+ds: web checks on 0 of 15 routes: no changed file matches [web].render_globs
+config: ok
+terms: ok
+docs/design/model.md:102: warn model.decision-no-supersedes: D1 has no "Supersedes:" field. Name what it overturns, or write "Supersedes: none."
+docs/design/model.md:108: warn model.decision-no-supersedes: D2 has no "Supersedes:" field. Name what it overturns, or write "Supersedes: none."
+docs/design/model.md:111: warn model.decision-no-supersedes: D3 has no "Supersedes:" field. Name what it overturns, or write "Supersedes: none."
+docs/design/model.md:114: warn model.decision-no-supersedes: D4 has no "Supersedes:" field. Name what it overturns, or write "Supersedes: none."
+docs/design/model.md:117: warn model.decision-no-supersedes: D5 has no "Supersedes:" field. Name what it overturns, or write "Supersedes: none."
+docs/design/model.md:119: warn model.decision-no-supersedes: D6 has no "Supersedes:" field. Name what it overturns, or write "Supersedes: none."
+docs/design/model.md:122: warn model.decision-no-supersedes: D7 has no "Supersedes:" field. Name what it overturns, or write "Supersedes: none."
+docs/design/model.md:126: warn model.decision-no-supersedes: D8 has no "Supersedes:" field. Name what it overturns, or write "Supersedes: none."
+docs/design/model.md:129: warn model.decision-no-supersedes: D9 has no "Supersedes:" field. Name what it overturns, or write "Supersedes: none."
+docs/design/model.md:132: warn model.decision-no-supersedes: D10 has no "Supersedes:" field. Name what it overturns, or write "Supersedes: none."
+docs/design/model.md:134: warn model.decision-no-supersedes: D11 has no "Supersedes:" field. Name what it overturns, or write "Supersedes: none."
+docs/design/model.md:136: warn model.decision-no-supersedes: D12 has no "Supersedes:" field. Name what it overturns, or write "Supersedes: none."
+docs/design/model.md:137: warn model.decision-no-supersedes: D13 has no "Supersedes:" field. Name what it overturns, or write "Supersedes: none."
+docs/design/model.md:140: warn model.decision-no-supersedes: D14 has no "Supersedes:" field. Name what it overturns, or write "Supersedes: none."
+docs/design/model.md:144: warn model.decision-no-supersedes: D15 has no "Supersedes:" field. Name what it overturns, or write "Supersedes: none."
+docs/design/model.md:147: warn model.decision-no-supersedes: D16 has no "Supersedes:" field. Name what it overturns, or write "Supersedes: none."
+docs/design/model.md:149: warn model.decision-no-supersedes: D17 has no "Supersedes:" field. Name what it overturns, or write "Supersedes: none."
+docs/design/model.md:151: warn model.decision-no-supersedes: D18 has no "Supersedes:" field. Name what it overturns, or write "Supersedes: none."
+docs/design/model.md:154: warn model.decision-no-supersedes: D19 has no "Supersedes:" field. Name what it overturns, or write "Supersedes: none."
+model: warn model.no-results: No test results to check. Set results = ["<glob>"] under [model] in docs/design/kit.toml, or pass --results <glob>.
+docs/design/retrofit.tsv: warn retrofit.baselined: 9 model findings are on the retrofit list and don't block. Fix them and delete their rows.
+model: 0 errors, 21 warnings
+invariants: ok
+a11y: ok

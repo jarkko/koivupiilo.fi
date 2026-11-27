@@ -1,0 +1,152 @@
+{
+  "ci_run": 46070955845,
+  "ci_head": "88bc78d3b3d0053261a65ca30114d960f2e10b51",
+  "reviewed_head": "71dfb47190662954ae991757b504d4db05c7724e",
+  "render_inputs_unchanged_since": "5afc767283eb32f5f1fd35cad880029344b2845f",
+  "baselines": [
+    {
+      "path": "docs/design/baselines/ratametsuri/desktop-dark-en-GB.png",
+      "sha256": "52aa7dd101b524f55efa5f3c10e4d99c273a4a6eef825a87c523050f2cc5b4fc",
+      "dimensions": [
+        1440,
+        1460
+      ],
+      "matches_ci_actual": true
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/desktop-dark-fi-FI.png",
+      "sha256": "b59a6f70e77dd194607fe58afec4215ec7d56ed5a0ac461ac06139d40c8d4eb0",
+      "dimensions": [
+        1440,
+        1460
+      ],
+      "matches_ci_actual": true
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/desktop-light-en-GB.png",
+      "sha256": "edd2e564ba3d3fa9405d6074dbe61919d0f34a4d161c777cb256fd5bd4e47ef0",
+      "dimensions": [
+        1440,
+        1460
+      ],
+      "matches_ci_actual": true
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/desktop-light-fi-FI.png",
+      "sha256": "edd2e564ba3d3fa9405d6074dbe61919d0f34a4d161c777cb256fd5bd4e47ef0",
+      "dimensions": [
+        1440,
+        1460
+      ],
+      "matches_ci_actual": true
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/phone-dark-en-GB.png",
+      "sha256": "fe6ebe187f22a8d10bdc7051d32533dabd6eb361fad352076f1cccee4bd74760",
+      "dimensions": [
+        390,
+        1548
+      ],
+      "matches_ci_actual": true
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/phone-dark-fi-FI.png",
+      "sha256": "fe6ebe187f22a8d10bdc7051d32533dabd6eb361fad352076f1cccee4bd74760",
+      "dimensions": [
+        390,
+        1548
+      ],
+      "matches_ci_actual": true
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/phone-light-en-GB.png",
+      "sha256": "420ed3e6f144f53ea0a662b100f6c6320b4864bfbb08640d18da7bcc84a66804",
+      "dimensions": [
+        390,
+        1548
+      ],
+      "matches_ci_actual": true
+    },
+    {
+      "path": "docs/design/baselines/ratametsuri/phone-light-fi-FI.png",
+      "sha256": "82991d28ce5f581235381dada800f433c54c44ab347cdb5862483172bba51191",
+      "dimensions": [
+        390,
+        1548
+      ],
+      "matches_ci_actual": true
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/desktop-dark-en-GB.png",
+      "sha256": "319e23e71df89b323c2e42c6729d3d25009a1b98e01814e2ba9d797fc030038c",
+      "dimensions": [
+        1440,
+        1460
+      ],
+      "matches_ci_actual": true
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/desktop-dark-fi-FI.png",
+      "sha256": "319e23e71df89b323c2e42c6729d3d25009a1b98e01814e2ba9d797fc030038c",
+      "dimensions": [
+        1440,
+        1460
+      ],
+      "matches_ci_actual": true
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/desktop-light-en-GB.png",
+      "sha256": "720d4d523c432a39236b661661ca6ee0b03dc64af61718aa108668cc2089feaa",
+      "dimensions": [
+        1440,
+        1460
+      ],
+      "matches_ci_actual": true
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/desktop-light-fi-FI.png",
+      "sha256": "bbcee828812bd54a64627521449036bfa277a97ca0d3a415cafa965b689919b9",
+      "dimensions": [
+        1440,
+        1460
+      ],
+      "matches_ci_actual": true
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/phone-dark-en-GB.png",
+      "sha256": "0df5da98a6d7b32bb5ede4a60b87c0346cba524ae560ed41e505b83b1935eab3",
+      "dimensions": [
+        390,
+        1520
+      ],
+      "matches_ci_actual": true
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/phone-dark-fi-FI.png",
+      "sha256": "4b0c64e4f8f90b836d4f6d33e20d93af7b59ea0dcc4cccd906bdc6dc68343919",
+      "dimensions": [
+        390,
+        1520
+      ],
+      "matches_ci_actual": true
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/phone-light-en-GB.png",
+      "sha256": "cd03f00be64005e04ff66d7364b4c0fa8cb6279cd5e6b8aa3635317e6b559cd1",
+      "dimensions": [
+        390,
+        1520
+      ],
+      "matches_ci_actual": true
+    },
+    {
+      "path": "docs/design/baselines/en/ratametsuri/phone-light-fi-FI.png",
+      "sha256": "cd03f00be64005e04ff66d7364b4c0fa8cb6279cd5e6b8aa3635317e6b559cd1",
+      "dimensions": [
+        390,
+        1520
+      ],
+      "matches_ci_actual": true
+    }
+  ]
+}
